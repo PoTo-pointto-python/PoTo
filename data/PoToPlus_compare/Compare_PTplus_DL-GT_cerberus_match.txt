@@ -1,0 +1,462 @@
+0: ('/cerberus/errors.py', 'module_initializer', 'CUSTOM') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+1: ('/cerberus/errors.py', 'module_initializer', 'REQUIRED_FIELD') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+2: ('/cerberus/errors.py', 'module_initializer', 'UNKNOWN_FIELD') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+3: ('/cerberus/errors.py', 'module_initializer', 'DEPENDENCIES_FIELD') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+4: ('/cerberus/errors.py', 'module_initializer', 'DEPENDENCIES_FIELD_VALUE') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+5: ('/cerberus/errors.py', 'module_initializer', 'EXCLUDES_FIELD') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+6: ('/cerberus/errors.py', 'module_initializer', 'EMPTY') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+7: ('/cerberus/errors.py', 'module_initializer', 'NULLABLE') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+8: ('/cerberus/errors.py', 'module_initializer', 'TYPE') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+9: ('/cerberus/errors.py', 'module_initializer', 'ITEMS_LENGTH') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+10: ('/cerberus/errors.py', 'module_initializer', 'MIN_LENGTH') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+11: ('/cerberus/errors.py', 'module_initializer', 'MAX_LENGTH') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+12: ('/cerberus/errors.py', 'module_initializer', 'REGEX_MISMATCH') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+13: ('/cerberus/errors.py', 'module_initializer', 'MIN_VALUE') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+14: ('/cerberus/errors.py', 'module_initializer', 'MAX_VALUE') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+15: ('/cerberus/errors.py', 'module_initializer', 'UNALLOWED_VALUE') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+16: ('/cerberus/errors.py', 'module_initializer', 'UNALLOWED_VALUES') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+17: ('/cerberus/errors.py', 'module_initializer', 'FORBIDDEN_VALUE') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+18: ('/cerberus/errors.py', 'module_initializer', 'FORBIDDEN_VALUES') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+19: ('/cerberus/errors.py', 'module_initializer', 'MISSING_MEMBERS') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+20: ('/cerberus/errors.py', 'module_initializer', 'NORMALIZATION') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+21: ('/cerberus/errors.py', 'module_initializer', 'COERCION_FAILED') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+22: ('/cerberus/errors.py', 'module_initializer', 'RENAMING_FAILED') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+23: ('/cerberus/errors.py', 'module_initializer', 'READONLY_FIELD') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+24: ('/cerberus/errors.py', 'module_initializer', 'SETTING_DEFAULT_FAILED') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+25: ('/cerberus/errors.py', 'module_initializer', 'ERROR_GROUP') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+26: ('/cerberus/errors.py', 'module_initializer', 'SCHEMA') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+27: ('/cerberus/errors.py', 'module_initializer', 'ITEMSRULES') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+28: ('/cerberus/errors.py', 'module_initializer', 'KEYSRULES') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+29: ('/cerberus/errors.py', 'module_initializer', 'VALUESRULES') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+30: ('/cerberus/errors.py', 'module_initializer', 'ITEMS') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+31: ('/cerberus/errors.py', 'module_initializer', 'LOGICAL') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+32: ('/cerberus/errors.py', 'module_initializer', 'NONEOF') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+33: ('/cerberus/errors.py', 'module_initializer', 'ONEOF') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+34: ('/cerberus/errors.py', 'module_initializer', 'ANYOF') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+35: ('/cerberus/errors.py', 'module_initializer', 'ALLOF') 0 (Match)
+  PT: ['ErrorDefinition']
+  DL: ['ErrorDefinition']
+36: ('/cerberus/errors.py', 'ErrorDefinition_class_initializer', '__slots__') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+37: ('/cerberus/errors.py', 'ErrorTreeNode_class_initializer', '__slots__') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+38: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'parent') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+39: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'path') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+40: ('/cerberus/errors.py', 'BasicErrorHandler_class_initializer', 'messages') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+41: ('/cerberus/base.py', 'module_initializer', 'toy_error_handler') 0 (Match)
+  PT: ['ToyErrorHandler']
+  DL: ['ToyErrorHandler']
+42: ('/cerberus/base.py', 'module_initializer', '_normalized_rulesset_cache') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+43: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'mandatory_validations') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+44: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'priority_validations') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+45: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'types_mapping') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+46: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_valid_schemas') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+47: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'checkers') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+48: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'coercers') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+49: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'default_setters') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+50: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'normalization_rules') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+51: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'rules') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+52: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'validation_rules') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+53: ('/cerberus/schema.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+54: ('/cerberus/typing.py', 'module_initializer', 'FieldName') 0 (Match)
+  PT: ['typing.Hashable']
+  DL: ['typing.Hashable']
+55: ('/cerberus/typing.py', 'module_initializer', 'Document') 0 (Match)
+  PT: ['typing.Mapping[typing.Hashable, typing.Any]']
+  DL: ['dict']
+56: ('/cerberus/typing.py', 'module_initializer', 'RulesSet') 0 (Match)
+  PT: ['typing.Mapping[str, typing.Any]']
+  DL: ['dict']
+57: ('/cerberus/typing.py', 'module_initializer', 'SchemaDict') 0 (Match)
+  PT: ['typing.Mapping[typing.Hashable, typing.Mapping[str, typing.Any]]']
+  DL: ['dict']
+58: ('/cerberus/typing.py', 'module_initializer', 'RegistryItem') 1 (Manual match)
+  PT: ['~RegistryItem', '~msg']
+  DL: ['typing.TypeVar']
+59: ('/cerberus/typing.py', 'module_initializer', 'RegistryItems') 0 (Match)
+  PT: ['typing.Mapping[str, ~RegistryItem]']
+  DL: ['dict']
+60: ('/cerberus/typing.py', 'module_initializer', 'TypesMapping') 0 (Match)
+  PT: ["typing.Dict[str, ForwardRef('TypeDefinition')]"]
+  DL: ['dict']
+61: ('/cerberus/errors.py', '__init__', 'path') 0 (Match)
+  PT: ['DocumentPath']
+  DL: ['cerberus.typing.DocumentPath']
+62: ('/cerberus/errors.py', '__init__', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+63: ('/cerberus/base.py', 'dummy_for_rule_validation', 'rule_constraints') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+64: ('/docs/conf.py', 'module_initializer', 'extensions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+65: ('/docs/conf.py', 'module_initializer', 'templates_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+66: ('/docs/conf.py', 'module_initializer', 'exclude_patterns') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+67: ('/docs/conf.py', 'module_initializer', 'html_theme_options') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+68: ('/docs/conf.py', 'module_initializer', 'html_theme_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+69: ('/docs/conf.py', 'module_initializer', 'html_static_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+70: ('/docs/conf.py', 'module_initializer', 'html_sidebars') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+71: ('/docs/conf.py', 'module_initializer', 'latex_elements') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+72: ('/docs/conf.py', 'module_initializer', 'latex_documents') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+73: ('/docs/conf.py', 'module_initializer', 'man_pages') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+74: ('/docs/conf.py', 'module_initializer', 'texinfo_documents') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+75: ('/docs/conf.py', 'module_initializer', 'intersphinx_mapping') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+76: ('/docs/conf.py', 'module_initializer', 'linkcheck_ignore') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+77: ('/docs/conf.py', 'module_initializer', 'linkcheck_anchors') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+78: ('/docs/conf.py', 'module_initializer', 'extlinks') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+79: ('/docs/includes/generate.py', 'module_initializer', 'error_definitions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+80: ('/docs/includes/generate.py', 'module_initializer', 'error_definition') 1 (Manual match)
+  PT: ['namespace()']
+  DL: ['types.SimpleNamespace']
+81: ('/cerberus/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+82: ('/cerberus/platform.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+83: ('/cerberus/benchmarks/test_overall_performance.py', 'module_initializer', 'schema_1') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+84: ('/cerberus/base.py', 'normalize_rulesset', 'rules_with_whitespace') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+85: ('/cerberus/base.py', '_expand_generic_type_aliases', 'compound_types') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+86: ('/cerberus/base.py', '_expand_generic_type_aliases', 'plain_types') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+87: ('/cerberus/base.py', '_expand_generic_type_aliases', 'is_nullable') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+88: ('/cerberus/base.py', '_expand_composed_of_rules', 'composed_rules') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+89: ('/cerberus/utils.py', 'mapping_to_frozenset', 'schema_copy') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+90: ('/cerberus/base.py', 'add', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+91: ('/cerberus/base.py', 'add', 'definition') 0 (Match)
+  PT: ['RegistryItem']
+  DL: ['cerberus.typing.RegistryItem']
+92: ('/cerberus/schema.py', 'validate', '_hash') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+93: ('/cerberus/schema.py', '_validate', 'resolved') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+94: ('/cerberus/errors.py', '_insert_error', 'subtree') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+95: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'child_start') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+96: ('/cerberus/errors.py', '_rewrite_group_error_path', 'child_start') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+97: ('/cerberus/utils.py', 'compare_paths_lt', 'x') 1 (Manual match)
+  PT: ['tuple']
+  DL: ['(None,None,None,None,None)']
+98: ('/cerberus/errors.py', '_purge_empty_dicts', 'subtree') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+99: ('/cerberus/schema.py', 'update', 'new_schema') 1 (Manual match)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)"]
+  DL: ['collections.ChainMap']
+100: ('/cerberus/base.py', 'normalized', 'always_return_document') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+101: ('/cerberus/base.py', '__init_processing', 'document') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+102: ('/cerberus/base.py', '__normalize_default_fields', 'empty_fields') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+103: ('/cerberus/base.py', '__normalize_default_fields', 'known_fields_states') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+104: ('/cerberus/base.py', '__normalize_default_fields', 'fields_with_default_setter') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+105: ('/cerberus/base.py', '__normalize_containers', 'rules') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+106: ('/cerberus/base.py', '_validate_readonly', 'has_error') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+107: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'schema') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+108: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'document') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+109: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'schema') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+110: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'document') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+111: ('/cerberus/base.py', '__normalize_sequence_per_items', 'document') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+112: ('/cerberus/__init__.py', 'validator_factory', 'validated_schema') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+113: ('/cerberus/__init__.py', 'validator_factory', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+114: ('/cerberus/__init__.py', 'validator_factory', 'docstrings') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+115: ('/cerberus/base.py', 'validate', 'normalize') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+116: ('/cerberus/base.py', 'validate', 'update') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+117: ('/cerberus/base.py', '__validate_definitions', 'rules_queue') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+118: ('/cerberus/base.py', '__validate_required_fields', 'required') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+119: ('/cerberus/base.py', '__validate_required_fields', 'fields') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+120: ('/cerberus/errors.py', '__setitem__', 'key') 0 (Match)
+  PT: ['FieldName']
+  DL: ['cerberus.typing.FieldName']
+121: ('/cerberus/errors.py', 'emit', 'error') 0 (Match)
+  PT: ['ValidationError']
+  DL: ['ValidationError']
+122: ('/cerberus/errors.py', 'end', 'validator') 1 (Manual match)
+  PT: ["'UnconcernedValidator'"]
+  DL: ['cerberus.validator.Validator']
+123: ('/cerberus/base.py', 'get', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+124: ('/cerberus/base.py', 'allow_unknown', 'value') 0 (Match)
+  PT: ['AllowUnknown']
+  DL: ['cerberus.typing.AllowUnknown']
+125: ('/cerberus/base.py', 'ignore_none_values', 'value') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+126: ('/cerberus/base.py', '_is_normalized', 'value') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+127: ('/cerberus/base.py', 'purge_unknown', 'value') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+128: ('/cerberus/base.py', 'purge_readonly', 'value') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+129: ('/cerberus/base.py', 'require_all', 'value') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+130: ('/cerberus/base.py', 'rules_set_registry', 'registry') 0 (Match)
+  PT: ['RulesSetRegistry']
+  DL: ['cerberus.base.RulesSetRegistry']
+131: ('/cerberus/base.py', 'schema_registry', 'registry') 0 (Match)
+  PT: ['SchemaRegistry']
+  DL: ['cerberus.base.SchemaRegistry']
+132: ('/cerberus/base.py', 'validated', 'document') 0 (Match)
+  PT: ['Document']
+  DL: ['cerberus.typing.Document']
+133: ('/cerberus/base.py', 'validated', 'update') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+134: ('/cerberus/base.py', 'validated', 'normalize') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+135: ('/cerberus/base.py', 'validated', 'always_return_document') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+136: ('/cerberus/base.py', '_validate_allowed', 'unallowed') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+137: ('/cerberus/base.py', '_validate_contains', 'expected_values') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+138: ('/cerberus/base.py', '_validate_dependencies', 'dependencies') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+139: ('/cerberus/base.py', '__validate_dependencies_mapping', 'error_info') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+140: ('/cerberus/base.py', '__validate_dependencies_mapping', 'dependency_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+141: ('/cerberus/base.py', '_validate_excludes', 'excluded_fields') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+142: ('/cerberus/base.py', '__validate_logical', 'schema') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+143: ('/cerberus/base.py', '_validate_valuesrules', 'schema_crumb') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+144: ('/cerberus/schema.py', '_check_with_rulesset', '_hash') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+145: ('/cerberus/schema.py', '_check_with_schema', '_hash') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+146: ('/cerberus/schema.py', '_expand_rules_set_refs', 'result') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+147: ('/cerberus/schema.py', '_validate_logical', '_hash') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+148: ('/cerberus/benchmarks/test_overall_performance.py', 'init_validator_1', 'types_mapping') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+149: ('/cerberus/benchmarks/test_overall_performance.py', 'validate_documents', 'init_validator') 0 (Match)
+  PT: ['Callable']
+  DL: ['typing.Callable']
+150: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_sample_document_1', 'result') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+151: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_1', 'result') 0 (Match)
+  PT: ['Dict[str, Optional[int]]']
+  DL: ['dict']
+152: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_2', 'result') 0 (Match)
+  PT: ['Dict[str, Union[int, str, None]]']
+  DL: ['dict']
+153: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_3', 'result') 0 (Match)
+  PT: ['Dict[str, Optional[list]]']
+  DL: ['dict']

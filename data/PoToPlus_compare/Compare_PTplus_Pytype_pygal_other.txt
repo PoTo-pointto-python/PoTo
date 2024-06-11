@@ -1,0 +1,3018 @@
+0: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'background') 98 638 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+1: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'plot_background') 99 639 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+2: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'plot_background') 107 647 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+3: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'background') 115 655 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+4: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'plot_background') 116 656 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+5: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'background') 124 664 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+6: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'plot_background') 125 665 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+7: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'background') 133 673 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+8: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'background') 142 682 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+9: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'plot_background') 143 683 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+10: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'plot_background') 152 692 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+11: ('/pygal/style.py', 'BlueStyle_class_initializer', 'background') 160 700 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+12: ('/pygal/_compat.py', 'module_initializer', '_ellipsis') 264 1239 4 (PY Empty (is_any() is true))
+  PT: ['Ellipsis']
+  PY: ['Any']
+13: ('/pygal/_compat.py', 'module_initializer', 'utc') 265 1240 5 (PT subset PY)
+  PT: ['UTC']
+  PY: ['Union[UTC, datetime.timezone]']
+14: ('/pygal/formatters.py', 'HumanReadable_class_initializer', 'ORDERS') 266 535 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['str']
+15: ('/perf.py', 'module_initializer', 'c') 273 159 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+16: ('/perf.py', 'module_initializer', '_TWO_20') 274 160 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+17: ('/perf.py', 'module_initializer', 'pid') 275 161 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+18: ('/perf.py', 'module_initializer', 'process') 276 162 4 (PY Empty (is_any() is true))
+  PT: ["psutil.Process(pid=22186, name='Python', status='running', started='00:13:46')", "psutil.Process(pid=22236, name='Python', status='running', started='00:14:16')"]
+  PY: ['Any']
+19: ('/perf.py', 'module_initializer', 'a') 277 163 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+20: ('/perf.py', 'module_initializer', 'time') 286 168 3 (PT Empty)
+  PT: []
+  PY: ['float']
+21: ('/pygal_gen.py', 'module_initializer', 'opt_name') 290 170 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+22: ('/pygal_gen.py', 'module_initializer', 'val') 291 171 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+23: ('/pygal_gen.py', 'module_initializer', 'chart') 294 174 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+24: ('/demo/moulinrouge.py', 'module_initializer', 'app') 296 181 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+25: ('/demo/moulinrouge.py', 'module_initializer', 'handler') 297 182 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+26: ('/demo/moulinrouge/tests.py', 'module_initializer', 'world') 298 396 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+27: ('/demo/moulinrouge/tests.py', 'module_initializer', 'fr') 299 397 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+28: ('/demo/moulinrouge/tests.py', 'module_initializer', 'ch') 300 398 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+29: ('/pygal/__init__.py', 'module_initializer', 'module') 310 860 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+30: ('/pygal/stats.py', 'erfinv', 'x') 381 1048 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+31: ('/pygal/stats.py', 'erfinv', 'sgn') 385 1053 6 (PY subset PT)
+  PT: ['bool', 'int']
+  PY: ['int']
+32: ('/pygal/stats.py', 'norm_ppf', 'x') 387 1054 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+33: ('/pygal/stats.py', 'ppf', 'x') 389 1055 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+34: ('/pygal/stats.py', 'ppf', 'n') 390 1056 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+35: ('/pygal/stats.py', 'ppf', 'stats') 391 1057 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[module]']
+36: ('/pygal/stats.py', 'ppf', 'ppf_ret') 392 8 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+37: ('/pygal/stats.py', 'confidence_interval_continuous', 'confidence') 394 1061 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+38: ('/pygal/stats.py', 'confidence_interval_continuous', 'point_estimate') 395 1058 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+39: ('/pygal/stats.py', 'confidence_interval_continuous', 'stddev') 396 1059 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+40: ('/pygal/stats.py', 'confidence_interval_continuous', 'sample_size') 397 1060 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+41: ('/pygal/stats.py', 'confidence_interval_continuous', 'alpha') 398 1063 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+42: ('/pygal/stats.py', 'confidence_interval_continuous', 'margin') 399 1064 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+43: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'percentage') 402 1069 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+44: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'bias') 403 1068 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+45: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'confidence') 404 1067 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+46: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'point_estimate') 405 1065 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+47: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'sample_size') 406 1066 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+48: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'alpha') 407 1071 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+49: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'p') 408 1072 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+50: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'margin') 409 1073 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+51: ('/pygal/table.py', '__init__', 'chart') 412 1195 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+52: ('/pygal/table.py', 'render', 'style') 413 1199 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+53: ('/pygal/table.py', 'render', 'transpose') 414 1198 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+54: ('/pygal/table.py', 'render', 'total') 415 1197 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+55: ('/pygal/table.py', 'render', 'ln') 417 1200 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+56: ('/pygal/table.py', 'render', 'table') 420 1203 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+57: ('/pygal/table.py', 'render', 'labels') 422 1205 6 (PY subset PT)
+  PT: ['list', 'str']
+  PY: ['List[Optional[Any]]']
+58: ('/pygal/table.py', 'render', 'serie') 425 1213 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+59: ('/pygal/table.py', 'render', 'row') 426 1207 6 (PY subset PT)
+  PT: ['list', 'str']
+  PY: ['List[Optional[Any]]']
+60: ('/pygal/table.py', 'render', 'sum_') 427 1208 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+61: ('/pygal/table.py', 'render', 'j') 428 1210 3 (PT Empty)
+  PT: []
+  PY: ['int']
+62: ('/pygal/table.py', 'render', 'value') 429 1211 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+63: ('/pygal/table.py', 'render', 'v') 430 1209 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+64: ('/pygal/table.py', 'render', 'width') 431 1214 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+65: ('/pygal/table.py', 'render', 'val') 432 1215 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+66: ('/pygal/table.py', 'render', 'r') 433 1217 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+67: ('/pygal/table.py', 'render', 'tbody') 436 1219 6 (PY subset PT)
+  PT: ['None', 'list']
+  PY: ['list']
+68: ('/pygal/table.py', 'render', 'col') 439 1222 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int', 'list', 'str']
+  PY: ['Any']
+69: ('/pygal/table.py', 'render', 'css') 440 1223 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'str']
+  PY: ['Any']
+70: ('/pygal/table.py', 'render', 'render_ret') 441 22 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+71: ('/pygal/util.py', 'template', 'string') 443 758 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'str']
+  PY: ['Any']
+72: ('/pygal/util.py', 'template', 'template_ret') 444 58 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+73: ('/pygal/config.py', '__init__', 'self') 447 401 8 (Partial match)
+  PT: ['BaseConfig', 'Config', 'Key', 'SerieConfig']
+  PY: ['BaseConfig', 'CommonConfig', 'Config', 'SerieConfig']
+74: ('/pygal/config.py', '__init__', 'default_value') 448 402 8 (Partial match)
+  PT: ['Default', 'None', 'Style', 'bool', 'dict', 'float', 'int', 'list', 'str', 'tuple']
+  PY: ['bool', 'float', 'None', 'int', 'Type[pygal.style.Style]', 'Tuple[str, str]', 'Tuple[str]', 'List[nothing]', 'str', 'pygal.formatters.Default', 'Dict[nothing, nothing]']
+75: ('/pygal/config.py', '__init__', 'type_') 449 403 8 (Partial match)
+  PT: ['Style', 'bool', 'dict', 'float', 'function', 'int', 'list', 'str']
+  PY: ['Type[bool]', 'Type[float]', 'Type[dict]', 'Type[int]', 'Type[callable]', 'Type[pygal.style.Style]', 'Type[list]', 'Type[str]']
+76: ('/pygal/util.py', '_swap_curly', 'string') 452 757 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'str']
+  PY: ['Any']
+77: ('/pygal/util.py', '_swap_curly', '_swap_curly_ret') 453 32 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+78: ('/pygal/view.py', '__init__', 'ymax') 454 873 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+79: ('/pygal/view.py', '__init__', 'xmax') 455 872 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+80: ('/pygal/view.py', '__init__', 'ymin') 456 871 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+81: ('/pygal/view.py', '__init__', 'xmin') 457 870 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+82: ('/pygal/view.py', '__init__', 'self') 458 863 6 (PY subset PT)
+  PT: ['Box', 'ReverseView', 'View', 'Margin', 'HorizontalView', 'PolarLogView', 'PolarThetaView', 'PolarThetaLogView', 'LogView', 'XLogView', 'XYLogView', 'HorizontalLogView']
+  PY: ['HorizontalLogView']
+83: ('/pygal/view.py', 'set_polar_box', 'tmax') 459 878 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+84: ('/pygal/view.py', 'set_polar_box', 'tmin') 460 877 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+85: ('/pygal/view.py', 'set_polar_box', 'rmax') 461 876 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+86: ('/pygal/view.py', 'set_polar_box', 'rmin') 462 875 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+87: ('/pygal/view.py', 'fix', 'with_margin') 477 891 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+88: ('/pygal/view.py', 'fix', 'xmargin') 479 892 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+89: ('/pygal/view.py', 'fix', 'ymargin') 480 893 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'tuple']
+  PY: ['Any']
+90: ('/pygal/graph/base.py', '__init__', 'config') 482 2190 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'None']
+  PY: ['Any']
+91: ('/pygal/graph/base.py', '__init__', 'self') 483 2189 6 (PY subset PT)
+  PT: ['Bar', 'BaseMap', 'Box', 'DateLine', 'DateTimeLine', 'Dot', 'Funnel', 'Gauge', 'Graph', 'Histogram', 'Line', 'Pie', 'PublicApi', 'SolidGauge', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'XY', 'BaseGraph']
+  PY: ['BaseGraph']
+92: ('/pygal/graph/gauge.py', 'needle', 'serie') 485 1330 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+93: ('/pygal/graph/gauge.py', 'needle', 'serie_node') 486 1331 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+94: ('/pygal/graph/gauge.py', 'needle', 'i') 487 1340 3 (PT Empty)
+  PT: []
+  PY: ['int']
+95: ('/pygal/graph/gauge.py', 'needle', 'theta') 488 1336 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+96: ('/pygal/graph/gauge.py', 'needle', 'val') 490 1332 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+97: ('/pygal/graph/gauge.py', 'needle', 'metadata') 491 1333 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+98: ('/pygal/graph/gauge.py', 'needle', 'gauges') 492 1334 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+99: ('/pygal/graph/gauge.py', 'needle', 'w') 494 1337 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+100: ('/pygal/graph/gauge.py', 'needle', 'x') 495 1338 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+101: ('/pygal/graph/gauge.py', 'needle', 'y') 496 1339 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+102: ('/pygal/config.py', '__init__', 'k') 498 429 3 (PT Empty)
+  PT: []
+  PY: ['str']
+103: ('/pygal/config.py', '__init__', 'v') 499 428 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+104: ('/pygal/graph/graph.py', '_format', 'self') 500 1773 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Dot', 'Funnel', 'Gauge', 'Histogram', 'Line', 'Pie', 'SolidGauge', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+105: ('/pygal/graph/graph.py', '_format', 'serie') 501 1774 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'None', 'int', 'str', 'tuple']
+  PY: ['Any']
+106: ('/pygal/graph/graph.py', '_format', 'i') 502 1775 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+107: ('/pygal/graph/graph.py', '_format', 'value') 503 1776 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+108: ('/pygal/graph/graph.py', '_format', 'metadata') 504 1777 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+109: ('/pygal/graph/graph.py', '_format', 'formatter') 506 1779 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+110: ('/pygal/graph/graph.py', '_format', '_format_ret') 507 95 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+111: ('/pygal/util.py', 'decorate', 'svg') 508 793 4 (PY Empty (is_any() is true))
+  PT: ['Svg']
+  PY: ['Any']
+112: ('/pygal/util.py', 'decorate', 'node') 509 794 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+113: ('/pygal/util.py', 'decorate', 'metadata') 510 795 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+114: ('/pygal/util.py', 'decorate', 'decorate_ret') 511 42 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+115: ('/pygal/util.py', 'decorate', 'xlink') 512 796 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+116: ('/pygal/util.py', 'decorate', 'color') 513 797 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+117: ('/pygal/graph/gauge.py', 'point', 'y') 515 1328 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+118: ('/pygal/util.py', 'alter', 'node') 517 798 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+119: ('/pygal/util.py', 'alter', 'metadata') 518 799 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+120: ('/pygal/graph/graph.py', '_get_x_label', 'self') 519 1765 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'Dot', 'Funnel', 'Gauge', 'Line', 'StackedLine', 'Graph']
+  PY: ['Graph']
+121: ('/pygal/graph/graph.py', '_get_x_label', 'i') 520 1766 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>']
+  PY: ['Any']
+122: ('/pygal/graph/graph.py', '_get_x_label', '_get_x_label_ret') 521 96 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+123: ('/pygal/graph/graph.py', '_tooltip_data', 'xlabel') 522 1737 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+124: ('/pygal/graph/graph.py', '_tooltip_data', 'classes') 523 1736 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list', 'str']
+  PY: ['Any']
+125: ('/pygal/graph/graph.py', '_tooltip_data', 'self') 524 1731 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Dot', 'Funnel', 'Gauge', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+126: ('/pygal/graph/graph.py', '_tooltip_data', 'node') 525 1732 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+127: ('/pygal/graph/graph.py', '_tooltip_data', 'value') 526 1733 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+128: ('/pygal/graph/graph.py', '_tooltip_data', 'x') 527 1734 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'float', 'int']
+  PY: ['Any']
+129: ('/pygal/graph/graph.py', '_tooltip_data', 'y') 528 1735 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+130: ('/pygal/graph/graph.py', '_static_value', 'classes') 529 1745 6 (PY subset PT)
+  PT: ['None', 'list']
+  PY: ['list']
+131: ('/pygal/graph/graph.py', '_static_value', 'align_text') 530 1744 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+132: ('/pygal/graph/graph.py', '_static_value', 'self') 531 1738 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Dot', 'Funnel', 'Gauge', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+133: ('/pygal/graph/graph.py', '_static_value', 'serie_node') 532 1739 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+134: ('/pygal/graph/graph.py', '_static_value', 'value') 533 1740 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+135: ('/pygal/graph/graph.py', '_static_value', 'x') 534 1741 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', '<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  PY: ['Any']
+136: ('/pygal/graph/graph.py', '_static_value', 'y') 535 1742 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+137: ('/pygal/graph/graph.py', '_static_value', 'metadata') 536 1743 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+138: ('/pygal/graph/graph.py', '_static_value', 'label') 537 1746 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+139: ('/pygal/config.py', 'copy', 'self') 540 441 6 (PY subset PT)
+  PT: ['BaseConfig', 'Config']
+  PY: ['BaseConfig']
+140: ('/pygal/config.py', 'copy', 'copy_ret') 541 74 3 (PT Empty)
+  PT: []
+  PY: ['_TBaseConfig']
+141: ('/pygal/config.py', '_update', 'self') 542 432 5 (PT subset PY)
+  PT: ['BaseConfig', 'Config', 'SerieConfig']
+  PY: ['BaseConfig', 'CommonConfig', 'Config', 'SerieConfig']
+142: ('/pygal/config.py', '_update', 'k') 545 435 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+143: ('/pygal/config.py', '_update', 'v') 546 436 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+144: ('/pygal/util.py', 'filter_kwargs', 'fun') 547 830 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+145: ('/pygal/util.py', 'filter_kwargs', 'kwargs') 548 831 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+146: ('/pygal/util.py', 'filter_kwargs', 'args') 550 832 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+147: ('/pygal/graph/graph.py', '_value_format', 'self') 551 1771 6 (PY subset PT)
+  PT: ['Bar', 'Dot', 'Funnel', 'Gauge', 'Line', 'Pie', 'SolidGauge', 'StackedLine', 'Graph']
+  PY: ['Graph']
+148: ('/pygal/graph/graph.py', '_value_format', 'value') 552 1772 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+149: ('/pygal/graph/graph.py', '_value_format', '_value_format_ret') 553 101 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+150: ('/pygal/_compat.py', 'to_unicode', 'string') 554 1228 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+151: ('/pygal/_compat.py', 'to_unicode', 'to_unicode_ret') 555 29 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+152: ('/pygal/_compat.py', 'to_str', 'obj') 556 1227 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'None', 'float', 'int']
+  PY: ['Any']
+153: ('/pygal/_compat.py', 'to_str', 'to_str_ret') 557 28 8 (Partial match)
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'None', 'float', 'int', 'str']
+  PY: ['Union[str, _T0]']
+154: ('/pygal/graph/graph.py', '_y_format', 'self') 558 1770 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Dot', 'Funnel', 'Gauge', 'Histogram', 'Line', 'Pie', 'SolidGauge', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+155: ('/pygal/_compat.py', 'is_str', 'string') 560 1226 4 (PY Empty (is_any() is true))
+  PT: ['12:30:00', '2013-01-01', '2013-02-01', '<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'None', 'float', 'int', 'str']
+  PY: ['Any']
+156: ('/pygal/serie.py', '__init__', 'metadata') 562 1046 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+157: ('/pygal/serie.py', '__init__', 'index') 564 1043 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+158: ('/pygal/serie.py', '__init__', 'values') 565 1044 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'float', 'list']
+  PY: ['Any']
+159: ('/pygal/serie.py', '__init__', 'config') 566 1045 4 (PY Empty (is_any() is true))
+  PT: ['SerieConfig']
+  PY: ['Any']
+160: ('/pygal/serie.py', 'safe_values', 'self') 567 1047 4 (PY Empty (is_any() is true))
+  PT: ['Serie']
+  PY: ['Any']
+161: ('/pygal/util.py', 'round_to_int', 'number') 569 744 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'meta_func', 'tuple']
+  PY: ['Any']
+162: ('/pygal/util.py', 'round_to_int', 'precision') 570 745 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['int']
+163: ('/pygal/util.py', 'round_to_int', 'rounded') 571 746 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['float']
+164: ('/pygal/util.py', 'round_to_int', 'round_to_int_ret') 572 54 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['float']
+165: ('/pygal/util.py', 'round_to_float', 'number') 573 747 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'meta_func', 'tuple']
+  PY: ['Any']
+166: ('/pygal/util.py', 'round_to_float', 'precision') 574 748 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+167: ('/pygal/util.py', 'round_to_float', 'rounded') 575 749 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['_decimal.Decimal']
+168: ('/pygal/_compat.py', 'u', 's') 577 1229 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+169: ('/pygal/_compat.py', 'u', 'u_ret') 578 30 7 (etc)
+  PT: ['str', 'tuple']
+  PY: ['_T0']
+
+AM: Both
+
+170: ('/pygal/util.py', 'truncate', 'string') 579 802 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'int', 'str', 'tuple']
+  PY: ['Any']
+171: ('/pygal/util.py', 'truncate', 'index') 580 803 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+172: ('/pygal/util.py', 'truncate', 'truncate_ret') 581 60 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'int', 'str', 'tuple']
+  PY: ['Any']
+173: ('/pygal/util.py', 'minify_css', 'css') 582 811 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['str']
+174: ('/pygal/util.py', 'minify_css', 'css_comment') 584 813 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+175: ('/pygal/util.py', 'minify_css', 'minify_css_ret') 586 50 3 (PT Empty)
+  PT: []
+  PY: ['str']
+176: ('/pygal/util.py', 'majorize', 'values') 587 736 4 (PY Empty (is_any() is true))
+  PT: ['list', 'range(20, 55, 2)', 'range(21, 83, 3)', 'range(30, 70, 5)', 'tuple']
+  PY: ['Any']
+177: ('/pygal/util.py', 'majorize', 'values_step') 590 738 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+178: ('/pygal/util.py', 'majorize', 'full_range') 591 739 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+179: ('/pygal/util.py', 'majorize', 'step') 592 740 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+180: ('/pygal/util.py', 'majorize', 'step_factor') 593 741 5 (PT subset PY)
+  PT: ['int']
+  PY: ['Union[float, int]']
+181: ('/pygal/util.py', 'majorize', 'value') 594 743 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+182: ('/pygal/util.py', 'mergextend', 'list1') 596 842 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+183: ('/pygal/util.py', 'mergextend', 'list2') 597 843 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+184: ('/pygal/util.py', 'mergextend', 'mergextend_ret') 598 49 5 (PT subset PY)
+  PT: ['list']
+  PY: ['Union[list, _T0]']
+185: ('/pygal/util.py', 'mergextend', 'index') 599 844 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+186: ('/pygal/graph/public.py', 'add', 'self') 601 1366 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'PublicApi']
+  PY: ['PublicApi']
+187: ('/pygal/graph/public.py', 'add', 'title') 602 1367 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+188: ('/pygal/graph/public.py', 'add', 'values') 603 1368 4 (PY Empty (is_any() is true))
+  PT: ['float', 'list', 'range(0, 100)', 'range(0, 12)', 'range(0, 8)']
+  PY: ['Any']
+189: ('/pygal/graph/public.py', 'add', 'add_ret') 604 130 7 (etc)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'PublicApi']
+  PY: ['_TPublicApi']
+
+AM: Both
+
+190: ('/pygal/graph/public.py', 'render_pyquery', 'self') 606 1385 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'PublicApi']
+  PY: ['PublicApi']
+191: ('/pygal/graph/public.py', 'render_pyquery', 'render_pyquery_ret') 607 135 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+192: ('/pygal/_compat.py', 'is_list_like', 'value') 608 1225 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'None', 'dict', 'float', 'int', 'list', 'range(0, 100)', 'range(0, 12)', 'range(0, 8)', 'str', 'tuple']
+  PY: ['Any']
+193: ('/pygal/graph/public.py', 'render', 'is_unicode') 611 1376 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+194: ('/pygal/graph/public.py', 'render', 'self') 612 1375 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine']
+  PY: ['PublicApi']
+195: ('/pygal/graph/public.py', 'render', 'svg') 613 1378 4 (PY Empty (is_any() is true))
+  PT: ['bytes', 'str']
+  PY: ['Any']
+196: ('/pygal/graph/public.py', 'render', 'render_ret') 614 132 4 (PY Empty (is_any() is true))
+  PT: ['bytes', 'str']
+  PY: ['Any']
+197: ('/pygal/graph/base.py', 'setup', 'self') 616 2217 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'BaseGraph']
+  PY: ['BaseGraph']
+198: ('/pygal/graph/base.py', 'setup', 'rs') 617 2219 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+199: ('/pygal/graph/base.py', 'setup', 'serie') 618 2221 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+200: ('/pygal/graph/base.py', 'setup', 'val') 619 2222 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+201: ('/pygal/graph/base.py', 'teardown', 'self') 621 2223 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'BaseGraph']
+  PY: ['BaseGraph']
+202: ('/pygal/state.py', '__init__', 'graph') 624 1242 4 (PY Empty (is_any() is true))
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine']
+  PY: ['Any']
+203: ('/pygal/graph/base.py', 'prepare_values', 'offset') 625 2199 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+204: ('/pygal/graph/base.py', 'prepare_values', 'self') 626 2197 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'BaseGraph']
+  PY: ['BaseGraph']
+205: ('/pygal/graph/base.py', 'prepare_values', 'raw_values') 632 2204 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'float', 'list']
+  PY: ['Any']
+206: ('/pygal/graph/base.py', 'prepare_values', 'serie_config_kwargs') 633 2205 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+207: ('/pygal/graph/base.py', 'prepare_values', 'values') 634 2207 6 (PY subset PT)
+  PT: ['None', 'bool', 'float', 'list']
+  PY: ['list']
+208: ('/pygal/graph/base.py', 'prepare_values', '_') 635 2208 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+209: ('/pygal/graph/base.py', 'prepare_values', 'width') 636 2206 7 (etc)
+  PT: ['float']
+  PY: ['int']
+
+AM: PY
+
+210: ('/pygal/graph/base.py', 'prepare_values', 'value_list') 638 2210 6 (PY subset PT)
+  PT: ['float', 'list']
+  PY: ['List[None]']
+211: ('/pygal/graph/base.py', 'prepare_values', 'k') 639 2211 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+212: ('/pygal/graph/base.py', 'prepare_values', 'v') 640 2212 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+213: ('/pygal/graph/base.py', 'prepare_values', 'raw_value') 642 2213 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'None', 'dict', 'int', 'tuple']
+  PY: ['Optional[Any]']
+214: ('/pygal/graph/base.py', 'prepare_values', 'value') 643 2214 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'None', 'dict', 'int', 'list', 'tuple']
+  PY: ['Any']
+215: ('/pygal/graph/base.py', 'prepare_values', 'prepare_values_ret') 645 94 5 (PT subset PY)
+  PT: ['list']
+  PY: ['Optional[List[pygal.serie.Serie]]']
+216: ('/pygal/svg.py', '__init__', 'graph') 647 910 4 (PY Empty (is_any() is true))
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine']
+  PY: ['Any']
+217: ('/pygal/svg.py', '__init__', 'def_') 649 912 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+218: ('/pygal/view.py', '__init__', 'top') 650 864 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+219: ('/pygal/view.py', '__init__', 'right') 651 865 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+220: ('/pygal/view.py', '__init__', 'bottom') 652 866 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+221: ('/pygal/view.py', '__init__', 'left') 653 867 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+222: ('/pygal/graph/graph.py', '_draw', 'self') 654 1845 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+223: ('/pygal/svg.py', 'render', 'pretty_print') 656 1026 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+224: ('/pygal/svg.py', 'render', 'is_unicode') 657 1025 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+225: ('/pygal/svg.py', 'render', 'f') 659 1027 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+226: ('/pygal/svg.py', 'render', 'pi') 662 1030 7 (etc)
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['float']
+
+AM: PY
+
+227: ('/pygal/util.py', 'merge', 'dict1') 664 845 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+228: ('/pygal/util.py', 'merge', 'dict2') 665 846 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+229: ('/pygal/util.py', 'merge', 'item') 666 848 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+230: ('/pygal/util.py', 'merge', 'key') 668 850 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+231: ('/pygal/util.py', 'merge', 'val') 669 849 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+232: ('/pygal/svg.py', 'node', 'attrib') 671 932 6 (PY subset PT)
+  PT: ['None', 'dict']
+  PY: ['dict']
+233: ('/pygal/svg.py', 'node', 'parent') 673 930 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+234: ('/pygal/svg.py', 'node', 'key') 678 936 3 (PT Empty)
+  PT: []
+  PY: ['str']
+235: ('/pygal/svg.py', 'node', 'value') 679 937 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+236: ('/pygal/svg.py', 'node', 'node_ret') 680 16 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+237: ('/pygal/graph/bar.py', '_compute', 'x') 682 2081 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+238: ('/pygal/graph/bar.py', '_compute', 'i') 683 2082 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+239: ('/pygal/graph/graph.py', '_compute_x_labels', 'self') 684 1821 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'Line', 'StackedLine', 'Graph']
+  PY: ['Graph']
+240: ('/pygal/graph/graph.py', '_compute_x_labels_major', 'self') 685 1822 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+241: ('/pygal/graph/graph.py', '_compute_x_labels_major', 'i') 686 1823 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+242: ('/pygal/graph/graph.py', '_compute_x_labels_major', 'major_count') 688 1825 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+243: ('/pygal/graph/graph.py', '_compute_x_labels_major', 'label') 689 1826 4 (PY Empty (is_any() is true))
+  PT: ['int', 'str', 'tuple']
+  PY: ['Any']
+244: ('/pygal/graph/graph.py', '_compute_y_labels', 'self') 690 1827 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+245: ('/pygal/graph/graph.py', '_compute_y_labels', 'y_pos') 691 1828 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+246: ('/pygal/graph/graph.py', '_compute_y_labels', 'i') 692 1831 3 (PT Empty)
+  PT: []
+  PY: ['int']
+247: ('/pygal/graph/graph.py', '_compute_y_labels', 'y_label') 693 1832 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+248: ('/pygal/graph/graph.py', '_compute_y_labels', 'pos') 694 1829 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+249: ('/pygal/graph/graph.py', '_compute_y_labels', 'title') 695 1830 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+250: ('/pygal/graph/graph.py', '_compute_y_labels_major', 'self') 696 1833 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+251: ('/pygal/graph/graph.py', '_compute_y_labels_major', 'i') 697 1834 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+252: ('/pygal/graph/graph.py', '_compute_y_labels_major', 'major_count') 699 1836 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+253: ('/pygal/graph/graph.py', '_compute_y_labels_major', 'label') 700 1837 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+254: ('/pygal/graph/graph.py', '_compute_secondary', 'self') 701 1754 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+255: ('/pygal/graph/graph.py', '_compute_secondary', 'y_pos') 702 1755 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+256: ('/pygal/graph/graph.py', '_compute_secondary', 'ymin') 703 1756 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+257: ('/pygal/graph/graph.py', '_compute_secondary', 'ymax') 704 1757 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+258: ('/pygal/graph/graph.py', '_compute_secondary', 'left_range') 706 1759 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+259: ('/pygal/graph/graph.py', '_compute_secondary', 'right_range') 707 1760 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+260: ('/pygal/graph/graph.py', '_compute_secondary', 'scale') 708 1761 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+261: ('/pygal/graph/graph.py', '_compute_secondary', 'i') 709 1762 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+262: ('/pygal/graph/graph.py', '_compute_secondary', 'pos') 710 1763 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+263: ('/pygal/graph/graph.py', '_compute_margin', 'self') 711 1786 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+264: ('/pygal/graph/graph.py', '_compute_margin', 'series_group') 712 1793 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+265: ('/pygal/graph/graph.py', '_compute_margin', 'serie') 713 1789 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+266: ('/pygal/graph/graph.py', '_compute_margin', 'h') 714 1787 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+267: ('/pygal/graph/graph.py', '_compute_margin', 'w') 715 1788 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+268: ('/pygal/graph/graph.py', '_compute_margin', 'h_max') 716 1790 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+269: ('/pygal/graph/graph.py', '_compute_margin', 'cols') 717 1791 4 (PY Empty (is_any() is true))
+  PT: ['int', 'meta_func']
+  PY: ['Any']
+270: ('/pygal/graph/graph.py', '_compute_margin', 'legend_width') 718 1792 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+271: ('/pygal/graph/graph.py', '_compute_margin', 'xlabels') 719 1794 4 (PY Empty (is_any() is true))
+  PT: ['<map object at 0x101480790>', '<map object at 0x1014c45e0>', '<map object at 0x1014ca470>', '<map object at 0x1014cb5e0>', '<map object at 0x1014cb610>', '<map object at 0x1014cb9d0>', '<map object at 0x101581f90>', '<map object at 0x104247b50>', '<map object at 0x10a3b0e80>', '<map object at 0x10a72e710>', 'None', 'list', 'str']
+  PY: ['Any']
+272: ('/pygal/graph/graph.py', '_compute_margin', 'ylabels') 720 1795 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list']
+  PY: ['Any']
+273: ('/pygal/graph/graph.py', '_compute_margin', '_') 721 1796 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+274: ('/pygal/graph/graph.py', '_compute_margin', 'height') 722 1797 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+275: ('/pygal/graph/graph.py', '_compute_margin', 'gh') 723 1798 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+276: ('/pygal/graph/graph.py', '_compute_margin', 'alpha') 724 1799 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'tuple']
+  PY: ['Any']
+277: ('/pygal/graph/graph.py', '_decorate', 'self') 725 1657 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+278: ('/pygal/graph/graph.py', '_has_data', 'self') 726 1846 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+279: ('/pygal/graph/graph.py', '_has_data', '_has_data_ret') 730 97 3 (PT Empty)
+  PT: []
+  PY: ['bool']
+280: ('/pygal/graph/bar.py', '_plot', 'self') 731 2083 6 (PY subset PT)
+  PT: ['Bar', 'Histogram']
+  PY: ['Bar']
+281: ('/pygal/graph/bar.py', '_plot', 'serie') 732 2084 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+282: ('/pygal/svg.py', 'draw_no_data', 'no_data') 734 1023 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+283: ('/pygal/svg.py', 'add_styles', 'colors') 736 914 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+284: ('/pygal/svg.py', 'add_styles', 'css') 740 919 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+285: ('/pygal/svg.py', 'add_styles', 'css_text') 741 918 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+286: ('/pygal/svg.py', 'add_scripts', 'common_script') 743 922 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+287: ('/pygal/svg.py', 'add_scripts', 'l') 747 924 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+288: ('/pygal/svg.py', 'add_scripts', 'js') 749 927 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+289: ('/pygal/svg.py', 'add_scripts', 'script') 750 926 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+290: ('/pygal/graph/graph.py', '_points', 'self') 753 1749 6 (PY subset PT)
+  PT: ['Bar', 'Line', 'Graph']
+  PY: ['Graph']
+291: ('/pygal/graph/graph.py', '_points', 'x_pos') 754 1750 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'list']
+  PY: ['Any']
+292: ('/pygal/graph/graph.py', '_points', 'serie') 755 1753 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+293: ('/pygal/graph/graph.py', '_points', 'i') 756 1751 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+294: ('/pygal/graph/graph.py', '_points', 'v') 757 1752 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+295: ('/pygal/util.py', 'compute_scale', 'min_') 758 772 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'meta_func', 'tuple']
+  PY: ['Any']
+296: ('/pygal/util.py', 'compute_scale', 'max_') 759 773 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'meta_func', 'tuple']
+  PY: ['Any']
+297: ('/pygal/util.py', 'compute_scale', 'logarithmic') 760 774 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+298: ('/pygal/util.py', 'compute_scale', 'order_min') 761 775 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+299: ('/pygal/util.py', 'compute_scale', 'min_scale') 762 776 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+300: ('/pygal/util.py', 'compute_scale', 'max_scale') 763 777 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+301: ('/pygal/util.py', 'compute_scale', 'order') 766 779 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+302: ('/pygal/util.py', 'compute_scale', 'position') 769 782 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+303: ('/pygal/util.py', 'compute_scale', 'rounded') 770 783 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+304: ('/pygal/util.py', 'cut', 'index') 771 753 4 (PY Empty (is_any() is true))
+  PT: ['int', 'str']
+  PY: ['Any']
+305: ('/pygal/util.py', 'cut', 'list_') 772 752 4 (PY Empty (is_any() is true))
+  PT: ['<map object at 0x101480790>', '<map object at 0x1014c45e0>', '<map object at 0x1014ca470>', '<map object at 0x1014cb5e0>', '<map object at 0x1014cb610>', '<map object at 0x1014cb9d0>', '<map object at 0x101581f90>', '<map object at 0x104247b50>', '<map object at 0x10a3b0e80>', '<map object at 0x10a72e710>', 'None', 'list', 'str']
+  PY: ['Any']
+306: ('/pygal/util.py', 'get_texts_box', 'texts') 775 790 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+307: ('/pygal/util.py', 'get_texts_box', 'fs') 776 791 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+308: ('/pygal/util.py', 'get_texts_box', 'max_len') 777 792 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+309: ('/pygal/util.py', 'rad', 'degrees') 779 755 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+310: ('/pygal/util.py', 'rad', 'rad_ret') 780 51 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+311: ('/pygal/util.py', 'split_title', 'title') 781 821 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+312: ('/pygal/util.py', 'split_title', 'width') 782 822 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+313: ('/pygal/util.py', 'split_title', 'title_fs') 783 823 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+314: ('/pygal/util.py', 'split_title', 'title_lines') 787 826 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+315: ('/pygal/util.py', 'split_title', 'title_line') 788 829 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+316: ('/pygal/util.py', 'split_title', 'title_part') 789 827 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+317: ('/pygal/util.py', 'split_title', 'i') 790 828 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+318: ('/pygal/util.py', 'get_text_box', 'text') 791 788 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'tuple']
+  PY: ['Any']
+319: ('/pygal/util.py', 'get_text_box', 'fs') 792 789 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+320: ('/pygal/view.py', 'y', 'self') 794 869 6 (PY subset PT)
+  PT: ['ReverseView', 'Margin', 'View', 'HorizontalView', 'LogView', 'HorizontalLogView']
+  PY: ['HorizontalLogView']
+321: ('/pygal/view.py', 'y', 'y_ret') 795 1 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'int', 'tuple']
+  PY: ['Any']
+322: ('/pygal/graph/graph.py', '_set_view', 'self') 796 1659 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+323: ('/pygal/graph/graph.py', '_set_view', 'view_class') 797 1660 6 (PY subset PT)
+  PT: ['LogView', 'ReverseView', 'View', 'XYLogView']
+  PY: ['Type[Union[pygal.view.LogView, pygal.view.ReverseView, pygal.view.View]]']
+324: ('/pygal/graph/graph.py', '_make_graph', 'self') 798 1661 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+325: ('/pygal/graph/graph.py', '_axes', 'self') 799 1658 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+326: ('/pygal/graph/graph.py', '_legend', 'self') 800 1688 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+327: ('/pygal/graph/graph.py', '_legend', 'truncation') 801 1689 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+328: ('/pygal/graph/graph.py', '_legend', 'x') 802 1690 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+329: ('/pygal/graph/graph.py', '_legend', 'y') 803 1691 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+330: ('/pygal/graph/graph.py', '_legend', 'cols') 804 1692 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+331: ('/pygal/graph/graph.py', '_legend', 'available_space') 805 1693 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+332: ('/pygal/graph/graph.py', '_legend', 'legends') 806 1694 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+333: ('/pygal/graph/graph.py', '_legend', 'h') 807 1695 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+334: ('/pygal/graph/graph.py', '_legend', 'x_step') 808 1696 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+335: ('/pygal/graph/graph.py', '_legend', 'secondary_legends') 809 1697 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+336: ('/pygal/graph/graph.py', '_legend', 'w') 810 1698 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+337: ('/pygal/graph/graph.py', '_legend', 'titles') 813 1707 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+338: ('/pygal/graph/graph.py', '_legend', 'title') 815 1705 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+339: ('/pygal/graph/graph.py', '_legend', 'col') 816 1701 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+340: ('/pygal/graph/graph.py', '_legend', 'row') 817 1702 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+341: ('/pygal/graph/graph.py', '_legend', 'legend') 818 1703 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+342: ('/pygal/graph/graph.py', '_legend', 'node') 819 1704 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+343: ('/pygal/graph/graph.py', '_legend', 'truncated') 820 1706 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'int', 'str', 'tuple']
+  PY: ['Any']
+344: ('/pygal/graph/graph.py', '_make_title', 'self') 821 1709 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+345: ('/pygal/graph/graph.py', '_make_title', 'title_line') 823 1711 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'tuple']
+  PY: ['Any']
+346: ('/pygal/graph/graph.py', '_make_x_title', 'self') 824 1712 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+347: ('/pygal/graph/graph.py', '_make_x_title', 'y') 825 1713 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+348: ('/pygal/graph/graph.py', '_make_x_title', 'title_line') 827 1716 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'tuple']
+  PY: ['Any']
+349: ('/pygal/graph/graph.py', '_make_x_title', 'text') 828 1714 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+350: ('/pygal/graph/graph.py', '_make_y_title', 'self') 829 1717 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+351: ('/pygal/graph/graph.py', '_make_y_title', 'yc') 830 1718 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+352: ('/pygal/graph/graph.py', '_make_y_title', 'title_line') 832 1721 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'tuple']
+  PY: ['Any']
+353: ('/pygal/graph/graph.py', '_make_y_title', 'text') 833 1719 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+354: ('/pygal/graph/bar.py', 'bar', 'serie') 836 2065 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+355: ('/pygal/graph/bar.py', 'bar', 'serie_node') 837 2067 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+356: ('/pygal/graph/bar.py', 'bar', 'bars') 838 2068 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+357: ('/pygal/graph/bar.py', 'bar', 'points') 839 2069 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+358: ('/pygal/graph/bar.py', 'bar', 'i') 840 2077 3 (PT Empty)
+  PT: []
+  PY: ['int']
+359: ('/pygal/graph/bar.py', 'bar', 'metadata') 841 2070 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+360: ('/pygal/graph/bar.py', 'bar', 'val') 842 2071 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+361: ('/pygal/graph/bar.py', 'bar', 'bar') 843 2072 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+362: ('/pygal/graph/bar.py', 'bar', 'x_') 844 2073 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  PY: ['Any']
+363: ('/pygal/graph/bar.py', 'bar', 'y_') 845 2074 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+364: ('/pygal/graph/bar.py', 'bar', 'width') 846 2075 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+365: ('/pygal/graph/bar.py', 'bar', 'height') 847 2076 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+366: ('/pygal/svg.py', 'get_strokes', 'serie') 851 1037 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+367: ('/pygal/svg.py', 'get_strokes', 'secondary_serie') 852 1038 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+368: ('/pygal/graph/graph.py', '_interpolate', 'self') 855 1722 6 (PY subset PT)
+  PT: ['Bar', 'DateLine', 'DateTimeLine', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+369: ('/pygal/graph/graph.py', '_interpolate', 'xs') 856 1723 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'list']
+  PY: ['Any']
+370: ('/pygal/graph/graph.py', '_interpolate', 'ys') 857 1724 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+371: ('/pygal/graph/graph.py', '_interpolate', 'i') 860 1727 3 (PT Empty)
+  PT: []
+  PY: ['int']
+372: ('/pygal/graph/graph.py', '_interpolate', 'interpolate') 861 1728 3 (PT Empty)
+  PT: []
+  PY: ['Callable']
+373: ('/pygal/util.py', 'compute_logarithmic_scale', 'min_') 863 760 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'meta_func', 'tuple']
+  PY: ['Any']
+374: ('/pygal/util.py', 'compute_logarithmic_scale', 'max_') 864 761 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'meta_func', 'tuple']
+  PY: ['Any']
+375: ('/pygal/util.py', 'compute_logarithmic_scale', 'min_scale') 865 762 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+376: ('/pygal/util.py', 'compute_logarithmic_scale', 'max_scale') 866 763 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+377: ('/pygal/util.py', 'compute_logarithmic_scale', 'detail') 872 768 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['float']
+378: ('/pygal/util.py', 'compute_logarithmic_scale', 'order') 873 771 3 (PT Empty)
+  PT: []
+  PY: ['int']
+379: ('/pygal/util.py', 'compute_logarithmic_scale', 'i') 874 770 3 (PT Empty)
+  PT: []
+  PY: ['int']
+380: ('/pygal/util.py', 'compute_logarithmic_scale', 'tick') 875 769 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+381: ('/pygal/util.py', 'round_to_scale', 'number') 876 750 6 (PY subset PT)
+  PT: ['float', 'int', 'meta_func', 'tuple']
+  PY: ['Union[float, int]']
+382: ('/pygal/util.py', 'round_to_scale', 'round_to_scale_ret') 878 55 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['float']
+383: ('/pygal/util.py', 'text_len', 'length') 879 784 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['int']
+384: ('/pygal/util.py', 'text_len', 'fs') 880 785 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+385: ('/pygal/util.py', 'text_len', 'text_len_ret') 881 59 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+386: ('/pygal/util.py', 'reverse_text_len', 'width') 882 786 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+387: ('/pygal/util.py', 'reverse_text_len', 'fs') 883 787 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+388: ('/pygal/view.py', '__init__', 'width') 885 895 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+389: ('/pygal/view.py', '__init__', 'height') 886 896 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+390: ('/pygal/view.py', '__init__', 'box') 887 897 4 (PY Empty (is_any() is true))
+  PT: ['Box']
+  PY: ['Any']
+391: ('/pygal/graph/graph.py', '_y_axis', 'self') 888 1678 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+392: ('/pygal/graph/graph.py', '_y_axis', 'axis') 889 1679 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+393: ('/pygal/graph/graph.py', '_y_axis', 'label') 890 1680 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+394: ('/pygal/graph/graph.py', '_y_axis', 'position') 891 1686 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+395: ('/pygal/graph/graph.py', '_y_axis', 'guides') 893 1682 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+396: ('/pygal/graph/graph.py', '_y_axis', 'x') 894 1683 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+397: ('/pygal/graph/graph.py', '_y_axis', 'y') 895 1684 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'int', 'tuple']
+  PY: ['Any']
+398: ('/pygal/graph/graph.py', '_y_axis', 'text') 896 1685 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+399: ('/pygal/graph/graph.py', '_y_axis', 'secondary_ax') 897 1687 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+400: ('/pygal/graph/graph.py', '_x_axis', 'self') 898 1662 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+401: ('/pygal/graph/graph.py', '_x_axis', 'axis') 899 1663 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+402: ('/pygal/graph/graph.py', '_x_axis', 'truncation') 900 1664 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+403: ('/pygal/graph/graph.py', '_x_axis', 'first_label_position') 901 1665 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'float', 'int', 'tuple']
+  PY: ['Any']
+404: ('/pygal/graph/graph.py', '_x_axis', 'last_label_position') 902 1666 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+405: ('/pygal/graph/graph.py', '_x_axis', 'available_space') 903 1667 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+406: ('/pygal/graph/graph.py', '_x_axis', 'lastlabel') 904 1668 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+407: ('/pygal/graph/graph.py', '_x_axis', 'label') 905 1669 4 (PY Empty (is_any() is true))
+  PT: ['int', 'str', 'tuple']
+  PY: ['Any']
+408: ('/pygal/graph/graph.py', '_x_axis', 'position') 906 1676 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+409: ('/pygal/graph/graph.py', '_x_axis', 'guides') 908 1671 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+410: ('/pygal/graph/graph.py', '_x_axis', 'x') 909 1672 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+411: ('/pygal/graph/graph.py', '_x_axis', 'y') 910 1673 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+412: ('/pygal/graph/graph.py', '_x_axis', 'last_guide') 911 1674 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'list']
+  PY: ['Any']
+413: ('/pygal/graph/graph.py', '_x_axis', 'text') 912 1675 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+414: ('/pygal/graph/graph.py', '_x_axis', 'secondary_ax') 913 1677 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+415: ('/pygal/svg.py', 'serie', 'serie') 915 948 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'None', 'int', 'str', 'tuple']
+  PY: ['Any']
+416: ('/pygal/graph/graph.py', '_rescale', 'self') 917 1729 6 (PY subset PT)
+  PT: ['Bar', 'DateLine', 'DateTimeLine', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+417: ('/pygal/graph/graph.py', '_rescale', 'points') 918 1730 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+418: ('/pygal/graph/graph.py', '_rescale', '_rescale_ret') 921 99 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+419: ('/pygal/graph/bar.py', '_bar', 'secondary') 922 2037 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+420: ('/pygal/graph/bar.py', '_bar', 'serie') 924 2031 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+421: ('/pygal/graph/bar.py', '_bar', 'parent') 925 2032 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+422: ('/pygal/graph/bar.py', '_bar', 'x') 926 2033 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  PY: ['Any']
+423: ('/pygal/graph/bar.py', '_bar', 'y') 927 2034 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+424: ('/pygal/graph/bar.py', '_bar', 'i') 928 2035 3 (PT Empty)
+  PT: []
+  PY: ['int']
+425: ('/pygal/graph/bar.py', '_bar', 'zero') 929 2036 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+426: ('/pygal/graph/bar.py', '_bar', 'width') 930 2038 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+427: ('/pygal/graph/bar.py', '_bar', 'series_margin') 931 2039 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+428: ('/pygal/graph/bar.py', '_bar', 'serie_index') 932 2040 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'int']
+  PY: ['Any']
+429: ('/pygal/graph/bar.py', '_bar', 'serie_margin') 933 2041 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+430: ('/pygal/graph/bar.py', '_bar', 'height') 934 2042 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+431: ('/pygal/graph/bar.py', '_bar', 'r') 935 2043 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+432: ('/pygal/graph/graph.py', '_confidence_interval', 'self') 937 1800 6 (PY subset PT)
+  PT: ['Bar', 'DateLine', 'DateTimeLine', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'Graph']
+  PY: ['Graph']
+433: ('/pygal/graph/graph.py', '_confidence_interval', 'node') 938 1801 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+434: ('/pygal/graph/graph.py', '_confidence_interval', 'x') 939 1802 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  PY: ['Any']
+435: ('/pygal/graph/graph.py', '_confidence_interval', 'y') 940 1803 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+436: ('/pygal/graph/graph.py', '_confidence_interval', 'value') 941 1804 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+437: ('/pygal/graph/graph.py', '_confidence_interval', 'metadata') 942 1805 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+438: ('/pygal/graph/graph.py', '_confidence_interval', 'ci') 943 1806 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+439: ('/pygal/graph/graph.py', '_confidence_interval', 'low') 944 1807 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+440: ('/pygal/graph/graph.py', '_confidence_interval', 'high') 945 1808 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+441: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'self') 946 2044 6 (PY subset PT)
+  PT: ['Bar', 'Histogram']
+  PY: ['Bar']
+442: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'serie_node') 947 2045 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+443: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'serie') 948 2046 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'str', 'tuple']
+  PY: ['Any']
+444: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'parent') 949 2047 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+445: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'i') 950 2048 3 (PT Empty)
+  PT: []
+  PY: ['int']
+446: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'val') 951 2049 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+447: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'metadata') 952 2050 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+448: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x') 953 2051 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  PY: ['Any']
+449: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y') 954 2052 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+450: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'width') 955 2053 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+451: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'height') 956 2054 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+452: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x_center') 958 2056 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+453: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y_center') 959 2057 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+454: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x_top') 960 2058 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+455: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y_top') 961 2059 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+456: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x_bottom') 962 2060 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+457: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y_bottom') 963 2061 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+458: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'v') 964 2062 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+459: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'sign') 965 2063 6 (PY subset PT)
+  PT: ['bool', 'int']
+  PY: ['int']
+460: ('/pygal/svg.py', 'stroke_dict_to_css', 'i') 966 1032 6 (PY subset PT)
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100f65e40>', '<built-in method index of tuple object at 0x100ff0380>', '<built-in method index of tuple object at 0x100ff0580>', '<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10110d680>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x1013ec540>', '<built-in method index of tuple object at 0x10145b900>', '<built-in method index of tuple object at 0x101532f80>', '<built-in method index of tuple object at 0x1022345c0>', '<built-in method index of tuple object at 0x102235d80>', '<built-in method index of tuple object at 0x103863a40>', '<built-in method index of tuple object at 0x103911900>', '<built-in method index of tuple object at 0x1039f3ec0>', '<built-in method index of tuple object at 0x103a08880>', '<built-in method index of tuple object at 0x103b3fac0>', '<built-in method index of tuple object at 0x103be4040>', '<built-in method index of tuple object at 0x1042d9c40>', '<built-in method index of tuple object at 0x1042dbd40>', '<built-in method index of tuple object at 0x1044e3c80>', '<built-in method index of tuple object at 0x1044fda00>', '<built-in method index of tuple object at 0x1045ef540>', 'None']
+  PY: ['None']
+461: ('/pygal/svg.py', 'stroke_dict_to_css', 'stroke') 967 1031 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+462: ('/pygal/view.py', 'y', 'y') 971 899 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+463: ('/pygal/view.py', 'x', 'self') 972 868 6 (PY subset PT)
+  PT: ['LogView', 'ReverseView', 'View', 'Margin', 'HorizontalView', 'XLogView', 'HorizontalLogView']
+  PY: ['HorizontalLogView']
+464: ('/pygal/view.py', 'x', 'x') 973 898 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+465: ('/pygal/view.py', 'x', 'x_ret') 974 0 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'tuple']
+  PY: ['Any']
+466: ('/pygal/graph/graph.py', '_x_format', 'self') 975 1768 6 (PY subset PT)
+  PT: ['Bar', 'Box', 'Histogram', 'Line', 'Pie', 'StackedLine', 'Graph']
+  PY: ['Graph']
+467: ('/pygal/svg.py', 'transposable_node', 'attrib') 978 941 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+468: ('/pygal/svg.py', 'transposable_node', 'tag') 979 940 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+469: ('/pygal/svg.py', 'transposable_node', 'parent') 980 939 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+470: ('/pygal/svg.py', 'transposable_node', 'attr1') 984 943 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+471: ('/pygal/svg.py', 'transposable_node', 'attr2') 985 944 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+472: ('/pygal/svg.py', 'transposable_node', 'transposable_node_ret') 986 20 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+473: ('/pygal/svg.py', 'confidence_interval', 'width') 987 1014 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+474: ('/pygal/svg.py', 'confidence_interval', 'node') 989 1010 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+475: ('/pygal/svg.py', 'confidence_interval', 'x') 990 1011 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  PY: ['Any']
+476: ('/pygal/svg.py', 'confidence_interval', 'low') 991 1012 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+477: ('/pygal/svg.py', 'confidence_interval', 'high') 992 1013 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+478: ('/pygal/svg.py', 'confidence_interval', 'ci') 998 1020 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+479: ('/pygal/graph/graph.py', 'add_squares', 'squares') 1000 1839 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+480: ('/pygal/graph/graph.py', 'add_squares', 'x_lines') 1001 1840 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+481: ('/pygal/graph/graph.py', 'add_squares', 'y_lines') 1002 1841 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+482: ('/pygal/graph/graph.py', 'add_squares', '_current_x') 1003 1842 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+483: ('/pygal/graph/graph.py', 'add_squares', '_current_y') 1004 1843 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+484: ('/pygal/graph/graph.py', 'add_squares', 'line') 1005 1844 3 (PT Empty)
+  PT: []
+  PY: ['int']
+485: ('/perf.py', 'perf', 'chart') 1010 149 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+486: ('/perf.py', 'perf', 'i') 1011 150 3 (PT Empty)
+  PT: []
+  PY: ['int']
+487: ('/pygal/formatters.py', '__init__', 'none_char') 1014 530 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['str']
+488: ('/pygal/formatters.py', '__init__', 'self') 1015 529 6 (PY subset PT)
+  PT: ['Default', 'HumanReadable', 'Significant']
+  PY: ['Significant', 'Default']
+489: ('/pygal/graph/line.py', '__init__', 'self') 1019 1625 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine', 'XY']
+  PY: ['Line']
+490: ('/pygal/graph/line.py', '__init__', 'args') 1020 1626 7 (etc)
+  PT: ['Config']
+  PY: ['tuple']
+
+AM: Both
+
+491: ('/pygal/colors.py', 'lighten', 'color') 1021 1297 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+492: ('/pygal/colors.py', 'lighten', 'percent') 1022 1298 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+493: ('/pygal/colors.py', 'lighten', 'lighten_ret') 1023 67 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+494: ('/pygal/colors.py', 'darken', 'color') 1024 1299 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+495: ('/pygal/colors.py', 'darken', 'percent') 1025 1300 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+496: ('/pygal/colors.py', 'darken', 'darken_ret') 1026 63 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+497: ('/pygal/colors.py', 'adjust', 'color') 1029 1283 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+498: ('/pygal/colors.py', 'adjust', 'percent') 1031 1285 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+499: ('/pygal/colors.py', 'adjust', 'r') 1032 1286 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['nothing', 'Any']
+500: ('/pygal/colors.py', 'adjust', 'g') 1033 1287 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['nothing', 'Any']
+501: ('/pygal/colors.py', 'adjust', 'b') 1034 1288 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['nothing', 'Any']
+502: ('/pygal/colors.py', 'adjust', 'a') 1035 1289 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Optional[Any]']
+503: ('/pygal/colors.py', 'adjust', 'type') 1036 1290 6 (PY subset PT)
+  PT: ['None', 'str', 'type']
+  PY: ['Optional[str]']
+504: ('/pygal/colors.py', 'adjust', 'adjust_ret') 1037 62 8 (Partial match)
+  PT: ['str', 'tuple']
+  PY: ['Optional[str]']
+505: ('/pygal/colors.py', 'parse_color', 'color') 1038 1267 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+506: ('/pygal/colors.py', 'parse_color', 'r') 1039 1268 5 (PT subset PY)
+  PT: ['None', 'int']
+  PY: ['Optional[Any]', 'Optional[Union[float, int]]']
+507: ('/pygal/colors.py', 'parse_color', 'g') 1040 1269 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[Any]', 'Optional[Union[float, int]]']
+508: ('/pygal/colors.py', 'parse_color', 'b') 1041 1270 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[Any]', 'Optional[Union[float, int]]']
+509: ('/pygal/colors.py', 'parse_color', 'a') 1042 1271 5 (PT subset PY)
+  PT: ['None', 'int']
+  PY: ['Optional[Any]', 'Optional[Union[float, int]]']
+510: ('/pygal/colors.py', 'parse_color', 'type') 1043 1272 6 (PY subset PT)
+  PT: ['None', 'str', 'type']
+  PY: ['Optional[str]']
+511: ('/pygal/colors.py', 'parse_color', 'c') 1044 1273 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+512: ('/pygal/colors.py', 'rgb_to_hsl', 'r') 1046 1249 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'int']
+  PY: ['Any']
+513: ('/pygal/colors.py', 'rgb_to_hsl', 'g') 1047 1250 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'int']
+  PY: ['Any']
+514: ('/pygal/colors.py', 'rgb_to_hsl', 'b') 1048 1251 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'int']
+  PY: ['Any']
+515: ('/pygal/colors.py', 'rgb_to_hsl', 'max_') 1049 1252 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+516: ('/pygal/colors.py', 'rgb_to_hsl', 'min_') 1050 1253 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+517: ('/pygal/colors.py', 'rgb_to_hsl', 'd') 1051 1254 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+518: ('/pygal/colors.py', 'rgb_to_hsl', 'h') 1052 1255 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+519: ('/pygal/colors.py', 'rgb_to_hsl', 'l') 1053 1256 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+520: ('/pygal/colors.py', 'rgb_to_hsl', 's') 1054 1257 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+521: ('/pygal/colors.py', '_adjust', 'hsl') 1056 1280 6 (PY subset PT)
+  PT: ['list', 'tuple']
+  PY: ['list']
+522: ('/pygal/colors.py', '_adjust', 'attribute') 1057 1281 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+523: ('/pygal/colors.py', '_adjust', 'percent') 1058 1282 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+524: ('/pygal/colors.py', '_adjust', '_adjust_ret') 1059 61 6 (PY subset PT)
+  PT: ['list', 'tuple']
+  PY: ['list']
+525: ('/pygal/colors.py', 'hsl_to_rgb', 'h') 1060 1259 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+526: ('/pygal/colors.py', 'hsl_to_rgb', 's') 1061 1260 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+527: ('/pygal/colors.py', 'hsl_to_rgb', 'l') 1062 1261 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+528: ('/pygal/colors.py', 'hsl_to_rgb', 'm2') 1063 1262 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'float', 'int']
+  PY: ['Any']
+529: ('/pygal/colors.py', 'hsl_to_rgb', 'm1') 1064 1263 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'float', 'int']
+  PY: ['Any']
+530: ('/pygal/colors.py', 'hsl_to_rgb', 'r') 1066 1264 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+531: ('/pygal/colors.py', 'hsl_to_rgb', 'g') 1067 1265 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+532: ('/pygal/colors.py', 'hsl_to_rgb', 'b') 1068 1266 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+533: ('/pygal/colors.py', 'unparse_color', 'r') 1070 1274 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['nothing', 'Any']
+534: ('/pygal/colors.py', 'unparse_color', 'g') 1071 1275 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['nothing', 'Any']
+535: ('/pygal/colors.py', 'unparse_color', 'b') 1072 1276 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['nothing', 'Any']
+536: ('/pygal/colors.py', 'unparse_color', 'a') 1073 1277 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'int']
+  PY: ['Any']
+537: ('/pygal/colors.py', 'unparse_color', 'type') 1074 1278 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str', 'type']
+  PY: ['Any']
+538: ('/pygal/colors.py', 'unparse_color', 'unparse_color_ret') 1075 73 8 (Partial match)
+  PT: ['str', 'tuple']
+  PY: ['Optional[str]']
+539: ('/pygal/graph/line.py', '_compute', 'self') 1076 1653 6 (PY subset PT)
+  PT: ['Line', 'StackedLine']
+  PY: ['Line']
+540: ('/pygal/graph/line.py', '_compute', 'x') 1077 1654 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+541: ('/pygal/graph/line.py', '_plot', 'self') 1078 1655 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'Line', 'TimeDeltaLine', 'TimeLine']
+  PY: ['Line']
+542: ('/pygal/graph/line.py', '_plot', 'serie') 1079 1656 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+543: ('/pygal/graph/line.py', 'line', 'self') 1081 1636 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine']
+  PY: ['Line']
+544: ('/pygal/graph/line.py', 'line', 'serie') 1082 1637 4 (PY Empty (is_any() is true))
+  PT: ['None', 'tuple']
+  PY: ['Any']
+545: ('/pygal/graph/line.py', 'line', 'serie_node') 1083 1639 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+546: ('/pygal/graph/line.py', 'line', 'points') 1084 1640 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+547: ('/pygal/graph/line.py', 'line', 'i') 1086 1646 3 (PT Empty)
+  PT: []
+  PY: ['int']
+548: ('/pygal/graph/line.py', 'line', 'metadata') 1087 1642 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+549: ('/pygal/graph/line.py', 'line', 'classes') 1088 1643 6 (PY subset PT)
+  PT: ['list', 'str']
+  PY: ['str']
+550: ('/pygal/graph/line.py', 'line', 'dots') 1089 1644 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+551: ('/pygal/graph/line.py', 'line', 'val') 1090 1645 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+552: ('/pygal/graph/line.py', 'line', 'x') 1093 1647 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+553: ('/pygal/graph/line.py', 'line', 'y') 1094 1648 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'float']
+  PY: ['Any']
+554: ('/pygal/graph/line.py', 'line', 'seq') 1095 1652 6 (PY subset PT)
+  PT: ['list', 'tuple']
+  PY: ['list']
+555: ('/pygal/graph/line.py', 'line', 'ele') 1096 1651 3 (PT Empty)
+  PT: []
+  PY: ['Tuple[Any, Any]']
+556: ('/pygal/graph/line.py', '_fill', 'self') 1097 1630 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'Line', 'StackedLine', 'TimeDeltaLine', 'TimeLine']
+  PY: ['Line']
+557: ('/pygal/graph/line.py', '_fill', 'values') 1098 1631 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any', 'nothing']
+558: ('/pygal/graph/line.py', '_fill', 'zero') 1099 1632 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+559: ('/pygal/graph/line.py', '_fill', 'x') 1101 1634 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+560: ('/pygal/graph/line.py', '_fill', 'y') 1102 1635 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+561: ('/pygal/svg.py', 'line', 'close') 1105 952 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+562: ('/pygal/svg.py', 'line', 'node') 1107 950 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+563: ('/pygal/svg.py', 'line', 'coords') 1108 951 4 (PY Empty (is_any() is true))
+  PT: ['list', 'tuple']
+  PY: ['Any']
+564: ('/pygal/svg.py', 'line', 'c') 1110 955 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'None', 'bool', 'float', 'int', 'tuple']
+  PY: ['Any']
+565: ('/pygal/svg.py', 'line', 'root') 1111 956 6 (PY subset PT)
+  PT: ['bool', 'str']
+  PY: ['str']
+566: ('/pygal/svg.py', 'line', 'origin') 1114 959 3 (PT Empty)
+  PT: []
+  PY: ['str']
+567: ('/pygal/svg.py', 'line', 'line_ret') 1116 15 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+568: ('/pygal/graph/histogram.py', '_compute', 'xmin') 1118 1566 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+569: ('/pygal/graph/histogram.py', '_compute', 'xmax') 1119 1567 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+570: ('/pygal/graph/histogram.py', '_compute', 'xrng') 1120 1568 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float']
+  PY: ['Optional[Any]']
+571: ('/pygal/graph/histogram.py', '_compute', 'ymin') 1121 1569 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+572: ('/pygal/graph/histogram.py', '_compute', 'ymax') 1122 1570 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+573: ('/pygal/graph/histogram.py', '_compute', 'yrng') 1123 1571 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float']
+  PY: ['Optional[Any]']
+574: ('/pygal/graph/histogram.py', '_compute', 'serie') 1124 1572 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+575: ('/pygal/graph/dual.py', '_compute_x_labels', 'self') 1125 1899 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'Histogram', 'TimeDeltaLine', 'TimeLine', 'Dual']
+  PY: ['Dual']
+576: ('/pygal/graph/dual.py', '_compute_x_labels', 'x_pos') 1126 1900 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+577: ('/pygal/graph/dual.py', '_compute_x_labels', 'x_label') 1128 1904 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', '2013-02-01']
+  PY: ['Any']
+578: ('/pygal/graph/dual.py', '_compute_x_labels', 'pos') 1129 1901 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', '2013-02-01', 'float', 'int']
+  PY: ['Any']
+579: ('/pygal/graph/dual.py', '_compute_x_labels', 'title') 1130 1902 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', '2013-02-01']
+  PY: ['Any']
+580: ('/pygal/graph/dual.py', '_compute_x_labels_major', 'self') 1131 1905 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'Histogram', 'TimeDeltaLine', 'TimeLine', 'Dual']
+  PY: ['Dual']
+581: ('/pygal/graph/histogram.py', 'bar', 'rescale') 1132 1553 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+582: ('/pygal/graph/histogram.py', 'bar', 'serie') 1134 1552 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+583: ('/pygal/graph/histogram.py', 'bar', 'serie_node') 1135 1554 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+584: ('/pygal/graph/histogram.py', 'bar', 'bars') 1136 1555 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+585: ('/pygal/graph/histogram.py', 'bar', 'points') 1137 1556 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+586: ('/pygal/graph/histogram.py', 'bar', 'i') 1138 1561 3 (PT Empty)
+  PT: []
+  PY: ['int']
+587: ('/pygal/graph/histogram.py', 'bar', 'metadata') 1139 1557 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+588: ('/pygal/graph/histogram.py', 'bar', 'bar') 1140 1558 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+589: ('/pygal/graph/histogram.py', 'bar', 'val') 1141 1559 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+590: ('/pygal/graph/histogram.py', '_bar', 'secondary') 1143 1544 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+591: ('/pygal/graph/histogram.py', '_bar', 'serie') 1145 1537 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+592: ('/pygal/graph/histogram.py', '_bar', 'parent') 1146 1538 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+593: ('/pygal/graph/histogram.py', '_bar', 'x0') 1147 1539 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+594: ('/pygal/graph/histogram.py', '_bar', 'x1') 1148 1540 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+595: ('/pygal/graph/histogram.py', '_bar', 'y') 1149 1541 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+596: ('/pygal/graph/histogram.py', '_bar', 'i') 1150 1542 3 (PT Empty)
+  PT: []
+  PY: ['int']
+597: ('/pygal/graph/histogram.py', '_bar', 'zero') 1151 1543 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+598: ('/pygal/graph/histogram.py', '_bar', 'x') 1152 1545 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+599: ('/pygal/graph/histogram.py', '_bar', '_') 1153 1546 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+600: ('/pygal/graph/histogram.py', '_bar', 'width') 1154 1547 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+601: ('/pygal/graph/histogram.py', '_bar', 'height') 1155 1548 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+602: ('/pygal/graph/histogram.py', '_bar', 'series_margin') 1156 1549 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+603: ('/pygal/graph/histogram.py', '_bar', 'r') 1157 1550 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+604: ('/pygal/graph/dual.py', '_value_format', 'self') 1159 1897 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'Histogram', 'TimeDeltaLine', 'TimeLine', 'Dual']
+  PY: ['Dual']
+605: ('/pygal/graph/dual.py', '_value_format', 'value') 1160 1898 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+606: ('/pygal/graph/dual.py', '_value_format', '_value_format_ret') 1161 108 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['str']
+607: ('/pygal/adapters.py', 'positive', 'x') 1162 1244 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int', 'str']
+  PY: ['Any']
+608: ('/pygal/adapters.py', 'positive', 'positive_ret') 1163 88 8 (Partial match)
+  PT: ['None', 'int', 'str']
+  PY: ['Optional[Union[int, _T0]]']
+609: ('/pygal/adapters.py', 'not_zero', 'x') 1164 1245 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+610: ('/pygal/adapters.py', 'not_zero', 'not_zero_ret') 1165 87 7 (etc)
+  PT: ['int']
+  PY: ['Optional[_T0]']
+611: ('/pygal/adapters.py', 'none_to_zero', 'x') 1166 1246 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+612: ('/pygal/adapters.py', 'none_to_zero', 'none_to_zero_ret') 1167 86 8 (Partial match)
+  PT: ['None', 'int']
+  PY: ['Union[int, _T0]']
+613: ('/pygal/adapters.py', 'decimal_to_float', 'x') 1168 1247 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+614: ('/pygal/adapters.py', 'decimal_to_float', 'decimal_to_float_ret') 1169 85 5 (PT subset PY)
+  PT: ['float']
+  PY: ['Union[float, _T0]']
+615: ('/pygal/colors.py', 'normalize_float', 'f') 1170 1248 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+616: ('/pygal/colors.py', 'normalize_float', 'normalize_float_ret') 1171 68 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+617: ('/pygal/colors.py', 'is_foreground_light', 'color') 1172 1279 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+618: ('/pygal/colors.py', 'is_foreground_light', 'is_foreground_light_ret') 1173 66 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+619: ('/pygal/svg.py', 'gauge_background', 'serie_node') 1175 977 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+620: ('/pygal/svg.py', 'gauge_background', 'start_angle') 1176 978 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+621: ('/pygal/svg.py', 'gauge_background', 'center') 1177 979 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+622: ('/pygal/svg.py', 'gauge_background', 'radius') 1178 980 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+623: ('/pygal/svg.py', 'gauge_background', 'small_radius') 1179 981 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+624: ('/pygal/svg.py', 'gauge_background', 'end_angle') 1180 982 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+625: ('/pygal/svg.py', 'gauge_background', 'half_pie') 1181 983 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+626: ('/pygal/svg.py', 'gauge_background', 'max_value') 1182 984 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+627: ('/pygal/svg.py', 'gauge_background', 'middle_radius') 1187 989 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+628: ('/pygal/svg.py', 'gauge_background', 'text_') 1189 991 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+629: ('/pygal/svg.py', 'solid_gauge', 'serie_node') 1191 993 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+630: ('/pygal/svg.py', 'solid_gauge', 'node') 1192 994 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+631: ('/pygal/svg.py', 'solid_gauge', 'radius') 1193 995 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+632: ('/pygal/svg.py', 'solid_gauge', 'small_radius') 1194 996 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+633: ('/pygal/svg.py', 'solid_gauge', 'angle') 1195 997 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+634: ('/pygal/svg.py', 'solid_gauge', 'start_angle') 1196 998 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+635: ('/pygal/svg.py', 'solid_gauge', 'center') 1197 999 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+636: ('/pygal/svg.py', 'solid_gauge', 'val') 1198 1000 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+637: ('/pygal/svg.py', 'solid_gauge', 'i') 1199 1001 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+638: ('/pygal/svg.py', 'solid_gauge', 'metadata') 1200 1002 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+639: ('/pygal/svg.py', 'solid_gauge', 'half_pie') 1201 1003 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+640: ('/pygal/svg.py', 'solid_gauge', 'end_angle') 1202 1004 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+641: ('/pygal/svg.py', 'solid_gauge', 'max_value') 1203 1005 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+642: ('/pygal/svg.py', 'solid_gauge', 'x') 1205 1007 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+643: ('/pygal/svg.py', 'solid_gauge', 'y') 1206 1008 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+644: ('/pygal/util.py', 'coord_abs_project', 'center') 1207 839 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+645: ('/pygal/util.py', 'coord_abs_project', 'rho') 1208 840 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+646: ('/pygal/util.py', 'coord_abs_project', 'theta') 1209 841 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+647: ('/pygal/util.py', 'coord_abs_project', 'coord_abs_project_ret') 1210 36 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['str']
+648: ('/pygal/util.py', 'coord_dual', 'r') 1211 838 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+649: ('/pygal/util.py', 'coord_dual', 'coord_dual_ret') 1212 38 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['str']
+650: ('/pygal/util.py', 'coord_project', 'rho') 1213 833 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+651: ('/pygal/util.py', 'coord_project', 'alpha') 1214 834 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+652: ('/pygal/util.py', 'coord_diff', 'x') 1216 835 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+653: ('/pygal/util.py', 'coord_format', 'coord_format_ret') 1220 39 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['str']
+654: ('/pygal/graph/funnel.py', 'funnel', 'serie') 1222 2160 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+655: ('/pygal/graph/funnel.py', 'funnel', 'serie_node') 1223 2161 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+656: ('/pygal/graph/funnel.py', 'funnel', 'i') 1225 2169 3 (PT Empty)
+  PT: []
+  PY: ['int']
+657: ('/pygal/graph/funnel.py', 'funnel', 'poly') 1226 2170 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+658: ('/pygal/graph/funnel.py', 'funnel', 'metadata') 1227 2163 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+659: ('/pygal/graph/funnel.py', 'funnel', 'val') 1228 2164 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+660: ('/pygal/graph/funnel.py', 'funnel', 'funnels') 1229 2165 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+661: ('/pygal/graph/funnel.py', 'funnel', 'point') 1230 2168 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+662: ('/pygal/graph/funnel.py', 'funnel', 'x') 1231 2166 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+663: ('/pygal/graph/funnel.py', 'funnel', 'y') 1232 2167 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+664: ('/pygal/graph/funnel.py', '_center', 'x') 1234 2172 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+665: ('/pygal/graph/funnel.py', '_center', '_center_ret') 1235 125 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+666: ('/pygal/graph/funnel.py', '_value_format', 'value') 1237 2158 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+667: ('/pygal/graph/funnel.py', '_value_format', '_value_format_ret') 1238 126 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+668: ('/pygal/graph/public.py', 'render_response', 'render_response_ret') 1243 136 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+669: ('/pygal/graph/public.py', 'render_django_response', 'render_django_response_ret') 1246 134 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+670: ('/pygal/graph/public.py', 'render_to_file', 'filename') 1252 1396 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+671: ('/pygal/graph/public.py', 'render_to_png', 'dpi') 1254 1400 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+672: ('/pygal/graph/public.py', 'render_to_png', 'filename') 1255 1399 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+673: ('/pygal/graph/public.py', 'render_to_png', 'render_to_png_ret') 1257 140 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+674: ('/pygal/graph/public.py', 'render_sparkline', 'render_sparkline_ret') 1261 137 4 (PY Empty (is_any() is true))
+  PT: ['bytes', 'str']
+  PY: ['Any']
+675: ('/pygal/graph/public.py', 'render_tree', 'self') 1263 1379 6 (PY subset PT)
+  PT: ['Bar', 'PublicApi']
+  PY: ['PublicApi']
+676: ('/pygal/graph/public.py', 'render_tree', 'svg') 1264 1381 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+677: ('/pygal/graph/public.py', 'render_tree', 'f') 1265 1382 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'tuple']
+  PY: ['Any']
+678: ('/pygal/graph/public.py', 'render_tree', 'render_tree_ret') 1266 141 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+679: ('/pygal/graph/public.py', 'add_xml_filter', 'self') 1267 1373 6 (PY subset PT)
+  PT: ['Bar', 'PublicApi']
+  PY: ['PublicApi']
+680: ('/pygal/graph/public.py', 'add_xml_filter', 'callback') 1268 1374 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x1010b7490>', 'ChangeBarsXMLFilter']
+  PY: ['Any']
+681: ('/pygal/graph/public.py', 'add_xml_filter', 'add_xml_filter_ret') 1269 131 7 (etc)
+  PT: ['Bar', 'PublicApi']
+  PY: ['_TPublicApi']
+
+AM: Both
+
+682: ('/pygal/graph/stackedline.py', '__init__', 'args') 1272 1936 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+683: ('/pygal/graph/stackedline.py', '_plot', 'serie') 1274 1954 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+684: ('/pygal/graph/stackedline.py', '_points', 'x_pos') 1276 1947 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'list']
+  PY: ['Any']
+685: ('/pygal/graph/stackedline.py', '_points', 'series_group') 1277 1952 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+686: ('/pygal/graph/stackedline.py', '_points', 'serie') 1279 1951 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+687: ('/pygal/graph/stackedline.py', '_points', 'i') 1280 1949 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+688: ('/pygal/graph/stackedline.py', '_points', 'v') 1281 1950 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+689: ('/pygal/graph/stackedline.py', '_fill', 'values') 1283 1944 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+690: ('/pygal/graph/stackedline.py', '_fill', '_fill_ret') 1284 89 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+691: ('/pygal/graph/stackedline.py', '_fill', 'new_values') 1285 1945 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+692: ('/pygal/graph/stackedline.py', '_value_format', 'value') 1287 1939 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+693: ('/pygal/graph/stackedline.py', '_value_format', 'serie') 1288 1940 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+694: ('/pygal/graph/stackedline.py', '_value_format', 'index') 1289 1941 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+695: ('/pygal/graph/stackedline.py', '_value_format', 'sum_') 1290 1942 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+696: ('/pygal/graph/stackedline.py', '_value_format', '_value_format_ret') 1291 90 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+697: ('/pygal/graph/solidgauge.py', 'gaugify', 'serie') 1293 1986 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+698: ('/pygal/graph/solidgauge.py', 'gaugify', 'squares') 1294 1987 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+699: ('/pygal/graph/solidgauge.py', 'gaugify', 'sq_dimensions') 1295 1988 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+700: ('/pygal/graph/solidgauge.py', 'gaugify', 'current_square') 1296 1989 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+701: ('/pygal/graph/solidgauge.py', 'gaugify', 'serie_node') 1297 1990 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+702: ('/pygal/graph/solidgauge.py', 'gaugify', 'start_angle') 1298 1991 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+703: ('/pygal/graph/solidgauge.py', 'gaugify', 'max_value') 1301 1994 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+704: ('/pygal/graph/solidgauge.py', 'gaugify', 'radius') 1302 1995 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+705: ('/pygal/graph/solidgauge.py', 'gaugify', 'small_radius') 1303 1996 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+706: ('/pygal/graph/solidgauge.py', 'gaugify', 'sum_') 1304 1997 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+707: ('/pygal/graph/solidgauge.py', 'gaugify', 'i') 1305 2003 3 (PT Empty)
+  PT: []
+  PY: ['int']
+708: ('/pygal/graph/solidgauge.py', 'gaugify', 'value') 1306 2004 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+709: ('/pygal/graph/solidgauge.py', 'gaugify', 'ratio') 1307 1998 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+710: ('/pygal/graph/solidgauge.py', 'gaugify', 'angle') 1308 1999 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+711: ('/pygal/graph/solidgauge.py', 'gaugify', 'val') 1309 2000 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+712: ('/pygal/graph/solidgauge.py', 'gaugify', 'metadata') 1310 2001 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+713: ('/pygal/graph/solidgauge.py', 'gaugify', 'gauge_') 1311 2002 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+714: ('/pygal/graph/solidgauge.py', 'gaugify', 'x') 1312 2005 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+715: ('/pygal/graph/solidgauge.py', 'gaugify', 'y') 1313 2006 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+716: ('/pygal/graph/graph.py', '_serie_format', 'self') 1314 1780 6 (PY subset PT)
+  PT: ['Pie', 'SolidGauge', 'Graph']
+  PY: ['Graph']
+717: ('/pygal/graph/graph.py', '_serie_format', 'serie') 1315 1781 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+718: ('/pygal/graph/graph.py', '_serie_format', 'value') 1316 1782 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+719: ('/pygal/graph/graph.py', '_serie_format', 'formatter') 1318 1784 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+720: ('/pygal/graph/graph.py', '_serie_format', '_serie_format_ret') 1319 100 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+721: ('/pygal/style.py', '__init__', 'self') 1321 542 8 (Partial match)
+  PT: ['LightStyle', 'RotateStyle', 'Style', 'ParametricStyleBase']
+  PY: ['DarkenStyle', 'DesaturateStyle', 'LightenStyle', 'ParametricStyleBase', 'RotateStyle', 'SaturateStyle']
+722: ('/pygal/style.py', '__init__', 'name') 1322 545 3 (PT Empty)
+  PT: []
+  PY: ['str']
+723: ('/pygal/style.py', '__init__', 'fn') 1323 544 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+724: ('/pygal/style.py', 'get_colors', 'prefix') 1325 550 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+725: ('/pygal/style.py', 'get_colors', 'len_') 1326 551 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+726: ('/pygal/style.py', 'get_colors', 'missing') 1330 552 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+727: ('/pygal/style.py', 'get_colors', 'cycles') 1331 553 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+728: ('/pygal/style.py', 'get_colors', 'colors') 1332 554 8 (Partial match)
+  PT: ['list', 'str']
+  PY: ['Union[Tuple[str, ...], list]']
+729: ('/pygal/style.py', 'get_colors', 'i') 1333 556 3 (PT Empty)
+  PT: []
+  PY: ['int']
+730: ('/pygal/__init__.py', 'find_module', 'path') 1337 856 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+731: ('/pygal/__init__.py', 'find_module', 'fullname') 1339 855 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+732: ('/pygal/graph/public.py', 'render_sparktext', 'relative_to') 1341 1403 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float', 'int']
+  PY: ['Any']
+733: ('/pygal/graph/public.py', 'render_sparktext', 'self') 1342 1402 6 (PY subset PT)
+  PT: ['Bar', 'Line', 'PublicApi']
+  PY: ['PublicApi']
+734: ('/pygal/graph/public.py', 'render_sparktext', 'render_sparktext_ret') 1344 138 6 (PY subset PT)
+  PT: ['int', 'str']
+  PY: ['str']
+735: ('/pygal/graph/public.py', 'render_sparktext', 'chart') 1346 1406 6 (PY subset PT)
+  PT: ['int', 'str']
+  PY: ['str']
+736: ('/pygal/graph/public.py', 'render_sparktext', 'vmax') 1347 1407 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['nothing']
+737: ('/pygal/graph/public.py', 'render_sparktext', 'value') 1349 1409 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+738: ('/pygal/graph/pie.py', '_plot', 'total') 1351 1929 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+739: ('/pygal/graph/pie.py', '_plot', 'current_angle') 1352 1930 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+740: ('/pygal/graph/pie.py', '_plot', 'serie') 1354 1933 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+741: ('/pygal/graph/pie.py', '_plot', 'angle') 1355 1931 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+742: ('/pygal/graph/pie.py', 'slice', 'serie') 1357 1908 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+743: ('/pygal/graph/pie.py', 'slice', 'start_angle') 1358 1909 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+744: ('/pygal/graph/pie.py', 'slice', 'total') 1359 1910 2 (Both Empty)
+  PT: []
+  PY: ['nothing', 'Any']
+745: ('/pygal/graph/pie.py', 'slice', 'serie_node') 1360 1911 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+746: ('/pygal/graph/pie.py', 'slice', 'dual') 1361 1912 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+747: ('/pygal/graph/pie.py', 'slice', 'slices') 1362 1913 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+748: ('/pygal/graph/pie.py', 'slice', 'serie_angle') 1363 1914 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+749: ('/pygal/graph/pie.py', 'slice', 'radius') 1366 1917 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['nothing']
+750: ('/pygal/graph/pie.py', 'slice', 'i') 1367 1925 3 (PT Empty)
+  PT: []
+  PY: ['int']
+751: ('/pygal/graph/pie.py', 'slice', 'val') 1368 1920 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+752: ('/pygal/graph/pie.py', 'slice', 'perc') 1369 1918 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+753: ('/pygal/graph/pie.py', 'slice', 'angle') 1370 1919 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+754: ('/pygal/graph/pie.py', 'slice', 'metadata') 1371 1921 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+755: ('/pygal/graph/pie.py', 'slice', 'slice_') 1372 1922 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+756: ('/pygal/graph/pie.py', 'slice', 'small_radius') 1373 1923 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['nothing']
+757: ('/pygal/graph/pie.py', 'slice', 'big_radius') 1374 1924 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['nothing']
+758: ('/pygal/graph/pie.py', 'slice', 'slice_ret') 1375 104 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+759: ('/pygal/svg.py', 'slice', 'serie_node') 1377 962 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+760: ('/pygal/svg.py', 'slice', 'node') 1378 963 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+761: ('/pygal/svg.py', 'slice', 'radius') 1379 964 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+762: ('/pygal/svg.py', 'slice', 'small_radius') 1380 965 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+763: ('/pygal/svg.py', 'slice', 'angle') 1381 966 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+764: ('/pygal/svg.py', 'slice', 'start_angle') 1382 967 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+765: ('/pygal/svg.py', 'slice', 'center') 1383 968 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+766: ('/pygal/svg.py', 'slice', 'val') 1384 969 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+767: ('/pygal/svg.py', 'slice', 'i') 1385 970 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+768: ('/pygal/svg.py', 'slice', 'metadata') 1386 971 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+769: ('/pygal/svg.py', 'slice', 'rv') 1388 973 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+770: ('/pygal/svg.py', 'slice', 'x') 1389 974 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+771: ('/pygal/svg.py', 'slice', 'y') 1390 975 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+772: ('/pygal/_compat.py', 'timestamp', 'x') 1391 1236 4 (PY Empty (is_any() is true))
+  PT: ['0001-04-24 02:00:00', '2017-07-14 02:40:00', '2024-05-21 00:15:06.831957', '2024-05-21 04:15:06.831959', 'str']
+  PY: ['Any']
+773: ('/pygal/_compat.py', 'timestamp', 'timestamp_ret') 1392 27 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+774: ('/pygal/graph/xy.py', '_compute', 'self') 1393 1486 6 (PY subset PT)
+  PT: ['DateLine', 'DateTimeLine', 'TimeDeltaLine', 'TimeLine', 'XY']
+  PY: ['XY']
+775: ('/pygal/graph/xy.py', '_compute', 'x_adapter') 1394 1487 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x101da60e0>']
+  PY: ['Any']
+776: ('/pygal/graph/xy.py', '_compute', 'xmin') 1395 1488 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', 'float']
+  PY: ['Any']
+777: ('/pygal/graph/xy.py', '_compute', 'xmax') 1396 1489 4 (PY Empty (is_any() is true))
+  PT: ['2013-03-01', 'float']
+  PY: ['Any']
+778: ('/pygal/graph/xy.py', '_compute', 'xrng') 1397 1490 4 (PY Empty (is_any() is true))
+  PT: ['59 days, 0:00:00', 'None', 'float']
+  PY: ['Optional[Any]']
+779: ('/pygal/graph/xy.py', '_compute', 'ymin') 1398 1491 4 (PY Empty (is_any() is true))
+  PT: ['int', 'meta_func']
+  PY: ['Any']
+780: ('/pygal/graph/xy.py', '_compute', 'ymax') 1399 1492 4 (PY Empty (is_any() is true))
+  PT: ['int', 'meta_func']
+  PY: ['Any']
+781: ('/pygal/graph/xy.py', '_compute', 'yrng') 1400 1493 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Optional[Any]']
+782: ('/pygal/graph/xy.py', '_compute', 'serie') 1401 1495 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+783: ('/pygal/graph/xy.py', '_compute', 'val') 1403 1496 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+784: ('/pygal/graph/time.py', '_x_format', 'self') 1404 1316 6 (PY subset PT)
+  PT: ['TimeDeltaLine', 'DateTimeLine', 'DateLine', 'TimeLine']
+  PY: ['TimeDeltaLine']
+785: ('/pygal/graph/time.py', 'date_to_str', 'x') 1409 1318 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', '2013-02-01', 'float', 'int']
+  PY: ['Any']
+786: ('/pygal/graph/time.py', 'datetime_to_str', 'x') 1413 1314 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', '2013-02-01', 'float', 'int']
+  PY: ['Any']
+787: ('/pygal/graph/time.py', 'timedelta_to_str', 'x') 1416 1322 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', '2013-02-01', 'float', 'int']
+  PY: ['Any']
+788: ('/pygal/graph/time.py', 'seconds_to_time', 'x') 1419 1308 4 (PY Empty (is_any() is true))
+  PT: ['2013-01-01', '2013-02-01', 'float', 'int', 'str']
+  PY: ['Any']
+789: ('/pygal/graph/public.py', 'render_table', 'self') 1427 1383 6 (PY subset PT)
+  PT: ['Pie', 'PublicApi']
+  PY: ['PublicApi']
+790: ('/pygal/graph/public.py', 'render_table', 'render_table_ret') 1428 139 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+791: ('/pygal/graph/dot.py', 'dot', 'serie') 1430 2090 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+792: ('/pygal/graph/dot.py', 'dot', 'r_max') 1431 2091 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+793: ('/pygal/graph/dot.py', 'dot', 'serie_node') 1432 2092 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+794: ('/pygal/graph/dot.py', 'dot', 'i') 1434 2102 3 (PT Empty)
+  PT: []
+  PY: ['int']
+795: ('/pygal/graph/dot.py', 'dot', 'value') 1435 2103 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+796: ('/pygal/graph/dot.py', 'dot', 'x') 1436 2094 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+797: ('/pygal/graph/dot.py', 'dot', 'y') 1437 2095 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+798: ('/pygal/graph/dot.py', 'dot', 'size') 1440 2098 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+799: ('/pygal/graph/dot.py', 'dot', 'metadata') 1441 2099 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+800: ('/pygal/graph/dot.py', 'dot', 'dots') 1442 2100 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+801: ('/pygal/graph/dot.py', 'dot', 'val') 1443 2101 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+802: ('/pygal/util.py', 'safe_enumerate', 'iterable') 1444 818 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+803: ('/pygal/util.py', 'safe_enumerate', 'i') 1445 819 3 (PT Empty)
+  PT: []
+  PY: ['int']
+804: ('/pygal/util.py', 'safe_enumerate', 'v') 1446 820 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+805: ('/pygal/interpolate.py', 'quadratic_interpolate', 'x') 1449 1092 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+806: ('/pygal/interpolate.py', 'quadratic_interpolate', 'y') 1450 1093 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+807: ('/pygal/interpolate.py', 'quadratic_interpolate', 'x1') 1452 1098 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+808: ('/pygal/interpolate.py', 'quadratic_interpolate', 'x2') 1453 1099 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+809: ('/pygal/interpolate.py', 'quadratic_interpolate', 'y1') 1455 1101 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+810: ('/pygal/interpolate.py', 'quadratic_interpolate', 'y2') 1456 1102 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+811: ('/pygal/interpolate.py', 'quadratic_interpolate', 'i') 1458 1104 3 (PT Empty)
+  PT: []
+  PY: ['int']
+812: ('/pygal/interpolate.py', 'quadratic_interpolate', 'a') 1460 1105 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+813: ('/pygal/interpolate.py', 'quadratic_interpolate', 's') 1463 1110 3 (PT Empty)
+  PT: []
+  PY: ['int']
+814: ('/pygal/interpolate.py', 'quadratic_interpolate', 'X') 1464 1108 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+815: ('/pygal/interpolate.py', 'quadratic_interpolate', 'X2') 1465 1109 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+816: ('/pygal/interpolate.py', 'cubic_interpolate', 'x') 1468 1111 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+817: ('/pygal/interpolate.py', 'cubic_interpolate', 'y') 1469 1112 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+818: ('/pygal/interpolate.py', 'cubic_interpolate', 'a') 1471 1116 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+819: ('/pygal/interpolate.py', 'cubic_interpolate', 'x1') 1477 1123 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+820: ('/pygal/interpolate.py', 'cubic_interpolate', 'x2') 1478 1124 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+821: ('/pygal/interpolate.py', 'cubic_interpolate', 'a1') 1480 1126 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+822: ('/pygal/interpolate.py', 'cubic_interpolate', 'a2') 1481 1127 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+823: ('/pygal/interpolate.py', 'cubic_interpolate', 'i') 1483 1129 3 (PT Empty)
+  PT: []
+  PY: ['int']
+824: ('/pygal/interpolate.py', 'cubic_interpolate', 'l') 1486 1131 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+825: ('/pygal/interpolate.py', 'cubic_interpolate', 's') 1487 1135 3 (PT Empty)
+  PT: []
+  PY: ['int']
+826: ('/pygal/interpolate.py', 'cubic_interpolate', 'X') 1488 1132 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+827: ('/pygal/interpolate.py', 'cubic_interpolate', 'X2') 1489 1133 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+828: ('/pygal/interpolate.py', 'cubic_interpolate', 'X3') 1490 1134 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+829: ('/pygal/interpolate.py', 'hermite_interpolate', 't') 1491 1151 5 (PT subset PY)
+  PT: ['None', 'int']
+  PY: ['None', 'Union[float, int]']
+830: ('/pygal/interpolate.py', 'hermite_interpolate', 'b') 1492 1150 5 (PT subset PY)
+  PT: ['None', 'int']
+  PY: ['None', 'Union[float, int]']
+831: ('/pygal/interpolate.py', 'hermite_interpolate', 'c') 1493 1149 5 (PT subset PY)
+  PT: ['None', 'int']
+  PY: ['None', 'Union[float, int]']
+832: ('/pygal/interpolate.py', 'hermite_interpolate', 'x') 1496 1145 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+833: ('/pygal/interpolate.py', 'hermite_interpolate', 'y') 1497 1146 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+834: ('/pygal/interpolate.py', 'hermite_interpolate', 'x1') 1501 1156 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+835: ('/pygal/interpolate.py', 'hermite_interpolate', 'x2') 1502 1157 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+836: ('/pygal/interpolate.py', 'hermite_interpolate', 'i') 1504 1158 3 (PT Empty)
+  PT: []
+  PY: ['int']
+837: ('/pygal/interpolate.py', 'hermite_interpolate', 's') 1506 1160 3 (PT Empty)
+  PT: []
+  PY: ['int']
+838: ('/pygal/interpolate.py', 'hermite_interpolate', 'X') 1507 1159 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+839: ('/pygal/interpolate.py', 'lagrange_interpolate', 'x') 1510 1161 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+840: ('/pygal/interpolate.py', 'lagrange_interpolate', 'y') 1511 1162 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+841: ('/pygal/interpolate.py', 'lagrange_interpolate', 'x1') 1513 1167 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+842: ('/pygal/interpolate.py', 'lagrange_interpolate', 'x2') 1514 1168 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+843: ('/pygal/interpolate.py', 'lagrange_interpolate', 'i') 1516 1174 3 (PT Empty)
+  PT: []
+  PY: ['int']
+844: ('/pygal/interpolate.py', 'lagrange_interpolate', 's') 1517 1170 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+845: ('/pygal/interpolate.py', 'lagrange_interpolate', 'X') 1518 1169 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+846: ('/pygal/interpolate.py', 'lagrange_interpolate', 'k') 1519 1173 3 (PT Empty)
+  PT: []
+  PY: ['int']
+847: ('/pygal/interpolate.py', 'lagrange_interpolate', 'p') 1520 1171 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+848: ('/pygal/interpolate.py', 'lagrange_interpolate', 'm') 1521 1172 3 (PT Empty)
+  PT: []
+  PY: ['int']
+849: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'x') 1524 1175 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+850: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'y') 1525 1176 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+851: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'x1') 1527 1181 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+852: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'x2') 1528 1182 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+853: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'i') 1530 1188 3 (PT Empty)
+  PT: []
+  PY: ['int']
+854: ('/pygal/interpolate.py', 'trigonometric_interpolate', 's') 1531 1184 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+855: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'X') 1532 1183 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+856: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'k') 1533 1187 3 (PT Empty)
+  PT: []
+  PY: ['int']
+857: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'm') 1535 1186 3 (PT Empty)
+  PT: []
+  PY: ['int']
+858: ('/pygal/interpolate.py', 'p', 'i') 1536 1136 3 (PT Empty)
+  PT: []
+  PY: ['int']
+859: ('/pygal/interpolate.py', 'p', 'x_') 1537 1137 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+860: ('/pygal/interpolate.py', 'p', 't') 1538 1138 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+861: ('/pygal/interpolate.py', 'p', 't2') 1539 1139 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+862: ('/pygal/interpolate.py', 'p', 't3') 1540 1140 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+863: ('/pygal/interpolate.py', 'p', 'h00') 1541 1141 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+864: ('/pygal/interpolate.py', 'p', 'h10') 1542 1142 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+865: ('/pygal/interpolate.py', 'p', 'h01') 1543 1143 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+866: ('/pygal/interpolate.py', 'p', 'h11') 1544 1144 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+867: ('/pygal/style.py', '__init__', 'base_style') 1546 723 4 (PY Empty (is_any() is true))
+  PT: ['LightStyle', 'None']
+  PY: ['Any']
+868: ('/pygal/style.py', '__init__', 'max_') 1547 722 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+869: ('/pygal/style.py', '__init__', 'step') 1548 721 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+870: ('/pygal/style.py', '__init__', 'color') 1549 720 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+871: ('/pygal/style.py', 'to_dict', 'self') 1553 558 6 (PY subset PT)
+  PT: ['LightStyle', 'Style']
+  PY: ['Style']
+872: ('/pygal/style.py', 'to_dict', 'attr') 1555 561 3 (PT Empty)
+  PT: []
+  PY: ['str']
+873: ('/pygal/style.py', 'to_dict', 'value') 1556 560 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+874: ('/pygal/graph/box.py', '_compute', 'serie') 1561 1419 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+875: ('/pygal/graph/box.py', '_compute', 'i') 1562 1420 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+876: ('/pygal/graph/box.py', '_plot', 'serie') 1564 1422 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+877: ('/pygal/graph/box.py', '_box_points', 'mode') 1565 1463 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+878: ('/pygal/graph/box.py', '_box_points', 'values') 1566 1462 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+879: ('/pygal/graph/box.py', '_box_points', 'x') 1572 1466 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+880: ('/pygal/graph/box.py', '_box_points', 's') 1573 1465 3 (PT Empty)
+  PT: []
+  PY: ['list']
+881: ('/pygal/graph/box.py', '_box_points', 'q2') 1576 1468 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+882: ('/pygal/graph/box.py', '_box_points', 'q1') 1577 1469 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+883: ('/pygal/graph/box.py', '_box_points', 'q3') 1578 1470 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+884: ('/pygal/graph/box.py', '_box_points', 'm') 1579 1471 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+885: ('/pygal/graph/box.py', '_box_points', 'iqr') 1580 1472 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+886: ('/pygal/graph/box.py', '_box_points', 'min_s') 1581 1473 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+887: ('/pygal/graph/box.py', '_box_points', 'max_s') 1582 1474 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+888: ('/pygal/graph/box.py', '_box_points', 'q0') 1583 1475 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+889: ('/pygal/graph/box.py', '_box_points', 'q4') 1584 1476 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+890: ('/pygal/graph/box.py', '_box_points', 'b0') 1585 1477 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+891: ('/pygal/graph/box.py', '_box_points', 'b4') 1586 1478 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+892: ('/pygal/graph/box.py', '_box_points', 'sd') 1587 1479 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+893: ('/pygal/graph/box.py', '_box_points', 'sdp') 1588 1480 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+894: ('/pygal/graph/box.py', '_boxf', 'serie') 1590 1425 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+895: ('/pygal/graph/box.py', '_boxf', 'serie_node') 1591 1426 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+896: ('/pygal/graph/box.py', '_boxf', 'boxes') 1592 1427 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+897: ('/pygal/graph/box.py', '_boxf', 'metadata') 1593 1428 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+898: ('/pygal/graph/box.py', '_boxf', 'box') 1594 1429 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+899: ('/pygal/graph/box.py', '_boxf', 'val') 1595 1430 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+900: ('/pygal/graph/box.py', '_boxf', 'x_center') 1596 1431 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'float', 'int']
+  PY: ['Any']
+901: ('/pygal/graph/box.py', '_boxf', 'y_center') 1597 1432 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+902: ('/pygal/graph/box.py', 'median', 'seq') 1598 1449 3 (PT Empty)
+  PT: []
+  PY: ['list']
+903: ('/pygal/graph/box.py', 'stdev', 'seq') 1601 1452 3 (PT Empty)
+  PT: []
+  PY: ['list']
+904: ('/pygal/graph/box.py', 'stdev', 'm') 1602 1453 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+905: ('/pygal/graph/box.py', 'stdev', 'v') 1604 1455 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+906: ('/pygal/graph/box.py', 'pstdev', 'seq') 1606 1457 3 (PT Empty)
+  PT: []
+  PY: ['list']
+907: ('/pygal/graph/box.py', 'pstdev', 'm') 1607 1458 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+908: ('/pygal/graph/box.py', 'pstdev', 'v') 1609 1460 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+909: ('/pygal/graph/box.py', '_draw_box', 'parent_node') 1612 1434 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+910: ('/pygal/graph/box.py', '_draw_box', 'quartiles') 1613 1435 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+911: ('/pygal/graph/box.py', '_draw_box', 'outliers') 1614 1436 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+912: ('/pygal/graph/box.py', '_draw_box', 'box_index') 1615 1437 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>']
+  PY: ['Any']
+913: ('/pygal/graph/box.py', '_draw_box', 'metadata') 1616 1438 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+914: ('/pygal/graph/box.py', '_draw_box', 'width') 1617 1439 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+915: ('/pygal/graph/box.py', '_draw_box', 'series_margin') 1618 1440 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+916: ('/pygal/graph/box.py', '_draw_box', 'left_edge') 1619 1441 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'float', 'int']
+  PY: ['Any']
+917: ('/pygal/graph/box.py', '_draw_box', 'i') 1620 1446 3 (PT Empty)
+  PT: []
+  PY: ['int']
+918: ('/pygal/graph/box.py', '_draw_box', 'whisker') 1621 1447 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+919: ('/pygal/graph/box.py', '_draw_box', 'whisker_width') 1622 1442 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'float', 'int']
+  PY: ['Any']
+920: ('/pygal/graph/box.py', '_draw_box', 'shift') 1623 1443 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'float', 'int']
+  PY: ['Any']
+921: ('/pygal/graph/box.py', '_draw_box', 'xs') 1624 1444 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'bool', 'float', 'int']
+  PY: ['Any']
+922: ('/pygal/graph/box.py', '_draw_box', 'xe') 1625 1445 4 (PY Empty (is_any() is true))
+  PT: ['<built-in method index of tuple object at 0x100dd9180>', '<built-in method index of tuple object at 0x100ff0380>', 'bool', 'float', 'int']
+  PY: ['Any']
+923: ('/pygal/graph/box.py', '_draw_box', 'o') 1626 1448 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+924: ('/pygal/graph/box.py', '_value_format', 'value') 1629 1416 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+925: ('/pygal/graph/box.py', '_value_format', 'serie') 1630 1417 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+926: ('/pygal/graph/box.py', '_value_format', '_value_format_ret') 1631 107 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+927: ('/pygal/graph/time.py', 'datetime_to_timestamp', 'x') 1632 1302 4 (PY Empty (is_any() is true))
+  PT: ['0001-04-24 02:00:00']
+  PY: ['Any']
+928: ('/pygal/graph/time.py', 'datetime_to_timestamp', 'datetime_to_timestamp_ret') 1633 120 4 (PY Empty (is_any() is true))
+  PT: ['0001-04-24 02:00:00', 'float']
+  PY: ['Any']
+929: ('/pygal/graph/time.py', 'datetime_to_time', 'x') 1634 1303 4 (PY Empty (is_any() is true))
+  PT: ['0001-04-24 02:00:00']
+  PY: ['Any']
+930: ('/pygal/graph/time.py', 'datetime_to_time', 'datetime_to_time_ret') 1635 119 4 (PY Empty (is_any() is true))
+  PT: ['0001-04-24 02:00:00', '02:00:00']
+  PY: ['Any']
+931: ('/pygal/graph/time.py', 'date_to_datetime', 'x') 1636 1304 4 (PY Empty (is_any() is true))
+  PT: ['0001-04-24 02:00:00']
+  PY: ['Any']
+932: ('/pygal/graph/time.py', 'date_to_datetime', 'date_to_datetime_ret') 1637 118 8 (Partial match)
+  PT: ['0001-04-24 00:00:00', '0001-04-24 02:00:00']
+  PY: ['Union[_datetime.datetime, _T0]']
+933: ('/pygal/graph/time.py', 'time_to_datetime', 'x') 1638 1305 4 (PY Empty (is_any() is true))
+  PT: ['12:30:00']
+  PY: ['Any']
+934: ('/pygal/graph/time.py', 'time_to_datetime', 'time_to_datetime_ret') 1639 122 8 (Partial match)
+  PT: ['12:30:00', '1970-01-01 12:30:00']
+  PY: ['Union[_datetime.datetime, _T0]']
+935: ('/pygal/graph/time.py', 'timedelta_to_seconds', 'x') 1640 1306 4 (PY Empty (is_any() is true))
+  PT: ['365 days, 0:00:00']
+  PY: ['Any']
+936: ('/pygal/graph/time.py', 'timedelta_to_seconds', 'timedelta_to_seconds_ret') 1641 124 4 (PY Empty (is_any() is true))
+  PT: ['365 days, 0:00:00', 'float']
+  PY: ['Any']
+937: ('/pygal/graph/time.py', 'time_to_seconds', 'x') 1642 1307 4 (PY Empty (is_any() is true))
+  PT: ['12:30:00', 'str']
+  PY: ['Any']
+938: ('/pygal/graph/time.py', 'time_to_seconds', 'time_to_seconds_ret') 1643 123 4 (PY Empty (is_any() is true))
+  PT: ['12:30:00', 'float', 'str']
+  PY: ['Any']
+939: ('/pygal/config.py', 'coerce', 'value') 1655 415 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+940: ('/pygal/config.py', 'coerce', 'coerce_ret') 1656 77 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+941: ('/pygal/config.py', 'coerce', 'rv') 1657 416 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+942: ('/pygal/config.py', 'coerce', 'pair') 1658 419 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+943: ('/pygal/config.py', 'coerce', 'key') 1659 417 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+944: ('/pygal/config.py', 'coerce', 'val') 1660 418 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+945: ('/pygal/config.py', 'to_dict', 'attr') 1663 440 3 (PT Empty)
+  PT: []
+  PY: ['str']
+946: ('/pygal/config.py', 'to_dict', 'value') 1664 439 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+947: ('/pygal/graph/map.py', 'enumerate_values', 'serie') 1667 1958 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+948: ('/pygal/graph/map.py', 'enumerate_values', 'enumerate_values_ret') 1668 144 3 (PT Empty)
+  PT: []
+  PY: ['enumerate']
+949: ('/pygal/graph/map.py', 'adapt_code', 'area_code') 1670 1960 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+950: ('/pygal/graph/map.py', 'adapt_code', 'adapt_code_ret') 1671 143 3 (PT Empty)
+  PT: []
+  PY: ['_T0']
+951: ('/pygal/graph/xy.py', 'xvals', 'self') 1672 1482 4 (PY Empty (is_any() is true))
+  PT: ['XY']
+  PY: ['Any']
+952: ('/pygal/graph/xy.py', 'yvals', 'self') 1676 1483 4 (PY Empty (is_any() is true))
+  PT: ['XY']
+  PY: ['Any']
+953: ('/pygal/util.py', 'float_format', 'number') 1680 735 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+954: ('/pygal/util.py', 'float_format', 'float_format_ret') 1681 45 3 (PT Empty)
+  PT: []
+  PY: ['str']
+955: ('/pygal/util.py', 'deg', 'radiants') 1682 756 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+956: ('/pygal/util.py', 'deg', 'deg_ret') 1683 43 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+957: ('/pygal/colors.py', 'saturate', 'color') 1684 1293 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+958: ('/pygal/colors.py', 'saturate', 'percent') 1685 1294 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+959: ('/pygal/colors.py', 'saturate', 'saturate_ret') 1686 72 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+960: ('/pygal/colors.py', 'desaturate', 'color') 1687 1295 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+961: ('/pygal/colors.py', 'desaturate', 'percent') 1688 1296 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+962: ('/pygal/colors.py', 'desaturate', 'desaturate_ret') 1689 64 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+963: ('/pygal/colors.py', 'rotate', 'color') 1690 1291 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+964: ('/pygal/colors.py', 'rotate', 'percent') 1691 1292 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+965: ('/pygal/colors.py', 'rotate', 'rotate_ret') 1692 71 2 (Both Empty)
+  PT: ['']
+  PY: ['Any']
+966: ('/pygal/formatters.py', '__call__', 'self') 1700 531 6 (PY subset PT)
+  PT: ['HumanReadable', 'Significant', 'Integer', 'Raw', 'IsoDateTime', 'Default']
+  PY: ['Default']
+967: ('/pygal/formatters.py', '__call__', '__call___ret') 1701 79 5 (PT subset PY)
+  PT: ['str']
+  PY: ['str', 'Union[str, _T0]']
+968: ('/pygal/util.py', '__get__', '__get___ret') 1704 31 4 (PY Empty (is_any() is true))
+  PT: ['cached_property']
+  PY: ['Any']
+969: ('/pygal/view.py', '__call__', 'self') 1706 900 6 (PY subset PT)
+  PT: ['View', 'PolarView', 'PolarLogView', 'PolarThetaView', 'PolarThetaLogView']
+  PY: ['PolarThetaLogView']
+970: ('/pygal/graph/public.py', '__call__', '__call___ret') 1724 129 7 (etc)
+  PT: ['PublicApi']
+  PY: ['_TPublicApi']
+
+AM: Both
+
+971: ('/pygal/graph/xy.py', '_min', 'self') 1726 1484 4 (PY Empty (is_any() is true))
+  PT: ['XY']
+  PY: ['Any']
+972: ('/pygal/graph/xy.py', '_max', 'self') 1727 1485 4 (PY Empty (is_any() is true))
+  PT: ['XY']
+  PY: ['Any']
+973: ('/pygal/graph/histogram.py', '_values', 'self') 1739 1532 4 (PY Empty (is_any() is true))
+  PT: ['Histogram']
+  PY: ['Any']
+974: ('/pygal/graph/histogram.py', '_secondary_values', 'self') 1740 1533 4 (PY Empty (is_any() is true))
+  PT: ['Histogram']
+  PY: ['Any']
+975: ('/pygal/graph/histogram.py', 'xvals', 'self') 1741 1534 4 (PY Empty (is_any() is true))
+  PT: ['Histogram']
+  PY: ['Any']
+976: ('/pygal/graph/histogram.py', 'yvals', 'self') 1742 1535 4 (PY Empty (is_any() is true))
+  PT: ['Histogram']
+  PY: ['Any']
+977: ('/pygal/graph/treemap.py', '_binary_tree', 'running_sum') 1746 1605 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+978: ('/pygal/graph/line.py', '_values', 'self') 1750 1628 4 (PY Empty (is_any() is true))
+  PT: ['Line']
+  PY: ['Any']
+979: ('/pygal/graph/line.py', '_secondary_values', 'self') 1751 1629 4 (PY Empty (is_any() is true))
+  PT: ['Line']
+  PY: ['Any']
+980: ('/pygal/graph/graph.py', '_legends', 'self') 1756 1809 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+981: ('/pygal/graph/graph.py', '_secondary_legends', 'self') 1757 1810 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+982: ('/pygal/graph/graph.py', '_values', 'self') 1758 1811 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+983: ('/pygal/graph/graph.py', '_secondary_values', 'self') 1759 1812 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+984: ('/pygal/graph/graph.py', '_len', 'self') 1760 1813 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+985: ('/pygal/graph/graph.py', '_secondary_min', 'self') 1761 1814 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+986: ('/pygal/graph/graph.py', '_min', 'self') 1762 1815 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+987: ('/pygal/graph/graph.py', '_max', 'self') 1763 1816 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+988: ('/pygal/graph/graph.py', '_secondary_max', 'self') 1764 1817 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+989: ('/pygal/graph/graph.py', '_order', 'self') 1765 1818 4 (PY Empty (is_any() is true))
+  PT: ['Graph']
+  PY: ['Any']
+990: ('/pygal/graph/radar.py', '_values', 'self') 1770 1853 4 (PY Empty (is_any() is true))
+  PT: ['Radar']
+  PY: ['Any']
+991: ('/pygal/graph/map.py', '_values', 'self') 1781 1956 4 (PY Empty (is_any() is true))
+  PT: ['BaseMap']
+  PY: ['Any']
+992: ('/pygal/graph/map.py', '_plot', 'ratio') 1785 1969 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+993: ('/pygal/graph/solidgauge.py', '_squares', 'n_series_') 1792 2016 5 (PT subset PY)
+  PT: ['int']
+  PY: ['Union[float, int]']
+994: ('/pygal/graph/dot.py', '_values', 'self') 1807 2115 4 (PY Empty (is_any() is true))
+  PT: ['Dot']
+  PY: ['Any']
+995: ('/pygal/graph/dot.py', '_max', 'self') 1808 2116 4 (PY Empty (is_any() is true))
+  PT: ['Dot']
+  PY: ['Any']
+996: ('/pygal/graph/stackedbar.py', '_compute', 'positive_vals') 1815 2133 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+997: ('/pygal/graph/stackedbar.py', '_compute', 'negative_vals') 1816 2134 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+998: ('/docs/ext/pygal_sphinx_directives.py', 'run', 'self') 1829 2250 6 (PY subset PT)
+  PT: ['PygalDirective', 'PygalWithCode', 'PygalTable', 'PygalTableWithCode']
+  PY: ['PygalTableWithCode']

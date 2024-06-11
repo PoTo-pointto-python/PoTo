@@ -1,0 +1,1158 @@
+0: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'FUNCTIONS_BLACKLIST') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+1: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'VARIABLE_NAMES_BLACKLIST') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+2: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALL_MAGIC_METHODS') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+3: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'YIELD_MAGIC_METHODS_BLACKLIST') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+4: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ASYNC_MAGIC_METHODS_BLACKLIST') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+5: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'VAGUE_IMPORTS_BLACKLIST') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+6: ('/wemake_python_styleguide/violations/best_practices.py', 'ComplexDefaultValueViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+7: ('/wemake_python_styleguide/violations/best_practices.py', 'LoopVariableDefinitionViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+8: ('/wemake_python_styleguide/violations/best_practices.py', 'ContextManagerVariableDefinitionViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+9: ('/wemake_python_styleguide/violations/best_practices.py', 'MutableModuleConstantViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+10: ('/wemake_python_styleguide/violations/best_practices.py', 'SameElementsInConditionViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+11: ('/wemake_python_styleguide/violations/best_practices.py', 'HeterogeneousCompareViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+12: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongUnpackingViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+13: ('/wemake_python_styleguide/violations/best_practices.py', 'DuplicateExceptionViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+14: ('/wemake_python_styleguide/violations/best_practices.py', 'YieldInComprehensionViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+15: ('/wemake_python_styleguide/violations/best_practices.py', 'NonUniqueItemsInHashViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+16: ('/wemake_python_styleguide/violations/best_practices.py', 'BaseExceptionSubclassViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+17: ('/wemake_python_styleguide/violations/best_practices.py', 'TryExceptMultipleReturnPathViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+18: ('/wemake_python_styleguide/violations/best_practices.py', 'LambdaInsideLoopViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+19: ('/wemake_python_styleguide/violations/best_practices.py', 'UnreachableCodeViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+20: ('/wemake_python_styleguide/violations/best_practices.py', 'StatementHasNoEffectViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+21: ('/wemake_python_styleguide/violations/best_practices.py', 'MultipleAssignmentsViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+22: ('/wemake_python_styleguide/violations/best_practices.py', 'NestedImportViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+23: ('/wemake_python_styleguide/violations/best_practices.py', 'ReassigningVariableToItselfViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+24: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedModuleViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+25: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedAttributeViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+26: ('/docs/conf.py', 'module_initializer', 'extensions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+27: ('/docs/conf.py', 'module_initializer', 'autodoc_mock_imports') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+28: ('/docs/conf.py', 'module_initializer', 'autodoc_default_options') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+29: ('/docs/conf.py', 'module_initializer', 'set_type_checking_flag') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+30: ('/docs/conf.py', 'module_initializer', 'always_document_param_types') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+31: ('/docs/conf.py', 'module_initializer', 'templates_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+32: ('/docs/conf.py', 'module_initializer', 'source_suffix') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+33: ('/docs/conf.py', 'module_initializer', 'language') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+34: ('/docs/conf.py', 'module_initializer', 'exclude_patterns') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+35: ('/docs/conf.py', 'module_initializer', 'add_module_names') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+36: ('/docs/conf.py', 'module_initializer', 'html_theme_options') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+37: ('/docs/conf.py', 'module_initializer', 'html_static_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+38: ('/docs/conf.py', 'module_initializer', 'html_sidebars') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+39: ('/docs/conf.py', 'module_initializer', 'latex_elements') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+40: ('/docs/conf.py', 'module_initializer', 'latex_documents') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+41: ('/docs/conf.py', 'module_initializer', 'man_pages') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+42: ('/docs/conf.py', 'module_initializer', 'texinfo_documents') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+43: ('/docs/conf.py', 'module_initializer', 'napoleon_numpy_docstring') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+44: ('/docs/conf.py', 'module_initializer', 'todo_include_todos') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+45: ('/scripts/check_generic_visit.py', 'module_initializer', 'my_print') 1 (Manual match)
+  PT: ['<built-in function print>']
+  DL: ['print']
+46: ('/wemake_python_styleguide/checker.py', 'Checker_class_initializer', 'config') 0 (Match)
+  PT: ['Configuration']
+  DL: ['wemake_python_styleguide.options.config.Configuration']
+47: ('/wemake_python_styleguide/visitors/decorators.py', 'module_initializer', '_DefinedType') 1 (Manual match)
+  PT: ['~_DefinedType']
+  DL: ['typing.TypeVar']
+48: ('/wemake_python_styleguide/visitors/ast/functions.py', 'module_initializer', '_Defs') 0 (Match)
+  PT: ['typing.Mapping[str, int]']
+  DL: ['dict']
+49: ('/wemake_python_styleguide/visitors/ast/functions.py', 'FloatingNanCallVisitor_class_initializer', '_nan_variants') 0 (Match)
+  PT: ["frozenset({'nan', b'nan'})"]
+  DL: ['frozenset']
+50: ('/wemake_python_styleguide/violations/consistency.py', 'MultilineConditionsViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+51: ('/wemake_python_styleguide/visitors/ast/conditions.py', 'module_initializer', '_OperatorPairs') 0 (Match)
+  PT: ['typing.Mapping[typing.Type[ast.boolop], typing.Type[ast.cmpop]]']
+  DL: ['dict']
+52: ('/wemake_python_styleguide/visitors/ast/loops.py', 'module_initializer', '_ContainerSpec') 0 (Match)
+  PT: ['typing.Mapping[typing.Type[ast.AST], typing.Sequence[str]]']
+  DL: ['dict']
+53: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_nodes_with_orelse') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+54: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'module_initializer', '_BlockVariables') 0 (Match)
+  PT: ['typing.DefaultDict[ast.AST, typing.DefaultDict[str, typing.List[ast.AST]]]']
+  DL: ['dict']
+55: ('/wemake_python_styleguide/visitors/ast/operators.py', 'module_initializer', '_MeaninglessOperators') 0 (Match)
+  PT: ['typing.Mapping[complex, typing.Tuple[typing.Type[ast.operator], ...]]']
+  DL: ['dict']
+56: ('/wemake_python_styleguide/visitors/ast/operators.py', 'module_initializer', '_OperatorLimits') 0 (Match)
+  PT: ['typing.Mapping[typing.Type[ast.unaryop], int]']
+  DL: ['dict']
+57: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'module_initializer', '_Expressions') 0 (Match)
+  PT: ['typing.DefaultDict[str, typing.List[ast.AST]]']
+  DL: ['dict']
+58: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'module_initializer', '_FunctionExpressions') 0 (Match)
+  PT: ['typing.DefaultDict[ast.AST, typing.DefaultDict[str, typing.List[ast.AST]]]']
+  DL: ['dict']
+59: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', 'JonesComplexityVisitor_class_initializer', '_ignored_nodes') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+60: ('/wemake_python_styleguide/visitors/tokenize/statements.py', 'module_initializer', 'TokenLines') 0 (Match)
+  PT: ['typing.DefaultDict[int, typing.List[tokenize.TokenInfo]]']
+  DL: ['dict']
+61: ('/wemake_python_styleguide/logic/tokens.py', 'module_initializer', 'MATCHING') 0 (Match)
+  PT: ['dict', 'Mapping[int, int]']
+  DL: ['dict']
+62: ('/wemake_python_styleguide/logic/walk.py', 'module_initializer', '_SubnodeType') 1 (Manual match)
+  PT: ['~_SubnodeType']
+  DL: ['typing.TypeVar']
+63: ('/wemake_python_styleguide/logic/tree/collections.py', 'module_initializer', '_NodeType') 1 (Manual match)
+  PT: ['~_NodeType']
+  DL: ['typing.TypeVar']
+64: ('/wemake_python_styleguide/logic/tree/collections.py', 'module_initializer', '_DefaultType') 1 (Manual match)
+  PT: ['~_DefaultType']
+  DL: ['typing.TypeVar']
+65: ('/wemake_python_styleguide/logic/tree/compares.py', 'module_initializer', '_ComparesMapping') 0 (Match)
+  PT: ['typing.Mapping[typing.Type[ast.cmpop], typing.Tuple[typing.Type[ast.cmpop], ...]]']
+  DL: ['dict']
+66: ('/wemake_python_styleguide/logic/complexity/overuses.py', 'module_initializer', '_AnnNodes') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+67: ('/wemake_python_styleguide/logic/naming/builtins.py', 'module_initializer', '_BUILTINS_WHITELIST') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+68: ('/wemake_python_styleguide/logic/naming/builtins.py', 'module_initializer', '_BUILTINS') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+69: ('/wemake_python_styleguide/logic/naming/builtins.py', 'module_initializer', '_ALL_BUILTINS') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+70: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLoopElseViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+71: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessFinallyViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+72: ('/wemake_python_styleguide/violations/refactoring.py', 'SimplifiableIfViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+73: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessReturningElseViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+74: ('/wemake_python_styleguide/violations/refactoring.py', 'NegatedConditionsViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+75: ('/wemake_python_styleguide/violations/refactoring.py', 'NestedTryViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+76: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLambdaViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+77: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLenCompareViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+78: ('/wemake_python_styleguide/violations/refactoring.py', 'NotOperatorWithCompareViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+79: ('/wemake_python_styleguide/violations/refactoring.py', 'NestedTernaryViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+80: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongInCompareTypeViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+81: ('/wemake_python_styleguide/violations/refactoring.py', 'UnmergedIsinstanceCallsViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+82: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongIsinstanceWithTupleViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+83: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitInConditionViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+84: ('/wemake_python_styleguide/violations/oop.py', 'BuiltinSubclassViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+85: ('/wemake_python_styleguide/violations/oop.py', 'ShadowedClassAttributeViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+86: ('/wemake_python_styleguide/violations/oop.py', 'StaticMethodViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+87: ('/wemake_python_styleguide/violations/oop.py', 'BadMagicMethodViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+88: ('/wemake_python_styleguide/violations/oop.py', 'WrongClassBodyContentViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+89: ('/wemake_python_styleguide/violations/oop.py', 'MethodWithoutArgumentsViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+90: ('/wemake_python_styleguide/violations/oop.py', 'WrongBaseClassViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+91: ('/wemake_python_styleguide/violations/oop.py', 'WrongSlotsViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+92: ('/wemake_python_styleguide/violations/oop.py', 'WrongSuperCallViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+93: ('/wemake_python_styleguide/violations/oop.py', 'DirectMagicAttributeAccessViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+94: ('/wemake_python_styleguide/violations/oop.py', 'YieldMagicMethodViolation_class_initializer', 'previous_codes') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+95: ('/wemake_python_styleguide/version.py', '_get_version', 'dist_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+96: ('/wemake_python_styleguide/visitors/base.py', '__init__', 'filename') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+97: ('/wemake_python_styleguide/transformations/ast_tree.py', 'transform', 'pipeline') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+98: ('/wemake_python_styleguide/transformations/ast_tree.py', '_set_function_type', 'transformer') 0 (Match)
+  PT: ['_ClassVisitor']
+  DL: ['_ClassVisitor']
+99: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_async_offset', 'nodes_to_fix') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+100: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_line_number', 'affected') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+101: ('/wemake_python_styleguide/transformations/ast_tree.py', '__init__', 'transformer') 0 (Match)
+  PT: ['NamingChecker']
+  DL: ['pep8ext_naming.NamingChecker']
+102: ('/wemake_python_styleguide/visitors/ast/naming.py', '__init__', 'options') 0 (Match)
+  PT: ['ConfigurationOptions']
+  DL: ['wemake_python_styleguide.types.ConfigurationOptions']
+103: ('/wemake_python_styleguide/logic/naming/blacklists.py', 'variable_names_blacklist_from', 'options') 0 (Match)
+  PT: ['ConfigurationOptions']
+  DL: ['wemake_python_styleguide.types.ConfigurationOptions']
+104: ('/wemake_python_styleguide/visitors/ast/imports.py', '__init__', 'error_callback') 0 (Match)
+  PT: ['ErrorCallback']
+  DL: ['wemake_python_styleguide.violations.base.ErrorCallback']
+105: ('/wemake_python_styleguide/visitors/ast/imports.py', '__init__', 'options') 0 (Match)
+  PT: ['ConfigurationOptions']
+  DL: ['wemake_python_styleguide.types.ConfigurationOptions']
+106: ('/wemake_python_styleguide/logic/filenames.py', 'get_stem', 'file_path') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+107: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_wrong_name', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+108: ('/wemake_python_styleguide/logic/naming/access.py', 'is_magic', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+109: ('/wemake_python_styleguide/logic/naming/access.py', 'is_private', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+110: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'does_contain_unicode', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+111: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_too_short_name', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+112: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_too_short_name', 'min_length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+113: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_too_long_name', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+114: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_too_long_name', 'max_length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+115: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'does_contain_consecutive_underscores', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+116: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'does_contain_underscored_number', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+117: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'get_unreadable_characters', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+118: ('/wemake_python_styleguide/logic/naming/access.py', 'is_unused', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+119: ('/wemake_python_styleguide/visitors/decorators.py', 'alias', 'original') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+120: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', 'original') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+121: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', '_post_visit', 'node_counts') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+122: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'line') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+123: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+124: ('/wemake_python_styleguide/checker.py', '__init__', 'filename') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+125: ('/wemake_python_styleguide/logic/source.py', 'render_string', 'text_data') 0 (Match)
+  PT: ['AnyTextPrimitive']
+  DL: ['wemake_python_styleguide.types.AnyTextPrimitive']
+126: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '__init__', 'options') 0 (Match)
+  PT: ['ConfigurationOptions']
+  DL: ['wemake_python_styleguide.types.ConfigurationOptions']
+127: ('/wemake_python_styleguide/logic/tokens.py', 'has_triple_string_quotes', 'string_contents') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+128: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_token', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+129: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'cognitive_score', 'funcdef') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+130: ('/wemake_python_styleguide/logic/tree/recursion.py', 'has_recursive_calls', 'func') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+131: ('/wemake_python_styleguide/logic/tree/recursion.py', '_check_method_recursion', 'func') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+132: ('/wemake_python_styleguide/logic/tree/recursion.py', '_check_function_recursion', 'func') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+133: ('/wemake_python_styleguide/logic/tree/recursion.py', '_is_self_call', 'func') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+134: ('/wemake_python_styleguide/logic/tree/recursion.py', '_is_self_call', 'node') 0 (Match)
+  PT: ['AST']
+  DL: ['ast.AST']
+135: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_closing', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+136: ('/wemake_python_styleguide/logic/tokens.py', 'last_bracket', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+137: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_annotate_brackets', 'brackets') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+138: ('/wemake_python_styleguide/options/config.py', 'register_options', 'parser') 0 (Match)
+  PT: ['OptionManager']
+  DL: ['flake8.options.manager.OptionManager']
+139: ('/wemake_python_styleguide/formatter.py', 'handle', 'error') 0 (Match)
+  PT: ['Violation']
+  DL: ['flake8.style_guide.Violation']
+140: ('/wemake_python_styleguide/formatter.py', 'format', 'error') 0 (Match)
+  PT: ['Violation']
+  DL: ['flake8.style_guide.Violation']
+141: ('/wemake_python_styleguide/formatter.py', 'show_source', 'error') 0 (Match)
+  PT: ['Violation']
+  DL: ['flake8.style_guide.Violation']
+142: ('/wemake_python_styleguide/formatter.py', 'show_statistics', 'statistics') 0 (Match)
+  PT: ['Statistics']
+  DL: ['flake8.statistics.Statistics']
+143: ('/wemake_python_styleguide/formatter.py', '_print_header', 'filename') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+144: ('/wemake_python_styleguide/formatter.py', '_print_violation_per_file', 'statistic') 0 (Match)
+  PT: ['Statistics']
+  DL: ['flake8.statistics.Statistics']
+145: ('/wemake_python_styleguide/formatter.py', '_print_violation_per_file', 'error_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+146: ('/wemake_python_styleguide/formatter.py', '_print_violation_per_file', 'count') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+147: ('/wemake_python_styleguide/formatter.py', '_print_violation_per_file', 'error_by_file') 0 (Match)
+  PT: ['DefaultDict[str, int]']
+  DL: ['dict']
+148: ('/wemake_python_styleguide/formatter.py', '_should_show_source', 'error') 0 (Match)
+  PT: ['Violation']
+  DL: ['flake8.style_guide.Violation']
+149: ('/wemake_python_styleguide/formatter.py', '_bold', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+150: ('/wemake_python_styleguide/formatter.py', '_underline', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+151: ('/wemake_python_styleguide/formatter.py', '_highlight', 'source') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+152: ('/wemake_python_styleguide/formatter.py', '_count_per_filename', 'statistics') 0 (Match)
+  PT: ['Statistics']
+  DL: ['flake8.statistics.Statistics']
+153: ('/wemake_python_styleguide/formatter.py', '_count_per_filename', 'error_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+154: ('/wemake_python_styleguide/formatter.py', '_count_per_filename', 'filenames') 0 (Match)
+  PT: ['DefaultDict[str, int]']
+  DL: ['dict']
+155: ('/wemake_python_styleguide/checker.py', 'add_options', 'parser') 0 (Match)
+  PT: ['OptionManager']
+  DL: ['flake8.options.manager.OptionManager']
+156: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'long_option_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+157: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'default') 0 (Match)
+  PT: ['ConfigValuesTypes']
+  DL: ['ConfigValuesTypes']
+158: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+159: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'parse_from_config') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+160: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'action') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+161: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'comma_separated_list') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+162: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'min_name_length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+163: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'i_control_code') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+164: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_name_length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+165: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_noqa_comments') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+166: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_arguments') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+167: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_local_variables') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+168: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_returns') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+169: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_expressions') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+170: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_module_members') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+171: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_methods') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+172: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_line_complexity') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+173: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_jones_score') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+174: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_imports') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+175: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_imported_names') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+176: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_base_classes') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+177: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_decorators') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+178: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_string_usages') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+179: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_awaits') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+180: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_try_body_length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+181: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_module_expressions') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+182: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_function_expressions') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+183: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_asserts') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+184: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_access_level') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+185: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_attributes') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+186: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_raises') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+187: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_cognitive_score') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+188: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_cognitive_average') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+189: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_call_level') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+190: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_annotation_complexity') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+191: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_import_from_members') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+192: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'max_tuple_unpack_length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+193: ('/wemake_python_styleguide/options/validation.py', 'validate_options', 'options') 0 (Match)
+  PT: ['ConfigurationOptions']
+  DL: ['wemake_python_styleguide.types.ConfigurationOptions']
+194: ('/wemake_python_styleguide/visitors/base.py', 'BaseFilenameVisitor_class_initializer', 'stem') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+195: ('/wemake_python_styleguide/visitors/ast/functions.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+196: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_unused_variables', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+197: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_unused_variables', 'local_variables') 0 (Match)
+  PT: ['Dict[str, List[_LocalVariable]]']
+  DL: ['dict']
+198: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_generator', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+199: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_descriptor_decorators', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+200: ('/wemake_python_styleguide/visitors/ast/functions.py', '_maybe_update_variable', 'sub_node') 0 (Match)
+  PT: ['_LocalVariable']
+  DL: ['_LocalVariable']
+201: ('/wemake_python_styleguide/visitors/ast/functions.py', '_maybe_update_variable', 'var_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+202: ('/wemake_python_styleguide/visitors/ast/functions.py', '_maybe_update_variable', 'local_variables') 0 (Match)
+  PT: ['Dict[str, List[_LocalVariable]]']
+  DL: ['dict']
+203: ('/wemake_python_styleguide/visitors/ast/functions.py', '_ensure_used_variables', 'local_variables') 0 (Match)
+  PT: ['Mapping[str, List[_LocalVariable]]']
+  DL: ['dict']
+204: ('/wemake_python_styleguide/visitors/ast/functions.py', 'visit_any_function_and_lambda', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+205: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_getter_without_return', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+206: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_getter_without_return', 'has_explicit_function_exit') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+207: ('/wemake_python_styleguide/visitors/ast/functions.py', '_is_concrete_getter', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+208: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_positional_arguments', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+209: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_complex_argument_defaults', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+210: ('/wemake_python_styleguide/visitors/ast/subscripts.py', '_is_wrong_len', 'element') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+211: ('/wemake_python_styleguide/visitors/ast/naming.py', 'check_name', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+212: ('/wemake_python_styleguide/visitors/ast/naming.py', 'check_function_signature', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+213: ('/wemake_python_styleguide/visitors/ast/naming.py', '_ensure_length', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+214: ('/wemake_python_styleguide/visitors/ast/naming.py', '_ensure_complex_naming', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+215: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+216: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_import', 'node') 0 (Match)
+  PT: ['AnyImport']
+  DL: ['wemake_python_styleguide.types.AnyImport']
+217: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_variable', 'node') 0 (Match)
+  PT: ['_VariableDef']
+  DL: ['_VariableDef']
+218: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_metadata', 'node') 0 (Match)
+  PT: ['AnyAssign']
+  DL: ['wemake_python_styleguide.types.AnyAssign']
+219: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_assign', 'names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+220: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_reassignment', 'node') 0 (Match)
+  PT: ['AnyAssign']
+  DL: ['wemake_python_styleguide.types.AnyAssign']
+221: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_unique_assignment', 'node') 0 (Match)
+  PT: ['AnyAssign']
+  DL: ['wemake_python_styleguide.types.AnyAssign']
+222: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_for', 'node') 0 (Match)
+  PT: ['AnyFor']
+  DL: ['wemake_python_styleguide.types.AnyFor']
+223: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_variable_used', 'assigned_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+224: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'visit_any_string', 'node') 0 (Match)
+  PT: ['AnyText']
+  DL: ['wemake_python_styleguide.types.AnyText']
+225: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_is_alphabet', 'node') 0 (Match)
+  PT: ['AnyText']
+  DL: ['wemake_python_styleguide.types.AnyText']
+226: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_modulo_patterns', 'node') 0 (Match)
+  PT: ['AnyText']
+  DL: ['wemake_python_styleguide.types.AnyText']
+227: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongFormatStringVisitor_class_initializer', '_chainable_types') 0 (Match)
+  PT: ['Final']
+  DL: ['typing_extensions.Final']
+228: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_is_valid_chaining', 'format_value') 0 (Match)
+  PT: ['AnyChainable']
+  DL: ['wemake_python_styleguide.types.AnyChainable']
+229: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'visit_any_with', 'node') 0 (Match)
+  PT: ['AnyWith']
+  DL: ['wemake_python_styleguide.types.AnyWith']
+230: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'visit_any_for', 'node') 0 (Match)
+  PT: ['AnyFor']
+  DL: ['wemake_python_styleguide.types.AnyFor']
+231: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_float_keys', 'keys') 0 (Match)
+  PT: ['_HashItems']
+  DL: ['_HashItems']
+232: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_unhashable_elements', 'keys_or_elts') 0 (Match)
+  PT: ['_HashItems']
+  DL: ['_HashItems']
+233: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_set_elements', 'keys_or_elts') 0 (Match)
+  PT: ['_HashItems']
+  DL: ['_HashItems']
+234: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_set_elements', 'element_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+235: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_report_set_elements', 'value_counts') 0 (Match)
+  PT: ['DefaultDict[Hashable, int]']
+  DL: ['dict']
+236: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+237: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_iterate_returning_values', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+238: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_iterate_returning_values', 'violation') 0 (Match)
+  PT: ['_ReturningViolations']
+  DL: ['_ReturningViolations']
+239: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_return_values', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+240: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_yield_values', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+241: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'visit_any_with', 'node') 0 (Match)
+  PT: ['AnyWith']
+  DL: ['wemake_python_styleguide.types.AnyWith']
+242: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_target_assignment', 'node') 0 (Match)
+  PT: ['AnyWith']
+  DL: ['wemake_python_styleguide.types.AnyWith']
+243: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_consecutive_yields', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+244: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_consistent_variable_return', 'previous_names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+245: ('/wemake_python_styleguide/visitors/ast/imports.py', '_validate_any_import', 'node') 0 (Match)
+  PT: ['AnyImport']
+  DL: ['wemake_python_styleguide.types.AnyImport']
+246: ('/wemake_python_styleguide/visitors/ast/imports.py', '_check_nested_import', 'node') 0 (Match)
+  PT: ['AnyImport']
+  DL: ['wemake_python_styleguide.types.AnyImport']
+247: ('/wemake_python_styleguide/visitors/ast/imports.py', '_check_same_alias', 'node') 0 (Match)
+  PT: ['AnyImport']
+  DL: ['wemake_python_styleguide.types.AnyImport']
+248: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_duplicated_isinstance_call', 'counter') 0 (Match)
+  PT: ['DefaultDict[str, int]']
+  DL: ['dict']
+249: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_check_negated_conditions', 'node') 0 (Match)
+  PT: ['AnyIf']
+  DL: ['wemake_python_styleguide.types.AnyIf']
+250: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_check_useless_else', 'real_ifs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+251: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_check_useless_len', 'node') 0 (Match)
+  PT: ['AnyIf']
+  DL: ['wemake_python_styleguide.types.AnyIf']
+252: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_get_all_names', 'names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+253: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_comprehension', 'node') 0 (Match)
+  PT: ['AnyComprehension']
+  DL: ['wemake_python_styleguide.types.AnyComprehension']
+254: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_contains_yield', 'node') 0 (Match)
+  PT: ['AnyComprehension']
+  DL: ['wemake_python_styleguide.types.AnyComprehension']
+255: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_comp', 'node') 0 (Match)
+  PT: ['AnyComprehension']
+  DL: ['wemake_python_styleguide.types.AnyComprehension']
+256: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_loop', 'node') 0 (Match)
+  PT: ['AnyLoop']
+  DL: ['wemake_python_styleguide.types.AnyLoop']
+257: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_loop_needs_else', 'node') 0 (Match)
+  PT: ['AnyLoop']
+  DL: ['wemake_python_styleguide.types.AnyLoop']
+258: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_useless_continue', 'node') 0 (Match)
+  PT: ['AnyLoop']
+  DL: ['wemake_python_styleguide.types.AnyLoop']
+259: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_useless_continue', 'nodes_at_line') 0 (Match)
+  PT: ['DefaultDict[int, List[ast.AST]]']
+  DL: ['dict']
+260: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_multiline_loop', 'node') 0 (Match)
+  PT: ['AnyLoop']
+  DL: ['wemake_python_styleguide.types.AnyLoop']
+261: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_infinite_while_loop', 'node') 0 (Match)
+  PT: ['AnyLoop']
+  DL: ['wemake_python_styleguide.types.AnyLoop']
+262: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_for', 'node') 0 (Match)
+  PT: ['AnyFor']
+  DL: ['wemake_python_styleguide.types.AnyFor']
+263: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_implicit_sum', 'node') 0 (Match)
+  PT: ['AnyFor']
+  DL: ['wemake_python_styleguide.types.AnyFor']
+264: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_implicit_yield_from', 'node') 0 (Match)
+  PT: ['AnyFor']
+  DL: ['wemake_python_styleguide.types.AnyFor']
+265: ('/wemake_python_styleguide/visitors/ast/compares.py', '_check_unpythonic_compare', 'all_nodes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+266: ('/wemake_python_styleguide/visitors/ast/compares.py', 'visit_any_if', 'node') 0 (Match)
+  PT: ['AnyIf']
+  DL: ['wemake_python_styleguide.types.AnyIf']
+267: ('/wemake_python_styleguide/visitors/ast/compares.py', '_check_constant_condition', 'node') 0 (Match)
+  PT: ['AnyIf']
+  DL: ['wemake_python_styleguide.types.AnyIf']
+268: ('/wemake_python_styleguide/visitors/ast/compares.py', '_check_simplifiable_ifexpr', 'conditions') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+269: ('/wemake_python_styleguide/visitors/ast/compares.py', '_check_nested_ifexpr', 'node') 0 (Match)
+  PT: ['AnyIf']
+  DL: ['wemake_python_styleguide.types.AnyIf']
+270: ('/wemake_python_styleguide/visitors/ast/compares.py', '_check_nested_ifexpr', 'is_nested_in_if') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+271: ('/wemake_python_styleguide/visitors/ast/modules.py', 'visit_any_assign', 'node') 0 (Match)
+  PT: ['AnyAssign']
+  DL: ['wemake_python_styleguide.types.AnyAssign']
+272: ('/wemake_python_styleguide/visitors/ast/modules.py', '_check_mutable_constant', 'node') 0 (Match)
+  PT: ['AnyAssign']
+  DL: ['wemake_python_styleguide.types.AnyAssign']
+273: ('/wemake_python_styleguide/visitors/ast/modules.py', '_check_mutable_constant', 'targets') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+274: ('/wemake_python_styleguide/visitors/ast/classes.py', '_is_correct_base_class', 'parts') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+275: ('/wemake_python_styleguide/visitors/ast/classes.py', '_is_correct_base_class', 'subscripts') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+276: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_useless_overwritten_methods', 'class_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+277: ('/wemake_python_styleguide/visitors/ast/classes.py', '_count_slots_items', 'fields') 0 (Match)
+  PT: ['DefaultDict[str, List[ast.AST]]']
+  DL: ['dict']
+278: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_attributes_shadowing', 'class_attribute_names') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+279: ('/wemake_python_styleguide/visitors/ast/classes.py', '_ideal_order', 'first') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+280: ('/wemake_python_styleguide/visitors/ast/classes.py', '_ideal_order', 'base_methods_order') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+281: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_useless_combination') 0 (Match)
+  PT: ['ClassVar[Mapping[str, AnyNodes]]']
+  DL: ['dict']
+282: ('/wemake_python_styleguide/visitors/ast/statements.py', 'visit_statement_with_body', 'node') 0 (Match)
+  PT: ['_StatementWithBody']
+  DL: ['_StatementWithBody']
+283: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_useless_node', 'node') 0 (Match)
+  PT: ['_StatementWithBody']
+  DL: ['_StatementWithBody']
+284: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_expression', 'is_first') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+285: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_internals', 'after_closing_node') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+286: ('/wemake_python_styleguide/visitors/ast/statements.py', 'visit_collection', 'node') 0 (Match)
+  PT: ['_AnyCollection']
+  DL: ['_AnyCollection']
+287: ('/wemake_python_styleguide/visitors/ast/statements.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+288: ('/wemake_python_styleguide/visitors/ast/statements.py', 'visit_ClassDef', 'all_args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+289: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_first_element', 'extra_lines') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+290: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_rest_elements', 'previous_line') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+291: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_indentation', 'extra_lines') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+292: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_any_for', 'node') 0 (Match)
+  PT: ['AnyFor']
+  DL: ['wemake_python_styleguide.types.AnyFor']
+293: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_locals', 'names') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+294: ('/wemake_python_styleguide/visitors/ast/operators.py', 'visit_numbers_and_constants', 'node') 0 (Match)
+  PT: ['_NumbersAndConstants']
+  DL: ['_NumbersAndConstants']
+295: ('/wemake_python_styleguide/visitors/ast/operators.py', '_check_operator_count', 'node') 0 (Match)
+  PT: ['_NumbersAndConstants']
+  DL: ['_NumbersAndConstants']
+296: ('/wemake_python_styleguide/visitors/ast/operators.py', '_get_non_negative_nodes', 'non_negative_numbers') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+297: ('/wemake_python_styleguide/visitors/ast/operators.py', 'visit_NamedExpr', 'node') 0 (Match)
+  PT: ['NamedExpr']
+  DL: ['wemake_python_styleguide.compat.nodes.NamedExpr']
+298: ('/wemake_python_styleguide/visitors/ast/annotations.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+299: ('/wemake_python_styleguide/visitors/ast/annotations.py', '_check_return_annotation', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+300: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'visit_any_string', 'node') 0 (Match)
+  PT: ['AnyText']
+  DL: ['wemake_python_styleguide.types.AnyText']
+301: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_check_string_constant', 'node') 0 (Match)
+  PT: ['AnyText']
+  DL: ['wemake_python_styleguide.types.AnyText']
+302: ('/wemake_python_styleguide/visitors/ast/complexity/access.py', '_check_consecutive_access_number', 'node') 0 (Match)
+  PT: ['AnyAccess']
+  DL: ['wemake_python_styleguide.types.AnyAccess']
+303: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '_visit_any_import', 'node') 0 (Match)
+  PT: ['AnyImport']
+  DL: ['wemake_python_styleguide.types.AnyImport']
+304: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+305: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', '_check_method', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+306: ('/wemake_python_styleguide/visitors/ast/complexity/annotations.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+307: ('/wemake_python_styleguide/visitors/ast/complexity/annotations.py', '_check_function_annotations_complexity', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+308: ('/wemake_python_styleguide/visitors/ast/complexity/calls.py', '_check_consecutive_call_number', 'consecutive_calls') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+309: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'check_arguments_count', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+310: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'check_function_complexity', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+311: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_update_variables', 'function') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+312: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_sub_node', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+313: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_sub_node', 'error_counters') 0 (Match)
+  PT: ['_NodeTypeHandler']
+  DL: ['_NodeTypeHandler']
+314: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+315: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', 'visit_any_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+316: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', '_check_nested_function', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+317: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', 'visit_module_members', 'node') 0 (Match)
+  PT: ['_ModuleMembers']
+  DL: ['_ModuleMembers']
+318: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_check_members_count', 'node') 0 (Match)
+  PT: ['_ModuleMembers']
+  DL: ['_ModuleMembers']
+319: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_check_decorators_count', 'node') 0 (Match)
+  PT: ['_ModuleMembers']
+  DL: ['_ModuleMembers']
+320: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', '_replace_braces', 'string') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+321: ('/wemake_python_styleguide/visitors/tokenize/conditions.py', '_does_else_belong_to_if', 'start_index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+322: ('/wemake_python_styleguide/visitors/tokenize/conditions.py', '_check_complex_else', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+323: ('/wemake_python_styleguide/visitors/tokenize/conditions.py', '_is_invalid_token', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+324: ('/wemake_python_styleguide/visitors/tokenize/comments.py', '_is_consecutive', 'prev_line_num') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+325: ('/wemake_python_styleguide/compat/functions.py', 'get_posonlyargs', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+326: ('/wemake_python_styleguide/compat/nodes.py', 'Constant_class_initializer', 'n') 0 (Match)
+  PT: ['complex']
+  DL: ['complex']
+327: ('/wemake_python_styleguide/logic/system.py', 'is_executable_file', 'filename') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+328: ('/wemake_python_styleguide/logic/tokens.py', 'split_prefixes', 'string') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+329: ('/wemake_python_styleguide/logic/walk.py', 'is_contained', 'to_check') 0 (Match)
+  PT: ['_IsInstanceContainer']
+  DL: ['_IsInstanceContainer']
+330: ('/wemake_python_styleguide/logic/safe_eval.py', '_convert_signed_num', 'unary_operators') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+331: ('/wemake_python_styleguide/logic/safe_eval.py', 'literal_eval_with_names', 'binary_operators') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+332: ('/wemake_python_styleguide/logic/tree/functions.py', 'get_all_arguments', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+333: ('/wemake_python_styleguide/logic/tree/functions.py', 'get_all_arguments', 'names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+334: ('/wemake_python_styleguide/logic/tree/functions.py', 'is_first_argument', 'node') 0 (Match)
+  PT: ['AnyFunctionDefAndLambda']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDefAndLambda']
+335: ('/wemake_python_styleguide/logic/tree/functions.py', 'is_first_argument', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+336: ('/wemake_python_styleguide/logic/tree/functions.py', 'is_first_argument', 'positional_args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+337: ('/wemake_python_styleguide/logic/tree/functions.py', 'is_generator', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+338: ('/wemake_python_styleguide/logic/tree/functions.py', 'get_function_exit_nodes', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+339: ('/wemake_python_styleguide/logic/tree/functions.py', 'get_function_exit_nodes', 'control_transfer_nodes') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+340: ('/wemake_python_styleguide/logic/tree/attributes.py', 'parts', 'node') 0 (Match)
+  PT: ['AnyChainable']
+  DL: ['wemake_python_styleguide.types.AnyChainable']
+341: ('/wemake_python_styleguide/logic/tree/variables.py', 'get_variable_name', 'node') 0 (Match)
+  PT: ['_LocalVariable']
+  DL: ['_LocalVariable']
+342: ('/wemake_python_styleguide/logic/tree/variables.py', 'is_valid_block_variable_definition', 'node') 0 (Match)
+  PT: ['_VarDefinition']
+  DL: ['_VarDefinition']
+343: ('/wemake_python_styleguide/logic/tree/variables.py', '_is_valid_single', 'node') 0 (Match)
+  PT: ['_VarDefinition']
+  DL: ['_VarDefinition']
+344: ('/wemake_python_styleguide/logic/tree/keywords.py', 'returning_nodes', 'has_values') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+345: ('/wemake_python_styleguide/logic/tree/keywords.py', 'next_node_returns_bool', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+346: ('/wemake_python_styleguide/logic/tree/imports.py', 'ImportedObjectInfo_class_initializer', 'module') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+347: ('/wemake_python_styleguide/logic/tree/imports.py', 'ImportedObjectInfo_class_initializer', 'node') 0 (Match)
+  PT: ['AnyImport']
+  DL: ['wemake_python_styleguide.types.AnyImport']
+348: ('/wemake_python_styleguide/logic/tree/imports.py', 'get_import_parts', 'node') 0 (Match)
+  PT: ['AnyImport']
+  DL: ['wemake_python_styleguide.types.AnyImport']
+349: ('/wemake_python_styleguide/logic/tree/imports.py', 'is_vague_import', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+350: ('/wemake_python_styleguide/logic/tree/loops.py', 'has_break', 'node') 0 (Match)
+  PT: ['AnyLoop']
+  DL: ['wemake_python_styleguide.types.AnyLoop']
+351: ('/wemake_python_styleguide/logic/tree/stubs.py', 'is_stub', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+352: ('/wemake_python_styleguide/logic/tree/stubs.py', '_is_stub_with_docstring', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+353: ('/wemake_python_styleguide/logic/tree/stubs.py', '_is_stub_without_docstring', 'node') 0 (Match)
+  PT: ['AnyFunctionDef']
+  DL: ['wemake_python_styleguide.types.AnyFunctionDef']
+354: ('/wemake_python_styleguide/logic/tree/stubs.py', '_is_ellipsis', 'node') 0 (Match)
+  PT: ['AST']
+  DL: ['ast.AST']
+355: ('/wemake_python_styleguide/logic/tree/compares.py', '_mutate', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+356: ('/wemake_python_styleguide/logic/tree/compares.py', '_mutate', 'is_left') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+357: ('/wemake_python_styleguide/logic/tree/exceptions.py', 'find_returning_nodes', 'bad_returning_nodes') 0 (Match)
+  PT: ['AnyNodes']
+  DL: ['wemake_python_styleguide.types.AnyNodes']
+358: ('/wemake_python_styleguide/logic/tree/classes.py', 'get_attributes', 'class_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+359: ('/wemake_python_styleguide/logic/tree/classes.py', 'get_attributes', 'instance_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+360: ('/wemake_python_styleguide/logic/tree/slices.py', 'is_same_slice', 'iterable') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+361: ('/wemake_python_styleguide/logic/tree/slices.py', 'is_same_slice', 'target') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+362: ('/wemake_python_styleguide/logic/tree/ifs.py', 'has_nodes', 'to_check') 0 (Match)
+  PT: ['AnyNodes']
+  DL: ['wemake_python_styleguide.types.AnyNodes']
+363: ('/wemake_python_styleguide/logic/tree/operators.py', 'count_unary_operator', 'amount') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+364: ('/wemake_python_styleguide/logic/tree/calls.py', '_chained_item', 'children') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+365: ('/wemake_python_styleguide/logic/complexity/functions.py', 'ComplexityMetrics_class_initializer', 'returns') 0 (Match)
+  PT: ['FunctionCounter']
+  DL: ['FunctionCounter']
+366: ('/wemake_python_styleguide/logic/complexity/functions.py', 'ComplexityMetrics_class_initializer', 'raises') 0 (Match)
+  PT: ['FunctionCounter']
+  DL: ['FunctionCounter']
+367: ('/wemake_python_styleguide/logic/complexity/functions.py', 'ComplexityMetrics_class_initializer', 'awaits') 0 (Match)
+  PT: ['FunctionCounter']
+  DL: ['FunctionCounter']
+368: ('/wemake_python_styleguide/logic/complexity/functions.py', 'ComplexityMetrics_class_initializer', 'asserts') 0 (Match)
+  PT: ['FunctionCounter']
+  DL: ['FunctionCounter']
+369: ('/wemake_python_styleguide/logic/complexity/functions.py', 'ComplexityMetrics_class_initializer', 'expressions') 0 (Match)
+  PT: ['FunctionCounter']
+  DL: ['FunctionCounter']
+370: ('/wemake_python_styleguide/logic/complexity/functions.py', 'ComplexityMetrics_class_initializer', 'arguments') 0 (Match)
+  PT: ['FunctionCounterWithLambda']
+  DL: ['FunctionCounterWithLambda']
+371: ('/wemake_python_styleguide/logic/complexity/functions.py', 'ComplexityMetrics_class_initializer', 'variables') 0 (Match)
+  PT: ['FunctionNames']
+  DL: ['FunctionNames']
+372: ('/wemake_python_styleguide/logic/complexity/overuses.py', 'is_annotation', 'contains_node') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+373: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_upper_case_name', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+374: ('/wemake_python_styleguide/logic/naming/builtins.py', 'is_builtin_name', 'variable_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+375: ('/wemake_python_styleguide/logic/naming/builtins.py', 'is_wrong_alias', 'variable_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+376: ('/wemake_python_styleguide/logic/naming/constants.py', 'is_constant', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+377: ('/wemake_python_styleguide/logic/naming/access.py', 'is_protected', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+378: ('/wemake_python_styleguide/logic/naming/access.py', 'is_public', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+379: ('/wemake_python_styleguide/logic/arguments/super_args.py', 'is_ordinary_super_call', 'class_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+380: ('/wemake_python_styleguide/logic/arguments/super_args.py', '_get_keyword_args_by_names', 'keyword_args') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+381: ('/wemake_python_styleguide/logic/arguments/super_args.py', '_is_super_called_with', 'type_') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+382: ('/wemake_python_styleguide/logic/arguments/super_args.py', '_is_super_called_with', 'object_') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+383: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_clean_call_keyword_args', 'prepared_kw_args') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+384: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_clean_call_keyword_args', 'real_kw_args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+385: ('/wemake_python_styleguide/violations/base.py', 'SimpleViolation_class_initializer', '_node') 0 (Match)
+  PT: ['None']
+  DL: ['None']

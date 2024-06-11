@@ -1,0 +1,777 @@
+0: ('/pygal/config.py', 'module_initializer', 'callable') 7 (etc)
+  PT: ['function']
+  DL: ['type']
+1: ('/pygal/style.py', 'Style_class_initializer', 'colors') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'list', 'dict']
+2: ('/pygal/style.py', 'Style_class_initializer', 'value_colors') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'list']
+3: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.lighten']
+4: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'plot_background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.lighten']
+5: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'plot_background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.lighten']
+6: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.darken']
+7: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'plot_background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.lighten']
+8: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.darken']
+9: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'plot_background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.darken']
+10: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.lighten']
+11: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.darken']
+12: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'plot_background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.darken']
+13: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'plot_background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.lighten']
+14: ('/pygal/style.py', 'BlueStyle_class_initializer', 'background') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal.colors.darken']
+15: ('/pygal/_compat.py', 'module_initializer', 'base') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'basestring']
+16: ('/pygal/_compat.py', 'module_initializer', 'coerce') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['str', 'unicode']
+17: ('/pygal/_compat.py', 'module_initializer', '_ellipsis') 7 (etc)
+  PT: ['Ellipsis']
+  DL: ['eval', 'dict']
+18: ('/pygal/formatters.py', 'HumanReadable_class_initializer', 'ORDERS') 7 (etc)
+  PT: ['str', 'tuple']
+  DL: ['pygal._compat.u']
+19: ('/perf.py', 'module_initializer', 'c') 3 (PT Empty)
+  PT: []
+  DL: ['perf']
+20: ('/perf.py', 'module_initializer', 'v') 7 (etc)
+  PT: ['str']
+  DL: ['dict', 'list']
+21: ('/pygal_gen.py', 'module_initializer', 'chart') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+22: ('/demo/moulinrouge.py', 'module_initializer', 'app') 3 (PT Empty)
+  PT: []
+  DL: ['moulinrouge.create_app']
+23: ('/demo/moulinrouge.py', 'module_initializer', 'handler') 3 (PT Empty)
+  PT: []
+  DL: ['log_colorizer.make_colored_stream_handler']
+24: ('/pygal/stats.py', 'erfinv', 'lnx') 7 (etc)
+  PT: ['float']
+  DL: ['math.log']
+25: ('/pygal/stats.py', 'erfinv', 'part2') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+26: ('/pygal/stats.py', 'norm_ppf', 'x') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+27: ('/pygal/stats.py', 'ppf', 'x') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+28: ('/pygal/stats.py', 'confidence_interval_continuous', 'alpha') 3 (PT Empty)
+  PT: []
+  DL: ['ppf']
+29: ('/pygal/stats.py', 'confidence_interval_continuous', 'margin') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+30: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'alpha') 3 (PT Empty)
+  PT: []
+  DL: ['ppf']
+31: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'p') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['point_estimate']
+32: ('/pygal/stats.py', 'confidence_interval_dichotomous', 'margin') 8 (Partial match)
+  PT: ['float', 'int']
+  DL: ['math.sqrt', 'int']
+33: ('/pygal/table.py', '__init__', 'chart') 3 (PT Empty)
+  PT: []
+  DL: ['PublicApi']
+34: ('/pygal/table.py', 'render', 'table') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'lxml.html.tostring']
+35: ('/pygal/table.py', 'render', 'labels') 8 (Partial match)
+  PT: ['list', 'str']
+  DL: ['list', 'dict']
+36: ('/pygal/table.py', 'render', 'row') 6 (DL subset PT)
+  PT: ['list', 'str']
+  DL: ['list']
+37: ('/pygal/table.py', 'render', 'sum_') 7 (etc)
+  PT: ['int']
+  DL: ['v']
+38: ('/pygal/table.py', 'render', 'v') 7 (etc)
+  PT: ['int']
+  DL: ['bool']
+39: ('/pygal/table.py', 'render', 'len_') 7 (etc)
+  PT: ['int']
+  DL: ['max', 'len']
+40: ('/pygal/table.py', 'render', 'tbody') 8 (Partial match)
+  PT: ['None', 'list']
+  DL: ['list', 'dict', 'table']
+41: ('/pygal/table.py', 'render', 'css') 7 (etc)
+  PT: ['bool', 'str']
+  DL: ['style']
+42: ('/pygal/graph/base.py', '__init__', 'config') 7 (etc)
+  PT: ['Config', 'None']
+  DL: ['config', 'pygal.config.Config']
+43: ('/pygal/config.py', '__init__', 'v') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['getattr', 'list']
+44: ('/pygal/graph/graph.py', '_format', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+45: ('/pygal/graph/graph.py', '_format', 'kwargs') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['dict', 'pygal.util.filter_kwargs']
+46: ('/pygal/graph/graph.py', '_format', 'formatter') 7 (etc)
+  PT: ['meta_func']
+  DL: ['bool']
+47: ('/pygal/graph/gauge.py', 'point', 'y') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+48: ('/pygal/graph/graph.py', '_tooltip_data', 'classes') 6 (DL subset PT)
+  PT: ['None', 'list', 'str']
+  DL: ['list']
+49: ('/pygal/graph/graph.py', '_static_value', 'classes') 7 (etc)
+  PT: ['None', 'list']
+  DL: ['bool']
+50: ('/pygal/graph/graph.py', '_static_value', 'label') 3 (PT Empty)
+  PT: []
+  DL: ['bool']
+51: ('/pygal/util.py', 'filter_kwargs', 'args') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+52: ('/pygal/serie.py', '__init__', 'metadata') 6 (DL subset PT)
+  PT: ['None', 'dict']
+  DL: ['dict']
+53: ('/pygal/serie.py', '__init__', 'values') 6 (DL subset PT)
+  PT: ['None', 'bool', 'float', 'list']
+  DL: ['list']
+54: ('/pygal/util.py', 'round_to_int', 'precision') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+55: ('/pygal/util.py', 'round_to_int', 'rounded') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+56: ('/pygal/util.py', 'round_to_float', 'precision') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['float']
+57: ('/pygal/util.py', 'majorize', 'sorted_values') 7 (etc)
+  PT: ['list']
+  DL: ['sorted']
+58: ('/pygal/util.py', 'majorize', 'step') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['values_step']
+59: ('/pygal/graph/public.py', 'add', 'values') 6 (DL subset PT)
+  PT: ['float', 'list', 'range(0, 100)', 'range(0, 12)', 'range(0, 8)']
+  DL: ['list']
+60: ('/pygal/state.py', '__init__', 'graph') 7 (etc)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine']
+  DL: ['pygal.graph.histogram.Histogram']
+61: ('/pygal/graph/base.py', 'prepare_values', 'adapters') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['bool', 'list']
+62: ('/pygal/graph/base.py', 'prepare_values', 'raw_values') 8 (Partial match)
+  PT: ['None', 'bool', 'float', 'list']
+  DL: ['list', 'value_list']
+63: ('/pygal/graph/base.py', 'prepare_values', 'values') 6 (DL subset PT)
+  PT: ['None', 'bool', 'float', 'list']
+  DL: ['list']
+64: ('/pygal/graph/base.py', 'prepare_values', 'width') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+65: ('/pygal/graph/base.py', 'prepare_values', 'raw_value') 6 (DL subset PT)
+  PT: ['<function <lambda> at 0x1010b7490>', 'None', 'dict', 'int', 'tuple']
+  DL: ['dict']
+66: ('/pygal/graph/base.py', 'prepare_values', 'value') 8 (Partial match)
+  PT: ['<function <lambda> at 0x1010b7490>', 'None', 'dict', 'int', 'list', 'tuple']
+  DL: ['tuple', 'list', 'raw_value']
+67: ('/pygal/svg.py', '__init__', 'graph') 7 (etc)
+  PT: ['Bar', 'Box', 'DateLine', 'DateTimeLine', 'Histogram', 'Line', 'Pie', 'PublicApi', 'StackedLine', 'TimeDeltaLine', 'TimeLine']
+  DL: ['pygal.graph.histogram.Histogram']
+68: ('/pygal/util.py', 'merge', 'dict1') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+69: ('/pygal/svg.py', 'node', 'attrib') 7 (etc)
+  PT: ['None', 'dict']
+  DL: ['bool']
+70: ('/pygal/graph/graph.py', '_compute_x_labels_major', 'label_count') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+71: ('/pygal/graph/graph.py', '_compute_y_labels', 'y_pos') 7 (etc)
+  PT: ['list']
+  DL: ['pygal.util.compute_scale']
+72: ('/pygal/graph/graph.py', '_compute_y_labels', 'title') 3 (PT Empty)
+  PT: []
+  DL: ['y_label']
+73: ('/pygal/graph/graph.py', '_compute_y_labels_major', 'label_count') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+74: ('/pygal/graph/graph.py', '_compute_secondary', 'y_pos') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+75: ('/pygal/graph/graph.py', '_compute_secondary', 'ymin') 7 (etc)
+  PT: ['float']
+  DL: ['min']
+76: ('/pygal/graph/graph.py', '_compute_secondary', 'ymax') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+77: ('/pygal/graph/graph.py', '_compute_secondary', 'steps') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+78: ('/pygal/graph/graph.py', '_compute_secondary', 'left_range') 7 (etc)
+  PT: ['float']
+  DL: ['abs']
+79: ('/pygal/graph/graph.py', '_compute_secondary', 'right_range') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['bool']
+80: ('/pygal/graph/graph.py', '_compute_secondary', 'scale') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+81: ('/pygal/graph/graph.py', '_compute_margin', 'h') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.get_texts_box', 'pygal.util.get_text_box']
+82: ('/pygal/graph/graph.py', '_compute_margin', 'w') 7 (etc)
+  PT: ['float']
+  DL: ['pygal.util.get_texts_box']
+83: ('/pygal/graph/graph.py', '_compute_margin', 'h_max') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+84: ('/pygal/graph/graph.py', '_compute_margin', 'legend_width') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+85: ('/pygal/graph/graph.py', '_compute_margin', '_') 7 (etc)
+  PT: ['float']
+  DL: ['pygal.util.get_text_box']
+86: ('/pygal/svg.py', 'add_styles', 'css') 8 (Partial match)
+  PT: ['str', 'tuple']
+  DL: ['dict', 'str']
+87: ('/pygal/svg.py', 'add_styles', 'css_text') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'dict', 'pygal.util.minify_css', 'pygal.util.template']
+88: ('/pygal/util.py', 'compute_scale', 'log_scale') 7 (etc)
+  PT: ['list']
+  DL: ['compute_logarithmic_scale']
+89: ('/pygal/util.py', 'compute_scale', 'order') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'order_min']
+90: ('/pygal/util.py', 'compute_scale', 'position') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['round_to_scale', 'step']
+91: ('/pygal/util.py', 'compute_scale', 'rounded') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['round_to_scale']
+92: ('/pygal/util.py', 'get_texts_box', 'max_len') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+93: ('/pygal/util.py', 'split_title', 'size') 7 (etc)
+  PT: ['int']
+  DL: ['reverse_text_len']
+94: ('/pygal/util.py', 'split_title', 'title_part') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+95: ('/pygal/util.py', 'split_title', 'i') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+96: ('/pygal/util.py', 'get_text_box', 'text') 7 (etc)
+  PT: ['<function <lambda> at 0x1010b7490>', 'int', 'tuple']
+  DL: ['list']
+97: ('/pygal/graph/graph.py', '_set_view', 'view_class') 7 (etc)
+  PT: ['LogView', 'ReverseView', 'View', 'XYLogView']
+  DL: ['pygal.view.XYLogView', 'pygal.view.LogView']
+98: ('/pygal/graph/graph.py', '_legend', 'truncation') 7 (etc)
+  PT: ['int']
+  DL: ['pygal.util.reverse_text_len']
+99: ('/pygal/graph/graph.py', '_legend', 'x') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+100: ('/pygal/graph/graph.py', '_legend', 'y') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+101: ('/pygal/graph/graph.py', '_legend', 'cols') 7 (etc)
+  PT: ['int']
+  DL: ['bool']
+102: ('/pygal/graph/graph.py', '_legend', 'h') 7 (etc)
+  PT: ['float']
+  DL: ['max', 'pygal.util.get_texts_box']
+103: ('/pygal/graph/graph.py', '_legend', 'secondary_legends') 3 (PT Empty)
+  PT: []
+  DL: ['legends']
+104: ('/pygal/graph/graph.py', '_legend', 'w') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.get_texts_box']
+105: ('/pygal/graph/graph.py', '_legend', 'title') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+106: ('/pygal/graph/graph.py', '_legend', 'node') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate', 'legend']
+107: ('/pygal/graph/graph.py', '_legend', 'truncated') 7 (etc)
+  PT: ['bool', 'int', 'str', 'tuple']
+  DL: ['pygal.util.truncate']
+108: ('/pygal/graph/graph.py', '_make_x_title', 'y') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+109: ('/pygal/graph/graph.py', '_make_y_title', 'yc') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+110: ('/pygal/graph/bar.py', 'bar', 'bar') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+111: ('/pygal/graph/graph.py', '_interpolate', 'interpolate') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+112: ('/pygal/util.py', 'compute_logarithmic_scale', 'tick') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['round_to_scale']
+113: ('/pygal/util.py', 'round_to_scale', 'precision') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['float']
+114: ('/pygal/util.py', 'text_len', 'length') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+115: ('/pygal/graph/graph.py', '_x_axis', 'truncation') 7 (etc)
+  PT: ['int']
+  DL: ['pygal.util.reverse_text_len', 'max']
+116: ('/pygal/graph/graph.py', '_x_axis', 'first_label_position') 6 (DL subset PT)
+  PT: ['None', 'bool', 'float', 'int', 'tuple']
+  DL: ['bool']
+117: ('/pygal/graph/graph.py', '_x_axis', 'last_label_position') 7 (etc)
+  PT: ['int']
+  DL: ['bool']
+118: ('/pygal/graph/graph.py', '_x_axis', 'lastlabel') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['dict', 'None']
+119: ('/pygal/graph/graph.py', '_x_axis', 'last_guide') 6 (DL subset PT)
+  PT: ['None', 'bool', 'list']
+  DL: ['bool']
+120: ('/pygal/graph/bar.py', '_bar', 'x') 7 (etc)
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  DL: ['series_margin', 'serie_margin']
+121: ('/pygal/graph/graph.py', '_confidence_interval', 'ci') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+122: ('/pygal/graph/graph.py', '_confidence_interval', 'low') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+123: ('/pygal/graph/graph.py', '_confidence_interval', 'high') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+124: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x') 7 (etc)
+  PT: ['<built-in method index of tuple object at 0x1010a4040>', '<built-in method index of tuple object at 0x10123dfc0>', '<built-in method index of tuple object at 0x10145b900>', 'float', 'int']
+  DL: ['x_center']
+125: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y') 7 (etc)
+  PT: ['float']
+  DL: ['y_center']
+126: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x_center') 3 (PT Empty)
+  PT: []
+  DL: ['transpose']
+127: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y_center') 3 (PT Empty)
+  PT: []
+  DL: ['transpose']
+128: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x_top') 3 (PT Empty)
+  PT: []
+  DL: ['transpose']
+129: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y_top') 3 (PT Empty)
+  PT: []
+  DL: ['transpose']
+130: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'x_bottom') 3 (PT Empty)
+  PT: []
+  DL: ['transpose']
+131: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'y_bottom') 3 (PT Empty)
+  PT: []
+  DL: ['transpose']
+132: ('/pygal/graph/bar.py', '_tooltip_and_print_values', 'v') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+133: ('/pygal/svg.py', 'confidence_interval', 'fmt') 7 (etc)
+  PT: ['<function <lambda> at 0x1010b5900>', '<function <lambda> at 0x101da5750>', '<function <lambda> at 0x101da5e10>', '<function <lambda> at 0x101da7760>', '<function <lambda> at 0x101da7c70>', '<function <lambda> at 0x103a95510>', '<function <lambda> at 0x103a95ea0>', '<function <lambda> at 0x103a972e0>', '<function <lambda> at 0x10aab4550>', 'meta_func']
+  DL: ['pygal.util.coord_format']
+134: ('/pygal/colors.py', 'adjust', 'percent') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+135: ('/pygal/colors.py', 'adjust', 'r') 7 (etc)
+  PT: ['None', 'int']
+  DL: ['parse_color', 'hsl_to_rgb']
+136: ('/pygal/colors.py', 'adjust', 'g') 7 (etc)
+  PT: ['None']
+  DL: ['parse_color', 'hsl_to_rgb']
+137: ('/pygal/colors.py', 'adjust', 'b') 7 (etc)
+  PT: ['None']
+  DL: ['parse_color', 'hsl_to_rgb']
+138: ('/pygal/colors.py', 'adjust', 'a') 7 (etc)
+  PT: ['None', 'int']
+  DL: ['parse_color']
+139: ('/pygal/colors.py', 'adjust', 'type') 7 (etc)
+  PT: ['None', 'str', 'type']
+  DL: ['parse_color']
+140: ('/pygal/colors.py', 'parse_color', 'color') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+141: ('/pygal/colors.py', 'parse_color', 'r') 8 (Partial match)
+  PT: ['None', 'int']
+  DL: ['None', 'list']
+142: ('/pygal/colors.py', 'parse_color', 'g') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'list']
+143: ('/pygal/colors.py', 'parse_color', 'b') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'list']
+144: ('/pygal/colors.py', 'parse_color', 'a') 8 (Partial match)
+  PT: ['None', 'int']
+  DL: ['None', 'list']
+145: ('/pygal/colors.py', 'parse_color', 'type') 8 (Partial match)
+  PT: ['None', 'str', 'type']
+  DL: ['None', 'bool']
+146: ('/pygal/colors.py', 'rgb_to_hsl', 'r') 8 (Partial match)
+  PT: ['None', 'float', 'int']
+  DL: ['int', 'bool']
+147: ('/pygal/colors.py', 'rgb_to_hsl', 'g') 8 (Partial match)
+  PT: ['None', 'float', 'int']
+  DL: ['int', 'bool']
+148: ('/pygal/colors.py', 'rgb_to_hsl', 'b') 8 (Partial match)
+  PT: ['None', 'float', 'int']
+  DL: ['int', 'bool']
+149: ('/pygal/colors.py', 'rgb_to_hsl', 'max_') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+150: ('/pygal/colors.py', 'rgb_to_hsl', 'min_') 7 (etc)
+  PT: ['float']
+  DL: ['min']
+151: ('/pygal/colors.py', 'rgb_to_hsl', 'd') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+152: ('/pygal/colors.py', '_adjust', 'percent') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+153: ('/pygal/colors.py', 'hsl_to_rgb', 'h') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['list']
+154: ('/pygal/graph/line.py', 'line', 'classes') 6 (DL subset PT)
+  PT: ['list', 'str']
+  DL: ['list']
+155: ('/pygal/graph/line.py', 'line', 'dots') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+156: ('/pygal/graph/line.py', 'line', 'y') 7 (etc)
+  PT: ['None', 'bool', 'float']
+  DL: ['dict']
+157: ('/pygal/graph/line.py', '_fill', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+158: ('/pygal/graph/line.py', '_fill', 'y') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+159: ('/pygal/svg.py', 'line', 'line_len') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+160: ('/pygal/svg.py', 'line', 'origin') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.coord_format']
+161: ('/pygal/graph/histogram.py', '_compute', 'xmin') 7 (etc)
+  PT: ['float']
+  DL: ['min']
+162: ('/pygal/graph/histogram.py', '_compute', 'xmax') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+163: ('/pygal/graph/histogram.py', '_compute', 'xrng') 8 (Partial match)
+  PT: ['None', 'float']
+  DL: ['int', 'None']
+164: ('/pygal/graph/histogram.py', '_compute', 'ymin') 7 (etc)
+  PT: ['float']
+  DL: ['min']
+165: ('/pygal/graph/histogram.py', '_compute', 'ymax') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+166: ('/pygal/graph/histogram.py', '_compute', 'yrng') 8 (Partial match)
+  PT: ['None', 'float']
+  DL: ['int', 'None']
+167: ('/pygal/graph/dual.py', '_compute_x_labels', 'x_pos') 7 (etc)
+  PT: ['list']
+  DL: ['pygal.util.compute_scale']
+168: ('/pygal/graph/dual.py', '_compute_x_labels', 'title') 7 (etc)
+  PT: ['2013-01-01', '2013-02-01']
+  DL: ['x_label']
+169: ('/pygal/graph/histogram.py', 'bar', 'bar') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+170: ('/pygal/graph/histogram.py', 'bar', 'bounds') 7 (etc)
+  PT: ['tuple']
+  DL: ['(None,?,None,?)']
+171: ('/pygal/graph/histogram.py', '_bar', 'x') 7 (etc)
+  PT: ['int']
+  DL: ['series_margin']
+172: ('/pygal/svg.py', 'gauge_background', 'end_angle') 7 (etc)
+  PT: ['float']
+  DL: ['nearly_2pi']
+173: ('/pygal/svg.py', 'solid_gauge', 'angle') 7 (etc)
+  PT: ['float']
+  DL: ['nearly_2pi']
+174: ('/pygal/svg.py', 'solid_gauge', 'x') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['pygal.util.coord_diff']
+175: ('/pygal/svg.py', 'solid_gauge', 'y') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['pygal.util.coord_diff']
+176: ('/pygal/util.py', 'coord_format', 'x') 7 (etc)
+  PT: ['tuple']
+  DL: ['(list,list)']
+177: ('/pygal/graph/funnel.py', 'funnel', 'funnels') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+178: ('/pygal/graph/public.py', 'render_tree', 'svg') 3 (PT Empty)
+  PT: []
+  DL: ['f']
+179: ('/pygal/graph/stackedline.py', '_value_format', 'sum_') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+180: ('/pygal/graph/solidgauge.py', 'gaugify', 'squares') 3 (PT Empty)
+  PT: []
+  DL: ['(int,int)']
+181: ('/pygal/graph/solidgauge.py', 'gaugify', 'sq_dimensions') 3 (PT Empty)
+  PT: []
+  DL: ['(list,list)']
+182: ('/pygal/graph/solidgauge.py', 'gaugify', 'current_square') 3 (PT Empty)
+  PT: []
+  DL: ['tuple']
+183: ('/pygal/graph/solidgauge.py', 'gaugify', 'start_angle') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['angle']
+184: ('/pygal/graph/solidgauge.py', 'gaugify', 'end_angle') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+185: ('/pygal/graph/solidgauge.py', 'gaugify', 'radius') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+186: ('/pygal/graph/solidgauge.py', 'gaugify', 'small_radius') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+187: ('/pygal/graph/solidgauge.py', 'gaugify', 'sum_') 7 (etc)
+  PT: ['int']
+  DL: ['value']
+188: ('/pygal/graph/solidgauge.py', 'gaugify', 'ratio') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+189: ('/pygal/graph/solidgauge.py', 'gaugify', 'angle') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+190: ('/pygal/graph/solidgauge.py', 'gaugify', 'gauge_') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+191: ('/pygal/graph/solidgauge.py', 'gaugify', 'x') 7 (etc)
+  PT: ['float']
+  DL: ['center']
+192: ('/pygal/graph/solidgauge.py', 'gaugify', 'y') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['center']
+193: ('/pygal/graph/graph.py', '_serie_format', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+194: ('/pygal/graph/graph.py', '_serie_format', 'kwargs') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['dict', 'pygal.util.filter_kwargs']
+195: ('/pygal/graph/graph.py', '_serie_format', 'formatter') 7 (etc)
+  PT: ['meta_func']
+  DL: ['bool']
+196: ('/pygal/style.py', '__init__', 'fn') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+197: ('/pygal/graph/public.py', 'render_sparktext', 'relative_to') 7 (etc)
+  PT: ['None', 'float', 'int']
+  DL: ['min']
+198: ('/pygal/graph/public.py', 'render_sparktext', 'bars') 7 (etc)
+  PT: ['str']
+  DL: ['pygal._compat.u']
+199: ('/pygal/graph/public.py', 'render_sparktext', 'chart') 8 (Partial match)
+  PT: ['int', 'str']
+  DL: ['pygal._compat.u', 'int', 'dict']
+200: ('/pygal/graph/public.py', 'render_sparktext', 'vmax') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+201: ('/pygal/graph/pie.py', '_plot', 'total') 3 (PT Empty)
+  PT: []
+  DL: ['sum']
+202: ('/pygal/graph/pie.py', '_plot', 'current_angle') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['angle']
+203: ('/pygal/graph/pie.py', 'slice', 'start_angle') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['angle']
+204: ('/pygal/graph/pie.py', 'slice', 'serie_angle') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['angle']
+205: ('/pygal/graph/pie.py', 'slice', 'original_start_angle') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['start_angle']
+206: ('/pygal/graph/pie.py', 'slice', 'radius') 7 (etc)
+  PT: ['float']
+  DL: ['min']
+207: ('/pygal/graph/pie.py', 'slice', 'slice_') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+208: ('/pygal/graph/pie.py', 'slice', 'small_radius') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+209: ('/pygal/graph/pie.py', 'slice', 'big_radius') 7 (etc)
+  PT: ['float']
+  DL: ['radius', 'int']
+210: ('/pygal/svg.py', 'slice', 'angle') 7 (etc)
+  PT: ['float']
+  DL: ['nearly_2pi']
+211: ('/pygal/svg.py', 'slice', 'x') 7 (etc)
+  PT: ['float']
+  DL: ['pygal.util.coord_diff']
+212: ('/pygal/svg.py', 'slice', 'y') 7 (etc)
+  PT: ['float']
+  DL: ['pygal.util.coord_diff']
+213: ('/pygal/graph/xy.py', '_compute', 'xmin') 7 (etc)
+  PT: ['2013-01-01', 'float']
+  DL: ['x_adapter', 'min']
+214: ('/pygal/graph/xy.py', '_compute', 'xmax') 7 (etc)
+  PT: ['2013-03-01', 'float']
+  DL: ['x_adapter', 'max']
+215: ('/pygal/graph/xy.py', '_compute', 'xrng') 8 (Partial match)
+  PT: ['59 days, 0:00:00', 'None', 'float']
+  DL: ['int', 'None']
+216: ('/pygal/graph/xy.py', '_compute', 'ymin') 7 (etc)
+  PT: ['int', 'meta_func']
+  DL: ['min']
+217: ('/pygal/graph/xy.py', '_compute', 'ymax') 7 (etc)
+  PT: ['int', 'meta_func']
+  DL: ['max']
+218: ('/pygal/graph/xy.py', '_compute', 'yrng') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['None']
+219: ('/pygal/graph/time.py', 'date_to_str', 't') 7 (etc)
+  PT: ['01:00:40.000060', '01:00:40.016666']
+  DL: ['seconds_to_time']
+220: ('/pygal/graph/time.py', 'seconds_to_time', 'h') 7 (etc)
+  PT: ['int']
+  DL: ['t']
+221: ('/pygal/graph/dot.py', 'dot', 'r_max') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+222: ('/pygal/graph/dot.py', 'dot', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+223: ('/pygal/graph/dot.py', 'dot', 'y') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+224: ('/pygal/graph/dot.py', 'dot', 'log10min') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+225: ('/pygal/graph/dot.py', 'dot', 'log10max') 7 (etc)
+  PT: ['float']
+  DL: ['math.log10']
+226: ('/pygal/graph/dot.py', 'dot', 'size') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+227: ('/pygal/graph/dot.py', 'dot', 'dots') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+228: ('/pygal/interpolate.py', 'quadratic_interpolate', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+229: ('/pygal/interpolate.py', 'quadratic_interpolate', 'y') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+230: ('/pygal/interpolate.py', 'quadratic_interpolate', 'a') 3 (PT Empty)
+  PT: []
+  DL: ['y']
+231: ('/pygal/interpolate.py', 'cubic_interpolate', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+232: ('/pygal/interpolate.py', 'cubic_interpolate', 'y') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+233: ('/pygal/interpolate.py', 'cubic_interpolate', 'a') 3 (PT Empty)
+  PT: []
+  DL: ['y']
+234: ('/pygal/interpolate.py', 'hermite_interpolate', 'c') 7 (etc)
+  PT: ['None', 'int']
+  DL: ['bool']
+235: ('/pygal/interpolate.py', 'hermite_interpolate', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+236: ('/pygal/interpolate.py', 'hermite_interpolate', 'y') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+237: ('/pygal/interpolate.py', 'lagrange_interpolate', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+238: ('/pygal/interpolate.py', 'lagrange_interpolate', 'y') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+239: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+240: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'y') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+241: ('/pygal/interpolate.py', 'p', 'i') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+242: ('/pygal/style.py', '__init__', 'base_style') 7 (etc)
+  PT: ['LightStyle', 'None']
+  DL: ['base_style']
+243: ('/pygal/style.py', '__init__', 'max_') 7 (etc)
+  PT: ['None', 'int']
+  DL: ['dict']
+244: ('/pygal/style.py', 'to_dict', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+245: ('/pygal/graph/box.py', '_boxf', 'box') 3 (PT Empty)
+  PT: []
+  DL: ['pygal.util.decorate']
+246: ('/pygal/graph/box.py', 'median', 'n') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+247: ('/pygal/graph/box.py', 'stdev', 'm') 3 (PT Empty)
+  PT: []
+  DL: ['mean']
+248: ('/pygal/graph/box.py', 'stdev', 'l') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+249: ('/pygal/graph/box.py', 'pstdev', 'm') 3 (PT Empty)
+  PT: []
+  DL: ['mean']
+250: ('/pygal/graph/box.py', 'pstdev', 'l') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+251: ('/pygal/config.py', 'to_dict', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+252: ('/pygal/util.py', 'deg', 'radiants') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+253: ('/pygal/graph/treemap.py', '_binary_tree', 'pivot_index') 7 (etc)
+  PT: ['int']
+  DL: ['i']
+254: ('/pygal/graph/solidgauge.py', '_squares', 'n_series_') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['len', 'int']
+255: ('/pygal/graph/solidgauge.py', '_squares', '_x') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'tuple']
+256: ('/pygal/graph/solidgauge.py', '_squares', '_y') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'tuple']
+257: ('/pygal/graph/stackedbar.py', '_compute', 'positive_vals') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'bool']
+258: ('/pygal/graph/stackedbar.py', '_compute', 'negative_vals') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'bool']

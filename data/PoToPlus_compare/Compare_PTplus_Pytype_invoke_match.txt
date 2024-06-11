@@ -1,0 +1,3309 @@
+0: ('/invoke/tasks.py', 'module_initializer', 'NO_DEFAULT') 0 644 0 (Match)
+  PT: ['<object object at 0x106efa510>', '<object object at 0x10d9fe0d0>', '<object object at 0x10da4f7d0>', '<object object at 0x10dab0870>', '<object object at 0x10dac5800>', '<object object at 0x10dac5cb0>', '<object object at 0x10daccd90>', '<object object at 0x10dbe3e50>', '<object object at 0x10dc33980>', '<object object at 0x10dc33dc0>', '<object object at 0x10dc615e0>', '<object object at 0x10dcdb970>', '<object object at 0x10dd777a0>', '<object object at 0x10de106f0>', '<object object at 0x10de925f0>', '<object object at 0x10df030a0>', '<object object at 0x10df337e0>', '<object object at 0x10df36f80>', '<object object at 0x10df450b0>', '<object object at 0x10df91350>', '<object object at 0x10e01fd10>', '<object object at 0x10e05e750>', '<object object at 0x10e10d850>', '<object object at 0x10e133d10>', '<object object at 0x10e18cb90>', '<object object at 0x10e1ffe30>', '<object object at 0x10e2b0c40>', '<object object at 0x10e2bb550>', '<object object at 0x10e2c97d0>', '<object object at 0x10e366800>', '<object object at 0x10e374400>', '<object object at 0x10e3955f0>', '<object object at 0x10e3c6c60>', '<object object at 0x10e44d040>', '<object object at 0x10e46f7d0>', '<object object at 0x10e542800>', '<object object at 0x10e550710>', '<object object at 0x10e553cf0>', '<object object at 0x10e6367e0>', '<object object at 0x10e64d0d0>', '<object object at 0x10e6dec40>', '<object object at 0x10e707800>', '<object object at 0x10ef79690>', '<object object at 0x10f769510>', '<object object at 0x10fab6670>', '<object object at 0x10faee870>', '<object object at 0x10fb16800>', '<object object at 0x10fb20b20>', '<object object at 0x10fbbc060>', '<object object at 0x10fbbe710>', '<object object at 0x10fbc8d10>', '<object object at 0x10fc20cf0>', '<object object at 0x10fc2acf0>', '<object object at 0x10fc357e0>', '<object object at 0x10fc74850>', '<object object at 0x10fc8d7a0>', '<object object at 0x10fcb1810>', '<object object at 0x10fcd77d0>', '<object object at 0x10fcfed40>', '<object object at 0x10fd55830>', '<object object at 0x10fd5f0d0>', '<object object at 0x10fd90ab0>', '<object object at 0x10fdae070>', '<object object at 0x10fdb1ce0>', '<object object at 0x10fe38f20>', '<object object at 0x10fe56a10>', '<object object at 0x10fe780d0>']
+  PY: ['object']
+1: ('/invoke/config.py', 'DataProxy_class_initializer', '_proxies') 1 719 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, ...]']
+2: ('/invoke/config.py', 'DataProxy_class_initializer', '__hash__') 2 720 0 (Match)
+  PT: ['None']
+  PY: ['None']
+3: ('/invoke/config.py', 'Config_class_initializer', 'prefix') 3 813 0 (Match)
+  PT: ['str']
+  PY: ['str']
+4: ('/invoke/config.py', 'Config_class_initializer', 'file_prefix') 4 814 0 (Match)
+  PT: ['None']
+  PY: ['None']
+5: ('/invoke/config.py', 'Config_class_initializer', 'env_prefix') 5 815 0 (Match)
+  PT: ['None']
+  PY: ['None']
+6: ('/invoke/runners.py', 'Runner_class_initializer', 'read_chunk_size') 9 1094 0 (Match)
+  PT: ['int']
+  PY: ['int']
+7: ('/invoke/runners.py', 'Runner_class_initializer', 'input_sleep') 10 1095 0 (Match)
+  PT: ['float']
+  PY: ['float']
+8: ('/invoke/program.py', 'Program_class_initializer', 'leading_indent_width') 11 1415 0 (Match)
+  PT: ['int']
+  PY: ['int']
+9: ('/invoke/program.py', 'Program_class_initializer', 'leading_indent') 12 1416 0 (Match)
+  PT: ['str']
+  PY: ['str']
+10: ('/invoke/program.py', 'Program_class_initializer', 'indent_width') 13 1417 0 (Match)
+  PT: ['int']
+  PY: ['int']
+11: ('/invoke/program.py', 'Program_class_initializer', 'indent') 14 1418 0 (Match)
+  PT: ['str']
+  PY: ['str']
+12: ('/invoke/program.py', 'Program_class_initializer', 'col_padding') 15 1419 0 (Match)
+  PT: ['int']
+  PY: ['int']
+13: ('/invoke/exceptions.py', 'ThreadException_class_initializer', 'exceptions') 16 1463 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+14: ('/invoke/parser/parser.py', 'ParseMachine_class_initializer', 'initial_state') 17 1600 0 (Match)
+  PT: ['str']
+  PY: ['str']
+15: ('/invoke/vendor/fluidity/machine.py', 'module_initializer', '_transition_gatherer') 18 2061 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+16: ('/invoke/vendor/fluidity/machine.py', 'module_initializer', '_state_gatherer') 19 2062 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+17: ('/invoke/vendor/fluidity/machine.py', 'module_initializer', 'StateMachineBase') 20 2063 1 (Manual match)
+  PT: ['MetaStateMachine']
+  PY: ['Type[StateMachineBase]']
+18: ('/invoke/vendor/fluidity/backwardscompat.py', 'module_initializer', 'callable') 22 2065 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable[[Any], Any]']
+19: ('/invoke/vendor/decorator.py', 'module_initializer', '__version__') 23 1767 0 (Match)
+  PT: ['str']
+  PY: ['str']
+20: ('/invoke/vendor/decorator.py', 'module_initializer', 'FullArgSpec') 24 1768 0 (Match)
+  PT: ['pt_engine.utils.base.FullArgSpec']
+  PY: ['Type[FullArgSpec]']
+21: ('/invoke/vendor/decorator.py', 'module_initializer', 'ArgSpec') 25 1769 0 (Match)
+  PT: ['pt_engine.utils.base.ArgSpec']
+  PY: ['Type[ArgSpec]']
+22: ('/invoke/vendor/decorator.py', 'module_initializer', 'DEF') 26 1770 0 (Match)
+  PT: ["re.compile('\\\\s*def\\\\s*([_\\\\w][_\\\\w\\\\d]*)\\\\s*\\\\(')"]
+  PY: ['re.Pattern[str]']
+23: ('/invoke/vendor/decorator.py', 'module_initializer', 'init') 27 1771 1 (Manual match)
+  PT: ["FullArgSpec(args=['self', 'func', 'args', 'kwds'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})"]
+  PY: ['Union[FullArgSpec, inspect.FullArgSpec]']
+24: ('/invoke/vendor/decorator.py', 'module_initializer', 'n_args') 28 1772 0 (Match)
+  PT: ['int']
+  PY: ['int']
+25: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', '_compile_count') 30 1706 1 (Manual match)
+  PT: ['count(0)']
+  PY: ['itertools.count[int]']
+26: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'args') 31 1707 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+27: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'varargs') 32 1708 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+28: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'varkw') 33 1709 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+29: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'defaults') 34 1710 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+30: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'kwonlyargs') 35 1711 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+31: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'kwonlydefaults') 36 1712 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+32: ('/invoke/vendor/six.py', 'module_initializer', '__author__') 37 1876 0 (Match)
+  PT: ['str']
+  PY: ['str']
+33: ('/invoke/vendor/six.py', 'module_initializer', '__version__') 38 1877 0 (Match)
+  PT: ['str']
+  PY: ['str']
+34: ('/invoke/vendor/six.py', 'module_initializer', 'PY2') 39 1878 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+35: ('/invoke/vendor/six.py', 'module_initializer', 'PY3') 40 1879 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+36: ('/invoke/vendor/six.py', 'module_initializer', 'PY34') 41 1880 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+37: ('/invoke/vendor/six.py', 'module_initializer', 'string_types') 42 1881 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Type[str]]']
+38: ('/invoke/vendor/six.py', 'module_initializer', 'integer_types') 43 1882 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Type[int]]']
+39: ('/invoke/vendor/six.py', 'module_initializer', 'class_types') 44 1883 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Type[type]]']
+40: ('/invoke/vendor/six.py', 'module_initializer', 'text_type') 45 1884 0 (Match)
+  PT: ['str']
+  PY: ['Type[str]']
+41: ('/invoke/vendor/six.py', 'module_initializer', 'MAXSIZE') 47 1886 0 (Match)
+  PT: ['int']
+  PY: ['int']
+42: ('/invoke/vendor/six.py', 'module_initializer', '_importer') 48 1887 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+43: ('/invoke/vendor/six.py', 'module_initializer', '_moved_attributes') 49 1888 0 (Match)
+  PT: ['list']
+  PY: ['List[Union[MovedAttribute, MovedModule]]']
+44: ('/invoke/vendor/six.py', 'module_initializer', 'moves') 51 1889 0 (Match)
+  PT: ['_MovedItems']
+  PY: ['_MovedItems']
+45: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_parse_moved_attributes') 52 1890 0 (Match)
+  PT: ['list']
+  PY: ['List[MovedAttribute]']
+46: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_error_moved_attributes') 53 1891 0 (Match)
+  PT: ['list']
+  PY: ['List[MovedAttribute]']
+47: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_request_moved_attributes') 54 1892 0 (Match)
+  PT: ['list']
+  PY: ['List[MovedAttribute]']
+48: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_response_moved_attributes') 55 1893 0 (Match)
+  PT: ['list']
+  PY: ['List[MovedAttribute]']
+49: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_robotparser_moved_attributes') 56 1894 0 (Match)
+  PT: ['list']
+  PY: ['List[MovedAttribute]']
+50: ('/invoke/vendor/six.py', 'module_initializer', '_meth_func') 57 1895 0 (Match)
+  PT: ['str']
+  PY: ['str']
+51: ('/invoke/vendor/six.py', 'module_initializer', '_meth_self') 58 1896 0 (Match)
+  PT: ['str']
+  PY: ['str']
+52: ('/invoke/vendor/six.py', 'module_initializer', '_func_closure') 59 1897 0 (Match)
+  PT: ['str']
+  PY: ['str']
+53: ('/invoke/vendor/six.py', 'module_initializer', '_func_code') 60 1898 0 (Match)
+  PT: ['str']
+  PY: ['str']
+54: ('/invoke/vendor/six.py', 'module_initializer', '_func_defaults') 61 1899 0 (Match)
+  PT: ['str']
+  PY: ['str']
+55: ('/invoke/vendor/six.py', 'module_initializer', '_func_globals') 62 1900 0 (Match)
+  PT: ['str']
+  PY: ['str']
+56: ('/invoke/vendor/six.py', 'module_initializer', 'advance_iterator') 63 1901 0 (Match)
+  PT: ['<built-in function next>']
+  PY: ['Union[Callable[[Any], Any], Callable]']
+57: ('/invoke/vendor/six.py', 'module_initializer', 'next') 64 1902 0 (Match)
+  PT: ['<built-in function next>']
+  PY: ['Union[Callable[[Any], Any], Callable]']
+58: ('/invoke/vendor/six.py', 'module_initializer', 'callable') 65 1903 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable[[Any], Any]']
+59: ('/invoke/vendor/six.py', 'module_initializer', 'create_bound_method') 66 1904 1 (Manual match)
+  PT: ['method']
+  PY: ['Type[types.MethodType]']
+60: ('/invoke/vendor/six.py', 'module_initializer', 'Iterator') 67 1905 0 (Match)
+  PT: ['object']
+  PY: ['Type[object]']
+61: ('/invoke/vendor/six.py', 'module_initializer', 'get_method_function') 68 1906 0 (Match)
+  PT: ['operator.attrgetter("\'im_func\'")', "operator.attrgetter('__func__')", "operator.attrgetter('im_func')"]
+  PY: ['_operator.attrgetter']
+62: ('/invoke/vendor/six.py', 'module_initializer', 'get_method_self') 69 1907 0 (Match)
+  PT: ['operator.attrgetter("\'im_self\'")', "operator.attrgetter('__self__')", "operator.attrgetter('im_self')"]
+  PY: ['_operator.attrgetter']
+63: ('/invoke/vendor/six.py', 'module_initializer', 'get_function_closure') 70 1908 0 (Match)
+  PT: ['operator.attrgetter("\'msg\'")', "operator.attrgetter('msg')"]
+  PY: ['_operator.attrgetter']
+64: ('/invoke/vendor/six.py', 'module_initializer', 'get_function_code') 71 1909 0 (Match)
+  PT: ['operator.attrgetter("\'func_code\'")', "operator.attrgetter('__code__')", "operator.attrgetter('func_code')"]
+  PY: ['_operator.attrgetter']
+65: ('/invoke/vendor/six.py', 'module_initializer', 'get_function_defaults') 72 1910 0 (Match)
+  PT: ['operator.attrgetter("\'msg\'")', "operator.attrgetter('msg')"]
+  PY: ['_operator.attrgetter']
+66: ('/invoke/vendor/six.py', 'module_initializer', 'get_function_globals') 73 1911 0 (Match)
+  PT: ['operator.attrgetter("\'msg\'")', "operator.attrgetter('msg')"]
+  PY: ['_operator.attrgetter']
+67: ('/invoke/vendor/six.py', 'module_initializer', 'viewkeys') 74 1912 0 (Match)
+  PT: ["operator.methodcaller('keys')", "operator.methodcaller('viewkeys')"]
+  PY: ['_operator.methodcaller']
+68: ('/invoke/vendor/six.py', 'module_initializer', 'viewvalues') 75 1913 0 (Match)
+  PT: ["operator.methodcaller('values')", "operator.methodcaller('viewvalues')"]
+  PY: ['_operator.methodcaller']
+69: ('/invoke/vendor/six.py', 'module_initializer', 'viewitems') 76 1914 0 (Match)
+  PT: ["operator.methodcaller('items')", "operator.methodcaller('viewitems')"]
+  PY: ['_operator.methodcaller']
+70: ('/invoke/vendor/six.py', 'module_initializer', 'unichr') 77 1915 0 (Match)
+  PT: ['<built-in function chr>']
+  PY: ['Callable[[int], str]']
+71: ('/invoke/vendor/six.py', 'module_initializer', 'int2byte') 78 1916 0 (Match)
+  PT: ['<built-in function chr>', '<built-in method pack of _struct.Struct object at 0x1071d2970>', '<built-in method pack of _struct.Struct object at 0x10d96d5b0>', '<built-in method pack of _struct.Struct object at 0x10d975470>', '<built-in method pack of _struct.Struct object at 0x10d976870>', '<built-in method pack of _struct.Struct object at 0x10d9899f0>', '<built-in method pack of _struct.Struct object at 0x10d9c4b30>', '<built-in method pack of _struct.Struct object at 0x10da56ef0>', '<built-in method pack of _struct.Struct object at 0x10da799f0>', '<built-in method pack of _struct.Struct object at 0x10da7bf70>', '<built-in method pack of _struct.Struct object at 0x10da8b230>', '<built-in method pack of _struct.Struct object at 0x10db3f270>', '<built-in method pack of _struct.Struct object at 0x10db90170>', '<built-in method pack of _struct.Struct object at 0x10db9edb0>', '<built-in method pack of _struct.Struct object at 0x10dc0c4b0>', '<built-in method pack of _struct.Struct object at 0x10dc27d70>', '<built-in method pack of _struct.Struct object at 0x10dc315f0>', '<built-in method pack of _struct.Struct object at 0x10dc324b0>', '<built-in method pack of _struct.Struct object at 0x10dc77470>', '<built-in method pack of _struct.Struct object at 0x10dc858f0>', '<built-in method pack of _struct.Struct object at 0x10dcb69f0>', '<built-in method pack of _struct.Struct object at 0x10dcc1530>', '<built-in method pack of _struct.Struct object at 0x10dcd3e70>', '<built-in method pack of _struct.Struct object at 0x10dcd7fb0>', '<built-in method pack of _struct.Struct object at 0x10dd064b0>', '<built-in method pack of _struct.Struct object at 0x10dd16170>', '<built-in method pack of _struct.Struct object at 0x10dd19cf0>', '<built-in method pack of _struct.Struct object at 0x10dd607f0>', '<built-in method pack of _struct.Struct object at 0x10dd631f0>', '<built-in method pack of _struct.Struct object at 0x10de45bb0>', '<built-in method pack of _struct.Struct object at 0x10de77330>', '<built-in method pack of _struct.Struct object at 0x10dee3ab0>', '<built-in method pack of _struct.Struct object at 0x10df19bf0>', '<built-in method pack of _struct.Struct object at 0x10df24b70>', '<built-in method pack of _struct.Struct object at 0x10df7c1b0>', '<built-in method pack of _struct.Struct object at 0x10dfe84f0>', '<built-in method pack of _struct.Struct object at 0x10e0171f0>', '<built-in method pack of _struct.Struct object at 0x10e01cef0>', '<built-in method pack of _struct.Struct object at 0x10e0415f0>', '<built-in method pack of _struct.Struct object at 0x10e111970>', '<built-in method pack of _struct.Struct object at 0x10e1cd130>', '<built-in method pack of _struct.Struct object at 0x10e450bb0>', '<built-in method pack of _struct.Struct object at 0x10e466f70>', '<built-in method pack of _struct.Struct object at 0x10e46d570>', '<built-in method pack of _struct.Struct object at 0x10e4834b0>', '<built-in method pack of _struct.Struct object at 0x10e51b470>', '<built-in method pack of _struct.Struct object at 0x10e5874b0>', '<built-in method pack of _struct.Struct object at 0x10e58e330>', '<built-in method pack of _struct.Struct object at 0x10e61acf0>', '<built-in method pack of _struct.Struct object at 0x10e62b670>', '<built-in method pack of _struct.Struct object at 0x10e6342b0>', '<built-in method pack of _struct.Struct object at 0x10e6e6bf0>', '<built-in method pack of _struct.Struct object at 0x10e79f9f0>', '<built-in method pack of _struct.Struct object at 0x10fa13f70>', '<built-in method pack of _struct.Struct object at 0x10fab8c70>', '<built-in method pack of _struct.Struct object at 0x10fad5b30>', '<built-in method pack of _struct.Struct object at 0x10fafa470>', '<built-in method pack of _struct.Struct object at 0x10fba2870>', '<built-in method pack of _struct.Struct object at 0x10fbb3e70>', '<built-in method pack of _struct.Struct object at 0x10fbfb6b0>', '<built-in method pack of _struct.Struct object at 0x10fc2acf0>', '<built-in method pack of _struct.Struct object at 0x10fc51e70>', '<built-in method pack of _struct.Struct object at 0x10fca3470>', '<built-in method pack of _struct.Struct object at 0x10fd35bb0>', '<built-in method pack of _struct.Struct object at 0x10fd851b0>', '<built-in method pack of _struct.Struct object at 0x10fdac230>', '<built-in method pack of _struct.Struct object at 0x10ffae5b0>', '<built-in method pack of _struct.Struct object at 0x110e87930>']
+  PY: ['Callable[[], bytes]']
+72: ('/invoke/vendor/six.py', 'module_initializer', 'byte2int') 79 1917 1 (Manual match)
+  PT: ['operator.itemgetter(0)']
+  PY: ['_operator.itemgetter[int]']
+73: ('/invoke/vendor/six.py', 'module_initializer', 'indexbytes') 80 1918 0 (Match)
+  PT: ['<built-in function getitem>']
+  PY: ['Callable']
+74: ('/invoke/vendor/six.py', 'module_initializer', 'iterbytes') 81 1919 0 (Match)
+  PT: ['<built-in function iter>']
+  PY: ['Callable']
+75: ('/invoke/vendor/six.py', 'module_initializer', 'StringIO') 82 1920 0 (Match)
+  PT: ['_io.StringIO']
+  PY: ['Type[io.StringIO]']
+76: ('/invoke/vendor/six.py', 'module_initializer', 'BytesIO') 83 1921 0 (Match)
+  PT: ['_io.BytesIO']
+  PY: ['Type[io.BytesIO]']
+77: ('/invoke/vendor/six.py', 'module_initializer', '_assertCountEqual') 84 1922 0 (Match)
+  PT: ['str']
+  PY: ['str']
+78: ('/invoke/vendor/six.py', 'module_initializer', '_assertRaisesRegex') 85 1923 0 (Match)
+  PT: ['str']
+  PY: ['str']
+79: ('/invoke/vendor/six.py', 'module_initializer', '_assertRegex') 86 1924 0 (Match)
+  PT: ['str']
+  PY: ['str']
+80: ('/invoke/vendor/six.py', 'module_initializer', 'wraps') 90 1928 0 (Match)
+  PT: ['<function wraps at 0x104fc3790>', '<function wraps at 0x10d6fa790>', '<function wraps at 0x10ebb5790>']
+  PY: ['Callable']
+81: ('/invoke/vendor/six.py', 'module_initializer', '__path__') 91 1929 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+82: ('/invoke/vendor/six.py', 'module_initializer', '__package__') 92 1930 0 (Match)
+  PT: ['str']
+  PY: ['str']
+83: ('/invoke/vendor/six.py', '_LazyModule_class_initializer', '_moved_attributes') 95 1793 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+84: ('/invoke/vendor/six.py', '_MovedItems_class_initializer', '__path__') 96 1819 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+85: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', '__path__') 97 1820 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+86: ('/invoke/vendor/yaml3/scanner.py', 'module_initializer', '__all__') 103 2311 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+87: ('/invoke/vendor/yaml3/scanner.py', 'Scanner_class_initializer', 'ESCAPE_REPLACEMENTS') 104 2309 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, str]']
+88: ('/invoke/vendor/yaml3/scanner.py', 'Scanner_class_initializer', 'ESCAPE_CODES') 105 2310 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, int]']
+89: ('/invoke/vendor/yaml3/error.py', 'module_initializer', '__all__') 106 2336 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+90: ('/invoke/vendor/yaml3/constructor.py', 'module_initializer', '__all__') 107 2540 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+91: ('/invoke/vendor/yaml3/constructor.py', 'BaseConstructor_class_initializer', 'yaml_constructors') 108 2385 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+92: ('/invoke/vendor/yaml3/constructor.py', 'BaseConstructor_class_initializer', 'yaml_multi_constructors') 109 2386 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+93: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'bool_values') 110 2472 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, bool]']
+94: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'inf_value') 111 2473 0 (Match)
+  PT: ['float']
+  PY: ['float']
+95: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'nan_value') 112 2474 0 (Match)
+  PT: ['float']
+  PY: ['float']
+96: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'timestamp_regexp') 113 2475 0 (Match)
+  PT: ["re.compile('^(?P<year>[0-9][0-9][0-9][0-9])\\n                -(?P<month>[0-9][0-9]?)\\n                -(?P<day>[0-9][0-9]?)\\n                (?:(?:[Tt]|[ \\\\t]+)\\n                (?P<hour>[0-9][0-9]?)\\n          , re.VERBOSE)"]
+  PY: ['re.Pattern[str]']
+97: ('/invoke/vendor/yaml3/composer.py', 'module_initializer', '__all__') 114 2575 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+98: ('/invoke/vendor/yaml3/__init__.py', 'module_initializer', '__version__') 115 2709 0 (Match)
+  PT: ['str']
+  PY: ['str']
+99: ('/invoke/vendor/yaml3/__init__.py', 'module_initializer', '__with_libyaml__') 116 2710 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+100: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', '__slots__') 117 2704 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+101: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', 'yaml_tag') 118 2707 0 (Match)
+  PT: ['None']
+  PY: ['None']
+102: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', 'yaml_flow_style') 119 2708 0 (Match)
+  PT: ['None']
+  PY: ['None']
+103: ('/invoke/vendor/yaml3/representer.py', 'module_initializer', '__all__') 120 2814 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+104: ('/invoke/vendor/yaml3/representer.py', 'BaseRepresenter_class_initializer', 'yaml_representers') 121 2755 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+105: ('/invoke/vendor/yaml3/representer.py', 'BaseRepresenter_class_initializer', 'yaml_multi_representers') 122 2756 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+106: ('/invoke/vendor/yaml3/representer.py', 'SafeRepresenter_class_initializer', 'inf_value') 123 2791 0 (Match)
+  PT: ['float']
+  PY: ['float']
+107: ('/invoke/vendor/yaml3/tokens.py', 'DirectiveToken_class_initializer', 'id') 124 2824 0 (Match)
+  PT: ['str']
+  PY: ['str']
+108: ('/invoke/vendor/yaml3/tokens.py', 'DocumentStartToken_class_initializer', 'id') 125 2825 0 (Match)
+  PT: ['str']
+  PY: ['str']
+109: ('/invoke/vendor/yaml3/tokens.py', 'DocumentEndToken_class_initializer', 'id') 126 2826 0 (Match)
+  PT: ['str']
+  PY: ['str']
+110: ('/invoke/vendor/yaml3/tokens.py', 'StreamStartToken_class_initializer', 'id') 127 2828 0 (Match)
+  PT: ['str']
+  PY: ['str']
+111: ('/invoke/vendor/yaml3/tokens.py', 'StreamEndToken_class_initializer', 'id') 128 2829 0 (Match)
+  PT: ['str']
+  PY: ['str']
+112: ('/invoke/vendor/yaml3/tokens.py', 'BlockSequenceStartToken_class_initializer', 'id') 129 2830 0 (Match)
+  PT: ['str']
+  PY: ['str']
+113: ('/invoke/vendor/yaml3/tokens.py', 'BlockMappingStartToken_class_initializer', 'id') 130 2831 0 (Match)
+  PT: ['str']
+  PY: ['str']
+114: ('/invoke/vendor/yaml3/tokens.py', 'BlockEndToken_class_initializer', 'id') 131 2832 0 (Match)
+  PT: ['str']
+  PY: ['str']
+115: ('/invoke/vendor/yaml3/tokens.py', 'FlowSequenceStartToken_class_initializer', 'id') 132 2833 0 (Match)
+  PT: ['str']
+  PY: ['str']
+116: ('/invoke/vendor/yaml3/tokens.py', 'FlowMappingStartToken_class_initializer', 'id') 133 2834 0 (Match)
+  PT: ['str']
+  PY: ['str']
+117: ('/invoke/vendor/yaml3/tokens.py', 'FlowSequenceEndToken_class_initializer', 'id') 134 2835 0 (Match)
+  PT: ['str']
+  PY: ['str']
+118: ('/invoke/vendor/yaml3/tokens.py', 'FlowMappingEndToken_class_initializer', 'id') 135 2836 0 (Match)
+  PT: ['str']
+  PY: ['str']
+119: ('/invoke/vendor/yaml3/tokens.py', 'KeyToken_class_initializer', 'id') 136 2837 0 (Match)
+  PT: ['str']
+  PY: ['str']
+120: ('/invoke/vendor/yaml3/tokens.py', 'ValueToken_class_initializer', 'id') 137 2838 0 (Match)
+  PT: ['str']
+  PY: ['str']
+121: ('/invoke/vendor/yaml3/tokens.py', 'BlockEntryToken_class_initializer', 'id') 138 2839 0 (Match)
+  PT: ['str']
+  PY: ['str']
+122: ('/invoke/vendor/yaml3/tokens.py', 'FlowEntryToken_class_initializer', 'id') 139 2840 0 (Match)
+  PT: ['str']
+  PY: ['str']
+123: ('/invoke/vendor/yaml3/tokens.py', 'AliasToken_class_initializer', 'id') 140 2841 0 (Match)
+  PT: ['str']
+  PY: ['str']
+124: ('/invoke/vendor/yaml3/tokens.py', 'AnchorToken_class_initializer', 'id') 141 2842 0 (Match)
+  PT: ['str']
+  PY: ['str']
+125: ('/invoke/vendor/yaml3/tokens.py', 'TagToken_class_initializer', 'id') 142 2843 0 (Match)
+  PT: ['str']
+  PY: ['str']
+126: ('/invoke/vendor/yaml3/tokens.py', 'ScalarToken_class_initializer', 'id') 143 2846 0 (Match)
+  PT: ['str']
+  PY: ['str']
+127: ('/invoke/vendor/yaml3/dumper.py', 'module_initializer', '__all__') 144 2861 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+128: ('/invoke/vendor/yaml3/cyaml.py', 'module_initializer', '__all__') 145 2876 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+129: ('/invoke/vendor/yaml3/parser.py', 'module_initializer', '__all__') 146 2972 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+130: ('/invoke/vendor/yaml3/parser.py', 'Parser_class_initializer', 'DEFAULT_TAGS') 147 2971 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, str]']
+131: ('/invoke/vendor/yaml3/reader.py', 'module_initializer', '__all__') 148 3005 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+132: ('/invoke/vendor/yaml3/reader.py', 'Reader_class_initializer', 'NON_PRINTABLE') 149 3004 0 (Match)
+  PT: ["re.compile('[^\\t\\n\\r -~\\x85\\xa0-\\ud7ff\\ue000-�]')"]
+  PY: ['re.Pattern[str]']
+133: ('/invoke/vendor/yaml3/loader.py', 'module_initializer', '__all__') 150 3008 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+134: ('/invoke/vendor/yaml3/resolver.py', 'module_initializer', '__all__') 151 3053 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+135: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'DEFAULT_SCALAR_TAG') 152 3048 0 (Match)
+  PT: ['str']
+  PY: ['str']
+136: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'DEFAULT_SEQUENCE_TAG') 153 3049 0 (Match)
+  PT: ['str']
+  PY: ['str']
+137: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'DEFAULT_MAPPING_TAG') 154 3050 0 (Match)
+  PT: ['str']
+  PY: ['str']
+138: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'yaml_implicit_resolvers') 155 3051 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+139: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'yaml_path_resolvers') 156 3052 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+140: ('/invoke/vendor/yaml3/serializer.py', 'module_initializer', '__all__') 157 3083 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+141: ('/invoke/vendor/yaml3/serializer.py', 'Serializer_class_initializer', 'ANCHOR_TEMPLATE') 158 3082 0 (Match)
+  PT: ['str']
+  PY: ['str']
+142: ('/invoke/vendor/yaml3/nodes.py', 'ScalarNode_class_initializer', 'id') 159 3092 0 (Match)
+  PT: ['str']
+  PY: ['str']
+143: ('/invoke/vendor/yaml3/nodes.py', 'SequenceNode_class_initializer', 'id') 160 3094 0 (Match)
+  PT: ['str']
+  PY: ['str']
+144: ('/invoke/vendor/yaml3/nodes.py', 'MappingNode_class_initializer', 'id') 161 3095 0 (Match)
+  PT: ['str']
+  PY: ['str']
+145: ('/invoke/vendor/yaml3/emitter.py', 'module_initializer', '__all__') 162 3301 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+146: ('/invoke/vendor/yaml3/emitter.py', 'Emitter_class_initializer', 'DEFAULT_TAG_PREFIXES') 163 3299 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, str]']
+147: ('/invoke/vendor/yaml3/emitter.py', 'Emitter_class_initializer', 'ESCAPE_REPLACEMENTS') 164 3300 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, str]']
+148: ('/setup.py', 'module_initializer', '_locals') 165 415 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+149: ('/setup.py', 'module_initializer', 'exclude') 167 417 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+150: ('/setup.py', 'module_initializer', 'long_description') 169 419 0 (Match)
+  PT: ['str']
+  PY: ['str']
+151: ('/integration/runners.py', 'module_initializer', 'PYPY') 170 461 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+152: ('/integration/_support/busywork.py', 'module_initializer', 'out') 173 508 0 (Match)
+  PT: ['str']
+  PY: ['str']
+153: ('/integration/_support/busywork.py', 'module_initializer', 'err') 174 509 0 (Match)
+  PT: ['str']
+  PY: ['str']
+154: ('/integration/_support/err.py', 'module_initializer', 'stream') 175 512 1 (Manual match)
+  PT: ["<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>"]
+  PY: ['TextIO']
+155: ('/invoke/terminals.py', 'module_initializer', 'WINDOWS') 176 544 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+156: ('/invoke/_version.py', 'module_initializer', '__version_info__') 177 869 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[int, int, int]']
+157: ('/invoke/_version.py', 'module_initializer', '__version__') 178 870 0 (Match)
+  PT: ['str']
+  PY: ['str']
+158: ('/invoke/util.py', 'module_initializer', 'LOG_FORMAT') 179 889 0 (Match)
+  PT: ['str']
+  PY: ['str']
+159: ('/invoke/util.py', 'module_initializer', 'log') 180 890 1 (Manual match)
+  PT: ['<Logger invoke (WARNING)>']
+  PY: ['logging.Logger']
+160: ('/invoke/util.py', 'module_initializer', 'ExceptionWrapper') 182 891 0 (Match)
+  PT: ['pt_engine.utils.base.ExceptionWrapper']
+  PY: ['Type[ExceptionWrapper]']
+161: ('/sites/shared_conf.py', 'module_initializer', 'html_theme_path') 184 3356 0 (Match)
+  PT: ['list']
+  PY: ['list']
+162: ('/sites/shared_conf.py', 'module_initializer', 'extensions') 185 3357 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+163: ('/sites/shared_conf.py', 'module_initializer', 'html_theme') 186 3358 0 (Match)
+  PT: ['str']
+  PY: ['str']
+164: ('/sites/shared_conf.py', 'module_initializer', 'html_theme_options') 187 3359 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Union[bool, str]]']
+165: ('/sites/shared_conf.py', 'module_initializer', 'html_sidebars') 188 3360 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, List[str]]']
+166: ('/sites/shared_conf.py', 'module_initializer', 'intersphinx_mapping') 189 3361 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Tuple[str, None]]']
+167: ('/sites/shared_conf.py', 'module_initializer', 'doctest_path') 190 3362 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+168: ('/sites/shared_conf.py', 'module_initializer', 'doctest_global_setup') 191 3363 0 (Match)
+  PT: ['str']
+  PY: ['str']
+169: ('/sites/shared_conf.py', 'module_initializer', 'project') 192 3364 0 (Match)
+  PT: ['str']
+  PY: ['str']
+170: ('/sites/shared_conf.py', 'module_initializer', 'year') 193 3365 0 (Match)
+  PT: ['int']
+  PY: ['int']
+171: ('/sites/shared_conf.py', 'module_initializer', 'copyright') 194 3366 0 (Match)
+  PT: ['str']
+  PY: ['str']
+172: ('/sites/shared_conf.py', 'module_initializer', 'master_doc') 195 3367 0 (Match)
+  PT: ['str']
+  PY: ['str']
+173: ('/sites/shared_conf.py', 'module_initializer', 'templates_path') 196 3368 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+174: ('/sites/shared_conf.py', 'module_initializer', 'exclude_trees') 197 3369 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+175: ('/sites/shared_conf.py', 'module_initializer', 'source_suffix') 198 3370 0 (Match)
+  PT: ['str']
+  PY: ['str']
+176: ('/sites/shared_conf.py', 'module_initializer', 'default_role') 199 3371 0 (Match)
+  PT: ['str']
+  PY: ['str']
+177: ('/sites/docs/conf.py', 'module_initializer', 'autodoc_default_flags') 200 3372 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+178: ('/sites/www/conf.py', 'module_initializer', 'releases_github_path') 201 3373 0 (Match)
+  PT: ['str']
+  PY: ['str']
+179: ('/sites/www/conf.py', 'module_initializer', 'target') 202 3374 0 (Match)
+  PT: ['str']
+  PY: ['str']
+180: ('/tasks.py', 'module_initializer', 'ns') 203 414 0 (Match)
+  PT: ['Collection']
+  PY: ['invoke.collection.Collection']
+181: ('/invoke/tasks.py', '__init__', 'incrementable') 204 558 0 (Match)
+  PT: ['None']
+  PY: ['None']
+182: ('/invoke/tasks.py', '__init__', 'iterable') 205 557 0 (Match)
+  PT: ['None']
+  PY: ['None']
+183: ('/invoke/tasks.py', '__init__', 'autoprint') 206 556 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+184: ('/invoke/tasks.py', '__init__', 'help') 209 553 0 (Match)
+  PT: ['None']
+  PY: ['None']
+185: ('/invoke/tasks.py', '__init__', 'auto_shortflags') 210 552 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+186: ('/invoke/tasks.py', '__init__', 'default') 211 551 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+187: ('/invoke/tasks.py', '__init__', 'optional') 212 550 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]', 'tuple']
+188: ('/invoke/tasks.py', '__init__', 'positional') 213 549 0 (Match)
+  PT: ['None']
+  PY: ['None']
+189: ('/invoke/collection.py', '__init__', 'kwargs') 218 1172 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]', 'Dict[str, None]']
+190: ('/invoke/collection.py', '__init__', 'self') 219 1170 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+191: ('/invoke/collection.py', 'add_task', 'self') 227 1208 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+192: ('/invoke/executor.py', '__init__', 'self') 234 1465 0 (Match)
+  PT: ['Executor']
+  PY: ['Executor']
+193: ('/invoke/config.py', '__init__', 'lazy') 236 729 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+194: ('/invoke/config.py', '__init__', 'system_prefix') 240 725 0 (Match)
+  PT: ['None', 'str']
+  PY: ['Optional[str]']
+195: ('/invoke/config.py', '__init__', 'self') 243 722 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+196: ('/invoke/parser/context.py', '__init__', 'self') 248 1614 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+197: ('/invoke/parser/parser.py', '__init__', 'kwargs') 250 1602 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]', 'Dict[str, Any]']
+198: ('/invoke/executor.py', 'execute', 'self') 253 1469 0 (Match)
+  PT: ['Executor']
+  PY: ['Executor']
+199: ('/invoke/executor.py', 'execute', 'direct') 257 1473 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.tasks.Call]']
+200: ('/invoke/executor.py', 'execute', 'expanded') 258 1474 0 (Match)
+  PT: ['list']
+  PY: ['list']
+201: ('/invoke/executor.py', 'execute', 'results') 260 1476 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+202: ('/invoke/executor.py', 'execute', 'execute_ret') 268 47 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+203: ('/invoke/tasks.py', 'call', 'kwargs') 269 643 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+204: ('/invoke/tasks.py', 'call', 'call_ret') 272 131 0 (Match)
+  PT: ['Call']
+  PY: ['Call']
+205: ('/invoke/collection.py', 'configure', 'self') 273 1275 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+206: ('/invoke/tasks.py', 'fill_implicit_positionals', 'self') 275 580 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+207: ('/invoke/tasks.py', 'fill_implicit_positionals', 'spec_dict') 278 583 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+208: ('/invoke/vendor/lexicon/__init__.py', '__init__', 'kwargs') 282 3311 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+209: ('/invoke/vendor/lexicon/__init__.py', '__init__', 'self') 283 3309 0 (Match)
+  PT: ['Lexicon']
+  PY: ['Lexicon']
+210: ('/invoke/collection.py', 'transform', 'self') 285 1252 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+211: ('/invoke/collection.py', 'transform', 'from_') 288 1254 0 (Match)
+  PT: ['str']
+  PY: ['str']
+212: ('/invoke/collection.py', 'transform', 'to') 289 1255 0 (Match)
+  PT: ['str']
+  PY: ['str']
+213: ('/invoke/collection.py', 'transform', 'replaced') 290 1256 0 (Match)
+  PT: ['list']
+  PY: ['list']
+214: ('/invoke/collection.py', 'transform', 'end') 291 1257 0 (Match)
+  PT: ['int']
+  PY: ['int']
+215: ('/invoke/collection.py', '_add_object', 'name') 294 1178 0 (Match)
+  PT: ['None']
+  PY: ['None']
+216: ('/invoke/collection.py', '_add_object', 'self') 295 1176 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+217: ('/invoke/collection.py', '_add_object', 'method') 297 1179 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable']
+218: ('/invoke/vendor/six.py', 'iteritems', 'kw') 299 1838 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+219: ('/invoke/config.py', '_set', 'kwargs') 305 678 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Dict[nothing, nothing]]', 'Dict[str, Tuple[str, str, str, str]]', 'Dict[str, Any]', 'Dict[str, None]', 'Dict[str, str]', 'Dict[nothing, nothing]', 'Dict[str, dict]', 'Dict[str, Optional[str]]']
+220: ('/invoke/config.py', 'global_defaults', 'shell') 310 721 0 (Match)
+  PT: ['str']
+  PY: ['str']
+221: ('/invoke/config.py', 'global_defaults', 'global_defaults_ret') 311 98 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Dict[str, Optional[Union[bool, str, Dict[nothing, nothing], List[nothing], Type[invoke.runners.Local]]]]]']
+222: ('/invoke/config.py', 'set_project_location', 'self') 314 753 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+223: ('/invoke/config.py', 'set_project_location', 'project_prefix') 316 755 0 (Match)
+  PT: ['None', 'str']
+  PY: ['Optional[str]']
+224: ('/invoke/config.py', 'set_runtime_path', 'self') 317 744 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+225: ('/invoke/config.py', 'load_base_conf_files', 'self') 319 731 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+226: ('/invoke/config.py', 'merge', 'self') 320 785 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+227: ('/invoke/parser/context.py', 'add_arg', 'kwargs') 321 1625 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]', 'Dict[str, Any]']
+228: ('/invoke/parser/context.py', 'add_arg', 'self') 322 1623 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+229: ('/invoke/executor.py', 'normalize', 'self') 329 1484 0 (Match)
+  PT: ['Executor']
+  PY: ['Executor']
+230: ('/invoke/executor.py', 'normalize', 'calls') 331 1486 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.tasks.Call]']
+231: ('/invoke/executor.py', 'normalize', 'c') 335 1489 0 (Match)
+  PT: ['Call']
+  PY: ['invoke.tasks.Call']
+232: ('/invoke/executor.py', 'normalize', 'normalize_ret') 336 49 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.tasks.Call]']
+233: ('/invoke/executor.py', 'expand_calls', 'self') 337 1495 0 (Match)
+  PT: ['Executor']
+  PY: ['Executor']
+234: ('/invoke/executor.py', 'expand_calls', 'ret') 339 1497 0 (Match)
+  PT: ['list']
+  PY: ['list']
+235: ('/invoke/executor.py', 'expand_calls', 'expand_calls_ret') 341 48 0 (Match)
+  PT: ['list']
+  PY: ['list']
+236: ('/invoke/executor.py', 'dedupe', 'self') 342 1491 0 (Match)
+  PT: ['Executor']
+  PY: ['Executor']
+237: ('/invoke/executor.py', 'dedupe', 'calls') 343 1492 0 (Match)
+  PT: ['list']
+  PY: ['list']
+238: ('/invoke/executor.py', 'dedupe', 'deduped') 344 1493 0 (Match)
+  PT: ['list']
+  PY: ['list']
+239: ('/invoke/executor.py', 'dedupe', 'dedupe_ret') 346 46 0 (Match)
+  PT: ['list']
+  PY: ['list']
+240: ('/invoke/collection.py', 'configuration', 'self') 348 1273 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+241: ('/invoke/config.py', 'load_collection', 'self') 351 750 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+242: ('/invoke/config.py', 'load_shell_env', 'self') 353 748 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+243: ('/invoke/config.py', 'load_shell_env', 'loader') 354 749 0 (Match)
+  PT: ['Environment']
+  PY: ['invoke.env.Environment']
+244: ('/invoke/tasks.py', '__init__', 'kwargs') 355 626 0 (Match)
+  PT: ['None', 'dict']
+  PY: ['None', 'Dict[str, Any]']
+245: ('/invoke/tasks.py', 'argspec', 'self') 364 571 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+246: ('/invoke/tasks.py', 'argspec', 'matched_args') 370 576 0 (Match)
+  PT: ['list']
+  PY: ['List[reversed]']
+247: ('/invoke/tasks.py', 'argspec', 'spec_dict') 371 578 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+248: ('/invoke/tasks.py', 'argspec', 'argspec_ret') 373 128 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[List[str], dict]']
+249: ('/invoke/collection.py', 'add_collection', 'self') 375 1216 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+250: ('/invoke/config.py', 'load_system', 'merge') 378 739 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+251: ('/invoke/config.py', 'load_system', 'self') 379 738 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+252: ('/invoke/config.py', 'load_user', 'merge') 380 741 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+253: ('/invoke/config.py', 'load_user', 'self') 381 740 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+254: ('/invoke/config.py', '_merge_file', 'self') 382 786 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+255: ('/invoke/config.py', '_merge_file', 'name') 383 787 0 (Match)
+  PT: ['str']
+  PY: ['str']
+256: ('/invoke/config.py', '_merge_file', 'desc') 384 788 0 (Match)
+  PT: ['str']
+  PY: ['str']
+257: ('/invoke/parser/argument.py', '__init__', 'self') 401 1509 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+258: ('/invoke/collection.py', 'task_with_config', 'self') 406 1237 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+259: ('/invoke/env.py', '__init__', 'self') 412 833 0 (Match)
+  PT: ['Environment']
+  PY: ['Environment']
+260: ('/invoke/env.py', 'load', 'self') 415 836 0 (Match)
+  PT: ['Environment']
+  PY: ['Environment']
+261: ('/invoke/env.py', 'load', 'env_vars') 416 837 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+262: ('/invoke/env.py', 'load', 'm') 417 838 0 (Match)
+  PT: ['str']
+  PY: ['str']
+263: ('/invoke/env.py', 'load', 'load_ret') 421 137 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+264: ('/invoke/config.py', '_merge_error', '_merge_error_ret') 424 112 0 (Match)
+  PT: ['AmbiguousMergeError']
+  PY: ['AmbiguousMergeError']
+265: ('/invoke/config.py', '_load_file', 'absolute') 426 758 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+266: ('/invoke/config.py', '_load_file', 'self') 427 756 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+267: ('/invoke/config.py', '_load_file', 'prefix') 428 757 0 (Match)
+  PT: ['str']
+  PY: ['str']
+268: ('/invoke/config.py', '_load_file', 'found') 429 760 0 (Match)
+  PT: ['str']
+  PY: ['str']
+269: ('/invoke/config.py', '_load_file', 'path') 430 761 0 (Match)
+  PT: ['str']
+  PY: ['str']
+270: ('/invoke/config.py', '_load_file', 'data') 431 762 0 (Match)
+  PT: ['str']
+  PY: ['str']
+271: ('/invoke/config.py', '_load_file', 'paths') 434 765 0 (Match)
+  PT: ['list']
+  PY: ['list']
+272: ('/invoke/config.py', '_load_file', 'err') 441 772 0 (Match)
+  PT: ['str']
+  PY: ['str']
+273: ('/invoke/tasks.py', 'make_context', 'self') 444 633 0 (Match)
+  PT: ['Call']
+  PY: ['Call']
+274: ('/invoke/tasks.py', 'make_context', 'make_context_ret') 446 124 0 (Match)
+  PT: ['Context']
+  PY: ['invoke.context.Context']
+275: ('/invoke/collection.py', '_split_path', 'self') 447 1220 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+276: ('/invoke/collection.py', '_split_path', 'rest') 451 1224 0 (Match)
+  PT: ['str']
+  PY: ['str']
+277: ('/invoke/collection.py', '_split_path', '_split_path_ret') 452 71 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, str]']
+278: ('/invoke/collection.py', '_task_with_merged_config', 'self') 453 1231 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+279: ('/invoke/collection.py', '_task_with_merged_config', 'rest') 455 1233 0 (Match)
+  PT: ['str']
+  PY: ['str']
+280: ('/invoke/collection.py', '_task_with_merged_config', '_task_with_merged_config_ret') 459 72 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Dict[nothing, nothing]]']
+281: ('/invoke/env.py', '_crawl', 'self') 460 842 0 (Match)
+  PT: ['Environment']
+  PY: ['Environment']
+282: ('/invoke/env.py', '_crawl', 'key_path') 461 843 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+283: ('/invoke/env.py', '_crawl', 'env_vars') 462 844 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+284: ('/invoke/env.py', '_crawl', 'new_vars') 463 845 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+285: ('/invoke/env.py', '_crawl', 'merged_vars') 466 847 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+286: ('/invoke/env.py', '_crawl', 'merged_path') 467 848 0 (Match)
+  PT: ['list']
+  PY: ['list']
+287: ('/invoke/env.py', '_crawl', '_crawl_ret') 470 134 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+288: ('/invoke/env.py', '_path_set', 'self') 471 858 0 (Match)
+  PT: ['Environment']
+  PY: ['Environment']
+289: ('/invoke/config.py', '_format_mismatch', '_format_mismatch_ret') 479 111 0 (Match)
+  PT: ['str']
+  PY: ['str']
+290: ('/invoke/context.py', '__init__', 'command_prefixes') 482 915 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+291: ('/invoke/context.py', '__init__', 'command_cwds') 483 916 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+292: ('/invoke/env.py', '_path_get', 'self') 484 854 0 (Match)
+  PT: ['Environment']
+  PY: ['Environment']
+293: ('/invoke/env.py', '_to_env_var', 'self') 489 852 0 (Match)
+  PT: ['Environment']
+  PY: ['Environment']
+294: ('/invoke/env.py', '_cast', 'self') 492 865 0 (Match)
+  PT: ['Environment']
+  PY: ['Environment']
+295: ('/invoke/config.py', 'load_project', 'self') 498 742 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+296: ('/invoke/config.py', 'load_runtime', 'self') 500 746 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+297: ('/invoke/config.py', 'load_defaults', 'self') 502 732 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+298: ('/invoke/config.py', 'load_overrides', 'self') 505 735 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+299: ('/invoke/config.py', 'clear', 'keys') 513 698 0 (Match)
+  PT: ['list']
+  PY: ['list']
+300: ('/invoke/config.py', 'update', 'kwargs') 525 714 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+301: ('/invoke/config.py', 'clone', 'self') 533 792 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+302: ('/invoke/config.py', 'clone', 'name') 537 797 0 (Match)
+  PT: ['str']
+  PY: ['str']
+303: ('/invoke/config.py', '_clone_init_kwargs', 'self') 548 799 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+304: ('/invoke/config.py', '_clone_init_kwargs', '_clone_init_kwargs_ret') 550 92 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+305: ('/invoke/config.py', '_remove', 'self') 551 808 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+306: ('/invoke/config.py', '_remove', 'keypath') 552 809 0 (Match)
+  PT: ['list']
+  PY: ['list']
+307: ('/invoke/config.py', '_modify', 'self') 556 802 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+308: ('/invoke/config.py', '_modify', 'keypath') 557 803 0 (Match)
+  PT: ['list']
+  PY: ['list']
+309: ('/invoke/tasks.py', 'task', 'kwargs') 567 609 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+310: ('/invoke/tasks.py', 'task', 'optional') 574 614 0 (Match)
+  PT: ['tuple']
+  PY: ['tuple']
+311: ('/invoke/program.py', '__init__', 'self') 592 1280 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+312: ('/invoke/program.py', 'run', 'self') 595 1300 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+313: ('/invoke/program.py', 'create_config', 'self') 599 1289 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+314: ('/invoke/program.py', 'parse_core', 'self') 600 1304 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+315: ('/invoke/program.py', 'parse_cleanup', 'self') 602 1307 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+316: ('/invoke/program.py', 'update_config', 'merge') 607 1291 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+317: ('/invoke/program.py', 'update_config', 'self') 608 1290 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+318: ('/invoke/program.py', 'update_config', 'run') 609 1292 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]', 'Dict[str, bool]']
+319: ('/invoke/program.py', 'update_config', 'tasks') 610 1293 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, bool]']
+320: ('/invoke/program.py', 'update_config', 'timeouts') 611 1294 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]', 'Dict[str, nothing]']
+321: ('/invoke/program.py', 'update_config', 'sudo') 613 1296 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, str]']
+322: ('/invoke/program.py', 'update_config', 'prompt') 614 1297 0 (Match)
+  PT: ['str']
+  PY: ['str']
+323: ('/invoke/program.py', 'update_config', 'overrides') 615 1298 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Dict[str, Any]]', 'Dict[str, Dict[str, Union[bool, str]]]']
+324: ('/invoke/program.py', 'execute', 'self') 617 1312 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+325: ('/invoke/program.py', 'normalize_argv', 'self') 625 1320 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+326: ('/invoke/program.py', 'parse_core_args', 'self') 627 1332 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+327: ('/invoke/program.py', 'parse_core_args', 'parser') 628 1333 0 (Match)
+  PT: ['Parser']
+  PY: ['invoke.parser.parser.Parser']
+328: ('/invoke/program.py', 'parse_core_args', 'msg') 629 1334 0 (Match)
+  PT: ['str']
+  PY: ['str']
+329: ('/invoke/program.py', 'print_version', 'self') 630 1329 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+330: ('/invoke/completion/complete.py', 'print_completion_script', 'completions') 634 1504 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, str]']
+331: ('/invoke/completion/complete.py', 'print_completion_script', 'path') 635 1506 0 (Match)
+  PT: ['str']
+  PY: ['str']
+332: ('/invoke/program.py', 'print_help', 'self') 638 1330 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+333: ('/invoke/program.py', 'print_help', 'usage_suffix') 639 1331 0 (Match)
+  PT: ['str']
+  PY: ['str']
+334: ('/invoke/program.py', 'print_task_help', 'self') 640 1348 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+335: ('/invoke/program.py', 'print_task_help', 'header') 645 1353 0 (Match)
+  PT: ['str']
+  PY: ['str']
+336: ('/invoke/program.py', 'print_task_help', 'opts') 646 1354 0 (Match)
+  PT: ['str']
+  PY: ['str']
+337: ('/invoke/program.py', 'list_tasks', 'self') 653 1356 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+338: ('/invoke/program.py', 'initial_context', 'self') 656 1327 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+339: ('/invoke/program.py', 'initial_context', 'args') 657 1328 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.parser.argument.Argument]']
+340: ('/invoke/vendor/yaml3/parser.py', '__init__', 'self') 672 2877 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+341: ('/invoke/parser/parser.py', '__init__', 'exists') 677 1541 0 (Match)
+  PT: ['str']
+  PY: ['str']
+342: ('/invoke/parser/parser.py', 'parse_argv', 'self') 679 1544 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+343: ('/invoke/parser/parser.py', 'parse_argv', 'machine') 681 1546 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+344: ('/invoke/parser/parser.py', 'parse_argv', 'index') 685 1564 0 (Match)
+  PT: ['int']
+  PY: ['int']
+345: ('/invoke/parser/parser.py', 'parse_argv', 'mutations') 687 1550 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[int, Any]]']
+346: ('/invoke/parser/parser.py', 'parse_argv', 'msg') 691 1555 0 (Match)
+  PT: ['str']
+  PY: ['str']
+347: ('/invoke/parser/parser.py', 'parse_argv', 'err') 694 1558 0 (Match)
+  PT: ['str']
+  PY: ['str']
+348: ('/invoke/parser/parser.py', 'parse_argv', 'optional') 698 1562 0 (Match)
+  PT: ['None']
+  PY: ['None']
+349: ('/invoke/parser/parser.py', 'parse_argv', 'subtoken_is_valid_flag') 699 1563 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+350: ('/invoke/parser/parser.py', 'parse_argv', 'result') 700 1565 0 (Match)
+  PT: ['ParseResult']
+  PY: ['ParseResult']
+351: ('/invoke/parser/parser.py', 'parse_argv', 'parse_argv_ret') 701 150 0 (Match)
+  PT: ['ParseResult']
+  PY: ['ParseResult']
+352: ('/invoke/program.py', 'print_columns', 'self') 702 1403 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+353: ('/invoke/program.py', 'print_columns', 'tuples') 703 1404 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+354: ('/invoke/program.py', 'print_columns', 'wrapper') 706 1408 1 (Manual match)
+  PT: ['<textwrap.TextWrapper object at 0x10da217f0>', '<textwrap.TextWrapper object at 0x10df22790>', '<textwrap.TextWrapper object at 0x10dfc11f0>', '<textwrap.TextWrapper object at 0x10e5fb610>', '<textwrap.TextWrapper object at 0x10e5fea60>', '<textwrap.TextWrapper object at 0x10ffc9970>']
+  PY: ['textwrap.TextWrapper']
+355: ('/invoke/program.py', 'print_columns', 'help_str') 708 1409 0 (Match)
+  PT: ['str']
+  PY: ['str']
+356: ('/invoke/program.py', 'print_columns', 'help_chunks') 709 1410 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+357: ('/invoke/program.py', 'print_columns', 'spec') 711 1412 0 (Match)
+  PT: ['str']
+  PY: ['str']
+358: ('/invoke/program.py', 'core_args', 'self') 716 1278 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+359: ('/invoke/program.py', 'core_args', 'core_args_ret') 717 59 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.parser.argument.Argument]']
+360: ('/invoke/program.py', 'task_args', 'self') 718 1279 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+361: ('/invoke/program.py', 'task_args', 'task_args_ret') 719 61 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.parser.argument.Argument]']
+362: ('/invoke/parser/parser.py', 'waiting_for_flag_value', 'self') 724 1569 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+363: ('/invoke/parser/parser.py', 'waiting_for_flag_value', 'has_value') 727 1571 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+364: ('/invoke/parser/parser.py', 'handle', 'self') 728 1572 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+365: ('/invoke/parser/parser.py', 'handle', 'msg') 730 1574 0 (Match)
+  PT: ['str']
+  PY: ['str']
+366: ('/invoke/parser/context.py', 'help_tuples', 'self') 732 1648 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+367: ('/invoke/parser/context.py', 'help_tuples', 'help_tuples_ret') 733 142 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+368: ('/invoke/terminals.py', 'pty_size', 'pty_size_ret') 736 55 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+369: ('/invoke/parser/context.py', 'flag_names', 'self') 737 1649 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+370: ('/invoke/parser/context.py', 'flag_names', 'names') 740 1651 0 (Match)
+  PT: ['list']
+  PY: ['list']
+371: ('/invoke/parser/context.py', 'flag_names', 'flag_names_ret') 741 140 0 (Match)
+  PT: ['tuple']
+  PY: ['tuple']
+372: ('/invoke/parser/parser.py', 'switch_to_flag', 'inverse') 743 1593 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+373: ('/invoke/parser/parser.py', 'switch_to_flag', 'self') 744 1591 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+374: ('/invoke/parser/parser.py', 'switch_to_flag', 'val') 746 1594 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+375: ('/invoke/parser/parser.py', 'see_value', 'self') 747 1595 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+376: ('/invoke/parser/parser.py', 'see_positional_arg', 'self') 749 1597 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+377: ('/invoke/parser/context.py', 'help_for', 'self') 754 1637 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+378: ('/invoke/parser/context.py', 'help_for', 'flag') 755 1638 0 (Match)
+  PT: ['str']
+  PY: ['str']
+379: ('/invoke/parser/context.py', 'help_for', 'full_names') 759 1642 0 (Match)
+  PT: ['list']
+  PY: ['list']
+380: ('/invoke/parser/context.py', 'help_for', 'value_') 761 1643 0 (Match)
+  PT: ['str']
+  PY: ['str']
+381: ('/invoke/parser/context.py', 'help_for', 'valuestr') 762 1644 0 (Match)
+  PT: ['str']
+  PY: ['str']
+382: ('/invoke/parser/context.py', 'help_for', 'namestr') 763 1646 0 (Match)
+  PT: ['str']
+  PY: ['str']
+383: ('/invoke/parser/context.py', 'help_for', 'help_for_ret') 765 141 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, Any]']
+384: ('/invoke/terminals.py', '_pty_size', 'size') 766 515 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[None, None]']
+385: ('/invoke/terminals.py', '_pty_size', 'fmt') 767 516 0 (Match)
+  PT: ['str']
+  PY: ['str']
+386: ('/invoke/terminals.py', '_pty_size', 'buf') 768 517 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+387: ('/invoke/terminals.py', '_pty_size', '_pty_size_ret') 772 50 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+388: ('/invoke/terminals.py', '_win_pty_size', '_win_pty_size_ret') 781 51 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+389: ('/invoke/parser/context.py', 'names_for', 'self') 782 1635 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+390: ('/invoke/parser/context.py', 'names_for', 'names_for_ret') 784 143 0 (Match)
+  PT: ['list']
+  PY: ['list']
+391: ('/invoke/vendor/fluidity/backwardscompat.py', 'callable', 'callable_ret') 791 193 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+392: ('/invoke/parser/parser.py', 'check_ambiguity', 'self') 798 1587 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+393: ('/invoke/parser/parser.py', 'check_ambiguity', 'tests') 801 1589 0 (Match)
+  PT: ['list']
+  PY: ['list']
+394: ('/invoke/parser/parser.py', 'complete_flag', 'self') 803 1584 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+395: ('/invoke/parser/parser.py', 'complete_flag', 'msg') 804 1585 0 (Match)
+  PT: ['str']
+  PY: ['str']
+396: ('/invoke/parser/parser.py', 'complete_flag', 'err') 805 1586 0 (Match)
+  PT: ['str']
+  PY: ['str']
+397: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'names') 808 3324 0 (Match)
+  PT: ['list']
+  PY: ['list']
+398: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'aliases_of_ret') 812 395 0 (Match)
+  PT: ['list']
+  PY: ['list']
+399: ('/invoke/vendor/fluidity/machine.py', '_state_objects', '_state_objects_ret') 814 199 0 (Match)
+  PT: ['list']
+  PY: ['List[_State]']
+400: ('/invoke/vendor/decorator.py', 'decorator', '_func') 815 1718 0 (Match)
+  PT: ['None']
+  PY: ['None']
+401: ('/invoke/vendor/decorator.py', 'decorator', 'evaldict') 820 1721 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+402: ('/invoke/vendor/six.py', '__init__', 'six_module_name') 822 1799 0 (Match)
+  PT: ['str']
+  PY: ['str']
+403: ('/invoke/vendor/six.py', '__init__', 'new_attr') 823 1797 0 (Match)
+  PT: ['None', 'str']
+  PY: ['Optional[str]', 'str']
+404: ('/invoke/vendor/six.py', '__init__', 'old_attr') 824 1796 0 (Match)
+  PT: ['None', 'str']
+  PY: ['str', 'Optional[str]']
+405: ('/invoke/vendor/six.py', '__init__', 'name') 825 1778 0 (Match)
+  PT: ['str']
+  PY: ['str']
+406: ('/invoke/vendor/six.py', '__init__', 'old_mod') 826 1794 0 (Match)
+  PT: ['str']
+  PY: ['str']
+407: ('/invoke/vendor/six.py', '__init__', 'new') 828 1784 0 (Match)
+  PT: ['None', 'str']
+  PY: ['Optional[str]', 'str']
+408: ('/invoke/vendor/six.py', '__init__', 'old') 829 1783 0 (Match)
+  PT: ['str']
+  PY: ['str']
+409: ('/invoke/vendor/six.py', '_add_module', 'self') 830 1800 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+410: ('/invoke/vendor/six.py', '_get_module', 'self') 834 1804 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+411: ('/invoke/vendor/six.py', '_get_module', 'fullname') 835 1805 0 (Match)
+  PT: ['str']
+  PY: ['str']
+412: ('/invoke/vendor/decorator.py', 'decorate', 'evaldict') 839 1715 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+413: ('/invoke/util.py', 'has_fileno', 'has_fileno_ret') 848 86 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+414: ('/invoke/context.py', 'run', 'kwargs') 868 921 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+415: ('/invoke/context.py', 'cwd', 'self') 873 949 0 (Match)
+  PT: ['Context']
+  PY: ['Context']
+416: ('/invoke/context.py', 'sudo', 'kwargs') 880 929 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+417: ('/invoke/context.py', '__init__', 'kwargs') 887 955 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+418: ('/invoke/runners.py', '__init__', 'hide') 891 1133 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+419: ('/invoke/runners.py', '__init__', 'pty') 892 1132 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+420: ('/invoke/runners.py', '__init__', 'exited') 893 1131 0 (Match)
+  PT: ['int']
+  PY: ['int']
+421: ('/invoke/runners.py', '__init__', 'env') 894 1130 0 (Match)
+  PT: ['None']
+  PY: ['None']
+422: ('/invoke/runners.py', '__init__', 'shell') 895 1129 0 (Match)
+  PT: ['str']
+  PY: ['str']
+423: ('/invoke/runners.py', '__init__', 'command') 896 1128 0 (Match)
+  PT: ['str']
+  PY: ['str']
+424: ('/invoke/runners.py', '__init__', 'stderr') 898 1126 0 (Match)
+  PT: ['str']
+  PY: ['str']
+425: ('/invoke/runners.py', '__init__', 'stdout') 899 1125 0 (Match)
+  PT: ['str']
+  PY: ['str']
+426: ('/invoke/context.py', 'set_result_for', 'self') 903 966 0 (Match)
+  PT: ['MockContext']
+  PY: ['MockContext']
+427: ('/invoke/context.py', 'set_result_for', 'attname') 904 967 0 (Match)
+  PT: ['str']
+  PY: ['str']
+428: ('/invoke/context.py', 'set_result_for', 'heck') 907 970 1 (Manual match)
+  PT: ["Can't update results for non-dict or nonexistent mock results!"]
+  PY: ['TypeError']
+429: ('/invoke/context.py', '_run', 'kwargs') 909 926 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+430: ('/invoke/context.py', '_run', 'self') 910 923 0 (Match)
+  PT: ['Context']
+  PY: ['Context']
+431: ('/invoke/context.py', '_run', 'command') 912 925 0 (Match)
+  PT: ['str']
+  PY: ['str']
+432: ('/invoke/context.py', '_sudo', 'self') 915 931 0 (Match)
+  PT: ['Context']
+  PY: ['Context']
+433: ('/invoke/context.py', '_sudo', 'command') 917 933 0 (Match)
+  PT: ['str']
+  PY: ['str']
+434: ('/invoke/context.py', '_sudo', 'user_flags') 921 938 0 (Match)
+  PT: ['str']
+  PY: ['str']
+435: ('/invoke/context.py', '_sudo', 'cmd_str') 922 939 0 (Match)
+  PT: ['str']
+  PY: ['str']
+436: ('/invoke/context.py', '_sudo', 'watcher') 923 940 0 (Match)
+  PT: ['FailingResponder']
+  PY: ['invoke.watchers.FailingResponder']
+437: ('/invoke/runners.py', 'default_encoding', 'encoding') 927 1165 0 (Match)
+  PT: ['str']
+  PY: ['str']
+438: ('/invoke/runners.py', 'default_encoding', 'default_encoding_ret') 929 29 0 (Match)
+  PT: ['str']
+  PY: ['str']
+439: ('/invoke/context.py', '_yield_result', 'self') 930 959 0 (Match)
+  PT: ['MockContext']
+  PY: ['MockContext']
+440: ('/invoke/context.py', '_yield_result', 'attname') 931 960 0 (Match)
+  PT: ['str']
+  PY: ['str']
+441: ('/invoke/context.py', '_prefix_commands', 'self') 936 943 0 (Match)
+  PT: ['Context']
+  PY: ['Context']
+442: ('/invoke/context.py', '_prefix_commands', 'prefixes') 938 945 0 (Match)
+  PT: ['list']
+  PY: ['list']
+443: ('/invoke/context.py', '_prefix_commands', '_prefix_commands_ret') 940 0 0 (Match)
+  PT: ['str']
+  PY: ['str']
+444: ('/invoke/runners.py', 'timed_out', 'self') 944 1093 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+445: ('/invoke/runners.py', 'run', 'kwargs') 945 987 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+446: ('/invoke/runners.py', 'run', 'self') 946 985 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+447: ('/invoke/runners.py', 'should_use_pty', 'use_pty') 952 1096 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+448: ('/invoke/runners.py', 'should_use_pty', 'err') 953 1097 0 (Match)
+  PT: ['str']
+  PY: ['str']
+449: ('/invoke/runners.py', 'tail', 'self') 957 1146 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+450: ('/invoke/runners.py', 'tail', 'text') 959 1149 0 (Match)
+  PT: ['str']
+  PY: ['str']
+451: ('/invoke/runners.py', '_run_body', 'kwargs') 961 994 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+452: ('/invoke/runners.py', '_run_body', 'self') 962 992 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+453: ('/invoke/runners.py', '_stop_everything', 'self') 966 988 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+454: ('/invoke/runners.py', '_setup', 'self') 970 989 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+455: ('/invoke/runners.py', '_setup', 'kwargs') 972 991 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+456: ('/invoke/runners.py', 'generate_result', 'kwargs') 973 1035 0 (Match)
+  PT: ['dict']
+  PY: ['dict', 'Dict[str, Any]']
+457: ('/invoke/runners.py', 'generate_result', 'self') 974 1034 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+458: ('/invoke/runners.py', 'generate_result', 'generate_result_ret') 975 31 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+459: ('/invoke/runners.py', 'start_timer', 'self') 976 1087 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+460: ('/invoke/runners.py', 'create_io_threads', 'self') 978 1026 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+461: ('/invoke/runners.py', 'create_io_threads', 'stdout') 979 1027 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+462: ('/invoke/runners.py', 'create_io_threads', 'stderr') 980 1028 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+463: ('/invoke/runners.py', 'create_io_threads', 'thread_args') 981 1029 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[Callable[[Any, Any, Any], Any], Dict[str, Any]]']
+464: ('/invoke/runners.py', 'create_io_threads', 'threads') 982 1030 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[Any, invoke.util.ExceptionHandlingThread]']
+465: ('/invoke/runners.py', 'create_io_threads', 't') 985 1031 0 (Match)
+  PT: ['ExceptionHandlingThread']
+  PY: ['invoke.util.ExceptionHandlingThread']
+466: ('/invoke/runners.py', 'create_io_threads', 'create_io_threads_ret') 986 27 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Dict[Any, invoke.util.ExceptionHandlingThread], List[nothing], List[nothing]]']
+467: ('/invoke/runners.py', 'make_promise', 'self') 987 996 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+468: ('/invoke/runners.py', 'make_promise', 'make_promise_ret') 988 33 0 (Match)
+  PT: ['Promise']
+  PY: ['Promise']
+469: ('/invoke/runners.py', '_finish', 'self') 989 997 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+470: ('/invoke/runners.py', '_finish', 'watcher_errors') 990 998 0 (Match)
+  PT: ['list']
+  PY: ['list']
+471: ('/invoke/runners.py', '_finish', 'thread_exceptions') 991 999 0 (Match)
+  PT: ['list']
+  PY: ['list']
+472: ('/invoke/runners.py', 'stop_timer', 'self') 999 1092 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+473: ('/invoke/runners.py', '_unify_kwargs_with_config', 'self') 1000 1006 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+474: ('/invoke/runners.py', '_unify_kwargs_with_config', 'opts') 1002 1008 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+475: ('/invoke/runners.py', 'generate_env', 'self') 1011 1073 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+476: ('/invoke/runners.py', 'default_encoding', 'self') 1015 1089 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+477: ('/invoke/util.py', '__init__', 'kwargs') 1016 882 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+478: ('/invoke/util.py', '__init__', 'self') 1017 881 0 (Match)
+  PT: ['ExceptionHandlingThread']
+  PY: ['ExceptionHandlingThread']
+479: ('/invoke/runners.py', '__init__', 'runner') 1018 1150 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+480: ('/invoke/runners.py', 'wait', 'self') 1021 1080 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+481: ('/invoke/runners.py', 'send_interrupt', 'self') 1024 1090 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+482: ('/invoke/runners.py', '_thread_join_timeout', 'self') 1026 1023 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+483: ('/invoke/runners.py', '_thread_join_timeout', '_thread_join_timeout_ret') 1028 25 0 (Match)
+  PT: ['None', 'int']
+  PY: ['Optional[int]']
+484: ('/invoke/runners.py', '_collate_result', 'self') 1031 1017 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+485: ('/invoke/runners.py', '_collate_result', 'watcher_errors') 1032 1018 0 (Match)
+  PT: ['list']
+  PY: ['list']
+486: ('/invoke/runners.py', '_collate_result', 'stdout') 1033 1019 0 (Match)
+  PT: ['str']
+  PY: ['str']
+487: ('/invoke/runners.py', '_collate_result', 'stderr') 1034 1020 0 (Match)
+  PT: ['str']
+  PY: ['str']
+488: ('/invoke/runners.py', 'normalize_hide', 'hide_vals') 1043 1162 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[None, bool, str, str, str, str, str, bool]']
+489: ('/invoke/runners.py', 'normalize_hide', 'hide') 1045 1164 0 (Match)
+  PT: ['list']
+  PY: ['list']
+490: ('/invoke/runners.py', 'normalize_hide', 'normalize_hide_ret') 1046 40 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Union[str, _T0], ...]']
+491: ('/invoke/runners.py', 'write_proc_stdin', 'self') 1047 1083 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+492: ('/invoke/runners.py', 'write_proc_stdin', 'data') 1048 1084 0 (Match)
+  PT: ['str']
+  PY: ['str']
+493: ('/invoke/util.py', 'exception', 'self') 1049 886 0 (Match)
+  PT: ['ExceptionHandlingThread']
+  PY: ['ExceptionHandlingThread']
+494: ('/invoke/util.py', 'is_dead', 'self') 1050 887 0 (Match)
+  PT: ['ExceptionHandlingThread']
+  PY: ['ExceptionHandlingThread']
+495: ('/invoke/util.py', 'cd', 'cwd') 1053 874 0 (Match)
+  PT: ['str']
+  PY: ['str']
+496: ('/invoke/collection.py', 'to_contexts', 'self') 1054 1244 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+497: ('/invoke/collection.py', 'to_contexts', 'result') 1055 1245 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.parser.context.ParserContext]']
+498: ('/invoke/collection.py', 'to_contexts', 'to_contexts_ret') 1059 80 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.parser.context.ParserContext]']
+499: ('/invoke/collection.py', 'serialized', 'self') 1060 1277 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+500: ('/invoke/collection.py', 'serialized', 'serialized_ret') 1063 76 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+501: ('/invoke/collection.py', 'task_names', 'self') 1064 1265 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+502: ('/invoke/collection.py', 'task_names', 'ret') 1065 1266 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[Any, list]']
+503: ('/invoke/collection.py', 'subtask_name', 'self') 1075 1249 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+504: ('/invoke/collection.py', 'subtask_name', 'subtask_name_ret') 1078 78 0 (Match)
+  PT: ['str']
+  PY: ['str']
+505: ('/invoke/loader.py', '__init__', 'kwargs') 1079 975 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+506: ('/invoke/tasks.py', 'clone', 'into') 1083 637 0 (Match)
+  PT: ['None']
+  PY: ['None']
+507: ('/invoke/tasks.py', 'clone', 'self') 1084 636 0 (Match)
+  PT: ['Call']
+  PY: ['Call']
+508: ('/invoke/tasks.py', 'clone', 'data') 1086 640 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+509: ('/invoke/tasks.py', 'clone_data', 'self') 1089 635 0 (Match)
+  PT: ['Call']
+  PY: ['Call']
+510: ('/invoke/tasks.py', 'clone_data', 'clone_data_ret') 1090 123 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+511: ('/invoke/__init__.py', 'run', 'kwargs') 1091 910 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+512: ('/invoke/__init__.py', 'sudo', 'kwargs') 1094 912 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+513: ('/invoke/loader.py', 'start', 'self') 1097 976 0 (Match)
+  PT: ['FilesystemLoader']
+  PY: ['FilesystemLoader']
+514: ('/invoke/loader.py', 'load', 'load_ret') 1106 91 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[module, Any]']
+515: ('/invoke/loader.py', 'find', 'parents') 1110 980 0 (Match)
+  PT: ['list']
+  PY: ['list']
+516: ('/invoke/parser/argument.py', 'got_value', 'self') 1116 1534 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+517: ('/invoke/parser/argument.py', 'set_value', 'cast') 1118 1532 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+518: ('/invoke/parser/argument.py', 'set_value', 'self') 1119 1530 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+519: ('/tasks.py', 'regression', 'cmd') 1122 413 0 (Match)
+  PT: ['str']
+  PY: ['str']
+520: ('/integration/context.py', 'base_case', 'self') 1123 425 0 (Match)
+  PT: ['sudo']
+  PY: ['Context_.sudo']
+521: ('/integration/runners.py', 'setup', 'self') 1124 441 0 (Match)
+  PT: ['Runner_']
+  PY: ['Runner_']
+522: ('/integration/runners.py', 'base_case', 'self') 1125 442 0 (Match)
+  PT: ['responding']
+  PY: ['Runner_.responding']
+523: ('/integration/runners.py', 'both_streams', 'self') 1126 444 0 (Match)
+  PT: ['responding']
+  PY: ['Runner_.responding']
+524: ('/integration/runners.py', 'both_streams', 'watchers') 1127 445 0 (Match)
+  PT: ['list']
+  PY: ['list']
+525: ('/integration/runners.py', 'watcher_errors_become_Failures', 'self') 1128 446 0 (Match)
+  PT: ['responding']
+  PY: ['Runner_.responding']
+526: ('/integration/runners.py', 'piped_stdin_is_not_conflated_with_mocked_stdin', 'self') 1129 448 0 (Match)
+  PT: ['stdin_mirroring']
+  PY: ['Runner_.stdin_mirroring']
+527: ('/integration/runners.py', 'nested_invoke_sessions_not_conflated_with_mocked_stdin', 'self') 1130 449 0 (Match)
+  PT: ['stdin_mirroring']
+  PY: ['Runner_.stdin_mirroring']
+528: ('/integration/runners.py', 'isnt_cpu_heavy', 'self') 1131 450 0 (Match)
+  PT: ['stdin_mirroring']
+  PY: ['Runner_.stdin_mirroring']
+529: ('/integration/runners.py', 'doesnt_break_when_stdin_exists_but_null', 'self') 1132 451 0 (Match)
+  PT: ['stdin_mirroring']
+  PY: ['Runner_.stdin_mirroring']
+530: ('/integration/runners.py', '_hang_on_full_pipe', 'self') 1133 452 0 (Match)
+  PT: ['IO_hangs']
+  PY: ['Runner_.IO_hangs']
+531: ('/integration/runners.py', 'does_not_fire_when_command_quick', 'self') 1134 457 0 (Match)
+  PT: ['timeouts']
+  PY: ['Runner_.timeouts']
+532: ('/integration/runners.py', 'triggers_exception_when_command_slow', 'self') 1135 458 0 (Match)
+  PT: ['timeouts']
+  PY: ['Runner_.timeouts']
+533: ('/integration/main.py', 'setup', 'self') 1136 465 1 (Manual match)
+  PT: ['Main', 'funky_characters_in_stdout']
+  PY: ['Main.funky_characters_in_stdout']
+534: ('/integration/main.py', 'teardown', 'self') 1137 466 0 (Match)
+  PT: ['Main']
+  PY: ['Main']
+535: ('/integration/main.py', 'loads_real_user_config', 'self') 1146 476 0 (Match)
+  PT: ['basics']
+  PY: ['Main.basics']
+536: ('/integration/main.py', 'complex_nesting_under_ptys_doesnt_break', 'self') 1148 485 0 (Match)
+  PT: ['ptys']
+  PY: ['Main.ptys']
+537: ('/integration/main.py', 'complex_nesting_under_ptys_doesnt_break', 'substr') 1149 486 0 (Match)
+  PT: ['str']
+  PY: ['str']
+538: ('/integration/main.py', 'complex_nesting_under_ptys_doesnt_break', 'cmd') 1150 487 0 (Match)
+  PT: ['str']
+  PY: ['str']
+539: ('/integration/main.py', 'complex_nesting_under_ptys_doesnt_break', 'expected') 1151 488 0 (Match)
+  PT: ['str']
+  PY: ['str']
+540: ('/integration/main.py', 'pty_puts_both_streams_in_stdout', 'self') 1152 489 0 (Match)
+  PT: ['ptys']
+  PY: ['Main.ptys']
+541: ('/integration/main.py', 'pty_puts_both_streams_in_stdout', 'err_echo') 1153 490 0 (Match)
+  PT: ['str']
+  PY: ['str']
+542: ('/integration/main.py', 'pty_puts_both_streams_in_stdout', 'command') 1154 491 0 (Match)
+  PT: ['str']
+  PY: ['str']
+543: ('/integration/main.py', 'simple_command_with_pty', 'self') 1155 493 0 (Match)
+  PT: ['ptys']
+  PY: ['Main.ptys']
+544: ('/integration/main.py', 'pty_size_is_realistic', 'self') 1156 495 0 (Match)
+  PT: ['ptys']
+  PY: ['Main.ptys']
+545: ('/integration/main.py', 'false_as_optional_arg_default_value_works_okay', 'self') 1157 497 0 (Match)
+  PT: ['parsing']
+  PY: ['Main.parsing']
+546: ('/integration/_support/regression.py', 'check', 'count') 1158 501 0 (Match)
+  PT: ['int']
+  PY: ['int']
+547: ('/integration/_support/regression.py', 'check', 'failures') 1159 502 0 (Match)
+  PT: ['list']
+  PY: ['list']
+548: ('/invoke/terminals.py', 'stdin_is_foregrounded_tty', 'stdin_is_foregrounded_tty_ret') 1160 57 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+549: ('/invoke/terminals.py', 'cbreak_already_set', 'echo') 1161 534 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+550: ('/invoke/terminals.py', 'cbreak_already_set', 'icanon') 1162 535 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+551: ('/invoke/terminals.py', 'cbreak_already_set', 'sentinels') 1163 536 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[bool, bool, bool, bool]']
+552: ('/invoke/tasks.py', 'name', 'self') 1165 559 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+553: ('/invoke/tasks.py', '__repr__', 'aliases') 1167 561 0 (Match)
+  PT: ['str']
+  PY: ['str']
+554: ('/invoke/tasks.py', '__repr__', '__repr___ret') 1168 121 0 (Match)
+  PT: ['str']
+  PY: ['str']
+555: ('/invoke/tasks.py', '__eq__', '__eq___ret') 1170 119 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+556: ('/invoke/tasks.py', '__hash__', 'self') 1171 564 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+557: ('/invoke/tasks.py', '__call__', 'self') 1172 565 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+558: ('/invoke/tasks.py', 'called', 'self') 1174 570 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+559: ('/invoke/tasks.py', 'arg_opts', 'self') 1176 586 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+560: ('/invoke/tasks.py', 'arg_opts', 'opts') 1177 590 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+561: ('/invoke/tasks.py', 'arg_opts', 'names') 1178 591 0 (Match)
+  PT: ['list']
+  PY: ['list']
+562: ('/invoke/tasks.py', 'arg_opts', 'arg_opts_ret') 1179 127 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+563: ('/invoke/tasks.py', 'get_arguments', 'self') 1180 594 0 (Match)
+  PT: ['Task']
+  PY: ['Task']
+564: ('/invoke/tasks.py', 'get_arguments', 'args') 1181 600 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.parser.argument.Argument]']
+565: ('/invoke/tasks.py', 'get_arguments', 'get_arguments_ret') 1182 130 0 (Match)
+  PT: ['list']
+  PY: ['List[invoke.parser.argument.Argument]']
+566: ('/invoke/tasks.py', '__getattr__', 'self') 1183 627 0 (Match)
+  PT: ['Call']
+  PY: ['Call']
+567: ('/invoke/tasks.py', '__deepcopy__', 'self') 1184 629 0 (Match)
+  PT: ['Call']
+  PY: ['Call']
+568: ('/invoke/tasks.py', '__repr__', 'aka') 1185 631 0 (Match)
+  PT: ['str']
+  PY: ['str']
+569: ('/invoke/config.py', 'load_source', 'load_source_ret') 1186 114 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+570: ('/invoke/config.py', '__getattr__', 'self') 1187 652 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+571: ('/invoke/config.py', '__setattr__', 'self') 1189 657 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+572: ('/invoke/config.py', '__setattr__', 'has_real_attr') 1190 660 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+573: ('/invoke/config.py', '__iter__', 'self') 1191 661 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+574: ('/invoke/config.py', '__eq__', 'self') 1192 662 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+575: ('/invoke/config.py', '__len__', 'self') 1194 665 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+576: ('/invoke/config.py', '__len__', '__len___ret') 1195 104 0 (Match)
+  PT: ['int']
+  PY: ['int']
+577: ('/invoke/config.py', '__setitem__', 'self') 1196 666 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+578: ('/invoke/config.py', '__getitem__', 'self') 1197 669 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+579: ('/invoke/config.py', '_get', 'self') 1198 671 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+580: ('/invoke/config.py', '_get', 'keypath') 1199 674 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any]']
+581: ('/invoke/config.py', '__repr__', 'self') 1200 681 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+582: ('/invoke/config.py', '__repr__', '__repr___ret') 1201 105 0 (Match)
+  PT: ['str']
+  PY: ['str']
+583: ('/invoke/config.py', '__contains__', 'self') 1202 682 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+584: ('/invoke/config.py', '__contains__', '__contains___ret') 1203 99 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+585: ('/invoke/config.py', '_is_leaf', 'self') 1204 684 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+586: ('/invoke/config.py', '_is_root', 'self') 1205 685 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+587: ('/invoke/config.py', '__delitem__', 'self') 1206 693 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+588: ('/invoke/config.py', '__delattr__', 'self') 1207 695 0 (Match)
+  PT: ['DataProxy']
+  PY: ['DataProxy']
+589: ('/invoke/config.py', '_load_yaml', 'self') 1208 773 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+590: ('/invoke/config.py', '_load_yml', 'self') 1209 775 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+591: ('/invoke/config.py', '_load_json', 'self') 1210 777 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+592: ('/invoke/config.py', '_load_py', 'self') 1211 779 0 (Match)
+  PT: ['Config']
+  PY: ['Config']
+593: ('/invoke/config.py', '_load_py', 'data') 1212 781 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+594: ('/invoke/config.py', '_load_py', '_load_py_ret') 1214 94 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+595: ('/invoke/util.py', 'task_name_sort_key', 'task_name_sort_key_ret') 1215 89 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+596: ('/invoke/util.py', 'run', 'self') 1216 883 0 (Match)
+  PT: ['ExceptionHandlingThread']
+  PY: ['ExceptionHandlingThread']
+597: ('/invoke/util.py', 'run', 'msg') 1217 884 0 (Match)
+  PT: ['str']
+  PY: ['str']
+598: ('/invoke/util.py', '__repr__', 'self') 1219 888 0 (Match)
+  PT: ['ExceptionHandlingThread']
+  PY: ['ExceptionHandlingThread']
+599: ('/invoke/context.py', 'config', 'self') 1220 917 0 (Match)
+  PT: ['Context']
+  PY: ['Context']
+600: ('/invoke/runners.py', 'read_proc_output', 'self') 1221 1036 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+601: ('/invoke/runners.py', 'write_our_output', 'self') 1222 1039 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+602: ('/invoke/runners.py', '_handle_output', 'self') 1223 1042 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+603: ('/invoke/runners.py', 'handle_stdout', 'self') 1224 1048 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+604: ('/invoke/runners.py', 'handle_stderr', 'self') 1225 1052 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+605: ('/invoke/runners.py', 'read_our_stdin', 'self') 1226 1056 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+606: ('/invoke/runners.py', 'handle_stdin', 'self') 1227 1059 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+607: ('/invoke/runners.py', 'handle_stdin', 'closed_stdin') 1228 1063 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+608: ('/invoke/runners.py', 'should_echo_stdin', 'self') 1229 1065 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+609: ('/invoke/runners.py', 'respond', 'self') 1230 1068 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+610: ('/invoke/runners.py', 'respond', 'stream') 1231 1070 0 (Match)
+  PT: ['str']
+  PY: ['str']
+611: ('/invoke/runners.py', 'has_dead_threads', 'self') 1232 1079 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+612: ('/invoke/runners.py', 'decode', 'self') 1233 1085 0 (Match)
+  PT: ['Runner']
+  PY: ['Runner']
+613: ('/invoke/runners.py', 'read_proc_stdout', 'stringified') 1242 1101 0 (Match)
+  PT: ['str']
+  PY: ['str']
+614: ('/invoke/runners.py', 'read_proc_stdout', 'io_errors') 1243 1102 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, str]']
+615: ('/invoke/runners.py', 'return_code', 'self') 1246 1134 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+616: ('/invoke/runners.py', '__nonzero__', 'self') 1247 1135 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+617: ('/invoke/runners.py', '__bool__', 'self') 1248 1136 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+618: ('/invoke/runners.py', '__str__', 'self') 1249 1137 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+619: ('/invoke/runners.py', '__str__', 'desc') 1250 1138 0 (Match)
+  PT: ['str']
+  PY: ['str']
+620: ('/invoke/runners.py', '__str__', 'ret') 1251 1139 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+621: ('/invoke/runners.py', '__str__', '__str___ret') 1252 20 0 (Match)
+  PT: ['str']
+  PY: ['str']
+622: ('/invoke/runners.py', '__repr__', 'self') 1253 1142 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+623: ('/invoke/runners.py', '__repr__', 'template') 1254 1143 0 (Match)
+  PT: ['str']
+  PY: ['str']
+624: ('/invoke/runners.py', '__repr__', '__repr___ret') 1255 19 0 (Match)
+  PT: ['str']
+  PY: ['str']
+625: ('/invoke/runners.py', 'ok', 'self') 1256 1144 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+626: ('/invoke/runners.py', 'failed', 'self') 1258 1145 0 (Match)
+  PT: ['Result']
+  PY: ['Result']
+627: ('/invoke/runners.py', 'join', 'self') 1259 1153 0 (Match)
+  PT: ['Promise']
+  PY: ['Promise']
+628: ('/invoke/runners.py', '__enter__', 'self') 1260 1154 0 (Match)
+  PT: ['Promise']
+  PY: ['Promise']
+629: ('/invoke/runners.py', '__enter__', '__enter___ret') 1261 15 1 (Manual match)
+  PT: ['Promise']
+  PY: ['_TPromise']
+630: ('/invoke/runners.py', '__exit__', 'self') 1262 1155 0 (Match)
+  PT: ['Promise']
+  PY: ['Promise']
+631: ('/invoke/collection.py', '__repr__', 'self') 1263 1180 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+632: ('/invoke/collection.py', '__repr__', 'task_names') 1264 1181 0 (Match)
+  PT: ['list']
+  PY: ['list']
+633: ('/invoke/collection.py', '__repr__', '__repr___ret') 1265 69 0 (Match)
+  PT: ['str']
+  PY: ['str']
+634: ('/invoke/collection.py', '__eq__', 'self') 1266 1184 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+635: ('/invoke/collection.py', '__ne__', 'self') 1267 1186 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+636: ('/invoke/collection.py', '__nonzero__', 'self') 1268 1188 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+637: ('/invoke/collection.py', '__bool__', 'self') 1269 1189 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+638: ('/invoke/collection.py', '__bool__', '__bool___ret') 1270 63 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+639: ('/invoke/collection.py', 'subcollection_from_path', 'self') 1271 1225 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+640: ('/invoke/collection.py', '__getitem__', 'self') 1274 1229 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+641: ('/invoke/collection.py', '__contains__', 'self') 1275 1242 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+642: ('/invoke/collection.py', '__contains__', '__contains___ret') 1276 64 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+643: ('/invoke/collection.py', '_transform_lexicon', 'self') 1277 1260 0 (Match)
+  PT: ['Collection']
+  PY: ['Collection']
+644: ('/invoke/program.py', 'parse_collection', 'self') 1278 1306 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+645: ('/invoke/program.py', 'name', 'self') 1279 1322 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+646: ('/invoke/program.py', 'called_as', 'self') 1280 1323 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+647: ('/invoke/program.py', 'binary', 'self') 1281 1324 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+648: ('/invoke/program.py', 'binary_names', 'self') 1282 1325 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+649: ('/invoke/program.py', 'args', 'self') 1283 1326 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+650: ('/invoke/program.py', 'load_collection', 'self') 1284 1335 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+651: ('/invoke/program.py', '_update_core_context', 'self') 1285 1341 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+652: ('/invoke/program.py', 'parse_tasks', 'self') 1286 1346 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+653: ('/invoke/program.py', 'list_flat', 'self') 1287 1359 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+654: ('/invoke/program.py', 'list_nested', 'self') 1288 1361 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+655: ('/invoke/program.py', 'list_nested', 'extra') 1289 1363 0 (Match)
+  PT: ['str']
+  PY: ['str']
+656: ('/invoke/program.py', '_make_pairs', 'self') 1290 1364 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+657: ('/invoke/program.py', '_make_pairs', 'ancestors') 1291 1366 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+658: ('/invoke/program.py', '_make_pairs', 'pairs') 1292 1367 0 (Match)
+  PT: ['list']
+  PY: ['list']
+659: ('/invoke/program.py', '_make_pairs', 'ancestor_path') 1293 1369 0 (Match)
+  PT: ['str']
+  PY: ['str']
+660: ('/invoke/program.py', '_make_pairs', 'aliases') 1295 1373 0 (Match)
+  PT: ['list']
+  PY: ['list']
+661: ('/invoke/program.py', '_make_pairs', 'prefix') 1297 1374 0 (Match)
+  PT: ['str']
+  PY: ['str']
+662: ('/invoke/program.py', '_make_pairs', '_make_pairs_ret') 1298 58 0 (Match)
+  PT: ['list']
+  PY: ['list']
+663: ('/invoke/program.py', 'list_json', 'self') 1299 1385 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+664: ('/invoke/program.py', 'task_list_opener', 'self') 1300 1388 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+665: ('/invoke/program.py', 'task_list_opener', 'tail') 1301 1393 0 (Match)
+  PT: ['str']
+  PY: ['str']
+666: ('/invoke/program.py', 'task_list_opener', 'text') 1302 1396 0 (Match)
+  PT: ['str']
+  PY: ['str']
+667: ('/invoke/program.py', 'task_list_opener', 'task_list_opener_ret') 1303 62 0 (Match)
+  PT: ['str']
+  PY: ['str']
+668: ('/invoke/program.py', 'display_with_columns', 'self') 1304 1397 0 (Match)
+  PT: ['Program']
+  PY: ['Program']
+669: ('/invoke/program.py', 'display_with_columns', 'specific') 1305 1402 0 (Match)
+  PT: ['str']
+  PY: ['str']
+670: ('/invoke/exceptions.py', 'streams_for_display', 'already_printed') 1308 1426 0 (Match)
+  PT: ['str']
+  PY: ['str']
+671: ('/invoke/exceptions.py', 'streams_for_display', 'streams_for_display_ret') 1311 44 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+672: ('/invoke/exceptions.py', '_repr', 'template') 1314 1432 0 (Match)
+  PT: ['str']
+  PY: ['str']
+673: ('/invoke/exceptions.py', '_repr', 'rest') 1315 1433 0 (Match)
+  PT: ['str']
+  PY: ['str']
+674: ('/invoke/exceptions.py', '_repr', '_repr_ret') 1316 43 0 (Match)
+  PT: ['str']
+  PY: ['str']
+675: ('/invoke/exceptions.py', '__str__', 'template') 1318 1441 0 (Match)
+  PT: ['str']
+  PY: ['str']
+676: ('/invoke/exceptions.py', '__str__', '__str___ret') 1319 41 0 (Match)
+  PT: ['str']
+  PY: ['str']
+677: ('/invoke/exceptions.py', '__str__', 'err') 1320 1444 0 (Match)
+  PT: ['str']
+  PY: ['str']
+678: ('/invoke/exceptions.py', 'code', 'self') 1321 1449 0 (Match)
+  PT: ['Exit']
+  PY: ['Exit']
+679: ('/invoke/exceptions.py', '_printable_kwargs', 'printable') 1322 1451 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+680: ('/invoke/exceptions.py', '_printable_kwargs', 'msg') 1324 1454 0 (Match)
+  PT: ['str']
+  PY: ['str']
+681: ('/invoke/exceptions.py', '_printable_kwargs', '_printable_kwargs_ret') 1325 45 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+682: ('/invoke/exceptions.py', '__str__', 'details') 1326 1459 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+683: ('/invoke/exceptions.py', '__str__', 'detail') 1327 1460 0 (Match)
+  PT: ['str']
+  PY: ['str']
+684: ('/invoke/exceptions.py', '__str__', 'args') 1328 1462 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[int, str, str]']
+685: ('/invoke/parser/argument.py', '__repr__', 'self') 1329 1521 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+686: ('/invoke/parser/argument.py', '__repr__', 'nicks') 1330 1522 0 (Match)
+  PT: ['str']
+  PY: ['str']
+687: ('/invoke/parser/argument.py', '__repr__', 'flags') 1331 1523 0 (Match)
+  PT: ['str']
+  PY: ['str']
+688: ('/invoke/parser/argument.py', '__repr__', 'kind') 1332 1524 0 (Match)
+  PT: ['str']
+  PY: ['str']
+689: ('/invoke/parser/argument.py', '__repr__', '__repr___ret') 1333 153 0 (Match)
+  PT: ['str']
+  PY: ['str']
+690: ('/invoke/parser/argument.py', 'name', 'self') 1334 1525 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+691: ('/invoke/parser/argument.py', 'nicknames', 'self') 1335 1526 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+692: ('/invoke/parser/argument.py', 'takes_value', 'self') 1336 1527 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+693: ('/invoke/parser/argument.py', 'value', 'self') 1338 1528 0 (Match)
+  PT: ['Argument']
+  PY: ['Argument']
+694: ('/invoke/parser/parser.py', 'changing_state', 'self') 1339 1566 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+695: ('/invoke/parser/parser.py', 'store_only', 'self') 1340 1576 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+696: ('/invoke/parser/parser.py', 'complete_context', 'self') 1341 1578 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+697: ('/invoke/parser/parser.py', 'switch_to_context', 'self') 1344 1582 0 (Match)
+  PT: ['ParseMachine']
+  PY: ['ParseMachine']
+698: ('/invoke/parser/context.py', 'flag_key', 'ret') 1345 1611 0 (Match)
+  PT: ['list']
+  PY: ['list']
+699: ('/invoke/parser/context.py', 'flag_key', 'inversed') 1346 1612 0 (Match)
+  PT: ['str']
+  PY: ['str']
+700: ('/invoke/parser/context.py', 'flag_key', 'flag_key_ret') 1347 144 0 (Match)
+  PT: ['list']
+  PY: ['list']
+701: ('/invoke/parser/context.py', '__repr__', 'self') 1348 1619 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+702: ('/invoke/parser/context.py', '__repr__', 'aliases') 1349 1620 0 (Match)
+  PT: ['str']
+  PY: ['str']
+703: ('/invoke/parser/context.py', '__repr__', '__repr___ret') 1350 139 0 (Match)
+  PT: ['str']
+  PY: ['str']
+704: ('/invoke/parser/context.py', 'missing_positional_args', 'self') 1351 1631 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+705: ('/invoke/parser/context.py', 'as_kwargs', 'self') 1352 1632 0 (Match)
+  PT: ['ParserContext']
+  PY: ['ParserContext']
+706: ('/invoke/parser/context.py', 'as_kwargs', 'ret') 1353 1633 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+707: ('/invoke/vendor/decorator.py', '__init__', 'allargs') 1356 1669 0 (Match)
+  PT: ['list']
+  PY: ['list', 'List[str]']
+708: ('/invoke/vendor/decorator.py', '__init__', 'allshortargs') 1357 1670 0 (Match)
+  PT: ['list']
+  PY: ['list', 'List[str]']
+709: ('/invoke/vendor/decorator.py', 'update', 'self') 1358 1671 0 (Match)
+  PT: ['FunctionMaker']
+  PY: ['FunctionMaker']
+710: ('/invoke/vendor/decorator.py', 'make', 'self') 1360 1676 0 (Match)
+  PT: ['FunctionMaker']
+  PY: ['FunctionMaker']
+711: ('/invoke/vendor/decorator.py', 'make', 'names') 1361 1684 0 (Match)
+  PT: ['set']
+  PY: ['set']
+712: ('/invoke/vendor/decorator.py', 'create', 'self') 1362 1703 0 (Match)
+  PT: ['FunctionMaker']
+  PY: ['FunctionMaker']
+713: ('/invoke/vendor/decorator.py', 'create', 'ibody') 1363 1704 0 (Match)
+  PT: ['str']
+  PY: ['str']
+714: ('/invoke/vendor/decorator.py', '__call__', 'self') 1364 1722 0 (Match)
+  PT: ['ContextManager']
+  PY: ['ContextManager']
+715: ('/invoke/vendor/decorator.py', 'append', 'add') 1365 1728 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+716: ('/invoke/vendor/six.py', '__get__', 'self') 1367 1779 0 (Match)
+  PT: ['_LazyDescr']
+  PY: ['_LazyDescr']
+717: ('/invoke/vendor/six.py', '__getattr__', 'self') 1369 1786 0 (Match)
+  PT: ['MovedModule']
+  PY: ['MovedModule']
+718: ('/invoke/vendor/six.py', '__dir__', 'attrs') 1371 1791 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+719: ('/invoke/vendor/six.py', '__dir__', '__dir___ret') 1372 164 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+720: ('/invoke/vendor/six.py', 'find_module', 'self') 1373 1806 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+721: ('/invoke/vendor/six.py', '__get_module', 'self') 1375 1809 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+722: ('/invoke/vendor/six.py', 'load_module', 'self') 1376 1811 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+723: ('/invoke/vendor/six.py', 'is_package', 'self') 1377 1814 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+724: ('/invoke/vendor/six.py', 'get_code', 'self') 1378 1816 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+725: ('/invoke/vendor/six.py', 'print_', 'want_unicode') 1380 1857 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+726: ('/invoke/vendor/fluidity/machine.py', '__new__', '_transition_gatherer') 1385 1946 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+727: ('/invoke/vendor/fluidity/machine.py', '__new__', '_state_gatherer') 1386 1947 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+728: ('/invoke/vendor/fluidity/machine.py', 'add_state', 'self') 1387 1961 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+729: ('/invoke/vendor/fluidity/machine.py', '_current_state_name', 'self') 1388 1966 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+730: ('/invoke/vendor/fluidity/machine.py', 'changing_state', 'self') 1389 1967 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+731: ('/invoke/vendor/fluidity/machine.py', '_new_state', 'self') 1390 1970 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+732: ('/invoke/vendor/fluidity/machine.py', 'states', 'self') 1391 1973 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+733: ('/invoke/vendor/fluidity/machine.py', 'add_transition', 'self') 1392 1982 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+734: ('/invoke/vendor/fluidity/machine.py', '_process_transitions', 'self') 1393 1990 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+735: ('/invoke/vendor/fluidity/machine.py', '_transitions_by_name', 'self') 1394 2001 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+736: ('/invoke/vendor/fluidity/machine.py', '_transitions_by_name', '_transitions_by_name_ret') 1395 200 0 (Match)
+  PT: ['list']
+  PY: ['list']
+737: ('/invoke/vendor/fluidity/machine.py', '_ensure_from_validity', 'self') 1396 2003 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+738: ('/invoke/vendor/fluidity/machine.py', '_ensure_from_validity', 'valid_transitions') 1397 2005 0 (Match)
+  PT: ['list']
+  PY: ['list']
+739: ('/invoke/vendor/fluidity/machine.py', '_ensure_from_validity', '_ensure_from_validity_ret') 1398 197 0 (Match)
+  PT: ['list']
+  PY: ['list']
+740: ('/invoke/vendor/fluidity/machine.py', '_check_guards', 'self') 1399 2006 0 (Match)
+  PT: ['StateMachine']
+  PY: ['StateMachine']
+741: ('/invoke/vendor/fluidity/machine.py', '_check_guards', 'allowed_transitions') 1400 2008 0 (Match)
+  PT: ['list']
+  PY: ['list']
+742: ('/invoke/vendor/fluidity/machine.py', 'event_method', 'self') 1401 2020 0 (Match)
+  PT: ['_Transition']
+  PY: ['_Transition']
+743: ('/invoke/vendor/fluidity/machine.py', 'is_valid_from', 'self') 1402 2021 0 (Match)
+  PT: ['_Transition']
+  PY: ['_Transition']
+744: ('/invoke/vendor/fluidity/machine.py', 'is_valid_from', 'is_valid_from_ret') 1403 208 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+745: ('/invoke/vendor/fluidity/machine.py', 'check_guard', 'self') 1404 2023 0 (Match)
+  PT: ['_Transition']
+  PY: ['_Transition']
+746: ('/invoke/vendor/fluidity/machine.py', 'check', 'self') 1406 2029 0 (Match)
+  PT: ['_Guard']
+  PY: ['_Guard']
+747: ('/invoke/vendor/fluidity/machine.py', '_evaluate', 'self') 1409 2034 0 (Match)
+  PT: ['_Guard']
+  PY: ['_Guard']
+748: ('/invoke/vendor/fluidity/machine.py', 'getter_name', 'self') 1410 2041 0 (Match)
+  PT: ['_State']
+  PY: ['_State']
+749: ('/invoke/vendor/fluidity/machine.py', 'getter_method', 'self') 1411 2043 0 (Match)
+  PT: ['_State']
+  PY: ['_State']
+750: ('/invoke/vendor/fluidity/machine.py', 'run_enter', 'self') 1412 2044 0 (Match)
+  PT: ['_State']
+  PY: ['_State']
+751: ('/invoke/vendor/fluidity/machine.py', 'run_exit', 'self') 1413 2046 0 (Match)
+  PT: ['_State']
+  PY: ['_State']
+752: ('/invoke/vendor/fluidity/machine.py', '_run_action', 'self') 1414 2052 0 (Match)
+  PT: ['_ActionRunner']
+  PY: ['_ActionRunner']
+753: ('/invoke/vendor/fluidity/machine.py', '_try_to_run_with_args', 'self') 1415 2056 0 (Match)
+  PT: ['_ActionRunner']
+  PY: ['_ActionRunner']
+754: ('/invoke/vendor/yaml3/scanner.py', 'check_token', 'self') 1417 2073 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+755: ('/invoke/vendor/yaml3/scanner.py', 'check_token', 'check_token_ret') 1418 253 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+756: ('/invoke/vendor/yaml3/scanner.py', 'peek_token', 'self') 1419 2076 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+757: ('/invoke/vendor/yaml3/scanner.py', 'get_token', 'self') 1420 2077 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+758: ('/invoke/vendor/yaml3/scanner.py', 'need_more_tokens', 'self') 1421 2078 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+759: ('/invoke/vendor/yaml3/scanner.py', 'fetch_more_tokens', 'self') 1423 2079 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+760: ('/invoke/vendor/yaml3/scanner.py', 'next_possible_simple_key', 'self') 1424 2081 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+761: ('/invoke/vendor/yaml3/scanner.py', 'stale_possible_simple_keys', 'self') 1425 2085 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+762: ('/invoke/vendor/yaml3/scanner.py', 'save_possible_simple_key', 'self') 1426 2088 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+763: ('/invoke/vendor/yaml3/scanner.py', 'remove_possible_simple_key', 'self') 1427 2092 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+764: ('/invoke/vendor/yaml3/scanner.py', 'unwind_indent', 'self') 1428 2094 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+765: ('/invoke/vendor/yaml3/scanner.py', 'add_indent', 'self') 1429 2097 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+766: ('/invoke/vendor/yaml3/scanner.py', 'add_indent', 'add_indent_ret') 1430 246 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+767: ('/invoke/vendor/yaml3/scanner.py', 'fetch_stream_start', 'self') 1431 2099 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+768: ('/invoke/vendor/yaml3/scanner.py', 'fetch_stream_end', 'self') 1432 2101 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+769: ('/invoke/vendor/yaml3/scanner.py', 'fetch_directive', 'self') 1433 2103 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+770: ('/invoke/vendor/yaml3/scanner.py', 'fetch_document_start', 'self') 1434 2104 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+771: ('/invoke/vendor/yaml3/scanner.py', 'fetch_document_end', 'self') 1435 2105 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+772: ('/invoke/vendor/yaml3/scanner.py', 'fetch_document_indicator', 'self') 1436 2106 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+773: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_sequence_start', 'self') 1437 2110 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+774: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_mapping_start', 'self') 1438 2111 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+775: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_collection_start', 'self') 1439 2112 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+776: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_sequence_end', 'self') 1440 2116 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+777: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_mapping_end', 'self') 1441 2117 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+778: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_collection_end', 'self') 1442 2118 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+779: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_entry', 'self') 1443 2122 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+780: ('/invoke/vendor/yaml3/scanner.py', 'fetch_block_entry', 'self') 1444 2125 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+781: ('/invoke/vendor/yaml3/scanner.py', 'fetch_key', 'self') 1445 2129 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+782: ('/invoke/vendor/yaml3/scanner.py', 'fetch_value', 'self') 1446 2133 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+783: ('/invoke/vendor/yaml3/scanner.py', 'fetch_alias', 'self') 1447 2138 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+784: ('/invoke/vendor/yaml3/scanner.py', 'fetch_anchor', 'self') 1448 2139 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+785: ('/invoke/vendor/yaml3/scanner.py', 'fetch_tag', 'self') 1449 2140 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+786: ('/invoke/vendor/yaml3/scanner.py', 'fetch_literal', 'self') 1450 2141 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+787: ('/invoke/vendor/yaml3/scanner.py', 'fetch_folded', 'self') 1451 2142 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+788: ('/invoke/vendor/yaml3/scanner.py', 'fetch_block_scalar', 'self') 1452 2143 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+789: ('/invoke/vendor/yaml3/scanner.py', 'fetch_single', 'self') 1453 2145 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+790: ('/invoke/vendor/yaml3/scanner.py', 'fetch_double', 'self') 1454 2146 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+791: ('/invoke/vendor/yaml3/scanner.py', 'fetch_flow_scalar', 'self') 1455 2147 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+792: ('/invoke/vendor/yaml3/scanner.py', 'fetch_plain', 'self') 1456 2149 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+793: ('/invoke/vendor/yaml3/scanner.py', 'check_directive', 'self') 1457 2150 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+794: ('/invoke/vendor/yaml3/scanner.py', 'check_document_start', 'self') 1459 2151 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+795: ('/invoke/vendor/yaml3/scanner.py', 'check_document_end', 'self') 1461 2152 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+796: ('/invoke/vendor/yaml3/scanner.py', 'check_block_entry', 'self') 1463 2153 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+797: ('/invoke/vendor/yaml3/scanner.py', 'check_block_entry', 'check_block_entry_ret') 1464 247 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+798: ('/invoke/vendor/yaml3/scanner.py', 'check_key', 'self') 1465 2154 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+799: ('/invoke/vendor/yaml3/scanner.py', 'check_key', 'check_key_ret') 1466 251 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+800: ('/invoke/vendor/yaml3/scanner.py', 'check_value', 'self') 1467 2155 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+801: ('/invoke/vendor/yaml3/scanner.py', 'check_value', 'check_value_ret') 1468 254 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+802: ('/invoke/vendor/yaml3/scanner.py', 'check_plain', 'self') 1469 2156 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+803: ('/invoke/vendor/yaml3/scanner.py', 'scan_directive', 'self') 1472 2158 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+804: ('/invoke/vendor/yaml3/scanner.py', 'scan_directive_name', 'self') 1473 2163 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+805: ('/invoke/vendor/yaml3/scanner.py', 'scan_directive_name', 'length') 1474 2165 0 (Match)
+  PT: ['int']
+  PY: ['int']
+806: ('/invoke/vendor/yaml3/scanner.py', 'scan_yaml_directive_value', 'self') 1475 2168 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+807: ('/invoke/vendor/yaml3/scanner.py', 'scan_yaml_directive_value', 'scan_yaml_directive_value_ret') 1476 282 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+808: ('/invoke/vendor/yaml3/scanner.py', 'scan_yaml_directive_number', 'self') 1477 2172 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+809: ('/invoke/vendor/yaml3/scanner.py', 'scan_yaml_directive_number', 'length') 1478 2175 0 (Match)
+  PT: ['int']
+  PY: ['int']
+810: ('/invoke/vendor/yaml3/scanner.py', 'scan_yaml_directive_number', 'value') 1479 2176 0 (Match)
+  PT: ['int']
+  PY: ['int']
+811: ('/invoke/vendor/yaml3/scanner.py', 'scan_yaml_directive_number', 'scan_yaml_directive_number_ret') 1480 281 0 (Match)
+  PT: ['int']
+  PY: ['int']
+812: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_directive_value', 'self') 1481 2177 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+813: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_directive_value', 'scan_tag_directive_value_ret') 1482 276 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+814: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_directive_handle', 'self') 1483 2181 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+815: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_directive_prefix', 'self') 1484 2185 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+816: ('/invoke/vendor/yaml3/scanner.py', 'scan_directive_ignored_line', 'self') 1485 2189 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+817: ('/invoke/vendor/yaml3/scanner.py', 'scan_anchor', 'self') 1486 2192 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+818: ('/invoke/vendor/yaml3/scanner.py', 'scan_anchor', 'name') 1487 2196 0 (Match)
+  PT: ['str']
+  PY: ['str']
+819: ('/invoke/vendor/yaml3/scanner.py', 'scan_anchor', 'length') 1488 2197 0 (Match)
+  PT: ['int']
+  PY: ['int']
+820: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'self') 1489 2201 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+821: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'suffix') 1490 2205 0 (Match)
+  PT: ['str']
+  PY: ['str']
+822: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'length') 1491 2206 0 (Match)
+  PT: ['int']
+  PY: ['int']
+823: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'use_handle') 1492 2207 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+824: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'value') 1494 2208 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Optional[Any], Any]', 'Tuple[Optional[Any], str]']
+825: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'self') 1495 2210 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+826: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'folded') 1496 2212 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+827: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'chunks') 1497 2213 0 (Match)
+  PT: ['list']
+  PY: ['list']
+828: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'leading_non_space') 1500 2223 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+829: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'length') 1501 2224 0 (Match)
+  PT: ['int']
+  PY: ['int']
+830: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indicators', 'self') 1502 2225 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+831: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indicators', 'scan_block_scalar_indicators_ret') 1505 263 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Optional[bool], Optional[int]]']
+832: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_ignored_line', 'self') 1506 2230 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+833: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indentation', 'self') 1507 2233 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+834: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indentation', 'chunks') 1508 2234 0 (Match)
+  PT: ['list']
+  PY: ['list']
+835: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indentation', 'scan_block_scalar_indentation_ret') 1510 262 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[list, Any, Any]']
+836: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_breaks', 'self') 1511 2237 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+837: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_breaks', 'chunks') 1512 2239 0 (Match)
+  PT: ['list']
+  PY: ['list']
+838: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_breaks', 'scan_block_scalar_breaks_ret') 1513 261 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[list, Any]']
+839: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar', 'self') 1514 2241 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+840: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar', 'double') 1515 2243 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+841: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar', 'chunks') 1516 2244 0 (Match)
+  PT: ['list']
+  PY: ['list']
+842: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'self') 1517 2248 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+843: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'chunks') 1518 2251 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+844: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'scan_flow_scalar_non_spaces_ret') 1521 268 0 (Match)
+  PT: ['list']
+  PY: ['list']
+845: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_spaces', 'self') 1522 2256 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+846: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_spaces', 'chunks') 1523 2259 0 (Match)
+  PT: ['list']
+  PY: ['list']
+847: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_spaces', 'length') 1524 2260 0 (Match)
+  PT: ['int']
+  PY: ['int']
+848: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_spaces', 'scan_flow_scalar_spaces_ret') 1525 269 0 (Match)
+  PT: ['list']
+  PY: ['list']
+849: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_breaks', 'self') 1526 2265 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+850: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_breaks', 'chunks') 1527 2268 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+851: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_breaks', 'scan_flow_scalar_breaks_ret') 1528 267 0 (Match)
+  PT: ['list']
+  PY: ['list']
+852: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain', 'self') 1529 2270 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+853: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain', 'chunks') 1530 2271 0 (Match)
+  PT: ['list']
+  PY: ['list']
+854: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain', 'length') 1532 2276 0 (Match)
+  PT: ['int']
+  PY: ['int']
+855: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain_spaces', 'self') 1533 2278 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+856: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain_spaces', 'chunks') 1534 2281 0 (Match)
+  PT: ['list']
+  PY: ['list']
+857: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain_spaces', 'length') 1535 2282 0 (Match)
+  PT: ['int']
+  PY: ['int']
+858: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain_spaces', 'breaks') 1536 2287 0 (Match)
+  PT: ['list']
+  PY: ['list']
+859: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_handle', 'self') 1538 2288 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+860: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_handle', 'length') 1539 2292 0 (Match)
+  PT: ['int']
+  PY: ['int']
+861: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_uri', 'self') 1540 2294 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+862: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_uri', 'chunks') 1541 2297 0 (Match)
+  PT: ['list']
+  PY: ['list']
+863: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_uri', 'length') 1542 2298 0 (Match)
+  PT: ['int']
+  PY: ['int']
+864: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_uri', 'scan_tag_uri_ret') 1543 278 0 (Match)
+  PT: ['str']
+  PY: ['str']
+865: ('/invoke/vendor/yaml3/scanner.py', 'scan_uri_escapes', 'self') 1544 2300 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+866: ('/invoke/vendor/yaml3/scanner.py', 'scan_uri_escapes', 'codes') 1545 2303 0 (Match)
+  PT: ['list']
+  PY: ['List[int]']
+867: ('/invoke/vendor/yaml3/scanner.py', 'scan_line_break', 'self') 1546 2307 0 (Match)
+  PT: ['Scanner']
+  PY: ['Scanner']
+868: ('/invoke/vendor/yaml3/error.py', 'get_snippet', 'self') 1549 2319 0 (Match)
+  PT: ['Mark']
+  PY: ['Mark']
+869: ('/invoke/vendor/yaml3/error.py', 'get_snippet', 'head') 1550 2322 0 (Match)
+  PT: ['str']
+  PY: ['str']
+870: ('/invoke/vendor/yaml3/error.py', 'get_snippet', 'tail') 1551 2324 0 (Match)
+  PT: ['str']
+  PY: ['str']
+871: ('/invoke/vendor/yaml3/error.py', '__str__', 'lines') 1553 2335 0 (Match)
+  PT: ['list']
+  PY: ['list']
+872: ('/invoke/vendor/yaml3/error.py', '__str__', '__str___ret') 1554 283 0 (Match)
+  PT: ['str']
+  PY: ['str']
+873: ('/invoke/vendor/yaml3/constructor.py', 'check_data', 'self') 1556 2338 0 (Match)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor']
+874: ('/invoke/vendor/yaml3/constructor.py', 'get_data', 'self') 1557 2339 0 (Match)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor']
+875: ('/invoke/vendor/yaml3/constructor.py', 'get_single_data', 'self') 1558 2340 0 (Match)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor']
+876: ('/invoke/vendor/yaml3/constructor.py', 'construct_document', 'self') 1559 2342 0 (Match)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor']
+877: ('/invoke/vendor/yaml3/constructor.py', 'construct_mapping', 'mapping') 1564 2366 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+878: ('/invoke/vendor/yaml3/constructor.py', 'construct_mapping', 'construct_mapping_ret') 1565 212 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+879: ('/invoke/vendor/yaml3/constructor.py', 'construct_pairs', 'self') 1566 2371 0 (Match)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor']
+880: ('/invoke/vendor/yaml3/constructor.py', 'construct_pairs', 'pairs') 1567 2374 0 (Match)
+  PT: ['list']
+  PY: ['list']
+881: ('/invoke/vendor/yaml3/constructor.py', 'construct_pairs', 'construct_pairs_ret') 1568 214 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[Any, Any]]']
+882: ('/invoke/vendor/yaml3/constructor.py', 'flatten_mapping', 'self') 1569 2389 0 (Match)
+  PT: ['SafeConstructor']
+  PY: ['SafeConstructor']
+883: ('/invoke/vendor/yaml3/constructor.py', 'flatten_mapping', 'merge') 1570 2391 0 (Match)
+  PT: ['list']
+  PY: ['list']
+884: ('/invoke/vendor/yaml3/constructor.py', 'flatten_mapping', 'index') 1571 2392 0 (Match)
+  PT: ['int']
+  PY: ['int']
+885: ('/invoke/vendor/yaml3/constructor.py', 'flatten_mapping', 'submerge') 1572 2395 0 (Match)
+  PT: ['list']
+  PY: ['list']
+886: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'year') 1583 2427 0 (Match)
+  PT: ['int']
+  PY: ['int']
+887: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'month') 1584 2428 0 (Match)
+  PT: ['int']
+  PY: ['int']
+888: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'day') 1585 2429 0 (Match)
+  PT: ['int']
+  PY: ['int']
+889: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'hour') 1586 2430 0 (Match)
+  PT: ['int']
+  PY: ['int']
+890: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'minute') 1587 2431 0 (Match)
+  PT: ['int']
+  PY: ['int']
+891: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'second') 1588 2432 0 (Match)
+  PT: ['int']
+  PY: ['int']
+892: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'fraction') 1589 2433 0 (Match)
+  PT: ['int']
+  PY: ['int']
+893: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'tz_hour') 1590 2435 0 (Match)
+  PT: ['int']
+  PY: ['int']
+894: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'tz_minute') 1591 2436 0 (Match)
+  PT: ['int']
+  PY: ['int']
+895: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_omap', 'omap') 1593 2440 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[Any, Any]]']
+896: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_pairs', 'pairs') 1595 2448 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[Any, Any]]']
+897: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_set', 'data') 1597 2456 0 (Match)
+  PT: ['set']
+  PY: ['Set[nothing]']
+898: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_seq', 'data') 1600 2462 0 (Match)
+  PT: ['list']
+  PY: ['list']
+899: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_map', 'data') 1602 2465 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+900: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_object', 'self') 1603 2467 0 (Match)
+  PT: ['SafeConstructor']
+  PY: ['SafeConstructor']
+901: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_tuple', 'construct_python_tuple_ret') 1611 228 0 (Match)
+  PT: ['tuple']
+  PY: ['tuple']
+902: ('/invoke/vendor/yaml3/constructor.py', 'find_python_module', 'self') 1612 2489 0 (Match)
+  PT: ['Constructor']
+  PY: ['Constructor']
+903: ('/invoke/vendor/yaml3/constructor.py', 'find_python_name', 'self') 1613 2492 0 (Match)
+  PT: ['Constructor']
+  PY: ['Constructor']
+904: ('/invoke/vendor/yaml3/constructor.py', 'make_python_instance', 'self') 1617 2506 0 (Match)
+  PT: ['Constructor']
+  PY: ['Constructor']
+905: ('/invoke/vendor/yaml3/constructor.py', 'make_python_instance', 'args') 1618 2509 0 (Match)
+  PT: ['list']
+  PY: ['List[nothing]']
+906: ('/invoke/vendor/yaml3/constructor.py', 'make_python_instance', 'kwds') 1619 2510 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+907: ('/invoke/vendor/yaml3/constructor.py', 'set_python_instance_state', 'self') 1620 2513 0 (Match)
+  PT: ['Constructor']
+  PY: ['Constructor']
+908: ('/invoke/vendor/yaml3/composer.py', '__init__', 'self') 1629 2541 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+909: ('/invoke/vendor/yaml3/composer.py', 'check_node', 'self') 1630 2542 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+910: ('/invoke/vendor/yaml3/composer.py', 'get_node', 'self') 1631 2543 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+911: ('/invoke/vendor/yaml3/composer.py', 'get_single_node', 'self') 1632 2544 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+912: ('/invoke/vendor/yaml3/composer.py', 'compose_document', 'self') 1633 2547 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+913: ('/invoke/vendor/yaml3/composer.py', 'compose_node', 'self') 1634 2549 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+914: ('/invoke/vendor/yaml3/composer.py', 'compose_scalar_node', 'self') 1635 2555 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+915: ('/invoke/vendor/yaml3/composer.py', 'compose_sequence_node', 'self') 1636 2560 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+916: ('/invoke/vendor/yaml3/composer.py', 'compose_sequence_node', 'index') 1637 2565 0 (Match)
+  PT: ['int']
+  PY: ['int']
+917: ('/invoke/vendor/yaml3/composer.py', 'compose_mapping_node', 'self') 1638 2567 0 (Match)
+  PT: ['Composer']
+  PY: ['Composer']
+918: ('/invoke/vendor/yaml3/events.py', '__repr__', 'self') 1640 2579 0 (Match)
+  PT: ['Event']
+  PY: ['Event']
+919: ('/invoke/vendor/yaml3/events.py', '__repr__', 'arguments') 1641 2582 0 (Match)
+  PT: ['str']
+  PY: ['str']
+920: ('/invoke/vendor/yaml3/representer.py', 'represent', 'self') 1643 2714 0 (Match)
+  PT: ['BaseRepresenter']
+  PY: ['BaseRepresenter']
+921: ('/invoke/vendor/yaml3/representer.py', 'represent_data', 'self') 1644 2717 0 (Match)
+  PT: ['BaseRepresenter']
+  PY: ['BaseRepresenter']
+922: ('/invoke/vendor/yaml3/representer.py', 'represent_sequence', 'value') 1647 2737 0 (Match)
+  PT: ['list']
+  PY: ['list']
+923: ('/invoke/vendor/yaml3/representer.py', 'represent_sequence', 'best_style') 1648 2739 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+924: ('/invoke/vendor/yaml3/representer.py', 'represent_mapping', 'value') 1650 2746 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[Any, Any]]']
+925: ('/invoke/vendor/yaml3/representer.py', 'represent_mapping', 'best_style') 1651 2748 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+926: ('/invoke/vendor/yaml3/representer.py', 'represent_mapping', 'mapping') 1652 2744 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[str, Optional[Any]]]', 'List[Tuple[Any, None]]']
+927: ('/invoke/vendor/yaml3/representer.py', 'represent_bool', 'value') 1659 2765 0 (Match)
+  PT: ['str']
+  PY: ['str']
+928: ('/invoke/vendor/yaml3/representer.py', 'represent_float', 'value') 1662 2770 0 (Match)
+  PT: ['str']
+  PY: ['str']
+929: ('/invoke/vendor/yaml3/representer.py', 'represent_set', 'value') 1666 2777 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[Any, None]']
+930: ('/invoke/vendor/yaml3/representer.py', 'represent_yaml_object', 'self') 1669 2785 0 (Match)
+  PT: ['SafeRepresenter']
+  PY: ['SafeRepresenter']
+931: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'args') 1676 2806 0 (Match)
+  PT: ['list']
+  PY: ['list']
+932: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'tag') 1680 2810 0 (Match)
+  PT: ['str']
+  PY: ['str']
+933: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'newobj') 1681 2811 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+934: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'value') 1682 2813 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Optional[Any]]']
+935: ('/invoke/vendor/yaml3/tokens.py', '__repr__', 'self') 1684 2818 0 (Match)
+  PT: ['Token']
+  PY: ['Token']
+936: ('/invoke/vendor/yaml3/tokens.py', '__repr__', 'arguments') 1685 2821 0 (Match)
+  PT: ['str']
+  PY: ['str']
+937: ('/invoke/vendor/yaml3/parser.py', 'dispose', 'self') 1688 2878 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+938: ('/invoke/vendor/yaml3/parser.py', 'check_event', 'self') 1689 2879 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+939: ('/invoke/vendor/yaml3/parser.py', 'check_event', 'check_event_ret') 1690 326 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+940: ('/invoke/vendor/yaml3/parser.py', 'peek_event', 'self') 1691 2882 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+941: ('/invoke/vendor/yaml3/parser.py', 'get_event', 'self') 1692 2883 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+942: ('/invoke/vendor/yaml3/parser.py', 'parse_stream_start', 'self') 1693 2885 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+943: ('/invoke/vendor/yaml3/parser.py', 'parse_implicit_document_start', 'self') 1694 2888 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+944: ('/invoke/vendor/yaml3/parser.py', 'parse_document_start', 'self') 1695 2893 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+945: ('/invoke/vendor/yaml3/parser.py', 'parse_document_end', 'self') 1696 2900 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+946: ('/invoke/vendor/yaml3/parser.py', 'parse_document_end', 'explicit') 1697 2904 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+947: ('/invoke/vendor/yaml3/parser.py', 'parse_document_content', 'self') 1698 2906 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+948: ('/invoke/vendor/yaml3/parser.py', 'process_directives', 'self') 1699 2908 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+949: ('/invoke/vendor/yaml3/parser.py', 'process_directives', 'value') 1700 2914 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Optional[Any], Optional[dict]]']
+950: ('/invoke/vendor/yaml3/parser.py', 'process_directives', 'process_directives_ret') 1701 353 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Optional[dict]]']
+951: ('/invoke/vendor/yaml3/parser.py', 'parse_block_node', 'self') 1702 2916 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+952: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_node', 'self') 1703 2917 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+953: ('/invoke/vendor/yaml3/parser.py', 'parse_block_node_or_indentless_sequence', 'self') 1704 2918 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+954: ('/invoke/vendor/yaml3/parser.py', 'parse_node', 'self') 1705 2919 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+955: ('/invoke/vendor/yaml3/parser.py', 'parse_block_sequence_first_entry', 'self') 1708 2933 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+956: ('/invoke/vendor/yaml3/parser.py', 'parse_block_sequence_entry', 'self') 1709 2935 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+957: ('/invoke/vendor/yaml3/parser.py', 'parse_indentless_sequence_entry', 'self') 1710 2938 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+958: ('/invoke/vendor/yaml3/parser.py', 'parse_block_mapping_first_key', 'self') 1711 2941 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+959: ('/invoke/vendor/yaml3/parser.py', 'parse_block_mapping_key', 'self') 1712 2943 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+960: ('/invoke/vendor/yaml3/parser.py', 'parse_block_mapping_value', 'self') 1713 2946 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+961: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_sequence_first_entry', 'self') 1714 2948 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+962: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_sequence_entry', 'self') 1715 2950 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+963: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_sequence_entry_mapping_key', 'self') 1716 2954 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+964: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_sequence_entry_mapping_value', 'self') 1717 2956 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+965: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_sequence_entry_mapping_end', 'self') 1718 2958 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+966: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_mapping_first_key', 'self') 1719 2960 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+967: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_mapping_key', 'self') 1720 2962 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+968: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_mapping_value', 'self') 1721 2966 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+969: ('/invoke/vendor/yaml3/parser.py', 'parse_flow_mapping_empty_value', 'self') 1722 2968 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+970: ('/invoke/vendor/yaml3/parser.py', 'process_empty_scalar', 'self') 1723 2969 0 (Match)
+  PT: ['Parser']
+  PY: ['Parser']
+971: ('/invoke/vendor/yaml3/reader.py', '__str__', 'self') 1725 2979 0 (Match)
+  PT: ['ReaderError']
+  PY: ['ReaderError']
+972: ('/invoke/vendor/yaml3/reader.py', 'peek', 'self') 1726 2981 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+973: ('/invoke/vendor/yaml3/reader.py', 'prefix', 'self') 1727 2983 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+974: ('/invoke/vendor/yaml3/reader.py', 'forward', 'self') 1728 2985 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+975: ('/invoke/vendor/yaml3/reader.py', 'get_mark', 'self') 1729 2988 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+976: ('/invoke/vendor/yaml3/reader.py', 'determine_encoding', 'self') 1730 2989 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+977: ('/invoke/vendor/yaml3/reader.py', 'check_printable', 'self') 1731 2990 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+978: ('/invoke/vendor/yaml3/reader.py', 'update', 'self') 1732 2995 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+979: ('/invoke/vendor/yaml3/reader.py', 'update_raw', 'self') 1734 3001 0 (Match)
+  PT: ['Reader']
+  PY: ['Reader']
+980: ('/invoke/vendor/yaml3/resolver.py', 'add_implicit_resolver', 'first') 1737 3013 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+981: ('/invoke/vendor/yaml3/resolver.py', 'add_path_resolver', 'new_path') 1738 3019 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[Optional[Any], Any]]']
+982: ('/invoke/vendor/yaml3/resolver.py', 'descend_resolver', 'self') 1740 3023 0 (Match)
+  PT: ['BaseResolver']
+  PY: ['BaseResolver']
+983: ('/invoke/vendor/yaml3/resolver.py', 'descend_resolver', 'exact_paths') 1741 3026 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+984: ('/invoke/vendor/yaml3/resolver.py', 'descend_resolver', 'prefix_paths') 1742 3027 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[Any, Any]]']
+985: ('/invoke/vendor/yaml3/resolver.py', 'descend_resolver', 'depth') 1743 3028 0 (Match)
+  PT: ['int']
+  PY: ['int']
+986: ('/invoke/vendor/yaml3/resolver.py', 'ascend_resolver', 'self') 1744 3031 0 (Match)
+  PT: ['BaseResolver']
+  PY: ['BaseResolver']
+987: ('/invoke/vendor/yaml3/resolver.py', 'check_resolver_prefix', 'self') 1745 3032 0 (Match)
+  PT: ['BaseResolver']
+  PY: ['BaseResolver']
+988: ('/invoke/vendor/yaml3/resolver.py', 'resolve', 'self') 1747 3040 0 (Match)
+  PT: ['BaseResolver']
+  PY: ['BaseResolver']
+989: ('/invoke/vendor/yaml3/serializer.py', '__init__', 'self') 1748 3054 0 (Match)
+  PT: ['Serializer']
+  PY: ['Serializer']
+990: ('/invoke/vendor/yaml3/serializer.py', 'open', 'self') 1749 3060 0 (Match)
+  PT: ['Serializer']
+  PY: ['Serializer']
+991: ('/invoke/vendor/yaml3/serializer.py', 'close', 'self') 1750 3061 0 (Match)
+  PT: ['Serializer']
+  PY: ['Serializer']
+992: ('/invoke/vendor/yaml3/serializer.py', 'serialize', 'self') 1751 3062 0 (Match)
+  PT: ['Serializer']
+  PY: ['Serializer']
+993: ('/invoke/vendor/yaml3/serializer.py', 'anchor_node', 'self') 1752 3064 0 (Match)
+  PT: ['Serializer']
+  PY: ['Serializer']
+994: ('/invoke/vendor/yaml3/serializer.py', 'generate_anchor', 'self') 1753 3069 0 (Match)
+  PT: ['Serializer']
+  PY: ['Serializer']
+995: ('/invoke/vendor/yaml3/serializer.py', 'serialize_node', 'self') 1754 3071 0 (Match)
+  PT: ['Serializer']
+  PY: ['Serializer']
+996: ('/invoke/vendor/yaml3/nodes.py', '__repr__', 'self') 1758 3089 0 (Match)
+  PT: ['Node']
+  PY: ['Node']
+997: ('/invoke/vendor/yaml3/emitter.py', 'dispose', 'self') 1760 3111 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+998: ('/invoke/vendor/yaml3/emitter.py', 'emit', 'self') 1761 3112 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+999: ('/invoke/vendor/yaml3/emitter.py', 'need_more_events', 'self') 1762 3114 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1000: ('/invoke/vendor/yaml3/emitter.py', 'need_more_events', 'need_more_events_ret') 1763 320 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1001: ('/invoke/vendor/yaml3/emitter.py', 'need_events', 'self') 1764 3116 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1002: ('/invoke/vendor/yaml3/emitter.py', 'need_events', 'level') 1765 3118 0 (Match)
+  PT: ['int']
+  PY: ['int']
+1003: ('/invoke/vendor/yaml3/emitter.py', 'need_events', 'need_events_ret') 1766 319 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1004: ('/invoke/vendor/yaml3/emitter.py', 'increase_indent', 'self') 1767 3120 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1005: ('/invoke/vendor/yaml3/emitter.py', 'expect_stream_start', 'self') 1768 3123 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1006: ('/invoke/vendor/yaml3/emitter.py', 'expect_first_document_start', 'self') 1770 3124 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1007: ('/invoke/vendor/yaml3/emitter.py', 'expect_document_start', 'self') 1771 3125 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1008: ('/invoke/vendor/yaml3/emitter.py', 'expect_document_end', 'self') 1772 3134 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1009: ('/invoke/vendor/yaml3/emitter.py', 'expect_document_root', 'self') 1773 3135 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1010: ('/invoke/vendor/yaml3/emitter.py', 'expect_node', 'self') 1774 3136 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1011: ('/invoke/vendor/yaml3/emitter.py', 'expect_alias', 'self') 1775 3141 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1012: ('/invoke/vendor/yaml3/emitter.py', 'expect_scalar', 'self') 1776 3142 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1013: ('/invoke/vendor/yaml3/emitter.py', 'expect_flow_sequence', 'self') 1777 3143 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1014: ('/invoke/vendor/yaml3/emitter.py', 'expect_first_flow_sequence_item', 'self') 1778 3144 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1015: ('/invoke/vendor/yaml3/emitter.py', 'expect_flow_sequence_item', 'self') 1779 3145 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1016: ('/invoke/vendor/yaml3/emitter.py', 'expect_flow_mapping', 'self') 1780 3146 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1017: ('/invoke/vendor/yaml3/emitter.py', 'expect_first_flow_mapping_key', 'self') 1781 3147 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1018: ('/invoke/vendor/yaml3/emitter.py', 'expect_flow_mapping_key', 'self') 1782 3148 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1019: ('/invoke/vendor/yaml3/emitter.py', 'expect_flow_mapping_simple_value', 'self') 1783 3149 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1020: ('/invoke/vendor/yaml3/emitter.py', 'expect_flow_mapping_value', 'self') 1784 3150 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1021: ('/invoke/vendor/yaml3/emitter.py', 'expect_block_sequence', 'self') 1785 3151 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1022: ('/invoke/vendor/yaml3/emitter.py', 'expect_first_block_sequence_item', 'self') 1786 3153 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1023: ('/invoke/vendor/yaml3/emitter.py', 'expect_block_sequence_item', 'self') 1787 3154 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1024: ('/invoke/vendor/yaml3/emitter.py', 'expect_block_mapping', 'self') 1788 3156 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1025: ('/invoke/vendor/yaml3/emitter.py', 'expect_first_block_mapping_key', 'self') 1789 3157 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1026: ('/invoke/vendor/yaml3/emitter.py', 'expect_block_mapping_key', 'self') 1790 3158 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1027: ('/invoke/vendor/yaml3/emitter.py', 'expect_block_mapping_simple_value', 'self') 1791 3160 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1028: ('/invoke/vendor/yaml3/emitter.py', 'expect_block_mapping_value', 'self') 1792 3161 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1029: ('/invoke/vendor/yaml3/emitter.py', 'check_empty_sequence', 'self') 1793 3162 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1030: ('/invoke/vendor/yaml3/emitter.py', 'check_empty_mapping', 'self') 1794 3163 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1031: ('/invoke/vendor/yaml3/emitter.py', 'check_empty_document', 'self') 1795 3164 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1032: ('/invoke/vendor/yaml3/emitter.py', 'check_empty_document', 'check_empty_document_ret') 1796 312 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1033: ('/invoke/vendor/yaml3/emitter.py', 'check_simple_key', 'self') 1797 3166 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1034: ('/invoke/vendor/yaml3/emitter.py', 'check_simple_key', 'length') 1798 3167 0 (Match)
+  PT: ['int']
+  PY: ['int']
+1035: ('/invoke/vendor/yaml3/emitter.py', 'process_anchor', 'self') 1799 3168 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1036: ('/invoke/vendor/yaml3/emitter.py', 'process_tag', 'self') 1800 3170 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1037: ('/invoke/vendor/yaml3/emitter.py', 'choose_scalar_style', 'self') 1802 3172 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1038: ('/invoke/vendor/yaml3/emitter.py', 'process_scalar', 'self') 1804 3173 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1039: ('/invoke/vendor/yaml3/emitter.py', 'prepare_version', 'self') 1805 3175 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1040: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag_handle', 'self') 1806 3179 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1041: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag_prefix', 'self') 1807 3182 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1042: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag_prefix', 'chunks') 1808 3184 0 (Match)
+  PT: ['list']
+  PY: ['list']
+1043: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag_prefix', 'end') 1809 3186 0 (Match)
+  PT: ['int']
+  PY: ['int']
+1044: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag_prefix', 'prepare_tag_prefix_ret') 1810 324 0 (Match)
+  PT: ['str']
+  PY: ['str']
+1045: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag', 'self') 1811 3189 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1046: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag', 'chunks') 1812 3195 0 (Match)
+  PT: ['list']
+  PY: ['list']
+1047: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag', 'suffix_text') 1813 3200 0 (Match)
+  PT: ['str']
+  PY: ['str']
+1048: ('/invoke/vendor/yaml3/emitter.py', 'prepare_anchor', 'self') 1814 3201 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1049: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'self') 1815 3204 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1050: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'block_indicators') 1816 3206 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1051: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'flow_indicators') 1817 3207 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1052: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'line_breaks') 1818 3208 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1053: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'special_characters') 1819 3209 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1054: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'leading_space') 1820 3210 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1055: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'leading_break') 1821 3211 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1056: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'trailing_space') 1822 3212 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1057: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'trailing_break') 1823 3213 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1058: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'break_space') 1824 3214 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1059: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'space_break') 1825 3215 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1060: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'preceeded_by_whitespace') 1826 3216 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1061: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'previous_space') 1827 3218 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1062: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'previous_break') 1828 3219 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1063: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'index') 1829 3220 0 (Match)
+  PT: ['int']
+  PY: ['int']
+1064: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'unicode_characters') 1830 3222 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1065: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_flow_plain') 1831 3223 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1066: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_block_plain') 1832 3224 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1067: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_single_quoted') 1833 3225 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1068: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_double_quoted') 1834 3226 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1069: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_block') 1835 3227 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1070: ('/invoke/vendor/yaml3/emitter.py', 'flush_stream', 'self') 1836 3228 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1071: ('/invoke/vendor/yaml3/emitter.py', 'write_stream_start', 'self') 1837 3229 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1072: ('/invoke/vendor/yaml3/emitter.py', 'write_stream_end', 'self') 1838 3230 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1073: ('/invoke/vendor/yaml3/emitter.py', 'write_indicator', 'self') 1839 3231 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1074: ('/invoke/vendor/yaml3/emitter.py', 'write_indent', 'self') 1840 3237 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1075: ('/invoke/vendor/yaml3/emitter.py', 'write_line_break', 'self') 1841 3240 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1076: ('/invoke/vendor/yaml3/emitter.py', 'write_version_directive', 'self') 1842 3242 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1077: ('/invoke/vendor/yaml3/emitter.py', 'write_tag_directive', 'self') 1843 3245 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1078: ('/invoke/vendor/yaml3/emitter.py', 'write_single_quoted', 'self') 1844 3249 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1079: ('/invoke/vendor/yaml3/emitter.py', 'write_single_quoted', 'breaks') 1846 3253 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1080: ('/invoke/vendor/yaml3/emitter.py', 'write_double_quoted', 'self') 1848 3259 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1081: ('/invoke/vendor/yaml3/emitter.py', 'determine_block_hints', 'self') 1850 3266 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1082: ('/invoke/vendor/yaml3/emitter.py', 'determine_block_hints', 'hints') 1851 3268 0 (Match)
+  PT: ['str']
+  PY: ['str']
+1083: ('/invoke/vendor/yaml3/emitter.py', 'determine_block_hints', 'determine_block_hints_ret') 1852 317 0 (Match)
+  PT: ['str']
+  PY: ['str']
+1084: ('/invoke/vendor/yaml3/emitter.py', 'write_folded', 'self') 1853 3269 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1085: ('/invoke/vendor/yaml3/emitter.py', 'write_folded', 'breaks') 1856 3274 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1086: ('/invoke/vendor/yaml3/emitter.py', 'write_literal', 'self') 1857 3280 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1087: ('/invoke/vendor/yaml3/emitter.py', 'write_literal', 'breaks') 1858 3283 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1088: ('/invoke/vendor/yaml3/emitter.py', 'write_plain', 'self') 1859 3289 0 (Match)
+  PT: ['Emitter']
+  PY: ['Emitter']
+1089: ('/invoke/vendor/yaml3/emitter.py', 'write_plain', 'breaks') 1862 3294 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1090: ('/invoke/vendor/lexicon/attribute_dict.py', '__getattr__', 'self') 1863 3302 0 (Match)
+  PT: ['AttributeDict']
+  PY: ['AttributeDict']
+1091: ('/invoke/vendor/lexicon/attribute_dict.py', '__setattr__', 'self') 1864 3304 0 (Match)
+  PT: ['AttributeDict']
+  PY: ['AttributeDict']
+1092: ('/invoke/vendor/lexicon/attribute_dict.py', '__delattr__', 'self') 1865 3307 0 (Match)
+  PT: ['AttributeDict']
+  PY: ['AttributeDict']
+1093: ('/invoke/vendor/lexicon/__init__.py', '__getattr__', 'self') 1866 3312 0 (Match)
+  PT: ['Lexicon']
+  PY: ['Lexicon']
+1094: ('/invoke/vendor/lexicon/alias_dict.py', '__init__', 'self') 1867 3314 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']
+1095: ('/invoke/vendor/lexicon/alias_dict.py', 'unalias', 'self') 1868 3320 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']
+1096: ('/invoke/vendor/lexicon/alias_dict.py', '_handle', 'self') 1869 3328 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']
+1097: ('/invoke/vendor/lexicon/alias_dict.py', '_single', 'self') 1870 3336 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']
+1098: ('/invoke/vendor/lexicon/alias_dict.py', '_single', '_single_ret') 1871 394 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+1099: ('/invoke/vendor/lexicon/alias_dict.py', '__setitem__', 'self') 1872 3344 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']
+1100: ('/invoke/vendor/lexicon/alias_dict.py', '__getitem__', 'self') 1873 3347 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']
+1101: ('/invoke/vendor/lexicon/alias_dict.py', '__contains__', 'self') 1874 3352 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']
+1102: ('/invoke/vendor/lexicon/alias_dict.py', '__delitem__', 'self') 1875 3354 0 (Match)
+  PT: ['AliasDict']
+  PY: ['AliasDict']

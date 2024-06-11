@@ -1,0 +1,30 @@
+0: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'depth') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+1: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'parent') 1 (Manual match)
+  PT: ['None']
+  DL: ['cerberus.typing.NoneType']
+2: ('/cerberus/errors.py', 'DocumentErrorTree_class_initializer', 'tree_type') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+3: ('/cerberus/errors.py', 'SchemaErrorTree_class_initializer', 'tree_type') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+4: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_allow_unknown') 0 (Match)
+  PT: ['meta_func']
+  DL: ['function']
+5: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_meta') 0 (Match)
+  PT: ['meta_func']
+  DL: ['function']
+6: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_required') 0 (Match)
+  PT: ['meta_func']
+  DL: ['function']
+7: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_require_all') 0 (Match)
+  PT: ['meta_func']
+  DL: ['function']
+8: ('/docs/includes/generate.py', 'load_module_members', 'module_spec') 1 (Manual match)
+  PT: ["ModuleSpec(name='errors', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110af5bd0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py')", "ModuleSpec(name='errors', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110af6110>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py')"]
+  DL: ['_frozen_importlib.ModuleSpec']
+9: ('/docs/includes/generate.py', 'load_module_members', '_module') 0 (Match)
+  PT: ["<module 'errors' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py'>", "<module 'errors' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py'>"]
+  DL: ['module']

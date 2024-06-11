@@ -1,0 +1,813 @@
+0: ('/cerberus/errors.py', 'module_initializer', 'DOCUMENT_MISSING') 6 (DL subset PT)
+  PT: ['ErrorDefinition', 'str']
+  DL: ['ErrorDefinition']
+1: ('/cerberus/errors.py', 'module_initializer', 'DOCUMENT_FORMAT') 6 (DL subset PT)
+  PT: ['ErrorDefinition', 'str']
+  DL: ['ErrorDefinition']
+2: ('/cerberus/errors.py', 'module_initializer', 'MISSING_SCHEMA') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+3: ('/cerberus/errors.py', 'module_initializer', 'SCHEMA_TYPE') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+4: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'depth') 7 (etc)
+  PT: ['int']
+  DL: ['num']
+5: ('/cerberus/errors.py', 'DocumentErrorTree_class_initializer', 'tree_type') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+6: ('/cerberus/errors.py', 'SchemaErrorTree_class_initializer', 'tree_type') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+7: ('/cerberus/errors.py', 'SchemaErrorHandler_class_initializer', 'messages') 2 (Both Empty)
+  PT: []
+  DL: ['']
+8: ('/cerberus/base.py', 'module_initializer', 'RULE_SCHEMA_SEPARATOR') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+9: ('/cerberus/base.py', 'module_initializer', 'toy_error_handler') 4 (DL Empty)
+  PT: ['ToyErrorHandler']
+  DL: ['']
+10: ('/cerberus/base.py', 'module_initializer', '_ellipsis') 7 (etc)
+  PT: ['Ellipsis']
+  DL: ['dict']
+11: ('/cerberus/base.py', 'module_initializer', 'schema_registry') 7 (etc)
+  PT: ['SchemaRegistry']
+  DL: ['tuple']
+12: ('/cerberus/base.py', 'module_initializer', 'rules_set_registry') 7 (etc)
+  PT: ['RulesSetRegistry']
+  DL: ['tuple']
+13: ('/cerberus/base.py', 'SchemaRegistry_class_initializer', '_normalize_value') 3 (PT Empty)
+  PT: []
+  DL: ['staticmethod']
+14: ('/cerberus/base.py', 'RulesSetRegistry_class_initializer', '_normalize_value') 3 (PT Empty)
+  PT: []
+  DL: ['staticmethod']
+15: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_allow_unknown') 7 (etc)
+  PT: ['meta_func']
+  DL: ['dummy_for_rule_validation']
+16: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_meta') 7 (etc)
+  PT: ['meta_func']
+  DL: ['dummy_for_rule_validation']
+17: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_required') 7 (etc)
+  PT: ['meta_func']
+  DL: ['dummy_for_rule_validation']
+18: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_require_all') 7 (etc)
+  PT: ['meta_func']
+  DL: ['dummy_for_rule_validation']
+19: ('/cerberus/schema.py', 'SchemaValidator_class_initializer', 'types_mapping') 2 (Both Empty)
+  PT: []
+  DL: ['']
+20: ('/cerberus/typing.py', 'module_initializer', 'DocumentPath') 7 (etc)
+  PT: ['typing.Tuple[typing.Hashable, ...]']
+  DL: ['dict']
+21: ('/cerberus/typing.py', 'module_initializer', 'ErrorHandlerConfig') 7 (etc)
+  PT: ["typing.Union[ForwardRef('BaseErrorHandler'), typing.Type[ForwardRef('BaseErrorHandler')], typing.Tuple[typing.Type[ForwardRef('BaseErrorHandler')], typing.Mapping[str, typing.Any]]]"]
+  DL: ['dict']
+22: ('/cerberus/typing.py', 'module_initializer', 'NoneType') 7 (etc)
+  PT: ['NoneType']
+  DL: ['type']
+23: ('/cerberus/typing.py', 'module_initializer', 'Schema') 6 (DL subset PT)
+  PT: ["typing.Union[ForwardRef('ValidatedSchema'), typing.Mapping[typing.Hashable, typing.Mapping[str, typing.Any]]]"]
+  DL: ['dict']
+24: ('/cerberus/typing.py', 'module_initializer', 'AllowUnknown') 6 (DL subset PT)
+  PT: ['typing.Union[bool, typing.Mapping[str, typing.Any]]']
+  DL: ['dict']
+25: ('/cerberus/errors.py', '__init__', 'parent_node') 4 (DL Empty)
+  PT: ['DocumentErrorTree', 'ErrorTree', 'ErrorTreeNode', 'SchemaErrorTree', "'ErrorTreeNode'"]
+  DL: ['']
+26: ('/cerberus/errors.py', '__init__', 'document_path') 6 (DL subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'DocumentPath']
+  DL: ['cerberus.typing.DocumentPath']
+27: ('/cerberus/errors.py', '__init__', 'schema_path') 6 (DL subset PT)
+  PT: ['None', 'list', 'str', 'tuple', 'DocumentPath']
+  DL: ['cerberus.typing.DocumentPath']
+28: ('/cerberus/errors.py', '__init__', 'rule') 8 (Partial match)
+  PT: ['None', 'str', 'Optional[str]']
+  DL: ['dict', 'str']
+29: ('/cerberus/errors.py', '__init__', 'constraint') 6 (DL subset PT)
+  PT: ['None', 'dict', 'frozenset()', "frozenset({'keysrules'})", 'list', 'str', 'tuple', 'Any']
+  DL: ['typing.Any']
+30: ('/cerberus/errors.py', '__init__', 'value') 6 (DL subset PT)
+  PT: ['None', 'bool', 'Any']
+  DL: ['typing.Any']
+31: ('/cerberus/errors.py', '__init__', 'info') 6 (DL subset PT)
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Any']
+  DL: ['typing.Any']
+32: ('/cerberus/errors.py', 'add', 'error') 8 (Partial match)
+  PT: ['ValidationError', 'bool', 'dict', 'frozenset()', 'list', 'tuple']
+  DL: ['ValidationError', 'copy.deepcopy']
+33: ('/cerberus/errors.py', 'add', 'error_path') 2 (Both Empty)
+  PT: []
+  DL: ['']
+34: ('/cerberus/errors.py', 'add', 'key') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+35: ('/cerberus/errors.py', 'add', 'node') 3 (PT Empty)
+  PT: []
+  DL: ['typing.cast']
+36: ('/cerberus/errors.py', '_path_of_', 'error') 4 (DL Empty)
+  PT: ['ValidationError', 'bool', 'dict', 'frozenset()', 'list', 'tuple']
+  DL: ['']
+37: ('/setup.py', 'module_initializer', 'DESCRIPTION') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+38: ('/setup.py', 'module_initializer', 'LONG_DESCRIPTION') 2 (Both Empty)
+  PT: []
+  DL: ['']
+39: ('/setup.py', 'module_initializer', 'VERSION') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+40: ('/setup.py', 'module_initializer', 'setup_requires') 4 (DL Empty)
+  PT: ['list']
+  DL: ['']
+41: ('/docs/conf.py', 'module_initializer', 'module_spec') 4 (DL Empty)
+  PT: ["ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x103fc23b0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110942a10>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d2749400>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d2775400>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d277ea90>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d49cdeb0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d49d3490>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d49fe520>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d4a753a0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d4e12730>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d668b100>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d7251f40>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d72b7130>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d740a310>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d7568e50>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d75e9ac0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d7672370>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d76e8f70>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d89a8370>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')"]
+  DL: ['']
+42: ('/docs/conf.py', 'module_initializer', '_module') 4 (DL Empty)
+  PT: ["<module 'generate_includes' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py'>"]
+  DL: ['']
+43: ('/docs/conf.py', 'module_initializer', 'source_suffix') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+44: ('/docs/conf.py', 'module_initializer', 'master_doc') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+45: ('/docs/conf.py', 'module_initializer', 'project') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+46: ('/docs/conf.py', 'module_initializer', 'copyright') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+47: ('/docs/conf.py', 'module_initializer', 'release') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+48: ('/docs/conf.py', 'module_initializer', 'version') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+49: ('/docs/conf.py', 'module_initializer', 'issuetracker') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+50: ('/docs/conf.py', 'module_initializer', 'issuetracker_project') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+51: ('/docs/conf.py', 'module_initializer', 'pygments_style') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+52: ('/docs/conf.py', 'module_initializer', 'html_theme') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+53: ('/docs/conf.py', 'module_initializer', 'html_title') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+54: ('/docs/conf.py', 'module_initializer', 'htmlhelp_basename') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+55: ('/docs/conf.py', 'module_initializer', 'doctest_global_setup') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+56: ('/docs/includes/generate.py', 'module_initializer', 'INCLUDES_DIR') 4 (DL Empty)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils']
+  DL: ['']
+57: ('/docs/includes/generate.py', 'module_initializer', 'CERBERUS_DIR') 4 (DL Empty)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus']
+  DL: ['']
+58: ('/docs/includes/generate.py', 'module_initializer', 'errors_module') 3 (PT Empty)
+  PT: []
+  DL: ['load_module_members']
+59: ('/docs/includes/generate.py', 'module_initializer', 'error_type') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+60: ('/docs/includes/generate.py', 'module_initializer', 'validator_module') 3 (PT Empty)
+  PT: []
+  DL: ['load_module_members']
+61: ('/docs/includes/generate.py', 'module_initializer', 'validator') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+62: ('/docs/includes/generate.py', 'module_initializer', 'schema_validation_schema') 3 (PT Empty)
+  PT: []
+  DL: ['pprint.pformat']
+63: ('/cerberus/__init__.py', 'module_initializer', '__version__') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+64: ('/cerberus/benchmarks/__init__.py', 'module_initializer', 'DOCUMENTS_PATH') 4 (DL Empty)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/documents']
+  DL: ['']
+65: ('/cerberus/base.py', 'normalize_rulesset', 'rules') 8 (Partial match)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'RulesSet']
+  DL: ['cerberus.typing.RulesSet', 'dict']
+66: ('/cerberus/base.py', 'normalize_rulesset', '_hash') 7 (etc)
+  PT: ['int']
+  DL: ['cerberus.utils.schema_hash']
+67: ('/cerberus/base.py', 'normalize_rulesset', 'constraint') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['dict']
+68: ('/cerberus/utils.py', 'schema_hash', 'schema') 6 (DL subset PT)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Mapping']
+  DL: ['typing.Mapping']
+69: ('/cerberus/base.py', '_expand_generic_type_aliases', 'rules') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Dict[str, Any]']
+  DL: ['dict']
+70: ('/cerberus/base.py', '_expand_generic_type_aliases', 'origin') 7 (etc)
+  PT: ['None', 'typing.Union']
+  DL: ['cerberus.platform.get_type_origin']
+71: ('/cerberus/base.py', '_expand_generic_type_aliases', 'args') 7 (etc)
+  PT: ['tuple']
+  DL: ['cerberus.platform.get_type_args']
+72: ('/cerberus/base.py', '_expand_composed_of_rules', 'rules') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Dict[str, Any]']
+  DL: ['dict']
+73: ('/cerberus/base.py', '_expand_composed_of_rules', 'of_rule') 2 (Both Empty)
+  PT: []
+  DL: ['']
+74: ('/cerberus/base.py', '_expand_composed_of_rules', 'rule') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+75: ('/cerberus/base.py', '_normalize_contained_rulessets', 'rules') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Dict[str, Any]']
+  DL: ['dict']
+76: ('/cerberus/utils.py', 'mapping_to_frozenset', 'schema') 6 (DL subset PT)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Mapping']
+  DL: ['typing.Mapping']
+77: ('/cerberus/utils.py', 'mapping_to_frozenset', 'value') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'list']
+  DL: ['list']
+78: ('/cerberus/base.py', '_flatten_Union_and_Optional', 'type_constraints') 4 (DL Empty)
+  PT: ['str', 'tuple']
+  DL: ['']
+79: ('/cerberus/platform.py', 'get_type_origin', 'tp') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'empty', 'required'})", 'list', 'str', 'tuple']
+  DL: ['']
+80: ('/cerberus/platform.py', 'get_type_args', 'tp') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'empty', 'required'})", 'list', 'str', 'tuple']
+  DL: ['']
+81: ('/cerberus/base.py', 'normalize_schema', 'schema') 6 (DL subset PT)
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Schema']
+  DL: ['cerberus.typing.Schema']
+82: ('/docs/includes/generate.py', 'load_module_members', 'name') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+83: ('/docs/includes/generate.py', 'load_module_members', 'path') 4 (DL Empty)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py', '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/msg', '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py']
+  DL: ['']
+84: ('/docs/includes/generate.py', 'load_module_members', 'module_spec') 4 (DL Empty)
+  PT: ["ModuleSpec(name='errors', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110af5bd0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py')", "ModuleSpec(name='errors', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110af6110>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py')"]
+  DL: ['']
+85: ('/docs/includes/generate.py', 'load_module_members', '_module') 4 (DL Empty)
+  PT: ["<module 'errors' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py'>", "<module 'errors' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py'>"]
+  DL: ['']
+86: ('/cerberus/base.py', '__init__', 'definitions') 7 (etc)
+  PT: ['tuple', 'Union[RegistryItems, Iterable[Tuple[str, RegistryItem]]]']
+  DL: ['dict']
+87: ('/cerberus/base.py', 'extend', 'definitions') 7 (etc)
+  PT: ['tuple', 'Union[RegistryItems, Iterable[Tuple[str, RegistryItem]]]']
+  DL: ['dict']
+88: ('/cerberus/base.py', '__init__', 'schema') 6 (DL subset PT)
+  PT: ['None', 'dict', 'Schema']
+  DL: ['cerberus.typing.Schema']
+89: ('/cerberus/errors.py', '__init__', 'errors') 7 (etc)
+  PT: ['tuple', 'Iterable[ValidationError]']
+  DL: ['dict']
+90: ('/cerberus/base.py', '__init_error_handler', 'config') 6 (DL subset PT)
+  PT: ['BasicErrorHandler', 'ErrorHandlerConfig']
+  DL: ['cerberus.typing.ErrorHandlerConfig']
+91: ('/cerberus/base.py', '__init_error_handler', 'error_handler') 7 (etc)
+  PT: ['BasicErrorHandler']
+  DL: ['config', 'tuple']
+92: ('/cerberus/base.py', '__init_error_handler', 'eh_config') 7 (etc)
+  PT: ['dict']
+  DL: ['config', 'tuple']
+93: ('/cerberus/validator.py', 'schema', 'schema') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+94: ('/cerberus/errors.py', '__init__', 'tree') 6 (DL subset PT)
+  PT: ['None', 'dict', 'Dict']
+  DL: ['typing.Dict']
+95: ('/cerberus/schema.py', '__init__', 'schema') 7 (etc)
+  PT: ['None', 'dict']
+  DL: ['cerberus.base.normalize_schema']
+96: ('/cerberus/schema.py', '__init__', 'validator') 4 (DL Empty)
+  PT: ['Validator']
+  DL: ['']
+97: ('/cerberus/schema.py', 'validate', 'schema') 4 (DL Empty)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'dict']
+  DL: ['']
+98: ('/cerberus/schema.py', '_validate', 'schema') 4 (DL Empty)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'dict']
+  DL: ['']
+99: ('/cerberus/errors.py', '_rewrite_error_path', 'offset') 4 (DL Empty)
+  PT: ['int']
+  DL: ['']
+100: ('/cerberus/errors.py', '_rewrite_error_path', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+101: ('/cerberus/errors.py', '_insert_logic_error', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+102: ('/cerberus/errors.py', '_insert_logic_error', 'field') 2 (Both Empty)
+  PT: []
+  DL: ['']
+103: ('/cerberus/errors.py', '_insert_group_error', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+104: ('/cerberus/errors.py', '_format_message', 'field') 2 (Both Empty)
+  PT: []
+  DL: ['']
+105: ('/cerberus/errors.py', '_format_message', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+106: ('/cerberus/errors.py', '_insert_error', 'path') 2 (Both Empty)
+  PT: []
+  DL: ['']
+107: ('/cerberus/errors.py', '_insert_error', 'node') 2 (Both Empty)
+  PT: []
+  DL: ['']
+108: ('/cerberus/errors.py', '_insert_error', 'field') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+109: ('/cerberus/errors.py', '_insert_error', 'new') 4 (DL Empty)
+  PT: ['BasicErrorHandler']
+  DL: ['']
+110: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'offset') 4 (DL Empty)
+  PT: ['int']
+  DL: ['']
+111: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+112: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'child_start') 4 (DL Empty)
+  PT: ['int']
+  DL: ['']
+113: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'nodename') 4 (DL Empty)
+  PT: ['str', 'tuple']
+  DL: ['']
+114: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'path') 4 (DL Empty)
+  PT: ['tuple']
+  DL: ['']
+115: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'rel_path') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+116: ('/cerberus/errors.py', '_rewrite_group_error_path', 'offset') 4 (DL Empty)
+  PT: ['int']
+  DL: ['']
+117: ('/cerberus/errors.py', '_rewrite_group_error_path', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+118: ('/cerberus/errors.py', '_rewrite_group_error_path', 'child_start') 4 (DL Empty)
+  PT: ['int']
+  DL: ['']
+119: ('/cerberus/errors.py', '_rewrite_group_error_path', 'relative_path') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+120: ('/cerberus/utils.py', 'compare_paths_lt', 'x') 4 (DL Empty)
+  PT: ['tuple']
+  DL: ['']
+121: ('/cerberus/utils.py', 'compare_paths_lt', 'y') 4 (DL Empty)
+  PT: ['tuple']
+  DL: ['']
+122: ('/cerberus/utils.py', 'compare_paths_lt', 'min_length') 7 (etc)
+  PT: ['int']
+  DL: ['min']
+123: ('/cerberus/utils.py', 'compare_paths_lt', 'a') 7 (etc)
+  PT: ['str']
+  DL: ['tuple']
+124: ('/cerberus/utils.py', 'compare_paths_lt', 'b') 7 (etc)
+  PT: ['str']
+  DL: ['tuple']
+125: ('/cerberus/errors.py', 'pretty_tree', 'pretty') 7 (etc)
+  PT: ['None', 'dict']
+  DL: ['copy.deepcopy']
+126: ('/cerberus/errors.py', '_purge_empty_dicts', 'error_list') 4 (DL Empty)
+  PT: ['list']
+  DL: ['']
+127: ('/cerberus/base.py', '_error', 'field') 6 (DL subset PT)
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['dict']
+128: ('/cerberus/base.py', '_error', 'code') 2 (Both Empty)
+  PT: []
+  DL: ['']
+129: ('/cerberus/base.py', '_error', 'rule') 2 (Both Empty)
+  PT: []
+  DL: ['']
+130: ('/cerberus/base.py', '_error', 'info') 6 (DL subset PT)
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['dict']
+131: ('/cerberus/base.py', '_error', 'document_path') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+132: ('/cerberus/base.py', '_error', 'schema_path') 6 (DL subset PT)
+  PT: ['None', 'str', 'tuple']
+  DL: ['tuple']
+133: ('/cerberus/base.py', '_error', 'constraint') 6 (DL subset PT)
+  PT: ['None', 'dict', 'frozenset()', "frozenset({'keysrules'})", 'list', 'str', 'tuple']
+  DL: ['None', 'dict']
+134: ('/cerberus/base.py', '_error', 'field_definitions') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+135: ('/cerberus/base.py', '_error', 'value') 4 (DL Empty)
+  PT: ['None']
+  DL: ['']
+136: ('/cerberus/base.py', '_resolve_rules_set', 'rules_set') 4 (DL Empty)
+  PT: ['dict']
+  DL: ['']
+137: ('/cerberus/schema.py', 'update', 'schema') 4 (DL Empty)
+  PT: ['dict']
+  DL: ['']
+138: ('/cerberus/base.py', 'normalized', 'schema') 7 (etc)
+  PT: ['None', 'Optional[Schema]']
+  DL: ['dict']
+139: ('/cerberus/base.py', 'normalized', 'document') 6 (DL subset PT)
+  PT: ['dict', 'Document']
+  DL: ['cerberus.typing.Document']
+140: ('/cerberus/base.py', '__init_processing', 'schema') 4 (DL Empty)
+  PT: ['None']
+  DL: ['']
+141: ('/cerberus/base.py', '__init_processing', 'document') 4 (DL Empty)
+  PT: ['dict']
+  DL: ['']
+142: ('/cerberus/base.py', '__normalize_mapping', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+143: ('/cerberus/base.py', '__normalize_mapping', 'schema') 6 (DL subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['dict']
+144: ('/cerberus/base.py', '_resolve_schema', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+145: ('/cerberus/base.py', '__normalize_rename_fields', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+146: ('/cerberus/base.py', '__normalize_rename_fields', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+147: ('/cerberus/base.py', '_normalize_purge_unknown', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+148: ('/cerberus/base.py', '_normalize_purge_unknown', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+149: ('/cerberus/base.py', '__normalize_purge_readonly', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+150: ('/cerberus/base.py', '__normalize_purge_readonly', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+151: ('/cerberus/base.py', '__validate_readonly_fields', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+152: ('/cerberus/base.py', '__validate_readonly_fields', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+153: ('/cerberus/base.py', '__normalize_default_fields', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+154: ('/cerberus/base.py', '__normalize_default_fields', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+155: ('/cerberus/base.py', '__normalize_default_fields', 'field') 4 (DL Empty)
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+156: ('/cerberus/base.py', '__normalize_default_fields', 'fields_processing_state') 7 (etc)
+  PT: ['int']
+  DL: ['hash']
+157: ('/cerberus/base.py', '_normalize_coerce', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+158: ('/cerberus/base.py', '_normalize_coerce', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+159: ('/cerberus/base.py', '_normalize_coerce', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+160: ('/cerberus/base.py', '__normalize_containers', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+161: ('/cerberus/base.py', '__normalize_containers', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+162: ('/cerberus/errors.py', 'start', 'validator') 4 (DL Empty)
+  PT: ['UnconcernedValidator', 'Validator', "'UnconcernedValidator'"]
+  DL: ['']
+163: ('/cerberus/base.py', '_normalize_rename', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+164: ('/cerberus/base.py', '_normalize_rename', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+165: ('/cerberus/base.py', '_normalize_rename', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+166: ('/cerberus/base.py', '_normalize_rename_handler', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+167: ('/cerberus/base.py', '_normalize_rename_handler', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+168: ('/cerberus/base.py', '_normalize_rename_handler', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+169: ('/cerberus/base.py', '_normalize_rename_handler', 'new_name') 2 (Both Empty)
+  PT: []
+  DL: ['']
+170: ('/cerberus/base.py', '_validate_readonly', 'readonly') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+171: ('/cerberus/base.py', '_validate_readonly', 'field') 4 (DL Empty)
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+172: ('/cerberus/base.py', '_validate_readonly', 'value') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+173: ('/cerberus/base.py', '_validate_readonly', 'has_error') 4 (DL Empty)
+  PT: ['bool']
+  DL: ['']
+174: ('/cerberus/base.py', '_normalize_default', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+175: ('/cerberus/base.py', '_normalize_default', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+176: ('/cerberus/base.py', '_normalize_default', 'field') 4 (DL Empty)
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+177: ('/cerberus/base.py', '_normalize_default_setter', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+178: ('/cerberus/base.py', '_normalize_default_setter', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+179: ('/cerberus/base.py', '_normalize_default_setter', 'field') 4 (DL Empty)
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+180: ('/cerberus/base.py', '_normalize_default_setter', 'setter') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['dict']
+181: ('/cerberus/base.py', '__normalize_coerce', 'processor') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+182: ('/cerberus/base.py', '__normalize_coerce', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+183: ('/cerberus/base.py', '__normalize_coerce', 'value') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+184: ('/cerberus/base.py', '__normalize_coerce', 'nullable') 4 (DL Empty)
+  PT: ['bool']
+  DL: ['']
+185: ('/cerberus/base.py', '__normalize_coerce', 'error') 2 (Both Empty)
+  PT: []
+  DL: ['']
+186: ('/cerberus/base.py', '__normalize_coerce', 'result') 7 (etc)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['value']
+187: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+188: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+189: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'property_rules') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+190: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'validator') 4 (DL Empty)
+  PT: ['Validator']
+  DL: ['']
+191: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'result') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+192: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+193: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+194: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'value_rules') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+195: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'validator') 2 (Both Empty)
+  PT: []
+  DL: ['']
+196: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+197: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+198: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'schema') 4 (DL Empty)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['']
+199: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'rules') 4 (DL Empty)
+  PT: ['bool', 'dict']
+  DL: ['']
+200: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'validator') 2 (Both Empty)
+  PT: []
+  DL: ['']
+201: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'value_type') 6 (DL subset PT)
+  PT: ['dict', 'str', 'tempfile._TemporaryFileWrapper', 'type']
+  DL: ['type']
+202: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'result_value') 2 (Both Empty)
+  PT: []
+  DL: ['']
+203: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+204: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+205: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'schema') 6 (DL subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['dict']
+206: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'constraint') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['dict']
+207: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'validator') 2 (Both Empty)
+  PT: []
+  DL: ['']
+208: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'value_type') 6 (DL subset PT)
+  PT: ['dict', 'str', 'tempfile._TemporaryFileWrapper', 'type']
+  DL: ['type']
+209: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'result') 2 (Both Empty)
+  PT: []
+  DL: ['']
+210: ('/cerberus/base.py', '__normalize_sequence_per_items', 'field') 4 (DL Empty)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+211: ('/cerberus/base.py', '__normalize_sequence_per_items', 'mapping') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+212: ('/cerberus/base.py', '__normalize_sequence_per_items', 'schema') 6 (DL subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  DL: ['dict']
+213: ('/cerberus/base.py', '__normalize_sequence_per_items', 'rules') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['tuple']
+214: ('/cerberus/base.py', '__normalize_sequence_per_items', 'values') 6 (DL subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['tuple']
+215: ('/cerberus/base.py', '__normalize_sequence_per_items', 'validator') 2 (Both Empty)
+  PT: []
+  DL: ['']
+216: ('/cerberus/base.py', '__normalize_sequence_per_items', 'value_type') 6 (DL subset PT)
+  PT: ['dict', 'str', 'tempfile._TemporaryFileWrapper', 'type']
+  DL: ['type']
+217: ('/cerberus/base.py', '__normalize_sequence_per_items', 'result') 2 (Both Empty)
+  PT: []
+  DL: ['']
+218: ('/cerberus/errors.py', 'fetch_errors_from', 'path') 6 (DL subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'DocumentPath']
+  DL: ['cerberus.typing.DocumentPath']
+219: ('/cerberus/errors.py', 'fetch_errors_from', 'node') 4 (DL Empty)
+  PT: ['DocumentErrorTree', 'ErrorTree']
+  DL: ['']
+220: ('/cerberus/base.py', '__get_rule_handler', 'domain') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+221: ('/cerberus/base.py', '__get_rule_handler', 'rule') 4 (DL Empty)
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+222: ('/cerberus/base.py', '__get_rule_handler', 'methodname') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+223: ('/cerberus/base.py', '__get_rule_handler', 'result') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+224: ('/cerberus/base.py', '_get_child_validator', 'schema_crumb') 8 (Partial match)
+  PT: ['None', 'str', 'tuple', 'Union[FieldName, Iterable[FieldName], None]']
+  DL: ['dict', 'tuple']
+225: ('/cerberus/base.py', '_get_child_validator', 'document_crumb') 6 (DL subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Union[FieldName, Iterable[FieldName], None]']
+  DL: ['dict', 'tuple']
+226: ('/cerberus/base.py', '_get_child_validator', 'child_config') 3 (PT Empty)
+  PT: []
+  DL: ['collections.ChainMap']
+227: ('/cerberus/base.py', '_get_child_validator', 'child_validator') 4 (DL Empty)
+  PT: ['UnconcernedValidator', 'Validator']
+  DL: ['']
+228: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', '_errors') 4 (DL Empty)
+  PT: ['ErrorList', 'errors.ErrorList']
+  DL: ['']
+229: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'dp_items') 7 (etc)
+  PT: ['list', 'Iterable[int]']
+  DL: ['dict']
+230: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'sp_items') 7 (etc)
+  PT: ['list', 'Iterable[int]']
+  DL: ['dict']
+231: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'dp_basedepth') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+232: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'sp_basedepth') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+233: ('/cerberus/errors.py', 'fetch_node_from', 'path') 6 (DL subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'DocumentPath']
+  DL: ['cerberus.typing.DocumentPath']
+234: ('/cerberus/errors.py', 'fetch_node_from', 'context') 7 (etc)
+  PT: ['DocumentErrorTree', 'ErrorTree']
+  DL: ['self']
+235: ('/cerberus/utils.py', 'drop_item_from_tuple', 't') 2 (Both Empty)
+  PT: []
+  DL: ['']
+236: ('/cerberus/utils.py', 'drop_item_from_tuple', 'i') 4 (DL Empty)
+  PT: ['dict', 'int']
+  DL: ['']
+237: ('/cerberus/__init__.py', 'validator_factory', 'namespace') 6 (DL subset PT)
+  PT: ['None', 'dict', 'Optional[Dict]']
+  DL: ['dict']
+238: ('/cerberus/__init__.py', 'validator_factory', 'bases') 7 (etc)
+  PT: ['None', 'Union[type, Tuple[type], None]']
+  DL: ['dict']
+239: ('/cerberus/__init__.py', 'validator_factory', 'validator_class') 4 (DL Empty)
+  PT: ['UnconcernedValidator', 'Validator', 'bool']
+  DL: ['']
+240: ('/cerberus/__init__.py', 'validator_factory', 'computed_bases') 6 (DL subset PT)
+  PT: ['None', 'tuple']
+  DL: ['tuple']
+241: ('/cerberus/utils.py', 'quote_string', 'value') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+242: ('/cerberus/errors.py', 'definitions_errors', 'result') 3 (PT Empty)
+  PT: []
+  DL: ['collections.defaultdict']
+243: ('/cerberus/errors.py', 'definitions_errors', 'i') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+244: ('/cerberus/errors.py', 'extend', 'errors') 7 (etc)
+  PT: ['list', 'Iterable[ValidationError]']
+  DL: ['dict']
+245: ('/cerberus/base.py', 'validate', 'schema') 7 (etc)
+  PT: ['None', 'Optional[Schema]']
+  DL: ['dict']
+246: ('/cerberus/base.py', 'validate', 'document') 6 (DL subset PT)
+  PT: ['dict', 'Document']
+  DL: ['cerberus.typing.Document']
+247: ('/cerberus/base.py', 'validate', 'definitions') 4 (DL Empty)
+  PT: ['None']
+  DL: ['']
+248: ('/cerberus/base.py', '__validate_definitions', 'definitions') 4 (DL Empty)
+  PT: ['None']
+  DL: ['']
+249: ('/cerberus/base.py', '__validate_definitions', 'field') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+250: ('/cerberus/base.py', '__validate_definitions', 'value') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  DL: ['dict']
+251: ('/cerberus/base.py', '__validate_definitions', 'rule') 2 (Both Empty)
+  PT: []
+  DL: ['']
+252: ('/cerberus/base.py', '__validate_definitions', 'rule_handler') 2 (Both Empty)
+  PT: []
+  DL: ['']
+253: ('/cerberus/base.py', '__validate_unknown_fields', 'field') 4 (DL Empty)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  DL: ['']
+254: ('/cerberus/base.py', '__validate_unknown_fields', 'value') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  DL: ['dict']
+255: ('/cerberus/base.py', '__validate_unknown_fields', 'schema_crumb') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+256: ('/cerberus/base.py', '__validate_unknown_fields', 'validator') 4 (DL Empty)
+  PT: ['UnconcernedValidator', 'Validator']
+  DL: ['']
+257: ('/cerberus/base.py', '__validate_required_fields', 'document') 4 (DL Empty)
+  PT: ['None', 'dict']
+  DL: ['']
+258: ('/cerberus/base.py', '__validate_required_fields', 'missing') 4 (DL Empty)
+  PT: ['set']
+  DL: ['']
+259: ('/cerberus/errors.py', '__getitem__', 'item') 7 (etc)
+  PT: ['Union[ErrorDefinition, FieldName]']
+  DL: ['dict']
+260: ('/cerberus/errors.py', '__setitem__', 'value') 4 (DL Empty)
+  PT: ["'ErrorTreeNode'"]
+  DL: ['']
+261: ('/cerberus/errors.py', '__call__', 'errors') 7 (etc)
+  PT: ['Iterable[ValidationError]']
+  DL: ['dict']
+262: ('/cerberus/errors.py', 'end', 'validator') 4 (DL Empty)
+  PT: ["'UnconcernedValidator'"]
+  DL: ['']
+263: ('/cerberus/base.py', 'get', 'default') 6 (DL subset PT)
+  PT: ['Optional[RegistryItem]']
+  DL: ['dict']
+264: ('/cerberus/base.py', '__get_rule_schema', 'result') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['dict', 'ast.literal_eval']
+265: ('/cerberus/base.py', 'validated', 'schema') 6 (DL subset PT)
+  PT: ['Optional[Schema]']
+  DL: ['dict']
+266: ('/cerberus/base.py', '__validate_dependencies_mapping', 'validated_dependencies_counter') 7 (etc)
+  PT: ['int']
+  DL: ['num']
+267: ('/cerberus/base.py', '_validate_excludes', 'exclusion_str') 4 (DL Empty)
+  PT: ['str']
+  DL: ['']
+268: ('/cerberus/base.py', '__validate_logical', 'valid_counter') 7 (etc)
+  PT: ['int']
+  DL: ['num']
+269: ('/cerberus/benchmarks/test_overall_performance.py', 'validate_documents', 'documents') 7 (etc)
+  PT: ['List[dict]']
+  DL: ['dict']
+270: ('/cerberus/benchmarks/test_overall_performance.py', 'validate_documents', 'error_paths') 7 (etc)
+  PT: ['CounterType[tuple]']
+  DL: ['dict']

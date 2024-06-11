@@ -1,0 +1,129 @@
+0: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', '_human') 1 (Manual match)
+  PT: ['<property object at 0x10a3d8fe0>', '<property object at 0x10ade67a0>', '<property object at 0x10bd332e0>', '<property object at 0x10c084810>', '<property object at 0x10c0b00e0>', '<property object at 0x10c356480>', '<property object at 0x10c467e70>', '<property object at 0x10c6e7fb0>', '<property object at 0x10c9ddc60>', '<property object at 0x10d8804a0>', '<property object at 0x10d883f10>', '<property object at 0x10db21940>', '<property object at 0x10de14360>', '<property object at 0x10e801e90>', '<property object at 0x10ef38860>', '<property object at 0x10fdd5c60>', '<property object at 0x1102cf740>', '<property object at 0x110b8be70>', '<property object at 0x1158ceb10>']
+  DL: ['property']
+1: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Module_class_initializer', '_nest') 1 (Manual match)
+  PT: ['<staticmethod(<function <lambda> at 0x109bf3130>)>', '<staticmethod(<function <lambda> at 0x10a4d16c0>)>', '<staticmethod(<function <lambda> at 0x10f01fa30>)>', '<staticmethod(<function <lambda> at 0x10fd327a0>)>', '<staticmethod(<function <lambda> at 0x10fd32830>)>', '<staticmethod(<function <lambda> at 0x10fd32950>)>', '<staticmethod(<function <lambda> at 0x10fd32b90>)>', '<staticmethod(<function <lambda> at 0x10fd32c20>)>', '<staticmethod(<function <lambda> at 0x10fd32d40>)>', '<staticmethod(<function <lambda> at 0x10fd32e60>)>', '<staticmethod(<function <lambda> at 0x10fd332e0>)>', '<staticmethod(<function <lambda> at 0x10fd33370>)>', '<staticmethod(<function <lambda> at 0x10fd339a0>)>', '<staticmethod(<function <lambda> at 0x10fd33b50>)>', '<staticmethod(<function <lambda> at 0x10fd33be0>)>', '<staticmethod(<function <lambda> at 0x10fd33d00>)>', '<staticmethod(<function <lambda> at 0x10fd33f40>)>', '<staticmethod(<function <lambda> at 0x1158a3b50>)>']
+  DL: ['staticmethod']
+2: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Module_class_initializer', 'module') 1 (Manual match)
+  PT: ['<property object at 0x10a49ad90>', '<property object at 0x10ade6840>', '<property object at 0x10bc60360>', '<property object at 0x10c0588b0>', '<property object at 0x10c0b08b0>', '<property object at 0x10c3572e0>', '<property object at 0x10c4d1da0>', '<property object at 0x10dd9c590>', '<property object at 0x10ddacd10>', '<property object at 0x10de306d0>', '<property object at 0x10de8ba60>', '<property object at 0x10e2e7ba0>', '<property object at 0x10e80a250>', '<property object at 0x10e81fdd0>', '<property object at 0x10ea15ee0>', '<property object at 0x10ef38fe0>', '<property object at 0x110ace5c0>', '<property object at 0x110b107c0>', '<property object at 0x1158cf4c0>']
+  DL: ['property']
+3: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Function_class_initializer', '_nest') 1 (Manual match)
+  PT: ['<staticmethod(<function <lambda> at 0x109bf2ef0>)>', '<staticmethod(<function <lambda> at 0x10a4d17e0>)>', '<staticmethod(<function <lambda> at 0x10f01fb50>)>', '<staticmethod(<function <lambda> at 0x10fd30ee0>)>', '<staticmethod(<function <lambda> at 0x10fd31000>)>', '<staticmethod(<function <lambda> at 0x10fd32560>)>', '<staticmethod(<function <lambda> at 0x10fd32680>)>', '<staticmethod(<function <lambda> at 0x10fd32a70>)>', '<staticmethod(<function <lambda> at 0x10fd32b90>)>', '<staticmethod(<function <lambda> at 0x10fd33520>)>', '<staticmethod(<function <lambda> at 0x10fd335b0>)>', '<staticmethod(<function <lambda> at 0x10fd336d0>)>', '<staticmethod(<function <lambda> at 0x10fd33a30>)>', '<staticmethod(<function <lambda> at 0x10fd33b50>)>', '<staticmethod(<function <lambda> at 0x10fd33d00>)>', '<staticmethod(<function <lambda> at 0x10fd33eb0>)>', '<staticmethod(<function <lambda> at 0x115905750>)>']
+  DL: ['staticmethod']
+4: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Class_class_initializer', '_nest') 1 (Manual match)
+  PT: ['<staticmethod(<function <lambda> at 0x109bf2830>)>', '<staticmethod(<function <lambda> at 0x10a4d1870>)>', '<staticmethod(<function <lambda> at 0x10f01fbe0>)>', '<staticmethod(<function <lambda> at 0x10fd31090>)>', '<staticmethod(<function <lambda> at 0x10fd32440>)>', '<staticmethod(<function <lambda> at 0x10fd324d0>)>', '<staticmethod(<function <lambda> at 0x10fd325f0>)>', '<staticmethod(<function <lambda> at 0x10fd327a0>)>', '<staticmethod(<function <lambda> at 0x10fd32cb0>)>', '<staticmethod(<function <lambda> at 0x10fd32f80>)>', '<staticmethod(<function <lambda> at 0x10fd331c0>)>', '<staticmethod(<function <lambda> at 0x10fd33520>)>', '<staticmethod(<function <lambda> at 0x10fd33910>)>', '<staticmethod(<function <lambda> at 0x10fd339a0>)>', '<staticmethod(<function <lambda> at 0x1159057e0>)>']
+  DL: ['staticmethod']
+5: ('/anaconda_lib/linting/pyflakes/checker.py', 'Checker_class_initializer', 'offset') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+6: ('/anaconda_lib/linting/pyflakes/checker.py', 'Checker_class_initializer', 'builtIns') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+7: ('/anaconda_lib/linting/pyflakes/checker.py', 'Checker_class_initializer', '_customBuiltIns') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+8: ('/anaconda_lib/linting/pyflakes/checker.py', 'Checker_class_initializer', '_getDoctestExamples') 1 (Manual match)
+  PT: ['<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10a1b04c0>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10a75f790>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10ac56fb0>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10b038430>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10b579030>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10b9acbe0>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10ba1ee30>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10ca346d0>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10cad4d30>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10d4b0e50>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10dba8520>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10e918820>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10f26c760>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10f650610>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10f6788e0>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x10ff1d3f0>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x1101eca60>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x110d0db10>>', '<bound method DocTestParser.get_examples of <doctest.DocTestParser object at 0x115b84400>>']
+  DL: ['method']
+9: ('/anaconda_lib/jedi/api/environment.py', 'Environment_class_initializer', '_subprocess') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+10: ('/anaconda_lib/jedi/api/project.py', 'Project_class_initializer', '_environment') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+11: ('/anaconda_lib/jedi/inference/base_value.py', 'Value_class_initializer', 'tree_node') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+12: ('/anaconda_lib/jedi/inference/base_value.py', 'Value_class_initializer', 'array_type') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+13: ('/anaconda_lib/jedi/inference/arguments.py', 'AbstractArguments_class_initializer', 'context') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+14: ('/anaconda_lib/jedi/inference/arguments.py', 'AbstractArguments_class_initializer', 'argument_node') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+15: ('/anaconda_lib/jedi/inference/arguments.py', 'AbstractArguments_class_initializer', 'trailer') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+16: ('/anaconda_lib/jedi/inference/names.py', 'AbstractNameDefinition_class_initializer', 'start_pos') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+17: ('/anaconda_lib/jedi/inference/names.py', 'AbstractNameDefinition_class_initializer', 'string_name') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+18: ('/anaconda_lib/jedi/inference/names.py', 'AbstractNameDefinition_class_initializer', 'parent_context') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+19: ('/anaconda_lib/jedi/inference/names.py', 'AbstractNameDefinition_class_initializer', 'tree_name') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+20: ('/anaconda_lib/jedi/inference/names.py', 'BaseTreeParamName_class_initializer', 'annotation_node') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+21: ('/anaconda_lib/jedi/inference/names.py', 'BaseTreeParamName_class_initializer', 'default_node') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+22: ('/anaconda_lib/jedi/inference/context.py', 'CompiledModuleContext_class_initializer', 'code_lines') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+23: ('/anaconda_lib/jedi/inference/filters.py', 'AbstractFilter_class_initializer', '_until_position') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+24: ('/anaconda_lib/jedi/inference/filters.py', 'FilterWrapper_class_initializer', 'name_wrapper_class') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+25: ('/anaconda_lib/jedi/inference/value/instance.py', 'AnonymousInstance_class_initializer', '_arguments') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+26: ('/anaconda_lib/jedi/inference/value/iterable.py', 'GeneratorBase_class_initializer', 'array_type') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+27: ('/anaconda_lib/jedi/inference/compiled/value.py', 'CompiledModule_class_initializer', 'file_io') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+28: ('/anaconda_lib/parso/grammar.py', 'Grammar_class_initializer', '_error_normalizer_config') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+29: ('/anaconda_lib/parso/grammar.py', 'Grammar_class_initializer', '_token_namespace') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+30: ('/anaconda_lib/parso/pgen2/generator.py', 'DFAState_class_initializer', '__hash__') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+31: ('/anaconda_lib/parso/tree.py', 'NodeOrLeaf_class_initializer', 'type') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+32: ('/anaconda_lib/parso/tree.py', 'BaseNode_class_initializer', 'type') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+33: ('/anaconda_lib/parso/normalizer.py', 'Rule_class_initializer', 'code') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+34: ('/anaconda_lib/parso/normalizer.py', 'Rule_class_initializer', 'message') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+35: ('/anaconda_lib/parso/python/pep8.py', 'IndentationTypes_class_initializer', 'VERTICAL_BRACKET') 0 (Match)
+  PT: ['<object object at 0x10a3bdfc0>', '<object object at 0x10a40ddf0>', '<object object at 0x10acba250>', '<object object at 0x10af31f30>', '<object object at 0x10b09c5a0>', '<object object at 0x10bfd62c0>', '<object object at 0x10ce7a090>', '<object object at 0x10d6ea0c0>', '<object object at 0x10d843070>', '<object object at 0x10dac60a0>', '<object object at 0x10f59a1c0>', '<object object at 0x10fbe98a0>', '<object object at 0x110111c40>', '<object object at 0x110416130>', '<object object at 0x1104ca1c0>', '<object object at 0x110a361e0>', '<object object at 0x110a62eb0>', '<object object at 0x110d0a140>', '<object object at 0x1164d8310>']
+  DL: ['object']
+36: ('/anaconda_lib/parso/python/pep8.py', 'IndentationTypes_class_initializer', 'HANGING_BRACKET') 0 (Match)
+  PT: ['<object object at 0x10a3be000>', '<object object at 0x10a40de30>', '<object object at 0x10acba280>', '<object object at 0x10af31f70>', '<object object at 0x10b09c5e0>', '<object object at 0x10bfd6300>', '<object object at 0x10ce7a0d0>', '<object object at 0x10d6ea100>', '<object object at 0x10d8430b0>', '<object object at 0x10dac60e0>', '<object object at 0x10f59a200>', '<object object at 0x10fbe98e0>', '<object object at 0x110111c80>', '<object object at 0x110416170>', '<object object at 0x1104ca200>', '<object object at 0x110a36220>', '<object object at 0x110a62ef0>', '<object object at 0x110d0a180>', '<object object at 0x1164d8350>']
+  DL: ['object']
+37: ('/anaconda_lib/parso/python/pep8.py', 'IndentationTypes_class_initializer', 'BACKSLASH') 0 (Match)
+  PT: ['<object object at 0x10a3be020>', '<object object at 0x10a40de50>', '<object object at 0x10acba200>', '<object object at 0x10af31f90>', '<object object at 0x10b09c600>', '<object object at 0x10bfd6320>', '<object object at 0x10ce7a0f0>', '<object object at 0x10d6ea120>', '<object object at 0x10d8430d0>', '<object object at 0x10dac6100>', '<object object at 0x10f59a220>', '<object object at 0x10fbe9900>', '<object object at 0x110111ca0>', '<object object at 0x110416190>', '<object object at 0x1104ca220>', '<object object at 0x110a36240>', '<object object at 0x110a62f10>', '<object object at 0x110d0a1a0>', '<object object at 0x1164d8370>']
+  DL: ['object']
+38: ('/anaconda_lib/parso/python/pep8.py', 'IndentationTypes_class_initializer', 'SUITE') 0 (Match)
+  PT: ['<object object at 0x10a3be050>', '<object object at 0x10a40de80>', '<object object at 0x10acba3f0>', '<object object at 0x10af31fc0>', '<object object at 0x10b09c630>', '<object object at 0x10bfd6350>', '<object object at 0x10ce7a120>', '<object object at 0x10d6ea150>', '<object object at 0x10d843100>', '<object object at 0x10dac6130>', '<object object at 0x10f59a250>', '<object object at 0x10fbe9930>', '<object object at 0x110111cd0>', '<object object at 0x1104161c0>', '<object object at 0x1104ca250>', '<object object at 0x110a36270>', '<object object at 0x110a62f40>', '<object object at 0x110d0a1d0>', '<object object at 0x1164d83a0>']
+  DL: ['object']
+39: ('/anaconda_lib/parso/python/pep8.py', 'IndentationTypes_class_initializer', 'IMPLICIT') 0 (Match)
+  PT: ['<object object at 0x10a3be080>', '<object object at 0x10a40deb0>', '<object object at 0x10acba400>', '<object object at 0x10af31ff0>', '<object object at 0x10b09c660>', '<object object at 0x10bfd6380>', '<object object at 0x10ce7a150>', '<object object at 0x10d6ea180>', '<object object at 0x10d843130>', '<object object at 0x10dac6160>', '<object object at 0x10f59a280>', '<object object at 0x10fbe9960>', '<object object at 0x110111d00>', '<object object at 0x1104161f0>', '<object object at 0x1104ca280>', '<object object at 0x110a362a0>', '<object object at 0x110a62f70>', '<object object at 0x110d0a200>', '<object object at 0x1164d83d0>']
+  DL: ['object']
+40: ('/anaconda_lib/parso/python/errors.py', '_FStringRule_class_initializer', '_fstring_grammar') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+41: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among', 'i') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+42: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among_b', 'i') 0 (Match)
+  PT: ['int']
+  DL: ['int']

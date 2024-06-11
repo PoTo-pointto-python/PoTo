@@ -1,0 +1,1218 @@
+0: ('/mtgjson5/providers/gatherer.py', 'GathererProvider_class_initializer', 'SETS_TO_REMOVE_PARENTHESES') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+1: ('/mtgjson5/price_builder.py', 'download_prices_archive', 'github_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+2: ('/mtgjson5/price_builder.py', 'prune_prices_archive', 'months') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+3: ('/mtgjson5/price_builder.py', 'prune_prices_archive', 'content') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+4: ('/mtgjson5/price_builder.py', 'prune_prices_archive', 'prune_date_str') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+5: ('/mtgjson5/consts.py', 'module_initializer', 'MTGJSON_VERSION') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+6: ('/mtgjson5/consts.py', 'module_initializer', 'MTGJSON_BUILD_DATE') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+7: ('/mtgjson5/consts.py', 'module_initializer', 'USE_CACHE') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+8: ('/mtgjson5/consts.py', 'module_initializer', 'CARD_MARKET_BUFFER') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+9: ('/mtgjson5/consts.py', 'module_initializer', 'CARD_KINGDOM_REFERRAL') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+10: ('/mtgjson5/consts.py', 'module_initializer', 'LANGUAGE_MAP') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+11: ('/mtgjson5/consts.py', 'module_initializer', 'SYMBOL_MAP') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+12: ('/mtgjson5/price_builder.py', 'should_build_new_prices', 'last_price_build_time') 1 (Manual match)
+  PT: ['2024-05-12 22:51:54.546650', '2024-05-20 23:34:43.183037']
+  DL: ['datetime']
+13: ('/mtgjson5/price_builder.py', 'prune_recursive', 'depth') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+14: ('/mtgjson5/price_builder.py', 'prune_recursive', 'obj') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+15: ('/mtgjson5/price_builder.py', '_generate_prices', 'preprocess_prices') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+16: ('/mtgjson5/price_builder.py', '_generate_prices', 'final_prices') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+17: ('/mtgjson5/providers/cardhoarder.py', '_build_http_header', 'headers') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+18: ('/mtgjson5/providers/cardhoarder.py', 'generate_today_price_dict', 'mtgo_to_mtgjson_map') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+19: ('/mtgjson5/providers/cardhoarder.py', 'generate_today_price_dict', 'normal_cards') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+20: ('/mtgjson5/providers/cardhoarder.py', 'generate_today_price_dict', 'db_contents') 0 (Match)
+  PT: ['dict', 'Dict[str, MtgjsonPricesObject]']
+  DL: ['dict']
+21: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'MtgjsonEnumValuesObject_class_initializer', 'set_key_struct') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+22: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'MtgjsonEnumValuesObject_class_initializer', 'deck_key_struct') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+23: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', '__allow_if_falsey') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+24: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', '__remove_for_tokens') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+25: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', '__remove_for_cards') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+26: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', '__atomic_keys') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+27: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', '__allow_if_falsey') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+28: ('/mtgjson5/providers/tcgplayer.py', 'generate_today_price_dict', 'ids_and_names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+29: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'data_frame_columns') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+30: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'today_dict') 0 (Match)
+  PT: ['dict', 'Dict[str, MtgjsonPricesObject]']
+  DL: ['dict']
+31: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'product_id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+32: ('/mtgjson5/providers/cardkingdom.py', 'generate_today_price_dict', 'request_api_response') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+33: ('/mtgjson5/providers/cardkingdom.py', 'generate_today_price_dict', 'today_dict') 0 (Match)
+  PT: ['dict', 'Dict[str, MtgjsonPricesObject]']
+  DL: ['dict']
+34: ('/mtgjson5/providers/cardkingdom.py', 'generate_today_price_dict', 'card_id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+35: ('/mtgjson5/providers/tcgplayer.py', '_build_http_header', 'headers') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+36: ('/mtgjson5/providers/cardhoarder.py', 'get_mtgo_to_mtgjson_map', 'mtgo_to_mtgjson') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+37: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'url_to_parse') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+38: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'mtgo_to_mtgjson_map') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+39: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'mtgjson_price_map') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+40: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'request_api_response') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+41: ('/mtgjson5/providers/cardhoarder.py', '_construct_for_cards', 'is_mtgo_normal') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+42: ('/mtgjson5/providers/cardhoarder.py', '_construct_for_cards', 'semi_completed_data') 0 (Match)
+  PT: ['dict', 'Dict[str, MtgjsonPricesObject]']
+  DL: ['dict']
+43: ('/mtgjson5/providers/cardhoarder.py', '_construct_for_cards', 'cards') 0 (Match)
+  PT: ['dict', 'Dict[str, float]']
+  DL: ['dict']
+44: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_magic_set_ids', 'magic_set_ids') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+45: ('/mtgjson5/utils.py', 'generate_card_mapping', 'dump_map') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+46: ('/mtgjson5/utils.py', 'parallel_call', 'pool_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+47: ('/mtgjson5/utils.py', 'parallel_call', 'force_starmap') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+48: ('/mtgjson5/utils.py', 'parallel_call', 'fold_dict') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+49: ('/mtgjson5/utils.py', 'parallel_call', 'fold_list') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+50: ('/mtgjson5/utils.py', 'parallel_call', 'function') 0 (Match)
+  PT: ['meta_func', 'Callable']
+  DL: ['typing.Callable']
+51: ('/mtgjson5/utils.py', 'parallel_call', 'extra_args_rep') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+52: ('/mtgjson5/classes/mtgjson_prices.py', '__init__', 'source') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+53: ('/mtgjson5/classes/mtgjson_prices.py', '__init__', 'provider') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+54: ('/mtgjson5/classes/mtgjson_prices.py', '__init__', 'date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+55: ('/mtgjson5/classes/mtgjson_prices.py', '__init__', 'currency') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+56: ('/mtgjson5/providers/cardkingdom.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+57: ('/mtgjson5/providers/cardkingdom.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x10c2bdf00>', '<requests.sessions.Session object at 0x10c56b130>']
+  DL: ['utils.retryable_session']
+58: ('/mtgjson5/providers/cardhoarder.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+59: ('/mtgjson5/providers/cardhoarder.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x10c1d72b0>', '<requests.sessions.Session object at 0x10c2bdf00>']
+  DL: ['utils.retryable_session']
+60: ('/mtgjson5/providers/tcgplayer.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+61: ('/mtgjson5/providers/tcgplayer.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x10c27e1a0>', '<requests.sessions.Session object at 0x10c2bdf00>', '<requests.sessions.Session object at 0x10c67b250>', '<requests.sessions.Session object at 0x12541ea40>']
+  DL: ['utils.retryable_session']
+62: ('/mtgjson5/utils.py', 'retryable_session', 'retries') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+63: ('/mtgjson5/utils.py', 'get_all_cards_and_tokens_from_content', 'cards_and_tokens_with_set_code') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+64: ('/mtgjson5/providers/github_mtgsqlite.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+65: ('/mtgjson5/classes/mtgjson_foreign_data.py', 'to_json', 'skip_keys') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+66: ('/mtgjson5/utils.py', 'to_camel_case', 'snake_str') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+67: ('/mtgjson5/providers/abstract.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+68: ('/mtgjson5/arg_parser.py', 'get_sets_already_built', 'set_codes_found') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+69: ('/mtgjson5/arg_parser.py', 'get_all_scryfall_sets', 'scryfall_instance') 0 (Match)
+  PT: ['ScryfallProvider']
+  DL: ['providers.ScryfallProvider']
+70: ('/mtgjson5/arg_parser.py', 'get_all_scryfall_sets', 'scryfall_set_codes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+71: ('/mtgjson5/arg_parser.py', 'get_sets_to_build', 'return_list') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+72: ('/mtgjson5/providers/scryfall.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x10c1d7100>', '<requests.sessions.Session object at 0x10c25ab60>', '<requests.sessions.Session object at 0x12541ea40>', '<requests.sessions.Session object at 0x1258a3d30>', '<requests.sessions.Session object at 0x125994d60>']
+  DL: ['utils.retryable_session']
+73: ('/mtgjson5/providers/scryfall.py', '_build_http_header', 'headers') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+74: ('/mtgjson5/providers/github_decks.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+75: ('/mtgjson5/providers/github_decks.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x10c680730>', '<requests.sessions.Session object at 0x12541ea40>']
+  DL: ['utils.retryable_session']
+76: ('/mtgjson5/providers/github_decks.py', 'iterate_precon_decks', 'this_deck') 0 (Match)
+  PT: ['MtgjsonDeckObject']
+  DL: ['classes.mtgjson_deck.MtgjsonDeckObject']
+77: ('/mtgjson5/providers/github_decks.py', 'build_single_card', 'cards') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+78: ('/mtgjson5/classes/mtgjson_deck.py', 'set_sanitized_name', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+79: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'build_keys_to_skip', 'excluded_keys') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+80: ('/mtgjson5/providers/gatherer.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+81: ('/mtgjson5/providers/gatherer.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x125d35030>']
+  DL: ['utils.retryable_session']
+82: ('/mtgjson5/providers/gatherer.py', 'get_cards', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+83: ('/mtgjson5/providers/gatherer.py', 'parse_cards', 'strip_parentheses') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+84: ('/mtgjson5/providers/gatherer.py', 'parse_cards', 'gatherer_data') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+85: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'strip_parentheses') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+86: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'label_to_values') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+87: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'flavor_lines') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+88: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'text_lines') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+89: ('/mtgjson5/referral_builder.py', 'build_and_write_referral_map', 'mtgjson_set') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+90: ('/mtgjson5/referral_builder.py', 'build_referral_map', 'mtgjson_set') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+91: ('/mtgjson5/referral_builder.py', 'build_referral_map', 'return_list') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+92: ('/mtgjson5/providers/scryfall.py', 'get_catalog_entry', 'catalog_key') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+93: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_data', 'magic_set_product_data') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+94: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_map', 'tcgplayer_sku_map') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+95: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_map', 'map_entry') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+96: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_map', 'product_id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+97: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'tcg_to_mtgjson_map') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+98: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'prices_map') 0 (Match)
+  PT: ['dict', 'Dict[str, MtgjsonPricesObject]']
+  DL: ['dict']
+99: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'product_id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+100: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'tcg_to_mtgjson_map') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+101: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'prices_map') 0 (Match)
+  PT: ['dict', 'Dict[str, MtgjsonPricesObject]']
+  DL: ['dict']
+102: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'is_non_foil') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+103: ('/mtgjson5/providers/tcgplayer.py', 'convert_sku_data_enum', 'sku') 0 (Match)
+  PT: ['dict', 'Dict[str, int]']
+  DL: ['dict']
+104: ('/mtgjson5/classes/mtgjson_translations.py', 'parse_key', 'key') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+105: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'single_set_files') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+106: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'deck_files') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+107: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'sql_files') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+108: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'csv_files') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+109: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'compiled_files') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+110: ('/mtgjson5/compress_generator.py', '_compress_mtgjson_directory', 'output_file') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+111: ('/mtgjson5/compress_generator.py', '_compressor', 'processes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+112: ('/mtgjson5/providers/scryfall.py', 'download_cards', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+113: ('/mtgjson5/providers/scryfall.py', 'download_cards', 'set_api_json') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+114: ('/mtgjson5/providers/scryfall.py', 'download_cards', 'page_downloaded') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+115: ('/mtgjson5/providers/scryfall.py', 'download_cards', 'cards_api_json') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+116: ('/mtgjson5/classes/mtgjson_rulings.py', '__init__', 'date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+117: ('/mtgjson5/classes/mtgjson_rulings.py', '__init__', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+118: ('/mtgjson5/compiled_classes/mtgjson_all_identifiers.py', '__init__', 'all_printings') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+119: ('/mtgjson5/classes/mtgjson_leadership_skills.py', '__init__', 'oathbreaker') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+120: ('/mtgjson5/utils.py', 'init_logger', 'start_time') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+121: ('/mtgjson5/utils.py', 'url_keygen', 'with_leading') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+122: ('/mtgjson5/utils.py', 'parse_magic_rules_subset', 'end_header') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+123: ('/mtgjson5/utils.py', 'parse_magic_rules_subset', 'start_header') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+124: ('/mtgjson5/utils.py', 'fix_windows_set_name', 'set_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+125: ('/mtgjson5/utils.py', 'get_file_hash', 'block_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+126: ('/mtgjson5/utils.py', 'send_push_notification', 'message') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+127: ('/mtgjson5/utils.py', 'send_push_notification', 'pushover_app_users') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+128: ('/mtgjson5/utils.py', 'send_push_notification', 'all_succeeded') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+129: ('/mtgjson5/classes/mtgjson_card.py', '__init__', 'is_token') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+130: ('/mtgjson5/classes/mtgjson_card.py', 'append_names', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+131: ('/mtgjson5/providers/cardmarket.py', 'get_set_id', 'set_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+132: ('/mtgjson5/providers/cardmarket.py', 'get_extras_set_id', 'set_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+133: ('/mtgjson5/providers/cardmarket.py', 'get_extras_set_id', 'extras_set_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+134: ('/mtgjson5/providers/cardmarket.py', 'get_set_name', 'set_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+135: ('/mtgjson5/providers/cardmarket.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+136: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', 'mkm_resp') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+137: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', 'set_in_progress') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+138: ('/mtgjson5/compiled_classes/mtgjson_all_printings.py', '__init__', 'files_to_build') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+139: ('/mtgjson5/set_builder.py', 'parse_card_types', 'card_type') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+140: ('/mtgjson5/set_builder.py', 'parse_card_types', 'subtypes') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+141: ('/mtgjson5/set_builder.py', 'get_card_colors', 'mana_cost') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+142: ('/mtgjson5/set_builder.py', 'get_card_colors', 'ret_val') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+143: ('/mtgjson5/set_builder.py', 'get_scryfall_set_data', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+144: ('/mtgjson5/set_builder.py', 'get_scryfall_set_data', 'set_data') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+145: ('/mtgjson5/set_builder.py', 'is_number', 'string') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+146: ('/mtgjson5/set_builder.py', 'get_card_cmc', 'mana_cost') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+147: ('/mtgjson5/set_builder.py', 'parse_printings', 'prints_api_json') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+148: ('/mtgjson5/set_builder.py', 'parse_legalities', 'card_legalities') 0 (Match)
+  PT: ['MtgjsonLegalitiesObject']
+  DL: ['classes.MtgjsonLegalitiesObject']
+149: ('/mtgjson5/set_builder.py', 'parse_rulings', 'rulings_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+150: ('/mtgjson5/set_builder.py', 'parse_rulings', 'rules_api_json') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+151: ('/mtgjson5/set_builder.py', 'parse_rulings', 'mtgjson_rule') 0 (Match)
+  PT: ['MtgjsonRulingObject']
+  DL: ['classes.MtgjsonRulingObject']
+152: ('/mtgjson5/set_builder.py', 'mark_duel_decks', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+153: ('/mtgjson5/set_builder.py', 'mark_duel_decks', 'land_pile_marked') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+154: ('/mtgjson5/set_builder.py', 'parse_keyrune_code', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+155: ('/mtgjson5/set_builder.py', 'parse_keyrune_code', 'upstream_to_keyrune_map') 0 (Match)
+  PT: ['Dict[str, str]']
+  DL: ['dict']
+156: ('/mtgjson5/set_builder.py', 'build_mtgjson_set', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+157: ('/mtgjson5/set_builder.py', 'build_mtgjson_set', 'mtgjson_set') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+158: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_tokens', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+159: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_cards', 'set_release_date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+160: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_cards', 'is_token') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+161: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_cards', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+162: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_cards', 'cards') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+163: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+164: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'search_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+165: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'mtgjson_cards_with_same_id') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+166: ('/mtgjson5/set_builder.py', 'add_leadership_skills', 'mtgjson_card') 0 (Match)
+  PT: ['MtgjsonCardObject']
+  DL: ['classes.MtgjsonCardObject']
+167: ('/mtgjson5/set_builder.py', 'add_leadership_skills', 'is_oathbreaker_legal') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+168: ('/mtgjson5/set_builder.py', 'add_uuid', 'mtgjson_card') 0 (Match)
+  PT: ['MtgjsonCardObject']
+  DL: ['classes.MtgjsonCardObject']
+169: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'set_release_date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+170: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'is_token') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+171: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'face_id') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+172: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'mtgjson_cards') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+173: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'mtgjson_card') 0 (Match)
+  PT: ['MtgjsonCardObject']
+  DL: ['classes.MtgjsonCardObject']
+174: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'meld_object') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+175: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'gatherer_cards') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+176: ('/mtgjson5/set_builder.py', 'add_variations_and_alternative_fields', 'mtgjson_set') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+177: ('/mtgjson5/set_builder.py', 'add_variations_and_alternative_fields', 'variations') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+178: ('/mtgjson5/set_builder.py', 'add_variations_and_alternative_fields', 'card_number') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+179: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'mtgjson_set') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+180: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'mkm_cards') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+181: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'extras_cards') 0 (Match)
+  PT: ['dict', 'Dict[str, Dict[str, Any]]']
+  DL: ['dict']
+182: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'delete_key') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+183: ('/mtgjson5/set_builder.py', 'get_base_and_total_set_sizes', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+184: ('/mtgjson5/set_builder.py', 'get_base_and_total_set_sizes', 'base_set_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+185: ('/mtgjson5/providers/wizards.py', 'get_translation_for_set', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+186: ('/mtgjson5/set_builder.py', 'relocate_miscellaneous_tokens', 'mtgjson_set') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+187: ('/mtgjson5/set_builder.py', 'relocate_miscellaneous_tokens', 'token_types') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+188: ('/mtgjson5/set_builder.py', 'add_card_kingdom_details', 'mtgjson_set') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+189: ('/mtgjson5/providers/github_boosters.py', 'get_set_booster_data', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+190: ('/mtgjson5/classes/mtgjson_meta.py', '__init__', 'version') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+191: ('/mtgjson5/set_builder.py', 'parse_foreign', 'sf_prints_url') 0 (Match)
+  PT: ['str', 'str']
+  DL: ['str']
+192: ('/mtgjson5/set_builder.py', 'parse_foreign', 'card_number') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+193: ('/mtgjson5/set_builder.py', 'parse_foreign', 'set_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+194: ('/mtgjson5/set_builder.py', 'parse_foreign', 'prints_api_json') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+195: ('/mtgjson5/set_builder.py', 'parse_foreign', 'card_foreign_entry') 0 (Match)
+  PT: ['MtgjsonForeignDataObject']
+  DL: ['classes.MtgjsonForeignDataObject']
+196: ('/mtgjson5/providers/wizards.py', 'build_translation_table', 'translation_table') 0 (Match)
+  PT: ['dict', 'Dict[str, Dict[str, str]]']
+  DL: ['dict']
+197: ('/mtgjson5/providers/github_boosters.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+198: ('/mtgjson5/providers/github_boosters.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x125c34490>']
+  DL: ['utils.retryable_session']
+199: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'short_lang_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+200: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'long_lang_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+201: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'translation_table') 0 (Match)
+  PT: ['dict', 'Dict[str, Dict[str, str]]']
+  DL: ['dict']
+202: ('/mtgjson5/providers/wizards.py', 'convert_keys_to_set_names', 'table') 0 (Match)
+  PT: ['dict', 'Dict[str, Dict[str, str]]']
+  DL: ['dict']
+203: ('/mtgjson5/providers/wizards.py', 'convert_keys_to_set_names', 'return_table') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+204: ('/mtgjson5/providers/wizards.py', 'set_names_to_set_codes', 'table') 0 (Match)
+  PT: ['dict', 'Dict[str, Dict[str, str]]']
+  DL: ['dict']
+205: ('/mtgjson5/providers/wizards.py', 'override_set_translations', 'table') 0 (Match)
+  PT: ['dict', 'Dict[str, Dict[str, str]]']
+  DL: ['dict']
+206: ('/mtgjson5/providers/mtgban.py', '_build_http_header', 'headers') 0 (Match)
+  PT: ['dict', 'Dict[str, str]']
+  DL: ['dict']
+207: ('/mtgjson5/providers/mtgban.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+208: ('/mtgjson5/providers/mtgban.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x10c445600>']
+  DL: ['utils.retryable_session']
+209: ('/mtgjson5/providers/whats_in_standard.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+210: ('/mtgjson5/providers/whats_in_standard.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x125a200a0>']
+  DL: ['utils.retryable_session']
+211: ('/mtgjson5/providers/wizards.py', 'download', 'url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+212: ('/mtgjson5/providers/wizards.py', 'download', 'session') 1 (Manual match)
+  PT: ['<requests.sessions.Session object at 0x10c46d9c0>', '<requests.sessions.Session object at 0x10c7747f0>', '<requests.sessions.Session object at 0x12541ea40>']
+  DL: ['utils.retryable_session']
+213: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'atomic_card') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+214: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'should_add_card') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+215: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', '__init__', 'set_and_cards') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+216: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', '__init__', 'decks') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+217: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_deck_enums', 'type_map') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+218: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'type_map') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+219: ('/mtgjson5/compiled_classes/mtgjson_tcgplayer_skus.py', '__init__', 'product_id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+220: ('/mtgjson5/classes/mtgjson_prices.py', 'to_json', 'buy_sell_option') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+221: ('/mtgjson5/classes/mtgjson_prices.py', 'to_json', 'return_object') 0 (Match)
+  PT: ['dict', 'Dict[str, Any]']
+  DL: ['dict']
+222: ('/mtgjson5/classes/mtgjson_deck_header.py', '__init__', 'output_deck') 0 (Match)
+  PT: ['MtgjsonDeckObject']
+  DL: ['classes.mtgjson_deck.MtgjsonDeckObject']
+223: ('/mtgjson5/output_generator.py', 'write_set_file', 'mtgjson_set_object') 0 (Match)
+  PT: ['MtgjsonSetObject']
+  DL: ['classes.MtgjsonSetObject']
+224: ('/mtgjson5/output_generator.py', 'write_set_file', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+225: ('/mtgjson5/output_generator.py', 'write_set_file', 'file_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+226: ('/mtgjson5/output_generator.py', 'generate_compiled_prices_output', 'price_data') 0 (Match)
+  PT: ['dict', 'Dict[str, Dict[str, float]]']
+  DL: ['dict']
+227: ('/mtgjson5/output_generator.py', 'generate_compiled_prices_output', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+228: ('/mtgjson5/output_generator.py', 'build_format_specific_files', 'all_printings') 0 (Match)
+  PT: ['MtgjsonAllPrintingsObject']
+  DL: ['compiled_classes.MtgjsonAllPrintingsObject']
+229: ('/mtgjson5/output_generator.py', 'build_format_specific_files', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+230: ('/mtgjson5/output_generator.py', 'build_atomic_specific_files', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+231: ('/mtgjson5/output_generator.py', 'build_price_specific_files', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+232: ('/mtgjson5/output_generator.py', 'build_all_printings_files', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+233: ('/mtgjson5/output_generator.py', 'build_all_printings_files', 'all_printings') 0 (Match)
+  PT: ['MtgjsonAllPrintingsObject']
+  DL: ['compiled_classes.MtgjsonAllPrintingsObject']
+234: ('/mtgjson5/output_generator.py', 'generate_compiled_output_files', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+235: ('/mtgjson5/output_generator.py', 'generate_compiled_output_files', 'deck_names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+236: ('/mtgjson5/output_generator.py', 'generate_compiled_output_files', 'mtgjson_deck_header_obj') 0 (Match)
+  PT: ['MtgjsonDeckHeaderObject']
+  DL: ['classes.MtgjsonDeckHeaderObject']
+237: ('/mtgjson5/output_generator.py', 'create_compiled_output', 'compiled_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+238: ('/mtgjson5/output_generator.py', 'create_compiled_output', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+239: ('/mtgjson5/output_generator.py', 'write_compiled_output_to_file', 'file_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+240: ('/mtgjson5/output_generator.py', 'write_compiled_output_to_file', 'pretty_print') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+241: ('/mtgjson5/output_generator.py', 'construct_format_map', 'normal_sets_only') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+242: ('/mtgjson5/output_generator.py', 'construct_format_map', 'format_map') 0 (Match)
+  PT: ['dict', 'Dict[str, List[str]]']
+  DL: ['dict']
+243: ('/mtgjson5/output_generator.py', 'construct_format_map', 'card_legalities') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+244: ('/mtgjson5/output_generator.py', 'generate_output_file_hashes', 'hash_file_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+245: ('/mtgjson5/classes/mtgjson_deck.py', 'to_json', 'skip_keys') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+246: ('/mtgjson5/output_generator.py', 'construct_atomic_cards_format_map', 'format_card_map') 0 (Match)
+  PT: ['Dict[str, List[Dict[str, Any]]]']
+  DL: ['dict']
+247: ('/mtgjson5/__main__.py', 'build_mtgjson_sets', 'output_pretty') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+248: ('/mtgjson5/__main__.py', 'build_mtgjson_sets', 'include_referrals') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+249: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'MtgjsonEnumValuesObject_class_initializer', 'attr_value_dict') 0 (Match)
+  PT: ['Dict[str, Union[Dict[str, List[str]], List[str]]]']
+  DL: ['dict']
+250: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_printings') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+251: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'atomic_cards') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+252: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_prices') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+253: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_decks_directory') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+254: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_sets_directory') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+255: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'card_types') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+256: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'compiled_list') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+257: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'deck_list') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+258: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'key_words') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+259: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'set_list') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+260: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'enum_values') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+261: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'referral_database') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+262: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'version') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+263: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_identifiers') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+264: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_tcgplayer_skus') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+265: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_printings_standard') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+266: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_printings_pioneer') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+267: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_printings_modern') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+268: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_printings_legacy') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+269: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'all_printings_vintage') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+270: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'atomic_cards_standard') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+271: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'atomic_cards_pioneer') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+272: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'atomic_cards_modern') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+273: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'atomic_cards_legacy') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+274: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'atomic_cards_vintage') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+275: ('/mtgjson5/compiled_classes/mtgjson_structures.py', 'MtgjsonStructuresObject_class_initializer', 'atomic_cards_pauper') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+276: ('/mtgjson5/compiled_classes/mtgjson_tcgplayer_skus.py', 'MtgjsonTcgplayerSkusObject_class_initializer', 'enhanced_tcgplayer_skus') 0 (Match)
+  PT: ['Dict[str, List[Dict[str, Union[int, str]]]]']
+  DL: ['dict']
+277: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', '__init__', 'magic_rules') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+278: ('/mtgjson5/compiled_classes/mtgjson_all_identifiers.py', 'MtgjsonAllIdentifiersObject_class_initializer', 'all_identifiers_dict') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+279: ('/mtgjson5/compiled_classes/mtgjson_all_printings.py', 'MtgjsonAllPrintingsObject_class_initializer', 'all_sets_dict') 0 (Match)
+  PT: ['Dict[str, MtgjsonSetObject]']
+  DL: ['dict']
+280: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'MtgjsonAtomicCardsObject_class_initializer', 'atomic_cards_dict') 0 (Match)
+  PT: ['Dict[str, List[Dict[str, Any]]]']
+  DL: ['dict']
+281: ('/mtgjson5/classes/mtgjson_prices.py', 'MtgjsonPricesObject_class_initializer', 'source') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+282: ('/mtgjson5/classes/mtgjson_prices.py', 'MtgjsonPricesObject_class_initializer', 'provider') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+283: ('/mtgjson5/classes/mtgjson_prices.py', 'MtgjsonPricesObject_class_initializer', 'date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+284: ('/mtgjson5/classes/mtgjson_prices.py', 'MtgjsonPricesObject_class_initializer', 'currency') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+285: ('/mtgjson5/classes/mtgjson_game_formats.py', 'MtgjsonGameFormatsObject_class_initializer', 'paper') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+286: ('/mtgjson5/classes/mtgjson_game_formats.py', 'MtgjsonGameFormatsObject_class_initializer', 'mtgo') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+287: ('/mtgjson5/classes/mtgjson_game_formats.py', 'MtgjsonGameFormatsObject_class_initializer', 'arena') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+288: ('/mtgjson5/classes/mtgjson_game_formats.py', 'MtgjsonGameFormatsObject_class_initializer', 'shandalar') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+289: ('/mtgjson5/classes/mtgjson_game_formats.py', 'MtgjsonGameFormatsObject_class_initializer', 'dreamcast') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+290: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'artist') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+291: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'availability') 0 (Match)
+  PT: ['MtgjsonGameFormatsObject']
+  DL: ['classes.mtgjson_game_formats.MtgjsonGameFormatsObject']
+292: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'border_color') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+293: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'converted_mana_cost') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+294: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'count') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+295: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'face_converted_mana_cost') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+296: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'frame_version') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+297: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'identifiers') 0 (Match)
+  PT: ['MtgjsonIdentifiersObject']
+  DL: ['classes.mtgjson_identifiers.MtgjsonIdentifiersObject']
+298: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'layout') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+299: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'legalities') 0 (Match)
+  PT: ['MtgjsonLegalitiesObject']
+  DL: ['classes.mtgjson_legalities.MtgjsonLegalitiesObject']
+300: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'mana_cost') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+301: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+302: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'number') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+303: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'power') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+304: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'prices') 0 (Match)
+  PT: ['MtgjsonPricesObject']
+  DL: ['classes.mtgjson_prices.MtgjsonPricesObject']
+305: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'purchase_urls') 0 (Match)
+  PT: ['MtgjsonPurchaseUrlsObject']
+  DL: ['classes.mtgjson_purchase_urls.MtgjsonPurchaseUrlsObject']
+306: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'rarity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+307: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+308: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'toughness') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+309: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'type') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+310: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'uuid') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+311: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'set_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+312: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'is_token') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+313: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'raw_purchase_urls') 0 (Match)
+  PT: ['Dict[str, str]']
+  DL: ['dict']
+314: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', '__watermark_resource') 0 (Match)
+  PT: ['Dict[str, List[Any]]']
+  DL: ['dict']
+315: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'base_set_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+316: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'block') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+317: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+318: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'code_v3') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+319: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'is_foreign_only') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+320: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'is_foil_only') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+321: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'is_non_foil_only') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+322: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'is_online_only') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+323: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'is_partial_preview') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+324: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'keyrune_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+325: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'mtgo_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+326: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+327: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'parent_code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+328: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'release_date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+329: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'total_set_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+330: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'translations') 0 (Match)
+  PT: ['MtgjsonTranslationsObject']
+  DL: ['classes.mtgjson_translations.MtgjsonTranslationsObject']
+331: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'type') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+332: ('/mtgjson5/classes/mtgjson_set.py', 'MtgjsonSetObject_class_initializer', 'search_uri') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+333: ('/mtgjson5/classes/mtgjson_foreign_data.py', 'MtgjsonForeignDataObject_class_initializer', 'language') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+334: ('/mtgjson5/classes/mtgjson_meta.py', 'MtgjsonMetaObject_class_initializer', 'date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+335: ('/mtgjson5/classes/mtgjson_meta.py', 'MtgjsonMetaObject_class_initializer', 'version') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+336: ('/mtgjson5/classes/mtgjson_rulings.py', 'MtgjsonRulingObject_class_initializer', 'date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+337: ('/mtgjson5/classes/mtgjson_rulings.py', 'MtgjsonRulingObject_class_initializer', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+338: ('/mtgjson5/classes/mtgjson_leadership_skills.py', 'MtgjsonLeadershipSkillsObject_class_initializer', 'brawl') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+339: ('/mtgjson5/classes/mtgjson_leadership_skills.py', 'MtgjsonLeadershipSkillsObject_class_initializer', 'commander') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+340: ('/mtgjson5/classes/mtgjson_leadership_skills.py', 'MtgjsonLeadershipSkillsObject_class_initializer', 'oathbreaker') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+341: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'brawl') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+342: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'commander') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+343: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'duel') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+344: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'future') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+345: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'frontier') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+346: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'legacy') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+347: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'modern') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+348: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'pauper') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+349: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'penny') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+350: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'pioneer') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+351: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'standard') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+352: ('/mtgjson5/classes/mtgjson_legalities.py', 'MtgjsonLegalitiesObject_class_initializer', 'vintage') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+353: ('/mtgjson5/classes/mtgjson_deck.py', 'MtgjsonDeckObject_class_initializer', 'code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+354: ('/mtgjson5/classes/mtgjson_deck.py', 'MtgjsonDeckObject_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+355: ('/mtgjson5/classes/mtgjson_deck.py', 'MtgjsonDeckObject_class_initializer', 'release_date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+356: ('/mtgjson5/classes/mtgjson_deck.py', 'MtgjsonDeckObject_class_initializer', 'type') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+357: ('/mtgjson5/classes/mtgjson_deck.py', 'MtgjsonDeckObject_class_initializer', 'file_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+358: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'MtgjsonPurchaseUrlsObject_class_initializer', 'card_kingdom') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+359: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'MtgjsonPurchaseUrlsObject_class_initializer', 'card_kingdom_foil') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+360: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'MtgjsonPurchaseUrlsObject_class_initializer', 'cardmarket') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+361: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'MtgjsonPurchaseUrlsObject_class_initializer', 'tcgplayer') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+362: ('/mtgjson5/classes/mtgjson_deck_header.py', 'MtgjsonDeckHeaderObject_class_initializer', 'code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+363: ('/mtgjson5/classes/mtgjson_deck_header.py', 'MtgjsonDeckHeaderObject_class_initializer', 'file_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+364: ('/mtgjson5/classes/mtgjson_deck_header.py', 'MtgjsonDeckHeaderObject_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+365: ('/mtgjson5/classes/mtgjson_deck_header.py', 'MtgjsonDeckHeaderObject_class_initializer', 'release_date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+366: ('/mtgjson5/classes/mtgjson_deck_header.py', 'MtgjsonDeckHeaderObject_class_initializer', 'type') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+367: ('/mtgjson5/providers/abstract.py', 'AbstractProvider_class_initializer', 'class_id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+368: ('/mtgjson5/providers/abstract.py', 'AbstractProvider_class_initializer', 'session_header') 0 (Match)
+  PT: ['Dict[str, str]']
+  DL: ['dict']
+369: ('/mtgjson5/providers/abstract.py', 'AbstractProvider_class_initializer', 'today_date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+370: ('/mtgjson5/providers/github_boosters.py', 'GitHubBoostersProvider_class_initializer', 'booster_api_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+371: ('/mtgjson5/providers/github_boosters.py', 'GitHubBoostersProvider_class_initializer', 'booster_data') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+372: ('/mtgjson5/providers/wizards.py', 'WizardsProvider_class_initializer', 'TRANSLATION_URL') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+373: ('/mtgjson5/providers/wizards.py', 'WizardsProvider_class_initializer', 'magic_rules_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+374: ('/mtgjson5/providers/wizards.py', 'WizardsProvider_class_initializer', 'translation_table') 0 (Match)
+  PT: ['Dict[str, Dict[str, str]]']
+  DL: ['dict']
+375: ('/mtgjson5/providers/wizards.py', 'WizardsProvider_class_initializer', 'magic_rules') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+376: ('/mtgjson5/providers/wizards.py', 'WizardsProvider_class_initializer', '__one_week_ago') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+377: ('/mtgjson5/providers/wizards.py', 'build_single_set_code', 'key') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+378: ('/mtgjson5/providers/wizards.py', 'build_single_set_code', 'value') 0 (Match)
+  PT: ['Dict[str, str]']
+  DL: ['dict']
+379: ('/mtgjson5/providers/wizards.py', 'build_single_set_code', 'new_table') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+380: ('/mtgjson5/providers/cardhoarder.py', 'CardHoarderProvider_class_initializer', 'ch_api_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+381: ('/mtgjson5/providers/cardhoarder.py', '_build_http_header', '__keys_found') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+382: ('/mtgjson5/providers/gatherer.py', 'GathererCard_class_initializer', 'card_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+383: ('/mtgjson5/providers/gatherer.py', 'GathererCard_class_initializer', 'original_types') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+384: ('/mtgjson5/providers/cardmarket.py', 'CardMarketProvider_class_initializer', 'connection') 0 (Match)
+  PT: ['Mkm']
+  DL: ['mkmsdk.mkm.Mkm']
+385: ('/mtgjson5/providers/cardmarket.py', 'CardMarketProvider_class_initializer', 'set_map') 0 (Match)
+  PT: ['Dict[str, Dict[str, Any]]']
+  DL: ['dict']
+386: ('/mtgjson5/providers/cardmarket.py', 'CardMarketProvider_class_initializer', '__keys_found') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+387: ('/mtgjson5/providers/github_decks.py', 'GitHubDecksProvider_class_initializer', 'decks_api_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+388: ('/mtgjson5/providers/github_decks.py', 'GitHubDecksProvider_class_initializer', 'all_printings_cards') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+389: ('/mtgjson5/providers/mtgban.py', 'MTGBanProvider_class_initializer', 'api_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+390: ('/mtgjson5/providers/mtgban.py', 'MTGBanProvider_class_initializer', '__mtgjson_to_card_kingdom') 0 (Match)
+  PT: ['Dict[str, Dict[str, Dict[str, str]]]']
+  DL: ['dict']
+391: ('/mtgjson5/providers/mtgban.py', '_build_http_header', '__keys_found') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+392: ('/mtgjson5/providers/cardkingdom.py', 'CardKingdomProvider_class_initializer', 'api_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+393: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'class_id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+394: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'ALL_SETS_URL') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+395: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'CARDS_URL') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+396: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'VARIATIONS_URL') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+397: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'CARDS_WITHOUT_LIMITS_URL') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+398: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'CARDS_IN_BASE_SET_URL') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+399: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'CARDS_IN_SET') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+400: ('/mtgjson5/providers/scryfall.py', 'ScryfallProvider_class_initializer', 'TYPE_CATALOG') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+401: ('/mtgjson5/providers/whats_in_standard.py', 'WhatsInStandardProvider_class_initializer', 'API_ENDPOINT') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+402: ('/mtgjson5/providers/tcgplayer.py', 'TCGPlayerProvider_class_initializer', 'api_version') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+403: ('/mtgjson5/providers/tcgplayer.py', 'TCGPlayerProvider_class_initializer', 'tcg_to_mtgjson_map') 0 (Match)
+  PT: ['Dict[str, str]']
+  DL: ['dict']
+404: ('/mtgjson5/providers/tcgplayer.py', 'TCGPlayerProvider_class_initializer', '__keys_found') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+405: ('/mtgjson5/providers/github_mtgsqlite.py', 'GitHubMTGSqliteProvider_class_initializer', 'repo_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']

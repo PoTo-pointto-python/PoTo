@@ -1,0 +1,1797 @@
+0: ('/wemake_python_styleguide/visitors/ast/naming.py', 'module_initializer', '_ErrorCallback') 1 711 3 (PT Empty)
+  PT: []
+  PY: ['Type[Callable[[Any], None]]']
+1: ('/wemake_python_styleguide/visitors/ast/naming.py', 'module_initializer', '_Predicates') 3 713 3 (PT Empty)
+  PT: []
+  PY: ['Type[Mapping[Callable[[str], bool], type]]']
+2: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'FUNCTIONS_BLACKLIST') 8 251 4 (PY Empty (is_any() is true))
+  PT: ['Final']
+  PY: ['Any']
+3: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MODULE_METADATA_VARIABLES_BLACKLIST') 9 252 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'__all__', '__about__', '__author__', '__version__'})", 'Final']
+  PY: ['Any']
+4: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'VARIABLE_NAMES_BLACKLIST') 10 253 4 (PY Empty (is_any() is true))
+  PT: ['Final']
+  PY: ['Any']
+5: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'UNREADABLE_CHARACTER_COMBINATIONS') 11 254 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'O0', '0O', '1l', '1I'})", 'Final']
+  PY: ['Any']
+6: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'SPECIAL_ARGUMENT_NAMES_WHITELIST') 12 255 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'cls', 'mcs', 'self'})", 'Final']
+  PY: ['Any']
+7: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALL_MAGIC_METHODS') 13 256 4 (PY Empty (is_any() is true))
+  PT: ['Final']
+  PY: ['Any']
+8: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_METHODS_BLACKLIST') 14 257 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'__delitem__', '__del__', '__reduce__', '__delete__', '__dir__', '__delattr__', '__reduce_ex__'})", 'Final']
+  PY: ['Any']
+9: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'YIELD_MAGIC_METHODS_BLACKLIST') 15 258 4 (PY Empty (is_any() is true))
+  PT: ['Final']
+  PY: ['Any']
+10: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ASYNC_MAGIC_METHODS_BLACKLIST') 16 259 4 (PY Empty (is_any() is true))
+  PT: ['Final']
+  PY: ['Any']
+11: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALLOWED_BUILTIN_CLASSES') 17 260 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'type', 'object'})", 'Final']
+  PY: ['Any']
+12: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'NESTED_FUNCTIONS_WHITELIST') 18 261 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'wrapper', 'decorator', 'factory'})", 'Final']
+  PY: ['Any']
+13: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'FUTURE_IMPORTS_WHITELIST') 19 262 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'annotations', 'generator_stop'})", 'Final']
+  PY: ['Any']
+14: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MODULE_NAMES_BLACKLIST') 20 263 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'utilities', 'util', 'utils', 'helpers'})", 'Final']
+  PY: ['Any']
+15: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_MODULE_NAMES_WHITELIST') 21 264 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'__main__', '__init__'})", 'Final']
+  PY: ['Any']
+16: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_MODULE_NAMES_BLACKLIST') 22 265 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'__dir__', '__getattr__'})", 'Final']
+  PY: ['Any']
+17: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MODULE_NAME_PATTERN') 23 266 4 (PY Empty (is_any() is true))
+  PT: ["re.compile('^_?_?[a-z][a-z\\\\d_]*[a-z\\\\d](__)?$')", 'Final']
+  PY: ['Any']
+18: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_NUMBERS_WHITELIST') 24 267 4 (PY Empty (is_any() is true))
+  PT: ['frozenset({0, 0.5, 0.1, 1.0, 100, 1024, 1j, 1000, 24, 60})', 'Final']
+  PY: ['Any']
+19: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_NO_COVER_COMMENTS') 25 268 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Final']
+  PY: ['Any']
+20: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_LEN_YIELD_TUPLE') 26 269 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Final']
+  PY: ['Any']
+21: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_COMPARES') 27 270 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Final']
+  PY: ['Any']
+22: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_CONDITIONS') 28 271 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Final']
+  PY: ['Any']
+23: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_ELIFS') 29 272 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Final']
+  PY: ['Any']
+24: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_EXCEPT_CASES') 30 273 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Final']
+  PY: ['Any']
+25: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MATH_APPROXIMATE_CONSTANTS') 31 274 4 (PY Empty (is_any() is true))
+  PT: ['frozenset({2.718281828459045, 3.141592653589793, 6.283185307179586})', 'Final']
+  PY: ['Any']
+26: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'VAGUE_IMPORTS_BLACKLIST') 32 275 4 (PY Empty (is_any() is true))
+  PT: ['Final']
+  PY: ['Any']
+27: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'LITERALS_BLACKLIST') 33 276 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'bool', 'bytes', 'str', 'float', 'int', 'complex'})", 'Final']
+  PY: ['Any']
+28: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'TUPLE_ARGUMENTS_METHODS') 34 277 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'frozenset'})", 'Final']
+  PY: ['Any']
+29: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALLOWED_NESTED_IMPORTS_CONDITIONS') 35 278 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'TYPE_CHECKING'})", 'Final']
+  PY: ['Any']
+30: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALIAS_NAMES_WHITELIST') 36 279 4 (PY Empty (is_any() is true))
+  PT: ["frozenset({'plt', 'tf', 'np', 'df', 'sns', 'pd', 'cv'})", 'Final']
+  PY: ['Any']
+31: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'STDIN') 37 280 4 (PY Empty (is_any() is true))
+  PT: ['str', 'Final']
+  PY: ['Any']
+32: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'INIT') 38 281 4 (PY Empty (is_any() is true))
+  PT: ['str', 'Final']
+  PY: ['Any']
+33: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'WINDOWS_OS') 39 282 4 (PY Empty (is_any() is true))
+  PT: ['str', 'Final']
+  PY: ['Any']
+34: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'UNUSED_PLACEHOLDER') 40 283 4 (PY Empty (is_any() is true))
+  PT: ['str', 'Final']
+  PY: ['Any']
+35: ('/docs/conf.py', 'module_initializer', 'pkg_meta') 195 164 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+36: ('/docs/conf.py', 'module_initializer', 'project') 196 165 3 (PT Empty)
+  PT: []
+  PY: ['str']
+37: ('/docs/conf.py', 'module_initializer', 'version') 199 168 3 (PT Empty)
+  PT: []
+  PY: ['str']
+38: ('/docs/conf.py', 'module_initializer', 'release') 200 169 3 (PT Empty)
+  PT: []
+  PY: ['str']
+39: ('/scripts/check_generic_visit.py', 'module_initializer', 'matches') 231 200 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+40: ('/scripts/check_generic_visit.py', 'module_initializer', 'source') 234 201 3 (PT Empty)
+  PT: []
+  PY: ['str']
+41: ('/scripts/check_generic_visit.py', 'module_initializer', 'lines') 235 202 3 (PT Empty)
+  PT: []
+  PY: ['List[str]']
+42: ('/scripts/check_generic_visit.py', 'module_initializer', 'highlighted') 236 203 3 (PT Empty)
+  PT: []
+  PY: ['str']
+43: ('/wemake_python_styleguide/formatter.py', 'module_initializer', 'DOCS_URL_TEMPLATE') 237 247 4 (PY Empty (is_any() is true))
+  PT: ['str', 'Final']
+  PY: ['Any']
+44: ('/wemake_python_styleguide/version.py', 'module_initializer', 'pkg_name') 238 249 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+45: ('/wemake_python_styleguide/checker.py', 'module_initializer', 'VisitorClass') 256 352 3 (PT Empty)
+  PT: []
+  PY: ['Type[type]']
+46: ('/wemake_python_styleguide/checker.py', 'Checker_class_initializer', 'config') 257 350 4 (PY Empty (is_any() is true))
+  PT: ['Configuration']
+  PY: ['Any']
+47: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MIN_NAME_LENGTH') 258 369 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+48: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_NAME_LENGTH') 259 370 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+49: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'I_CONTROL_CODE') 260 371 6 (PY subset PT)
+  PT: ['bool', 'Final']
+  PY: ['bool']
+50: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_NOQA_COMMENTS') 261 372 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+51: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'NESTED_CLASSES_WHITELIST') 262 373 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['Tuple[str, str]']
+52: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'ALLOWED_DOMAIN_NAMES') 263 374 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['Tuple[()]']
+53: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'FORBIDDEN_DOMAIN_NAMES') 264 375 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['Tuple[()]']
+54: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'FORBIDDEN_INLINE_IGNORE') 265 376 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['Tuple[()]']
+55: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_RETURNS') 266 377 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+56: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_LOCAL_VARIABLES') 267 378 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+57: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_EXPRESSIONS') 268 379 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+58: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ARGUMENTS') 269 380 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+59: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_MODULE_MEMBERS') 270 381 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+60: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_METHODS') 271 382 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+61: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_LINE_COMPLEXITY') 272 383 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+62: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_JONES_SCORE') 273 384 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+63: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_IMPORTS') 274 385 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+64: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_IMPORTED_NAMES') 275 386 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+65: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_BASE_CLASSES') 276 387 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+66: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_DECORATORS') 277 388 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+67: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_STRING_USAGES') 278 389 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+68: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_AWAITS') 279 390 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+69: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_TRY_BODY_LENGTH') 280 391 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+70: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_MODULE_EXPRESSIONS') 281 392 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+71: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_FUNCTION_EXPRESSIONS') 282 393 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+72: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ASSERTS') 283 394 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+73: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ACCESS_LEVEL') 284 395 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+74: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ATTRIBUTES') 285 396 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+75: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_RAISES') 286 397 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+76: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_COGNITIVE_SCORE') 287 398 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+77: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_COGNITIVE_AVERAGE') 288 399 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+78: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_CALL_LEVEL') 289 400 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+79: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ANN_COMPLEXITY') 290 401 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+80: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_IMPORT_FROM_MEMBERS') 291 402 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+81: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_TUPLE_UNPACK_LENGTH') 292 403 6 (PY subset PT)
+  PT: ['int', 'Final']
+  PY: ['int']
+82: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'module_initializer', '_ReturningViolations') 422 902 3 (PT Empty)
+  PT: []
+  PY: ['Type[type]']
+83: ('/wemake_python_styleguide/visitors/ast/imports.py', 'module_initializer', '_MODULE_MEMBERS_SEPARATOR') 423 958 6 (PY subset PT)
+  PT: ['str', 'Final']
+  PY: ['str']
+84: ('/wemake_python_styleguide/visitors/ast/statements.py', 'module_initializer', '_StatementWithBody') 426 1397 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+85: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'TextNodes') 429 1993 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'Final']
+  PY: ['Any']
+86: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'AssignNodes') 430 1994 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'Final']
+  PY: ['Any']
+87: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'AssignNodesWithWalrus') 431 1995 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'Final']
+  PY: ['Any']
+88: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'FunctionNodes') 432 1996 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'Final']
+  PY: ['Any']
+89: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'ForNodes') 433 1997 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'Final']
+  PY: ['Any']
+90: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'WithNodes') 434 1998 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'Final']
+  PY: ['Any']
+91: ('/wemake_python_styleguide/logic/complexity/functions.py', 'module_initializer', 'FunctionCounter') 444 2259 3 (PT Empty)
+  PT: []
+  PY: ['Type[DefaultDict[Any, int]]']
+92: ('/wemake_python_styleguide/logic/complexity/functions.py', 'module_initializer', 'FunctionCounterWithLambda') 445 2260 3 (PT Empty)
+  PT: []
+  PY: ['Type[DefaultDict[Any, int]]']
+93: ('/wemake_python_styleguide/logic/complexity/functions.py', 'module_initializer', 'FunctionNames') 446 2261 3 (PT Empty)
+  PT: []
+  PY: ['Type[DefaultDict[Any, List[str]]]']
+94: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'module_initializer', '_AnyFunctionCounter') 447 1676 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+95: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'module_initializer', '_CheckRule') 448 1677 3 (PT Empty)
+  PT: []
+  PY: ['Type[Tuple[Any, int, type]]']
+96: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'module_initializer', '_NodeTypeHandler') 449 1678 3 (PT Empty)
+  PT: []
+  PY: ['Type[Mapping[Union[Tuple[type, ...], type], Any]]']
+97: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', 'module_initializer', '_ModuleMembers') 452 1777 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+98: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'module_initializer', 'EMPTY_STRING') 454 1986 6 (PY subset PT)
+  PT: ['str', 'Final']
+  PY: ['str']
+99: ('/wemake_python_styleguide/compat/constants.py', 'module_initializer', 'PY38') 456 1991 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'Final']
+  PY: ['Any']
+100: ('/wemake_python_styleguide/compat/types.py', 'module_initializer', 'AnyAssignWithWalrus') 457 1992 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+101: ('/wemake_python_styleguide/compat/routing.py', 'module_initializer', '_CONST_NODE_TYPE_NAMES') 458 2002 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Final']
+  PY: ['Any']
+102: ('/wemake_python_styleguide/compat/routing.py', 'module_initializer', 'route_visit') 459 2003 4 (PY Empty (is_any() is true))
+  PT: ['<function NodeVisitor.visit at 0x10c819040>']
+  PY: ['Any']
+103: ('/wemake_python_styleguide/logic/walk.py', 'module_initializer', '_IsInstanceContainer') 465 2071 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+104: ('/wemake_python_styleguide/logic/tree/functions.py', 'module_initializer', '_AnyControlTransfers') 466 2104 4 (PY Empty (is_any() is true))
+  PT: ['typing.Union[ast.Return, ast.Yield, ast.YieldFrom]']
+  PY: ['Any']
+105: ('/wemake_python_styleguide/logic/tree/variables.py', 'module_initializer', '_VarDefinition') 469 2111 4 (PY Empty (is_any() is true))
+  PT: ['typing.Union[ast.AST, ast.expr]']
+  PY: ['Any']
+106: ('/wemake_python_styleguide/logic/tree/variables.py', 'module_initializer', '_LocalVariable') 470 2112 4 (PY Empty (is_any() is true))
+  PT: ['typing.Union[ast.Name, ast.ExceptHandler]']
+  PY: ['Any']
+107: ('/wemake_python_styleguide/logic/tree/compares.py', 'module_initializer', '_OperatorUsages') 475 2194 3 (PT Empty)
+  PT: []
+  PY: ['Type[DefaultDict[str, Any]]']
+108: ('/wemake_python_styleguide/logic/tree/compares.py', 'module_initializer', 'SIMILAR_OPERATORS') 476 2195 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Final[_ComparesMapping]']
+  PY: ['Any']
+109: ('/wemake_python_styleguide/logic/tree/classes.py', 'module_initializer', '_AllAttributes') 477 2224 3 (PT Empty)
+  PT: []
+  PY: ['Type[Tuple[list, list]]']
+110: ('/wemake_python_styleguide/logic/tree/ifs.py', 'module_initializer', '_IfAndElifASTNode') 478 2240 4 (PY Empty (is_any() is true))
+  PT: ['typing.Union[ast.If, typing.List[ast.stmt]]']
+  PY: ['Any']
+111: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'module_initializer', '_CONTROL_FLOW_BREAKERS') 481 2290 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'AnyNodes']
+  PY: ['Any']
+112: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'module_initializer', '_SHORT_CIRCUITS') 482 2291 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'AnyNodes']
+  PY: ['Any']
+113: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'module_initializer', '_INCREMENTERS') 483 2292 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'AnyNodes']
+  PY: ['Any']
+114: ('/wemake_python_styleguide/logic/naming/access.py', 'module_initializer', '_UNUSED_VARIABLE_REGEX') 487 2326 6 (PY subset PT)
+  PT: ["re.compile('^_+$')", 'Final']
+  PY: ['re.Pattern[str]']
+115: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'module_initializer', '_UNDERSCORED_NUMBER_PATTERN') 488 2333 6 (PY subset PT)
+  PT: ["re.compile('.+\\\\D\\\\_\\\\d+(\\\\D|$)')", 'Final']
+  PY: ['re.Pattern[str]']
+116: ('/wemake_python_styleguide/logic/scopes/defs.py', 'module_initializer', '_ContextStore') 489 2356 3 (PT Empty)
+  PT: []
+  PY: ['Type[DefaultDict[Any, Set[str]]]']
+117: ('/wemake_python_styleguide/logic/scopes/predicates.py', 'module_initializer', '_OVERLOAD_EXCEPTIONS') 490 2366 6 (PY subset PT)
+  PT: ["frozenset({'typing.overload', 'overload'})", 'Final']
+  PY: ['FrozenSet[str]']
+118: ('/wemake_python_styleguide/logic/scopes/predicates.py', 'module_initializer', '_PROPERTY_EXCEPTIONS') 491 2367 6 (PY subset PT)
+  PT: ["frozenset({'property', '.setter'})", 'Final']
+  PY: ['FrozenSet[str]']
+119: ('/wemake_python_styleguide/presets/types/tree.py', 'module_initializer', 'PRESET') 492 2421 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['tuple']
+120: ('/wemake_python_styleguide/violations/naming.py', 'TooShortNameViolation_class_initializer', 'postfix_template') 503 2437 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+121: ('/wemake_python_styleguide/presets/topics/complexity.py', 'module_initializer', 'PRESET') 532 2424 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['Tuple[Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any]']
+122: ('/wemake_python_styleguide/presets/types/file_tokens.py', 'module_initializer', 'PRESET') 601 2422 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['Tuple[Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any]']
+123: ('/wemake_python_styleguide/presets/types/filename.py', 'module_initializer', 'PRESET') 602 2423 6 (PY subset PT)
+  PT: ['tuple', 'Final']
+  PY: ['Tuple[Any]']
+124: ('/wemake_python_styleguide/visitors/base.py', '__init__', 'self') 725 453 6 (PY subset PT)
+  PT: ['AccessVisitor', 'AfterBlockVariablesVisitor', 'AnnotationComplexityVisitor', 'AssignmentPatternsVisitor', 'BitwiseOpVisitor', 'BlockVariableVisitor', 'BooleanConditionVisitor', 'BracketLocationVisitor', 'CallChainsVisitor', 'ClassAttributeVisitor', 'ClassComplexityVisitor', 'ClassMethodOrderVisitor', 'CognitiveComplexityVisitor', 'CompareSanityVisitor', 'ConditionsVisitor', 'ConsistentReturningVariableVisitor', 'ConsistentReturningVisitor', 'ConstantKeywordVisitor', 'CorrectKeyVisitor', 'ElifVisitor', 'EmptyCommentVisitor', 'EmptyModuleContentsVisitor', 'ExpressionOveruseVisitor', 'ExtraIndentationVisitor', 'FloatingNanCallVisitor', 'FunctionComplexityVisitor', 'FunctionDefinitionVisitor', 'FunctionSignatureVisitor', 'GeneratorKeywordsVisitor', 'IfElseVisitor', 'IfStatementVisitor', 'ImplicitBoolPatternsVisitor', 'ImplicitDictGetVisitor', 'ImportMembersVisitor', 'InCompareSanityVisitor', 'IterableUnpackingVisitor', 'JonesComplexityVisitor', 'MagicModuleFunctionsVisitor', 'MethodMembersVisitor', 'ModuleConstantsVisitor', 'ModuleMembersVisitor', 'MultilineStringVisitor', 'NestedComplexityVisitor', 'NestedTryBlocksVisitor', 'NoqaVisitor', 'OffsetVisitor', 'PointlessStarredVisitor', 'ShebangVisitor', 'StatementsWithBodiesVisitor', 'StringOveruseVisitor', 'SubscriptVisitor', 'SyncForLoopVisitor', 'TryExceptVisitor', 'TupleUnpackVisitor', 'UnaryCompareVisitor', 'UnnecessaryLiteralsVisitor', 'UnusedVariableDefinitionVisitor', 'UnusedVariableUsageVisitor', 'UselessLambdaDefinitionVisitor', 'UselessOperatorsVisitor', 'WalrusVisitor', 'WrongAnnotationVisitor', 'WrongAssignmentVisitor', 'WrongAttributeVisitor', 'WrongClassVisitor', 'WrongCollectionVisitor', 'WrongCommentVisitor', 'WrongComparisonOrderVisitor', 'WrongComprehensionVisitor', 'WrongConditionalVisitor', 'WrongConstantCompareVisitor', 'WrongContextManagerVisitor', 'WrongExceptHandlerVisitor', 'WrongFloatComplexCompareVisitor', 'WrongFormatStringVisitor', 'WrongFunctionCallContextVisitor', 'WrongFunctionCallVisitor', 'WrongImportVisitor', 'WrongKeywordTokenVisitor', 'WrongKeywordVisitor', 'WrongLoopDefinitionVisitor', 'WrongLoopVisitor', 'WrongMathOperatorVisitor', 'WrongMethodArgumentsVisitor', 'WrongMethodVisitor', 'WrongModuleMetadataVisitor', 'WrongModuleNameVisitor', 'WrongNameVisitor', 'WrongNamedKeywordVisitor', 'WrongNumberTokenVisitor', 'WrongNumberVisitor', 'WrongParametersIndentationVisitor', 'WrongRaiseVisitor', 'WrongSlotsVisitor', 'WrongStringConcatenationVisitor', 'WrongStringTokenVisitor', 'WrongStringVisitor', 'WrongTryExceptVisitor', 'WrongVariableAssignmentVisitor', 'YieldTupleVisitor', '_TestingFilenameVisitor', 'BaseVisitor', 'BaseNodeVisitor', 'BaseTokenVisitor']
+  PY: ['BaseTokenVisitor']
+125: ('/wemake_python_styleguide/visitors/base.py', '__init__', 'options') 726 454 4 (PY Empty (is_any() is true))
+  PT: ['meta_func', 'ConfigurationOptions']
+  PY: ['Any']
+126: ('/wemake_python_styleguide/visitors/base.py', '__init__', 'tree') 727 462 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+127: ('/wemake_python_styleguide/visitors/base.py', 'run', 'self') 728 460 6 (PY subset PT)
+  PT: ['AccessVisitor', 'AfterBlockVariablesVisitor', 'AnnotationComplexityVisitor', 'AssignmentPatternsVisitor', 'BitwiseOpVisitor', 'BlockVariableVisitor', 'BooleanConditionVisitor', 'BracketLocationVisitor', 'CallChainsVisitor', 'ClassAttributeVisitor', 'ClassComplexityVisitor', 'ClassMethodOrderVisitor', 'CognitiveComplexityVisitor', 'CompareSanityVisitor', 'ConditionsVisitor', 'ConsistentReturningVariableVisitor', 'ConsistentReturningVisitor', 'ConstantKeywordVisitor', 'CorrectKeyVisitor', 'ElifVisitor', 'EmptyCommentVisitor', 'EmptyModuleContentsVisitor', 'ExpressionOveruseVisitor', 'ExtraIndentationVisitor', 'FloatingNanCallVisitor', 'FunctionComplexityVisitor', 'FunctionDefinitionVisitor', 'FunctionSignatureVisitor', 'GeneratorKeywordsVisitor', 'IfElseVisitor', 'IfStatementVisitor', 'ImplicitBoolPatternsVisitor', 'ImplicitDictGetVisitor', 'ImportMembersVisitor', 'InCompareSanityVisitor', 'IterableUnpackingVisitor', 'JonesComplexityVisitor', 'MagicModuleFunctionsVisitor', 'MethodMembersVisitor', 'ModuleConstantsVisitor', 'ModuleMembersVisitor', 'MultilineStringVisitor', 'NestedComplexityVisitor', 'NestedTryBlocksVisitor', 'NoqaVisitor', 'OffsetVisitor', 'PointlessStarredVisitor', 'ShebangVisitor', 'StatementsWithBodiesVisitor', 'StringOveruseVisitor', 'SubscriptVisitor', 'SyncForLoopVisitor', 'TryExceptVisitor', 'TupleUnpackVisitor', 'UnaryCompareVisitor', 'UnnecessaryLiteralsVisitor', 'UnusedVariableDefinitionVisitor', 'UnusedVariableUsageVisitor', 'UselessLambdaDefinitionVisitor', 'UselessOperatorsVisitor', 'WalrusVisitor', 'WrongAnnotationVisitor', 'WrongAssignmentVisitor', 'WrongAttributeVisitor', 'WrongClassVisitor', 'WrongCollectionVisitor', 'WrongCommentVisitor', 'WrongComparisonOrderVisitor', 'WrongComprehensionVisitor', 'WrongConditionalVisitor', 'WrongConstantCompareVisitor', 'WrongContextManagerVisitor', 'WrongExceptHandlerVisitor', 'WrongFloatComplexCompareVisitor', 'WrongFormatStringVisitor', 'WrongFunctionCallContextVisitor', 'WrongFunctionCallVisitor', 'WrongImportVisitor', 'WrongKeywordTokenVisitor', 'WrongKeywordVisitor', 'WrongLoopDefinitionVisitor', 'WrongLoopVisitor', 'WrongMathOperatorVisitor', 'WrongMethodArgumentsVisitor', 'WrongMethodVisitor', 'WrongModuleMetadataVisitor', 'WrongModuleNameVisitor', 'WrongNameVisitor', 'WrongNamedKeywordVisitor', 'WrongNumberTokenVisitor', 'WrongNumberVisitor', 'WrongParametersIndentationVisitor', 'WrongRaiseVisitor', 'WrongSlotsVisitor', 'WrongStringConcatenationVisitor', 'WrongStringTokenVisitor', 'WrongStringVisitor', 'WrongTryExceptVisitor', 'WrongVariableAssignmentVisitor', 'YieldTupleVisitor', '_TestingFilenameVisitor', 'BaseVisitor', 'BaseNodeVisitor', 'BaseFilenameVisitor', 'BaseTokenVisitor']
+  PY: ['BaseTokenVisitor']
+128: ('/docs/conf.py', '_get_project_meta', 'file_contents') 729 163 3 (PT Empty)
+  PT: []
+  PY: ['str']
+129: ('/wemake_python_styleguide/visitors/base.py', 'visit', 'self') 734 464 6 (PY subset PT)
+  PT: ['AccessVisitor', 'AfterBlockVariablesVisitor', 'AnnotationComplexityVisitor', 'AssignmentPatternsVisitor', 'BitwiseOpVisitor', 'BlockVariableVisitor', 'BooleanConditionVisitor', 'CallChainsVisitor', 'ClassAttributeVisitor', 'ClassComplexityVisitor', 'ClassMethodOrderVisitor', 'CognitiveComplexityVisitor', 'CompareSanityVisitor', 'ConditionsVisitor', 'ConsistentReturningVariableVisitor', 'ConsistentReturningVisitor', 'ConstantKeywordVisitor', 'CorrectKeyVisitor', 'ElifVisitor', 'EmptyCommentVisitor', 'EmptyModuleContentsVisitor', 'FloatingNanCallVisitor', 'FunctionComplexityVisitor', 'FunctionDefinitionVisitor', 'FunctionSignatureVisitor', 'GeneratorKeywordsVisitor', 'IfElseVisitor', 'IfStatementVisitor', 'ImplicitBoolPatternsVisitor', 'ImplicitDictGetVisitor', 'ImportMembersVisitor', 'InCompareSanityVisitor', 'IterableUnpackingVisitor', 'MagicModuleFunctionsVisitor', 'MethodMembersVisitor', 'ModuleConstantsVisitor', 'ModuleMembersVisitor', 'NestedComplexityVisitor', 'NestedTryBlocksVisitor', 'NoqaVisitor', 'OffsetVisitor', 'PointlessStarredVisitor', 'ShebangVisitor', 'StatementsWithBodiesVisitor', 'StringOveruseVisitor', 'SubscriptVisitor', 'SyncForLoopVisitor', 'TryExceptVisitor', 'TupleUnpackVisitor', 'UnaryCompareVisitor', 'UnnecessaryLiteralsVisitor', 'UnusedVariableDefinitionVisitor', 'UnusedVariableUsageVisitor', 'UselessLambdaDefinitionVisitor', 'UselessOperatorsVisitor', 'WalrusVisitor', 'WrongAnnotationVisitor', 'WrongAssignmentVisitor', 'WrongAttributeVisitor', 'WrongClassVisitor', 'WrongCollectionVisitor', 'WrongCommentVisitor', 'WrongComparisonOrderVisitor', 'WrongComprehensionVisitor', 'WrongConditionalVisitor', 'WrongConstantCompareVisitor', 'WrongContextManagerVisitor', 'WrongExceptHandlerVisitor', 'WrongFloatComplexCompareVisitor', 'WrongFormatStringVisitor', 'WrongFunctionCallContextVisitor', 'WrongFunctionCallVisitor', 'WrongImportVisitor', 'WrongKeywordTokenVisitor', 'WrongLoopDefinitionVisitor', 'WrongLoopVisitor', 'WrongMathOperatorVisitor', 'WrongMethodArgumentsVisitor', 'WrongMethodVisitor', 'WrongModuleMetadataVisitor', 'WrongNameVisitor', 'WrongNamedKeywordVisitor', 'WrongNumberTokenVisitor', 'WrongNumberVisitor', 'WrongParametersIndentationVisitor', 'WrongRaiseVisitor', 'WrongSlotsVisitor', 'WrongStringTokenVisitor', 'WrongStringVisitor', 'WrongTryExceptVisitor', 'WrongVariableAssignmentVisitor', 'YieldTupleVisitor', 'BaseNodeVisitor', 'BaseTokenVisitor']
+  PY: ['BaseTokenVisitor']
+130: ('/wemake_python_styleguide/visitors/base.py', 'visit', 'tree') 735 465 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+131: ('/wemake_python_styleguide/transformations/ast_tree.py', 'transform', 'tree') 737 2019 4 (PY Empty (is_any() is true))
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['Any']
+132: ('/wemake_python_styleguide/transformations/ast_tree.py', 'transform', 'transformation') 739 2021 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+133: ('/wemake_python_styleguide/transformations/ast_tree.py', 'transform', 'transform_ret') 740 34 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+134: ('/wemake_python_styleguide/compat/routing.py', 'route_visit', 'self') 741 1999 4 (PY Empty (is_any() is true))
+  PT: ['AccessVisitor', 'AfterBlockVariablesVisitor', 'AnnotationComplexityVisitor', 'AssignmentPatternsVisitor', 'BitwiseOpVisitor', 'BlockVariableVisitor', 'BooleanConditionVisitor', 'CallChainsVisitor', 'ClassAttributeVisitor', 'ClassComplexityVisitor', 'ClassMethodOrderVisitor', 'CognitiveComplexityVisitor', 'CompareSanityVisitor', 'ConditionsVisitor', 'ConsistentReturningVariableVisitor', 'ConsistentReturningVisitor', 'ConstantKeywordVisitor', 'CorrectKeyVisitor', 'ElifVisitor', 'EmptyModuleContentsVisitor', 'FloatingNanCallVisitor', 'FunctionComplexityVisitor', 'FunctionDefinitionVisitor', 'FunctionSignatureVisitor', 'GeneratorKeywordsVisitor', 'IfStatementVisitor', 'ImplicitBoolPatternsVisitor', 'ImplicitDictGetVisitor', 'ImportMembersVisitor', 'InCompareSanityVisitor', 'IterableUnpackingVisitor', 'MagicModuleFunctionsVisitor', 'MethodMembersVisitor', 'ModuleConstantsVisitor', 'ModuleMembersVisitor', 'NestedComplexityVisitor', 'NestedTryBlocksVisitor', 'OffsetVisitor', 'PointlessStarredVisitor', 'StatementsWithBodiesVisitor', 'StringOveruseVisitor', 'SubscriptVisitor', 'SyncForLoopVisitor', 'TryExceptVisitor', 'TupleUnpackVisitor', 'UnaryCompareVisitor', 'UnnecessaryLiteralsVisitor', 'UnusedVariableDefinitionVisitor', 'UnusedVariableUsageVisitor', 'UselessLambdaDefinitionVisitor', 'UselessOperatorsVisitor', 'WalrusVisitor', 'WrongAnnotationVisitor', 'WrongAssignmentVisitor', 'WrongAttributeVisitor', 'WrongClassVisitor', 'WrongCollectionVisitor', 'WrongComparisonOrderVisitor', 'WrongComprehensionVisitor', 'WrongConditionalVisitor', 'WrongConstantCompareVisitor', 'WrongContextManagerVisitor', 'WrongExceptHandlerVisitor', 'WrongFloatComplexCompareVisitor', 'WrongFormatStringVisitor', 'WrongFunctionCallContextVisitor', 'WrongFunctionCallVisitor', 'WrongImportVisitor', 'WrongLoopDefinitionVisitor', 'WrongLoopVisitor', 'WrongMathOperatorVisitor', 'WrongMethodArgumentsVisitor', 'WrongMethodVisitor', 'WrongModuleMetadataVisitor', 'WrongNameVisitor', 'WrongNamedKeywordVisitor', 'WrongNumberVisitor', 'WrongParametersIndentationVisitor', 'WrongRaiseVisitor', 'WrongSlotsVisitor', 'WrongStringVisitor', 'WrongTryExceptVisitor', 'WrongVariableAssignmentVisitor', 'YieldTupleVisitor', 'ast.NodeVisitor']
+  PY: ['Any']
+135: ('/wemake_python_styleguide/compat/routing.py', 'route_visit', 'node') 742 2000 4 (PY Empty (is_any() is true))
+  PT: ['<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['Any']
+136: ('/wemake_python_styleguide/compat/routing.py', 'route_visit', 'type_name') 743 2001 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+137: ('/wemake_python_styleguide/transformations/ast_tree.py', '_set_parent', 'tree') 745 2014 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+138: ('/wemake_python_styleguide/transformations/ast_tree.py', '_set_parent', 'statement') 746 2016 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+139: ('/wemake_python_styleguide/transformations/ast_tree.py', '_set_parent', 'child') 747 2015 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+140: ('/wemake_python_styleguide/transformations/ast_tree.py', '_set_parent', '_set_parent_ret') 748 33 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+141: ('/wemake_python_styleguide/transformations/ast_tree.py', '_set_function_type', 'tree') 749 2017 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+142: ('/wemake_python_styleguide/transformations/ast_tree.py', '_set_function_type', '_set_function_type_ret') 751 32 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+143: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_async_offset', 'tree') 752 2033 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+144: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_async_offset', 'node') 754 2036 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+145: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_async_offset', 'error') 755 2035 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+146: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_async_offset', 'fix_async_offset_ret') 756 35 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+147: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_line_number', 'tree') 757 2037 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+148: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_line_number', 'node') 759 2040 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+149: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_line_number', 'parent_lineno') 760 2039 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+150: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_line_number', 'fix_line_number_ret') 761 36 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+151: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_node_context', 'tree') 762 2024 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+152: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_node_context', 'statement') 763 2026 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+153: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_node_context', 'current_context') 764 2025 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+154: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_node_context', 'set_node_context_ret') 765 39 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+155: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_if_chain', 'tree') 766 2022 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+156: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_if_chain', 'statement') 767 2023 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+157: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_if_chain', 'set_if_chain_ret') 768 38 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  PY: ['_ast.AST']
+158: ('/wemake_python_styleguide/transformations/ast/enhancements.py', '_find_context', 'parent') 775 2029 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+159: ('/wemake_python_styleguide/transformations/ast/enhancements.py', '_apply_if_statement', 'child') 777 2031 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+160: ('/wemake_python_styleguide/visitors/base.py', '__init__', 'file_tokens') 778 468 6 (PY subset PT)
+  PT: ['list', 'Sequence[tokenize.TokenInfo]']
+  PY: ['Sequence[tokenize.TokenInfo]']
+161: ('/wemake_python_styleguide/visitors/base.py', 'run', 'token') 779 472 3 (PT Empty)
+  PT: []
+  PY: ['tokenize.TokenInfo']
+162: ('/wemake_python_styleguide/visitors/base.py', 'visit', 'token_type') 781 470 3 (PT Empty)
+  PT: []
+  PY: ['str']
+163: ('/wemake_python_styleguide/visitors/base.py', 'visit', 'method') 782 471 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+164: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'visit', 'node') 784 844 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10d0d6460>', 'ast.AST']
+  PY: ['_ast.AST']
+165: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_keyword', 'node') 786 846 6 (PY subset PT)
+  PT: ['<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10d0d6460>', 'ast.AST']
+  PY: ['_ast.AST']
+166: ('/wemake_python_styleguide/violations/base.py', '__init__', 'self') 790 2930 6 (PY subset PT)
+  PT: ['ASTViolation', 'BracketBlankLineViolation', 'CognitiveModuleComplexityViolation', 'ConsecutiveUnderscoresInNameViolation', 'ConsecutiveYieldsViolation', 'EmptyCommentViolation', 'ExtraIndentationViolation', 'ImplicitStringConcatenationViolation', 'ImportCollisionViolation', 'InternalErrorViolation', 'JonesScoreViolation', 'OveruseOfNoCoverCommentViolation', 'OveruseOfNoqaCommentViolation', 'OverusedExpressionViolation', 'OverusedStringViolation', 'PrivateNameViolation', 'TooLongNameViolation', 'TooManyArgumentsViolation', 'TooManyAssertsViolation', 'TooManyAwaitsViolation', 'TooManyElifsViolation', 'TooManyExpressionsViolation', 'TooManyForsInComprehensionViolation', 'TooManyImportedNamesViolation', 'TooManyImportsViolation', 'TooManyLocalsViolation', 'TooManyMethodsViolation', 'TooManyModuleMembersViolation', 'TooManyRaisesViolation', 'TooManyReturnsViolation', 'TooShortNameViolation', 'UnderscoredNumberNameViolation', 'UnicodeNameViolation', 'UnreadableNameViolation', 'WrongBracketPositionViolation', 'WrongKeywordViolation', 'WrongModuleMagicNameViolation', 'WrongModuleNamePatternViolation', 'WrongModuleNameViolation', 'WrongMultilineStringUseViolation', 'BaseViolation', 'MaybeASTViolation', 'SimpleViolation']
+  PY: ['SimpleViolation']
+167: ('/wemake_python_styleguide/violations/base.py', '__init__', 'node') 791 2931 4 (PY Empty (is_any() is true))
+  PT: ['<ast.Module object at 0x10cb41160>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10d0d6460>', 'None', 'TokenInfo(type=0 (ENDMARKER), string="\'\'", start=(0, 0), end=(0, 0), line="\'\'")', 'ErrorNode', 'Optional[ast.AST]']
+  PY: ['Any']
+168: ('/wemake_python_styleguide/visitors/base.py', 'add_violation', 'self') 792 458 6 (PY subset PT)
+  PT: ['BracketLocationVisitor', 'CognitiveComplexityVisitor', 'ElifVisitor', 'EmptyCommentVisitor', 'ExpressionOveruseVisitor', 'ExtraIndentationVisitor', 'FunctionComplexityVisitor', 'GeneratorKeywordsVisitor', 'JonesComplexityVisitor', 'MethodMembersVisitor', 'ModuleMembersVisitor', 'MultilineStringVisitor', 'NoqaVisitor', 'StringOveruseVisitor', 'WrongCommentVisitor', 'WrongComprehensionVisitor', 'WrongKeywordVisitor', 'WrongModuleNameVisitor', 'WrongStringConcatenationVisitor', 'BaseVisitor']
+  PY: ['BaseVisitor']
+169: ('/wemake_python_styleguide/visitors/base.py', 'add_violation', 'violation') 793 459 4 (PY Empty (is_any() is true))
+  PT: ['CognitiveComplexityViolation', 'ConsecutiveYieldsViolation', 'EmptyCommentViolation', 'ExtraIndentationViolation', 'ImplicitStringConcatenationViolation', 'LineComplexityViolation', 'OveruseOfNoCoverCommentViolation', 'OveruseOfNoqaCommentViolation', 'OverusedExpressionViolation', 'OverusedStringViolation', 'TooManyArgumentsViolation', 'TooManyAssertsViolation', 'TooManyAwaitsViolation', 'TooManyElifsViolation', 'TooManyForsInComprehensionViolation', 'TooManyMethodsViolation', 'TooManyModuleMembersViolation', 'TooManyRaisesViolation', 'TooManyReturnsViolation', 'WrongBracketPositionViolation', 'WrongKeywordViolation', 'WrongModuleNameViolation', 'WrongMultilineStringUseViolation', 'BaseViolation']
+  PY: ['Any']
+170: ('/wemake_python_styleguide/visitors/ast/naming.py', '__init__', 'self') 795 627 6 (PY subset PT)
+  PT: ['_NameValidator', 'WrongNameVisitor']
+  PY: ['WrongNameVisitor']
+171: ('/wemake_python_styleguide/visitors/ast/naming.py', '__init__', 'args') 796 657 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+172: ('/wemake_python_styleguide/visitors/ast/naming.py', '__init__', 'error_callback') 797 628 6 (PY subset PT)
+  PT: ['meta_func', '_ErrorCallback']
+  PY: ['Callable[[Any], None]']
+173: ('/wemake_python_styleguide/visitors/ast/naming.py', '__init__', 'options') 798 629 4 (PY Empty (is_any() is true))
+  PT: ['ConfigurationOptions']
+  PY: ['Any']
+174: ('/wemake_python_styleguide/logic/naming/blacklists.py', 'variable_names_blacklist_from', 'options') 799 2293 4 (PY Empty (is_any() is true))
+  PT: ['ConfigurationOptions']
+  PY: ['Any']
+175: ('/wemake_python_styleguide/logic/naming/blacklists.py', 'variable_names_blacklist_from', 'variable_names_blacklist') 800 2294 3 (PT Empty)
+  PT: []
+  PY: ['Set[nothing]']
+176: ('/wemake_python_styleguide/visitors/ast/imports.py', '__init__', 'self') 803 903 6 (PY subset PT)
+  PT: ['_ImportCollisionValidator', '_BaseImportValidator', 'WrongImportVisitor']
+  PY: ['WrongImportVisitor']
+177: ('/wemake_python_styleguide/visitors/ast/imports.py', '__init__', 'args') 804 951 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+178: ('/wemake_python_styleguide/visitors/ast/imports.py', '__init__', 'error_callback') 805 904 4 (PY Empty (is_any() is true))
+  PT: ['ErrorCallback']
+  PY: ['Any']
+179: ('/wemake_python_styleguide/visitors/ast/imports.py', '__init__', 'options') 806 905 4 (PY Empty (is_any() is true))
+  PT: ['ConfigurationOptions']
+  PY: ['Any']
+180: ('/wemake_python_styleguide/visitors/ast/imports.py', 'validate', 'self') 808 914 6 (PY subset PT)
+  PT: ['_ImportCollisionValidator', '_ImportValidator', '_ImportFromValidator']
+  PY: ['_ImportCollisionValidator']
+181: ('/wemake_python_styleguide/visitors/ast/imports.py', 'validate', 'first') 809 938 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+182: ('/wemake_python_styleguide/visitors/ast/imports.py', 'validate', 'second') 810 939 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+183: ('/wemake_python_styleguide/visitors/ast/imports.py', '_does_collide', 'first') 812 947 4 (PY Empty (is_any() is true))
+  PT: ['imports.ImportedObjectInfo']
+  PY: ['Any']
+184: ('/wemake_python_styleguide/visitors/ast/imports.py', '_does_collide', 'second') 813 948 4 (PY Empty (is_any() is true))
+  PT: ['imports.ImportedObjectInfo']
+  PY: ['Any']
+185: ('/wemake_python_styleguide/visitors/ast/imports.py', '_does_collide', 'first_path') 814 949 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+186: ('/wemake_python_styleguide/visitors/ast/imports.py', '_does_collide', 'second_path') 815 950 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+187: ('/wemake_python_styleguide/logic/tree/functions.py', 'given_function_called', 'node') 818 2088 4 (PY Empty (is_any() is true))
+  PT: ['<ast.Name object at 0x10cb5be80>', 'Call']
+  PY: ['Any']
+188: ('/wemake_python_styleguide/logic/tree/functions.py', 'given_function_called', 'to_check') 819 2089 6 (PY subset PT)
+  PT: ['list', 'Container[str]']
+  PY: ['Container[str]']
+189: ('/wemake_python_styleguide/logic/tree/functions.py', 'given_function_called', 'function_name') 820 2091 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+190: ('/wemake_python_styleguide/visitors/tokenize/comments.py', '__init__', 'self') 825 1930 6 (PY subset PT)
+  PT: ['EmptyCommentVisitor', 'NoqaVisitor', 'WrongCommentVisitor']
+  PY: ['NoqaVisitor']
+191: ('/wemake_python_styleguide/visitors/tokenize/comments.py', '__init__', 'args') 826 1931 7 (etc)
+  PT: ['meta_func']
+  PY: ['tuple']
+
+AM: args, both
+
+192: ('/wemake_python_styleguide/visitors/tokenize/comments.py', '_post_visit', 'self') 827 1946 6 (PY subset PT)
+  PT: ['EmptyCommentVisitor', 'NoqaVisitor', 'WrongCommentVisitor']
+  PY: ['NoqaVisitor']
+193: ('/wemake_python_styleguide/visitors/ast/conditions.py', '__init__', 'self') 829 964 6 (PY subset PT)
+  PT: ['BooleanConditionVisitor', 'IfStatementVisitor']
+  PY: ['BooleanConditionVisitor']
+194: ('/wemake_python_styleguide/visitors/ast/conditions.py', '__init__', 'args') 830 965 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+195: ('/wemake_python_styleguide/violations/base.py', 'node_items', 'self') 831 2935 6 (PY subset PT)
+  PT: ['ASTViolation', 'BaseViolation']
+  PY: ['BaseViolation']
+196: ('/wemake_python_styleguide/violations/base.py', '_location', 'self') 833 2938 6 (PY subset PT)
+  PT: ['ASTViolation', 'BaseViolation', '_BaseASTViolation', 'TokenizeViolation', 'SimpleViolation']
+  PY: ['SimpleViolation']
+197: ('/wemake_python_styleguide/violations/base.py', '_location', 'line_number') 834 2944 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+198: ('/wemake_python_styleguide/violations/base.py', '_location', 'column_offset') 835 2945 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+199: ('/wemake_python_styleguide/violations/base.py', 'message', 'self') 837 2934 6 (PY subset PT)
+  PT: ['ASTViolation', 'BaseViolation']
+  PY: ['BaseViolation']
+200: ('/wemake_python_styleguide/violations/base.py', '_full_code', 'self') 839 2936 6 (PY subset PT)
+  PT: ['ASTViolation', 'BaseViolation']
+  PY: ['BaseViolation']
+201: ('/wemake_python_styleguide/violations/base.py', '_postfix_information', 'self') 841 2937 6 (PY subset PT)
+  PT: ['ASTViolation', 'BaseViolation']
+  PY: ['BaseViolation']
+202: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '__init__', 'self') 844 1633 6 (PY subset PT)
+  PT: ['CognitiveComplexityVisitor', '_ComplexityCounter', 'FunctionComplexityVisitor']
+  PY: ['CognitiveComplexityVisitor']
+203: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '__init__', 'args') 845 1653 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+204: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_post_visit', 'self') 846 1671 6 (PY subset PT)
+  PT: ['CognitiveComplexityVisitor', 'FunctionComplexityVisitor']
+  PY: ['CognitiveComplexityVisitor']
+205: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_signature', 'counter') 848 1667 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+206: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_signature', 'limit') 849 1668 3 (PT Empty)
+  PT: []
+  PY: ['int']
+207: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_signature', 'violation') 850 1669 4 (PY Empty (is_any() is true))
+  PT: ['TooManyArgumentsViolation', 'TooManyAssertsViolation', 'TooManyAwaitsViolation', 'TooManyRaisesViolation', 'TooManyReturnsViolation']
+  PY: ['Any']
+208: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_signature', 'node') 851 1665 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+209: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_signature', 'count') 852 1666 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+210: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_internals', 'var_node') 854 1660 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+211: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_internals', 'variables') 855 1661 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+212: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_internals', 'exp_node') 856 1662 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+213: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_function_internals', 'expressions') 857 1663 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+214: ('/wemake_python_styleguide/visitors/ast/loops.py', '__init__', 'args') 862 1010 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+215: ('/wemake_python_styleguide/visitors/ast/loops.py', '_post_visit', 'node') 864 1026 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+216: ('/wemake_python_styleguide/visitors/ast/loops.py', '_post_visit', 'for_count') 865 1027 3 (PT Empty)
+  PT: []
+  PY: ['int']
+217: ('/wemake_python_styleguide/visitors/filenames/module.py', '_check_module_name', 'is_wrong_name') 870 485 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+218: ('/wemake_python_styleguide/visitors/filenames/module.py', '_check_module_name_length', 'min_length') 872 487 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+219: ('/wemake_python_styleguide/visitors/filenames/module.py', '_check_module_name_length', 'max_length') 873 488 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+220: ('/wemake_python_styleguide/visitors/filenames/module.py', '_check_module_name_readability', 'unreadable_sequence') 876 491 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+221: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_wrong_name', 'to_check') 878 2296 6 (PY subset PT)
+  PT: ["frozenset({'utilities', 'util', 'utils', 'helpers'})", 'Iterable[str]']
+  PY: ['Iterable[str]']
+222: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_wrong_name', 'name_to_check') 879 2298 3 (PT Empty)
+  PT: []
+  PY: ['str']
+223: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_wrong_name', 'choices_to_check') 880 2297 7 (etc)
+  PT: ['str']
+  PY: ['Set[str]']
+
+AM: PY
+
+224: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'get_unreadable_characters', 'character_combinations') 900 2331 6 (PY subset PT)
+  PT: ["frozenset({'O0', '0O', '1l', '1I'})", 'Iterable[str]']
+  PY: ['Iterable[str]']
+225: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'get_unreadable_characters', 'combination') 901 2332 3 (PT Empty)
+  PT: []
+  PY: ['str']
+226: ('/wemake_python_styleguide/visitors/decorators.py', 'decorator', 'cls') 910 478 4 (PY Empty (is_any() is true))
+  PT: ['_HasAliasedProp']
+  PY: ['Any']
+227: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', 'cls') 912 473 4 (PY Empty (is_any() is true))
+  PT: ['_HasAliasedProp', 'Type[_DefinedType]']
+  PY: ['Any']
+228: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', 'original_handler') 915 476 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+229: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', 'method_alias') 916 477 3 (PT Empty)
+  PT: []
+  PY: ['str']
+230: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', '_modify_class_ret') 917 11 6 (PY subset PT)
+  PT: ['_HasAliasedProp', 'Type[_DefinedType]']
+  PY: ['Type[_DefinedType]']
+231: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', '__init__', 'args') 920 1680 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+232: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', 'visit', 'line_number') 923 1684 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+233: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', '_post_visit', 'line_nodes') 926 1688 3 (PT Empty)
+  PT: []
+  PY: ['List[_ast.AST]']
+234: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', '_post_visit', 'nodes') 928 1690 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+235: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', '_post_visit', 'total_count') 930 1691 6 (PY subset PT)
+  PT: ['int', 'list']
+  PY: ['int']
+236: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '__init__', 'self') 935 1874 6 (PY subset PT)
+  PT: ['BracketLocationVisitor', 'ExtraIndentationVisitor', 'MultilineStringVisitor']
+  PY: ['MultilineStringVisitor']
+237: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '__init__', 'args') 936 1875 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+238: ('/wemake_python_styleguide/visitors/tokenize/statements.py', 'visit', 'self') 937 1877 6 (PY subset PT)
+  PT: ['BracketLocationVisitor', 'ExtraIndentationVisitor', 'MultilineStringVisitor']
+  PY: ['MultilineStringVisitor']
+239: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'self') 939 1893 6 (PY subset PT)
+  PT: ['BracketLocationVisitor', 'ExtraIndentationVisitor', 'MultilineStringVisitor']
+  PY: ['MultilineStringVisitor']
+240: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'index') 941 1895 3 (PT Empty)
+  PT: []
+  PY: ['int']
+241: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'line') 942 1896 3 (PT Empty)
+  PT: []
+  PY: ['int']
+242: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_extra_indentation', 'lineno') 945 1881 3 (PT Empty)
+  PT: []
+  PY: ['int']
+243: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_extra_indentation', '_offset') 946 1882 3 (PT Empty)
+  PT: []
+  PY: ['int']
+244: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'self') 947 1885 6 (PY subset PT)
+  PT: ['BracketLocationVisitor', 'ExtraIndentationVisitor', 'MultilineStringVisitor']
+  PY: ['MultilineStringVisitor']
+245: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'lines') 948 1886 6 (PY subset PT)
+  PT: ['list', 'Sequence[int]']
+  PY: ['Sequence[int]']
+246: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'current_token') 951 1889 3 (PT Empty)
+  PT: []
+  PY: ['tokenize.TokenInfo']
+247: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'offset') 953 1891 3 (PT Empty)
+  PT: []
+  PY: ['int']
+248: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'previous_offset') 954 1892 3 (PT Empty)
+  PT: []
+  PY: ['int']
+249: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', '__init__', 'args') 960 1598 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+250: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', '_post_visit', 'node') 962 1606 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+251: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', '_post_visit', 'count') 963 1607 3 (PT Empty)
+  PT: []
+  PY: ['int']
+252: ('/wemake_python_styleguide/checker.py', '__init__', 'tree') 966 336 4 (PY Empty (is_any() is true))
+  PT: ['<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10d427340>', 'ast.AST']
+  PY: ['Any']
+253: ('/wemake_python_styleguide/checker.py', '__init__', 'file_tokens') 967 337 6 (PY subset PT)
+  PT: ['list', 'Sequence[tokenize.TokenInfo]']
+  PY: ['Sequence']
+254: ('/wemake_python_styleguide/checker.py', 'run', 'visitor_class') 969 346 4 (PY Empty (is_any() is true))
+  PT: ['_BrokenVisitor']
+  PY: ['Any']
+255: ('/wemake_python_styleguide/checker.py', 'run', 'visitor') 970 344 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+256: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '__init__', 'self') 972 1717 6 (PY subset PT)
+  PT: ['ElifVisitor', 'ModuleMembersVisitor']
+  PY: ['ElifVisitor']
+257: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '__init__', 'args') 973 1718 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+258: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_post_visit', 'self') 974 1728 6 (PY subset PT)
+  PT: ['ElifVisitor', 'ModuleMembersVisitor']
+  PY: ['ElifVisitor']
+259: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_post_visit', 'root') 975 1762 3 (PT Empty)
+  PT: []
+  PY: ['_ast.If']
+260: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_post_visit', 'children') 976 1763 3 (PT Empty)
+  PT: []
+  PY: ['List[Union[_ast.If, _ast.stmt]]']
+261: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', '__init__', 'self') 979 1802 6 (PY subset PT)
+  PT: ['WrongStringConcatenationVisitor', 'WrongStringTokenVisitor']
+  PY: ['WrongStringConcatenationVisitor']
+262: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', '__init__', 'args') 980 1803 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+263: ('/wemake_python_styleguide/logic/complexity/annotations.py', 'get_annotation_complexity', 'annotation_node') 981 2270 4 (PY Empty (is_any() is true))
+  PT: ['bool', '_Annotation']
+  PY: ['Any']
+264: ('/wemake_python_styleguide/logic/complexity/annotations.py', 'get_annotation_complexity', 'get_annotation_complexity_ret') 982 114 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['int']
+265: ('/wemake_python_styleguide/compat/functions.py', 'get_slice_expr', 'node') 983 1990 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'ast.Subscript']
+  PY: ['Any']
+266: ('/wemake_python_styleguide/visitors/ast/complexity/calls.py', '__init__', 'args') 987 1623 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+267: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '__init__', 'self') 989 1518 6 (PY subset PT)
+  PT: ['ExpressionOveruseVisitor', 'StringOveruseVisitor']
+  PY: ['ExpressionOveruseVisitor']
+268: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '__init__', 'args') 990 1519 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+269: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'self') 991 1525 6 (PY subset PT)
+  PT: ['ExpressionOveruseVisitor', 'StringOveruseVisitor']
+  PY: ['ExpressionOveruseVisitor']
+270: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'string') 992 1526 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+271: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'usage_count') 993 1527 3 (PT Empty)
+  PT: []
+  PY: ['int']
+272: ('/wemake_python_styleguide/logic/source.py', 'render_string', 'text_data') 994 2087 4 (PY Empty (is_any() is true))
+  PT: ['AnyTextPrimitive']
+  PY: ['Any']
+273: ('/wemake_python_styleguide/logic/source.py', 'render_string', 'render_string_ret') 995 46 6 (PY subset PT)
+  PT: ['str', 'AnyTextPrimitive']
+  PY: ['str']
+274: ('/wemake_python_styleguide/visitors/ast/complexity/access.py', '__init__', 'args') 998 1548 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+275: ('/wemake_python_styleguide/visitors/ast/keywords.py', '__init__', 'args') 1001 858 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+276: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_post_visit', 'previous_parent') 1004 871 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Optional[ast.AST]']
+  PY: ['Optional[Any]']
+277: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_post_visit', 'line') 1005 873 3 (PT Empty)
+  PT: []
+  PY: ['int']
+278: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_post_visit', 'node') 1006 874 3 (PT Empty)
+  PT: []
+  PY: ['_ast.Expr']
+279: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_post_visit', 'parent') 1007 872 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+280: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '__init__', 'self') 1009 1568 6 (PY subset PT)
+  PT: ['_ImportFromMembersValidator', 'ImportMembersVisitor']
+  PY: ['ImportMembersVisitor']
+281: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '__init__', 'args') 1010 1576 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+282: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '__init__', 'error_callback') 1011 1569 4 (PY Empty (is_any() is true))
+  PT: ['meta_func', 'ErrorCallback']
+  PY: ['Any']
+283: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '__init__', 'options') 1012 1570 4 (PY Empty (is_any() is true))
+  PT: ['ConfigurationOptions']
+  PY: ['Any']
+284: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', '_') 1021 1928 3 (PT Empty)
+  PT: []
+  PY: ['int']
+285: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'line_tokens') 1022 1925 3 (PT Empty)
+  PT: []
+  PY: ['List[tokenize.TokenInfo]']
+286: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'previous_line_token') 1023 1926 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[tokenize.TokenInfo]']
+287: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'next_line_token') 1024 1927 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[tokenize.TokenInfo]']
+288: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'token') 1027 1912 3 (PT Empty)
+  PT: []
+  PY: ['tokenize.TokenInfo']
+289: ('/wemake_python_styleguide/options/validation.py', 'validate_domain_names_options', 'allowed_domain_names') 1035 411 6 (PY subset PT)
+  PT: ['list', 'Tuple[str, ...]']
+  PY: ['Tuple[str, ...]']
+290: ('/wemake_python_styleguide/options/validation.py', 'validate_domain_names_options', 'forbidden_domain_names') 1036 412 6 (PY subset PT)
+  PT: ['list', 'Tuple[str, ...]']
+  PY: ['Tuple[str, ...]']
+291: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_post_visit', 'function') 1041 1673 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+292: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_post_visit', 'score') 1042 1674 3 (PT Empty)
+  PT: []
+  PY: ['int']
+293: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_post_visit', 'average') 1043 1675 7 (etc)
+  PT: ['int']
+  PY: ['float']
+
+AM: PY
+
+294: ('/wemake_python_styleguide/visitors/ast/blocks.py', '__init__', 'args') 1046 1433 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+295: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'cognitive_score', 'funcdef') 1051 2287 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+296: ('/wemake_python_styleguide/logic/tree/recursion.py', 'has_recursive_calls', 'func') 1060 2232 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+297: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_process_node_itself', 'inner_boolops_amount') 1065 2280 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+298: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_process_node_itself', 'base_complexity') 1066 2281 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+299: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_process_child_nodes', 'node_num') 1071 2276 3 (PT Empty)
+  PT: []
+  PY: ['int']
+300: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_process_child_nodes', 'child_node') 1072 2277 3 (PT Empty)
+  PT: []
+  PY: ['_ast.AST']
+301: ('/wemake_python_styleguide/logic/tree/recursion.py', '_check_method_recursion', 'func') 1076 2230 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+302: ('/wemake_python_styleguide/logic/tree/recursion.py', '_check_function_recursion', 'func') 1079 2231 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+303: ('/wemake_python_styleguide/logic/tree/bools.py', 'count_boolops', 'node') 1082 2125 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+304: ('/wemake_python_styleguide/logic/tree/recursion.py', '_is_self_call', 'func') 1085 2228 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+305: ('/wemake_python_styleguide/logic/tree/recursion.py', '_is_self_call', 'node') 1086 2229 4 (PY Empty (is_any() is true))
+  PT: ['AST']
+  PY: ['Any']
+306: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'tokens') 1088 1917 3 (PT Empty)
+  PT: []
+  PY: ['List[tokenize.TokenInfo]']
+307: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_closing', 'tokens_before') 1093 1909 3 (PT Empty)
+  PT: []
+  PY: ['List[tokenize.TokenInfo]']
+308: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_empty_line_wrap', 'tokens') 1098 1916 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[List[tokenize.TokenInfo]]']
+309: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_annotate_brackets', 'bracket') 1104 1902 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+310: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_annotate_brackets', 'token') 1106 1904 3 (PT Empty)
+  PT: []
+  PY: ['tokenize.TokenInfo']
+311: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_annotate_brackets', 'reverse_bracket') 1107 1903 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+312: ('/wemake_python_styleguide/logic/tokens.py', 'get_reverse_bracket', 'index') 1110 2052 3 (PT Empty)
+  PT: []
+  PY: ['int']
+313: ('/wemake_python_styleguide/logic/tokens.py', 'only_contains', 'tokens') 1112 2047 6 (PY subset PT)
+  PT: ['None', 'Iterable[tokenize.TokenInfo]']
+  PY: ['Iterable[tokenize.TokenInfo]']
+314: ('/wemake_python_styleguide/logic/tokens.py', 'only_contains', 'container') 1113 2048 6 (PY subset PT)
+  PT: ['frozenset({4, 61, 60})', 'frozenset({4, 61})', 'frozenset({4, 8, 10, 26, 61})', 'Container[int]']
+  PY: ['Container[int]']
+315: ('/wemake_python_styleguide/logic/tokens.py', 'only_contains', 'token') 1114 2049 3 (PT Empty)
+  PT: []
+  PY: ['tokenize.TokenInfo']
+316: ('/wemake_python_styleguide/options/config.py', 'register_options', 'parser') 1117 364 4 (PY Empty (is_any() is true))
+  PT: ['OptionManager']
+  PY: ['Any']
+317: ('/wemake_python_styleguide/options/config.py', 'register_options', 'option') 1118 365 3 (PT Empty)
+  PT: []
+  PY: ['_Option']
+318: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'mod_source') 1121 1536 3 (PT Empty)
+  PT: []
+  PY: ['str']
+319: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'module_nodes') 1122 1537 3 (PT Empty)
+  PT: []
+  PY: ['List[_ast.AST]']
+320: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'function_contexts') 1123 1540 3 (PT Empty)
+  PT: []
+  PY: ['DefaultDict[str, List[_ast.AST]]']
+321: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'src') 1124 1538 3 (PT Empty)
+  PT: []
+  PY: ['str']
+322: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_post_visit', 'function_nodes') 1125 1539 3 (PT Empty)
+  PT: []
+  PY: ['List[_ast.AST]']
+323: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_add_expression', 'source_code') 1128 1534 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+324: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_add_expression', 'maybe_function') 1129 1535 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+325: ('/wemake_python_styleguide/logic/walk.py', 'get_closest_parent', 'parents') 1131 2062 4 (PY Empty (is_any() is true))
+  PT: ['tuple', '_IsInstanceContainer']
+  PY: ['Any']
+326: ('/wemake_python_styleguide/logic/walk.py', 'get_closest_parent', 'parent') 1132 2063 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+327: ('/wemake_python_styleguide/formatter.py', 'handle', 'error') 1136 206 4 (PY Empty (is_any() is true))
+  PT: ['Violation']
+  PY: ['Any']
+328: ('/wemake_python_styleguide/formatter.py', 'format', 'error') 1139 208 4 (PY Empty (is_any() is true))
+  PT: ['Violation']
+  PY: ['Any']
+329: ('/wemake_python_styleguide/formatter.py', 'show_source', 'error') 1142 210 4 (PY Empty (is_any() is true))
+  PT: ['Violation']
+  PY: ['Any']
+330: ('/wemake_python_styleguide/formatter.py', 'show_statistics', 'statistics') 1144 215 4 (PY Empty (is_any() is true))
+  PT: ['Statistics']
+  PY: ['Any']
+331: ('/wemake_python_styleguide/formatter.py', 'show_statistics', 'all_errors') 1145 216 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+332: ('/wemake_python_styleguide/formatter.py', '_print_violation_per_file', 'statistic') 1151 228 4 (PY Empty (is_any() is true))
+  PT: ['Statistics']
+  PY: ['Any']
+333: ('/wemake_python_styleguide/formatter.py', '_should_show_source', 'error') 1157 235 4 (PY Empty (is_any() is true))
+  PT: ['Violation']
+  PY: ['Any']
+334: ('/wemake_python_styleguide/formatter.py', '_count_per_filename', 'statistics') 1165 242 4 (PY Empty (is_any() is true))
+  PT: ['Statistics']
+  PY: ['Any']
+335: ('/wemake_python_styleguide/checker.py', 'Checker_class_initializer', 'options') 1240 349 4 (PY Empty (is_any() is true))
+  PT: ['types.ConfigurationOptions']
+  PY: ['Any']
+336: ('/wemake_python_styleguide/checker.py', 'add_options', 'parser') 1242 340 4 (PY Empty (is_any() is true))
+  PT: ['OptionManager']
+  PY: ['Any']
+337: ('/wemake_python_styleguide/checker.py', 'parse_options', 'options') 1243 342 4 (PY Empty (is_any() is true))
+  PT: ['types.ConfigurationOptions']
+  PY: ['Any']
+338: ('/wemake_python_styleguide/options/validation.py', 'validate_options', 'options') 1293 449 4 (PY Empty (is_any() is true))
+  PT: ['ConfigurationOptions']
+  PY: ['Any']
+339: ('/wemake_python_styleguide/visitors/base.py', 'from_checker', 'cls') 1295 456 4 (PY Empty (is_any() is true))
+  PT: ["Type['BaseVisitor']", "Type['BaseNodeVisitor']", "Type['BaseTokenVisitor']"]
+  PY: ['Any']
+340: ('/wemake_python_styleguide/visitors/base.py', '_post_visit', 'self') 1296 461 5 (PT subset PY)
+  PT: ['BaseVisitor']
+  PY: ['BaseFilenameVisitor', 'BaseNodeVisitor', 'BaseTokenVisitor', 'BaseVisitor']
+341: ('/wemake_python_styleguide/visitors/ast/functions.py', 'visit_Call', 'self') 1301 492 6 (PY subset PT)
+  PT: ['WrongFunctionCallVisitor', 'FloatingNanCallVisitor', 'WrongFunctionCallContextVisitor', 'UnnecessaryLiteralsVisitor']
+  PY: ['UnnecessaryLiteralsVisitor']
+342: ('/wemake_python_styleguide/visitors/ast/functions.py', 'visit_any_function', 'node') 1330 536 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+343: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_unused_variables', 'node') 1332 538 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+344: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_generator', 'node') 1335 544 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+345: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_descriptor_decorators', 'node') 1337 547 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+346: ('/wemake_python_styleguide/visitors/ast/functions.py', 'FunctionSignatureVisitor_class_initializer', '_allowed_default_value_types') 1350 586 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+347: ('/wemake_python_styleguide/visitors/ast/functions.py', 'visit_any_function_and_lambda', 'node') 1352 569 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+348: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_getter_without_return', 'node') 1354 571 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+349: ('/wemake_python_styleguide/visitors/ast/functions.py', '_is_concrete_getter', 'node') 1358 575 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+350: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_positional_arguments', 'node') 1360 577 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+351: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_complex_argument_defaults', 'node') 1362 579 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+352: ('/wemake_python_styleguide/visitors/ast/subscripts.py', 'visit_Subscript', 'self') 1365 592 6 (PY subset PT)
+  PT: ['SubscriptVisitor', 'CorrectKeyVisitor']
+  PY: ['CorrectKeyVisitor']
+353: ('/wemake_python_styleguide/visitors/ast/naming.py', 'check_function_signature', 'node') 1412 637 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+354: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_function', 'node') 1427 662 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+355: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_import', 'node') 1431 666 4 (PY Empty (is_any() is true))
+  PT: ['AnyImport']
+  PY: ['Any']
+356: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_assign', 'self') 1434 671 6 (PY subset PT)
+  PT: ['WrongModuleMetadataVisitor', 'WrongVariableAssignmentVisitor', 'UnusedVariableDefinitionVisitor']
+  PY: ['UnusedVariableDefinitionVisitor']
+357: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_assign', 'node') 1435 672 4 (PY Empty (is_any() is true))
+  PT: ['AnyAssign', 'AnyAssignWithWalrus']
+  PY: ['Any']
+358: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_metadata', 'node') 1437 674 4 (PY Empty (is_any() is true))
+  PT: ['AnyAssign']
+  PY: ['Any']
+359: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_reassignment', 'node') 1440 679 4 (PY Empty (is_any() is true))
+  PT: ['AnyAssign']
+  PY: ['Any']
+360: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_unique_assignment', 'node') 1443 685 4 (PY Empty (is_any() is true))
+  PT: ['AnyAssign']
+  PY: ['Any']
+361: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_for', 'node') 1447 691 4 (PY Empty (is_any() is true))
+  PT: ['AnyFor']
+  PY: ['Any']
+362: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_assign_unused', 'all_names') 1454 700 6 (PY subset PT)
+  PT: ['Iterable[str]', 'list']
+  PY: ['List[str]']
+363: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_assign_unused', 'is_local') 1455 701 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+364: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongStringVisitor_class_initializer', '_modulo_string_pattern') 1463 727 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+365: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'visit_any_string', 'node') 1466 715 4 (PY Empty (is_any() is true))
+  PT: ['AnyText']
+  PY: ['Any']
+366: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_is_alphabet', 'node') 1468 718 4 (PY Empty (is_any() is true))
+  PT: ['AnyText']
+  PY: ['Any']
+367: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_modulo_patterns', 'node') 1474 723 4 (PY Empty (is_any() is true))
+  PT: ['AnyText']
+  PY: ['Any']
+368: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongFormatStringVisitor_class_initializer', '_valid_format_index') 1476 748 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+369: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongFormatStringVisitor_class_initializer', '_single_use_types') 1477 749 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+370: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_is_valid_chaining', 'format_value') 1491 742 4 (PY Empty (is_any() is true))
+  PT: ['AnyChainable']
+  PY: ['Any']
+371: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongNumberVisitor_class_initializer', '_allowed_parents') 1496 761 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+372: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'visit_any_with', 'node') 1506 764 4 (PY Empty (is_any() is true))
+  PT: ['AnyWith']
+  PY: ['Any']
+373: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'visit_any_for', 'node') 1510 769 4 (PY Empty (is_any() is true))
+  PT: ['AnyFor']
+  PY: ['Any']
+374: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_unpacking_targets', 'targets') 1517 777 6 (PY subset PT)
+  PT: ['Iterable[ast.AST]', 'tuple']
+  PY: ['Tuple[_ast.AST, ...]']
+375: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_unpacking_target_types', 'node') 1519 781 6 (PY subset PT)
+  PT: ['Optional[ast.AST]']
+  PY: ['_ast.AST']
+376: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongCollectionVisitor_class_initializer', '_elements_in_sets') 1520 812 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+377: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongCollectionVisitor_class_initializer', '_unhashable_types') 1521 813 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+378: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongCollectionVisitor_class_initializer', '_elements_to_eval') 1522 814 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+379: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'visit_Return', 'self') 1545 822 6 (PY subset PT)
+  PT: ['ConsistentReturningVisitor', 'ConsistentReturningVariableVisitor']
+  PY: ['ConsistentReturningVariableVisitor']
+380: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'visit_any_function', 'self') 1547 824 6 (PY subset PT)
+  PT: ['ConsistentReturningVisitor', 'GeneratorKeywordsVisitor']
+  PY: ['GeneratorKeywordsVisitor']
+381: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'visit_any_function', 'node') 1548 825 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+382: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_iterate_returning_values', 'node') 1553 833 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+383: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_iterate_returning_values', 'violation') 1554 835 4 (PY Empty (is_any() is true))
+  PT: ['_ReturningViolations']
+  PY: ['Any']
+384: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_return_values', 'node') 1556 840 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+385: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_yield_values', 'node') 1558 842 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+386: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'WrongKeywordVisitor_class_initializer', '_forbidden_keywords') 1559 848 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+387: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'visit_any_with', 'node') 1563 852 4 (PY Empty (is_any() is true))
+  PT: ['AnyWith']
+  PY: ['Any']
+388: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_target_assignment', 'node') 1565 854 4 (PY Empty (is_any() is true))
+  PT: ['AnyWith']
+  PY: ['Any']
+389: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'GeneratorKeywordsVisitor_class_initializer', '_allowed_nodes') 1568 875 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+390: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_consecutive_yields', 'node') 1572 863 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+391: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'ConstantKeywordVisitor_class_initializer', '_forbidden_nodes') 1590 901 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+392: ('/wemake_python_styleguide/visitors/ast/imports.py', '_validate_any_import', 'self') 1598 906 5 (PT subset PY)
+  PT: ['_BaseImportValidator']
+  PY: ['_BaseImportValidator', '_ImportFromValidator', '_ImportValidator']
+393: ('/wemake_python_styleguide/visitors/ast/imports.py', '_validate_any_import', 'node') 1599 907 4 (PY Empty (is_any() is true))
+  PT: ['AnyImport']
+  PY: ['Any']
+394: ('/wemake_python_styleguide/visitors/ast/imports.py', '_check_nested_import', 'node') 1601 909 4 (PY Empty (is_any() is true))
+  PT: ['AnyImport']
+  PY: ['Any']
+395: ('/wemake_python_styleguide/visitors/ast/imports.py', '_check_same_alias', 'node') 1603 912 4 (PY Empty (is_any() is true))
+  PT: ['AnyImport']
+  PY: ['Any']
+396: ('/wemake_python_styleguide/visitors/ast/imports.py', 'validate', 'node') 1604 915 6 (PY subset PT)
+  PT: ['ast.Import', 'ast.ImportFrom']
+  PY: ['_ast.ImportFrom']
+397: ('/wemake_python_styleguide/visitors/ast/conditions.py', 'IfStatementVisitor_class_initializer', '_returning_nodes') 1630 992 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+398: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_check_negated_conditions', 'node') 1634 970 4 (PY Empty (is_any() is true))
+  PT: ['AnyIf']
+  PY: ['Any']
+399: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_check_useless_len', 'node') 1641 985 4 (PY Empty (is_any() is true))
+  PT: ['AnyIf']
+  PY: ['Any']
+400: ('/wemake_python_styleguide/visitors/ast/conditions.py', 'visit_BoolOp', 'self') 1644 993 6 (PY subset PT)
+  PT: ['BooleanConditionVisitor', 'ImplicitBoolPatternsVisitor']
+  PY: ['ImplicitBoolPatternsVisitor']
+401: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_comprehension', 'self') 1662 1012 6 (PY subset PT)
+  PT: ['WrongComprehensionVisitor', 'WrongLoopDefinitionVisitor']
+  PY: ['WrongLoopDefinitionVisitor']
+402: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_comprehension', 'node') 1665 1015 4 (PY Empty (is_any() is true))
+  PT: ['AnyComprehension']
+  PY: ['Any']
+403: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_contains_yield', 'node') 1671 1023 4 (PY Empty (is_any() is true))
+  PT: ['AnyComprehension']
+  PY: ['Any']
+404: ('/wemake_python_styleguide/visitors/ast/loops.py', 'WrongLoopVisitor_class_initializer', '_breaks') 1672 1060 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+405: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_comp', 'node') 1675 1031 4 (PY Empty (is_any() is true))
+  PT: ['AnyComprehension']
+  PY: ['Any']
+406: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_loop', 'node') 1677 1033 4 (PY Empty (is_any() is true))
+  PT: ['AnyLoop']
+  PY: ['Any']
+407: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_loop_needs_else', 'node') 1679 1035 4 (PY Empty (is_any() is true))
+  PT: ['AnyLoop']
+  PY: ['Any']
+408: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_lambda_inside_loop', 'node') 1681 1037 4 (PY Empty (is_any() is true))
+  PT: ['Union[AnyLoop, AnyComprehension]']
+  PY: ['Any']
+409: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_useless_continue', 'node') 1685 1045 4 (PY Empty (is_any() is true))
+  PT: ['AnyLoop']
+  PY: ['Any']
+410: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_multiline_loop', 'node') 1688 1052 4 (PY Empty (is_any() is true))
+  PT: ['AnyLoop']
+  PY: ['Any']
+411: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_infinite_while_loop', 'node') 1690 1058 4 (PY Empty (is_any() is true))
+  PT: ['AnyLoop']
+  PY: ['Any']
+412: ('/wemake_python_styleguide/visitors/ast/loops.py', 'WrongLoopDefinitionVisitor_class_initializer', '_forbidden_for_iters') 1691 1077 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+413: ('/wemake_python_styleguide/visitors/ast/loops.py', 'visit_any_for', 'node') 1693 1063 4 (PY Empty (is_any() is true))
+  PT: ['AnyFor']
+  PY: ['Any']
+414: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_explicit_iter_type', 'node') 1697 1067 4 (PY Empty (is_any() is true))
+  PT: ['Union[AnyFor, ast.comprehension]']
+  PY: ['Any']
+415: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_implicit_sum', 'node') 1700 1072 4 (PY Empty (is_any() is true))
+  PT: ['AnyFor']
+  PY: ['Any']
+416: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_implicit_yield_from', 'node') 1702 1075 4 (PY Empty (is_any() is true))
+  PT: ['AnyFor']
+  PY: ['Any']
+417: ('/wemake_python_styleguide/visitors/ast/compares.py', 'visit_Compare', 'self') 1710 1090 6 (PY subset PT)
+  PT: ['CompareSanityVisitor', 'WrongConstantCompareVisitor', 'WrongComparisonOrderVisitor', 'InCompareSanityVisitor', 'WrongFloatComplexCompareVisitor']
+  PY: ['WrongFloatComplexCompareVisitor']
+418: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongConstantCompareVisitor_class_initializer', '_forbidden_for_is') 1727 1121 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+419: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongComparisonOrderVisitor_class_initializer', '_allowed_left_nodes') 1734 1133 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+420: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongComparisonOrderVisitor_class_initializer', '_special_cases') 1735 1134 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+421: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongConditionalVisitor_class_initializer', '_forbidden_nodes') 1747 1155 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+422: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongConditionalVisitor_class_initializer', '_forbidden_expression_parents') 1748 1156 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+423: ('/wemake_python_styleguide/visitors/ast/compares.py', 'visit_any_if', 'node') 1750 1136 4 (PY Empty (is_any() is true))
+  PT: ['AnyIf']
+  PY: ['Any']
+424: ('/wemake_python_styleguide/visitors/ast/compares.py', '_check_constant_condition', 'node') 1752 1138 4 (PY Empty (is_any() is true))
+  PT: ['AnyIf']
+  PY: ['Any']
+425: ('/wemake_python_styleguide/visitors/ast/compares.py', '_check_nested_ifexpr', 'node') 1759 1148 4 (PY Empty (is_any() is true))
+  PT: ['AnyIf']
+  PY: ['Any']
+426: ('/wemake_python_styleguide/visitors/ast/compares.py', 'InCompareSanityVisitor_class_initializer', '_in_nodes') 1769 1175 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+427: ('/wemake_python_styleguide/visitors/ast/compares.py', 'InCompareSanityVisitor_class_initializer', '_wrong_in_comparators') 1770 1176 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+428: ('/wemake_python_styleguide/visitors/ast/compares.py', '_is_float_or_complex', 'node') 1781 1178 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+429: ('/wemake_python_styleguide/visitors/ast/exceptions.py', 'WrongTryExceptVisitor_class_initializer', '_bad_returning_nodes') 1784 1212 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+430: ('/wemake_python_styleguide/visitors/ast/exceptions.py', 'visit_Try', 'self') 1785 1183 6 (PY subset PT)
+  PT: ['WrongTryExceptVisitor', 'NestedTryBlocksVisitor']
+  PY: ['NestedTryBlocksVisitor']
+431: ('/wemake_python_styleguide/visitors/ast/exceptions.py', 'WrongExceptHandlerVisitor_class_initializer', '_trivial_except_arg_nodes') 1801 1227 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+432: ('/wemake_python_styleguide/visitors/ast/modules.py', 'ModuleConstantsVisitor_class_initializer', '_mutable_nodes') 1822 1245 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+433: ('/wemake_python_styleguide/visitors/ast/modules.py', 'visit_any_assign', 'node') 1824 1240 4 (PY Empty (is_any() is true))
+  PT: ['AnyAssign']
+  PY: ['Any']
+434: ('/wemake_python_styleguide/visitors/ast/modules.py', '_check_mutable_constant', 'node') 1826 1242 4 (PY Empty (is_any() is true))
+  PT: ['AnyAssign']
+  PY: ['Any']
+435: ('/wemake_python_styleguide/visitors/ast/modules.py', '_check_mutable_constant', 'targets') 1827 1243 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+436: ('/wemake_python_styleguide/visitors/ast/classes.py', 'WrongClassVisitor_class_initializer', '_allowed_body_nodes') 1828 1266 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[types.AnyNodes]']
+  PY: ['Any']
+437: ('/wemake_python_styleguide/visitors/ast/classes.py', 'visit_ClassDef', 'self') 1829 1246 6 (PY subset PT)
+  PT: ['WrongClassVisitor', 'ClassAttributeVisitor', 'ClassMethodOrderVisitor']
+  PY: ['ClassMethodOrderVisitor']
+438: ('/wemake_python_styleguide/visitors/ast/classes.py', '_is_correct_base_class', 'parts') 1843 1262 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+439: ('/wemake_python_styleguide/visitors/ast/classes.py', '_is_correct_base_class', 'subscripts') 1844 1263 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+440: ('/wemake_python_styleguide/visitors/ast/classes.py', 'visit_any_function', 'node') 1847 1268 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDef']
+  PY: ['Any']
+441: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_decorators', 'node') 1849 1270 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDef']
+  PY: ['Any']
+442: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_bound_methods', 'node') 1851 1274 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDef']
+  PY: ['Any']
+443: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_method_contents', 'node') 1854 1278 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDef']
+  PY: ['Any']
+444: ('/wemake_python_styleguide/visitors/ast/classes.py', '_get_call_stmt_of_useless_method', 'node') 1857 1280 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDef']
+  PY: ['Any']
+445: ('/wemake_python_styleguide/visitors/ast/classes.py', 'WrongSlotsVisitor_class_initializer', '_whitelisted_slots_nodes') 1862 1303 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[types.AnyNodes]']
+  PY: ['Any']
+446: ('/wemake_python_styleguide/visitors/ast/classes.py', 'visit_any_assign', 'node') 1864 1286 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyAssign']
+  PY: ['Any']
+447: ('/wemake_python_styleguide/visitors/ast/classes.py', '_contains_slots_assign', 'node') 1867 1288 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyAssign']
+  PY: ['Any']
+448: ('/wemake_python_styleguide/visitors/ast/classes.py', '_count_slots_items', 'node') 1869 1291 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyAssign']
+  PY: ['Any']
+449: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_slots', 'node') 1873 1298 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyAssign']
+  PY: ['Any']
+450: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_closing_nodes') 1891 1346 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+451: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_have_doc_strings') 1892 1347 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+452: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_blocked_self_assignment') 1893 1348 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+453: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_have_effect') 1894 1350 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+454: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_generally_useless_body') 1895 1351 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+455: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_loop_useless_body') 1896 1352 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+456: ('/wemake_python_styleguide/visitors/ast/statements.py', 'visit_statement_with_body', 'node') 1899 1322 4 (PY Empty (is_any() is true))
+  PT: ['_StatementWithBody']
+  PY: ['Any']
+457: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_useless_node', 'node') 1906 1332 4 (PY Empty (is_any() is true))
+  PT: ['_StatementWithBody']
+  PY: ['Any']
+458: ('/wemake_python_styleguide/visitors/ast/statements.py', 'visit_Call', 'self') 1919 1357 6 (PY subset PT)
+  PT: ['WrongParametersIndentationVisitor', 'PointlessStarredVisitor', 'WrongNamedKeywordVisitor', 'WrongMethodArgumentsVisitor']
+  PY: ['WrongMethodArgumentsVisitor']
+459: ('/wemake_python_styleguide/visitors/ast/statements.py', 'visit_any_function', 'node') 1922 1361 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+460: ('/wemake_python_styleguide/visitors/ast/statements.py', 'PointlessStarredVisitor_class_initializer', '_pointless_star_nodes') 1943 1393 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+461: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_double_starred_dict', 'self') 1946 1386 6 (PY subset PT)
+  PT: ['PointlessStarredVisitor', 'WrongNamedKeywordVisitor']
+  PY: ['WrongNamedKeywordVisitor']
+462: ('/wemake_python_styleguide/visitors/ast/statements.py', 'WrongMethodArgumentsVisitor_class_initializer', '_no_tuples_collections') 1961 1396 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+463: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_named_nodes', 'node') 1967 1400 4 (PY Empty (is_any() is true))
+  PT: ['Union[AnyFunctionDef, ast.ClassDef, ast.ExceptHandler]']
+  PY: ['Any']
+464: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_any_for', 'self') 1968 1402 6 (PY subset PT)
+  PT: ['BlockVariableVisitor', 'AfterBlockVariablesVisitor']
+  PY: ['AfterBlockVariablesVisitor']
+465: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_any_for', 'node') 1969 1403 4 (PY Empty (is_any() is true))
+  PT: ['AnyFor']
+  PY: ['Any']
+466: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_withitem', 'self') 1972 1409 6 (PY subset PT)
+  PT: ['BlockVariableVisitor', 'AfterBlockVariablesVisitor']
+  PY: ['AfterBlockVariablesVisitor']
+467: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_locals', 'node') 1975 1414 4 (PY Empty (is_any() is true))
+  PT: ['Union[AnyAssignWithWalrus, ast.arg]']
+  PY: ['Any']
+468: ('/wemake_python_styleguide/visitors/ast/operators.py', 'UselessOperatorsVisitor_class_initializer', '_zero_divisors') 1994 1482 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+469: ('/wemake_python_styleguide/visitors/ast/operators.py', 'visit_BinOp', 'self') 1997 1452 6 (PY subset PT)
+  PT: ['UselessOperatorsVisitor', 'WrongMathOperatorVisitor', 'BitwiseOpVisitor']
+  PY: ['BitwiseOpVisitor']
+470: ('/wemake_python_styleguide/visitors/ast/operators.py', 'visit_AugAssign', 'self') 1999 1454 6 (PY subset PT)
+  PT: ['UselessOperatorsVisitor', 'WrongMathOperatorVisitor']
+  PY: ['WrongMathOperatorVisitor']
+471: ('/wemake_python_styleguide/visitors/ast/operators.py', '_check_zero_division', 'number') 2005 1463 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+472: ('/wemake_python_styleguide/visitors/ast/operators.py', 'WrongMathOperatorVisitor_class_initializer', '_string_nodes') 2015 1490 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+473: ('/wemake_python_styleguide/visitors/ast/operators.py', 'WrongMathOperatorVisitor_class_initializer', '_list_nodes') 2016 1491 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+474: ('/wemake_python_styleguide/visitors/ast/operators.py', 'visit_NamedExpr', 'node') 2027 1493 4 (PY Empty (is_any() is true))
+  PT: ['NamedExpr']
+  PY: ['Any']
+475: ('/wemake_python_styleguide/visitors/ast/operators.py', 'BitwiseOpVisitor_class_initializer', '_invalid_nodes') 2028 1496 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+476: ('/wemake_python_styleguide/visitors/ast/annotations.py', 'visit_any_function', 'node') 2035 1501 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+477: ('/wemake_python_styleguide/visitors/ast/annotations.py', '_check_return_annotation', 'node') 2039 1505 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+478: ('/wemake_python_styleguide/visitors/ast/iterables.py', 'IterableUnpackingVisitor_class_initializer', '_unpackable_iterable_parent_types') 2042 1517 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+479: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'visit_any_string', 'node') 2049 1522 4 (PY Empty (is_any() is true))
+  PT: ['AnyText']
+  PY: ['Any']
+480: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', '_check_string_constant', 'node') 2051 1524 4 (PY Empty (is_any() is true))
+  PT: ['AnyText']
+  PY: ['Any']
+481: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'ExpressionOveruseVisitor_class_initializer', '_expressions') 2052 1541 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+482: ('/wemake_python_styleguide/visitors/ast/complexity/access.py', 'AccessVisitor_class_initializer', '_access_nodes') 2055 1560 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+483: ('/wemake_python_styleguide/visitors/ast/complexity/access.py', '_check_consecutive_access_number', 'node') 2064 1557 4 (PY Empty (is_any() is true))
+  PT: ['AnyAccess']
+  PY: ['Any']
+484: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '_visit_any_import', 'node') 2081 1583 4 (PY Empty (is_any() is true))
+  PT: ['AnyImport']
+  PY: ['Any']
+485: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', 'visit_any_function', 'node') 2090 1601 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+486: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', '_check_method', 'node') 2092 1603 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+487: ('/wemake_python_styleguide/visitors/ast/complexity/annotations.py', 'visit_any_function', 'node') 2094 1609 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+488: ('/wemake_python_styleguide/visitors/ast/complexity/annotations.py', '_check_function_annotations_complexity', 'node') 2098 1613 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+489: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_ComplexityCounter_class_initializer', '_not_contain_locals') 2111 1652 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[AnyNodes]']
+  PY: ['Any']
+490: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'check_arguments_count', 'node') 2113 1635 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+491: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'check_function_complexity', 'node') 2115 1637 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+492: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_update_variables', 'function') 2117 1641 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+493: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_check_sub_node', 'node') 2120 1647 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+494: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'visit_any_function', 'self') 2123 1655 6 (PY subset PT)
+  PT: ['FunctionComplexityVisitor', 'CognitiveComplexityVisitor']
+  PY: ['CognitiveComplexityVisitor']
+495: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'visit_any_function', 'node') 2124 1656 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+496: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', 'visit_any_function', 'node') 2130 1698 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+497: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', '_check_nested_function', 'node') 2134 1702 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+498: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', 'visit_module_members', 'node') 2146 1721 4 (PY Empty (is_any() is true))
+  PT: ['_ModuleMembers']
+  PY: ['Any']
+499: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_check_members_count', 'node') 2148 1723 4 (PY Empty (is_any() is true))
+  PT: ['_ModuleMembers']
+  PY: ['Any']
+500: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_check_decorators_count', 'node') 2150 1726 4 (PY Empty (is_any() is true))
+  PT: ['_ModuleMembers']
+  PY: ['Any']
+501: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_bad_number_suffixes') 2188 1795 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+502: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_leading_zero_pattern') 2189 1796 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+503: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_leading_zero_float_pattern') 2190 1797 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+504: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_positive_exponent_patterns') 2191 1798 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+505: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_float_zero') 2194 1801 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+506: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongStringTokenVisitor_class_initializer', '_implicit_raw_strings') 2209 1832 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+507: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', '_check_wrong_unicode_escape', 'index') 2220 1824 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+508: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'WrongCommentVisitor_class_initializer', '_no_cover') 2260 1947 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+509: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'WrongCommentVisitor_class_initializer', '_type_check') 2261 1948 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+510: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'visit_comment', 'self') 2262 1933 6 (PY subset PT)
+  PT: ['WrongCommentVisitor', 'EmptyCommentVisitor', 'ShebangVisitor', 'NoqaVisitor']
+  PY: ['NoqaVisitor']
+511: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'ShebangVisitor_class_initializer', '_shebang') 2277 1970 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+512: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'NoqaVisitor_class_initializer', '_noqa_check') 2290 1985 4 (PY Empty (is_any() is true))
+  PT: ['ClassVar[Pattern]']
+  PY: ['Any']
+513: ('/wemake_python_styleguide/compat/functions.py', 'get_assign_targets', 'node') 2296 1988 4 (PY Empty (is_any() is true))
+  PT: ['Union[AnyAssignWithWalrus, ast.AugAssign]']
+  PY: ['Any']
+514: ('/wemake_python_styleguide/compat/functions.py', 'get_posonlyargs', 'node') 2298 1989 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+515: ('/wemake_python_styleguide/compat/nodes.py', 'NamedExpr_class_initializer', 'value') 2299 2004 4 (PY Empty (is_any() is true))
+  PT: ['ast.expr']
+  PY: ['Any']
+516: ('/wemake_python_styleguide/compat/nodes.py', 'NamedExpr_class_initializer', 'target') 2300 2005 4 (PY Empty (is_any() is true))
+  PT: ['ast.expr']
+  PY: ['Any']
+517: ('/wemake_python_styleguide/compat/nodes.py', 'Constant_class_initializer', 'value') 2301 2006 2 (Both Empty)
+  PT: ['Any']
+  PY: ['Any']
+518: ('/wemake_python_styleguide/compat/nodes.py', 'Constant_class_initializer', 's') 2303 2008 2 (Both Empty)
+  PT: ['Any']
+  PY: ['Any']
+519: ('/wemake_python_styleguide/logic/walk.py', 'is_contained', 'to_check') 2319 2059 4 (PY Empty (is_any() is true))
+  PT: ['_IsInstanceContainer']
+  PY: ['Any']
+520: ('/wemake_python_styleguide/logic/walk.py', 'get_subnodes_by_type', 'subnodes_type') 2326 2068 4 (PY Empty (is_any() is true))
+  PT: ['Type[_SubnodeType]']
+  PY: ['Any']
+521: ('/wemake_python_styleguide/logic/safe_eval.py', '_convert_iterable', 'node') 2332 2079 6 (PY subset PT)
+  PT: ['Union[ast.Tuple, ast.List, ast.Set, ast.Dict]']
+  PY: ['_ast.Dict']
+522: ('/wemake_python_styleguide/logic/safe_eval.py', 'literal_eval_with_names', 'literal_eval_with_names_ret') 2334 51 2 (Both Empty)
+  PT: ['Any']
+  PY: ['Any']
+523: ('/wemake_python_styleguide/logic/tree/functions.py', 'get_all_arguments', 'node') 2342 2093 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+524: ('/wemake_python_styleguide/logic/tree/functions.py', 'is_first_argument', 'node') 2345 2095 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDefAndLambda']
+  PY: ['Any']
+525: ('/wemake_python_styleguide/logic/tree/functions.py', 'is_generator', 'node') 2349 2098 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+526: ('/wemake_python_styleguide/logic/tree/functions.py', 'get_function_exit_nodes', 'node') 2351 2100 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+527: ('/wemake_python_styleguide/logic/tree/attributes.py', '_chained_item', '_chained_item_ret') 2353 76 4 (PY Empty (is_any() is true))
+  PT: ['Optional[ast.AST]']
+  PY: ['Any']
+528: ('/wemake_python_styleguide/logic/tree/attributes.py', '_chained_item', 'iterator') 2354 2107 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+529: ('/wemake_python_styleguide/logic/tree/variables.py', 'get_variable_name', 'node') 2359 2108 4 (PY Empty (is_any() is true))
+  PT: ['_LocalVariable']
+  PY: ['Any']
+530: ('/wemake_python_styleguide/logic/tree/variables.py', 'is_valid_block_variable_definition', 'node') 2361 2109 4 (PY Empty (is_any() is true))
+  PT: ['_VarDefinition']
+  PY: ['Any']
+531: ('/wemake_python_styleguide/logic/tree/variables.py', '_is_valid_single', 'node') 2363 2110 4 (PY Empty (is_any() is true))
+  PT: ['_VarDefinition']
+  PY: ['Any']
+532: ('/wemake_python_styleguide/logic/tree/keywords.py', 'returning_nodes', 'node') 2365 2113 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+533: ('/wemake_python_styleguide/logic/tree/keywords.py', 'node_returns_bool_const', 'node') 2369 2119 4 (PY Empty (is_any() is true))
+  PT: ['ast.stmt']
+  PY: ['Any']
+534: ('/wemake_python_styleguide/logic/tree/imports.py', 'ImportedObjectInfo_class_initializer', 'node') 2377 2127 4 (PY Empty (is_any() is true))
+  PT: ['AnyImport']
+  PY: ['Any']
+535: ('/wemake_python_styleguide/logic/tree/imports.py', 'get_import_parts', 'node') 2379 2128 4 (PY Empty (is_any() is true))
+  PT: ['AnyImport']
+  PY: ['Any']
+536: ('/wemake_python_styleguide/logic/tree/imports.py', 'is_nested_typing_import', 'parent') 2384 2134 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+537: ('/wemake_python_styleguide/logic/tree/loops.py', '_does_loop_contain_node', 'loop') 2386 2136 4 (PY Empty (is_any() is true))
+  PT: ['Optional[AnyLoop]']
+  PY: ['Any']
+538: ('/wemake_python_styleguide/logic/tree/loops.py', '_does_loop_contain_node', 'to_check') 2387 2137 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+539: ('/wemake_python_styleguide/logic/tree/loops.py', 'has_break', 'node') 2389 2139 4 (PY Empty (is_any() is true))
+  PT: ['AnyLoop']
+  PY: ['Any']
+540: ('/wemake_python_styleguide/logic/tree/loops.py', 'has_break', 'break_nodes') 2390 2140 4 (PY Empty (is_any() is true))
+  PT: ['AnyNodes']
+  PY: ['Any']
+541: ('/wemake_python_styleguide/logic/tree/stubs.py', 'is_stub', 'node') 2392 2144 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+542: ('/wemake_python_styleguide/logic/tree/stubs.py', '_is_stub_with_docstring', 'node') 2394 2146 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+543: ('/wemake_python_styleguide/logic/tree/stubs.py', '_is_stub_without_docstring', 'node') 2397 2148 4 (PY Empty (is_any() is true))
+  PT: ['AnyFunctionDef']
+  PY: ['Any']
+544: ('/wemake_python_styleguide/logic/tree/stubs.py', '_is_ellipsis', 'node') 2399 2149 4 (PY Empty (is_any() is true))
+  PT: ['AST']
+  PY: ['Any']
+545: ('/wemake_python_styleguide/logic/tree/collections.py', 'normalize_dict_elements', 'normalize_dict_elements_ret') 2400 70 6 (PY subset PT)
+  PT: ['Sequence[ast.AST]', 'List[ast.AST]']
+  PY: ['Sequence[_ast.AST]']
+546: ('/wemake_python_styleguide/logic/tree/collections.py', 'first', 'default') 2409 2162 4 (PY Empty (is_any() is true))
+  PT: ['Optional[_DefaultType]']
+  PY: ['Optional[Any]']
+547: ('/wemake_python_styleguide/logic/tree/compares.py', 'get_similar_operators', 'operator') 2413 2167 4 (PY Empty (is_any() is true))
+  PT: ['ast.cmpop']
+  PY: ['Any']
+548: ('/wemake_python_styleguide/logic/tree/compares.py', '__init__', 'node') 2415 2170 4 (PY Empty (is_any() is true))
+  PT: ['ast.BoolOp']
+  PY: ['Any']
+549: ('/wemake_python_styleguide/logic/tree/compares.py', '_find_lower_upper_bounds', 'comparison_node') 2424 2180 4 (PY Empty (is_any() is true))
+  PT: ['ast.Compare']
+  PY: ['Any']
+550: ('/wemake_python_styleguide/logic/tree/compares.py', '_mutate', 'comparison_node') 2426 2187 4 (PY Empty (is_any() is true))
+  PT: ['ast.Compare']
+  PY: ['Any']
+551: ('/wemake_python_styleguide/logic/tree/compares.py', '_mutate', 'operator') 2427 2188 4 (PY Empty (is_any() is true))
+  PT: ['ast.cmpop']
+  PY: ['Any']
+552: ('/wemake_python_styleguide/logic/tree/exceptions.py', 'get_exception_name', 'node') 2431 2196 4 (PY Empty (is_any() is true))
+  PT: ['ast.Raise']
+  PY: ['Any']
+553: ('/wemake_python_styleguide/logic/tree/exceptions.py', 'get_all_exception_names', 'node') 2433 2199 4 (PY Empty (is_any() is true))
+  PT: ['ast.Try']
+  PY: ['Any']
+554: ('/wemake_python_styleguide/logic/tree/exceptions.py', 'find_returning_nodes', 'node') 2437 2206 4 (PY Empty (is_any() is true))
+  PT: ['ast.Try']
+  PY: ['Any']
+555: ('/wemake_python_styleguide/logic/tree/exceptions.py', 'find_returning_nodes', 'bad_returning_nodes') 2438 2207 4 (PY Empty (is_any() is true))
+  PT: ['AnyNodes']
+  PY: ['Any']
+556: ('/wemake_python_styleguide/logic/tree/classes.py', 'is_forbidden_super_class', 'class_name') 2440 2214 6 (PY subset PT)
+  PT: ['Optional[str]']
+  PY: ['str']
+557: ('/wemake_python_styleguide/logic/tree/classes.py', 'get_attributes', 'get_attributes_ret') 2441 99 6 (PY subset PT)
+  PT: ['_AllAttributes', 'tuple']
+  PY: ['Tuple[list, list]']
+558: ('/wemake_python_styleguide/logic/tree/classes.py', 'get_attributes', 'node') 2442 2215 4 (PY Empty (is_any() is true))
+  PT: ['ast.ClassDef']
+  PY: ['Any']
+559: ('/wemake_python_styleguide/logic/tree/classes.py', '_get_instance_attribute', '_get_instance_attribute_ret') 2445 98 4 (PY Empty (is_any() is true))
+  PT: ['Optional[ast.Attribute]']
+  PY: ['Any']
+560: ('/wemake_python_styleguide/logic/tree/classes.py', '_get_instance_attribute', 'node') 2446 2221 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+561: ('/wemake_python_styleguide/logic/tree/classes.py', '_get_class_attribute', '_get_class_attribute_ret') 2447 97 4 (PY Empty (is_any() is true))
+  PT: ['Optional[AnyAssign]']
+  PY: ['Any']
+562: ('/wemake_python_styleguide/logic/tree/classes.py', '_get_class_attribute', 'node') 2448 2222 4 (PY Empty (is_any() is true))
+  PT: ['ast.ClassDef']
+  PY: ['Any']
+563: ('/wemake_python_styleguide/logic/tree/classes.py', '_get_class_attribute', 'subnode') 2449 2223 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+564: ('/wemake_python_styleguide/logic/tree/slices.py', 'is_same_slice', 'node') 2453 2227 4 (PY Empty (is_any() is true))
+  PT: ['ast.Subscript']
+  PY: ['Any']
+565: ('/wemake_python_styleguide/logic/tree/ifs.py', 'is_elif', 'node') 2455 2233 4 (PY Empty (is_any() is true))
+  PT: ['ast.If']
+  PY: ['Any']
+566: ('/wemake_python_styleguide/logic/tree/ifs.py', 'has_elif', 'node') 2457 2234 4 (PY Empty (is_any() is true))
+  PT: ['ast.If']
+  PY: ['Any']
+567: ('/wemake_python_styleguide/logic/tree/ifs.py', 'has_else', 'node') 2459 2235 4 (PY Empty (is_any() is true))
+  PT: ['ast.If']
+  PY: ['Any']
+568: ('/wemake_python_styleguide/logic/tree/ifs.py', 'root_if', 'root_if_ret') 2460 86 4 (PY Empty (is_any() is true))
+  PT: ['Optional[ast.If]']
+  PY: ['Any']
+569: ('/wemake_python_styleguide/logic/tree/ifs.py', 'root_if', 'node') 2461 2237 4 (PY Empty (is_any() is true))
+  PT: ['ast.If']
+  PY: ['Any']
+570: ('/wemake_python_styleguide/logic/tree/ifs.py', 'has_nodes', 'to_check') 2466 2238 4 (PY Empty (is_any() is true))
+  PT: ['AnyNodes']
+  PY: ['Any']
+571: ('/wemake_python_styleguide/logic/tree/operators.py', 'unwrap_unary_node', 'node') 2469 2241 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+572: ('/wemake_python_styleguide/logic/tree/operators.py', 'unwrap_starred_node', 'node') 2471 2242 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+573: ('/wemake_python_styleguide/logic/tree/operators.py', 'get_parent_ignoring_unary', 'node') 2473 2243 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+574: ('/wemake_python_styleguide/logic/tree/operators.py', 'count_unary_operator', 'node') 2475 2245 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+575: ('/wemake_python_styleguide/logic/tree/operators.py', 'count_unary_operator', 'operator') 2476 2246 4 (PY Empty (is_any() is true))
+  PT: ['Type[ast.unaryop]']
+  PY: ['Any']
+576: ('/wemake_python_styleguide/logic/tree/calls.py', '_chained_item', '_chained_item_ret') 2478 92 4 (PY Empty (is_any() is true))
+  PT: ['Optional[ast.Call]']
+  PY: ['Any']
+577: ('/wemake_python_styleguide/logic/tree/calls.py', '_chained_item', 'iterator') 2479 2249 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+578: ('/wemake_python_styleguide/logic/tree/strings.py', 'is_doc_string', 'node') 2485 2251 4 (PY Empty (is_any() is true))
+  PT: ['ast.AST']
+  PY: ['Any']
+579: ('/wemake_python_styleguide/logic/complexity/overuses.py', 'is_self', 'self_node') 2502 2267 6 (PY subset PT)
+  PT: ['Union[ast.Attribute, ast.Subscript, None]', 'ast.AST']
+  PY: ['Optional[Union[_ast.Attribute, _ast.Subscript]]']
+580: ('/wemake_python_styleguide/logic/scopes/defs.py', '__init__', 'self') 2532 2334 5 (PT subset PY)
+  PT: ['_BaseScope']
+  PY: ['BlockScope', 'OuterScope', '_BaseScope']
+581: ('/wemake_python_styleguide/logic/scopes/defs.py', 'add_to_scope', 'self') 2534 2338 6 (PY subset PT)
+  PT: ['_BaseScope', 'BlockScope', 'OuterScope']
+  PY: ['OuterScope']
+582: ('/wemake_python_styleguide/logic/scopes/defs.py', 'shadowing', 'self') 2537 2342 6 (PY subset PT)
+  PT: ['_BaseScope', 'BlockScope', 'OuterScope']
+  PY: ['OuterScope']
+583: ('/wemake_python_styleguide/logic/scopes/defs.py', '_exclude_unused', 'self') 2540 2336 5 (PT subset PY)
+  PT: ['_BaseScope']
+  PY: ['BlockScope', 'OuterScope', '_BaseScope']
+584: ('/wemake_python_styleguide/logic/arguments/call_args.py', 'get_all_args', 'get_all_args_ret') 2567 156 6 (PY subset PT)
+  PT: ['Sequence[ast.AST]', 'list']
+  PY: ['Sequence[_ast.AST]']
+585: ('/wemake_python_styleguide/logic/arguments/super_args.py', '_get_keyword_args_by_names', 'names') 2576 2376 7 (etc)
+  PT: ['str']
+  PY: ['Tuple[str, ...]']
+
+AM: Both, args
+
+586: ('/wemake_python_styleguide/logic/arguments/super_args.py', '_get_super_call', '_get_super_call_ret') 2584 153 6 (PY subset PT)
+  PT: ['Optional[ast.Call]', 'ast.AST']
+  PY: ['Optional[_ast.Call]']
+587: ('/wemake_python_styleguide/logic/arguments/function_args.py', 'is_call_matched_by_arguments', 'node') 2587 2387 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDefAndLambda']
+  PY: ['Any']
+588: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_get_args_without_special_argument', 'node') 2590 2393 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDefAndLambda']
+  PY: ['Any']
+589: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_vararg', 'node') 2592 2395 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDefAndLambda']
+  PY: ['Any']
+590: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_vararg', 'vararg_name') 2594 2397 4 (PY Empty (is_any() is true))
+  PT: ['Optional[str]']
+  PY: ['Optional[Any]']
+591: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_kwarg', 'node') 2596 2399 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDefAndLambda']
+  PY: ['Any']
+592: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_kwarg', 'kwarg_name') 2598 2401 4 (PY Empty (is_any() is true))
+  PT: ['Optional[str]']
+  PY: ['Optional[Any]']
+593: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_args', 'node') 2600 2404 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDefAndLambda']
+  PY: ['Any']
+594: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_kw_args', 'node') 2607 2414 4 (PY Empty (is_any() is true))
+  PT: ['types.AnyFunctionDefAndLambda']
+  PY: ['Any']

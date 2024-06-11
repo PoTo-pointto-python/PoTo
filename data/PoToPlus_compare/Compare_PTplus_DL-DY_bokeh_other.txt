@@ -1,0 +1,414 @@
+0: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'microseconds') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+1: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'milliseconds') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+2: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'seconds') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+3: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'minsec') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+4: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'minutes') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+5: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'hourmin') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+6: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'hours') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+7: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'days') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+8: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'months') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+9: ('/bokeh/models/formatters.py', 'DatetimeTickFormatter_class_initializer', 'years') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+10: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'annular_wedge') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+11: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'annulus') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+12: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'arc') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+13: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'asterisk') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+14: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'bezier') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+15: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'circle') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+16: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'circle_cross') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+17: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'circle_x') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+18: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'cross') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+19: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'dash') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+20: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'diamond') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+21: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'diamond_cross') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+22: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'graph') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+23: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'harea') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+24: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'harea_stack') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+25: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'hbar') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+26: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'hbar_stack') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+27: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'hline_stack') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+28: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'ellipse') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+29: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'hex') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+30: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'hexbin') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+31: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'hex_tile') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+32: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'image') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+33: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'image_rgba') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+34: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'image_url') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+35: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'inverted_triangle') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+36: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'line') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+37: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'multi_line') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+38: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'multi_polygons') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+39: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'oval') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+40: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'patch') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+41: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'patches') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+42: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'quad') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+43: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'quadratic') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+44: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'ray') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+45: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'rect') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+46: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'step') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+47: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'scatter') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+48: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'segment') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+49: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'square') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+50: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'square_cross') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+51: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'square_x') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+52: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'text') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+53: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'triangle') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+54: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'varea') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+55: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'varea_stack') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+56: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'vbar') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+57: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'vbar_stack') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+58: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'vline_stack') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+59: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'wedge') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+60: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', 'x') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+61: ('/bokeh/models/mappers.py', 'ColorMapper_class_initializer', 'palette') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['Seq']
+62: ('/bokeh/resources.py', 'BaseResources_class_initializer', '_default_root_url') 6 (DL subset PT)
+  PT: ['str', 'tuple']
+  DL: ['str']
+63: ('/bokeh/models/annotations.py', 'Label_class_initializer', 'x') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['Float']
+64: ('/bokeh/models/annotations.py', 'Label_class_initializer', 'y') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['Float']
+65: ('/bokeh/models/annotations.py', 'Span_class_initializer', 'location') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['Float']
+66: ('/bokeh/models/layouts.py', 'LayoutDOM_class_initializer', 'margin') 3 (PT Empty)
+  PT: []
+  DL: ['Tuple']
+67: ('/bokeh/models/layouts.py', 'LayoutDOM_class_initializer', 'css_classes') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+68: ('/bokeh/models/layouts.py', 'Tabs_class_initializer', 'tabs') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['List']
+69: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'CARTODBPOSITRON') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+70: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'CARTODBPOSITRON_RETINA') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+71: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'STAMEN_TERRAIN') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+72: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'STAMEN_TERRAIN_RETINA') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+73: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'STAMEN_TONER') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+74: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'STAMEN_TONER_BACKGROUND') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+75: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'STAMEN_TONER_LABELS') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+76: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'OSM') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+77: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'WIKIMEDIA') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+78: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', 'ESRI_IMAGERY') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+79: ('/bokeh/models/sources.py', 'ColumnDataSource_class_initializer', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['ColumnData']
+80: ('/bokeh/server/views/root_handler.py', 'RootHandler_class_initializer', 'get_login_url') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+81: ('/bokeh/server/views/root_handler.py', 'RootHandler_class_initializer', 'get_current_user') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+82: ('/bokeh/server/views/root_handler.py', 'RootHandler_class_initializer', 'prepare') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+83: ('/bokeh/server/views/session_handler.py', 'SessionHandler_class_initializer', 'get_login_url') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+84: ('/bokeh/server/views/session_handler.py', 'SessionHandler_class_initializer', 'get_current_user') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+85: ('/bokeh/server/views/session_handler.py', 'SessionHandler_class_initializer', 'prepare') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+86: ('/bokeh/models/tools.py', 'HoverTool_class_initializer', 'tooltips') 6 (DL subset PT)
+  PT: ['AngleSpec', 'ColumnData', 'DistanceSpec', 'Either', 'Float', 'Instance', 'List', 'NumberSpec', 'PropertyUnitsSpec', 'ScreenDistanceSpec', 'Seq', 'Tuple']
+  DL: ['Either']
+87: ('/bokeh/model.py', '_visit_value_and_its_immediate_references', 'typ') 7 (etc)
+  PT: ['list', 'str']
+  DL: ['bokeh']
+88: ('/bokeh/model.py', '_visit_immediate_value_references', 'child') 3 (PT Empty)
+  PT: []
+  DL: ['LinearAxis']
+89: ('/bokeh/util/callback_manager.py', 'invoke', 'callbacks') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+90: ('/bokeh/settings.py', 'convert_logging', 'value') 6 (DL subset PT)
+  PT: ['None', 'int', 'str']
+  DL: ['str']
+91: ('/bokeh/layouts.py', '_parse_children_arg', 'children') 7 (etc)
+  PT: ['list']
+  DL: ['NoneType']
+92: ('/bokeh/_version.py', 'git_versions_from_keywords', 'refnames') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+93: ('/bokeh/core/property/either.py', '__init__', 'help') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType|str']
+94: ('/bokeh/core/property/enum.py', '__init__', 'enum') 7 (etc)
+  PT: ['str']
+  DL: ['bokeh.core.enums.Enumeration']
+95: ('/bokeh/core/property/enum.py', '__init__', 'default') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType|str']
+96: ('/bokeh/core/property/enum.py', '__init__', 'help') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType|str']
+97: ('/bokeh/core/has_props.py', 'apply_theme', 'old_dict') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+98: ('/bokeh/core/has_props.py', 'apply_theme', 'descriptor') 3 (PT Empty)
+  PT: []
+  DL: ['DataSpecPropertyDescriptor']
+99: ('/bokeh/plotting/_plot.py', 'process_axis_and_grid', 'axiscls') 7 (etc)
+  PT: ['CategoricalAxis', 'DatetimeAxis', 'LinearAxis', 'LogAxis', 'MercatorAxis', 'None']
+  DL: ['MetaHasProps']
+100: ('/bokeh/plotting/_plot.py', 'process_axis_and_grid', 'axis') 6 (DL subset PT)
+  PT: ['CategoricalAxis', 'DatetimeAxis', 'LinearAxis', 'LogAxis', 'MercatorAxis']
+  DL: ['LinearAxis']
+101: ('/bokeh/layouts.py', 'row', 'sizing_mode') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+102: ('/bokeh/layouts.py', 'row', 'children') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['NoneType', 'list']
+103: ('/bokeh/plotting/_tools.py', '_resolve_tools', 'tool_obj') 3 (PT Empty)
+  PT: []
+  DL: ['ResetTool']
+104: ('/bokeh/resources.py', '_get_cdn_urls', '_minified') 6 (DL subset PT)
+  PT: ['bool', 'str']
+  DL: ['str']
+105: ('/bokeh/resources.py', '_get_cdn_urls', '_legacy') 6 (DL subset PT)
+  PT: ['bool', 'str']
+  DL: ['str']
+106: ('/bokeh/resources.py', '_get_cdn_urls', 'container') 6 (DL subset PT)
+  PT: ["<re.Match object; span=(0, 8), match='0.0.1dev'>", 'str']
+  DL: ['str']
+107: ('/bokeh/core/property/bases.py', 'validate', 'msg') 6 (DL subset PT)
+  PT: ['bool', 'str', 'tuple']
+  DL: ['str']
+108: ('/bokeh/core/property/container.py', 'validate', 'msg') 6 (DL subset PT)
+  PT: ['bool', 'str', 'tuple']
+  DL: ['str']
+109: ('/bokeh/core/property/enum.py', 'validate', 'msg') 6 (DL subset PT)
+  PT: ['bool', 'str', 'tuple']
+  DL: ['str']
+110: ('/bokeh/core/property/instance.py', 'instance_type', 'module') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+111: ('/bokeh/core/property/instance.py', 'instance_type', 'name') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+112: ('/bokeh/plotting/_decorators.py', 'decorator', 'parameters') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+113: ('/bokeh/plotting/_docstring.py', '_docstring_header', 'module') 6 (DL subset PT)
+  PT: ['bool', 'str']
+  DL: ['str']
+114: ('/bokeh/plotting/_docstring.py', '_add_arglines', 'default') 5 (PT subset DL)
+  PT: ['None', 'bool']
+  DL: ['bool|NoneType|bokeh.core.property.wrappers.PropertyValueList|list|int|str|dict|bokeh.core.property.wrappers.PropertyValueDict|float']
+115: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'selection_visuals') 6 (DL subset PT)
+  PT: ['None', 'dict']
+  DL: ['NoneType']
+116: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'hover_visuals') 6 (DL subset PT)
+  PT: ['None', 'dict']
+  DL: ['NoneType']
+117: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'muted_visuals') 6 (DL subset PT)
+  PT: ['None', 'dict']
+  DL: ['NoneType']
+118: ('/bokeh/plotting/_renderer.py', '_process_sequence_literals', 'dataspecs') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+119: ('/bokeh/plotting/_renderer.py', 'split_feature_trait', 'ft') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+120: ('/bokeh/core/has_props.py', 'query_properties_with_values', 'descriptor') 3 (PT Empty)
+  PT: []
+  DL: ['BasicPropertyDescriptor']
+121: ('/bokeh/core/has_props.py', 'query_properties_with_values', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['BoxAnnotation']
+122: ('/bokeh/plotting/_legends.py', '_handle_legend_label', 'item') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+123: ('/bokeh/core/property/descriptors.py', 'serializable_value', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['BoxAnnotation']
+124: ('/bokeh/core/property/descriptors.py', 'trigger_if_changed', 'new_value') 7 (etc)
+  PT: ['BasicPropertyDescriptor']
+  DL: ['int|str|float']
+125: ('/bokeh/sampledata/autompg.py', '_clean_data', 'df') 3 (PT Empty)
+  PT: []
+  DL: ['pandas']
+126: ('/bokeh/core/property/struct.py', '__init__', 'default') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+127: ('/bokeh/core/property/struct.py', '__init__', 'help') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+128: ('/bokeh/command/subcommands/__init__.py', '_collect', 'attr') 7 (etc)
+  PT: ['None']
+  DL: ['Settings']
+129: ('/bokeh/core/property/descriptors.py', '_internal_set', 'old') 7 (etc)
+  PT: ['BasicPropertyDescriptor']
+  DL: ['NoneType|bokeh.core.property.wrappers.PropertyValueList|list|int|bokeh.models.scales.LinearScale|str|bokeh.models.ranges.DataRange1d|dict|float']
+130: ('/bokeh/core/property/descriptors.py', '_get_default', 'default') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType|bokeh.models.formatters.BasicTickFormatter|int|bokeh.models.scales.LinearScale|bokeh.models.tools.Toolbar|bokeh.models.annotations.Title|bokeh.core.property.wrappers.PropertyValueList|bokeh.models.ranges.DataRange1d|bokeh.core.property.wrappers.PropertyValueDict|float|bokeh.core.property.wrappers.PropertyValueColumnData|bokeh.models.selections.UnionRenderers|str|bokeh.models.selections.Selection|bokeh.models.annotations.BoxAnnotation|bool|list|bokeh.models.tickers.BasicTicker|dict']
+131: ('/bokeh/core/property/descriptors.py', '_get_default', 'unstable_dict') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+132: ('/bokeh/core/property/descriptors.py', '_real_set', 'old_attr_value') 7 (etc)
+  PT: ['BasicPropertyDescriptor']
+  DL: ['NoneType|bokeh.core.property.wrappers.PropertyValueList|list|int|bokeh.models.scales.LinearScale|str|bokeh.models.ranges.DataRange1d|dict|float']
+133: ('/bokeh/settings.py', 'secret_key_bytes', 'key') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+134: ('/bokeh/core/property/wrappers.py', 'update', 'result') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+135: ('/bokeh/core/property/visual.py', 'transform', 'value') 6 (DL subset PT)
+  PT: ['None', 'int', 'list']
+  DL: ['list']
+136: ('/bokeh/core/property/bases.py', 'prepare_value', 'obj') 7 (etc)
+  PT: ['HasProps']
+  DL: ['BoxAnnotation']
+137: ('/bokeh/core/property/bases.py', 'prepare_value', 'result') 7 (etc)
+  PT: ['list']
+  DL: ['bool']

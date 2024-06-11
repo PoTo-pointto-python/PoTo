@@ -1,0 +1,3 @@
+0: ('/wemake_python_styleguide/violations/naming.py', 'TooShortNameViolation_class_initializer', 'postfix_template') 3 (PT Empty)
+  PT: []
+  DL: ['wemake_python_styleguide.violations.base.ViolationPostfixes']

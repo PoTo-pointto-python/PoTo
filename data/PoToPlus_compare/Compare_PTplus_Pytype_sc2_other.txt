@@ -1,0 +1,2370 @@
+0: ('/generate_id_constants_from_stableid.py', 'module_initializer', 'data') 7 235 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+1: ('/setup.py', 'module_initializer', 'pfile') 8 236 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+2: ('/setup.py', 'module_initializer', 'requirements') 9 237 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+3: ('/setup.py', 'module_initializer', 'test_requirements') 10 238 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+4: ('/generate_id_constants.py', 'module_initializer', 'r') 13 259 7 (etc)
+  PT: ['<Response [200]>']
+  PY: ['requests.models.Response']
+5: ('/generate_id_constants.py', 'module_initializer', 'code') 14 260 3 (PT Empty)
+  PT: []
+  PY: ['None']
+6: ('/sc2/constants.py', 'module_initializer', 'mineral_ids') 34 1144 3 (PT Empty)
+  PT: []
+  PY: ['set']
+7: ('/sc2/constants.py', 'module_initializer', 'geyser_ids') 35 1145 3 (PT Empty)
+  PT: []
+  PY: ['set']
+8: ('/sc2/data.py', 'module_initializer', 'CreateGameError') 1285 1747 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'CreateGameError'>"]
+  PY: ['Any']
+9: ('/sc2/data.py', 'module_initializer', 'PlayerType') 1286 1748 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'PlayerType'>"]
+  PY: ['Any']
+10: ('/sc2/data.py', 'module_initializer', 'Difficulty') 1287 1749 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Difficulty'>"]
+  PY: ['Any']
+11: ('/sc2/data.py', 'module_initializer', 'Status') 1288 1750 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Status'>"]
+  PY: ['Any']
+12: ('/sc2/data.py', 'module_initializer', 'Result') 1289 1751 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Result'>"]
+  PY: ['Any']
+13: ('/sc2/data.py', 'module_initializer', 'Alert') 1290 1752 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Alert'>"]
+  PY: ['Any']
+14: ('/sc2/data.py', 'module_initializer', 'ChatChannel') 1291 1753 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'ChatChannel'>"]
+  PY: ['Any']
+15: ('/sc2/data.py', 'module_initializer', 'Race') 1292 1754 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Race'>"]
+  PY: ['Any']
+16: ('/sc2/data.py', 'module_initializer', 'DisplayType') 1293 1755 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'DisplayType'>"]
+  PY: ['Any']
+17: ('/sc2/data.py', 'module_initializer', 'Alliance') 1294 1756 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Alliance'>"]
+  PY: ['Any']
+18: ('/sc2/data.py', 'module_initializer', 'CloakState') 1295 1757 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'CloakState'>"]
+  PY: ['Any']
+19: ('/sc2/data.py', 'module_initializer', 'Attribute') 1296 1758 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Attribute'>"]
+  PY: ['Any']
+20: ('/sc2/data.py', 'module_initializer', 'TargetType') 1297 1759 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'TargetType'>"]
+  PY: ['Any']
+21: ('/sc2/data.py', 'module_initializer', 'Target') 1298 1760 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'Target'>"]
+  PY: ['Any']
+22: ('/sc2/data.py', 'module_initializer', 'ActionResult') 1299 1761 4 (PY Empty (is_any() is true))
+  PT: ["<enum 'ActionResult'>"]
+  PY: ['Any']
+23: ('/sc2/maps.py', 'get', 'name') 3861 578 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+24: ('/sc2/maps.py', 'get', 'mapdir') 3863 582 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+25: ('/sc2/maps.py', 'get', 'mapfile') 3864 581 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+26: ('/sc2/maps.py', 'get', 'get_ret') 3865 20 5 (PT subset PY)
+  PT: ['list']
+  PY: ['Union[Map, List[Map]]']
+27: ('/sc2/maps.py', 'get', 'm') 3866 583 3 (PT Empty)
+  PT: []
+  PY: ['Map']
+28: ('/sc2/maps.py', '__init__', 'path') 3868 585 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+29: ('/sc2/maps.py', 'matches', 'name') 3874 589 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+30: ('/sc2/maps.py', 'matches', 'matches_ret') 3875 19 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+31: ('/sc2/player.py', '__init__', 'self') 3877 1243 6 (PY subset PT)
+  PT: ['Bot', 'Computer', 'Player', 'AbstractPlayer', 'Human', 'Observer']
+  PY: ['Player']
+32: ('/sc2/player.py', '__init__', 'race') 3878 1245 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Race.Terran', 'Race.Zerg']
+  PY: ['Any']
+33: ('/sc2/player.py', '__init__', 'ai') 3879 1249 4 (PY Empty (is_any() is true))
+  PT: ['TestBot']
+  PY: ['Any']
+34: ('/sc2/player.py', '__init__', 'difficulty') 3880 1247 6 (PY subset PT)
+  PT: ['Difficulty.Easy', 'None']
+  PY: ['None']
+35: ('/sc2/main.py', 'run_game', 'map_settings') 3882 1736 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+36: ('/sc2/main.py', 'run_game', 'players') 3883 1737 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+37: ('/sc2/main.py', 'run_game', 'k') 3885 1742 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+38: ('/sc2/main.py', 'run_game', 'v') 3886 1743 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+39: ('/sc2/main.py', 'run_game', 'result') 3889 1745 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+40: ('/sc2/main.py', 'run_game', 'run_game_ret') 3890 90 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+41: ('/sc2/player.py', '__init__', 'p_type') 3891 1244 4 (PY Empty (is_any() is true))
+  PT: ['PlayerType.Computer', 'PlayerType.Participant']
+  PY: ['Any']
+42: ('/sc2/portconfig.py', '__init__', '_') 3893 1167 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+43: ('/sc2/main.py', '_host_game', 'portconfig') 3899 1719 8 (Partial match)
+  PT: ['None', 'Portconfig']
+  PY: ['sc2.portconfig.Portconfig', 'None']
+44: ('/sc2/main.py', '_host_game', 'map_settings') 3900 1716 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+45: ('/sc2/main.py', '_host_game', 'players') 3901 1717 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+46: ('/sc2/main.py', '_host_game', 'realtime') 3902 1718 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+47: ('/sc2/main.py', '_host_game', 'client') 3903 1726 4 (PY Empty (is_any() is true))
+  PT: ['Client']
+  PY: ['Any']
+48: ('/sc2/main.py', '_host_game', 'result') 3904 1727 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Result.Defeat', 'Result.Tie']
+  PY: ['Any']
+49: ('/sc2/main.py', '_host_game', '_host_game_ret') 3905 82 6 (PY subset PT)
+  PT: ['None', 'Result.Defeat', 'Result.Tie', 'coroutine']
+  PY: ['coroutine']
+50: ('/sc2/main.py', '_join_game', 'players') 3909 1728 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+51: ('/sc2/main.py', '_join_game', 'realtime') 3910 1729 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+52: ('/sc2/main.py', '_join_game', 'client') 3912 1734 4 (PY Empty (is_any() is true))
+  PT: ['Client']
+  PY: ['Any']
+53: ('/sc2/main.py', '_join_game', 'result') 3913 1735 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Result.Defeat', 'Result.Tie']
+  PY: ['Any']
+54: ('/sc2/main.py', '_join_game', '_join_game_ret') 3914 85 6 (PY subset PT)
+  PT: ['None', 'Result.Defeat', 'Result.Tie', 'coroutine']
+  PY: ['coroutine']
+55: ('/sc2/bot_ai.py', 'chat_send', 'self') 3915 754 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+56: ('/sc2/bot_ai.py', 'get_available_abilities', 'self') 3918 646 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+57: ('/sc2/bot_ai.py', 'get_available_abilities', 'units') 3919 647 8 (Partial match)
+  PT: ['Unit', 'list', 'Union[List[Unit], Units]']
+  PY: ['Union[List[sc2.unit.Unit], sc2.units.Units]']
+58: ('/sc2/bot_ai.py', 'get_available_abilities', 'get_available_abilities_ret') 3920 141 6 (PY subset PT)
+  PT: ['list', 'coroutine', 'List[List[AbilityId]]']
+  PY: ['coroutine']
+59: ('/sc2/bot_ai.py', 'can_afford', 'self') 3922 686 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+60: ('/sc2/bot_ai.py', 'can_afford', 'item_id') 3923 687 6 (PY subset PT)
+  PT: ['None', 'int', 'Union[UnitTypeId, UpgradeId, AbilityId]']
+  PY: ['Union[sc2.ids.ability_id.AbilityId, sc2.ids.unit_typeid.UnitTypeId, sc2.ids.upgrade_id.UpgradeId]']
+61: ('/sc2/bot_ai.py', 'can_afford', 'unit') 3925 690 4 (PY Empty (is_any() is true))
+  PT: ['UnitTypeData']
+  PY: ['Any']
+62: ('/sc2/bot_ai.py', 'can_afford', 'cost') 3926 691 4 (PY Empty (is_any() is true))
+  PT: ['Cost', 'meta_func']
+  PY: ['Any']
+63: ('/sc2/bot_ai.py', 'do', 'self') 3928 745 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+64: ('/sc2/bot_ai.py', 'do', 'action') 3929 746 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+65: ('/sc2/bot_ai.py', 'do', 'do_ret') 3930 137 6 (PY subset PT)
+  PT: ['ActionResult.Error', 'None', 'list', 'coroutine']
+  PY: ['coroutine']
+66: ('/sc2/bot_ai.py', 'do', 'r') 3931 747 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list']
+  PY: ['Any']
+67: ('/sc2/bot_ai.py', 'do', 'cost') 3932 748 3 (PT Empty)
+  PT: []
+  PY: ['sc2.game_data.Cost']
+68: ('/sc2/bot_ai.py', 'do_actions', 'self') 3933 749 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+69: ('/sc2/bot_ai.py', 'do_actions', 'action') 3935 752 4 (PY Empty (is_any() is true))
+  PT: ['set', 'str']
+  PY: ['Any']
+70: ('/sc2/bot_ai.py', 'do_actions', 'cost') 3936 751 3 (PT Empty)
+  PT: []
+  PY: ['sc2.game_data.Cost']
+71: ('/sc2/bot_ai.py', 'do_actions', 'r') 3937 753 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+72: ('/sc2/bot_ai.py', 'already_pending', 'self') 3939 728 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+73: ('/sc2/bot_ai.py', 'already_pending', 'unit_type') 3940 729 6 (PY subset PT)
+  PT: ['int', 'Union[UpgradeId, UnitTypeId]']
+  PY: ['sc2.ids.unit_typeid.UnitTypeId']
+74: ('/sc2/bot_ai.py', 'already_pending', 'already_pending_ret') 3941 128 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+75: ('/sc2/bot_ai.py', 'already_pending', 'ability') 3942 731 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+76: ('/sc2/bot_ai.py', 'already_pending', 'amount') 3943 732 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+77: ('/sc2/bot_ai.py', 'already_pending', 'u') 3944 733 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+78: ('/sc2/bot_ai.py', 'already_pending', 'o') 3945 734 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+79: ('/sc2/bot_ai.py', 'already_pending', 'w') 3946 735 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+80: ('/sc2/bot_ai.py', 'already_pending', 'egg') 3947 736 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+81: ('/sc2/bot_ai.py', 'expand_now', 'location') 3948 652 8 (Partial match)
+  PT: ['None', 'Point2', 'Optional[Point2]']
+  PY: ['Optional[sc2.position.Point2]']
+82: ('/sc2/bot_ai.py', 'expand_now', 'building') 3950 650 6 (PY subset PT)
+  PT: ['None', 'int', 'UnitTypeId']
+  PY: ['sc2.ids.unit_typeid.UnitTypeId']
+83: ('/sc2/bot_ai.py', 'expand_now', 'self') 3951 649 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+84: ('/sc2/bot_ai.py', 'expand_now', 'start_townhall_type') 3952 653 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+85: ('/sc2/position.py', 'position', 'self') 3953 1426 5 (PT subset PY)
+  PT: ['Pointlike']
+  PY: ['nothing', 'Point3', 'Pointlike']
+86: ('/sc2/position.py', 'distance_to', 'p') 3956 1428 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Pointlike', 'Unit', 'meta_func', "Union['Unit', 'Point2', 'Point3']"]
+  PY: ['Any']
+87: ('/sc2/position.py', 'distance_to', 'distance_to_ret') 3957 113 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'Union[int, float]']
+  PY: ['Any']
+88: ('/sc2/position.py', 'closest', 'self') 3958 1435 6 (PY subset PT)
+  PT: ['Point2', 'Point3', 'Pointlike']
+  PY: ['Pointlike']
+89: ('/sc2/position.py', 'closest', 'ps') 3959 1436 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  PY: ['Any']
+90: ('/sc2/position.py', 'closest', 'closest_ret') 3960 112 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike', "Union['Unit', 'Point2']"]
+  PY: ['Any']
+91: ('/sc2/position.py', 'closest', 'closest_distance_squared') 3961 1437 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+92: ('/sc2/position.py', 'closest', 'p2') 3962 1441 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike']
+  PY: ['Any']
+93: ('/sc2/position.py', 'closest', 'p2pos') 3963 1438 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike', 'meta_func']
+  PY: ['Any']
+94: ('/sc2/position.py', 'closest', 'distance') 3964 1439 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+95: ('/sc2/position.py', 'closest', 'closest_element') 3965 1440 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike']
+  PY: ['Any']
+96: ('/sc2/position.py', 'furthest', 'self') 3966 1447 6 (PY subset PT)
+  PT: ['Point2', 'Point3', 'Pointlike']
+  PY: ['Pointlike']
+97: ('/sc2/position.py', 'furthest', 'ps') 3967 1448 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  PY: ['Any']
+98: ('/sc2/position.py', 'furthest', 'furthest_ret') 3968 117 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike', "Union['Unit', 'Pointlike']"]
+  PY: ['Any']
+99: ('/sc2/position.py', 'furthest', 'furthest_distance_squared') 3969 1449 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+100: ('/sc2/position.py', 'furthest', 'p2') 3970 1453 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike']
+  PY: ['Any']
+101: ('/sc2/position.py', 'furthest', 'p2pos') 3971 1450 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike', 'meta_func']
+  PY: ['Any']
+102: ('/sc2/position.py', 'furthest', 'distance') 3972 1451 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+103: ('/sc2/position.py', 'furthest', 'furthest_element') 3973 1452 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Pointlike']
+  PY: ['Any']
+104: ('/sc2/position.py', 'offset', 'self') 3974 1459 6 (PY subset PT)
+  PT: ['Point2', 'Pointlike', 'Rect']
+  PY: ['Rect']
+105: ('/sc2/position.py', 'offset', 'p') 3975 1460 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Pointlike', 'Unit', 'meta_func']
+  PY: ['Any']
+106: ('/sc2/position.py', 'offset', 'offset_ret') 3976 118 6 (PY subset PT)
+  PT: ['Point2', 'Pointlike', "'Pointlike'"]
+  PY: ['_TPointlike', '_TRect']
+107: ('/sc2/position.py', 'towards', 'self') 3979 1463 5 (PT subset PY)
+  PT: ['Pointlike']
+  PY: ['Point2', 'Pointlike']
+108: ('/sc2/position.py', 'towards', 'p') 3980 1464 4 (PY Empty (is_any() is true))
+  PT: ['Pointlike', 'Unit', 'meta_func', "Union['Unit', 'Pointlike']"]
+  PY: ['Any']
+109: ('/sc2/position.py', 'towards', 'towards_ret') 3981 120 7 (etc)
+  PT: ['Pointlike', "'Pointlike'"]
+  PY: ['_TPointlike']
+110: ('/sc2/position.py', 'towards', 'd') 3982 1467 3 (PT Empty)
+  PT: []
+  PY: ['Union[float, int]']
+111: ('/sc2/position.py', 'to3', 'self') 3985 1476 6 (PY subset PT)
+  PT: ['Point3', 'Point2']
+  PY: ['Point3']
+112: ('/sc2/main.py', '_setup_host_game', 'server') 3993 1709 3 (PT Empty)
+  PT: []
+  PY: ['sc2.controller.Controller']
+113: ('/sc2/main.py', '_setup_host_game', 'map_settings') 3994 1710 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+114: ('/sc2/main.py', '_setup_host_game', 'players') 3995 1711 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+115: ('/sc2/main.py', '_setup_host_game', 'realtime') 3996 1712 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+116: ('/sc2/main.py', '_setup_host_game', 'r') 3997 1714 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+117: ('/sc2/main.py', '_setup_host_game', 'err') 3998 1715 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+118: ('/sc2/main.py', '_setup_host_game', '_setup_host_game_ret') 3999 89 6 (PY subset PT)
+  PT: ['Client', 'coroutine']
+  PY: ['Coroutine[Any, Any, sc2.client.Client]']
+119: ('/sc2/main.py', '_play_game', 'game_time_limit') 4001 1705 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+120: ('/sc2/main.py', '_play_game', 'step_time_limit') 4002 1704 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+121: ('/sc2/main.py', '_play_game', 'player') 4003 1700 4 (PY Empty (is_any() is true))
+  PT: ['Bot', 'Computer']
+  PY: ['Any']
+122: ('/sc2/main.py', '_play_game', 'realtime') 4005 1702 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+123: ('/sc2/main.py', '_play_game', 'portconfig') 4006 1703 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Portconfig']
+  PY: ['Any']
+124: ('/sc2/main.py', '_play_game', 'player_id') 4007 1707 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+125: ('/sc2/main.py', '_play_game', 'result') 4008 1708 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Result.Defeat', 'Result.Tie']
+  PY: ['Any']
+126: ('/sc2/main.py', '_play_game', '_play_game_ret') 4009 86 6 (PY subset PT)
+  PT: ['None', 'Result.Defeat', 'Result.Tie', 'coroutine']
+  PY: ['coroutine']
+127: ('/sc2/client.py', '__init__', 'ws') 4011 1011 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+128: ('/sc2/client.py', 'save_replay', 'path') 4013 1034 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+129: ('/sc2/client.py', 'save_replay', 'result') 4014 1035 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+130: ('/sc2/protocol.py', 'quit', 'self') 4017 1008 6 (PY subset PT)
+  PT: ['Client', 'Protocol']
+  PY: ['Protocol']
+131: ('/sc2/bot_ai.py', 'can_feed', 'self') 4018 683 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+132: ('/sc2/bot_ai.py', 'can_feed', 'unit_type') 4019 684 6 (PY subset PT)
+  PT: ['None', 'int', 'UnitTypeId']
+  PY: ['sc2.ids.unit_typeid.UnitTypeId']
+133: ('/sc2/bot_ai.py', 'can_feed', 'required') 4020 685 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+134: ('/sc2/bot_ai.py', 'can_feed', 'can_feed_ret') 4021 133 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+135: ('/sc2/bot_ai.py', '__init__', 'self') 4022 616 6 (PY subset PT)
+  PT: ['CanAffordWrapper', 'BotAI']
+  PY: ['CanAffordWrapper']
+136: ('/sc2/bot_ai.py', '__init__', 'can_afford_minerals') 4023 797 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+137: ('/sc2/bot_ai.py', '__init__', 'can_afford_vespene') 4024 798 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+138: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'self') 4026 722 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+139: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'upgrade_type') 4027 723 6 (PY subset PT)
+  PT: ['int', 'UpgradeId']
+  PY: ['sc2.ids.upgrade_id.UpgradeId']
+140: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'already_pending_upgrade_ret') 4028 129 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Union[int, float]']
+  PY: ['Any']
+141: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'level') 4029 724 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[str]']
+142: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'creationAbilityID') 4030 725 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+143: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'structure') 4031 727 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+144: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'order') 4032 726 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+145: ('/sc2/bot_ai.py', 'get_next_expansion', 'self') 4033 655 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+146: ('/sc2/bot_ai.py', 'get_next_expansion', 'closest') 4034 656 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+147: ('/sc2/bot_ai.py', 'get_next_expansion', 'distance') 4035 657 4 (PY Empty (is_any() is true))
+  PT: ['None', 'float']
+  PY: ['Any']
+148: ('/sc2/bot_ai.py', 'get_next_expansion', 'el') 4036 660 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+149: ('/sc2/bot_ai.py', 'get_next_expansion', 'startp') 4038 658 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+150: ('/sc2/bot_ai.py', 'get_next_expansion', 'd') 4039 659 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+151: ('/sc2/bot_ai.py', 'build', 'unit') 4042 741 6 (PY subset PT)
+  PT: ['None', 'Unit', 'bool', 'Optional[Unit]']
+  PY: ['sc2.unit.Unit']
+152: ('/sc2/bot_ai.py', 'build', 'self') 4044 737 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+153: ('/sc2/bot_ai.py', 'build', 'building') 4045 738 6 (PY subset PT)
+  PT: ['None', 'int', 'UnitTypeId']
+  PY: ['sc2.ids.unit_typeid.UnitTypeId']
+154: ('/sc2/bot_ai.py', 'build', 'near') 4046 739 6 (PY subset PT)
+  PT: ['None', 'Point2', 'Point3', 'meta_func', 'Union[Point2, Point3]']
+  PY: ['sc2.position.Point2']
+155: ('/sc2/bot_ai.py', 'build', 'p') 4047 744 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'float', 'meta_func']
+  PY: ['Any']
+156: ('/sc2/bot_ai.py', 'build', 'build_ret') 4048 130 6 (PY subset PT)
+  PT: ['ActionResult.CantFindPlacementLocation', 'ActionResult.Error', 'None', 'list', 'coroutine']
+  PY: ['coroutine']
+157: ('/sc2/client.py', 'join_game', 'rgb_render_config') 4049 1018 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+158: ('/sc2/client.py', 'join_game', 'portconfig') 4050 1017 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Portconfig']
+  PY: ['Any']
+159: ('/sc2/client.py', 'join_game', 'observed_player_id') 4051 1016 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+160: ('/sc2/client.py', 'join_game', 'race') 4052 1015 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Race.Terran', 'Race.Zerg']
+  PY: ['Any']
+161: ('/sc2/client.py', 'join_game', 'name') 4053 1014 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+162: ('/sc2/client.py', 'join_game', 'ifopts') 4055 1019 4 (PY Empty (is_any() is true))
+  PT: ['raw: tru']
+  PY: ['Any']
+163: ('/sc2/client.py', 'join_game', 'window_size') 4058 1020 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+164: ('/sc2/client.py', 'join_game', 'minimap_size') 4059 1021 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+165: ('/sc2/client.py', 'join_game', 'map_width') 4060 1022 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+166: ('/sc2/client.py', 'join_game', 'map_height') 4061 1023 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+167: ('/sc2/client.py', 'join_game', 'minimap_width') 4062 1024 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+168: ('/sc2/client.py', 'join_game', 'minimap_height') 4063 1025 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+169: ('/sc2/client.py', 'join_game', 'req') 4064 1026 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+170: ('/sc2/client.py', 'join_game', 'ppc') 4065 1028 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+171: ('/sc2/client.py', 'join_game', 'p') 4066 1027 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+172: ('/sc2/client.py', 'join_game', 'result') 4067 1029 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+173: ('/sc2/main.py', '_play_game_human', 'client') 4069 1675 4 (PY Empty (is_any() is true))
+  PT: ['Client']
+  PY: ['Any']
+174: ('/sc2/main.py', '_play_game_human', 'player_id') 4070 1676 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+175: ('/sc2/main.py', '_play_game_human', 'realtime') 4071 1677 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+176: ('/sc2/main.py', '_play_game_human', 'game_time_limit') 4072 1678 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+177: ('/sc2/main.py', '_play_game_human', 'state') 4073 1679 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+178: ('/sc2/main.py', '_play_game_human', '_play_game_human_ret') 4074 88 6 (PY subset PT)
+  PT: ['Result.Defeat', 'Result.Tie', 'coroutine']
+  PY: ['coroutine']
+179: ('/sc2/main.py', '_play_game_ai', 'client') 4075 1680 4 (PY Empty (is_any() is true))
+  PT: ['Client']
+  PY: ['Any']
+180: ('/sc2/main.py', '_play_game_ai', 'player_id') 4076 1681 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+181: ('/sc2/main.py', '_play_game_ai', 'ai') 4077 1682 4 (PY Empty (is_any() is true))
+  PT: ['TestBot']
+  PY: ['Any']
+182: ('/sc2/main.py', '_play_game_ai', 'realtime') 4078 1683 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+183: ('/sc2/main.py', '_play_game_ai', 'step_time_limit') 4079 1684 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+184: ('/sc2/main.py', '_play_game_ai', 'game_time_limit') 4080 1685 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+185: ('/sc2/main.py', '_play_game_ai', 'time_limit') 4082 1687 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[float]']
+186: ('/sc2/main.py', '_play_game_ai', 'time_penalty') 4084 1689 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Optional[Any]']
+187: ('/sc2/main.py', '_play_game_ai', 'game_data') 4085 1690 4 (PY Empty (is_any() is true))
+  PT: ['GameData']
+  PY: ['Any']
+188: ('/sc2/main.py', '_play_game_ai', 'game_info') 4086 1691 4 (PY Empty (is_any() is true))
+  PT: ['GameInfo']
+  PY: ['Any']
+189: ('/sc2/main.py', '_play_game_ai', '_play_game_ai_ret') 4087 87 6 (PY subset PT)
+  PT: ['None', 'Result.Defeat', 'Result.Tie', 'coroutine']
+  PY: ['coroutine']
+190: ('/sc2/main.py', '_play_game_ai', 'state') 4089 1693 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+191: ('/sc2/main.py', '_play_game_ai', 'gs') 4090 1694 4 (PY Empty (is_any() is true))
+  PT: ['GameState']
+  PY: ['Any']
+192: ('/sc2/main.py', '_play_game_ai', 'out_of_budget') 4091 1695 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+193: ('/sc2/main.py', '_play_game_ai', 'budget') 4092 1696 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+194: ('/sc2/main.py', '_play_game_ai', 'step_time') 4093 1697 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+195: ('/sc2/main.py', '_play_game_ai', 'step_start') 4094 1698 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+196: ('/sc2/main.py', '_play_game_ai', 'result') 4095 1699 4 (PY Empty (is_any() is true))
+  PT: ['Result.Defeat']
+  PY: ['Any']
+197: ('/sc2/protocol.py', '__init__', 'self') 4096 995 6 (PY subset PT)
+  PT: ['Client', 'Controller', 'Protocol']
+  PY: ['Protocol']
+198: ('/sc2/protocol.py', '__init__', 'ws') 4097 996 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+199: ('/sc2/protocol.py', '_execute', 'self') 4099 1001 6 (PY subset PT)
+  PT: ['Client', 'Controller', 'Protocol']
+  PY: ['Protocol']
+200: ('/sc2/protocol.py', '_execute', 'request') 4100 1003 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+201: ('/sc2/protocol.py', '_execute', 'response') 4101 1004 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+202: ('/sc2/protocol.py', '_execute', 'new_status') 4102 1005 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+203: ('/sc2/bot_ai.py', 'find_placement', 'self') 4107 710 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+204: ('/sc2/bot_ai.py', 'find_placement', 'building') 4108 711 4 (PY Empty (is_any() is true))
+  PT: ['AbilityData', 'None', 'int', 'UnitTypeId']
+  PY: ['Any']
+205: ('/sc2/bot_ai.py', 'find_placement', 'near') 4109 712 6 (PY subset PT)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Union[sc2.position.Point2, sc2.position.Point3]']
+206: ('/sc2/bot_ai.py', 'find_placement', 'find_placement_ret') 4110 140 6 (PY subset PT)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'float', 'meta_func', 'coroutine', 'Optional[Point2]', 'Union[Unit, Point2, Point3]']
+  PY: ['coroutine']
+207: ('/sc2/bot_ai.py', 'find_placement', 'distance') 4111 721 3 (PT Empty)
+  PT: []
+  PY: ['int']
+208: ('/sc2/bot_ai.py', 'find_placement', 'p') 4114 717 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+209: ('/sc2/bot_ai.py', 'find_placement', 'res') 4116 718 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+210: ('/sc2/bot_ai.py', 'find_placement', 'r') 4117 720 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+211: ('/sc2/bot_ai.py', 'select_build_worker', 'self') 4120 701 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+212: ('/sc2/bot_ai.py', 'select_build_worker', 'pos') 4121 702 6 (PY subset PT)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'float', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Union[sc2.position.Point2, sc2.position.Point3, sc2.unit.Unit]']
+213: ('/sc2/bot_ai.py', 'select_build_worker', 'workers') 4122 704 3 (PT Empty)
+  PT: []
+  PY: ['sc2.units.Units']
+214: ('/sc2/bot_ai.py', 'select_build_worker', 'worker') 4123 705 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+215: ('/sc2/bot_ai.py', 'select_build_worker', 'select_build_worker_ret') 4124 154 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'Optional[Unit]']
+  PY: ['Any']
+216: ('/sc2/renderer.py', '__init__', 'client') 4126 960 4 (PY Empty (is_any() is true))
+  PT: ['Client']
+  PY: ['Any']
+217: ('/sc2/renderer.py', '__init__', 'map_size') 4127 961 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+218: ('/sc2/renderer.py', '__init__', 'minimap_size') 4128 962 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+219: ('/sc2/client.py', 'observation', 'result') 4130 1037 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+220: ('/sc2/client.py', 'observation', 'pr') 4132 1039 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+221: ('/sc2/client.py', 'step', 'result') 4135 1041 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+222: ('/sc2/client.py', 'get_game_data', 'result') 4140 1043 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+223: ('/sc2/client.py', 'get_game_data', 'get_game_data_ret') 4141 29 6 (PY subset PT)
+  PT: ['GameData', 'coroutine']
+  PY: ['Coroutine[Any, Any, sc2.game_data.GameData]']
+224: ('/sc2/client.py', 'get_game_info', 'result') 4143 1045 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+225: ('/sc2/client.py', 'get_game_info', 'get_game_info_ret') 4144 30 6 (PY subset PT)
+  PT: ['GameInfo', 'coroutine']
+  PY: ['Coroutine[Any, Any, sc2.game_info.GameInfo]']
+226: ('/sc2/bot_ai.py', '_prepare_start', 'self') 4145 766 6 (PY subset PT)
+  PT: ['TestBot', 'BotAI']
+  PY: ['BotAI']
+227: ('/sc2/bot_ai.py', '_prepare_start', 'client') 4146 767 4 (PY Empty (is_any() is true))
+  PT: ['Client']
+  PY: ['Any']
+228: ('/sc2/bot_ai.py', '_prepare_start', 'player_id') 4147 768 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+229: ('/sc2/bot_ai.py', '_prepare_start', 'game_info') 4148 769 4 (PY Empty (is_any() is true))
+  PT: ['GameInfo']
+  PY: ['Any']
+230: ('/sc2/bot_ai.py', '_prepare_start', 'game_data') 4149 770 4 (PY Empty (is_any() is true))
+  PT: ['GameData']
+  PY: ['Any']
+231: ('/sc2/game_state.py', '__init__', 'self') 4150 549 6 (PY subset PT)
+  PT: ['EffectData', 'Blip', 'Common', 'GameState']
+  PY: ['GameState']
+232: ('/sc2/game_state.py', '__init__', 'response_observation') 4151 564 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+233: ('/sc2/game_state.py', '__init__', 'game_data') 4152 565 4 (PY Empty (is_any() is true))
+  PT: ['GameData']
+  PY: ['Any']
+234: ('/sc2/game_state.py', '__init__', 'visibleUnits') 4153 566 3 (PT Empty)
+  PT: []
+  PY: ['list']
+235: ('/sc2/game_state.py', '__init__', 'hiddenUnits') 4154 567 3 (PT Empty)
+  PT: []
+  PY: ['list']
+236: ('/sc2/game_state.py', '__init__', 'minerals') 4155 568 3 (PT Empty)
+  PT: []
+  PY: ['list']
+237: ('/sc2/game_state.py', '__init__', 'geysers') 4156 569 3 (PT Empty)
+  PT: []
+  PY: ['list']
+238: ('/sc2/game_state.py', '__init__', 'destructables') 4157 570 3 (PT Empty)
+  PT: []
+  PY: ['list']
+239: ('/sc2/game_state.py', '__init__', 'enemy') 4158 571 3 (PT Empty)
+  PT: []
+  PY: ['list']
+240: ('/sc2/game_state.py', '__init__', 'own') 4159 572 3 (PT Empty)
+  PT: []
+  PY: ['list']
+241: ('/sc2/game_state.py', '__init__', 'unit') 4160 574 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+242: ('/sc2/bot_ai.py', '_prepare_step', 'self') 4161 772 6 (PY subset PT)
+  PT: ['TestBot', 'BotAI']
+  PY: ['BotAI']
+243: ('/sc2/bot_ai.py', '_prepare_step', 'state') 4162 773 4 (PY Empty (is_any() is true))
+  PT: ['GameState']
+  PY: ['Any']
+244: ('/sc2/bot_ai.py', '_prepare_step', 'unit') 4163 774 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+245: ('/sc2/bot_ai.py', '_prepare_first_step', 'self') 4164 771 6 (PY subset PT)
+  PT: ['TestBot', 'BotAI']
+  PY: ['BotAI']
+246: ('/sc2/bot_ai.py', 'issue_events', 'self') 4165 775 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+247: ('/sc2/bot_ai.py', 'issue_events', 'unit') 4166 776 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+248: ('/sc2/protocol.py', '__request', 'self') 4174 997 6 (PY subset PT)
+  PT: ['Client', 'Controller', 'Protocol']
+  PY: ['Protocol']
+249: ('/sc2/protocol.py', '__request', 'request') 4175 998 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+250: ('/sc2/protocol.py', '__request', 'response') 4176 999 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+251: ('/sc2/protocol.py', '__request', 'response_bytes') 4177 1000 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+252: ('/sc2/bot_ai.py', 'can_place', 'self') 4179 706 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+253: ('/sc2/bot_ai.py', 'can_place', 'building') 4180 707 4 (PY Empty (is_any() is true))
+  PT: ['AbilityData', 'None', 'int', 'Union[AbilityData, AbilityId, UnitTypeId]']
+  PY: ['Any']
+254: ('/sc2/bot_ai.py', 'can_place', 'position') 4181 708 6 (PY subset PT)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func']
+  PY: ['sc2.position.Point2']
+255: ('/sc2/bot_ai.py', 'can_place', 'r') 4182 709 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+256: ('/sc2/bot_ai.py', 'can_place', 'can_place_ret') 4183 134 6 (PY subset PT)
+  PT: ['bool', 'coroutine']
+  PY: ['coroutine']
+257: ('/sc2/renderer.py', 'render', 'observation') 4185 964 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+258: ('/sc2/renderer.py', 'render', 'render_data') 4186 965 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+259: ('/sc2/renderer.py', 'render', 'map_size') 4187 966 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+260: ('/sc2/renderer.py', 'render', 'map_data') 4188 967 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+261: ('/sc2/renderer.py', 'render', 'minimap_size') 4189 968 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+262: ('/sc2/renderer.py', 'render', 'minimap_data') 4190 969 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+263: ('/sc2/renderer.py', 'render', 'map_width') 4191 970 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+264: ('/sc2/renderer.py', 'render', 'map_height') 4192 971 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+265: ('/sc2/renderer.py', 'render', 'map_pitch') 4193 972 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+266: ('/sc2/renderer.py', 'render', 'minimap_width') 4194 973 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+267: ('/sc2/renderer.py', 'render', 'minimap_height') 4195 974 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+268: ('/sc2/renderer.py', 'render', 'minimap_pitch') 4196 975 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+269: ('/sc2/game_data.py', '__init__', 'self') 4197 1190 6 (PY subset PT)
+  PT: ['AbilityData', 'Cost', 'UpgradeData', 'GameData', 'UnitTypeData']
+  PY: ['Cost']
+270: ('/sc2/game_data.py', '__init__', 'data') 4198 1191 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+271: ('/sc2/game_data.py', '__init__', 'a') 4200 1193 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+272: ('/sc2/game_data.py', '__init__', 'u') 4201 1194 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+273: ('/sc2/game_info.py', '__init__', 'self') 4202 1539 6 (PY subset PT)
+  PT: ['GameInfo', 'Ramp']
+  PY: ['GameInfo']
+274: ('/sc2/game_info.py', '__init__', 'proto') 4203 1583 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+275: ('/sc2/game_info.py', '__init__', 'p') 4204 1584 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+276: ('/sc2/game_info.py', '__init__', 'sl') 4205 1585 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+277: ('/sc2/units.py', '__init__', 'self') 4206 820 6 (PY subset PT)
+  PT: ['UnitSelection', 'Units']
+  PY: ['UnitSelection']
+278: ('/sc2/units.py', '__init__', 'units') 4207 821 5 (PT subset PY)
+  PT: ['list']
+  PY: ['list', 'Generator[sc2.unit.Unit, Any, None]', 'List[nothing]']
+279: ('/sc2/units.py', '__init__', 'game_data') 4208 822 4 (PY Empty (is_any() is true))
+  PT: ['GameData']
+  PY: ['Any']
+280: ('/sc2/game_state.py', '__init__', 'proto') 4209 550 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+281: ('/sc2/score.py', '__init__', 'proto') 4211 1767 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+282: ('/sc2/pixel_map.py', '__init__', 'proto') 4213 1619 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+283: ('/sc2/bot_ai.py', '_issue_unit_dead_events', 'self') 4214 782 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+284: ('/sc2/bot_ai.py', '_issue_unit_dead_events', 'event') 4215 783 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+285: ('/sc2/bot_ai.py', '_issue_unit_dead_events', 'tag') 4216 784 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+286: ('/sc2/bot_ai.py', '_issue_unit_added_events', 'self') 4217 777 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+287: ('/sc2/bot_ai.py', '_issue_unit_added_events', 'unit') 4218 778 2 (Both Empty)
+  PT: []
+  PY: ['Any', 'nothing']
+288: ('/sc2/bot_ai.py', '_issue_building_complete_event', 'self') 4219 779 6 (PY subset PT)
+  PT: ['BotAI', 'TestBot']
+  PY: ['BotAI']
+289: ('/sc2/bot_ai.py', '_issue_building_complete_event', 'unit') 4220 780 2 (Both Empty)
+  PT: []
+  PY: ['Any', 'nothing']
+290: ('/sc2/bot_ai.py', '_issue_building_complete_event', 'unit_prev') 4221 781 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+291: ('/sc2/client.py', 'move_camera_spatial', 'action') 4225 1086 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+292: ('/sc2/game_data.py', '__init__', 'proto') 4227 1204 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+293: ('/sc2/client.py', 'chat_send', 'ch') 4231 1073 4 (PY Empty (is_any() is true))
+  PT: ['ChatChannel.Broadcast', 'ChatChannel.Team', 'bool']
+  PY: ['Any']
+294: ('/sc2/units.py', 'filter', 'filter_ret') 4236 61 4 (PY Empty (is_any() is true))
+  PT: ['Units', "'Units'"]
+  PY: ['Any']
+295: ('/sc2/client.py', 'query_available_abilities', 'units') 4239 1065 8 (Partial match)
+  PT: ['list', 'str', "Union[List[Unit], 'Units']"]
+  PY: ['Union[List[sc2.unit.Unit], sc2.units.Units]']
+296: ('/sc2/client.py', 'query_available_abilities', 'unit') 4241 1069 4 (PY Empty (is_any() is true))
+  PT: ['Unit', 'list', 'str']
+  PY: ['Any']
+297: ('/sc2/client.py', 'query_available_abilities', 'result') 4242 1068 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+298: ('/sc2/client.py', 'query_available_abilities', 'query_available_abilities_ret') 4245 36 6 (PY subset PT)
+  PT: ['list', 'coroutine', 'List[List[AbilityId]]']
+  PY: ['coroutine']
+299: ('/sc2/game_data.py', 'calculate_ability_cost', 'self') 4246 1195 4 (PY Empty (is_any() is true))
+  PT: ['GameData']
+  PY: ['Any']
+300: ('/sc2/game_data.py', 'calculate_ability_cost', 'ability') 4247 1196 4 (PY Empty (is_any() is true))
+  PT: ['AbilityData', 'int', 'meta_func']
+  PY: ['Any']
+301: ('/sc2/game_data.py', 'calculate_ability_cost', 'unit') 4248 1198 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+302: ('/sc2/game_data.py', 'calculate_ability_cost', 'morph_cost') 4250 1197 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+303: ('/sc2/game_data.py', 'calculate_ability_cost', 'upgrade') 4251 1199 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+304: ('/sc2/game_data.py', 'cost', 'self') 4252 1213 6 (PY subset PT)
+  PT: ['UpgradeData', 'AbilityData', 'UnitTypeData']
+  PY: ['UpgradeData']
+305: ('/sc2/client.py', 'actions', 'return_successes') 4254 1049 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+306: ('/sc2/client.py', 'actions', 'actions') 4256 1047 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+307: ('/sc2/client.py', 'actions', 'game_data') 4257 1048 4 (PY Empty (is_any() is true))
+  PT: ['GameData']
+  PY: ['Any']
+308: ('/sc2/client.py', 'actions', 'res') 4258 1050 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+309: ('/sc2/client.py', 'actions', 'actions_ret') 4259 21 6 (PY subset PT)
+  PT: ['None', 'list', 'coroutine']
+  PY: ['coroutine']
+310: ('/sc2/client.py', 'actions', 'a') 4260 1051 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+311: ('/sc2/client.py', 'actions', 'r') 4261 1052 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+312: ('/sc2/game_info.py', '_find_ramps', 'x') 4263 1589 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+313: ('/sc2/game_info.py', '_find_ramps', 'y') 4264 1590 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+314: ('/sc2/game_info.py', '_find_ramps', 'rampPoints') 4266 1591 7 (etc)
+  PT: ['bool', 'dict']
+  PY: ['Set[sc2.position.Point2]']
+315: ('/sc2/game_info.py', '_find_ramps', '_find_ramps_ret') 4269 16 4 (PY Empty (is_any() is true))
+  PT: ['list', 'List[Ramp]']
+  PY: ['Any']
+316: ('/sc2/units.py', 'subgroup', 'units') 4271 884 5 (PT subset PY)
+  PT: ['Units', 'list']
+  PY: ['Units', 'Iterator', 'List[nothing]', 'list']
+317: ('/sc2/units.py', 'subgroup', 'subgroup_ret') 4272 77 7 (etc)
+  PT: ['Units']
+  PY: ['_TUnits']
+318: ('/sc2/game_data.py', '__init__', 'minerals') 4274 1235 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['int']
+319: ('/sc2/game_data.py', '__init__', 'vespene') 4275 1236 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['int']
+320: ('/sc2/action.py', 'combine_actions', 'action_iter') 4276 1174 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+321: ('/sc2/action.py', 'combine_actions', 'key') 4277 1180 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+322: ('/sc2/action.py', 'combine_actions', 'items') 4278 1181 3 (PT Empty)
+  PT: []
+  PY: ['Iterator']
+323: ('/sc2/action.py', 'combine_actions', 'ability') 4279 1175 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+324: ('/sc2/action.py', 'combine_actions', 'target') 4280 1176 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+325: ('/sc2/action.py', 'combine_actions', 'queue') 4281 1177 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+326: ('/sc2/action.py', 'combine_actions', 'cmd') 4282 1178 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+327: ('/sc2/action.py', 'combine_actions', 'u') 4283 1179 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+328: ('/sc2/client.py', 'query_pathing', 'start') 4285 1054 6 (PY subset PT)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  PY: ['Union[sc2.position.Point2, sc2.position.Point3, sc2.unit.Unit]']
+329: ('/sc2/client.py', 'query_pathing', 'result') 4287 1056 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+330: ('/sc2/client.py', 'query_pathing', 'distance') 4288 1057 3 (PT Empty)
+  PT: []
+  PY: ['float']
+331: ('/sc2/client.py', 'query_building_placement', 'query_building_placement_ret') 4296 37 6 (PY subset PT)
+  PT: ['list', 'coroutine', 'List[ActionResult]']
+  PY: ['coroutine']
+332: ('/sc2/game_info.py', '_find_groups', 'points') 4300 1596 6 (PY subset PT)
+  PT: ['bool', 'dict', 'Set[Point2]']
+  PY: ['Set[sc2.position.Point2]']
+333: ('/sc2/game_info.py', '_find_groups', 'i') 4304 1604 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+334: ('/sc2/game_info.py', '_find_groups', 'j') 4305 1603 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+335: ('/sc2/game_info.py', '_find_groups', 'dx') 4309 1607 3 (PT Empty)
+  PT: []
+  PY: ['int']
+336: ('/sc2/game_info.py', '_find_groups', 'dy') 4310 1606 3 (PT Empty)
+  PT: []
+  PY: ['int']
+337: ('/sc2/game_info.py', '_find_groups', 'point') 4311 1608 6 (PY subset PT)
+  PT: ['Point2', 'bool']
+  PY: ['sc2.position.Point2']
+338: ('/sc2/game_info.py', '_find_groups', 'queue') 4313 1610 4 (PY Empty (is_any() is true))
+  PT: ['deque([True, True, True, True])', 'Deque[Point2]']
+  PY: ['Any']
+339: ('/sc2/game_info.py', '_find_groups', 'start') 4316 1613 3 (PT Empty)
+  PT: []
+  PY: ['sc2.position.Point2']
+340: ('/sc2/game_info.py', '_find_groups', 'offset') 4318 1617 3 (PT Empty)
+  PT: []
+  PY: ['sc2.position.Point2']
+341: ('/sc2/game_info.py', '_find_groups', 'px') 4319 1615 3 (PT Empty)
+  PT: []
+  PY: ['Union[float, int]']
+342: ('/sc2/game_info.py', '_find_groups', 'py') 4320 1616 3 (PT Empty)
+  PT: []
+  PY: ['Union[float, int]']
+343: ('/generate_id_constants.py', 'clike_enum_parse', 'enum') 4326 245 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+344: ('/generate_id_constants.py', 'clike_enum_parse', 'name') 4327 241 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+345: ('/generate_id_constants.py', 'clike_enum_parse', 'key') 4329 243 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+346: ('/generate_id_constants.py', 'clike_enum_parse', 'value') 4330 244 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+347: ('/generate_id_constants.py', 'generate_python_code', 'n') 4335 249 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+348: ('/generate_id_constants.py', 'generate_python_code', 'name') 4336 255 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+349: ('/generate_id_constants.py', 'generate_python_code', 'body') 4337 256 3 (PT Empty)
+  PT: []
+  PY: ['Dict[Any, int]']
+350: ('/generate_id_constants.py', 'generate_python_code', 'key') 4340 253 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+351: ('/generate_id_constants.py', 'generate_python_code', 'value') 4341 254 3 (PT Empty)
+  PT: []
+  PY: ['int']
+352: ('/sc2/__init__.py', 'is_submodule', 'path') 4342 1163 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+353: ('/sc2/__init__.py', 'is_submodule', 'is_submodule_ret') 4343 12 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+354: ('/sc2/helpers/__init__.py', 'is_submodule', 'path') 4344 5657 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+355: ('/sc2/helpers/__init__.py', 'is_submodule', 'is_submodule_ret') 4345 196 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+356: ('/sc2/unit_command.py', '__init__', 'queue') 4346 1186 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+357: ('/sc2/unit_command.py', '__init__', 'target') 4347 1185 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+358: ('/sc2/unit_command.py', '__init__', 'ability') 4349 1183 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+359: ('/sc2/unit_command.py', '__init__', 'unit') 4350 1184 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+360: ('/sc2/game_info.py', 'height_at', 'height_at_ret') 4357 17 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+361: ('/sc2/game_info.py', 'upper', 'p') 4361 1550 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+362: ('/sc2/game_info.py', 'upper', 'max_height') 4362 1549 7 (etc)
+  PT: ['float']
+  PY: ['int']
+363: ('/sc2/game_info.py', 'upper2_for_ramp_wall', 'upper2') 4366 1552 3 (PT Empty)
+  PT: []
+  PY: ['List[sc2.position.Point2]']
+364: ('/sc2/game_info.py', 'top_center', 'p') 4368 1555 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+365: ('/sc2/game_info.py', 'lower', 'p') 4372 1558 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+366: ('/sc2/game_info.py', 'lower', 'min_height') 4373 1557 7 (etc)
+  PT: ['float']
+  PY: ['int']
+367: ('/sc2/game_info.py', 'bottom_center', 'p') 4376 1561 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+368: ('/sc2/game_info.py', 'barracks_in_middle', 'points') 4380 1563 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+369: ('/sc2/game_info.py', 'barracks_in_middle', 'p1') 4381 1564 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+370: ('/sc2/game_info.py', 'barracks_in_middle', 'p2') 4382 1565 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+371: ('/sc2/game_info.py', 'barracks_in_middle', 'intersects') 4383 1566 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+372: ('/sc2/game_info.py', 'barracks_in_middle', 'anyLowerPoint') 4384 1567 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+373: ('/sc2/game_info.py', 'depot_in_middle', 'points') 4387 1569 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+374: ('/sc2/game_info.py', 'depot_in_middle', 'p1') 4388 1570 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+375: ('/sc2/game_info.py', 'depot_in_middle', 'p2') 4389 1571 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+376: ('/sc2/game_info.py', 'depot_in_middle', 'intersects') 4390 1572 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+377: ('/sc2/game_info.py', 'depot_in_middle', 'anyLowerPoint') 4391 1573 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+378: ('/sc2/game_info.py', 'corner_depots', 'points') 4394 1575 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+379: ('/sc2/game_info.py', 'corner_depots', 'p1') 4395 1576 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+380: ('/sc2/game_info.py', 'corner_depots', 'p2') 4396 1577 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+381: ('/sc2/game_info.py', 'corner_depots', 'center') 4397 1578 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+382: ('/sc2/game_info.py', 'corner_depots', 'depotPosition') 4398 1579 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+383: ('/sc2/game_info.py', 'corner_depots', 'intersects') 4399 1580 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+384: ('/sc2/player.py', '__init__', 'player_id') 4427 1252 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+385: ('/sc2/player.py', '__init__', 'type') 4428 1253 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+386: ('/sc2/player.py', '__init__', 'requested_race') 4429 1254 3 (PT Empty)
+  PT: []
+  PY: ['None']
+387: ('/sc2/unit.py', '__init__', 'self') 4431 1256 6 (PY subset PT)
+  PT: ['Unit', 'UnitOrder', 'PassengerUnit']
+  PY: ['UnitOrder']
+388: ('/sc2/unit.py', '__init__', 'proto_data') 4432 1257 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+389: ('/sc2/unit.py', '__init__', 'game_data') 4433 1258 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+390: ('/sc2/client.py', 'debug_create_unit', 'self') 4434 1074 4 (PY Empty (is_any() is true))
+  PT: ['Client']
+  PY: ['nothing']
+391: ('/sc2/client.py', 'debug_create_unit', 'unit_spawn_commands') 4435 1075 4 (PY Empty (is_any() is true))
+  PT: ['List[List[Union[UnitTypeId, int, Point2, Point3]]]']
+  PY: ['nothing']
+392: ('/sc2/client.py', 'debug_create_unit', 'unit_type') 4436 1076 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+393: ('/sc2/client.py', 'debug_create_unit', 'amount_of_units') 4437 1077 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+394: ('/sc2/client.py', 'debug_create_unit', 'position') 4438 1078 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+395: ('/sc2/client.py', 'debug_create_unit', 'owner_id') 4439 1079 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+396: ('/sc2/client.py', 'debug_kill_unit', 'unit_tags') 4441 1081 6 (PY subset PT)
+  PT: ['Units', 'list', 'meta_func', 'set', 'Union[Units, List[int], Set[int]]']
+  PY: ['Union[List[int], Set[int]]']
+397: ('/sc2/client.py', 'move_camera', 'position') 4443 1083 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+398: ('/sc2/client.py', 'debug_text', 'size_px') 4444 1091 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+399: ('/sc2/client.py', 'debug_text', 'color') 4445 1090 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+400: ('/sc2/client.py', 'debug_text', 'texts') 4447 1088 6 (PY subset PT)
+  PT: ['int', 'list', 'str', 'Union[str, list]']
+  PY: ['list']
+401: ('/sc2/client.py', 'debug_text', 't') 4449 1092 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+402: ('/sc2/client.py', 'debug_text', 'p') 4450 1093 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+403: ('/sc2/client.py', 'debug_text_screen', 'color') 4454 1099 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+404: ('/sc2/client.py', 'debug_text_screen', 'pos') 4457 1098 6 (PY subset PT)
+  PT: ['Point2', 'Point3', 'list', 'tuple', 'Union[Point2, Point3, tuple, list]']
+  PY: ['sc2.position.Point2']
+405: ('/sc2/client.py', 'debug_text_2d', 'color') 4459 1104 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+406: ('/sc2/client.py', 'debug_text_2d', 'pos') 4462 1103 8 (Partial match)
+  PT: ['Point2', 'Point3', 'list', 'tuple', 'Union[Point2, Point3, tuple, list]']
+  PY: ['Union[list, tuple, sc2.position.Point2, sc2.position.Point3]']
+407: ('/sc2/client.py', 'debug_text_2d', 'debug_text_2d_ret') 4463 27 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+408: ('/sc2/client.py', 'debug_text_world', 'color') 4465 1109 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+409: ('/sc2/client.py', 'debug_text_3d', 'color') 4470 1114 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+410: ('/sc2/client.py', 'debug_text_3d', 'debug_text_3d_ret') 4474 28 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+411: ('/sc2/client.py', 'debug_line_out', 'color') 4475 1119 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+412: ('/sc2/client.py', 'debug_box_out', 'color') 4479 1123 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+413: ('/sc2/client.py', 'debug_sphere_out', 'color') 4483 1127 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+414: ('/sc2/client.py', 'to_debug_color', 'color') 4489 1130 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+415: ('/sc2/client.py', 'to_debug_color', 'to_debug_color_ret') 4490 43 4 (PY Empty (is_any() is true))
+  PT: ['r: 25']
+  PY: ['Any']
+416: ('/sc2/client.py', 'to_debug_color', 'r') 4493 1131 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+417: ('/sc2/client.py', 'to_debug_color', 'g') 4494 1132 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+418: ('/sc2/client.py', 'to_debug_color', 'b') 4495 1133 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+419: ('/sc2/client.py', 'to_debug_point', 'point') 4497 1135 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'list', 'meta_func', 'tuple', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+420: ('/sc2/client.py', 'to_debug_point', 'to_debug_point_ret') 4498 45 4 (PY Empty (is_any() is true))
+  PT: ['common_pb.Point']
+  PY: ['Any']
+421: ('/sc2/client.py', 'to_debug_message', 'pos') 4500 1139 8 (Partial match)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'list', 'tuple', 'Optional[Union[Point2, Point3]]']
+  PY: ['Optional[Union[sc2.position.Point2, sc2.position.Point3]]']
+422: ('/sc2/client.py', 'to_debug_message', 'color') 4501 1138 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+423: ('/sc2/client.py', 'to_debug_message', 'pt3d') 4504 1141 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool']
+  PY: ['Optional[Any]']
+424: ('/sc2/client.py', 'to_debug_message', 'virtual_pos') 4505 1142 8 (Partial match)
+  PT: ['None', 'bool']
+  PY: ['Optional[Any]', 'None']
+425: ('/sc2/client.py', 'to_debug_message', 'to_debug_message_ret') 4506 44 4 (PY Empty (is_any() is true))
+  PT: ['debug_pb.DebugText']
+  PY: ['Any']
+426: ('/sc2/unit.py', 'type_id', 'self') 4509 1260 5 (PT subset PY)
+  PT: ['PassengerUnit']
+  PY: ['PassengerUnit', 'Unit']
+427: ('/sc2/unit.py', 'type_id', 'unit_type') 4510 1261 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+428: ('/sc2/unit.py', 'name', 'self') 4512 1263 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+429: ('/sc2/unit.py', 'race', 'self') 4514 1264 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+430: ('/sc2/unit.py', 'tag', 'self') 4516 1265 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+431: ('/sc2/unit.py', 'is_structure', 'self') 4518 1266 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+432: ('/sc2/unit.py', 'is_light', 'self') 4520 1267 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+433: ('/sc2/unit.py', 'is_armored', 'self') 4522 1268 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+434: ('/sc2/unit.py', 'is_biological', 'self') 4524 1269 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+435: ('/sc2/unit.py', 'is_mechanical', 'self') 4526 1270 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+436: ('/sc2/unit.py', 'is_robotic', 'self') 4528 1271 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+437: ('/sc2/unit.py', 'is_massive', 'self') 4530 1272 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+438: ('/sc2/unit.py', 'is_psionic', 'self') 4532 1273 4 (PY Empty (is_any() is true))
+  PT: ['Unit', 'PassengerUnit']
+  PY: ['Any']
+439: ('/sc2/unit.py', 'cargo_size', 'self') 4534 1274 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+440: ('/sc2/unit.py', 'can_attack', 'self') 4536 1276 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+441: ('/sc2/unit.py', 'can_attack_ground', 'self') 4538 1277 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+442: ('/sc2/unit.py', 'can_attack_ground', 'weapon') 4539 1278 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+443: ('/sc2/unit.py', 'ground_dps', 'self') 4541 1279 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+444: ('/sc2/unit.py', 'ground_dps', 'weapon') 4542 1280 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+445: ('/sc2/unit.py', 'ground_range', 'self') 4544 1281 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+446: ('/sc2/unit.py', 'ground_range', 'weapon') 4545 1282 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+447: ('/sc2/unit.py', 'can_attack_air', 'self') 4547 1283 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+448: ('/sc2/unit.py', 'can_attack_air', 'weapon') 4548 1284 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+449: ('/sc2/unit.py', 'air_dps', 'self') 4550 1285 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+450: ('/sc2/unit.py', 'air_dps', 'weapon') 4551 1286 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+451: ('/sc2/unit.py', 'air_range', 'self') 4553 1287 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+452: ('/sc2/unit.py', 'air_range', 'weapon') 4554 1288 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+453: ('/sc2/unit.py', 'bonus_damage', 'self') 4556 1289 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+454: ('/sc2/unit.py', 'bonus_damage', 'weapon') 4557 1291 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+455: ('/sc2/unit.py', 'bonus_damage', 'b') 4558 1290 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+456: ('/sc2/unit.py', 'armor', 'self') 4560 1292 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+457: ('/sc2/unit.py', 'sight_range', 'self') 4562 1293 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+458: ('/sc2/unit.py', 'movement_speed', 'self') 4564 1294 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+459: ('/sc2/unit.py', 'health', 'self') 4566 1295 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+460: ('/sc2/unit.py', 'health_max', 'self') 4568 1296 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+461: ('/sc2/unit.py', 'health_percentage', 'self') 4570 1297 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+462: ('/sc2/unit.py', 'shield', 'self') 4572 1298 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+463: ('/sc2/unit.py', 'shield_max', 'self') 4574 1299 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+464: ('/sc2/unit.py', 'shield_percentage', 'self') 4576 1300 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+465: ('/sc2/unit.py', 'energy', 'self') 4578 1301 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+466: ('/sc2/unit.py', 'energy_max', 'self') 4580 1302 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+467: ('/sc2/unit.py', 'energy_percentage', 'self') 4582 1303 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+468: ('/sc2/unit.py', 'is_snapshot', 'self') 4584 1304 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+469: ('/sc2/unit.py', 'is_visible', 'self') 4586 1305 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+470: ('/sc2/unit.py', 'alliance', 'self') 4588 1306 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+471: ('/sc2/unit.py', 'is_mine', 'self') 4590 1307 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+472: ('/sc2/unit.py', 'is_enemy', 'self') 4592 1308 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+473: ('/sc2/unit.py', 'owner_id', 'self') 4594 1309 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+474: ('/sc2/unit.py', 'position', 'self') 4596 1310 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+475: ('/sc2/unit.py', 'position3d', 'self') 4598 1311 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+476: ('/sc2/unit.py', 'distance_to', 'bot') 4600 1314 4 (PY Empty (is_any() is true))
+  PT: ['None', "'BotAI'"]
+  PY: ['Any']
+477: ('/sc2/unit.py', 'distance_to', 'p') 4602 1313 8 (Partial match)
+  PT: ['Point2', 'Point3', 'Unit', "Union['Unit', Point2, Point3]"]
+  PY: ['Union[Unit, sc2.position.Point2, sc2.position.Point3]']
+478: ('/sc2/unit.py', 'distance_to', 'index') 4603 1315 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+479: ('/sc2/unit.py', 'distance_to', 'distance_to_ret') 4604 169 4 (PY Empty (is_any() is true))
+  PT: ['float', 'Union[int, float]']
+  PY: ['Any']
+480: ('/sc2/unit.py', 'facing', 'self') 4605 1316 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+481: ('/sc2/unit.py', 'radius', 'self') 4607 1317 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+482: ('/sc2/unit.py', 'detect_range', 'self') 4609 1318 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+483: ('/sc2/unit.py', 'radar_range', 'self') 4611 1319 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+484: ('/sc2/unit.py', 'build_progress', 'self') 4613 1320 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+485: ('/sc2/unit.py', 'is_ready', 'self') 4615 1321 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+486: ('/sc2/unit.py', 'cloak', 'self') 4617 1322 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+487: ('/sc2/unit.py', 'is_cloaked', 'self') 4619 1323 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+488: ('/sc2/unit.py', 'is_blip', 'self') 4621 1324 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+489: ('/sc2/unit.py', 'is_powered', 'self') 4623 1325 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+490: ('/sc2/unit.py', 'is_burrowed', 'self') 4625 1326 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+491: ('/sc2/unit.py', 'is_flying', 'self') 4627 1327 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+492: ('/sc2/unit.py', 'is_mineral_field', 'self') 4629 1328 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+493: ('/sc2/unit.py', 'is_vespene_geyser', 'self') 4631 1329 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+494: ('/sc2/unit.py', 'unit_alias', 'self') 4635 1331 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+495: ('/sc2/unit.py', 'mineral_contents', 'self') 4637 1332 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+496: ('/sc2/unit.py', 'vespene_contents', 'self') 4639 1333 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+497: ('/sc2/unit.py', 'has_vespene', 'self') 4641 1334 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+498: ('/sc2/unit.py', 'weapon_cooldown', 'self') 4643 1335 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+499: ('/sc2/unit.py', 'has_cargo', 'self') 4645 1336 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+500: ('/sc2/unit.py', 'cargo_used', 'self') 4647 1337 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+501: ('/sc2/unit.py', 'cargo_max', 'self') 4649 1338 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+502: ('/sc2/unit.py', 'passengers', 'self') 4651 1339 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+503: ('/sc2/unit.py', 'passengers_tags', 'self') 4653 1340 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+504: ('/sc2/unit.py', 'target_in_range', 'unit_attack_range') 4658 1344 4 (PY Empty (is_any() is true))
+  PT: ['int', 'meta_func']
+  PY: ['Any']
+505: ('/sc2/unit.py', 'target_in_range', 'target_in_range_ret') 4659 180 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+506: ('/sc2/unit.py', 'is_carrying_minerals', 'self') 4660 1345 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+507: ('/sc2/unit.py', 'is_carrying_vespene', 'self') 4662 1346 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+508: ('/sc2/unit.py', 'is_selected', 'self') 4664 1347 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+509: ('/sc2/unit.py', 'orders', 'self') 4666 1348 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+510: ('/sc2/unit.py', 'noqueue', 'self') 4669 1349 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+511: ('/sc2/unit.py', 'is_moving', 'self') 4671 1350 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+512: ('/sc2/unit.py', 'is_attacking', 'self') 4673 1351 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+513: ('/sc2/unit.py', 'is_patrolling', 'self') 4675 1352 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+514: ('/sc2/unit.py', 'is_gathering', 'self') 4677 1353 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+515: ('/sc2/unit.py', 'is_returning', 'self') 4679 1354 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+516: ('/sc2/unit.py', 'is_collecting', 'self') 4681 1355 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+517: ('/sc2/unit.py', 'is_constructing_scv', 'self') 4683 1356 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+518: ('/sc2/unit.py', 'is_repairing', 'self') 4685 1357 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+519: ('/sc2/unit.py', 'order_target', 'self') 4687 1358 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+520: ('/sc2/unit.py', 'is_idle', 'self') 4688 1359 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+521: ('/sc2/unit.py', 'add_on_tag', 'self') 4690 1360 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+522: ('/sc2/unit.py', 'add_on_land_position', 'self') 4692 1361 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+523: ('/sc2/unit.py', 'has_add_on', 'self') 4694 1362 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+524: ('/sc2/unit.py', 'assigned_harvesters', 'self') 4696 1363 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+525: ('/sc2/unit.py', 'ideal_harvesters', 'self') 4698 1364 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+526: ('/sc2/unit.py', 'surplus_harvesters', 'self') 4700 1365 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+527: ('/sc2/unit.py', 'train', 'unit') 4704 1367 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+528: ('/sc2/unit.py', 'train', 'args') 4705 1368 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+529: ('/sc2/unit.py', 'train', 'train_ret') 4706 181 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+530: ('/sc2/unit.py', 'build', 'unit') 4709 1371 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+531: ('/sc2/unit.py', 'build', 'args') 4710 1372 7 (etc)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'float', 'meta_func']
+  PY: ['tuple']
+532: ('/sc2/unit.py', 'build', 'build_ret') 4711 168 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+533: ('/sc2/unit.py', 'research', 'upgrade') 4714 1375 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+534: ('/sc2/unit.py', 'research', 'args') 4715 1376 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+535: ('/sc2/unit.py', 'research', 'research_ret') 4716 176 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+536: ('/sc2/unit.py', 'has_buff', 'buff') 4718 1379 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+537: ('/sc2/unit.py', 'warp_in', 'unit') 4722 1381 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+538: ('/sc2/unit.py', 'warp_in', 'placement') 4723 1382 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+539: ('/sc2/unit.py', 'warp_in', 'args') 4724 1383 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+540: ('/sc2/unit.py', 'warp_in', 'normal_creation_ability') 4725 1385 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+541: ('/sc2/unit.py', 'warp_in', 'warp_in_ret') 4726 182 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+542: ('/sc2/unit.py', 'attack', 'args') 4729 1387 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+543: ('/sc2/unit.py', 'attack', 'attack_ret') 4730 167 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+544: ('/sc2/unit.py', 'gather', 'args') 4733 1390 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+545: ('/sc2/unit.py', 'gather', 'gather_ret') 4734 170 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+546: ('/sc2/unit.py', 'return_resource', 'args') 4737 1393 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+547: ('/sc2/unit.py', 'return_resource', 'return_resource_ret') 4738 177 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+548: ('/sc2/unit.py', 'move', 'args') 4741 1396 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+549: ('/sc2/unit.py', 'move', 'move_ret') 4742 173 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+550: ('/sc2/unit.py', 'scan_move', 'args') 4745 1399 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+551: ('/sc2/unit.py', 'scan_move', 'scan_move_ret') 4746 178 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+552: ('/sc2/unit.py', 'hold_position', 'args') 4749 1402 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+553: ('/sc2/unit.py', 'hold_position', 'hold_position_ret') 4750 172 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+554: ('/sc2/unit.py', 'stop', 'args') 4753 1405 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+555: ('/sc2/unit.py', 'stop', 'stop_ret') 4754 179 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+556: ('/sc2/unit.py', 'patrol', 'args') 4757 1408 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+557: ('/sc2/unit.py', 'patrol', 'patrol_ret') 4758 174 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+558: ('/sc2/unit.py', 'repair', 'args') 4761 1411 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+559: ('/sc2/unit.py', 'repair', 'repair_ret') 4762 175 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+560: ('/sc2/unit.py', '__init__', 'progress') 4763 1423 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+561: ('/sc2/unit.py', '__init__', 'ability') 4764 1421 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+562: ('/sc2/unit.py', '__init__', 'target') 4765 1422 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+563: ('/sc2/position.py', 'distance_to_point2', 'distance_to_point2_ret') 4770 116 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'Union[int, float]']
+  PY: ['Any']
+564: ('/sc2/position.py', 'sort_by_distance', 'ps') 4772 1434 4 (PY Empty (is_any() is true))
+  PT: ['Units', 'list', "Union['Units', List['Point2']]"]
+  PY: ['Any']
+565: ('/sc2/position.py', 'sort_by_distance', 'sort_by_distance_ret') 4773 119 4 (PY Empty (is_any() is true))
+  PT: ['Point2', "List['Point2']"]
+  PY: ['Any']
+566: ('/sc2/position.py', 'distance_to_closest', 'self') 4774 1442 6 (PY subset PT)
+  PT: ['Point2', 'Point3', 'Pointlike']
+  PY: ['Pointlike']
+567: ('/sc2/position.py', 'distance_to_closest', 'ps') 4775 1443 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  PY: ['Any']
+568: ('/sc2/position.py', 'distance_to_closest', 'closest_distance_squared') 4776 1444 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+569: ('/sc2/position.py', 'distance_to_closest', 'p2') 4777 1445 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'meta_func']
+  PY: ['Any']
+570: ('/sc2/position.py', 'distance_to_closest', 'distance') 4778 1446 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+571: ('/sc2/position.py', 'distance_to_closest', 'distance_to_closest_ret') 4779 114 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'Union[int, float]']
+  PY: ['Any']
+572: ('/sc2/position.py', 'distance_to_furthest', 'self') 4780 1454 6 (PY subset PT)
+  PT: ['Point2', 'Point3', 'Pointlike']
+  PY: ['Pointlike']
+573: ('/sc2/position.py', 'distance_to_furthest', 'ps') 4781 1455 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  PY: ['Any']
+574: ('/sc2/position.py', 'distance_to_furthest', 'furthest_distance_squared') 4782 1456 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+575: ('/sc2/position.py', 'distance_to_furthest', 'p2') 4783 1457 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'meta_func']
+  PY: ['Any']
+576: ('/sc2/position.py', 'distance_to_furthest', 'distance') 4784 1458 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+577: ('/sc2/position.py', 'distance_to_furthest', 'distance_to_furthest_ret') 4785 115 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'Union[int, float]']
+  PY: ['Any']
+578: ('/sc2/position.py', 'unit_axes_towards', 'p') 4787 1462 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+579: ('/sc2/position.py', 'unit_axes_towards', 'unit_axes_towards_ret') 4788 121 7 (etc)
+  PT: ['Pointlike']
+  PY: ['_TPointlike']
+580: ('/sc2/position.py', 'x', 'self') 4789 1473 6 (PY subset PT)
+  PT: ['Point2', 'Rect']
+  PY: ['Rect']
+581: ('/sc2/position.py', 'y', 'self') 4791 1474 6 (PY subset PT)
+  PT: ['Point2', 'Rect']
+  PY: ['Rect']
+582: ('/sc2/position.py', 'to2', 'self') 4793 1475 5 (PT subset PY)
+  PT: ['Point2']
+  PY: ['Point2', 'Point3']
+583: ('/sc2/position.py', 'distance2_to', 'distance2_to_ret') 4797 102 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+584: ('/sc2/position.py', 'random_on_distance', 'distance') 4799 1480 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+585: ('/sc2/position.py', 'random_on_distance', 'random_on_distance_ret') 4803 107 7 (etc)
+  PT: ['Point2']
+  PY: ['_TPoint2']
+586: ('/sc2/position.py', 'towards_with_random_angle', 'p') 4807 1485 6 (PY subset PT)
+  PT: ['Point2', 'Point3', "Union['Point2', 'Point3']"]
+  PY: ['Union[Point2, Point3]']
+587: ('/sc2/position.py', 'towards_with_random_angle', 'tx') 4808 1488 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+588: ('/sc2/position.py', 'towards_with_random_angle', 'ty') 4809 1489 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+589: ('/sc2/position.py', 'towards_with_random_angle', 'angle') 4810 1490 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['float']
+590: ('/sc2/position.py', 'towards_with_random_angle', 'towards_with_random_angle_ret') 4811 108 7 (etc)
+  PT: ['Point2', "'Point2'"]
+  PY: ['_TPoint2']
+591: ('/sc2/position.py', 'circle_intersection', 'distanceBetweenPoints') 4815 1494 3 (PT Empty)
+  PT: []
+  PY: ['Union[float, int]']
+592: ('/sc2/position.py', 'circle_intersection', 'remainingDistanceFromCenter') 4816 1495 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['float']
+593: ('/sc2/position.py', 'circle_intersection', 'center') 4818 1497 6 (PY subset PT)
+  PT: ['Point2', 'Pointlike']
+  PY: ['Pointlike']
+594: ('/sc2/position.py', 'circle_intersection', 'intersect1') 4824 1503 3 (PT Empty)
+  PT: []
+  PY: ['Pointlike']
+595: ('/sc2/position.py', 'circle_intersection', 'intersect2') 4825 1504 3 (PT Empty)
+  PT: []
+  PY: ['Pointlike']
+596: ('/sc2/position.py', 'negative_offset', 'negative_offset_ret') 4831 106 7 (etc)
+  PT: ['Point2', "'Point2'"]
+  PY: ['_TPoint2']
+597: ('/sc2/position.py', 'is_same_as', 'dist') 4832 1524 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+598: ('/sc2/position.py', 'is_same_as', 'is_same_as_ret') 4835 104 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+599: ('/sc2/position.py', 'direction_vector', 'direction_vector_ret') 4838 101 7 (etc)
+  PT: ['Point2', "'Point2'"]
+  PY: ['_TPoint2']
+600: ('/sc2/position.py', 'manhattan_distance', 'manhattan_distance_ret') 4841 105 4 (PY Empty (is_any() is true))
+  PT: ['float', 'Union[int, float]']
+  PY: ['Any']
+601: ('/sc2/position.py', 'center', 'a') 4842 1529 6 (PY subset PT)
+  PT: ['Point2', 'list', "Union[Set['Point2'], List['Point2']]"]
+  PY: ['Union[List[Point2], Set[Point2]]']
+602: ('/sc2/position.py', 'center', 'center_ret') 4845 99 4 (PY Empty (is_any() is true))
+  PT: ['int', "'Point2'", 'Point2']
+  PY: ['Any']
+603: ('/sc2/position.py', 'width', 'self') 4848 1533 6 (PY subset PT)
+  PT: ['Size', 'Rect']
+  PY: ['Rect']
+604: ('/sc2/position.py', 'height', 'self') 4850 1534 6 (PY subset PT)
+  PT: ['Size', 'Rect']
+  PY: ['Rect']
+605: ('/sc2/position.py', '_distance_squared', '_distance_squared_ret') 4854 111 4 (PY Empty (is_any() is true))
+  PT: ['int', 'Union[int, float]']
+  PY: ['Any']
+606: ('/sc2/position.py', '_sign', 'num') 4855 1424 3 (PT Empty)
+  PT: []
+  PY: ['Union[float, int]']
+607: ('/sc2/position.py', '_sign', '_sign_ret') 4856 122 6 (PY subset PT)
+  PT: ['bool', 'int']
+  PY: ['int']
+608: ('/sc2/paths.py', 'latest_executeble', 'versions_dir') 4857 942 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+609: ('/sc2/paths.py', 'latest_executeble', 'latest') 4858 943 7 (etc)
+  PT: ['float']
+  PY: ['Tuple[int, Any]']
+610: ('/sc2/paths.py', 'latest_executeble', 'version') 4859 945 3 (PT Empty)
+  PT: []
+  PY: ['int']
+611: ('/sc2/paths.py', 'latest_executeble', 'path') 4860 946 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+612: ('/sc2/paths.py', 'latest_executeble', 'latest_executeble_ret') 4861 161 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+613: ('/sc2/units.py', 'select', 'args') 4864 827 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+614: ('/sc2/units.py', 'copy', 'copy_ret') 4867 59 4 (PY Empty (is_any() is true))
+  PT: ['Units']
+  PY: ['Any']
+615: ('/sc2/units.py', 'find_by_tag', 'tag') 4875 850 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+616: ('/sc2/units.py', 'find_by_tag', 'unit') 4876 851 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+617: ('/sc2/units.py', 'by_tag', 'tag') 4878 853 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+618: ('/sc2/units.py', 'by_tag', 'unit') 4879 854 3 (PT Empty)
+  PT: []
+  PY: ['sc2.unit.Unit']
+619: ('/sc2/units.py', 'by_tag', 'by_tag_ret') 4880 55 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+620: ('/sc2/units.py', 'take', 'take_ret') 4886 80 7 (etc)
+  PT: ["'Units'"]
+  PY: ['list']
+621: ('/sc2/units.py', 'random_or', 'other') 4890 861 4 (PY Empty (is_any() is true))
+  PT: ['any']
+  PY: ['Any']
+622: ('/sc2/units.py', 'random_or', 'random_or_ret') 4891 71 7 (etc)
+  PT: ['Unit', 'any']
+  PY: ['_T0']
+623: ('/sc2/units.py', 'random_group_of', 'n') 4893 863 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+624: ('/sc2/units.py', 'random_group_of', 'random_group_of_ret') 4894 70 4 (PY Empty (is_any() is true))
+  PT: ['Units']
+  PY: ['Any']
+625: ('/sc2/units.py', 'in_attack_range_of', 'in_attack_range_of_ret') 4898 67 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+626: ('/sc2/units.py', 'closest_distance_to', 'position') 4900 868 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+627: ('/sc2/units.py', 'closest_distance_to', 'closest_distance_to_ret') 4902 57 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'Union[int, float]']
+  PY: ['Any']
+628: ('/sc2/units.py', 'furthest_distance_to', 'position') 4904 870 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+629: ('/sc2/units.py', 'furthest_distance_to', 'furthest_distance_to_ret') 4906 65 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int', 'Union[int, float]']
+  PY: ['Any']
+630: ('/sc2/units.py', 'closest_to', 'position') 4908 872 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+631: ('/sc2/units.py', 'closest_to', 'closest_to_ret') 4909 58 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+632: ('/sc2/units.py', 'furthest_to', 'position') 4911 874 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+633: ('/sc2/units.py', 'furthest_to', 'furthest_to_ret') 4912 66 4 (PY Empty (is_any() is true))
+  PT: ['Unit']
+  PY: ['Any']
+634: ('/sc2/units.py', 'closer_than', 'position') 4915 877 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+635: ('/sc2/units.py', 'closer_than', 'closer_than_ret') 4917 56 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+636: ('/sc2/units.py', 'further_than', 'position') 4920 881 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  PY: ['Any']
+637: ('/sc2/units.py', 'further_than', 'further_than_ret') 4922 64 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+638: ('/sc2/units.py', 'sorted', 'sorted_ret') 4926 75 4 (PY Empty (is_any() is true))
+  PT: ['Units', "'Units'"]
+  PY: ['Any']
+639: ('/sc2/units.py', 'sorted_by_distance_to', 'position') 4929 891 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Unit', 'meta_func', 'Union[Unit, Point2]']
+  PY: ['Any']
+640: ('/sc2/units.py', 'sorted_by_distance_to', 'sorted_by_distance_to_ret') 4930 76 4 (PY Empty (is_any() is true))
+  PT: ['Units', "'Units'"]
+  PY: ['Any']
+641: ('/sc2/units.py', 'tags_in', 'other') 4932 894 6 (PY subset PT)
+  PT: ['dict', 'list', 'set', 'Union[Set[int], List[int], Dict[int, Any]]']
+  PY: ['Set[int]']
+642: ('/sc2/units.py', 'tags_in', 'tags_in_ret') 4933 78 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+643: ('/sc2/units.py', 'tags_not_in', 'other') 4935 896 6 (PY subset PT)
+  PT: ['dict', 'list', 'set', 'Union[Set[int], List[int], Dict[int, Any]]']
+  PY: ['Set[int]']
+644: ('/sc2/units.py', 'tags_not_in', 'tags_not_in_ret') 4936 79 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+645: ('/sc2/units.py', 'of_type', 'other') 4938 898 6 (PY subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]', 'set']
+  PY: ['Set[sc2.ids.unit_typeid.UnitTypeId]']
+646: ('/sc2/units.py', 'of_type', 'of_type_ret') 4939 68 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+647: ('/sc2/units.py', 'exclude_type', 'other') 4941 900 6 (PY subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]', 'set']
+  PY: ['Set[sc2.ids.unit_typeid.UnitTypeId]']
+648: ('/sc2/units.py', 'exclude_type', 'exclude_type_ret') 4942 60 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+649: ('/sc2/units.py', 'same_tech', 'other') 4944 902 6 (PY subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]']
+  PY: ['Union[Dict[sc2.ids.unit_typeid.UnitTypeId, Any], List[sc2.ids.unit_typeid.UnitTypeId], Set[Union[Dict[sc2.ids.unit_typeid.UnitTypeId, Any], List[sc2.ids.unit_typeid.UnitTypeId], Set[sc2.ids.unit_typeid.UnitTypeId], sc2.ids.unit_typeid.UnitTypeId]]]']
+650: ('/sc2/units.py', 'same_tech', 'unitType') 4946 906 7 (etc)
+  PT: ['int', 'str']
+  PY: ['sc2.ids.unit_typeid.UnitTypeId']
+651: ('/sc2/units.py', 'same_tech', 'tech_alias') 4947 904 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+652: ('/sc2/units.py', 'same_tech', 'same') 4948 905 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+653: ('/sc2/units.py', 'same_tech', 'same_tech_ret') 4949 72 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+654: ('/sc2/units.py', 'same_unit', 'other') 4951 908 6 (PY subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]']
+  PY: ['Union[Dict[sc2.ids.unit_typeid.UnitTypeId, Any], List[sc2.ids.unit_typeid.UnitTypeId], Set[Union[Dict[sc2.ids.unit_typeid.UnitTypeId, Any], List[sc2.ids.unit_typeid.UnitTypeId], Set[sc2.ids.unit_typeid.UnitTypeId], sc2.ids.unit_typeid.UnitTypeId]]]']
+655: ('/sc2/units.py', 'same_unit', 'unitType') 4953 911 7 (etc)
+  PT: ['int', 'str']
+  PY: ['sc2.ids.unit_typeid.UnitTypeId']
+656: ('/sc2/units.py', 'same_unit', 'unit_alias') 4954 910 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+657: ('/sc2/units.py', 'same_unit', 'same_unit_ret') 4955 73 4 (PY Empty (is_any() is true))
+  PT: ["'Units'"]
+  PY: ['Any']
+658: ('/sc2/units.py', 'center', 'unit') 4957 914 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+659: ('/sc2/units.py', 'prefer_close_to', 'prefer_close_to_ret') 5000 69 4 (PY Empty (is_any() is true))
+  PT: ['Units', "'Units'"]
+  PY: ['Any']
+660: ('/sc2/units.py', '__init__', 'u') 5003 939 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+661: ('/sc2/units.py', 'matches', 'unit') 5005 941 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+662: ('/sc2/units.py', 'matches', 'matches_ret') 5006 49 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+663: ('/sc2/protocol.py', 'is_game_over_error', 'self') 5007 994 6 (PY subset PT)
+  PT: ['(ProtocolError)user|None|meta_cls|/sc2/protocol.py', 'ProtocolError']
+  PY: ['ProtocolError']
+664: ('/sc2/pixel_map.py', 'is_empty', 'p') 5021 1641 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+665: ('/sc2/pixel_map.py', 'is_empty', 'is_empty_ret') 5022 10 3 (PT Empty)
+  PT: []
+  PY: ['bool']
+666: ('/sc2/pixel_map.py', 'flood_fill', 'x') 5028 1647 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+667: ('/sc2/pixel_map.py', 'flood_fill', 'y') 5029 1648 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+668: ('/sc2/pixel_map.py', 'flood_fill', 'flood_fill_ret') 5032 7 4 (PY Empty (is_any() is true))
+  PT: ['set', 'Set[Point2]']
+  PY: ['Any']
+669: ('/sc2/pixel_map.py', 'flood_fill_all', 'x') 5036 1656 3 (PT Empty)
+  PT: []
+  PY: ['int']
+670: ('/sc2/pixel_map.py', 'flood_fill_all', 'y') 5037 1655 3 (PT Empty)
+  PT: []
+  PY: ['int']
+671: ('/sc2/pixel_map.py', 'print', 'wide') 5039 1658 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+672: ('/sc2/pixel_map.py', 'print', 'y') 5041 1660 3 (PT Empty)
+  PT: []
+  PY: ['int']
+673: ('/sc2/pixel_map.py', 'print', 'x') 5042 1659 3 (PT Empty)
+  PT: []
+  PY: ['int']
+674: ('/sc2/pixel_map.py', 'save_image', 'filename') 5044 1662 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+675: ('/sc2/pixel_map.py', 'save_image', 'y') 5045 1664 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+676: ('/sc2/pixel_map.py', 'save_image', 'x') 5046 1665 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+677: ('/sc2/pixel_map.py', 'save_image', 'im') 5048 1666 3 (PT Empty)
+  PT: []
+  PY: ['PIL.Image.Image']
+678: ('/sc2/controller.py', '__init__', 'ws') 5050 804 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+679: ('/sc2/controller.py', '__init__', 'process') 5051 805 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+680: ('/sc2/controller.py', 'create_game', 'random_seed') 5054 811 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+681: ('/sc2/controller.py', 'create_game', 'game_map') 5056 808 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+682: ('/sc2/controller.py', 'create_game', 'players') 5057 809 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+683: ('/sc2/controller.py', 'create_game', 'realtime') 5058 810 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+684: ('/sc2/controller.py', 'create_game', 'req') 5059 812 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+685: ('/sc2/controller.py', 'create_game', 'player') 5060 814 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+686: ('/sc2/controller.py', 'create_game', 'p') 5061 813 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+687: ('/sc2/controller.py', 'create_game', 'result') 5062 815 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+688: ('/sc2/power_source.py', '__init__', 'self') 5064 1148 6 (PY subset PT)
+  PT: ['PsionicMatrix', 'PowerSource']
+  PY: ['PsionicMatrix']
+689: ('/sc2/power_source.py', '__init__', 'position') 5065 1149 3 (PT Empty)
+  PT: []
+  PY: ['sc2.position.Point2']
+690: ('/sc2/power_source.py', '__init__', 'radius') 5066 1150 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+691: ('/sc2/power_source.py', '__init__', 'unit_tag') 5067 1151 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+692: ('/sc2/power_source.py', 'covers', 'self') 5068 1152 6 (PY subset PT)
+  PT: ['PsionicMatrix', 'PowerSource']
+  PY: ['PsionicMatrix']
+693: ('/sc2/power_source.py', 'covers', 'position') 5069 1153 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+694: ('/sc2/power_source.py', '__init__', 'sources') 5071 1155 3 (PT Empty)
+  PT: []
+  PY: ['list']
+695: ('/sc2/game_data.py', 'split_camel_case', 'text') 5076 1189 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+696: ('/sc2/game_data.py', 'id', 'self') 5078 1206 6 (PY subset PT)
+  PT: ['UnitTypeData', 'AbilityData']
+  PY: ['UnitTypeData']
+697: ('/sc2/game_data.py', 'is_free_morph', 'parts') 5087 1211 3 (PT Empty)
+  PT: []
+  PY: ['list']
+698: ('/sc2/game_data.py', 'is_free_morph', 'p') 5088 1212 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+699: ('/sc2/game_data.py', 'name', 'self') 5090 1215 6 (PY subset PT)
+  PT: ['UpgradeData', 'UnitTypeData']
+  PY: ['UpgradeData']
+700: ('/sc2/game_data.py', 'has_attribute', 'attr') 5097 1219 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+701: ('/sc2/game_data.py', 'tech_alias', 'tech_alias') 5109 1226 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+702: ('/sc2/game_data.py', 'morph_cost', 'tech_alias') 5119 1232 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+703: ('/sc2/game_data.py', 'morph_cost', 'tech_alias_cost_minerals') 5120 1231 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+704: ('/sc2/game_data.py', 'morph_cost', 'tech_alias_cost_vespene') 5121 1233 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+705: ('/sc2/bot_ai.py', 'time_formatted', 't') 5129 620 7 (etc)
+  PT: ['meta_func']
+  PY: ['Union[float, int]']
+706: ('/sc2/bot_ai.py', 'known_enemy_units', 'self') 5137 624 4 (PY Empty (is_any() is true))
+  PT: ['BotAI']
+  PY: ['Any']
+707: ('/sc2/bot_ai.py', 'known_enemy_structures', 'self') 5139 625 4 (PY Empty (is_any() is true))
+  PT: ['BotAI']
+  PY: ['Any']
+708: ('/sc2/bot_ai.py', 'expansion_locations', 'self') 5143 628 4 (PY Empty (is_any() is true))
+  PT: ['BotAI']
+  PY: ['Any']
+709: ('/sc2/bot_ai.py', 'expansion_locations', 'geysers') 5145 630 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+710: ('/sc2/bot_ai.py', 'expansion_locations', 'all_resources') 5146 631 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+711: ('/sc2/bot_ai.py', 'expansion_locations', 'mf') 5148 635 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+712: ('/sc2/bot_ai.py', 'expansion_locations', 'mf_height') 5149 633 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+713: ('/sc2/bot_ai.py', 'expansion_locations', 'cluster') 5150 634 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+714: ('/sc2/bot_ai.py', 'expansion_locations', 'resources') 5153 645 3 (PT Empty)
+  PT: []
+  PY: ['list']
+715: ('/sc2/bot_ai.py', 'expansion_locations', 'possible_points') 5154 640 6 (PY subset PT)
+  PT: ['<generator object <genexpr> at 0x10fe3f290>', 'Point2', 'list', 'generator']
+  PY: ['List[sc2.position.Point2]']
+716: ('/sc2/bot_ai.py', 'expansion_locations', 'point') 5155 642 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+717: ('/sc2/bot_ai.py', 'expansion_locations', 'result') 5156 643 7 (etc)
+  PT: ['tuple']
+  PY: ['sc2.position.Point2']
+718: ('/sc2/bot_ai.py', 'distribute_workers', 'owned_expansions') 5159 662 6 (PY subset PT)
+  PT: ['dict', 'meta_func']
+  PY: ['Dict[Any, Optional[Any]]']
+719: ('/sc2/bot_ai.py', 'distribute_workers', 'idle_worker') 5162 666 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+720: ('/sc2/bot_ai.py', 'distribute_workers', 'mf') 5163 665 3 (PT Empty)
+  PT: []
+  PY: ['sc2.unit.Unit']
+721: ('/sc2/bot_ai.py', 'distribute_workers', 'location') 5164 671 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+722: ('/sc2/bot_ai.py', 'distribute_workers', 'townhall') 5165 672 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+723: ('/sc2/bot_ai.py', 'distribute_workers', 'workers') 5166 667 3 (PT Empty)
+  PT: []
+  PY: ['sc2.units.Units']
+724: ('/sc2/bot_ai.py', 'distribute_workers', 'actual') 5167 668 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+725: ('/sc2/bot_ai.py', 'distribute_workers', 'ideal') 5168 669 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+726: ('/sc2/bot_ai.py', 'distribute_workers', 'excess') 5169 670 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+727: ('/sc2/bot_ai.py', 'distribute_workers', 'g') 5170 673 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+728: ('/sc2/bot_ai.py', 'distribute_workers', 'deficit') 5171 674 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+729: ('/sc2/bot_ai.py', 'distribute_workers', '_') 5172 676 3 (PT Empty)
+  PT: []
+  PY: ['int']
+730: ('/sc2/bot_ai.py', 'distribute_workers', 'w') 5173 675 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+731: ('/sc2/bot_ai.py', 'distribute_workers', 'x') 5174 677 3 (PT Empty)
+  PT: []
+  PY: ['int']
+732: ('/sc2/bot_ai.py', 'owned_expansions', 'el') 5177 682 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+733: ('/sc2/bot_ai.py', 'owned_expansions', 'th') 5179 680 3 (PT Empty)
+  PT: []
+  PY: ['Optional[Any]', 'None']
+734: ('/sc2/bot_ai.py', 'can_cast', 'cached_abilities_of_unit') 5181 697 6 (PY subset PT)
+  PT: ['None', 'bool', 'List[AbilityId]']
+  PY: ['List[sc2.ids.ability_id.AbilityId]']
+735: ('/sc2/bot_ai.py', 'can_cast', 'only_check_energy_and_cooldown') 5182 696 6 (PY subset PT)
+  PT: ['Unit', 'bool']
+  PY: ['bool']
+736: ('/sc2/bot_ai.py', 'can_cast', 'target') 5183 695 8 (Partial match)
+  PT: ['AbilityId', 'None', 'Optional[Union[Unit, Point2, Point3]]']
+  PY: ['Optional[Union[sc2.position.Point2, sc2.position.Point3, sc2.unit.Unit]]']
+737: ('/sc2/bot_ai.py', 'can_cast', 'unit') 5185 693 6 (PY subset PT)
+  PT: ['BotAI', 'Unit']
+  PY: ['sc2.unit.Unit']
+738: ('/sc2/bot_ai.py', 'can_cast', 'ability_id') 5186 694 7 (etc)
+  PT: ['Unit', 'AbilityId']
+  PY: ['sc2.ids.ability_id.AbilityId']
+739: ('/sc2/bot_ai.py', 'can_cast', 'abilities') 5187 698 6 (PY subset PT)
+  PT: ['None', 'bool', 'List[AbilityId]']
+  PY: ['List[sc2.ids.ability_id.AbilityId]']
+740: ('/sc2/bot_ai.py', 'can_cast', 'can_cast_ret') 5188 132 6 (PY subset PT)
+  PT: ['bool', 'coroutine']
+  PY: ['Coroutine[Any, Any, bool]']
+741: ('/sc2/bot_ai.py', 'can_cast', 'cast_range') 5189 699 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+742: ('/sc2/bot_ai.py', 'can_cast', 'ability_target') 5190 700 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+743: ('/sc2/bot_ai.py', 'get_terrain_height', 'pos') 5192 757 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  PY: ['Any']
+744: ('/sc2/bot_ai.py', 'get_terrain_height', 'get_terrain_height_ret') 5193 143 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+745: ('/sc2/bot_ai.py', 'in_placement_grid', 'pos') 5195 759 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  PY: ['Any']
+746: ('/sc2/bot_ai.py', 'in_placement_grid', 'in_placement_grid_ret') 5196 146 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+747: ('/sc2/bot_ai.py', 'in_pathing_grid', 'pos') 5198 761 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  PY: ['Any']
+748: ('/sc2/bot_ai.py', 'in_pathing_grid', 'in_pathing_grid_ret') 5199 145 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+749: ('/sc2/bot_ai.py', 'is_visible', 'pos') 5201 763 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  PY: ['Any']
+750: ('/sc2/bot_ai.py', 'is_visible', 'is_visible_ret') 5202 147 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+751: ('/sc2/bot_ai.py', 'has_creep', 'pos') 5204 765 4 (PY Empty (is_any() is true))
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  PY: ['Any']
+752: ('/sc2/bot_ai.py', 'has_creep', 'has_creep_ret') 5205 144 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+753: ('/sc2/bot_ai.py', 'is_near_to_expansion', 't') 5206 654 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+754: ('/sc2/cache.py', 'cache_forever', 'f') 5364 1157 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+755: ('/sc2/cache.py', 'property_cache_forever', 'f') 5367 1159 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+756: ('/sc2/cache.py', 'property_cache_forever', 'property_cache_forever_ret') 5369 192 3 (PT Empty)
+  PT: ['']
+  PY: ['property']
+757: ('/generate_id_constants_from_stableid.py', 'parse_data', 'key') 5372 207 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+758: ('/generate_id_constants_from_stableid.py', 'parse_simple', 'key_to_insert') 5378 215 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+759: ('/examples/arcade_bot.py', 'position_around_unit', 'pos') 5393 284 4 (PY Empty (is_any() is true))
+  PT: ['Union[Unit, Point2, Point3]']
+  PY: ['Any']
+760: ('/sc2/bot_ai.py', 'get_next_expansion', 'get_next_expansion_ret') 5473 142 6 (PY subset PT)
+  PT: ['coroutine', 'Optional[Point2]']
+  PY: ['coroutine']
+761: ('/sc2/bot_ai.py', 'on_end', 'game_result') 5497 795 4 (PY Empty (is_any() is true))
+  PT: ['Result']
+  PY: ['Any']
+762: ('/sc2/units.py', '__or__', '__or___ret') 5501 53 7 (etc)
+  PT: ["'Units'", 'Units']
+  PY: ['_TUnits']
+763: ('/sc2/units.py', '__and__', '__and___ret') 5504 50 7 (etc)
+  PT: ["'Units'", 'Units']
+  PY: ['_TUnits']
+764: ('/sc2/units.py', '__sub__', '__sub___ret') 5507 54 7 (etc)
+  PT: ["'Units'", 'Units']
+  PY: ['_TUnits']
+765: ('/sc2/units.py', 'find_by_tag', 'find_by_tag_ret') 5512 62 4 (PY Empty (is_any() is true))
+  PT: ['Optional[Unit]']
+  PY: ['Any']
+766: ('/sc2/client.py', 'query_pathing', 'query_pathing_ret') 5526 38 6 (PY subset PT)
+  PT: ['coroutine', 'Optional[Union[int, float]]']
+  PY: ['Coroutine[Any, Any, Optional[float]]']
+767: ('/sc2/client.py', 'query_pathings', 'query_pathings_ret') 5527 39 6 (PY subset PT)
+  PT: ['coroutine', 'List[Union[float, int]]']
+  PY: ['coroutine']
+768: ('/sc2/portconfig.py', 'from_json', 'from_json_ret') 5542 163 7 (etc)
+  PT: ['Portconfig']
+  PY: ['_TPortconfig']
+769: ('/sc2/game_data.py', 'id_exists', 'id_exists_ret') 5546 186 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+770: ('/sc2/game_data.py', '__repr__', 'self') 5548 1205 6 (PY subset PT)
+  PT: ['AbilityData', 'UnitTypeData', 'UpgradeData', 'Cost']
+  PY: ['Cost']
+771: ('/sc2/game_data.py', '__eq__', '__eq___ret') 5549 187 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+772: ('/sc2/game_data.py', '__ne__', '__ne___ret') 5551 188 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+773: ('/sc2/player.py', '__str__', 'self') 5553 1248 6 (PY subset PT)
+  PT: ['Human', 'Bot', 'Computer', 'Observer']
+  PY: ['Observer']
+774: ('/sc2/unit.py', '__repr__', 'self') 5555 1259 6 (PY subset PT)
+  PT: ['PassengerUnit', 'UnitOrder']
+  PY: ['UnitOrder']
+775: ('/sc2/unit.py', '_type_data', 'self') 5558 1262 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+776: ('/sc2/unit.py', '_weapons', 'self') 5559 1275 4 (PY Empty (is_any() is true))
+  PT: ['PassengerUnit']
+  PY: ['Any']
+777: ('/sc2/position.py', '__add__', '__add___ret') 5569 92 7 (etc)
+  PT: ["'Point2'"]
+  PY: ['_TPoint2']
+778: ('/sc2/position.py', '__sub__', '__sub___ret') 5572 97 7 (etc)
+  PT: ["'Point2'"]
+  PY: ['_TPoint2']
+779: ('/sc2/position.py', '__neg__', '__neg___ret') 5575 95 7 (etc)
+  PT: ["'Point2'"]
+  PY: ['_TPoint2']
+780: ('/sc2/position.py', '__abs__', '__abs___ret') 5577 91 6 (PY subset PT)
+  PT: ['Union[int, float]']
+  PY: ['float']
+781: ('/sc2/position.py', '__bool__', '__bool___ret') 5579 93 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+782: ('/sc2/position.py', '__mul__', '__mul___ret') 5581 94 7 (etc)
+  PT: ["'Point2'"]
+  PY: ['_TPoint2']
+783: ('/sc2/position.py', '__mul__', 'other') 5583 1517 6 (PY subset PT)
+  PT: ["Union[int, float, 'Point2']"]
+  PY: ['Union[float, int]']
+784: ('/sc2/position.py', '__rmul__', '__rmul___ret') 5584 96 7 (etc)
+  PT: ["'Point2'"]
+  PY: ['_TPoint2']
+785: ('/sc2/position.py', '__rmul__', 'self') 5585 1518 5 (PT subset PY)
+  PT: ['Point2']
+  PY: ['nothing', 'Point2']
+786: ('/sc2/position.py', '__rmul__', 'other') 5586 1519 8 (Partial match)
+  PT: ["Union[int, float, 'Point2']"]
+  PY: ['Union[Point2, float, int]']
+787: ('/sc2/position.py', '__truediv__', '__truediv___ret') 5587 98 7 (etc)
+  PT: ["'Point2'"]
+  PY: ['_TPoint2']
+788: ('/sc2/position.py', '__truediv__', 'other') 5589 1521 6 (PY subset PT)
+  PT: ["Union[int, float, 'Point2']"]
+  PY: ['Union[float, int]']
+789: ('/sc2/main.py', '_host_game_aiter', '_host_game_aiter_ret') 5599 83 7 (etc)
+  PT: ['coroutine']
+  PY: ['asyncgenerator']

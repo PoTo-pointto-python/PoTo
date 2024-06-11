@@ -1,0 +1,3 @@
+0: ('/pyndata/bitfield.py', '__init__', 'shift') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['int']

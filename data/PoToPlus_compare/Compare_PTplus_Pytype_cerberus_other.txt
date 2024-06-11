@@ -1,0 +1,1083 @@
+0: ('/cerberus/errors.py', 'module_initializer', 'DOCUMENT_MISSING') 1 266 6 (PY subset PT)
+  PT: ['ErrorDefinition', 'str']
+  PY: ['str']
+1: ('/cerberus/errors.py', 'module_initializer', 'DOCUMENT_FORMAT') 7 272 6 (PY subset PT)
+  PT: ['ErrorDefinition', 'str']
+  PY: ['str']
+2: ('/cerberus/errors.py', 'SchemaErrorHandler_class_initializer', 'messages') 48 264 3 (PT Empty)
+  PT: []
+  PY: ['Dict[int, str]']
+3: ('/cerberus/base.py', 'module_initializer', '_ellipsis') 51 799 4 (PY Empty (is_any() is true))
+  PT: ['Ellipsis']
+  PY: ['Any']
+4: ('/cerberus/base.py', 'SchemaRegistry_class_initializer', '_normalize_value') 56 362 3 (PT Empty)
+  PT: []
+  PY: ['Callable[[Any], Any]']
+5: ('/cerberus/base.py', 'RulesSetRegistry_class_initializer', '_normalize_value') 57 363 3 (PT Empty)
+  PT: []
+  PY: ['Callable[[Mapping[str, Any]], Mapping[str, Any]]']
+6: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'normalization_rules') 65 789 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+7: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'validation_rules') 67 791 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+8: ('/cerberus/schema.py', 'SchemaValidator_class_initializer', 'types_mapping') 73 849 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+9: ('/cerberus/typing.py', 'module_initializer', 'ErrorHandlerConfig') 77 308 8 (Partial match)
+  PT: ["typing.Union[ForwardRef('BaseErrorHandler'), typing.Type[ForwardRef('BaseErrorHandler')], typing.Tuple[typing.Type[ForwardRef('BaseErrorHandler')], typing.Mapping[str, typing.Any]]]"]
+  PY: ['Type[Union[Type[cerberus.errors.BaseErrorHandler], cerberus.errors.BaseErrorHandler, Tuple[Type[cerberus.errors.BaseErrorHandler], Mapping[str, Any]]]]']
+10: ('/cerberus/typing.py', 'module_initializer', 'Schema') 81 312 8 (Partial match)
+  PT: ["typing.Union[ForwardRef('ValidatedSchema'), typing.Mapping[typing.Hashable, typing.Mapping[str, typing.Any]]]"]
+  PY: ['Type[Union[Mapping[Hashable, Mapping[str, Any]], cerberus.schema.ValidatedSchema]]']
+11: ('/cerberus/typing.py', 'module_initializer', 'RegistryItem') 83 314 7 (etc)
+  PT: ['~RegistryItem', '~msg']
+  PY: ['TypeVar']
+
+AM: Both
+
+12: ('/cerberus/errors.py', '__init__', 'self') 86 138 8 (Partial match)
+  PT: ['BasicErrorHandler', 'ErrorDefinition', 'ErrorTreeNode', 'ValidationError', 'ErrorTree', 'BaseErrorHandler']
+  PY: ['BasicErrorHandler', 'SchemaErrorHandler']
+13: ('/cerberus/errors.py', '__init__', 'parent_node') 88 166 6 (PY subset PT)
+  PT: ['DocumentErrorTree', 'ErrorTree', 'ErrorTreeNode', 'SchemaErrorTree', "'ErrorTreeNode'"]
+  PY: ['ErrorTreeNode']
+14: ('/cerberus/errors.py', '__init__', 'document_path') 89 142 6 (PY subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'DocumentPath']
+  PY: ['Tuple[Hashable, ...]']
+15: ('/cerberus/errors.py', '__init__', 'schema_path') 90 143 6 (PY subset PT)
+  PT: ['None', 'list', 'str', 'tuple', 'DocumentPath']
+  PY: ['Tuple[Hashable, ...]']
+16: ('/cerberus/errors.py', '__init__', 'rule') 92 140 6 (PY subset PT)
+  PT: ['None', 'str', 'Optional[str]']
+  PY: ['str']
+17: ('/cerberus/errors.py', '__init__', 'constraint') 93 144 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'frozenset()', "frozenset({'keysrules'})", 'list', 'str', 'tuple', 'Any']
+  PY: ['Any']
+18: ('/cerberus/errors.py', '__init__', 'value') 94 145 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'Any']
+  PY: ['Any']
+19: ('/cerberus/errors.py', '__init__', 'info') 95 146 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Any']
+  PY: ['Any']
+20: ('/cerberus/errors.py', 'add', 'self') 96 181 6 (PY subset PT)
+  PT: ['BasicErrorHandler', 'DocumentErrorTree', 'ErrorTree', 'ErrorTreeNode', 'SchemaErrorTree', 'BaseErrorHandler']
+  PY: ['BasicErrorHandler']
+21: ('/cerberus/errors.py', 'add', 'error') 97 182 4 (PY Empty (is_any() is true))
+  PT: ['ValidationError', 'bool', 'dict', 'frozenset()', 'list', 'tuple']
+  PY: ['Any']
+22: ('/cerberus/errors.py', 'add', 'error_path') 98 183 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+23: ('/cerberus/errors.py', 'add', 'key') 99 184 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+24: ('/cerberus/errors.py', 'add', 'node') 100 185 3 (PT Empty)
+  PT: []
+  PY: ['ErrorTreeNode']
+25: ('/cerberus/errors.py', 'add', 'child_error') 101 186 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+26: ('/cerberus/errors.py', '_path_of_', 'self') 102 187 6 (PY subset PT)
+  PT: ['DocumentErrorTree', 'ErrorTree', 'ErrorTreeNode', 'SchemaErrorTree']
+  PY: ['ErrorTree', 'ErrorTreeNode']
+27: ('/cerberus/errors.py', '_path_of_', 'error') 103 188 6 (PY subset PT)
+  PT: ['ValidationError', 'bool', 'dict', 'frozenset()', 'list', 'tuple']
+  PY: ['ValidationError']
+28: ('/cerberus/errors.py', '_path_of_', '_path_of__ret') 104 42 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+29: ('/setup.py', 'module_initializer', 'LONG_DESCRIPTION') 112 57 3 (PT Empty)
+  PT: []
+  PY: ['str']
+30: ('/docs/conf.py', 'module_initializer', 'release') 123 68 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+31: ('/docs/conf.py', 'module_initializer', 'version') 124 69 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+32: ('/docs/includes/generate.py', 'module_initializer', 'errors_module') 147 96 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+33: ('/docs/includes/generate.py', 'module_initializer', 'error_type') 148 97 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+34: ('/docs/includes/generate.py', 'module_initializer', 'validator_module') 153 100 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+35: ('/docs/includes/generate.py', 'module_initializer', 'validator') 154 101 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+36: ('/docs/includes/generate.py', 'module_initializer', 'schema_validation_schema') 155 102 3 (PT Empty)
+  PT: []
+  PY: ['str']
+37: ('/cerberus/base.py', 'normalize_rulesset', 'rules') 161 319 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'RulesSet']
+  PY: ['dict', 'Dict[str, Any]']
+38: ('/cerberus/base.py', 'normalize_rulesset', 'normalize_rulesset_ret') 162 14 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'RulesSet']
+  PY: ['Mapping[str, Any]']
+39: ('/cerberus/base.py', 'normalize_rulesset', 'x') 164 322 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+40: ('/cerberus/base.py', 'normalize_rulesset', 'rule') 166 323 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['str']
+41: ('/cerberus/base.py', 'normalize_rulesset', 'constraint') 167 324 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+42: ('/cerberus/utils.py', 'schema_hash', 'schema') 168 137 6 (PY subset PT)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Mapping']
+  PY: ['Mapping']
+43: ('/cerberus/base.py', '_expand_generic_type_aliases', 'rules') 170 326 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+44: ('/cerberus/base.py', '_expand_generic_type_aliases', 'constraint') 174 333 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+45: ('/cerberus/base.py', '_expand_generic_type_aliases', 'origin') 175 330 4 (PY Empty (is_any() is true))
+  PT: ['None', 'typing.Union']
+  PY: ['Any']
+46: ('/cerberus/base.py', '_expand_composed_of_rules', 'rules') 177 336 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+47: ('/cerberus/base.py', '_expand_composed_of_rules', 'x') 178 338 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+48: ('/cerberus/base.py', '_expand_composed_of_rules', 'composed_rule') 180 341 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['str']
+49: ('/cerberus/base.py', '_expand_composed_of_rules', 'of_rule') 181 339 3 (PT Empty)
+  PT: []
+  PY: ['str']
+50: ('/cerberus/base.py', '_expand_composed_of_rules', 'rule') 182 340 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['str']
+51: ('/cerberus/base.py', '_normalize_contained_rulessets', 'rules') 183 342 6 (PY subset PT)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+52: ('/cerberus/utils.py', 'mapping_to_frozenset', 'schema') 185 127 6 (PY subset PT)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Mapping']
+  PY: ['Mapping']
+53: ('/cerberus/utils.py', 'mapping_to_frozenset', 'key') 187 132 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+54: ('/cerberus/utils.py', 'mapping_to_frozenset', 'value') 188 129 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list']
+  PY: ['Any']
+55: ('/cerberus/utils.py', 'mapping_to_frozenset', 'item') 190 131 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+56: ('/cerberus/base.py', '_flatten_Union_and_Optional', 'type_constraints') 192 334 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+57: ('/cerberus/base.py', '_flatten_Union_and_Optional', 'constraint') 193 335 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'empty', 'required'})", 'list', 'str', 'tuple']
+  PY: ['Any']
+58: ('/cerberus/platform.py', 'get_type_origin', 'get_type_origin_ret') 195 48 4 (PY Empty (is_any() is true))
+  PT: ['None', 'typing.Union']
+  PY: ['Any']
+59: ('/cerberus/base.py', 'normalize_schema', 'schema') 198 325 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'allow_unknown'})", "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'itemsrules'})", "frozenset({'keysrules'})", "frozenset({'required', 'dependencies'})", "frozenset({'required'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Schema']
+  PY: ['Any']
+60: ('/cerberus/base.py', 'normalize_schema', 'normalize_schema_ret') 201 15 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Schema']
+  PY: ['Any']
+61: ('/cerberus/base.py', '__init__', 'definitions') 209 346 8 (Partial match)
+  PT: ['tuple', 'Union[RegistryItems, Iterable[Tuple[str, RegistryItem]]]']
+  PY: ['Union[Iterable[Tuple[str, Any]], Mapping[str, nothing]]', 'Union[Iterable[Tuple[str, Any]], Mapping[str, Any]]']
+62: ('/cerberus/base.py', '__init__', 'self') 210 345 6 (PY subset PT)
+  PT: ['RulesSetRegistry', 'SchemaRegistry', 'SchemaValidator', 'UnconcernedValidator', 'Validator', 'Registry']
+  PY: ['UnconcernedValidator']
+63: ('/cerberus/base.py', 'extend', 'definitions') 212 353 8 (Partial match)
+  PT: ['tuple', 'Union[RegistryItems, Iterable[Tuple[str, RegistryItem]]]']
+  PY: ['Union[Iterable[Tuple[str, Any]], Mapping[str, nothing]]', 'Union[Iterable[Tuple[str, Any]], Mapping[str, Any]]']
+64: ('/cerberus/base.py', 'extend', 'name') 213 354 3 (PT Empty)
+  PT: []
+  PY: ['str']
+65: ('/cerberus/base.py', 'extend', 'definition') 214 355 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+66: ('/cerberus/base.py', 'add', 'self') 215 347 6 (PY subset PT)
+  PT: ['RulesSetRegistry', 'SchemaRegistry', 'Registry']
+  PY: ['Registry']
+67: ('/cerberus/base.py', 'add', 'definition') 217 349 4 (PY Empty (is_any() is true))
+  PT: ['RegistryItem']
+  PY: ['Any']
+68: ('/cerberus/base.py', '__init__', 'extra_config') 218 391 6 (PY subset PT)
+  PT: ['dict', 'Any']
+  PY: ['Dict[str, Any]']
+69: ('/cerberus/base.py', '__init__', 'schema') 219 382 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'Schema']
+  PY: ['Any']
+70: ('/cerberus/base.py', '__init__', 'allow_unknown') 220 383 6 (PY subset PT)
+  PT: ['bool', 'dict', 'str', 'AllowUnknown']
+  PY: ['Union[Mapping[str, Any], bool]', 'Mapping[str, Any]']
+71: ('/cerberus/base.py', '__init__', 'error_handler') 221 384 4 (PY Empty (is_any() is true))
+  PT: ['BasicErrorHandler', 'ErrorHandlerConfig']
+  PY: ['Any']
+72: ('/cerberus/errors.py', '__init__', 'errors') 228 190 6 (PY subset PT)
+  PT: ['tuple', 'Iterable[ValidationError]']
+  PY: ['Iterable[ValidationError]']
+73: ('/cerberus/errors.py', '__init__', 'error') 229 191 7 (etc)
+  PT: ['bool', 'dict', 'frozenset()', 'list', 'tuple']
+  PY: ['ValidationError']
+
+AM: PY likely
+
+74: ('/cerberus/base.py', '__init_error_handler', 'config') 230 392 4 (PY Empty (is_any() is true))
+  PT: ['BasicErrorHandler', 'ErrorHandlerConfig']
+  PY: ['Any']
+75: ('/cerberus/base.py', '__init_error_handler', 'error_handler') 232 393 4 (PY Empty (is_any() is true))
+  PT: ['BasicErrorHandler']
+  PY: ['Any']
+76: ('/cerberus/base.py', '__init_error_handler', 'eh_config') 233 394 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+77: ('/cerberus/validator.py', 'schema', 'schema') 235 106 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+78: ('/cerberus/errors.py', '__init__', 'tree') 236 216 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict']
+  PY: ['dict']
+79: ('/cerberus/schema.py', '__init__', 'schema') 237 851 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+80: ('/cerberus/schema.py', '__init__', 'self') 238 804 6 (PY subset PT)
+  PT: ['SchemaValidator', 'ValidatedSchema']
+  PY: ['ValidatedSchema']
+81: ('/cerberus/schema.py', '__init__', 'validator') 239 850 4 (PY Empty (is_any() is true))
+  PT: ['Validator']
+  PY: ['Any']
+82: ('/cerberus/schema.py', '__init__', 'args') 242 805 7 (etc)
+  PT: ['None']
+  PY: ['tuple', 'Tuple[None]']
+83: ('/cerberus/schema.py', 'validate', 'schema') 243 869 6 (PY subset PT)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'dict']
+  PY: ['Dict[Any, Mapping[str, Any]]', 'ChainMap[nothing, nothing]']
+84: ('/cerberus/schema.py', '_validate', 'schema') 247 872 4 (PY Empty (is_any() is true))
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)", 'None', 'dict']
+  PY: ['Any']
+85: ('/cerberus/schema.py', '_validate', 'k') 248 874 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+86: ('/cerberus/schema.py', '_validate', 'v') 249 875 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+87: ('/cerberus/errors.py', '_rewrite_error_path', 'error') 253 245 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+88: ('/cerberus/errors.py', '_insert_logic_error', 'error') 255 236 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+89: ('/cerberus/errors.py', '_insert_logic_error', 'field') 256 237 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+90: ('/cerberus/errors.py', '_insert_logic_error', 'definition_errors') 257 239 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+91: ('/cerberus/errors.py', '_insert_logic_error', 'child_error') 258 238 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+92: ('/cerberus/errors.py', '_insert_group_error', 'error') 260 233 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+93: ('/cerberus/errors.py', '_insert_group_error', 'child_error') 261 234 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+94: ('/cerberus/errors.py', '_format_message', 'field') 263 224 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+95: ('/cerberus/errors.py', '_format_message', 'error') 264 225 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+96: ('/cerberus/errors.py', '_insert_error', 'path') 267 227 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+97: ('/cerberus/errors.py', '_insert_error', 'node') 268 228 3 (PT Empty)
+  PT: []
+  PY: ['str']
+98: ('/cerberus/errors.py', '_insert_error', 'field') 269 229 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+99: ('/cerberus/errors.py', '_insert_error', 'subtree') 270 230 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+100: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'offset') 272 255 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+101: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'error') 274 254 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+102: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'child_start') 275 256 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+103: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'i') 276 261 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+104: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'definition_errors') 277 262 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+105: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'nodename') 278 257 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['str']
+106: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'path') 279 258 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+107: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'child_error') 280 260 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+108: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'rel_path') 281 259 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+109: ('/cerberus/errors.py', '_rewrite_group_error_path', 'offset') 282 249 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+110: ('/cerberus/errors.py', '_rewrite_group_error_path', 'error') 284 248 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+111: ('/cerberus/errors.py', '_rewrite_group_error_path', 'child_start') 285 250 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+112: ('/cerberus/errors.py', '_rewrite_group_error_path', 'child_error') 286 252 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+113: ('/cerberus/errors.py', '_rewrite_group_error_path', 'relative_path') 287 251 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+114: ('/cerberus/utils.py', 'compare_paths_lt', 'x') 288 118 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+115: ('/cerberus/utils.py', 'compare_paths_lt', 'y') 289 119 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+116: ('/cerberus/utils.py', 'compare_paths_lt', 'i') 292 124 3 (PT Empty)
+  PT: []
+  PY: ['int']
+117: ('/cerberus/utils.py', 'compare_paths_lt', 'a') 293 121 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+118: ('/cerberus/utils.py', 'compare_paths_lt', 'b') 294 122 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+119: ('/cerberus/utils.py', 'compare_paths_lt', '_type') 295 123 5 (PT subset PY)
+  PT: ['int', 'str']
+  PY: ['Type[Union[int, str, tuple]]']
+120: ('/cerberus/errors.py', 'pretty_tree', 'pretty') 297 220 6 (PY subset PT)
+  PT: ['None', 'dict']
+  PY: ['Dict[nothing, nothing]', 'dict']
+121: ('/cerberus/errors.py', 'pretty_tree', 'field') 298 221 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['nothing', 'Any']
+122: ('/cerberus/errors.py', '_purge_empty_dicts', 'error_list') 301 241 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+123: ('/cerberus/errors.py', '_purge_empty_dicts', 'subtree') 302 242 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+124: ('/cerberus/errors.py', '_purge_empty_dicts', 'key') 303 243 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+125: ('/cerberus/base.py', '_error', 'self') 305 396 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+126: ('/cerberus/base.py', '_error', 'args') 306 397 6 (PY subset PT)
+  PT: ['ErrorList', 'None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Tuple[Any, Any, str]', 'Tuple[Any, cerberus.errors.ErrorDefinition, str]', 'Tuple[cerberus.errors.ErrorList]', 'Tuple[Any, cerberus.errors.ErrorDefinition, dict]', 'Tuple[Any, cerberus.errors.ErrorDefinition, Any]', 'Tuple[Any, cerberus.errors.ErrorDefinition]', 'Tuple[Hashable, cerberus.errors.ErrorDefinition]', 'tuple', 'Tuple[Any, cerberus.errors.ErrorDefinition, cerberus.errors.ErrorList, int, int]', 'Tuple[Any, cerberus.errors.ErrorDefinition, tuple]', 'Tuple[Any, cerberus.errors.ErrorDefinition, set]', 'Tuple[Any, cerberus.errors.ErrorDefinition, list]', 'Tuple[Any, cerberus.errors.ErrorDefinition, int, int]', 'Tuple[Any, cerberus.errors.ErrorDefinition, cerberus.errors.ErrorList]', 'Tuple[Any, cerberus.errors.ErrorDefinition, int]']
+127: ('/cerberus/base.py', '_error', 'error') 307 398 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any', 'nothing']
+128: ('/cerberus/base.py', '_error', 'field') 308 399 7 (etc)
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['cerberus.errors.ErrorList', 'Hashable']
+
+AM: PY likely
+
+129: ('/cerberus/base.py', '_error', 'code') 309 400 3 (PT Empty)
+  PT: []
+  PY: ['int']
+130: ('/cerberus/base.py', '_error', 'rule') 310 401 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+131: ('/cerberus/base.py', '_error', 'info') 311 402 6 (PY subset PT)
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Tuple[str]', 'Tuple[()]', 'Tuple[dict]', 'Tuple[Any]', 'tuple', 'Tuple[cerberus.errors.ErrorList, int, int]', 'Tuple[tuple]', 'Tuple[set]', 'Tuple[list]', 'Tuple[int, int]', 'Tuple[cerberus.errors.ErrorList]', 'Tuple[int]']
+132: ('/cerberus/base.py', '_error', 'document_path') 312 403 6 (PY subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['tuple', 'Tuple[Union[cerberus.errors.ErrorList, Hashable], ...]', 'Tuple[Hashable, ...]']
+133: ('/cerberus/base.py', '_error', 'schema_path') 313 404 6 (PY subset PT)
+  PT: ['None', 'str', 'tuple']
+  PY: ['Union[str, tuple]']
+134: ('/cerberus/base.py', '_error', 'constraint') 314 405 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'frozenset()', "frozenset({'keysrules'})", 'list', 'str', 'tuple']
+  PY: ['Optional[Any]']
+135: ('/cerberus/base.py', '_error', 'field_definitions') 315 406 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Optional[Any]']
+136: ('/cerberus/base.py', '_error', 'value') 316 407 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+137: ('/cerberus/base.py', '_resolve_rules_set', 'self') 317 432 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+138: ('/cerberus/base.py', '_resolve_rules_set', 'rules_set') 318 433 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+139: ('/cerberus/base.py', '_resolve_rules_set', '_resolve_rules_set_ret') 319 5 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+140: ('/cerberus/schema.py', 'update', 'schema') 321 865 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+141: ('/cerberus/base.py', 'normalized', 'schema') 324 470 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Optional[Schema]']
+  PY: ['Optional[Any]']
+142: ('/cerberus/base.py', 'normalized', 'self') 325 468 6 (PY subset PT)
+  PT: ['Validator', 'UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+143: ('/cerberus/base.py', 'normalized', 'document') 326 469 6 (PY subset PT)
+  PT: ['dict', 'Document']
+  PY: ['Mapping[Hashable, Any]']
+144: ('/cerberus/base.py', 'normalized', 'normalized_ret') 327 8 8 (Partial match)
+  PT: ['None', 'dict', 'Optional[Document]']
+  PY: ['Union[builtins.NoneType, Mapping[Hashable, Any]]']
+145: ('/cerberus/base.py', '__init_processing', 'schema') 328 463 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+146: ('/cerberus/base.py', '__init_processing', 'self') 329 461 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+147: ('/cerberus/base.py', '__normalize_mapping', 'self') 331 472 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+148: ('/cerberus/base.py', '__normalize_mapping', 'mapping') 332 473 6 (PY subset PT)
+  PT: ['None', 'dict']
+  PY: ['Mapping[Hashable, Any]']
+149: ('/cerberus/base.py', '__normalize_mapping', 'schema') 333 474 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+150: ('/cerberus/base.py', '__normalize_mapping', 'k') 334 475 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+151: ('/cerberus/base.py', '__normalize_mapping', 'v') 335 476 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+152: ('/cerberus/base.py', '_resolve_schema', 'self') 337 434 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+153: ('/cerberus/base.py', '_resolve_schema', 'schema') 338 435 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Any']
+154: ('/cerberus/base.py', '_resolve_schema', '_resolve_schema_ret') 339 6 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Any']
+155: ('/cerberus/base.py', '__normalize_rename_fields', 'self') 340 555 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+156: ('/cerberus/base.py', '__normalize_rename_fields', 'mapping') 341 556 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+157: ('/cerberus/base.py', '__normalize_rename_fields', 'schema') 342 557 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+158: ('/cerberus/base.py', '__normalize_rename_fields', 'field') 343 558 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+159: ('/cerberus/base.py', '_normalize_purge_unknown', 'mapping') 345 551 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+160: ('/cerberus/base.py', '_normalize_purge_unknown', 'schema') 346 552 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+161: ('/cerberus/base.py', '_normalize_purge_unknown', 'x') 347 553 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+162: ('/cerberus/base.py', '_normalize_purge_unknown', 'field') 348 554 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+163: ('/cerberus/base.py', '_normalize_purge_unknown', '_normalize_purge_unknown_ret') 349 4 7 (etc)
+  PT: ['None', 'dict']
+  PY: ['_T0']
+
+AM: Both
+
+164: ('/cerberus/base.py', '__normalize_purge_readonly', 'mapping') 350 547 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+165: ('/cerberus/base.py', '__normalize_purge_readonly', 'schema') 351 548 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+166: ('/cerberus/base.py', '__normalize_purge_readonly', 'x') 352 549 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+167: ('/cerberus/base.py', '__normalize_purge_readonly', 'field') 353 550 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+168: ('/cerberus/base.py', '__validate_readonly_fields', 'self') 355 568 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+169: ('/cerberus/base.py', '__validate_readonly_fields', 'mapping') 356 569 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+170: ('/cerberus/base.py', '__validate_readonly_fields', 'schema') 357 570 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+171: ('/cerberus/base.py', '__validate_readonly_fields', 'field') 358 572 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+172: ('/cerberus/base.py', '__normalize_default_fields', 'self') 359 573 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+173: ('/cerberus/base.py', '__normalize_default_fields', 'mapping') 360 574 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+174: ('/cerberus/base.py', '__normalize_default_fields', 'schema') 361 575 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+175: ('/cerberus/base.py', '__normalize_default_fields', 'x') 362 577 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+176: ('/cerberus/base.py', '__normalize_default_fields', 'field') 364 578 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+177: ('/cerberus/base.py', '_normalize_coerce', 'self') 368 477 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+178: ('/cerberus/base.py', '_normalize_coerce', 'mapping') 369 478 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+179: ('/cerberus/base.py', '_normalize_coerce', 'schema') 370 479 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+180: ('/cerberus/base.py', '_normalize_coerce', 'error') 371 480 3 (PT Empty)
+  PT: []
+  PY: ['cerberus.errors.ErrorDefinition']
+181: ('/cerberus/base.py', '_normalize_coerce', 'field') 372 481 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+182: ('/cerberus/base.py', '__normalize_containers', 'self') 373 490 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+183: ('/cerberus/base.py', '__normalize_containers', 'mapping') 374 491 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+184: ('/cerberus/base.py', '__normalize_containers', 'schema') 375 492 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['dict']
+185: ('/cerberus/base.py', '__normalize_containers', 'field') 376 495 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+186: ('/cerberus/errors.py', 'start', 'self') 378 213 6 (PY subset PT)
+  PT: ['BasicErrorHandler', 'BaseErrorHandler']
+  PY: ['BasicErrorHandler']
+187: ('/cerberus/errors.py', 'start', 'validator') 379 214 4 (PY Empty (is_any() is true))
+  PT: ['UnconcernedValidator', 'Validator', "'UnconcernedValidator'"]
+  PY: ['Any']
+188: ('/cerberus/base.py', '_normalize_rename', 'self') 380 559 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+189: ('/cerberus/base.py', '_normalize_rename', 'mapping') 381 560 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+190: ('/cerberus/base.py', '_normalize_rename', 'schema') 382 561 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Any']
+191: ('/cerberus/base.py', '_normalize_rename', 'field') 383 562 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+192: ('/cerberus/base.py', '_normalize_rename_handler', 'self') 384 563 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+193: ('/cerberus/base.py', '_normalize_rename_handler', 'mapping') 385 564 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+194: ('/cerberus/base.py', '_normalize_rename_handler', 'schema') 386 565 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Dict[Any, Union[Mapping[str, Any], bool]]']
+195: ('/cerberus/base.py', '_normalize_rename_handler', 'field') 387 566 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+196: ('/cerberus/base.py', '_normalize_rename_handler', 'new_name') 388 567 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+197: ('/cerberus/base.py', '_validate_readonly', 'self') 389 745 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+198: ('/cerberus/base.py', '_validate_readonly', 'readonly') 390 746 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+199: ('/cerberus/base.py', '_validate_readonly', 'field') 391 747 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+200: ('/cerberus/base.py', '_validate_readonly', 'value') 392 748 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+201: ('/cerberus/base.py', '_normalize_default', 'self') 394 582 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+202: ('/cerberus/base.py', '_normalize_default', 'mapping') 395 583 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+203: ('/cerberus/base.py', '_normalize_default', 'schema') 396 584 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Any']
+204: ('/cerberus/base.py', '_normalize_default', 'field') 397 585 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+205: ('/cerberus/base.py', '_normalize_default_setter', 'self') 398 586 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+206: ('/cerberus/base.py', '_normalize_default_setter', 'mapping') 399 587 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+207: ('/cerberus/base.py', '_normalize_default_setter', 'schema') 400 588 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Any']
+208: ('/cerberus/base.py', '_normalize_default_setter', 'field') 401 589 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+209: ('/cerberus/base.py', '_normalize_default_setter', 'setter') 402 590 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+210: ('/cerberus/base.py', '__normalize_coerce', 'self') 403 482 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+211: ('/cerberus/base.py', '__normalize_coerce', 'processor') 404 483 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+212: ('/cerberus/base.py', '__normalize_coerce', 'field') 405 484 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+213: ('/cerberus/base.py', '__normalize_coerce', 'value') 406 485 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+214: ('/cerberus/base.py', '__normalize_coerce', 'error') 408 487 3 (PT Empty)
+  PT: []
+  PY: ['cerberus.errors.ErrorDefinition']
+215: ('/cerberus/base.py', '__normalize_coerce', 'result') 409 488 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+216: ('/cerberus/base.py', '__normalize_coerce', 'p') 410 489 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+217: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'self') 412 496 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+218: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'field') 413 497 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+219: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'mapping') 414 498 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+220: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'property_rules') 415 499 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+221: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'k') 416 501 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+222: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'validator') 419 503 7 (etc)
+  PT: ['Validator']
+  PY: ['UnconcernedValidator']
+
+AM: Both
+
+223: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', '_in') 421 507 7 (etc)
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Hashable']
+
+AM: PY
+
+224: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'out') 422 508 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+225: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'self') 423 509 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+226: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'field') 424 510 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+227: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'mapping') 425 511 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+228: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'value_rules') 426 512 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+229: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'k') 427 514 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+230: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'validator') 429 515 3 (PT Empty)
+  PT: []
+  PY: ['UnconcernedValidator']
+231: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'self') 430 516 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+232: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'field') 431 517 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+233: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'mapping') 432 518 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+234: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'schema') 433 519 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Any']
+235: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'rules') 434 520 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict']
+  PY: ['Any']
+236: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'validator') 435 521 3 (PT Empty)
+  PT: []
+  PY: ['UnconcernedValidator']
+237: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'value_type') 436 522 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'str', 'tempfile._TemporaryFileWrapper', 'type']
+  PY: ['Any']
+238: ('/cerberus/base.py', '__normalize_mapping_per_schema', 'result_value') 437 523 3 (PT Empty)
+  PT: []
+  PY: ['Optional[Mapping[Hashable, Any]]']
+239: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'self') 438 536 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+240: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'field') 439 537 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+241: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'mapping') 440 538 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+242: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'schema') 441 539 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Dict[int, Any]']
+243: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'constraint') 442 540 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+244: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'k') 443 541 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+245: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'v') 444 543 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+246: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'validator') 446 544 3 (PT Empty)
+  PT: []
+  PY: ['UnconcernedValidator']
+247: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'value_type') 447 545 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'str', 'tempfile._TemporaryFileWrapper', 'type']
+  PY: ['Any']
+248: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'result') 448 546 3 (PT Empty)
+  PT: []
+  PY: ['Optional[Mapping[Hashable, Any]]']
+249: ('/cerberus/base.py', '__normalize_sequence_per_items', 'self') 449 524 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+250: ('/cerberus/base.py', '__normalize_sequence_per_items', 'field') 450 525 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+251: ('/cerberus/base.py', '__normalize_sequence_per_items', 'mapping') 451 526 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+252: ('/cerberus/base.py', '__normalize_sequence_per_items', 'schema') 452 527 6 (PY subset PT)
+  PT: ['None', 'ValidatedSchema', 'dict', 'meta_func']
+  PY: ['Dict[int, Any]']
+253: ('/cerberus/base.py', '__normalize_sequence_per_items', 'rules') 453 528 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+254: ('/cerberus/base.py', '__normalize_sequence_per_items', 'values') 454 529 4 (PY Empty (is_any() is true))
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+255: ('/cerberus/base.py', '__normalize_sequence_per_items', 'k') 455 530 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+256: ('/cerberus/base.py', '__normalize_sequence_per_items', 'v') 456 531 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'str']
+  PY: ['Any']
+257: ('/cerberus/base.py', '__normalize_sequence_per_items', 'validator') 458 533 3 (PT Empty)
+  PT: []
+  PY: ['UnconcernedValidator']
+258: ('/cerberus/base.py', '__normalize_sequence_per_items', 'value_type') 459 534 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'str', 'tempfile._TemporaryFileWrapper', 'type']
+  PY: ['Any']
+259: ('/cerberus/base.py', '__normalize_sequence_per_items', 'result') 460 535 3 (PT Empty)
+  PT: []
+  PY: ['Optional[Mapping[Hashable, Any]]']
+260: ('/cerberus/errors.py', 'fetch_errors_from', 'self') 462 192 6 (PY subset PT)
+  PT: ['DocumentErrorTree', 'ErrorTree']
+  PY: ['ErrorTree']
+
+AM: Both
+
+261: ('/cerberus/errors.py', 'fetch_errors_from', 'path') 463 193 6 (PY subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'DocumentPath']
+  PY: ['Tuple[Hashable, ...]']
+
+AM: PY
+
+262: ('/cerberus/errors.py', 'fetch_errors_from', 'node') 464 194 7 (etc)
+  PT: ['DocumentErrorTree', 'ErrorTree']
+  PY: ['ErrorTreeNode']
+
+AM: Both
+
+263: ('/cerberus/base.py', '_drop_remaining_rules', 'self') 466 464 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+264: ('/cerberus/base.py', '_drop_remaining_rules', 'rules') 467 465 3 (PT Empty)
+  PT: []
+  PY: ['tuple', 'Tuple[str, str, str, str, str, str, str]', 'Tuple[str, str, str, str, str, str, str, str, str, str, str, str, str]', 'Tuple[()]']
+265: ('/cerberus/base.py', '_drop_remaining_rules', 'rule') 468 467 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+266: ('/cerberus/base.py', '__get_rule_handler', 'self') 469 414 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+267: ('/cerberus/base.py', '__get_rule_handler', 'rule') 471 416 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+268: ('/cerberus/base.py', '__get_rule_handler', 'result') 473 418 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+269: ('/cerberus/base.py', '_get_child_validator', 'kwargs') 475 411 6 (PY subset PT)
+  PT: ['dict', 'Any']
+  PY: ['Dict[str, Any]']
+270: ('/cerberus/base.py', '_get_child_validator', 'schema_crumb') 476 410 6 (PY subset PT)
+  PT: ['None', 'str', 'tuple', 'Union[FieldName, Iterable[FieldName], None]']
+  PY: ['Optional[Tuple[Optional[Union[Iterable[Hashable], Hashable]]]]']
+271: ('/cerberus/base.py', '_get_child_validator', 'document_crumb') 477 409 6 (PY subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'Union[FieldName, Iterable[FieldName], None]']
+  PY: ['Optional[Tuple[Optional[Union[Iterable[Hashable], Hashable]]]]']
+272: ('/cerberus/base.py', '_get_child_validator', 'self') 478 408 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+273: ('/cerberus/base.py', '_get_child_validator', 'child_config') 479 412 3 (PT Empty)
+  PT: []
+  PY: ['ChainMap[str, Any]']
+274: ('/cerberus/base.py', '_get_child_validator', 'child_validator') 480 413 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+275: ('/cerberus/base.py', '_get_child_validator', '_get_child_validator_ret') 481 2 7 (etc)
+  PT: ['UnconcernedValidator', 'Validator', "'UnconcernedValidator'"]
+  PY: ['_TUnconcernedValidator']
+
+AM: Both
+
+276: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'self') 482 419 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+277: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'dp_items') 484 421 6 (PY subset PT)
+  PT: ['list', 'Iterable[int]']
+  PY: ['Iterable[int]']
+278: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'sp_items') 485 422 6 (PY subset PT)
+  PT: ['list', 'Iterable[int]']
+  PY: ['Iterable[int]']
+279: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'error') 488 426 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+280: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'i') 489 425 6 (PY subset PT)
+  PT: ['dict', 'int']
+  PY: ['int']
+281: ('/cerberus/errors.py', 'fetch_node_from', 'self') 490 195 6 (PY subset PT)
+  PT: ['DocumentErrorTree', 'ErrorTree']
+  PY: ['ErrorTree']
+
+AM: Both
+
+282: ('/cerberus/errors.py', 'fetch_node_from', 'path') 491 196 6 (PY subset PT)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple', 'DocumentPath']
+  PY: ['Tuple[Hashable, ...]']
+283: ('/cerberus/errors.py', 'fetch_node_from', 'context') 492 197 8 (Partial match)
+  PT: ['DocumentErrorTree', 'ErrorTree']
+  PY: ['Optional[ErrorTree]']
+284: ('/cerberus/errors.py', 'fetch_node_from', 'key') 493 198 7 (etc)
+  PT: ['<tempfile._TemporaryFileWrapper object at 0x7f79d6777550>', 'None', 'bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", "frozenset({'schema'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Hashable']
+
+AM: PY
+
+285: ('/cerberus/errors.py', 'fetch_node_from', 'fetch_node_from_ret') 494 38 6 (PY subset PT)
+  PT: ['DocumentErrorTree', 'ErrorTree', 'ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+286: ('/cerberus/utils.py', 'drop_item_from_tuple', 't') 495 125 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+287: ('/cerberus/utils.py', 'drop_item_from_tuple', 'i') 496 126 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'int']
+  PY: ['Any']
+288: ('/cerberus/utils.py', 'drop_item_from_tuple', 'drop_item_from_tuple_ret') 497 28 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+289: ('/cerberus/__init__.py', 'validator_factory', 'namespace') 501 109 6 (PY subset PT)
+  PT: ['None', 'dict', 'Optional[Dict]']
+  PY: ['dict']
+290: ('/cerberus/__init__.py', 'validator_factory', 'bases') 502 108 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Union[type, Tuple[type], None]']
+  PY: ['Optional[Any]']
+291: ('/cerberus/__init__.py', 'validator_factory', 'validator_class') 504 111 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator', 'bool']
+  PY: ['Type[Union[cerberus.base.UnconcernedValidator, cerberus.validator.Validator]]']
+292: ('/cerberus/__init__.py', 'validator_factory', 'computed_bases') 505 112 4 (PY Empty (is_any() is true))
+  PT: ['None', 'tuple']
+  PY: ['Any']
+293: ('/cerberus/__init__.py', 'validator_factory', 'x') 506 114 4 (PY Empty (is_any() is true))
+  PT: ['None', 'UnconcernedValidator', 'Validator', 'bool']
+  PY: ['Any']
+294: ('/cerberus/utils.py', 'quote_string', 'value') 509 133 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+295: ('/cerberus/utils.py', 'quote_string', 'quote_string_ret') 510 30 5 (PT subset PY)
+  PT: ['str']
+  PY: ['Union[str, _T0]']
+296: ('/cerberus/errors.py', 'definitions_errors', 'result') 514 155 3 (PT Empty)
+  PT: []
+  PY: ['DefaultDict[int, ErrorList]']
+297: ('/cerberus/errors.py', 'definitions_errors', 'error') 515 157 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+298: ('/cerberus/errors.py', 'definitions_errors', 'i') 516 156 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+299: ('/cerberus/errors.py', 'extend', 'self') 523 210 5 (PT subset PY)
+  PT: ['BaseErrorHandler']
+  PY: ['BaseErrorHandler', 'BasicErrorHandler']
+300: ('/cerberus/errors.py', 'extend', 'errors') 524 211 6 (PY subset PT)
+  PT: ['list', 'Iterable[ValidationError]']
+  PY: ['Iterable[ValidationError]']
+301: ('/cerberus/base.py', 'validate', 'schema') 528 593 4 (PY Empty (is_any() is true))
+  PT: ['None', 'Optional[Schema]']
+  PY: ['nothing']
+302: ('/cerberus/base.py', 'validate', 'self') 529 591 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+303: ('/cerberus/base.py', 'validate', 'document') 530 592 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Document']
+  PY: ['nothing']
+304: ('/cerberus/base.py', 'validate', 'field') 531 597 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+305: ('/cerberus/base.py', 'validate', 'definitions') 532 596 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+306: ('/cerberus/base.py', '__validate_definitions', 'self') 534 609 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+307: ('/cerberus/base.py', '__validate_definitions', 'definitions') 535 610 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+308: ('/cerberus/base.py', '__validate_definitions', 'field') 536 611 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+309: ('/cerberus/base.py', '__validate_definitions', 'value') 537 612 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+310: ('/cerberus/base.py', '__validate_definitions', 'x') 538 614 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+311: ('/cerberus/base.py', '__validate_definitions', 'rule') 540 615 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+312: ('/cerberus/base.py', '__validate_definitions', 'rule_handler') 541 616 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+313: ('/cerberus/base.py', '__validate_unknown_fields', 'self') 542 604 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+314: ('/cerberus/base.py', '__validate_unknown_fields', 'field') 543 605 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+315: ('/cerberus/base.py', '__validate_unknown_fields', 'value') 544 606 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'frozenset()', "frozenset({'coerce'})", "frozenset({'empty', 'required'})", "frozenset({'items'})", 'int', 'list', 'str', 'tuple']
+  PY: ['Any']
+316: ('/cerberus/base.py', '__validate_unknown_fields', 'validator') 546 608 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+317: ('/cerberus/base.py', '__validate_required_fields', 'self') 547 755 6 (PY subset PT)
+  PT: ['UnconcernedValidator', 'Validator']
+  PY: ['UnconcernedValidator']
+318: ('/cerberus/base.py', '__validate_required_fields', 'document') 548 756 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict']
+  PY: ['Any']
+319: ('/cerberus/base.py', '__validate_required_fields', 'field') 551 758 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+320: ('/cerberus/errors.py', '__repr__', 'self') 563 152 6 (PY subset PT)
+  PT: ['ValidationError', 'ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+321: ('/cerberus/errors.py', '__contains__', 'self') 566 162 6 (PY subset PT)
+  PT: ['ErrorList', 'ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+322: ('/cerberus/errors.py', '__iter__', 'self') 570 170 6 (PY subset PT)
+  PT: ['ErrorTreeNode', 'BaseErrorHandler']
+  PY: ['ErrorTreeNode']
+323: ('/cerberus/errors.py', '__getitem__', 'item') 573 172 8 (Partial match)
+  PT: ['Union[ErrorDefinition, FieldName]']
+  PY: ['Union[ErrorDefinition, Hashable]']
+324: ('/cerberus/errors.py', '__setitem__', 'key') 577 176 7 (etc)
+  PT: ['FieldName']
+  PY: ['Hashable']
+
+AM: Both
+
+325: ('/cerberus/errors.py', '__str__', 'self') 579 178 6 (PY subset PT)
+  PT: ['ErrorTreeNode', 'BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+326: ('/cerberus/errors.py', '__call__', '__call___ret') 580 32 3 (PT Empty)
+  PT: ['Any']
+  PY: ['dict', 'Never']
+327: ('/cerberus/errors.py', '__call__', 'self') 581 217 6 (PY subset PT)
+  PT: ['BaseErrorHandler', 'ToyErrorHandler', 'BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+328: ('/cerberus/errors.py', '__call__', 'errors') 582 218 4 (PY Empty (is_any() is true))
+  PT: ['Iterable[ValidationError]']
+  PY: ['Any']
+329: ('/cerberus/base.py', 'all', 'all_ret') 587 0 7 (etc)
+  PT: ['RegistryItems']
+  PY: ['Mapping[str, RegistryItem]']
+
+AM: Both
+
+330: ('/cerberus/base.py', 'get', 'get_ret') 590 1 8 (Partial match)
+  PT: ['Optional[RegistryItem]']
+  PY: ['Union[builtins.NoneType, RegistryItem]']
+331: ('/cerberus/base.py', 'get', 'self') 591 356 5 (PT subset PY)
+  PT: ['Registry']
+  PY: ['Registry', 'RulesSetRegistry', 'SchemaRegistry']
+332: ('/cerberus/base.py', 'get', 'default') 593 358 4 (PY Empty (is_any() is true))
+  PT: ['Optional[RegistryItem]']
+  PY: ['Optional[Any]']
+333: ('/cerberus/base.py', 'remove', 'names') 595 360 7 (etc)
+  PT: ['str']
+  PY: ['Tuple[str, ...]']
+
+AM: Both, args
+
+334: ('/cerberus/base.py', '__get_rule_schema', 'result') 596 381 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+335: ('/cerberus/base.py', 'allow_unknown', 'value') 602 437 7 (etc)
+  PT: ['AllowUnknown']
+  PY: ['Union[Mapping[str, Any], bool]']
+
+AM: PY likely
+
+336: ('/cerberus/base.py', 'validated', 'validated_ret') 636 10 7 (etc)
+  PT: ['Optional[Document]']
+  PY: ['Union[builtins.NoneType, Mapping[Hashable, Any]]']
+
+AM: Both
+
+337: ('/cerberus/base.py', 'validated', 'document') 638 599 7 (etc)
+  PT: ['Document']
+  PY: ['Mapping[Hashable, Any]']
+
+AM: Both
+
+338: ('/cerberus/base.py', 'validated', 'schema') 639 600 4 (PY Empty (is_any() is true))
+  PT: ['Optional[Schema]']
+  PY: ['Optional[Any]']
+339: ('/cerberus/base.py', '_validate_dependencies', 'dependencies') 649 635 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+340: ('/cerberus/base.py', '__validate_dependencies_mapping', 'dependency_values') 654 643 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+341: ('/cerberus/base.py', '_validate_excludes', 'excluded_fields') 658 656 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+342: ('/cerberus/benchmarks/test_overall_performance.py', 'init_validator_1', 'types_mapping') 708 881 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']

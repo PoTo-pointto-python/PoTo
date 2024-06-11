@@ -1,0 +1,1620 @@
+0: ('/explore.py', 'module_initializer', 'zfuse') 0 73 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[module]']
+1: ('/zfs/objectset.py', 'module_initializer', 'MicroZAPType') 30 595 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+2: ('/pyndata/__init__.py', 'module_initializer', 'o') 37 94 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+3: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'name') 40 838 4 (PY Empty (is_any() is true))
+  PT: ['nullstring']
+  PY: ['Any']
+4: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'value') 41 839 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+5: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'object_type') 42 840 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+6: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'number') 43 841 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+7: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'magic') 46 881 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+8: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'layout') 47 882 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+9: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown1') 48 883 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+10: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown2') 49 884 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+11: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown3') 50 885 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+12: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'mode') 62 907 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+13: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'perms') 63 908 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+14: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'unknown') 64 909 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+15: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'file_type') 65 910 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+16: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', 'seconds') 67 912 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+17: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', 'nanoseconds') 68 913 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+18: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'who') 69 914 4 (PY Empty (is_any() is true))
+  PT: ['uint32']
+  PY: ['Any']
+19: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'access_mask') 70 915 4 (PY Empty (is_any() is true))
+  PT: ['uint32']
+  PY: ['Any']
+20: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'flags') 71 916 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+21: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'type') 72 917 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+22: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'external_object') 73 918 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+23: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'count') 74 919 4 (PY Empty (is_any() is true))
+  PT: ['uint32']
+  PY: ['Any']
+24: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'version') 75 920 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+25: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', '_padding') 76 921 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+26: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'aces') 77 922 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+27: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_GEN') 83 928 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+28: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_SIZE') 85 930 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+29: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_PARENT') 86 931 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+30: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_LINKS') 87 932 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+31: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_XATTR') 88 933 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+32: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_RDEV') 89 934 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+33: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_FLAGS') 90 935 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+34: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_UID') 91 936 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+35: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_GID') 92 937 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+36: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'padding') 93 938 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+37: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', 'block_type') 100 948 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+38: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', 'salt') 101 949 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+39: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', 'flags') 102 950 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+40: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', '_pad') 103 951 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+41: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', '_pad') 105 953 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+42: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', 'collision') 106 954 4 (PY Empty (is_any() is true))
+  PT: ['uint32']
+  PY: ['Any']
+43: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', 'name') 107 955 4 (PY Empty (is_any() is true))
+  PT: ['nullstring']
+  PY: ['Any']
+44: ('/zfs/ondisk/zap.py', 'MicroZAP_class_initializer', 'value') 109 957 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+45: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', '_value') 112 960 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+46: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'attr_num') 113 961 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+47: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'byteswap') 114 962 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+48: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'length') 115 963 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+49: ('/zfs/ondisk/__init__.py', 'module_initializer', 'ObjectsetTypes') 118 1112 3 (PT Empty)
+  PT: []
+  PY: ['Type[Type[Union[ObjsetV1, ObjsetV15]]]']
+50: ('/zfs/ondisk/__init__.py', 'module_initializer', 'Objectsets') 119 1113 3 (PT Empty)
+  PT: []
+  PY: ['Type[Union[ObjsetV1, ObjsetV15]]']
+51: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', '_first') 122 967 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+52: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'vdev') 123 968 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+53: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'grid') 124 969 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+54: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'asize') 125 970 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+55: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', '_offset') 126 971 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+56: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'gang') 127 972 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+57: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'offset') 128 973 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+58: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'dvas') 130 977 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+59: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', '_prop') 131 978 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+60: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'logical_size') 132 979 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+61: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'physical_size') 133 980 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+62: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'compression') 134 981 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+63: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'encryption') 135 982 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+64: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'embedded') 136 983 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+65: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'checksum_type') 137 984 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+66: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'object_type') 138 985 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+67: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'level') 139 986 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+68: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'dedup') 140 987 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+69: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'endian') 141 988 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+70: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'pad') 142 989 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+71: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'phys_birth') 143 990 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+72: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'birth') 144 991 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+73: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'fill') 145 992 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+74: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'checksum') 146 993 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+75: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'data1') 251 997 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+76: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', '_prop') 252 998 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+77: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'logical_size') 253 999 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+78: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'physical_size') 254 1000 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+79: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'compression') 255 1001 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+80: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'embedded') 256 1002 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+81: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'embedded_type') 257 1003 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+82: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'type_') 258 1004 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+83: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'level') 259 1005 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+84: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'encryption') 260 1006 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+85: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'dedup') 261 1007 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+86: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'endian') 262 1008 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+87: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'data2') 263 1009 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+88: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'birth') 264 1010 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+89: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'data3') 265 1011 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+90: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'blocks') 267 1013 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+91: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', '_pad') 268 1014 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+92: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'magic') 269 1015 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+93: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'checksum') 270 1016 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+94: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'magic') 273 1020 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+95: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'version') 274 1021 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+96: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'txg') 275 1022 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+97: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'guid_sum') 276 1023 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+98: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'timestamp') 277 1024 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+99: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'software_version') 279 1026 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+100: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'node_type') 281 1030 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+101: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'indirect_blockshift') 282 1031 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+102: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'indirect_levels') 283 1032 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+103: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'num_blockptrs') 284 1033 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+104: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'bonustype') 285 1034 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+105: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'checksum_type') 286 1035 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+106: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'compression_type') 287 1036 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+107: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_dnode_flags') 288 1037 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+108: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'used_bytes') 289 1038 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+109: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'userused') 290 1039 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+110: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'spill_blkptr') 291 1040 4 (PY Empty (is_any() is true))
+  PT: ['BitField']
+  PY: ['Any']
+111: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'data_sectors') 292 1041 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+112: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'bonuslen') 293 1042 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+113: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_pad') 294 1043 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+114: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'max_block_id') 295 1044 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+115: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'used') 296 1045 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+116: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_pad2') 297 1046 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+117: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'blkptr') 298 1047 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+118: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'bonus') 299 1048 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+119: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_final_pad') 300 1049 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+120: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'claim_txg') 301 1050 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+121: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'replay_seq') 302 1051 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+122: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'claim_seq') 304 1053 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+123: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', '_pad') 305 1054 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+124: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'tx_type') 306 1055 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+125: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'length') 307 1056 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+126: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'txg') 308 1057 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+127: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'seq') 309 1058 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+128: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', 'os_type') 313 1062 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+129: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'os_type') 317 1066 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+130: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'os_flags') 318 1067 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+131: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', '_pad') 319 1068 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+132: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'creation_time') 323 1078 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+133: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'head_dataset') 324 1079 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+134: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'parent') 325 1080 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+135: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'clone_parent') 326 1081 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+136: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'child_dir_zap') 327 1082 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+137: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'used_bytes') 328 1083 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+138: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'compressed_bytes') 329 1084 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+139: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'uncompressed_bytes') 330 1085 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+140: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'quota') 331 1086 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+141: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'props_zap') 332 1087 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+142: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', '_pad') 333 1088 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+143: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'dir') 335 1090 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+144: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'prev_snapshot') 336 1091 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+145: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'prev_snapshot_txg') 337 1092 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+146: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'next_snapshot') 338 1093 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+147: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'snapnames_zap') 339 1094 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+148: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'num_children') 340 1095 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+149: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'creation_time') 341 1096 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+150: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'creation_txg') 342 1097 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+151: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'deadlist') 343 1098 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+152: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'used_bytes') 344 1099 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+153: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'compressed_bytes') 345 1100 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+154: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'uncompressed_bytes') 346 1101 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+155: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'unique_bytes') 347 1102 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+156: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'fsid_guid') 348 1103 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+157: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'guid') 349 1104 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+158: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'flags') 350 1105 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+159: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', '_pad') 352 1107 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+160: ('/zfs/ondisk/__init__.py', 'BPObjHeader_class_initializer', 'length') 354 1109 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+161: ('/zfs/ondisk/__init__.py', 'BPObjHeader_class_initializer', 'unknown') 355 1110 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+162: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'block') 360 1116 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+163: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'num_blocks') 361 1117 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+164: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'shift') 362 1118 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+165: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'next_block') 363 1119 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+166: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'blocks_copied') 364 1120 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+167: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'header') 366 1122 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+168: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'next') 367 1123 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+169: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'prefix') 368 1124 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+170: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'magic') 369 1125 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+171: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'num_free') 370 1126 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+172: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'n_entries') 371 1127 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+173: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'prefix_len') 372 1128 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+174: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'freelist') 373 1129 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+175: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', '_padding') 374 1130 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+176: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', 'block_type') 376 1133 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+177: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', 'magic') 377 1134 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+178: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', 'first_free') 379 1136 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+179: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', 'num_leafs') 380 1137 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+180: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', 'num_entries') 381 1138 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+181: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', 'salt') 382 1139 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+182: ('/zfs/ondisk/fatzap.py', 'LeafChunk_class_initializer', 'chunk_type') 384 1141 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+183: ('/zfs/ondisk/fatzap.py', 'LeafChunk_class_initializer', 'data') 385 1142 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+184: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'size') 386 1143 4 (PY Empty (is_any() is true))
+  PT: ['uint8']
+  PY: ['Any']
+185: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'next') 387 1144 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+186: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'name_chunk') 388 1145 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+187: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'name_length') 389 1146 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+188: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'value_chunk') 390 1147 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+189: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'value_length') 391 1148 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+190: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'collision') 392 1149 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+191: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'padding') 393 1150 4 (PY Empty (is_any() is true))
+  PT: ['padding']
+  PY: ['Any']
+192: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'hash') 394 1151 4 (PY Empty (is_any() is true))
+  PT: ['uint64']
+  PY: ['Any']
+193: ('/zfs/ondisk/fatzap.py', 'LeafArray_class_initializer', 'data') 395 1152 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+194: ('/zfs/ondisk/fatzap.py', 'LeafArray_class_initializer', 'next') 396 1153 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+195: ('/zfs/ondisk/fatzap.py', 'LeafFree_class_initializer', '_padding') 397 1154 4 (PY Empty (is_any() is true))
+  PT: ['bytestring']
+  PY: ['Any']
+196: ('/zfs/ondisk/fatzap.py', 'LeafFree_class_initializer', 'next') 398 1155 4 (PY Empty (is_any() is true))
+  PT: ['uint16']
+  PY: ['Any']
+197: ('/zfs/objectset.py', '__init__', 'dataset') 399 522 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+198: ('/zfs/objectset.py', '__init__', 'pool') 401 519 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+199: ('/zfs/objectset.py', '__init__', 'raw_objectset') 402 520 4 (PY Empty (is_any() is true))
+  PT: ['ondisk.Objectsets']
+  PY: ['Any']
+200: ('/zfs/objectset.py', 'get_dnode', 'dn') 407 531 4 (PY Empty (is_any() is true))
+  PT: ['DNode']
+  PY: ['Any']
+201: ('/zfs/objectset.py', 'parse_dnode', 'index') 409 534 6 (PY subset PT)
+  PT: ['None', 'int']
+  PY: ['int']
+202: ('/zfs/objectset.py', 'parse_dnode', 'dnode') 411 533 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+203: ('/zfs/objectset.py', 'parse_dnode', 'nt') 412 535 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+204: ('/zfs/objectset.py', 'parse_dnode', 'ds') 414 536 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+205: ('/zfs/objectset.py', 'read_default', 'dnode') 416 538 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+206: ('/zfs/objectset.py', 'read_none', 'dnode') 419 540 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+207: ('/zfs/objectset.py', 'read_directory', 'dnode') 421 542 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+208: ('/zfs/objectset.py', 'read_directory', 'newdir') 423 544 4 (PY Empty (is_any() is true))
+  PT: ['Directory']
+  PY: ['Any']
+209: ('/zfs/objectset.py', 'read_file', 'dnode') 426 546 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+210: ('/zfs/objectset.py', 'read_zap', 'dnode') 429 548 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+211: ('/zfs/objectset.py', 'read_zap', 'raw_zap') 430 549 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+212: ('/zfs/objectset.py', 'read_zap', 'zap') 431 550 3 (PT Empty)
+  PT: []
+  PY: ['io.BytesIO']
+213: ('/zfs/objectset.py', 'read_zap', 'hdr') 432 551 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+214: ('/zfs/objectset.py', 'read_attr_registration', 'dnode') 435 563 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+215: ('/zfs/objectset.py', 'read_attr_registration', 'k') 438 566 3 (PT Empty)
+  PT: []
+  PY: ['str']
+216: ('/zfs/objectset.py', 'read_attr_registration', 'v') 439 567 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+217: ('/zfs/objectset.py', 'read_bpobj', 'dnode') 442 572 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+218: ('/zfs/objectset.py', 'read_bpobj', 'hdr') 443 573 4 (PY Empty (is_any() is true))
+  PT: ['BPObjHeader']
+  PY: ['Any']
+219: ('/zfs/objectset.py', 'read_bpobj', 'data') 444 574 3 (PT Empty)
+  PT: []
+  PY: ['io.BytesIO']
+220: ('/zfs/objectset.py', 'read_object_array', 'dnode') 448 576 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+221: ('/zfs/objectset.py', 'read_object_array', 'data') 449 577 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+222: ('/zfs/objectset.py', 'read_nvlist', 'dnode') 456 581 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+223: ('/zfs/objectset.py', 'read_nvlist', 'nv') 457 582 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+224: ('/zfs/objectset.py', 'read_nvlist', 'nvl') 458 583 4 (PY Empty (is_any() is true))
+  PT: ['NVList']
+  PY: ['Any']
+225: ('/zfs/objectset.py', 'read_nvlist', 'nvdata') 459 584 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+226: ('/zfs/objectset.py', 'read_dataset', 'dnode') 489 586 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+227: ('/zfs/objectset.py', 'read_dsldir', 'dnode') 492 588 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+228: ('/zfs/objectset.py', 'read_dsldir', 'dsl_dir') 493 589 4 (PY Empty (is_any() is true))
+  PT: ['DSLDir']
+  PY: ['Any']
+229: ('/zfs/objectset.py', 'read_history', 'dnode') 496 591 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+230: ('/zfs/objectset.py', 'read_history', 'data') 497 592 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+231: ('/zfs/objectset.py', 'read_history', 'history_parser') 498 593 4 (PY Empty (is_any() is true))
+  PT: ['HistoryParser']
+  PY: ['Any']
+232: ('/zfs/posix/directory.py', '__init__', 'path') 500 847 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+233: ('/zfs/posix/directory.py', '__init__', 'dnode') 502 843 4 (PY Empty (is_any() is true))
+  PT: ['DNode']
+  PY: ['Any']
+234: ('/zfs/posix/directory.py', '__init__', 'entries') 503 844 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+235: ('/zfs/posix/directory.py', '__init__', 'dataset') 504 845 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+236: ('/zfs/posix/directory.py', '__init__', 'objectset') 505 846 4 (PY Empty (is_any() is true))
+  PT: ['ObjectSet']
+  PY: ['Any']
+237: ('/zfs/objectset.py', '_read_fatzap', 'data') 508 570 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+238: ('/zfs/objectset.py', '_read_microzap', 'dnode') 511 553 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+239: ('/zfs/objectset.py', '_read_microzap', 'hdr') 512 554 4 (PY Empty (is_any() is true))
+  PT: ['zfs.ondisk.zap.MicroZAPHeader']
+  PY: ['Any']
+240: ('/zfs/objectset.py', '_read_microzap', 'node_type') 514 556 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+241: ('/zfs/objectset.py', '_read_microzap', 'mzap_type') 517 559 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+242: ('/zfs/objectset.py', '_read_microzap', 'z') 518 561 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+243: ('/zfs/objectset.py', '_read_microzap', 'r') 519 560 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+244: ('/nvlist/__init__.py', 'unpack_nvlist', 'name') 523 257 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+245: ('/nvlist/__init__.py', 'unpack_nvlist', 'v') 524 258 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'list']
+  PY: ['Any']
+246: ('/zfs/datasets.py', '__init__', 'path') 526 465 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['str']
+247: ('/zfs/datasets.py', '__init__', 'self') 527 460 6 (PY subset PT)
+  PT: ['ChildDatasets', 'Dataset']
+  PY: ['ChildDatasets']
+248: ('/zfs/datasets.py', '__init__', 'pool') 528 461 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+249: ('/zfs/datasets.py', '__init__', 'dsl_dir') 529 462 4 (PY Empty (is_any() is true))
+  PT: ['DSLDir']
+  PY: ['Any']
+250: ('/zfs/datasets.py', '__init__', 'objset') 530 463 4 (PY Empty (is_any() is true))
+  PT: ['ObjectSet']
+  PY: ['Any']
+251: ('/zfs/datasets.py', '__init__', 'dnode') 531 464 4 (PY Empty (is_any() is true))
+  PT: ['DNode']
+  PY: ['Any']
+252: ('/zfs/datasets.py', '__init__', 'objset_block') 532 466 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+253: ('/zfs/history.py', '__init__', 'buffer') 534 798 8 (Partial match)
+  PT: ['Union[BytesIO, bytes]']
+  PY: ['Union[bytes, io.BytesIO]']
+254: ('/nvlist/__init__.py', 'unpack_value', 'name') 540 260 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+255: ('/nvlist/__init__.py', 'unpack_value', 'v') 541 261 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'list']
+  PY: ['Any']
+256: ('/nvlist/__init__.py', 'unpack_value', 'decoded_length') 542 262 3 (PT Empty)
+  PT: []
+  PY: ['int']
+257: ('/nvlist/__init__.py', 'unpack_value', 'l') 543 263 3 (PT Empty)
+  PT: []
+  PY: ['int']
+258: ('/nvlist/__init__.py', 'unpack_value', 'value_type') 544 264 3 (PT Empty)
+  PT: []
+  PY: ['int']
+259: ('/nvlist/__init__.py', 'unpack_value', 'value_count') 545 265 3 (PT Empty)
+  PT: []
+  PY: ['int']
+260: ('/nvlist/__init__.py', 'unpack_value', 'x') 546 267 3 (PT Empty)
+  PT: []
+  PY: ['int']
+261: ('/nvlist/__init__.py', 'unpack_value', 'sub') 547 266 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+262: ('/zfs/history.py', 'unpack_nvlist', 'this_length') 552 822 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+263: ('/zfs/history.py', 'unpack_nvlist', 'unknown2') 553 823 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+264: ('/zfs/history.py', 'unpack_nvlist', 'unknown3') 554 824 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+265: ('/zfs/history.py', 'unpack_nvlist', 'start') 555 825 3 (PT Empty)
+  PT: []
+  PY: ['int']
+266: ('/zfs/history.py', 'unpack_nvlist', 'end_offset') 556 826 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+267: ('/zfs/history.py', 'unpack_nvlist', 'name') 557 827 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+268: ('/zfs/history.py', 'unpack_nvlist', 'v') 558 828 4 (PY Empty (is_any() is true))
+  PT: ['list', 'str']
+  PY: ['Any']
+269: ('/zfs/history.py', 'unpack_value', 'pos') 565 809 3 (PT Empty)
+  PT: []
+  PY: ['int']
+270: ('/zfs/history.py', 'unpack_value', 'total_length') 566 810 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+271: ('/zfs/history.py', 'unpack_value', 'length') 568 811 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+272: ('/zfs/history.py', 'unpack_value', 'value_count') 569 812 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+273: ('/zfs/history.py', 'unpack_value', 'value_type') 570 813 4 (PY Empty (is_any() is true))
+  PT: ['NVTypes']
+  PY: ['Any']
+274: ('/zfs/history.py', 'unpack_value', 'key') 571 814 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+275: ('/zfs/history.py', 'unpack_value', 'remaining') 572 815 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+276: ('/zfs/history.py', 'unpack_value', 'values') 573 816 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'list']
+  PY: ['Any']
+277: ('/zfs/history.py', 'unpack_value', 'v') 574 818 3 (PT Empty)
+  PT: []
+  PY: ['int']
+278: ('/zfs/history.py', 'unpack_value', 'value') 575 817 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+279: ('/zfs/history.py', 'unpack_fstring', 'length') 577 804 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+280: ('/zfs/history.py', 'unpack_fstring', 'total_length') 578 805 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+281: ('/zfs/history.py', 'next_break_offset', 'x') 580 796 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+282: ('/zfs/vdevs.py', '__init__', 'txg') 582 319 6 (PY subset PT)
+  PT: ['None', 'int']
+  PY: ['int']
+283: ('/zfs/vdevs.py', '__init__', 'label_index') 583 318 6 (PY subset PT)
+  PT: ['None', 'int']
+  PY: ['int']
+284: ('/zfs/vdevs.py', '__init__', 'self') 584 317 6 (PY subset PT)
+  PT: ['FileDev', 'VDev']
+  PY: ['VDev']
+285: ('/zfs/vdevs.py', '__init__', 'l') 585 320 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+286: ('/zfs/vdevs.py', '__init__', '_') 586 321 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+287: ('/zfs/vdevs.py', '__init__', 'ubers') 587 322 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+288: ('/zfs/vdevs.py', '__init__', 'u') 588 323 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+289: ('/zfs/pool.py', 'vdev_list_to_dict', 'vdevs') 589 706 7 (etc)
+  PT: ['VDev']
+  PY: ['list']
+
+AM: PY
+
+290: ('/zfs/pool.py', 'vdev_list_to_dict', 'v') 591 708 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+291: ('/zfs/vdevs.py', 'read_label', 'self') 593 339 6 (PY subset PT)
+  PT: ['FileDev', 'VDev']
+  PY: ['VDev']
+292: ('/zfs/vdevs.py', 'read_label', 'data') 595 341 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+293: ('/zfs/vdevs.py', 'read_label', 'nvdata') 596 342 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+294: ('/zfs/vdevs.py', 'read_label', 'properties') 597 343 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+295: ('/zfs/vdevs.py', 'read_label', 'uberblock_array') 598 344 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+296: ('/zfs/vdevs.py', 'read_label', 'this_block') 601 347 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+297: ('/zfs/vdevs.py', 'read_label', 'b') 602 348 4 (PY Empty (is_any() is true))
+  PT: ['Uberblock']
+  PY: ['Any']
+298: ('/zfs/vdevs.py', '_best_label', 'label_index') 604 334 6 (PY subset PT)
+  PT: ['None', 'int']
+  PY: ['int']
+299: ('/zfs/vdevs.py', '_best_label', 'self') 605 333 6 (PY subset PT)
+  PT: ['FileDev', 'VDev']
+  PY: ['VDev']
+300: ('/zfs/vdevs.py', '_best_label', 'retprops') 606 335 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+301: ('/zfs/vdevs.py', '_best_label', 'label') 607 337 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+302: ('/zfs/vdevs.py', '_best_label', 'props') 608 336 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+303: ('/zfs/vdevs.py', '_best_label', 'best_label') 609 338 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+304: ('/zfs/vdevs.py', 'parse_uberblocks', 'self') 611 324 6 (PY subset PT)
+  PT: ['FileDev', 'VDev']
+  PY: ['VDev']
+305: ('/zfs/vdevs.py', 'select_uberblock', 'self') 615 327 6 (PY subset PT)
+  PT: ['FileDev', 'VDev']
+  PY: ['VDev']
+306: ('/zfs/vdevs.py', 'select_uberblock', 'txg') 616 328 6 (PY subset PT)
+  PT: ['None', 'int']
+  PY: ['int']
+307: ('/zfs/vdevs.py', 'select_uberblock', 'txgs_available') 617 329 3 (PT Empty)
+  PT: []
+  PY: ['list']
+308: ('/zfs/vdevs.py', 'select_uberblock', 'x') 618 330 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+309: ('/zfs/vdevs.py', 'select_uberblock', 'active_uberblock') 620 332 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+310: ('/zfs/util.py', 'module_initializer', 'lz4') 623 314 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+311: ('/zfs/util.py', 'module_initializer', 'counter') 624 315 4 (PY Empty (is_any() is true))
+  PT: ['count(0)']
+  PY: ['Any']
+312: ('/zfs/datasets.py', 'child_datasets', 'children') 628 468 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+313: ('/zfs/posix/attributes/systemattributes.py', 'no_attrs', 'f') 630 880 3 (PT Empty)
+  PT: []
+  PY: ['Type[posix.attributes.Mode]', 'Type[posix.attributes.Timestamp]']
+314: ('/pyndata/bytestring.py', '__init__', 'length') 634 197 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x106fb2200>', 'int']
+  PY: ['Any']
+315: ('/pyndata/integer.py', '__init__', 'enum') 636 97 4 (PY Empty (is_any() is true))
+  PT: ['Checksum', 'Compression', 'None', 'ObjectSetType', 'ObjectType', 'ZILTypes', 'ZapType']
+  PY: ['Any']
+316: ('/pyndata/integer.py', '__init__', 'endian') 637 96 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+317: ('/pyndata/integer.py', '__init__', 'self') 638 95 5 (PT subset PY)
+  PT: ['uint16', 'uint32', 'uint64', 'uint8', 'integer']
+  PY: ['int16', 'int32', 'int64', 'int8', 'integer', 'uint16', 'uint32', 'uint64', 'uint8']
+318: ('/pyndata/integer.py', '__init__', 'args') 639 98 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+319: ('/pyndata/padding.py', '__init__', 'length') 641 207 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+320: ('/pyndata/bitfield.py', '__init__', 'enum') 642 218 4 (PY Empty (is_any() is true))
+  PT: ['Checksum', 'Compression', 'None', 'ObjectType', 'PosixType']
+  PY: ['Any']
+321: ('/pyndata/bitfield.py', '__init__', 'shift') 643 217 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+322: ('/pyndata/bitfield.py', '__init__', 'field') 645 215 4 (PY Empty (is_any() is true))
+  PT: ['uint64', 'uint8']
+  PY: ['Any']
+323: ('/pyndata/bitfield.py', '__init__', 'size') 646 216 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+324: ('/pyndata/array.py', '__init__', 'kind') 648 185 4 (PY Empty (is_any() is true))
+  PT: ['Blockptr', 'StructField', 'ZNodeACE', 'dva', 'uint16', 'uint64']
+  PY: ['Any']
+325: ('/pyndata/array.py', '__init__', 'length') 649 186 4 (PY Empty (is_any() is true))
+  PT: ['int', 'uint32', 'uint8']
+  PY: ['Any']
+326: ('/pyndata/nullstring.py', '__init__', 'encoding') 650 173 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+327: ('/pyndata/nullstring.py', '__init__', 'allow_max') 651 172 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+328: ('/pyndata/nullstring.py', '__init__', 'padded') 652 171 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+329: ('/pyndata/nullstring.py', '__init__', 'max_length') 654 170 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+330: ('/zfs/datasets.py', '__init__', 'objectset') 657 498 4 (PY Empty (is_any() is true))
+  PT: ["'objectset.ObjectSet'"]
+  PY: ['Any']
+331: ('/pyndata/field.py', '__init__', 'default') 658 78 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+332: ('/pyndata/field.py', '__init__', 'self') 659 77 6 (PY subset PT)
+  PT: ['StructField', 'array', 'bytestring', 'nullstring', 'padding', 'uint16', 'uint32', 'uint64', 'uint8', 'Field']
+  PY: ['Field']
+333: ('/pyndata/structfield.py', '__init__', 'struct') 661 123 4 (PY Empty (is_any() is true))
+  PT: ['Blockptr', 'StructField', 'ZNodeACE', 'dva', 'uint16', 'uint64']
+  PY: ['Any']
+334: ('/zfs/datasets.py', 'snapshots', 'name') 665 474 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+335: ('/zfs/datasets.py', 'snapshots', 'index') 666 475 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+336: ('/zfs/datasets.py', 'snapshots', 'dsl_dataset') 667 472 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+337: ('/zfs/datasets.py', 'keys', 'self') 673 482 6 (PY subset PT)
+  PT: ['ChildDatasets', 'Dataset']
+  PY: ['ChildDatasets']
+338: ('/zfs/datasets.py', 'items', 'self') 675 483 6 (PY subset PT)
+  PT: ['ChildDatasets', 'Dataset']
+  PY: ['ChildDatasets']
+339: ('/zfs/datasets.py', 'attributes', 'key') 678 485 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+340: ('/zfs/datasets.py', 'attributes', 'sa_attrs') 679 486 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+341: ('/zfs/datasets.py', 'attributes', 'registry') 680 487 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+342: ('/zfs/datasets.py', 'attributes', 'layout') 681 488 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+343: ('/zfs/datasets.py', 'attributes', 'k') 683 490 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+344: ('/zfs/datasets.py', 'attributes', 'attr') 684 491 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+345: ('/zfs/datasets.py', 'root_directory', 'root_dir_index') 688 493 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+346: ('/zfs/datasets.py', 'root_directory', 'root_dir') 689 494 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+347: ('/zfs/readcontext.py', '__init__', 'vdevs') 692 638 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+348: ('/zfs/readcontext.py', '__init__', 'compression') 693 639 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+349: ('/zfs/readcontext.py', '__init__', 'try_config') 696 642 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+350: ('/zfs/readcontext.py', 'checksum', 'valid') 699 645 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+351: ('/zfs/readcontext.py', 'checksum', 'checksum') 700 646 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+352: ('/zfs/readcontext.py', 'decompress', 'data') 703 648 6 (PY subset PT)
+  PT: ['meta_func', 'bytes']
+  PY: ['bytes']
+353: ('/zfs/readcontext.py', 'decompress', 'compression') 704 649 4 (PY Empty (is_any() is true))
+  PT: ['Compression']
+  PY: ['Any']
+354: ('/zfs/readcontext.py', 'update_inherit', 'compression') 708 652 4 (PY Empty (is_any() is true))
+  PT: ['Compression']
+  PY: ['Any']
+355: ('/zfs/readcontext.py', 'update_inherit', 'checksum') 709 653 4 (PY Empty (is_any() is true))
+  PT: ['Checksum']
+  PY: ['Any']
+356: ('/zfs/readcontext.py', 'read_block', 'blkptr') 712 655 4 (PY Empty (is_any() is true))
+  PT: ['Blockptr', 'ondisk.Blockptr']
+  PY: ['Any']
+357: ('/zfs/readcontext.py', 'read_block', 'block') 713 657 4 (PY Empty (is_any() is true))
+  PT: ['bytes', 'meta_func']
+  PY: ['Any']
+358: ('/zfs/readcontext.py', 'read_block', 'valid') 715 658 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+359: ('/zfs/readcontext.py', 'read_block_thorough', 'blkptr') 717 660 4 (PY Empty (is_any() is true))
+  PT: ['Blockptr', 'ondisk.Blockptr']
+  PY: ['Any']
+360: ('/zfs/readcontext.py', 'read_block_thorough', 'dva') 722 661 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+361: ('/zfs/readcontext.py', 'read_block_thorough', 'block') 723 665 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+362: ('/zfs/readcontext.py', 'read_block_thorough', 'b') 725 669 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+363: ('/zfs/readcontext.py', 'read_indirect', 'blkptr') 727 684 4 (PY Empty (is_any() is true))
+  PT: ['Blockptr', 'ondisk.Blockptr']
+  PY: ['Any']
+364: ('/zfs/readcontext.py', 'read_indirect', 'data') 729 686 6 (PY subset PT)
+  PT: ['bytes', 'meta_func']
+  PY: ['bytes']
+365: ('/zfs/readcontext.py', 'read_indirect', 'indirect') 730 687 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+366: ('/zfs/readcontext.py', 'read_indirect', 'ind') 731 688 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+367: ('/zfs/readcontext.py', 'read_indirect', 'ptr') 732 689 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+368: ('/zfs/readcontext.py', 'read_dnode', 'dnode') 735 691 4 (PY Empty (is_any() is true))
+  PT: ['DNode', 'ondisk.DNode']
+  PY: ['Any']
+369: ('/zfs/util.py', 'checksum', 'chk') 739 292 6 (PY subset PT)
+  PT: ['None', 'tuple', 'ChecksumType']
+  PY: ['Tuple[int, int, int, int]']
+370: ('/zfs/util.py', 'checksum', 'inherit') 740 291 4 (PY Empty (is_any() is true))
+  PT: ['Checksum', 'None', 'meta_func']
+  PY: ['Any']
+371: ('/zfs/util.py', 'checksum', 'valid') 742 289 6 (PY subset PT)
+  PT: ['tuple', 'ChecksumType']
+  PY: ['Tuple[int, ...]']
+372: ('/zfs/util.py', 'checksum', 'mode') 743 290 4 (PY Empty (is_any() is true))
+  PT: ['Checksum', 'None', 'meta_func']
+  PY: ['Any']
+373: ('/zfs/util.py', 'decompress', 'inherit') 745 286 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+374: ('/zfs/util.py', 'decompress', 'data') 746 283 6 (PY subset PT)
+  PT: ['meta_func', 'bytes']
+  PY: ['bytes']
+375: ('/zfs/util.py', 'decompress', 'mode') 747 284 4 (PY Empty (is_any() is true))
+  PT: ['Compression', 'None']
+  PY: ['Any']
+376: ('/zfs/util.py', 'decompress', 'length') 750 287 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+377: ('/zfs/readcontext.py', '_read_block_embedded', 'blkptr') 752 671 4 (PY Empty (is_any() is true))
+  PT: ['Blockptr', 'ondisk.Blockptr']
+  PY: ['Any']
+378: ('/zfs/readcontext.py', '_read_block_embedded', 'embedded_blkptr') 753 672 4 (PY Empty (is_any() is true))
+  PT: ['EmbeddedBlockptr']
+  PY: ['Any']
+379: ('/zfs/readcontext.py', '_read_block_embedded', 'raw_data') 754 673 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+380: ('/zfs/readcontext.py', '_read_block_embedded', 'data') 755 674 7 (etc)
+  PT: ['meta_func']
+  PY: ['bytes']
+
+AM: PY
+
+381: ('/zfs/readcontext.py', '_read_block', 'blkptr') 758 676 4 (PY Empty (is_any() is true))
+  PT: ['Blockptr', 'ondisk.Blockptr']
+  PY: ['Any']
+382: ('/zfs/readcontext.py', '_read_block', 'dva') 759 677 4 (PY Empty (is_any() is true))
+  PT: ['ondisk.dva']
+  PY: ['Any']
+383: ('/zfs/readcontext.py', '_read_block', 'vdev') 760 678 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+384: ('/zfs/readcontext.py', '_read_block', 'data') 761 679 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+385: ('/zfs/readcontext.py', '_read_block', 'physical_size') 762 680 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+386: ('/zfs/readcontext.py', '_read_block', 'logical_size') 764 682 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+387: ('/zfs/ondisk/__init__.py', 'indirect', 'shift') 766 1073 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+388: ('/zfs/ondisk/__init__.py', 'indirect', 'size') 767 1072 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+389: ('/zfs/ondisk/__init__.py', 'indirect', '__ENDIAN__') 769 1075 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+390: ('/zfs/ondisk/__init__.py', 'indirect', 'blocks') 770 1076 4 (PY Empty (is_any() is true))
+  PT: ['array']
+  PY: ['Any']
+391: ('/zfs/util.py', 'fletcher4', 'a') 774 308 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+392: ('/zfs/util.py', 'fletcher4', 'b') 775 309 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+393: ('/zfs/util.py', 'fletcher4', 'c') 776 310 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+394: ('/zfs/util.py', 'fletcher4', 'd') 777 311 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+395: ('/zfs/util.py', 'fletcher4', 'w') 778 312 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+396: ('/zfs/util.py', 'fletcher2', 'a') 783 300 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+397: ('/zfs/util.py', 'fletcher2', 'b') 784 301 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+398: ('/zfs/util.py', 'fletcher2', 'c') 785 302 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+399: ('/zfs/util.py', 'fletcher2', 'd') 786 303 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+400: ('/zfs/util.py', 'fletcher2', 'first') 787 304 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+401: ('/zfs/util.py', 'fletcher2', 'second') 788 305 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+402: ('/zfs/ondisk/__init__.py', 'to_embedded', 'raw_blkptr') 793 975 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+403: ('/zfs/ondisk/__init__.py', 'data', 'data') 800 995 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+404: ('/zfs/zfuse.py', 'locked', 'f') 802 599 3 (PT Empty)
+  PT: []
+  PY: ['Callable[[Any, Any, Any], Any]', 'Callable[[Any, Any], Any]', 'Callable[[Any, Any, Any, Any, Any], Any]']
+405: ('/zfs/zfuse.py', '__init__', 'pool') 805 601 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+406: ('/zfs/zfuse.py', 'getattr', 'self') 808 602 4 (PY Empty (is_any() is true))
+  PT: ['ZFSFuse']
+  PY: ['Any']
+407: ('/zfs/zfuse.py', 'getattr', 'path') 809 603 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+408: ('/zfs/zfuse.py', 'getattr', 'obj') 810 605 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+409: ('/zfs/zfuse.py', 'getattr', 'attrs') 811 606 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+410: ('/zfs/zfuse.py', 'getattr', 'mode') 812 607 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+411: ('/zfs/zfuse.py', 'getxattr', 'position') 814 611 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+412: ('/zfs/zfuse.py', 'getxattr', 'path') 816 609 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+413: ('/zfs/zfuse.py', 'getxattr', 'name') 817 610 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+414: ('/zfs/zfuse.py', 'listxattr', 'path') 820 613 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+415: ('/zfs/zfuse.py', 'open', 'path') 823 615 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+416: ('/zfs/zfuse.py', 'open', 'flags') 824 616 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+417: ('/zfs/zfuse.py', 'readlink', 'self') 826 617 4 (PY Empty (is_any() is true))
+  PT: ['ZFSFuse']
+  PY: ['Any']
+418: ('/zfs/zfuse.py', 'readlink', 'path') 827 618 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+419: ('/zfs/zfuse.py', 'readlink', 'obj') 828 619 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+420: ('/zfs/zfuse.py', 'read', 'self') 830 620 4 (PY Empty (is_any() is true))
+  PT: ['ZFSFuse']
+  PY: ['Any']
+421: ('/zfs/zfuse.py', 'read', 'path') 831 621 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+422: ('/zfs/zfuse.py', 'read', 'size') 832 622 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+423: ('/zfs/zfuse.py', 'read', 'offset') 833 623 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+424: ('/zfs/zfuse.py', 'read', 'fh') 834 624 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+425: ('/zfs/zfuse.py', 'readdir', 'self') 836 625 4 (PY Empty (is_any() is true))
+  PT: ['ZFSFuse']
+  PY: ['Any']
+426: ('/zfs/zfuse.py', 'readdir', 'path') 837 626 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+427: ('/zfs/zfuse.py', 'readdir', 'fh') 838 627 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+428: ('/zfs/zfuse.py', 'readdir', 'names') 839 628 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+429: ('/zfs/zfuse.py', 'readdir', 'name') 840 629 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+430: ('/zfs/zfuse.py', 'statfs', 'path') 843 631 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+431: ('/zfs/zfuse.py', 'mount', 'pool') 845 632 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+432: ('/zfs/zfuse.py', 'mount', 'mountpoint') 846 633 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+433: ('/zfs/zfuse.py', 'mount', 'fuse') 848 635 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+434: ('/zfs/history.py', 'unpack_string', 'length') 854 807 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+435: ('/zfs/raidzdev.py', 'convert', 'k') 856 745 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+436: ('/zfs/raidzdev.py', 'convert', 'base') 857 746 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+437: ('/zfs/raidzdev.py', 'convert', 'disks') 858 747 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+438: ('/zfs/raidzdev.py', 'convert', 'parity') 859 748 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+439: ('/zfs/raidzdev.py', 'convert', 'off') 860 749 4 (PY Empty (is_any() is true))
+  PT: ['float', 'int']
+  PY: ['Any']
+440: ('/zfs/raidzdev.py', 'should_resize', 'offset') 862 750 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+441: ('/zfs/raidzdev.py', 'should_resize', 'size') 863 751 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+442: ('/zfs/raidzdev.py', 'should_resize', 'disks') 864 752 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+443: ('/zfs/raidzdev.py', 'should_resize', 'parity') 865 753 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+444: ('/zfs/raidzdev.py', 'should_resize', 'base') 866 754 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+445: ('/zfs/raidzdev.py', 'locate_data', 'parity') 869 756 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+446: ('/zfs/raidzdev.py', 'locate_data', 'offset') 870 757 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+447: ('/zfs/raidzdev.py', 'locate_data', 'size') 871 758 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+448: ('/zfs/raidzdev.py', 'locate_data', 'first_col') 872 759 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+449: ('/zfs/raidzdev.py', 'locate_data', 'bit_12') 875 762 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+450: ('/zfs/raidzdev.py', 'locate_data', 'i') 878 766 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+451: ('/zfs/raidzdev.py', 'locate_data', 'dva') 879 765 4 (PY Empty (is_any() is true))
+  PT: ['dva']
+  PY: ['Any']
+452: ('/zfs/raidzdev.py', 'locate_data', 'd') 880 768 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+453: ('/zfs/raidzdev.py', 'locate_data', '_') 882 769 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+454: ('/zfs/raidzdev.py', 'locate_data', 'next_vdev') 883 770 2 (Both Empty)
+  PT: []
+  PY: ['nothing']
+455: ('/zfs/raidzdev.py', 'xor_blocks', 'x') 886 772 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+456: ('/zfs/raidzdev.py', 'xor_blocks', 'size') 888 773 7 (etc)
+  PT: ['float']
+  PY: ['int']
+
+AM: PY
+
+457: ('/zfs/raidzdev.py', 'xor_blocks', 't') 891 777 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+458: ('/zfs/raidzdev.py', '__init__', 'parity') 894 779 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+459: ('/zfs/raidzdev.py', '__init__', 'devs') 895 780 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+460: ('/zfs/raidzdev.py', 'read_dva', 'dva') 897 784 4 (PY Empty (is_any() is true))
+  PT: ['dva']
+  PY: ['Any']
+461: ('/zfs/raidzdev.py', 'read_dva', 'offset') 898 785 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+462: ('/zfs/raidzdev.py', 'read_dva', 'parity') 900 787 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+463: ('/zfs/raidzdev.py', 'read_dva', 'columns') 901 788 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+464: ('/zfs/raidzdev.py', 'read_dva', 'first') 902 789 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+465: ('/zfs/raidzdev.py', 'read_dva', 'addrs') 903 790 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+466: ('/zfs/raidzdev.py', 'read_dva', 'addr') 904 792 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+467: ('/zfs/raidzdev.py', 'read_dva', 'data') 906 793 7 (etc)
+  PT: ['str']
+  PY: ['bytes']
+
+AM: PY
+
+468: ('/zfs/raidzdev.py', 'read_dva', 'computed') 907 794 3 (PT Empty)
+  PT: []
+  PY: ['Union[bytes, str]']
+469: ('/zfs/raidzdev.py', '_read_resolved', 'dva') 910 782 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+470: ('/zfs/vdevs.py', 'read_dva', 'dva') 913 350 4 (PY Empty (is_any() is true))
+  PT: ['dva', 'ondisk.dva']
+  PY: ['Any']
+471: ('/zfs/vdevs.py', 'read_dva', 'offset') 914 351 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+472: ('/zfs/vdevs.py', 'read_dva', 'data') 915 352 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+473: ('/zfs/lzjb.py', 'decompress', 'control') 922 699 3 (PT Empty)
+  PT: []
+  PY: ['int']
+474: ('/zfs/lzjb.py', 'decompress', 'i') 923 705 3 (PT Empty)
+  PT: []
+  PY: ['int']
+475: ('/zfs/filedev.py', '__init__', 'txg') 930 272 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+476: ('/zfs/filedev.py', '__init__', 'label') 931 271 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+477: ('/zfs/filedev.py', '__init__', 'path') 933 270 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+478: ('/zfs/filedev.py', 'read', 'offset') 935 274 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+479: ('/zfs/filedev.py', 'read', 'size') 936 275 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+480: ('/zfs/filedev.py', 'write', 'offset') 939 277 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+481: ('/zfs/filedev.py', 'write', 'data') 940 278 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+482: ('/zfs/filedev.py', 'seek', 'offset') 945 281 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+483: ('/zfs/filedev.py', 'seek', 'whence') 946 282 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+484: ('/explore.py', '__init__', 'level') 953 5 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+485: ('/explore.py', '__init__', 'name') 955 8 3 (PT Empty)
+  PT: []
+  PY: ['str']
+486: ('/explore.py', '__init__', 'value') 956 9 3 (PT Empty)
+  PT: []
+  PY: ['enum.Enum']
+487: ('/explore.py', 'setup_module_logs', 'args') 968 20 3 (PT Empty)
+  PT: []
+  PY: ['argparse.Namespace']
+488: ('/explore.py', 'setup_module_logs', 'levelname') 970 21 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+489: ('/explore.py', 'setup_module_logs', 'modules') 971 22 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+490: ('/explore.py', 'setup_module_logs', 'mod') 972 23 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+491: ('/explore.py', 'cli', 'a') 975 26 3 (PT Empty)
+  PT: []
+  PY: ['Tuple[()]', 'tuple']
+492: ('/explore.py', 'cli', 'args') 976 28 3 (PT Empty)
+  PT: []
+  PY: ['Tuple[()]', 'tuple']
+493: ('/explore.py', 'cli', 'level') 977 29 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+494: ('/explore.py', 'load_pool', 'args') 979 31 3 (PT Empty)
+  PT: []
+  PY: ['argparse.Namespace']
+495: ('/explore.py', 'load_pool', 'path') 980 33 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+496: ('/explore.py', 'load_pool', 'try_config') 982 34 3 (PT Empty)
+  PT: []
+  PY: ['set']
+497: ('/explore.py', 'load_pool', 'pool') 983 35 3 (PT Empty)
+  PT: []
+  PY: ['zfs.pool.Pool']
+498: ('/explore.py', 'list_cmd', 'args') 986 37 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+499: ('/explore.py', 'list_cmd', 'target') 987 38 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+500: ('/explore.py', 'list_cmd', 'file') 988 39 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+501: ('/explore.py', 'cat', 'args') 990 41 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+502: ('/explore.py', 'show_object', 'args') 992 43 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+503: ('/explore.py', 'show_object', 'obj') 994 45 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+504: ('/explore.py', 'show_object', 'f') 995 46 3 (PT Empty)
+  PT: []
+  PY: ['BinaryIO']
+505: ('/explore.py', 'show_object', 'parsed') 996 47 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Optional[Any]']
+506: ('/explore.py', 'objset', 'args') 998 49 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+507: ('/explore.py', 'objset', 'ds') 999 50 3 (PT Empty)
+  PT: []
+  PY: ['zfs.datasets.Dataset']
+508: ('/explore.py', 'objset', 'os') 1000 51 3 (PT Empty)
+  PT: []
+  PY: ['zfs.objectset.ObjectSet']
+509: ('/explore.py', 'objset', 'f') 1001 52 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+510: ('/explore.py', 'objset', 'i') 1002 53 3 (PT Empty)
+  PT: []
+  PY: ['int']
+511: ('/explore.py', 'objset', 'obj') 1003 54 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+512: ('/explore.py', 'nvparse', 'args') 1005 56 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+513: ('/explore.py', 'nvparse', 'source') 1006 57 3 (PT Empty)
+  PT: []
+  PY: ['BinaryIO']
+514: ('/explore.py', 'nvparse', 'data') 1007 58 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+515: ('/explore.py', 'nvparse', 'nv') 1008 59 3 (PT Empty)
+  PT: []
+  PY: ['nvlist.NVList']
+516: ('/explore.py', 'label', 'args') 1010 61 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+517: ('/explore.py', 'label', 'vdev') 1011 62 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+518: ('/explore.py', 'label', 'label') 1012 63 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+519: ('/explore.py', 'label', 'i') 1013 64 3 (PT Empty)
+  PT: []
+  PY: ['int']
+520: ('/explore.py', 'label', 'uber') 1014 65 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+521: ('/explore.py', 'mount_fuse', 'args') 1016 67 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+522: ('/explore.py', 'read_dva', 'args') 1018 69 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+523: ('/explore.py', 'read_dva', 'dva') 1019 70 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+524: ('/pyndata/nullstring.py', 'unpack', 'value') 1052 181 4 (PY Empty (is_any() is true))
+  PT: ['list', 'str']
+  PY: ['Any']
+525: ('/zfs/datasets.py', '__contains__', 'self') 1073 478 6 (PY subset PT)
+  PT: ['Dataset', 'ChildDatasets']
+  PY: ['ChildDatasets']
+526: ('/zfs/datasets.py', '__getitem__', 'self') 1074 480 6 (PY subset PT)
+  PT: ['Dataset', 'ChildDatasets']
+  PY: ['ChildDatasets']
+527: ('/zfs/objectset.py', 'from_struct', 'strct') 1082 507 4 (PY Empty (is_any() is true))
+  PT: ['ondisk.Objectsets']
+  PY: ['Any']
+528: ('/zfs/objectset.py', 'from_struct', 'dataset') 1083 508 4 (PY Empty (is_any() is true))
+  PT: ["'datasets.Dataset'"]
+  PY: ['Any']
+529: ('/zfs/objectset.py', 'from_block', 'dataset') 1087 515 4 (PY Empty (is_any() is true))
+  PT: ["'datasets.Dataset'"]
+  PY: ['Any']
+530: ('/zfs/pool.py', 'objset_for_vdev', 'vdev') 1110 726 4 (PY Empty (is_any() is true))
+  PT: ['int', 'vdevs.VDev']
+  PY: ['Any']
+531: ('/zfs/posix/__init__.py', '__init__', 'dnode') 1125 834 4 (PY Empty (is_any() is true))
+  PT: ['ondisk.DNode']
+  PY: ['Any']
+532: ('/zfs/posix/__init__.py', '__init__', 'dataset') 1126 835 4 (PY Empty (is_any() is true))
+  PT: ['datasets.Dataset']
+  PY: ['Any']
+533: ('/zfs/ondisk/fatzap.py', 'parse_chunk', 'chunk') 1156 1156 8 (Partial match)
+  PT: ['Union[LeafChunk, BytesIO]']
+  PY: ['Union[LeafChunk, io.BytesIO]']
+534: ('/zfs/ondisk/fatzap.py', 'parse_chunk', 'ch') 1157 1157 6 (PY subset PT)
+  PT: ['Union[LeafChunk, BytesIO]']
+  PY: ['LeafChunk']
+535: ('/zfs/ondisk/fatzap.py', 'read_linked', 'index') 1164 1170 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']

@@ -1,0 +1,276 @@
+0: ('/generate_id_constants_from_stableid.py', 'module_initializer', 'HOME_DIR') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+1: ('/generate_id_constants_from_stableid.py', 'module_initializer', 'DATA_JSON') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+2: ('/generate_id_constants_from_stableid.py', 'module_initializer', 'ENUM_TRANSLATE') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+3: ('/generate_id_constants_from_stableid.py', 'module_initializer', 'FILE_TRANSLATE') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+4: ('/generate_id_constants.py', 'module_initializer', 'PREFIXES') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+5: ('/examples/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+6: ('/examples/terran/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+7: ('/examples/zerg/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+8: ('/examples/protoss/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+9: ('/sc2/game_state.py', 'Common_class_initializer', 'ATTRIBUTES') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+10: ('/sc2/paths.py', 'module_initializer', 'BASEDIR') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+11: ('/sc2/paths.py', 'module_initializer', 'USERPATH') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+12: ('/sc2/paths.py', 'module_initializer', 'BINPATH') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+13: ('/sc2/paths.py', 'module_initializer', 'CWD') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+14: ('/sc2/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+15: ('/sc2/game_data.py', 'module_initializer', 'FREE_MORPH_ABILITY_CATEGORIES') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+16: ('/sc2/data.py', 'module_initializer', 'race_worker') 0 (Match)
+  PT: ['dict', 'Dict[Race, UnitTypeId]']
+  DL: ['dict']
+17: ('/sc2/data.py', 'module_initializer', 'race_townhalls') 0 (Match)
+  PT: ['dict', 'Dict[Race, Set[UnitTypeId]]']
+  DL: ['dict']
+18: ('/sc2/data.py', 'module_initializer', 'warpgate_abilities') 0 (Match)
+  PT: ['dict', 'Dict[AbilityId, AbilityId]']
+  DL: ['dict']
+19: ('/sc2/data.py', 'module_initializer', 'race_gas') 0 (Match)
+  PT: ['dict', 'Dict[Race, UnitTypeId]']
+  DL: ['dict']
+20: ('/sc2/ids/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+21: ('/sc2/helpers/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+22: ('/sc2/maps.py', 'get', 'maps') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+23: ('/sc2/main.py', 'run_game', 'host_only_args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+24: ('/sc2/main.py', 'run_game', 'join_kwargs') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+25: ('/sc2/main.py', 'run_game', 'portconfig') 0 (Match)
+  PT: ['Portconfig']
+  DL: ['portconfig.Portconfig']
+26: ('/sc2/bot_ai.py', 'can_afford', 'check_supply_cost') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+27: ('/sc2/bot_ai.py', 'can_afford', 'enough_supply') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+28: ('/sc2/bot_ai.py', 'already_pending', 'all_units') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+29: ('/sc2/position.py', 'towards', 'limit') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+30: ('/sc2/sc2process.py', '__init__', 'render') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+31: ('/sc2/sc2process.py', '__init__', 'fullscreen') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+32: ('/sc2/sc2process.py', '__init__', 'host') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+33: ('/sc2/bot_ai.py', 'select_build_worker', 'force') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+34: ('/sc2/main.py', '__init__', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+35: ('/sc2/main.py', 'push', 'value') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+36: ('/sc2/game_data.py', '__init__', 'ids') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+37: ('/sc2/units.py', 'filter', 'pred') 0 (Match)
+  PT: ['<function <lambda> at 0x11824dc60>', '<function <lambda> at 0x11824dea0>', '<function <lambda> at 0x11824df30>', '<function <lambda> at 0x11824dfc0>', '<function <lambda> at 0x11824e4d0>', '<function <lambda> at 0x11824e560>', '<function <lambda> at 0x11824e830>', '<function <lambda> at 0x11824e950>', '<function <lambda> at 0x11824eb90>', '<function <lambda> at 0x11824eef0>', '<function <lambda> at 0x11824ef80>', '<function <lambda> at 0x11824f010>', '<function <lambda> at 0x11824f0a0>', '<function <lambda> at 0x11824f130>', '<function <lambda> at 0x11824f250>', '<function <lambda> at 0x11824f2e0>', '<function <lambda> at 0x11824f400>', '<function <lambda> at 0x11824f5b0>', '<function <lambda> at 0x11824f640>', '<function <lambda> at 0x11824f6d0>', '<function <lambda> at 0x11824f760>', '<function <lambda> at 0x11824f910>', '<function <lambda> at 0x11824fd00>', '<function <lambda> at 0x11824fd90>', '<function <lambda> at 0x11827fe20>', 'callable']
+  DL: ['callable']
+38: ('/sc2/game_info.py', '_find_ramps', 'rampDict') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+39: ('/sc2/game_info.py', '_find_groups', 'max_distance_between_points') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+40: ('/sc2/game_info.py', '_find_groups', 'minimum_points_per_group') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+41: ('/sc2/game_info.py', '_find_groups', 'currentColor') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+42: ('/generate_id_constants.py', 'clike_enum_parse', 'enums') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+43: ('/generate_id_constants.py', 'generate_python_code', 'sc2dir') 1 (Manual match)
+  PT: ['sc2']
+  DL: ['pathlib.Path']
+44: ('/generate_id_constants.py', 'generate_python_code', 'code') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+45: ('/sc2/game_info.py', 'height_at', 'p') 0 (Match)
+  PT: ['Point2']
+  DL: ['position.Point2']
+46: ('/sc2/game_info.py', 'top_center', 'pos') 0 (Match)
+  PT: ['Point2']
+  DL: ['position.Point2']
+47: ('/sc2/game_info.py', 'bottom_center', 'pos') 0 (Match)
+  PT: ['Point2']
+  DL: ['position.Point2']
+48: ('/sc2/client.py', 'debug_text_simple', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+49: ('/sc2/client.py', 'debug_text_screen', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+50: ('/sc2/client.py', 'debug_text_screen', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+51: ('/sc2/client.py', 'debug_text_2d', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+52: ('/sc2/client.py', 'debug_text_2d', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+53: ('/sc2/client.py', 'debug_text_world', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+54: ('/sc2/client.py', 'debug_text_world', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+55: ('/sc2/client.py', 'debug_text_3d', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+56: ('/sc2/client.py', 'debug_text_3d', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+57: ('/sc2/client.py', 'to_debug_message', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+58: ('/sc2/client.py', 'to_debug_message', 'text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+59: ('/sc2/position.py', 'circle_intersection', 'offsetToCenter') 0 (Match)
+  PT: ['Point2']
+  DL: ['sc2.position.Point2']
+60: ('/sc2/position.py', 'circle_intersection', 'offsetToCenterStretched') 0 (Match)
+  PT: ['Point2']
+  DL: ['sc2.position.Point2']
+61: ('/sc2/position.py', 'circle_intersection', 'vectorRotated1') 0 (Match)
+  PT: ['Point2']
+  DL: ['sc2.position.Point2']
+62: ('/sc2/position.py', 'circle_intersection', 'vectorRotated2') 0 (Match)
+  PT: ['Point2']
+  DL: ['sc2.position.Point2']
+63: ('/sc2/units.py', 'take', 'require_all') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+64: ('/sc2/units.py', 'take', 'n') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+65: ('/sc2/units.py', 'random_or', 'other') 0 (Match)
+  PT: ['any']
+  DL: ['any']
+66: ('/sc2/units.py', 'in_attack_range_of', 'unit') 0 (Match)
+  PT: ['Unit']
+  DL: ['unit.Unit']
+67: ('/sc2/units.py', 'sorted', 'reverse') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+68: ('/sc2/units.py', 'sorted', 'keyfn') 0 (Match)
+  PT: ['<function <lambda> at 0x11824f520>', 'callable']
+  DL: ['callable']
+69: ('/sc2/units.py', 'sorted_by_distance_to', 'reverse') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+70: ('/sc2/units.py', 'same_tech', 'tech_alias_types') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+71: ('/sc2/units.py', 'same_unit', 'unit_alias_types') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+72: ('/sc2/units.py', 'center', 'pos') 0 (Match)
+  PT: ['Point2']
+  DL: ['position.Point2']
+73: ('/sc2/pixel_map.py', 'flood_fill', 'start_point') 0 (Match)
+  PT: ['Point2']
+  DL: ['position.Point2']
+74: ('/sc2/pixel_map.py', 'save_image', 'data') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+75: ('/sc2/game_data.py', 'tech_alias', 'return_list') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+76: ('/sc2/bot_ai.py', 'expansion_locations', 'resource_groups') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+77: ('/sc2/bot_ai.py', 'expansion_locations', 'offsets') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+78: ('/sc2/bot_ai.py', 'expansion_locations', 'centers') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+79: ('/sc2/bot_ai.py', 'owned_expansions', 'owned') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+80: ('/generate_id_constants_from_stableid.py', 'parse_data', 'abilities') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+81: ('/generate_id_constants_from_stableid.py', 'parse_data', 'enums') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+82: ('/generate_id_constants_from_stableid.py', 'parse_simple', 'units') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+83: ('/generate_id_constants_from_stableid.py', 'generate_python_code', 'code') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+84: ('/examples/host_external_norestart.py', 'main', 'player_config') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+85: ('/examples/arcade_bot.py', 'position_around_unit', 'distance') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+86: ('/examples/arcade_bot.py', 'position_around_unit', 'step_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+87: ('/examples/arcade_bot.py', 'position_around_unit', 'exclude_out_of_bounds') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+88: ('/examples/fastreload.py', 'main', 'player_config') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+89: ('/examples/run_external.py', 'main', 'player_config') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+90: ('/sc2/sc2process.py', '_launch', 'args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+91: ('/sc2/bot_ai.py', 'on_end', 'game_result') 0 (Match)
+  PT: ['Result']
+  DL: ['data.Result']

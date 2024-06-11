@@ -1,0 +1,2211 @@
+0: ('/invoke/runners.py', 'module_initializer', 'pty') 6 1167 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[module]']
+1: ('/invoke/runners.py', 'module_initializer', 'fcntl') 7 1168 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[module]']
+2: ('/invoke/runners.py', 'module_initializer', 'termios') 8 1169 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[module]']
+3: ('/invoke/vendor/fluidity/machine.py', 'StateMachine_class_initializer', 'current_state') 21 2010 3 (PT Empty)
+  PT: []
+  PY: ['property']
+4: ('/invoke/vendor/decorator.py', 'module_initializer', 'contextmanager') 29 1773 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+5: ('/invoke/vendor/six.py', 'module_initializer', 'binary_type') 46 1885 6 (PY subset PT)
+  PT: ['bytes', 'str']
+  PY: ['Type[bytes]']
+6: ('/invoke/vendor/six.py', 'module_initializer', 'exec_') 87 1925 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+7: ('/invoke/vendor/six.py', 'module_initializer', 'print_') 88 1926 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+8: ('/invoke/vendor/six.py', 'module_initializer', '_print') 89 1927 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+9: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'parse') 98 1821 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+10: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'error') 99 1822 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+11: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'request') 100 1823 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+12: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'response') 101 1824 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+13: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'robotparser') 102 1825 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+14: ('/setup.py', 'module_initializer', 'version') 166 416 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+15: ('/setup.py', 'module_initializer', 'text') 168 418 3 (PT Empty)
+  PT: []
+  PY: ['str']
+16: ('/integration/_support/busywork.py', 'module_initializer', 'num_cycles') 171 507 3 (PT Empty)
+  PT: []
+  PY: ['int']
+17: ('/invoke/main.py', 'module_initializer', 'program') 183 1464 3 (PT Empty)
+  PT: []
+  PY: ['invoke.program.Program']
+18: ('/invoke/tasks.py', '__init__', 'post') 207 555 6 (PY subset PT)
+  PT: ['None', 'list']
+  PY: ['None']
+19: ('/invoke/tasks.py', '__init__', 'pre') 208 554 6 (PY subset PT)
+  PT: ['None', 'list']
+  PY: ['None']
+20: ('/invoke/tasks.py', '__init__', 'aliases') 214 548 6 (PY subset PT)
+  PT: ['list', 'tuple']
+  PY: ['Tuple[()]']
+21: ('/invoke/tasks.py', '__init__', 'name') 215 547 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['None']
+22: ('/invoke/tasks.py', '__init__', 'self') 216 545 6 (PY subset PT)
+  PT: ['Call', 'Task']
+  PY: ['Call']
+23: ('/invoke/tasks.py', '__init__', 'body') 217 546 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+24: ('/invoke/collection.py', '__init__', 'args') 220 1171 6 (PY subset PT)
+  PT: ['Collection', 'list', 'meta_func', 'str']
+  PY: ['list']
+25: ('/invoke/collection.py', '__init__', 'arg') 221 1173 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+26: ('/invoke/collection.py', '__init__', 'name') 222 1174 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+27: ('/invoke/collection.py', '__init__', 'obj') 223 1175 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+28: ('/invoke/collection.py', 'add_task', 'default') 224 1212 6 (PY subset PT)
+  PT: ['None', 'bool']
+  PY: ['None']
+29: ('/invoke/collection.py', 'add_task', 'aliases') 225 1211 6 (PY subset PT)
+  PT: ['None', 'list', 'tuple']
+  PY: ['None']
+30: ('/invoke/collection.py', 'add_task', 'name') 226 1210 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+31: ('/invoke/collection.py', 'add_task', 'task') 228 1209 4 (PY Empty (is_any() is true))
+  PT: ['Task', 'meta_func']
+  PY: ['Any']
+32: ('/invoke/collection.py', 'add_task', 'err') 229 1213 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+33: ('/invoke/collection.py', 'add_task', 'alias') 230 1214 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'str']
+  PY: ['Any']
+34: ('/invoke/collection.py', 'add_task', 'msg') 231 1215 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+35: ('/invoke/executor.py', '__init__', 'core') 232 1468 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ParseResult']
+  PY: ['Any']
+36: ('/invoke/executor.py', '__init__', 'config') 233 1467 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'None']
+  PY: ['Any']
+37: ('/invoke/executor.py', '__init__', 'collection') 235 1466 4 (PY Empty (is_any() is true))
+  PT: ['Collection']
+  PY: ['Any']
+38: ('/invoke/config.py', '__init__', 'runtime_path') 237 728 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['None']
+39: ('/invoke/config.py', '__init__', 'project_location') 238 727 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['None']
+40: ('/invoke/config.py', '__init__', 'user_prefix') 239 726 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['str']
+41: ('/invoke/config.py', '__init__', 'defaults') 241 724 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  PY: ['Any']
+42: ('/invoke/config.py', '__init__', 'overrides') 242 723 6 (PY subset PT)
+  PT: ['None', 'dict']
+  PY: ['Dict[nothing, nothing]']
+43: ('/invoke/config.py', '__init__', 'env_prefix') 244 730 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['str']
+44: ('/invoke/parser/context.py', '__init__', 'args') 245 1617 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list', 'tuple']
+  PY: ['Any']
+45: ('/invoke/parser/context.py', '__init__', 'aliases') 246 1616 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+46: ('/invoke/parser/context.py', '__init__', 'name') 247 1615 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'None', 'str']
+  PY: ['Any']
+47: ('/invoke/parser/context.py', '__init__', 'arg') 249 1618 4 (PY Empty (is_any() is true))
+  PT: ['Argument', 'ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+48: ('/invoke/parser/parser.py', '__init__', 'self') 251 1537 6 (PY subset PT)
+  PT: ['ParseMachine', 'ParseResult', 'Parser']
+  PY: ['ParseResult']
+49: ('/invoke/parser/parser.py', '__init__', 'args') 252 1601 7 (etc)
+  PT: ['list']
+  PY: ['Tuple[()]', 'tuple']
+
+AM: PY
+
+50: ('/invoke/executor.py', 'execute', 'tasks') 254 1470 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['tuple']
+51: ('/invoke/executor.py', 'execute', 'x') 255 1471 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'str']
+  PY: ['Any']
+52: ('/invoke/executor.py', 'execute', 'calls') 256 1472 6 (PY subset PT)
+  PT: ['bool', 'list']
+  PY: ['list']
+53: ('/invoke/executor.py', 'execute', 'dedupe') 259 1475 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+54: ('/invoke/executor.py', 'execute', 'call') 261 1483 4 (PY Empty (is_any() is true))
+  PT: ['Call', 'bool', 'dict', 'str']
+  PY: ['Any']
+55: ('/invoke/executor.py', 'execute', 'autoprint') 262 1477 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+56: ('/invoke/executor.py', 'execute', 'args') 263 1478 6 (PY subset PT)
+  PT: ['None', 'int', 'tuple']
+  PY: ['tuple']
+57: ('/invoke/executor.py', 'execute', 'config') 264 1479 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'None', 'bool']
+  PY: ['Any']
+58: ('/invoke/executor.py', 'execute', 'collection_config') 265 1480 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+59: ('/invoke/executor.py', 'execute', 'context') 266 1481 4 (PY Empty (is_any() is true))
+  PT: ['Context']
+  PY: ['Any']
+60: ('/invoke/executor.py', 'execute', 'result') 267 1482 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+61: ('/invoke/tasks.py', 'call', 'task') 270 641 4 (PY Empty (is_any() is true))
+  PT: ['Task', 'meta_func']
+  PY: ['Any']
+62: ('/invoke/tasks.py', 'call', 'args') 271 642 7 (etc)
+  PT: ['int']
+  PY: ['tuple']
+
+AM: Both, args
+
+63: ('/invoke/collection.py', 'configure', 'options') 274 1276 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+64: ('/invoke/tasks.py', 'fill_implicit_positionals', 'positional') 276 581 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list']
+  PY: ['Any']
+65: ('/invoke/tasks.py', 'fill_implicit_positionals', 'args') 277 582 3 (PT Empty)
+  PT: []
+  PY: ['List[str]']
+66: ('/invoke/tasks.py', 'fill_implicit_positionals', 'name') 279 585 3 (PT Empty)
+  PT: []
+  PY: ['str']
+67: ('/invoke/tasks.py', 'fill_implicit_positionals', 'default') 280 584 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+68: ('/invoke/tasks.py', 'fill_implicit_positionals', 'fill_implicit_positionals_ret') 281 129 8 (Partial match)
+  PT: ['None', 'list']
+  PY: ['Union[list, _T0]']
+69: ('/invoke/vendor/lexicon/__init__.py', '__init__', 'args') 284 3310 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+70: ('/invoke/collection.py', 'transform', 'name') 286 1253 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+71: ('/invoke/collection.py', 'transform', 'transform_ret') 287 81 5 (PT subset PY)
+  PT: ['str']
+  PY: ['Union[str, _T0]']
+72: ('/invoke/collection.py', 'transform', 'i') 292 1259 3 (PT Empty)
+  PT: []
+  PY: ['int']
+73: ('/invoke/collection.py', 'transform', 'char') 293 1258 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+74: ('/invoke/collection.py', '_add_object', 'obj') 296 1177 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+75: ('/invoke/collection.py', '_add_object', '_add_object_ret') 298 70 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+76: ('/invoke/vendor/six.py', 'iteritems', 'd') 300 1837 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'Lexicon', 'dict', 'meta_func', 'tuple']
+  PY: ['Any']
+77: ('/invoke/vendor/six.py', 'iteritems', 'iteritems_ret') 301 183 4 (PY Empty (is_any() is true))
+  PT: ['<list_iterator object at 0x10dbf2b50>', '<list_iterator object at 0x10dcda310>', '<list_iterator object at 0x10fdc3d00>', '<list_iterator object at 0x10fdca7f0>', '<list_iterator object at 0x10feeff70>', '<list_iterator object at 0x10ffb4b20>', '<list_iterator object at 0x1118ba7c0>']
+  PY: ['Any']
+78: ('/invoke/vendor/lexicon/alias_dict.py', 'alias', 'self') 302 3317 6 (PY subset PT)
+  PT: ['Lexicon', 'AliasDict']
+  PY: ['AliasDict']
+79: ('/invoke/vendor/lexicon/alias_dict.py', 'alias', 'from_') 303 3318 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+80: ('/invoke/vendor/lexicon/alias_dict.py', 'alias', 'to') 304 3319 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+81: ('/invoke/config.py', '_set', 'self') 306 676 6 (PY subset PT)
+  PT: ['Config', 'Context', 'MockContext', 'DataProxy']
+  PY: ['Config', 'DataProxy']
+82: ('/invoke/config.py', '_set', 'args') 307 677 7 (etc)
+  PT: ['str']
+  PY: ['Tuple[()]', 'Tuple[str, Any]', 'Tuple[str, bool]', 'tuple']
+
+AM: Both, args
+
+83: ('/invoke/config.py', '_set', 'key') 308 679 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+84: ('/invoke/config.py', '_set', 'value') 309 680 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+85: ('/invoke/config.py', 'copy_dict', 'source') 312 823 6 (PY subset PT)
+  PT: ['dict', 'str']
+  PY: ['Dict[str, Dict[str, Optional[Union[Dict[nothing, nothing], List[nothing], Type[invoke.runners.Local], bool, str]]]]']
+86: ('/invoke/config.py', 'copy_dict', 'copy_dict_ret') 313 113 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  PY: ['Any']
+87: ('/invoke/config.py', 'set_project_location', 'path') 315 754 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+88: ('/invoke/config.py', 'set_runtime_path', 'path') 318 745 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+89: ('/invoke/parser/context.py', 'add_arg', 'args') 323 1624 6 (PY subset PT)
+  PT: ['Argument', 'ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Tuple[Any]', 'tuple']
+90: ('/invoke/parser/context.py', 'add_arg', 'arg') 324 1626 4 (PY Empty (is_any() is true))
+  PT: ['Argument', 'ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+91: ('/invoke/parser/context.py', 'add_arg', 'name') 325 1628 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+92: ('/invoke/parser/context.py', 'add_arg', 'msg') 326 1627 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+93: ('/invoke/parser/context.py', 'add_arg', 'main') 327 1629 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+94: ('/invoke/parser/context.py', 'add_arg', 'inverse_name') 328 1630 6 (PY subset PT)
+  PT: ['None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['str']
+95: ('/invoke/executor.py', 'normalize', 'tasks') 330 1485 6 (PY subset PT)
+  PT: ['str', 'tuple']
+  PY: ['tuple']
+96: ('/invoke/executor.py', 'normalize', 'task') 332 1490 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'str']
+  PY: ['Any']
+97: ('/invoke/executor.py', 'normalize', 'name') 333 1487 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'str']
+  PY: ['Any']
+98: ('/invoke/executor.py', 'normalize', 'kwargs') 334 1488 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+99: ('/invoke/executor.py', 'expand_calls', 'calls') 338 1496 6 (PY subset PT)
+  PT: ['bool', 'list']
+  PY: ['List[invoke.tasks.Call]']
+100: ('/invoke/executor.py', 'expand_calls', 'call') 340 1498 6 (PY subset PT)
+  PT: ['Call', 'bool', 'dict', 'str']
+  PY: ['invoke.tasks.Call']
+101: ('/invoke/executor.py', 'dedupe', 'call') 345 1494 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'str']
+  PY: ['Any']
+102: ('/invoke/collection.py', 'configuration', 'taskpath') 347 1274 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'str']
+  PY: ['Any']
+103: ('/invoke/collection.py', 'configuration', 'configuration_ret') 349 74 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+104: ('/invoke/config.py', 'load_collection', 'merge') 350 752 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+105: ('/invoke/config.py', 'load_collection', 'data') 352 751 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+106: ('/invoke/tasks.py', '__init__', 'args') 356 625 6 (PY subset PT)
+  PT: ['None', 'int', 'tuple']
+  PY: ['None', 'tuple']
+107: ('/invoke/tasks.py', '__init__', 'called_as') 357 624 6 (PY subset PT)
+  PT: ['None', 'dict', 'str']
+  PY: ['None']
+108: ('/invoke/tasks.py', '__init__', 'task') 358 623 4 (PY Empty (is_any() is true))
+  PT: ['<object object at 0x10e6de950>', 'Call', 'Task', 'bool', 'dict', 'meta_func', 'str']
+  PY: ['Any']
+109: ('/invoke/config.py', 'merge_dicts', 'base') 359 816 6 (PY subset PT)
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  PY: ['dict']
+110: ('/invoke/config.py', 'merge_dicts', 'updates') 360 817 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'str']
+  PY: ['Any']
+111: ('/invoke/config.py', 'merge_dicts', 'key') 361 818 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+112: ('/invoke/config.py', 'merge_dicts', 'value') 362 819 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+113: ('/invoke/config.py', 'merge_dicts', 'merge_dicts_ret') 363 115 7 (etc)
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  PY: ['_T0']
+
+AM: PT is imprecise, but has correct type. PY is type param.
+
+114: ('/invoke/tasks.py', 'argspec', 'body') 365 572 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+115: ('/invoke/tasks.py', 'argspec', 'func') 366 573 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'meta_func']
+  PY: ['Any']
+116: ('/invoke/tasks.py', 'argspec', 'spec') 367 574 3 (PT Empty)
+  PT: []
+  PY: ['inspect.ArgSpec']
+117: ('/invoke/tasks.py', 'argspec', 'arg_names') 368 575 3 (PT Empty)
+  PT: []
+  PY: ['List[str]']
+118: ('/invoke/tasks.py', 'argspec', 'x') 369 577 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+119: ('/invoke/tasks.py', 'argspec', 'context_arg') 372 579 3 (PT Empty)
+  PT: []
+  PY: ['str']
+120: ('/invoke/collection.py', 'add_collection', 'name') 374 1218 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+121: ('/invoke/collection.py', 'add_collection', 'coll') 376 1217 4 (PY Empty (is_any() is true))
+  PT: ['Collection']
+  PY: ['Any']
+122: ('/invoke/collection.py', 'add_collection', 'err') 377 1219 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+123: ('/invoke/config.py', '_merge_file', 'found') 385 789 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+124: ('/invoke/config.py', '_merge_file', 'path') 386 790 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+125: ('/invoke/config.py', '_merge_file', 'data') 387 791 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+126: ('/invoke/config.py', 'obliterate', 'base') 388 829 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+127: ('/invoke/config.py', 'obliterate', 'deletions') 389 830 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+128: ('/invoke/config.py', 'obliterate', 'key') 390 831 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+129: ('/invoke/config.py', 'obliterate', 'value') 391 832 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+130: ('/invoke/parser/argument.py', '__init__', 'attr_name') 392 1518 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+131: ('/invoke/parser/argument.py', '__init__', 'incrementable') 393 1517 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+132: ('/invoke/parser/argument.py', '__init__', 'optional') 394 1516 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+133: ('/invoke/parser/argument.py', '__init__', 'positional') 395 1515 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+134: ('/invoke/parser/argument.py', '__init__', 'help') 396 1514 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+135: ('/invoke/parser/argument.py', '__init__', 'default') 397 1513 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'int', 'str']
+  PY: ['Any']
+136: ('/invoke/parser/argument.py', '__init__', 'kind') 398 1512 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'int', 'list', 'str']
+  PY: ['Any']
+137: ('/invoke/parser/argument.py', '__init__', 'names') 399 1511 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+138: ('/invoke/parser/argument.py', '__init__', 'name') 400 1510 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+139: ('/invoke/parser/argument.py', '__init__', 'msg') 402 1519 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+140: ('/invoke/parser/argument.py', '__init__', 'initial_value') 403 1520 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'int', 'list', 'str']
+  PY: ['Optional[Any]']
+141: ('/invoke/parser/context.py', 'to_flag', 'name') 404 1604 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+142: ('/invoke/parser/context.py', 'to_flag', 'to_flag_ret') 405 146 6 (PY subset PT)
+  PT: ['None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['str']
+143: ('/invoke/collection.py', 'task_with_config', 'name') 407 1238 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'str']
+  PY: ['Any']
+144: ('/invoke/collection.py', 'task_with_config', 'ours') 408 1239 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+145: ('/invoke/collection.py', 'task_with_config', 'task_with_config_ret') 409 79 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+146: ('/invoke/collection.py', 'task_with_config', 'coll') 410 1240 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+147: ('/invoke/collection.py', 'task_with_config', 'rest') 411 1241 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+148: ('/invoke/env.py', '__init__', 'config') 413 834 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+149: ('/invoke/env.py', '__init__', 'prefix') 414 835 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+150: ('/invoke/env.py', 'load', 'env_var') 418 840 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+151: ('/invoke/env.py', 'load', 'key_path') 419 841 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+152: ('/invoke/env.py', 'load', 'real_var') 420 839 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+153: ('/invoke/config.py', '_merge_error', 'orig') 422 820 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  PY: ['Any']
+154: ('/invoke/config.py', '_merge_error', 'new_') 423 821 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+155: ('/invoke/config.py', '_load_file', 'merge') 425 759 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+156: ('/invoke/config.py', '_load_file', 'midfix') 432 763 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+157: ('/invoke/config.py', '_load_file', 'absolute_path') 433 764 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+158: ('/invoke/config.py', '_load_file', 'path_prefix') 435 766 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+159: ('/invoke/config.py', '_load_file', 'x') 436 767 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+160: ('/invoke/config.py', '_load_file', 'filepath') 437 768 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+161: ('/invoke/config.py', '_load_file', 'type_') 438 769 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+162: ('/invoke/config.py', '_load_file', 'loader') 439 770 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+163: ('/invoke/config.py', '_load_file', 'msg') 440 771 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+164: ('/invoke/parser/context.py', 'translate_underscores', 'name') 442 1603 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  PY: ['Any']
+165: ('/invoke/parser/context.py', 'translate_underscores', 'translate_underscores_ret') 443 147 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+166: ('/invoke/tasks.py', 'make_context', 'config') 445 634 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'None', 'bool']
+  PY: ['Any']
+167: ('/invoke/collection.py', '_split_path', 'path') 448 1221 4 (PY Empty (is_any() is true))
+  PT: ['None', 'dict', 'str']
+  PY: ['Any']
+168: ('/invoke/collection.py', '_split_path', 'parts') 449 1222 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+169: ('/invoke/collection.py', '_split_path', 'coll') 450 1223 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+170: ('/invoke/collection.py', '_task_with_merged_config', 'coll') 454 1232 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+171: ('/invoke/collection.py', '_task_with_merged_config', 'ours') 456 1234 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+172: ('/invoke/collection.py', '_task_with_merged_config', 'task') 457 1235 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+173: ('/invoke/collection.py', '_task_with_merged_config', 'config') 458 1236 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+174: ('/invoke/env.py', '_crawl', 'obj') 464 846 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+175: ('/invoke/env.py', '_crawl', 'key') 465 851 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+176: ('/invoke/env.py', '_crawl', 'crawled') 468 849 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+177: ('/invoke/env.py', '_crawl', 'err') 469 850 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+178: ('/invoke/env.py', '_path_set', 'key_path') 472 859 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+179: ('/invoke/env.py', '_path_set', 'value') 473 860 3 (PT Empty)
+  PT: []
+  PY: ['str']
+180: ('/invoke/env.py', '_path_set', 'obj') 474 861 6 (PY subset PT)
+  PT: ['bool', 'dict', 'list', 'str']
+  PY: ['dict']
+181: ('/invoke/env.py', '_path_set', 'key') 475 862 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+182: ('/invoke/env.py', '_path_set', 'old') 476 863 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+183: ('/invoke/env.py', '_path_set', 'new_') 477 864 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+184: ('/invoke/config.py', '_format_mismatch', 'x') 478 822 4 (PY Empty (is_any() is true))
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  PY: ['Any']
+185: ('/invoke/context.py', '__init__', 'config') 480 914 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'None', 'bool']
+  PY: ['Any']
+186: ('/invoke/context.py', '__init__', 'self') 481 913 6 (PY subset PT)
+  PT: ['Context', 'MockContext']
+  PY: ['MockContext']
+187: ('/invoke/env.py', '_path_get', 'key_path') 485 855 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+188: ('/invoke/env.py', '_path_get', 'obj') 486 856 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+189: ('/invoke/env.py', '_path_get', 'key') 487 857 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list', 'str']
+  PY: ['Any']
+190: ('/invoke/env.py', '_path_get', '_path_get_ret') 488 135 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+191: ('/invoke/env.py', '_to_env_var', 'key_path') 490 853 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+192: ('/invoke/env.py', '_to_env_var', '_to_env_var_ret') 491 136 3 (PT Empty)
+  PT: []
+  PY: ['str']
+193: ('/invoke/env.py', '_cast', 'old') 493 866 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+194: ('/invoke/env.py', '_cast', 'new_') 494 867 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+195: ('/invoke/env.py', '_cast', '_cast_ret') 495 133 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+196: ('/invoke/env.py', '_cast', 'err') 496 868 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+197: ('/invoke/config.py', 'load_project', 'merge') 497 743 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+198: ('/invoke/config.py', 'load_runtime', 'merge') 499 747 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+199: ('/invoke/config.py', 'load_defaults', 'merge') 501 734 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+200: ('/invoke/config.py', 'load_defaults', 'data') 503 733 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+201: ('/invoke/config.py', 'load_overrides', 'merge') 504 737 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+202: ('/invoke/config.py', 'load_overrides', 'data') 506 736 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+203: ('/invoke/config.py', 'pop', 'self') 507 700 6 (PY subset PT)
+  PT: ['Config', 'Context', 'DataProxy']
+  PY: ['DataProxy']
+204: ('/invoke/config.py', 'pop', 'args') 508 701 7 (etc)
+  PT: ['str']
+  PY: ['tuple']
+
+AM: args, both
+
+205: ('/invoke/config.py', 'pop', 'key_existed') 509 702 8 (Partial match)
+  PT: ['bool', 'str']
+  PY: ['Union[bool, tuple]']
+206: ('/invoke/config.py', 'pop', 'ret') 510 703 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+207: ('/invoke/config.py', 'pop', 'pop_ret') 511 108 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+208: ('/invoke/config.py', 'clear', 'self') 512 697 6 (PY subset PT)
+  PT: ['Config', 'Context', 'DataProxy']
+  PY: ['DataProxy']
+209: ('/invoke/config.py', 'clear', 'key') 514 699 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+210: ('/invoke/config.py', 'popitem', 'self') 515 704 6 (PY subset PT)
+  PT: ['Config', 'Context', 'DataProxy']
+  PY: ['DataProxy']
+211: ('/invoke/config.py', 'popitem', 'ret') 516 705 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+212: ('/invoke/config.py', 'popitem', 'popitem_ret') 517 109 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+213: ('/invoke/config.py', 'setdefault', 'self') 518 706 6 (PY subset PT)
+  PT: ['Config', 'Context', 'DataProxy']
+  PY: ['DataProxy']
+214: ('/invoke/config.py', 'setdefault', 'args') 519 707 7 (etc)
+  PT: ['str']
+  PY: ['tuple']
+
+AM: args, both
+
+215: ('/invoke/config.py', 'setdefault', 'key_existed') 520 708 8 (Partial match)
+  PT: ['bool', 'str']
+  PY: ['Union[bool, tuple]']
+216: ('/invoke/config.py', 'setdefault', 'ret') 521 709 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+217: ('/invoke/config.py', 'setdefault', 'setdefault_ret') 522 110 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+218: ('/invoke/config.py', 'setdefault', 'key') 523 710 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+219: ('/invoke/config.py', 'setdefault', 'default') 524 711 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+220: ('/invoke/config.py', 'update', 'self') 526 712 6 (PY subset PT)
+  PT: ['Config', 'Context', 'DataProxy']
+  PY: ['DataProxy']
+221: ('/invoke/config.py', 'update', 'args') 527 713 7 (etc)
+  PT: ['dict']
+  PY: ['tuple']
+
+AM: args, both
+
+222: ('/invoke/config.py', 'update', 'key') 528 715 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+223: ('/invoke/config.py', 'update', 'value') 529 716 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+224: ('/invoke/config.py', 'update', 'arg') 530 717 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+225: ('/invoke/config.py', 'update', 'pair') 531 718 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+226: ('/invoke/config.py', 'clone', 'into') 532 793 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+227: ('/invoke/config.py', 'clone', 'err') 534 794 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+228: ('/invoke/config.py', 'clone', 'klass') 535 795 4 (PY Empty (is_any() is true))
+  PT: ['Config', 'None', 'bool', 'int']
+  PY: ['Any']
+229: ('/invoke/config.py', 'clone', 'new') 536 796 4 (PY Empty (is_any() is true))
+  PT: ['Config']
+  PY: ['Any']
+230: ('/invoke/config.py', 'clone', 'my_data') 538 798 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+231: ('/invoke/config.py', 'clone', 'clone_ret') 539 97 4 (PY Empty (is_any() is true))
+  PT: ['Config']
+  PY: ['Any']
+232: ('/invoke/config.py', '_track_removal_of', 'self') 540 686 6 (PY subset PT)
+  PT: ['Config', 'Context', 'DataProxy']
+  PY: ['DataProxy']
+233: ('/invoke/config.py', '_track_removal_of', 'key') 541 687 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+234: ('/invoke/config.py', '_track_removal_of', 'target') 542 688 8 (Partial match)
+  PT: ['Config', 'Context', 'None', 'DataProxy']
+  PY: ['Optional[Any]', 'None']
+235: ('/invoke/config.py', '_track_modification_of', 'self') 543 689 6 (PY subset PT)
+  PT: ['Config', 'Context', 'DataProxy']
+  PY: ['DataProxy']
+236: ('/invoke/config.py', '_track_modification_of', 'key') 544 690 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+237: ('/invoke/config.py', '_track_modification_of', 'value') 545 691 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+238: ('/invoke/config.py', '_track_modification_of', 'target') 546 692 8 (Partial match)
+  PT: ['Config', 'Context', 'None', 'DataProxy']
+  PY: ['Optional[Any]', 'None']
+239: ('/invoke/config.py', '_clone_init_kwargs', 'into') 547 800 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+240: ('/invoke/config.py', '_clone_init_kwargs', 'new_defaults') 549 801 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list']
+  PY: ['Any']
+241: ('/invoke/config.py', '_remove', 'key') 553 810 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+242: ('/invoke/config.py', '_remove', 'data') 554 811 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+243: ('/invoke/config.py', '_remove', 'subkey') 555 812 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+244: ('/invoke/config.py', '_modify', 'key') 558 804 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+245: ('/invoke/config.py', '_modify', 'value') 559 805 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+246: ('/invoke/config.py', '_modify', 'data') 560 806 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+247: ('/invoke/config.py', '_modify', 'subkey') 561 807 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+248: ('/invoke/config.py', 'excise', 'dict_') 562 824 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+249: ('/invoke/config.py', 'excise', 'keypath') 563 825 6 (PY subset PT)
+  PT: ['list', 'tuple']
+  PY: ['list']
+250: ('/invoke/config.py', 'excise', 'data') 564 826 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+251: ('/invoke/config.py', 'excise', 'leaf_key') 565 827 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+252: ('/invoke/config.py', 'excise', 'key') 566 828 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+253: ('/invoke/tasks.py', 'task', 'args') 568 608 7 (etc)
+  PT: ['Call', 'meta_func']
+  PY: ['tuple']
+
+AM: args, both
+
+254: ('/invoke/tasks.py', 'task', 'klass') 569 610 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+255: ('/invoke/tasks.py', 'task', 'task_ret') 570 132 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+256: ('/invoke/tasks.py', 'task', 'name') 571 611 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+257: ('/invoke/tasks.py', 'task', 'aliases') 572 612 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+258: ('/invoke/tasks.py', 'task', 'positional') 573 613 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+259: ('/invoke/tasks.py', 'task', 'iterable') 575 615 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+260: ('/invoke/tasks.py', 'task', 'incrementable') 576 616 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+261: ('/invoke/tasks.py', 'task', 'default') 577 617 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+262: ('/invoke/tasks.py', 'task', 'auto_shortflags') 578 618 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+263: ('/invoke/tasks.py', 'task', 'help') 579 619 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+264: ('/invoke/tasks.py', 'task', 'pre') 580 620 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+265: ('/invoke/tasks.py', 'task', 'post') 581 621 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+266: ('/invoke/tasks.py', 'task', 'autoprint') 582 622 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+267: ('/invoke/program.py', '__init__', 'binary_names') 584 1288 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list']
+  PY: ['Any']
+268: ('/invoke/program.py', '__init__', 'config_class') 585 1287 4 (PY Empty (is_any() is true))
+  PT: ['<object object at 0x10dbf9e10>', 'None']
+  PY: ['Any']
+269: ('/invoke/program.py', '__init__', 'executor_class') 586 1286 4 (PY Empty (is_any() is true))
+  PT: ['<object object at 0x10dbf9dc0>', 'None']
+  PY: ['Any']
+270: ('/invoke/program.py', '__init__', 'loader_class') 587 1285 4 (PY Empty (is_any() is true))
+  PT: ['<object object at 0x10dbf9d70>', 'None']
+  PY: ['Any']
+271: ('/invoke/program.py', '__init__', 'binary') 588 1284 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+272: ('/invoke/program.py', '__init__', 'name') 589 1283 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+273: ('/invoke/program.py', '__init__', 'namespace') 590 1282 4 (PY Empty (is_any() is true))
+  PT: ['Collection', 'None']
+  PY: ['Any']
+274: ('/invoke/program.py', '__init__', 'version') 591 1281 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+275: ('/invoke/program.py', 'run', 'exit') 593 1302 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+276: ('/invoke/program.py', 'run', 'argv') 594 1301 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list', 'str']
+  PY: ['Any']
+277: ('/invoke/program.py', 'run', 'code') 596 1303 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+278: ('/invoke/vendor/six.py', 'b', 's') 597 1841 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+279: ('/invoke/vendor/six.py', 'b', 'b_ret') 598 178 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+280: ('/invoke/program.py', 'parse_core', 'argv') 601 1305 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list', 'str']
+  PY: ['Any']
+281: ('/invoke/program.py', 'parse_cleanup', 'halp') 603 1308 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+282: ('/invoke/program.py', 'parse_cleanup', 'msg') 604 1309 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+283: ('/invoke/program.py', 'parse_cleanup', 'list_root') 605 1310 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+284: ('/invoke/program.py', 'parse_cleanup', 'sub') 606 1311 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+285: ('/invoke/program.py', 'update_config', 'command') 612 1295 2 (Both Empty)
+  PT: []
+  PY: ['Any', 'nothing']
+286: ('/invoke/program.py', 'update_config', 'runtime_path') 616 1299 5 (PT subset PY)
+  PT: ['None']
+  PY: ['Optional[Any]', 'Optional[str]']
+287: ('/invoke/program.py', 'execute', 'klass') 618 1313 4 (PY Empty (is_any() is true))
+  PT: ['<object object at 0x10dbf9dc0>', 'None']
+  PY: ['Any']
+288: ('/invoke/program.py', 'execute', 'config_path') 619 1314 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+289: ('/invoke/program.py', 'execute', 'module_path') 620 1315 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+290: ('/invoke/program.py', 'execute', '_') 621 1316 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+291: ('/invoke/program.py', 'execute', 'class_name') 622 1317 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+292: ('/invoke/program.py', 'execute', 'module') 623 1318 3 (PT Empty)
+  PT: []
+  PY: ['module']
+293: ('/invoke/program.py', 'execute', 'executor') 624 1319 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+294: ('/invoke/program.py', 'normalize_argv', 'argv') 626 1321 4 (PY Empty (is_any() is true))
+  PT: ['None', 'list', 'str']
+  PY: ['Any']
+295: ('/invoke/completion/complete.py', 'print_completion_script', 'shell') 631 1502 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+296: ('/invoke/completion/complete.py', 'print_completion_script', 'names') 632 1503 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+297: ('/invoke/completion/complete.py', 'print_completion_script', 'x') 633 1505 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+298: ('/invoke/completion/complete.py', 'print_completion_script', 'err') 636 1507 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+299: ('/invoke/completion/complete.py', 'print_completion_script', 'binary') 637 1508 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+300: ('/invoke/program.py', 'print_task_help', 'name') 641 1349 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+301: ('/invoke/program.py', 'print_task_help', 'ctx') 642 1350 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+302: ('/invoke/program.py', 'print_task_help', 'tuples') 643 1351 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+303: ('/invoke/program.py', 'print_task_help', 'docstring') 644 1352 3 (PT Empty)
+  PT: []
+  PY: ['Optional[str]']
+304: ('/invoke/program.py', 'print_task_help', 'line') 647 1355 3 (PT Empty)
+  PT: []
+  PY: ['str']
+305: ('/invoke/exceptions.py', '__init__', 'context') 648 1446 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+306: ('/invoke/exceptions.py', '__init__', 'self') 649 1420 6 (PY subset PT)
+  PT: ['AuthFailure', 'CollectionNotFound', 'CommandTimedOut', 'Exit', 'ParseError', 'Failure', 'ThreadException']
+  PY: ['ThreadException']
+307: ('/invoke/exceptions.py', '__init__', 'msg') 650 1445 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+308: ('/invoke/exceptions.py', '__init__', 'code') 651 1448 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+309: ('/invoke/exceptions.py', '__init__', 'message') 652 1447 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+310: ('/invoke/program.py', 'list_tasks', 'focus') 654 1357 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+311: ('/invoke/program.py', 'list_tasks', 'msg') 655 1358 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+312: ('/invoke/parser/parser.py', '__init__', 'ignore_unknown') 673 1540 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+313: ('/invoke/parser/parser.py', '__init__', 'initial') 674 1539 4 (PY Empty (is_any() is true))
+  PT: ['None', 'ParserContext', 'meta_func']
+  PY: ['Any']
+314: ('/invoke/parser/parser.py', '__init__', 'contexts') 675 1538 4 (PY Empty (is_any() is true))
+  PT: ['Lexicon', 'list', 'tuple']
+  PY: ['Any']
+315: ('/invoke/parser/parser.py', '__init__', 'context') 676 1543 4 (PY Empty (is_any() is true))
+  PT: ['ParserContext', 'str']
+  PY: ['Any']
+316: ('/invoke/parser/parser.py', '__init__', 'alias') 678 1542 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+317: ('/invoke/parser/parser.py', 'parse_argv', 'argv') 680 1545 4 (PY Empty (is_any() is true))
+  PT: ['list', 'str']
+  PY: ['Any']
+318: ('/invoke/parser/parser.py', 'parse_argv', 'ddash') 682 1547 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+319: ('/invoke/parser/parser.py', 'parse_argv', 'body') 683 1548 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+320: ('/invoke/parser/parser.py', 'parse_argv', 'remainder') 684 1549 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+321: ('/invoke/parser/parser.py', 'parse_argv', 'token') 686 1552 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+322: ('/invoke/parser/parser.py', 'parse_argv', 'orig') 688 1551 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+323: ('/invoke/parser/parser.py', 'parse_argv', '_') 689 1553 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+324: ('/invoke/parser/parser.py', 'parse_argv', 'value') 690 1554 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+325: ('/invoke/parser/parser.py', 'parse_argv', 'full_token') 692 1556 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+326: ('/invoke/parser/parser.py', 'parse_argv', 'rest') 693 1557 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+327: ('/invoke/parser/parser.py', 'parse_argv', 'have_flag') 695 1559 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+328: ('/invoke/parser/parser.py', 'parse_argv', 'x') 696 1560 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+329: ('/invoke/parser/parser.py', 'parse_argv', 'item') 697 1561 3 (PT Empty)
+  PT: []
+  PY: ['str']
+330: ('/invoke/program.py', 'print_columns', 'name_width') 704 1405 7 (etc)
+  PT: ['float']
+  PY: ['int']
+
+AM: PY
+
+331: ('/invoke/program.py', 'print_columns', 'desc_width') 705 1407 4 (PY Empty (is_any() is true))
+  PT: ['float']
+  PY: ['Any']
+332: ('/invoke/program.py', 'print_columns', 'name') 707 1414 2 (Both Empty)
+  PT: []
+  PY: ['Any', 'nothing']
+333: ('/invoke/program.py', 'print_columns', 'name_padding') 710 1411 7 (etc)
+  PT: ['float']
+  PY: ['int']
+
+AM: PY
+
+334: ('/invoke/program.py', 'print_columns', 'chunk') 712 1413 3 (PT Empty)
+  PT: []
+  PY: ['str']
+335: ('/invoke/completion/complete.py', 'print_task_names', 'collection') 713 1499 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+336: ('/invoke/completion/complete.py', 'print_task_names', 'name') 714 1501 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+337: ('/invoke/completion/complete.py', 'print_task_names', 'alias') 715 1500 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+338: ('/invoke/parser/parser.py', 'is_flag', 'value') 720 1535 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+339: ('/invoke/parser/parser.py', 'is_flag', 'is_flag_ret') 721 151 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+340: ('/invoke/parser/parser.py', 'is_long_flag', 'value') 722 1536 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+341: ('/invoke/parser/parser.py', 'is_long_flag', 'is_long_flag_ret') 723 152 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+342: ('/invoke/parser/parser.py', 'waiting_for_flag_value', 'takes_value') 725 1570 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+343: ('/invoke/parser/parser.py', 'handle', 'token') 729 1573 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+344: ('/invoke/parser/parser.py', 'handle', 'flag') 731 1575 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+345: ('/invoke/terminals.py', 'pty_size', 'cols') 734 513 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+346: ('/invoke/terminals.py', 'pty_size', 'rows') 735 514 4 (PY Empty (is_any() is true))
+  PT: ['None', 'int']
+  PY: ['Any']
+347: ('/invoke/parser/context.py', 'flag_names', 'flags') 738 1650 3 (PT Empty)
+  PT: []
+  PY: ['list']
+348: ('/invoke/parser/context.py', 'flag_names', 'x') 739 1652 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+349: ('/invoke/vendor/fluidity/machine.py', '__init__', 'self') 742 1948 6 (PY subset PT)
+  PT: ['ParseMachine', 'StateMachine', '_Transition', '_Guard', '_State', '_ActionRunner']
+  PY: ['_ActionRunner']
+350: ('/invoke/parser/parser.py', 'switch_to_flag', 'flag') 745 1592 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'str']
+  PY: ['Any']
+351: ('/invoke/parser/parser.py', 'see_value', 'value') 748 1596 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+352: ('/invoke/parser/parser.py', 'see_positional_arg', 'value') 750 1598 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+353: ('/invoke/parser/parser.py', 'see_positional_arg', 'arg') 751 1599 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+354: ('/invoke/parser/context.py', 'help_for', 'err') 756 1639 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+355: ('/invoke/parser/context.py', 'help_for', 'arg') 757 1640 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+356: ('/invoke/parser/context.py', 'help_for', 'value') 758 1641 3 (PT Empty)
+  PT: []
+  PY: ['Optional[str]']
+357: ('/invoke/parser/context.py', 'help_for', 'name') 760 1645 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+358: ('/invoke/parser/context.py', 'help_for', 'helpstr') 764 1647 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+359: ('/invoke/terminals.py', '_pty_size', 'result') 769 518 4 (PY Empty (is_any() is true))
+  PT: ['bytes']
+  PY: ['Any']
+360: ('/invoke/terminals.py', '_pty_size', 'rows') 770 519 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+361: ('/invoke/terminals.py', '_pty_size', 'cols') 771 520 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+362: ('/invoke/terminals.py', '_win_pty_size', '_fields_') 773 521 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+363: ('/invoke/terminals.py', '_win_pty_size', 'GetStdHandle') 774 522 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+364: ('/invoke/terminals.py', '_win_pty_size', 'GetConsoleScreenBufferInfo') 775 523 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+365: ('/invoke/terminals.py', '_win_pty_size', 'hstd') 776 524 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+366: ('/invoke/terminals.py', '_win_pty_size', 'csbi') 777 525 3 (PT Empty)
+  PT: []
+  PY: ['CONSOLE_SCREEN_BUFFER_INFO']
+367: ('/invoke/terminals.py', '_win_pty_size', 'ret') 778 526 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+368: ('/invoke/terminals.py', '_win_pty_size', 'sizex') 779 527 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+369: ('/invoke/terminals.py', '_win_pty_size', 'sizey') 780 528 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+370: ('/invoke/parser/context.py', 'names_for', 'flag') 783 1636 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+371: ('/invoke/vendor/fluidity/machine.py', '_bring_definitions_to_object_level', 'self') 785 1952 6 (PY subset PT)
+  PT: ['ParseMachine', 'StateMachine']
+  PY: ['StateMachine']
+372: ('/invoke/vendor/fluidity/machine.py', '_inject_into_parts', 'self') 786 1953 6 (PY subset PT)
+  PT: ['ParseMachine', 'StateMachine']
+  PY: ['StateMachine']
+373: ('/invoke/vendor/fluidity/machine.py', '_inject_into_parts', 'collection') 787 1955 3 (PT Empty)
+  PT: []
+  PY: ['Union[dict_values[_State], List[_Transition]]']
+374: ('/invoke/vendor/fluidity/machine.py', '_inject_into_parts', 'component') 788 1954 3 (PT Empty)
+  PT: []
+  PY: ['Union[_State, _Transition]']
+375: ('/invoke/vendor/fluidity/machine.py', '_validate_machine_definitions', 'self') 789 1956 6 (PY subset PT)
+  PT: ['ParseMachine', 'StateMachine']
+  PY: ['StateMachine']
+376: ('/invoke/vendor/fluidity/backwardscompat.py', 'callable', 'obj') 790 2064 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+377: ('/invoke/vendor/fluidity/machine.py', '_state_by_name', 'self') 792 1998 6 (PY subset PT)
+  PT: ['ParseMachine', 'StateMachine']
+  PY: ['StateMachine']
+378: ('/invoke/vendor/fluidity/machine.py', '_state_by_name', 'name') 793 1999 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+379: ('/invoke/vendor/fluidity/machine.py', '_state_by_name', 'state') 794 2000 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+380: ('/invoke/vendor/fluidity/machine.py', '_state_by_name', '_state_by_name_ret') 795 198 3 (PT Empty)
+  PT: []
+  PY: ['Optional[_State]']
+381: ('/invoke/vendor/fluidity/machine.py', '_create_state_getters', 'self') 796 1996 6 (PY subset PT)
+  PT: ['ParseMachine', 'StateMachine']
+  PY: ['StateMachine']
+382: ('/invoke/vendor/fluidity/machine.py', '_create_state_getters', 'state') 797 1997 3 (PT Empty)
+  PT: []
+  PY: ['_State']
+383: ('/invoke/parser/parser.py', 'check_ambiguity', 'value') 799 1588 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'str']
+  PY: ['Any']
+384: ('/invoke/parser/parser.py', 'check_ambiguity', 'check_ambiguity_ret') 800 148 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['Optional[bool]']
+385: ('/invoke/parser/parser.py', 'check_ambiguity', 'msg') 802 1590 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+386: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'self') 806 3322 6 (PY subset PT)
+  PT: ['Lexicon', 'AliasDict']
+  PY: ['AliasDict']
+387: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'name') 807 3323 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+388: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'key') 809 3325 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+389: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'k') 810 3326 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+390: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'v') 811 3327 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+391: ('/invoke/vendor/fluidity/machine.py', '_state_objects', 'self') 813 1972 6 (PY subset PT)
+  PT: ['ParseMachine', 'StateMachine']
+  PY: ['StateMachine']
+392: ('/invoke/vendor/decorator.py', 'decorator', 'caller') 816 1717 4 (PY Empty (is_any() is true))
+  PT: ['ContextManager']
+  PY: ['Any']
+393: ('/invoke/vendor/decorator.py', 'decorator', 'decorator_ret') 817 159 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+394: ('/invoke/vendor/decorator.py', 'decorator', 'name') 818 1719 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+395: ('/invoke/vendor/decorator.py', 'decorator', 'doc') 819 1720 4 (PY Empty (is_any() is true))
+  PT: ['str', 'tuple']
+  PY: ['Any']
+396: ('/invoke/vendor/six.py', '__init__', 'self') 821 1777 6 (PY subset PT)
+  PT: ['MovedAttribute', 'MovedModule', '_LazyDescr', '_LazyModule', '_SixMetaPathImporter']
+  PY: ['_SixMetaPathImporter']
+397: ('/invoke/vendor/six.py', '__init__', 'new_mod') 827 1795 6 (PY subset PT)
+  PT: ['bool', 'str']
+  PY: ['str']
+398: ('/invoke/vendor/six.py', '_add_module', 'mod') 831 1801 8 (Partial match)
+  PT: ['MovedAttribute', 'MovedModule']
+  PY: ['MovedModule', '_MovedItems', 'Module_six_moves_urllib_parse', 'Module_six_moves_urllib_error', 'Module_six_moves_urllib_request', 'Module_six_moves_urllib_response', 'Module_six_moves_urllib_robotparser', 'Module_six_moves_urllib']
+399: ('/invoke/vendor/six.py', '_add_module', 'fullnames') 832 1802 7 (etc)
+  PT: ['str']
+  PY: ['Tuple[str]', 'Tuple[str, str]', 'tuple']
+
+AM: args, both
+
+400: ('/invoke/vendor/six.py', '_add_module', 'fullname') 833 1803 3 (PT Empty)
+  PT: []
+  PY: ['str']
+401: ('/invoke/vendor/six.py', '_get_module', '_get_module_ret') 836 168 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+402: ('/invoke/vendor/decorator.py', 'decorate', 'func') 837 1713 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+403: ('/invoke/vendor/decorator.py', 'decorate', 'caller') 838 1714 4 (PY Empty (is_any() is true))
+  PT: ['ContextManager']
+  PY: ['Any']
+404: ('/invoke/vendor/decorator.py', 'decorate', 'fun') 840 1716 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+405: ('/invoke/vendor/decorator.py', 'decorate', 'decorate_ret') 841 158 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+406: ('/invoke/terminals.py', 'bytes_to_read', 'input_') 842 542 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+407: ('/invoke/terminals.py', 'bytes_to_read', 'fionread') 843 543 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+408: ('/invoke/terminals.py', 'bytes_to_read', 'bytes_to_read_ret') 844 52 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+409: ('/invoke/util.py', 'isatty', 'stream') 845 876 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+410: ('/invoke/util.py', 'isatty', 'isatty_ret') 846 88 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+411: ('/invoke/util.py', 'has_fileno', 'stream') 847 875 4 (PY Empty (is_any() is true))
+  PT: ["<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>"]
+  PY: ['Any']
+412: ('/invoke/watchers.py', '__init__', 'self') 849 892 6 (PY subset PT)
+  PT: ['FailingResponder', 'Responder']
+  PY: ['FailingResponder']
+413: ('/invoke/watchers.py', '__init__', 'pattern') 850 893 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+414: ('/invoke/watchers.py', '__init__', 'response') 851 894 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+415: ('/invoke/watchers.py', 'submit', 'self') 852 902 6 (PY subset PT)
+  PT: ['FailingResponder', 'StreamWatcher', 'Responder']
+  PY: ['FailingResponder']
+416: ('/invoke/watchers.py', 'submit', 'stream') 853 903 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+417: ('/invoke/watchers.py', 'submit', '_') 854 904 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+418: ('/invoke/watchers.py', '__init__', 'sentinel') 855 905 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+419: ('/invoke/watchers.py', 'submit', 'response') 856 906 3 (PT Empty)
+  PT: []
+  PY: ['Generator[Any, Any, None]']
+420: ('/invoke/watchers.py', 'submit', 'failed') 857 907 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+421: ('/invoke/watchers.py', 'submit', 'err') 858 908 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+422: ('/invoke/watchers.py', 'submit', 'submit_ret') 859 116 3 (PT Empty)
+  PT: []
+  PY: ['Generator[Any, Any, None]', 'Never']
+423: ('/invoke/watchers.py', 'pattern_matches', 'self') 860 895 6 (PY subset PT)
+  PT: ['FailingResponder', 'Responder']
+  PY: ['Responder']
+424: ('/invoke/watchers.py', 'pattern_matches', 'stream') 861 896 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+425: ('/invoke/watchers.py', 'pattern_matches', 'pattern') 862 897 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+426: ('/invoke/watchers.py', 'pattern_matches', 'index_attr') 863 898 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+427: ('/invoke/watchers.py', 'pattern_matches', 'index') 864 899 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+428: ('/invoke/watchers.py', 'pattern_matches', 'new_') 865 900 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+429: ('/invoke/watchers.py', 'pattern_matches', 'matches') 866 901 3 (PT Empty)
+  PT: []
+  PY: ['list']
+430: ('/invoke/watchers.py', 'pattern_matches', 'pattern_matches_ret') 867 117 3 (PT Empty)
+  PT: []
+  PY: ['list']
+431: ('/invoke/context.py', 'run', 'self') 869 919 6 (PY subset PT)
+  PT: ['Context', 'MockContext']
+  PY: ['MockContext']
+432: ('/invoke/context.py', 'run', 'command') 870 920 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+433: ('/invoke/context.py', 'run', 'runner') 871 922 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+434: ('/invoke/context.py', 'run', 'run_ret') 872 5 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+435: ('/invoke/context.py', 'cwd', 'i') 875 950 3 (PT Empty)
+  PT: []
+  PY: ['int']
+436: ('/invoke/context.py', 'cwd', 'path') 876 951 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+437: ('/invoke/context.py', 'cwd', 'paths') 877 952 3 (PT Empty)
+  PT: []
+  PY: ['list']
+438: ('/invoke/context.py', 'cd', 'self') 878 953 4 (PY Empty (is_any() is true))
+  PT: ['Context']
+  PY: ['Any']
+439: ('/invoke/context.py', 'cd', 'path') 879 954 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+440: ('/invoke/context.py', 'sudo', 'self') 881 927 6 (PY subset PT)
+  PT: ['Context', 'MockContext']
+  PY: ['MockContext']
+441: ('/invoke/context.py', 'sudo', 'command') 882 928 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+442: ('/invoke/context.py', 'sudo', 'runner') 883 930 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+443: ('/invoke/context.py', 'sudo', 'sudo_ret') 884 6 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+444: ('/invoke/context.py', 'prefix', 'self') 885 947 4 (PY Empty (is_any() is true))
+  PT: ['Context']
+  PY: ['Any']
+445: ('/invoke/context.py', 'prefix', 'command') 886 948 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+446: ('/invoke/context.py', '__init__', 'method') 888 957 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+447: ('/invoke/context.py', '__init__', 'results') 889 958 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+448: ('/invoke/context.py', '__init__', 'err') 890 956 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+449: ('/invoke/runners.py', '__init__', 'encoding') 897 1127 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+450: ('/invoke/runners.py', '__init__', 'self') 900 983 6 (PY subset PT)
+  PT: ['Promise', 'Result', 'Runner', 'Local']
+  PY: ['Promise']
+451: ('/invoke/context.py', 'run', 'args') 901 964 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+452: ('/invoke/context.py', 'sudo', 'args') 902 965 3 (PT Empty)
+  PT: []
+  PY: ['tuple']
+453: ('/invoke/context.py', 'set_result_for', 'command') 905 968 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+454: ('/invoke/context.py', 'set_result_for', 'result') 906 969 4 (PY Empty (is_any() is true))
+  PT: ['Result']
+  PY: ['Any']
+455: ('/invoke/context.py', 'set_result_for', 'value') 908 971 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+456: ('/invoke/context.py', '_run', 'runner') 911 924 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+457: ('/invoke/context.py', '_run', '_run_ret') 913 1 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+458: ('/invoke/context.py', '_sudo', 'kwargs') 914 934 6 (PY subset PT)
+  PT: ['None', 'dict']
+  PY: ['Dict[str, Any]']
+459: ('/invoke/context.py', '_sudo', 'runner') 916 932 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+460: ('/invoke/context.py', '_sudo', 'prompt') 918 935 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+461: ('/invoke/context.py', '_sudo', 'password') 919 936 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+462: ('/invoke/context.py', '_sudo', 'user') 920 937 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+463: ('/invoke/context.py', '_sudo', 'watchers') 924 941 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+464: ('/invoke/context.py', '_sudo', '_sudo_ret') 925 2 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+465: ('/invoke/context.py', '_sudo', 'error') 926 942 4 (PY Empty (is_any() is true))
+  PT: ['AuthFailure']
+  PY: ['Any']
+466: ('/invoke/runners.py', 'default_encoding', 'default') 928 1166 5 (PT subset PY)
+  PT: ['str']
+  PY: ['Optional[str]']
+467: ('/invoke/context.py', '_yield_result', 'command') 932 961 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+468: ('/invoke/context.py', '_yield_result', 'value') 933 962 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+469: ('/invoke/context.py', '_yield_result', 'result') 934 963 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+470: ('/invoke/context.py', '_yield_result', '_yield_result_ret') 935 7 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+471: ('/invoke/context.py', '_prefix_commands', 'command') 937 944 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+472: ('/invoke/context.py', '_prefix_commands', 'current_directory') 939 946 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+473: ('/invoke/exceptions.py', '__init__', 'result') 941 1423 4 (PY Empty (is_any() is true))
+  PT: ['Result']
+  PY: ['Any']
+474: ('/invoke/exceptions.py', '__init__', 'prompt') 942 1443 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+475: ('/invoke/runners.py', '__init__', 'context') 943 984 4 (PY Empty (is_any() is true))
+  PT: ['Context', 'ParserContext']
+  PY: ['Any']
+476: ('/invoke/runners.py', 'run', 'command') 947 986 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+477: ('/invoke/runners.py', 'run', 'run_ret') 948 36 4 (PY Empty (is_any() is true))
+  PT: ['Promise', 'Result', 'bool']
+  PY: ['Any']
+478: ('/invoke/runners.py', 'should_use_pty', 'fallback') 949 1078 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+479: ('/invoke/runners.py', 'should_use_pty', 'pty') 950 1077 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+480: ('/invoke/runners.py', 'should_use_pty', 'self') 951 1076 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+481: ('/invoke/runners.py', 'should_use_pty', 'should_use_pty_ret') 954 14 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['bool', '_T0']
+482: ('/invoke/runners.py', 'close_proc_stdin', 'self') 955 1109 6 (PY subset PT)
+  PT: ['Local', 'Runner']
+  PY: ['Local']
+483: ('/invoke/runners.py', 'tail', 'count') 956 1148 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+484: ('/invoke/runners.py', 'tail', 'stream') 958 1147 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+485: ('/invoke/runners.py', 'tail', 'tail_ret') 960 21 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+486: ('/invoke/runners.py', '_run_body', 'command') 963 993 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+487: ('/invoke/runners.py', '_run_body', '_run_body_ret') 964 24 4 (PY Empty (is_any() is true))
+  PT: ['Promise', 'Result', 'bool']
+  PY: ['Any']
+488: ('/invoke/runners.py', '_run_body', 'thread') 965 995 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+489: ('/invoke/util.py', 'encode_output', 'string') 967 877 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+490: ('/invoke/util.py', 'encode_output', 'encoding') 968 878 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+491: ('/invoke/util.py', 'encode_output', 'encode_output_ret') 969 85 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+492: ('/invoke/runners.py', '_setup', 'command') 971 990 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+493: ('/invoke/runners.py', 'start_timer', 'timeout') 977 1088 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+494: ('/invoke/runners.py', 'create_io_threads', 'target') 983 1032 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+495: ('/invoke/runners.py', 'create_io_threads', 'kwargs') 984 1033 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+496: ('/invoke/runners.py', '_finish', 'target') 992 1002 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+497: ('/invoke/runners.py', '_finish', 'thread') 993 1003 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+498: ('/invoke/runners.py', '_finish', 'exception') 994 1000 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+499: ('/invoke/runners.py', '_finish', 'real') 995 1001 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+500: ('/invoke/runners.py', '_finish', 'result') 996 1004 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+501: ('/invoke/runners.py', '_finish', 'timeout') 997 1005 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+502: ('/invoke/runners.py', '_finish', '_finish_ret') 998 23 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+503: ('/invoke/runners.py', '_unify_kwargs_with_config', 'kwargs') 1001 1007 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+504: ('/invoke/runners.py', '_unify_kwargs_with_config', 'key') 1003 1010 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+505: ('/invoke/runners.py', '_unify_kwargs_with_config', 'value') 1004 1011 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+506: ('/invoke/runners.py', '_unify_kwargs_with_config', 'runtime') 1005 1009 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+507: ('/invoke/runners.py', '_unify_kwargs_with_config', 'config_timeout') 1006 1012 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+508: ('/invoke/runners.py', '_unify_kwargs_with_config', 'err') 1007 1013 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+509: ('/invoke/runners.py', '_unify_kwargs_with_config', 'out_stream') 1008 1014 4 (PY Empty (is_any() is true))
+  PT: ["<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>"]
+  PY: ['Any']
+510: ('/invoke/runners.py', '_unify_kwargs_with_config', 'err_stream') 1009 1015 4 (PY Empty (is_any() is true))
+  PT: ["<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>"]
+  PY: ['Any']
+511: ('/invoke/runners.py', '_unify_kwargs_with_config', 'in_stream') 1010 1016 4 (PY Empty (is_any() is true))
+  PT: ["<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>", 'bool']
+  PY: ['Any']
+512: ('/invoke/runners.py', 'generate_env', 'env') 1012 1074 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+513: ('/invoke/runners.py', 'generate_env', 'replace_env') 1013 1075 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+514: ('/invoke/runners.py', 'generate_env', 'generate_env_ret') 1014 30 5 (PT subset PY)
+  PT: ['dict']
+  PY: ['Union[Dict[nothing, nothing], _T0]']
+515: ('/invoke/runners.py', '__init__', 'key') 1019 1151 3 (PT Empty)
+  PT: []
+  PY: ['str']
+516: ('/invoke/runners.py', '__init__', 'value') 1020 1152 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+517: ('/invoke/runners.py', 'wait', 'proc_finished') 1022 1081 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+518: ('/invoke/runners.py', 'wait', 'dead_threads') 1023 1082 7 (etc)
+  PT: ['meta_func']
+  PY: ['bool']
+
+AM: ?
+
+519: ('/invoke/runners.py', 'send_interrupt', 'interrupt') 1025 1091 3 (PT Empty)
+  PT: []
+  PY: ['KeyboardInterrupt']
+520: ('/invoke/runners.py', '_thread_join_timeout', 'target') 1027 1024 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+521: ('/invoke/runners.py', '_thread_join_timeout', 'opposite') 1029 1025 3 (PT Empty)
+  PT: []
+  PY: ['Callable[[Any, Any, Any], Any]']
+522: ('/invoke/exceptions.py', '__init__', 'exceptions') 1030 1458 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+523: ('/invoke/runners.py', '_collate_result', 'exited') 1035 1021 8 (Partial match)
+  PT: ['None', 'list']
+  PY: ['None', 'Optional[Any]']
+524: ('/invoke/runners.py', '_collate_result', 'result') 1036 1022 3 (PT Empty)
+  PT: []
+  PY: ['Result']
+525: ('/invoke/runners.py', '_collate_result', '_collate_result_ret') 1037 22 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+526: ('/invoke/exceptions.py', '__init__', 'reason') 1038 1424 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['None']
+527: ('/invoke/exceptions.py', '__init__', 'timeout') 1039 1442 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+528: ('/invoke/runners.py', 'normalize_hide', 'err_stream') 1040 1161 4 (PY Empty (is_any() is true))
+  PT: ["<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>", 'None']
+  PY: ['Any']
+529: ('/invoke/runners.py', 'normalize_hide', 'out_stream') 1041 1160 4 (PY Empty (is_any() is true))
+  PT: ["<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>", 'None']
+  PY: ['Any']
+530: ('/invoke/runners.py', 'normalize_hide', 'val') 1042 1159 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+531: ('/invoke/runners.py', 'normalize_hide', 'err') 1044 1163 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+532: ('/invoke/util.py', 'cd', 'where') 1052 873 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+533: ('/invoke/collection.py', 'to_contexts', 'primary') 1056 1247 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+534: ('/invoke/collection.py', 'to_contexts', 'aliases') 1057 1248 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+535: ('/invoke/collection.py', 'to_contexts', 'task') 1058 1246 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+536: ('/invoke/collection.py', 'task_names', 'name') 1066 1267 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+537: ('/invoke/collection.py', 'task_names', 'task') 1067 1268 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+538: ('/invoke/collection.py', 'task_names', 'coll_name') 1068 1271 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+539: ('/invoke/collection.py', 'task_names', 'coll') 1069 1272 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+540: ('/invoke/collection.py', 'task_names', 'task_name') 1070 1270 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+541: ('/invoke/collection.py', 'task_names', 'aliases') 1071 1269 6 (PY subset PT)
+  PT: ['list', 'tuple']
+  PY: ['list']
+542: ('/invoke/util.py', 'helpline', 'obj') 1073 879 4 (PY Empty (is_any() is true))
+  PT: ['Collection', 'meta_func']
+  PY: ['Any']
+543: ('/invoke/util.py', 'helpline', 'docstring') 1074 880 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+544: ('/invoke/collection.py', 'subtask_name', 'collection_name') 1076 1250 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+545: ('/invoke/collection.py', 'subtask_name', 'task_name') 1077 1251 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+546: ('/invoke/loader.py', '__init__', 'start') 1080 974 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+547: ('/invoke/loader.py', '__init__', 'self') 1081 972 6 (PY subset PT)
+  PT: ['FilesystemLoader', 'Loader']
+  PY: ['FilesystemLoader']
+548: ('/invoke/tasks.py', 'clone', 'with_') 1082 638 6 (PY subset PT)
+  PT: ['None', 'dict']
+  PY: ['None']
+549: ('/invoke/tasks.py', 'clone', 'klass') 1085 639 6 (PY subset PT)
+  PT: ['Call', 'None', 'bool']
+  PY: ['Type[Call]']
+550: ('/invoke/tasks.py', 'clone', 'clone_ret') 1087 122 4 (PY Empty (is_any() is true))
+  PT: ['Call']
+  PY: ['Any']
+551: ('/invoke/loader.py', '__init__', 'config') 1088 973 7 (etc)
+  PT: ['None']
+  PY: ['invoke.config.Config']
+552: ('/invoke/__init__.py', 'run', 'command') 1092 909 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+553: ('/invoke/__init__.py', 'run', 'run_ret') 1093 8 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+554: ('/invoke/__init__.py', 'sudo', 'command') 1095 911 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+555: ('/invoke/__init__.py', 'sudo', 'sudo_ret') 1096 9 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+556: ('/invoke/loader.py', 'find', 'self') 1107 977 6 (PY subset PT)
+  PT: ['FilesystemLoader', 'Loader']
+  PY: ['FilesystemLoader']
+557: ('/invoke/loader.py', 'find', 'name') 1108 978 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+558: ('/invoke/loader.py', 'find', 'start') 1109 979 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+559: ('/invoke/loader.py', 'find', 'tup') 1111 981 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+560: ('/invoke/loader.py', 'find', 'find_ret') 1112 90 3 (PT Empty)
+  PT: []
+  PY: ['Tuple[IO, str, Tuple[str, str, int]]', 'Never']
+561: ('/invoke/loader.py', 'find', 'msg') 1113 982 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+562: ('/invoke/exceptions.py', '__init__', 'name') 1114 1421 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str']
+  PY: ['Any']
+563: ('/invoke/exceptions.py', '__init__', 'start') 1115 1422 4 (PY Empty (is_any() is true))
+  PT: ['meta_func']
+  PY: ['Any']
+564: ('/invoke/parser/argument.py', 'set_value', 'value') 1120 1531 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+565: ('/invoke/parser/argument.py', 'set_value', 'func') 1121 1533 4 (PY Empty (is_any() is true))
+  PT: ['<function <lambda> at 0x10fb05700>', 'None', 'bool', 'int', 'list', 'str']
+  PY: ['Any']
+566: ('/integration/main.py', 'basic_invocation', 'self') 1138 467 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+567: ('/integration/main.py', 'version_output', 'self') 1139 468 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+568: ('/integration/main.py', 'help_output', 'self') 1140 469 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+569: ('/integration/main.py', 'per_task_help', 'self') 1141 470 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+570: ('/integration/main.py', 'shorthand_binary_name', 'self') 1142 471 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+571: ('/integration/main.py', 'explicit_task_module', 'self') 1143 472 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+572: ('/integration/main.py', 'invocation_with_args', 'self') 1144 473 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+573: ('/integration/main.py', 'bad_collection_exits_nonzero', 'self') 1145 474 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+574: ('/integration/main.py', 'invocable_via_python_dash_m', 'self') 1147 478 4 (PY Empty (is_any() is true))
+  PT: ['basics']
+  PY: ['Any']
+575: ('/invoke/terminals.py', 'ready_for_reading', 'ready_for_reading_ret') 1164 56 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+576: ('/invoke/tasks.py', '__repr__', 'self') 1166 560 6 (PY subset PT)
+  PT: ['Task', 'Call']
+  PY: ['Call']
+577: ('/invoke/tasks.py', '__eq__', 'self') 1169 562 6 (PY subset PT)
+  PT: ['Task', 'Call']
+  PY: ['Call']
+578: ('/invoke/tasks.py', '__call__', 'err') 1173 568 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+579: ('/invoke/config.py', '__getattr__', 'err') 1188 654 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+580: ('/invoke/config.py', '__eq__', '__eq___ret') 1193 100 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+581: ('/invoke/config.py', '_load_py', 'err') 1213 782 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+582: ('/invoke/util.py', 'run', 'name') 1218 885 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+583: ('/invoke/runners.py', 'process_is_finished', 'self') 1234 1120 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+584: ('/invoke/runners.py', 'start', 'self') 1235 1110 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+585: ('/invoke/runners.py', 'read_proc_stdout', 'self') 1236 1098 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+586: ('/invoke/runners.py', 'read_proc_stderr', 'self') 1237 1104 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+587: ('/invoke/runners.py', '_write_proc_stdin', 'self') 1238 1106 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+588: ('/invoke/runners.py', 'returncode', 'self') 1239 1122 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+589: ('/invoke/runners.py', 'stop', 'self') 1240 1124 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+590: ('/invoke/runners.py', 'kill', 'self') 1241 1118 6 (PY subset PT)
+  PT: ['Runner', 'Local']
+  PY: ['Local']
+591: ('/invoke/runners.py', 'start', 'err') 1244 1114 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+592: ('/invoke/collection.py', 'subcollection_from_path', 'collection') 1272 1228 4 (PY Empty (is_any() is true))
+  PT: ['Collection']
+  PY: ['Any']
+593: ('/invoke/collection.py', 'subcollection_from_path', 'subcollection_from_path_ret') 1273 77 4 (PY Empty (is_any() is true))
+  PT: ['Collection']
+  PY: ['Any']
+594: ('/invoke/program.py', '_make_pairs', 'is_default') 1294 1371 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+595: ('/invoke/program.py', '_make_pairs', 'displayname') 1296 1372 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+596: ('/invoke/program.py', 'display_with_columns', 'default') 1306 1401 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+597: ('/invoke/exceptions.py', 'streams_for_display', 'self') 1307 1425 5 (PT subset PY)
+  PT: ['Failure']
+  PY: ['CommandTimedOut', 'Failure', 'UnexpectedExit']
+598: ('/invoke/exceptions.py', 'streams_for_display', 'stdout') 1309 1427 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+599: ('/invoke/exceptions.py', 'streams_for_display', 'stderr') 1310 1428 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+600: ('/invoke/exceptions.py', '__repr__', 'self') 1312 1429 6 (PY subset PT)
+  PT: ['Failure', 'UnexpectedExit', 'CommandTimedOut']
+  PY: ['CommandTimedOut']
+601: ('/invoke/exceptions.py', '_repr', 'self') 1313 1430 5 (PT subset PY)
+  PT: ['Failure']
+  PY: ['CommandTimedOut', 'Failure', 'UnexpectedExit']
+602: ('/invoke/exceptions.py', '__str__', 'self') 1317 1436 6 (PY subset PT)
+  PT: ['UnexpectedExit', 'CommandTimedOut', 'AuthFailure', 'ThreadException']
+  PY: ['ThreadException']
+603: ('/invoke/exceptions.py', '_printable_kwargs', 'item') 1323 1452 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+604: ('/invoke/parser/parser.py', 'complete_context', 'err') 1342 1579 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+605: ('/invoke/parser/parser.py', 'complete_context', 'names') 1343 1580 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+606: ('/invoke/vendor/decorator.py', '__init__', 'self') 1355 1657 7 (etc)
+  PT: ['FunctionMaker']
+  PY: ['ContextManager']
+
+AM: Both likely
+
+607: ('/invoke/vendor/decorator.py', 'update', 'callermodule') 1359 1675 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+608: ('/invoke/vendor/six.py', '_resolve', 'self') 1368 1785 6 (PY subset PT)
+  PT: ['MovedModule', 'MovedAttribute']
+  PY: ['MovedAttribute']
+609: ('/invoke/vendor/six.py', '__dir__', 'self') 1370 1790 6 (PY subset PT)
+  PT: ['_LazyModule', 'Module_six_moves_urllib']
+  PY: ['Module_six_moves_urllib']
+610: ('/invoke/vendor/six.py', 'find_module', 'find_module_ret') 1374 169 5 (PT subset PY)
+  PT: ['_SixMetaPathImporter']
+  PY: ['Optional[_SixMetaPathImporter]']
+611: ('/invoke/vendor/six.py', 'print_', 'newline') 1381 1861 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+612: ('/invoke/vendor/six.py', 'print_', 'space') 1382 1862 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+613: ('/invoke/vendor/six.py', 'print_', 'sep') 1383 1858 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+614: ('/invoke/vendor/six.py', 'print_', 'end') 1384 1859 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+615: ('/invoke/vendor/fluidity/machine.py', 'run', 'self') 1405 2025 6 (PY subset PT)
+  PT: ['_Transition', '_ActionRunner']
+  PY: ['_ActionRunner']
+616: ('/invoke/vendor/fluidity/machine.py', 'check', 'check_ret') 1407 203 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+617: ('/invoke/vendor/fluidity/machine.py', 'check', 'result') 1408 2032 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+618: ('/invoke/vendor/yaml3/scanner.py', '__init__', 'self') 1416 2066 6 (PY subset PT)
+  PT: ['SimpleKey', 'Scanner']
+  PY: ['Scanner']
+619: ('/invoke/vendor/yaml3/scanner.py', 'need_more_tokens', 'need_more_tokens_ret') 1422 257 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['Optional[bool]']
+620: ('/invoke/vendor/yaml3/scanner.py', 'check_directive', 'check_directive_ret') 1458 248 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['Optional[bool]']
+621: ('/invoke/vendor/yaml3/scanner.py', 'check_document_start', 'check_document_start_ret') 1460 250 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['Optional[bool]']
+622: ('/invoke/vendor/yaml3/scanner.py', 'check_document_end', 'check_document_end_ret') 1462 249 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['Optional[bool]']
+623: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'handle') 1493 2204 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Optional[Any]']
+624: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'min_indent') 1498 2217 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+625: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'line_break') 1499 2222 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+626: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indicators', 'chomping') 1503 2227 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['Optional[bool]']
+627: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indicators', 'increment') 1504 2228 5 (PT subset PY)
+  PT: ['int']
+  PY: ['Optional[int]']
+628: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indentation', 'max_indent') 1509 2235 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+629: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'length') 1519 2252 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+630: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'code') 1520 2255 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+631: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain', 'spaces') 1531 2275 5 (PT subset PY)
+  PT: ['list']
+  PY: ['Optional[list]']
+632: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain_spaces', 'scan_plain_spaces_ret') 1537 272 5 (PT subset PY)
+  PT: ['list']
+  PY: ['Optional[list]']
+633: ('/invoke/vendor/yaml3/scanner.py', 'scan_line_break', 'scan_line_break_ret') 1547 270 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+634: ('/invoke/vendor/yaml3/error.py', '__init__', 'self') 1548 2312 6 (PY subset PT)
+  PT: ['Mark', 'MarkedYAMLError']
+  PY: ['MarkedYAMLError']
+635: ('/invoke/vendor/yaml3/error.py', '__str__', 'self') 1552 2327 6 (PY subset PT)
+  PT: ['Mark', 'MarkedYAMLError']
+  PY: ['MarkedYAMLError']
+636: ('/invoke/vendor/yaml3/constructor.py', '__init__', 'self') 1555 2337 5 (PT subset PY)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor', 'Constructor', 'SafeConstructor']
+637: ('/invoke/vendor/yaml3/constructor.py', 'construct_object', 'self') 1560 2348 5 (PT subset PY)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+638: ('/invoke/vendor/yaml3/constructor.py', 'construct_scalar', 'self') 1561 2358 8 (Partial match)
+  PT: ['BaseConstructor', 'SafeConstructor']
+  PY: ['Constructor', 'SafeConstructor']
+639: ('/invoke/vendor/yaml3/constructor.py', 'construct_sequence', 'self') 1562 2360 5 (PT subset PY)
+  PT: ['BaseConstructor']
+  PY: ['BaseConstructor', 'Constructor', 'SafeConstructor']
+640: ('/invoke/vendor/yaml3/constructor.py', 'construct_mapping', 'self') 1563 2363 8 (Partial match)
+  PT: ['BaseConstructor', 'SafeConstructor']
+  PY: ['Constructor', 'SafeConstructor']
+641: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_null', 'self') 1573 2398 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+642: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_bool', 'self') 1574 2400 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+643: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_int', 'self') 1575 2403 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'Constructor', 'SafeConstructor']
+644: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_int', 'value') 1576 2405 4 (PY Empty (is_any() is true))
+  PT: ['str', 'int']
+  PY: ['Any']
+645: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_int', 'construct_yaml_int_ret') 1577 237 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+646: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_int', 'base') 1578 2409 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+647: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_float', 'self') 1579 2411 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+648: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_float', 'base') 1580 2417 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+649: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_binary', 'self') 1581 2419 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+650: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'self') 1582 2422 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+651: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_omap', 'self') 1592 2438 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+652: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_pairs', 'self') 1594 2446 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+653: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_set', 'self') 1596 2454 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+654: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_str', 'self') 1598 2458 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+655: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_seq', 'self') 1599 2460 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+656: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_map', 'self') 1601 2463 5 (PT subset PY)
+  PT: ['SafeConstructor']
+  PY: ['BaseConstructor', 'SafeConstructor']
+657: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_str', 'self') 1605 2476 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+658: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_unicode', 'self') 1606 2478 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+659: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_bytes', 'self') 1607 2480 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+660: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_long', 'self') 1608 2483 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+661: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_complex', 'self') 1609 2485 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+662: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_tuple', 'self') 1610 2487 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+663: ('/invoke/vendor/yaml3/constructor.py', 'find_python_name', 'module_name') 1614 2495 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+664: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_name', 'self') 1615 2498 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+665: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_module', 'self') 1616 2502 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+666: ('/invoke/vendor/yaml3/constructor.py', 'set_python_instance_state', 'slotstate') 1621 2516 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+667: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object', 'self') 1622 2519 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+668: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'self') 1623 2525 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+669: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'kwds') 1624 2530 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+670: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'state') 1625 2531 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+671: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'listitems') 1626 2532 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+672: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'dictitems') 1627 2533 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+673: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_new', 'self') 1628 2537 5 (PT subset PY)
+  PT: ['Constructor']
+  PY: ['BaseConstructor', 'Constructor']
+674: ('/invoke/vendor/yaml3/events.py', '__init__', 'self') 1639 2576 6 (PY subset PT)
+  PT: ['Event', 'NodeEvent', 'CollectionStartEvent', 'StreamStartEvent', 'DocumentStartEvent', 'DocumentEndEvent', 'ScalarEvent']
+  PY: ['ScalarEvent']
+675: ('/invoke/vendor/yaml3/representer.py', '__init__', 'self') 1642 2711 5 (PT subset PY)
+  PT: ['BaseRepresenter']
+  PY: ['BaseRepresenter', 'Representer', 'SafeRepresenter']
+676: ('/invoke/vendor/yaml3/representer.py', 'represent_scalar', 'self') 1645 2728 5 (PT subset PY)
+  PT: ['BaseRepresenter']
+  PY: ['BaseRepresenter', 'Representer', 'SafeRepresenter']
+677: ('/invoke/vendor/yaml3/representer.py', 'represent_sequence', 'self') 1646 2733 5 (PT subset PY)
+  PT: ['BaseRepresenter']
+  PY: ['BaseRepresenter', 'Representer', 'SafeRepresenter']
+678: ('/invoke/vendor/yaml3/representer.py', 'represent_mapping', 'self') 1649 2742 5 (PT subset PY)
+  PT: ['BaseRepresenter']
+  PY: ['BaseRepresenter', 'Representer', 'SafeRepresenter']
+679: ('/invoke/vendor/yaml3/representer.py', 'ignore_aliases', 'self') 1653 2753 6 (PY subset PT)
+  PT: ['BaseRepresenter', 'SafeRepresenter']
+  PY: ['SafeRepresenter']
+680: ('/invoke/vendor/yaml3/representer.py', 'ignore_aliases', 'ignore_aliases_ret') 1654 364 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['bool', 'Optional[bool]']
+681: ('/invoke/vendor/yaml3/representer.py', 'represent_none', 'self') 1655 2757 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+682: ('/invoke/vendor/yaml3/representer.py', 'represent_str', 'self') 1656 2759 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+683: ('/invoke/vendor/yaml3/representer.py', 'represent_binary', 'self') 1657 2761 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+684: ('/invoke/vendor/yaml3/representer.py', 'represent_bool', 'self') 1658 2763 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+685: ('/invoke/vendor/yaml3/representer.py', 'represent_int', 'self') 1660 2766 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+686: ('/invoke/vendor/yaml3/representer.py', 'represent_float', 'self') 1661 2768 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+687: ('/invoke/vendor/yaml3/representer.py', 'represent_list', 'self') 1663 2771 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+688: ('/invoke/vendor/yaml3/representer.py', 'represent_dict', 'self') 1664 2773 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+689: ('/invoke/vendor/yaml3/representer.py', 'represent_set', 'self') 1665 2775 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+690: ('/invoke/vendor/yaml3/representer.py', 'represent_date', 'self') 1667 2779 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+691: ('/invoke/vendor/yaml3/representer.py', 'represent_datetime', 'self') 1668 2782 5 (PT subset PY)
+  PT: ['SafeRepresenter']
+  PY: ['BaseRepresenter', 'SafeRepresenter']
+692: ('/invoke/vendor/yaml3/representer.py', 'represent_complex', 'self') 1671 2792 5 (PT subset PY)
+  PT: ['Representer']
+  PY: ['BaseRepresenter', 'Representer']
+693: ('/invoke/vendor/yaml3/representer.py', 'represent_tuple', 'self') 1672 2794 5 (PT subset PY)
+  PT: ['Representer']
+  PY: ['BaseRepresenter', 'Representer']
+694: ('/invoke/vendor/yaml3/representer.py', 'represent_name', 'self') 1673 2796 5 (PT subset PY)
+  PT: ['Representer']
+  PY: ['BaseRepresenter', 'Representer']
+695: ('/invoke/vendor/yaml3/representer.py', 'represent_module', 'self') 1674 2799 5 (PT subset PY)
+  PT: ['Representer']
+  PY: ['BaseRepresenter', 'Representer']
+696: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'self') 1675 2801 5 (PT subset PY)
+  PT: ['Representer']
+  PY: ['BaseRepresenter', 'Representer']
+697: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'state') 1677 2807 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+698: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'listitems') 1678 2808 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Optional[Any]']
+699: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'dictitems') 1679 2809 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Optional[Any]']
+700: ('/invoke/vendor/yaml3/tokens.py', '__init__', 'self') 1683 2815 6 (PY subset PT)
+  PT: ['Token', 'DirectiveToken', 'StreamStartToken', 'AliasToken', 'AnchorToken', 'TagToken', 'ScalarToken']
+  PY: ['ScalarToken']
+701: ('/invoke/vendor/yaml3/dumper.py', '__init__', 'self') 1686 2847 6 (PY subset PT)
+  PT: ['BaseDumper', 'SafeDumper', 'Dumper']
+  PY: ['Dumper']
+702: ('/invoke/vendor/yaml3/cyaml.py', '__init__', 'self') 1687 2862 6 (PY subset PT)
+  PT: ['CBaseLoader', 'CSafeLoader', 'CLoader', 'CBaseDumper', 'CSafeDumper', 'CDumper']
+  PY: ['CDumper']
+703: ('/invoke/vendor/yaml3/parser.py', 'parse_node', 'implicit') 1706 2931 4 (PY Empty (is_any() is true))
+  PT: ['tuple']
+  PY: ['Any']
+704: ('/invoke/vendor/yaml3/parser.py', 'parse_node', 'node') 1707 2932 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+705: ('/invoke/vendor/yaml3/reader.py', '__init__', 'self') 1724 2973 6 (PY subset PT)
+  PT: ['ReaderError', 'Reader']
+  PY: ['Reader']
+706: ('/invoke/vendor/yaml3/reader.py', 'update', 'converted') 1733 2998 4 (PY Empty (is_any() is true))
+  PT: ['int']
+  PY: ['Any']
+707: ('/invoke/vendor/yaml3/loader.py', '__init__', 'self') 1735 3006 6 (PY subset PT)
+  PT: ['BaseLoader', 'SafeLoader', 'Loader']
+  PY: ['Loader']
+708: ('/invoke/vendor/yaml3/resolver.py', '__init__', 'self') 1736 3009 5 (PT subset PY)
+  PT: ['BaseResolver']
+  PY: ['BaseResolver', 'Resolver']
+709: ('/invoke/vendor/yaml3/resolver.py', 'add_path_resolver', 'index_check') 1739 3021 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+710: ('/invoke/vendor/yaml3/resolver.py', 'check_resolver_prefix', 'check_resolver_prefix_ret') 1746 356 5 (PT subset PY)
+  PT: ['bool']
+  PY: ['Optional[bool]']
+711: ('/invoke/vendor/yaml3/serializer.py', 'serialize_node', 'implicit') 1755 3078 4 (PY Empty (is_any() is true))
+  PT: ['tuple', 'bool']
+  PY: ['Any']
+712: ('/invoke/vendor/yaml3/serializer.py', 'serialize_node', 'index') 1756 3074 5 (PT subset PY)
+  PT: ['int']
+  PY: ['Optional[int]']
+713: ('/invoke/vendor/yaml3/nodes.py', '__init__', 'self') 1757 3084 8 (Partial match)
+  PT: ['Node', 'ScalarNode', 'CollectionNode']
+  PY: ['CollectionNode', 'MappingNode', 'SequenceNode']
+714: ('/invoke/vendor/yaml3/emitter.py', '__init__', 'self') 1759 3096 6 (PY subset PT)
+  PT: ['ScalarAnalysis', 'Emitter']
+  PY: ['Emitter']
+715: ('/invoke/vendor/yaml3/emitter.py', 'process_tag', 'tag') 1801 3171 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+716: ('/invoke/vendor/yaml3/emitter.py', 'choose_scalar_style', 'choose_scalar_style_ret') 1803 316 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+717: ('/invoke/vendor/yaml3/emitter.py', 'write_single_quoted', 'spaces') 1845 3252 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+718: ('/invoke/vendor/yaml3/emitter.py', 'write_single_quoted', 'data') 1847 3257 5 (PT subset PY)
+  PT: ['str']
+  PY: ['Union[bytes, str]']
+719: ('/invoke/vendor/yaml3/emitter.py', 'write_double_quoted', 'data') 1849 3265 5 (PT subset PY)
+  PT: ['str']
+  PY: ['Union[bytes, str]']
+720: ('/invoke/vendor/yaml3/emitter.py', 'write_folded', 'leading_space') 1854 3272 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+721: ('/invoke/vendor/yaml3/emitter.py', 'write_folded', 'spaces') 1855 3273 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+722: ('/invoke/vendor/yaml3/emitter.py', 'write_plain', 'data') 1860 3292 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+723: ('/invoke/vendor/yaml3/emitter.py', 'write_plain', 'spaces') 1861 3293 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']

@@ -1,0 +1,1482 @@
+0: ('/explore.py', 'module_initializer', 'VERBOSE_LEVELS') 1 74 0 (Match)
+  PT: ['list']
+  PY: ['List[int]']
+1: ('/explore.py', 'module_initializer', 'TRY_LEVELS') 2 75 0 (Match)
+  PT: ['list']
+  PY: ['List[Dict[zfs.constants.TryConfig, bool]]']
+2: ('/explore.py', 'module_initializer', 'logger') 3 76 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+3: ('/pyndata/field.py', 'module_initializer', '__nextfield__') 4 87 1 (Manual match)
+  PT: ["<method-wrapper '__next__' of itertools.count object at 0x105f86f80>", "<method-wrapper '__next__' of itertools.count object at 0x10ab08780>", "<method-wrapper '__next__' of itertools.count object at 0x10ab42ac0>", "<method-wrapper '__next__' of itertools.count object at 0x10aca4900>", "<method-wrapper '__next__' of itertools.count object at 0x10acc9900>", "<method-wrapper '__next__' of itertools.count object at 0x10adf6140>", "<method-wrapper '__next__' of itertools.count object at 0x10ae10100>", "<method-wrapper '__next__' of itertools.count object at 0x10b05b440>", "<method-wrapper '__next__' of itertools.count object at 0x10b072240>", "<method-wrapper '__next__' of itertools.count object at 0x10b079e40>", "<method-wrapper '__next__' of itertools.count object at 0x10b095b40>", "<method-wrapper '__next__' of itertools.count object at 0x10b0d4800>", "<method-wrapper '__next__' of itertools.count object at 0x10bfdd3c0>", "<method-wrapper '__next__' of itertools.count object at 0x10bfddc40>", "<method-wrapper '__next__' of itertools.count object at 0x10c1f6540>", "<method-wrapper '__next__' of itertools.count object at 0x10c209e80>", "<method-wrapper '__next__' of itertools.count object at 0x10c27dd80>", "<method-wrapper '__next__' of itertools.count object at 0x10c50bc80>", "<method-wrapper '__next__' of itertools.count object at 0x10c529000>", "<method-wrapper '__next__' of itertools.count object at 0x10c615380>"]
+  PY: ['Callable']
+4: ('/pyndata/field.py', 'Field_class_initializer', '__DEFAULT__') 5 85 0 (Match)
+  PT: ['None']
+  PY: ['None']
+5: ('/pyndata/field.py', 'Field_class_initializer', '__SHOW__') 6 86 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+6: ('/pyndata/integer.py', 'module_initializer', '__all__') 7 121 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+7: ('/pyndata/integer.py', 'integer_class_initializer', '__TYPE__') 8 110 0 (Match)
+  PT: ['str']
+  PY: ['str']
+8: ('/pyndata/integer.py', 'integer_class_initializer', '__DEFAULT__') 9 111 0 (Match)
+  PT: ['int']
+  PY: ['int']
+9: ('/pyndata/integer.py', 'integer_class_initializer', '__ENDIAN__') 10 112 0 (Match)
+  PT: ['None']
+  PY: ['None']
+10: ('/pyndata/integer.py', 'int8_class_initializer', '__TYPE__') 11 113 0 (Match)
+  PT: ['str']
+  PY: ['str']
+11: ('/pyndata/integer.py', 'int16_class_initializer', '__TYPE__') 12 114 0 (Match)
+  PT: ['str']
+  PY: ['str']
+12: ('/pyndata/integer.py', 'int32_class_initializer', '__TYPE__') 13 115 0 (Match)
+  PT: ['str']
+  PY: ['str']
+13: ('/pyndata/integer.py', 'int64_class_initializer', '__TYPE__') 14 116 0 (Match)
+  PT: ['str']
+  PY: ['str']
+14: ('/pyndata/integer.py', 'uint8_class_initializer', '__TYPE__') 15 117 0 (Match)
+  PT: ['str']
+  PY: ['str']
+15: ('/pyndata/integer.py', 'uint16_class_initializer', '__TYPE__') 16 118 0 (Match)
+  PT: ['str']
+  PY: ['str']
+16: ('/pyndata/integer.py', 'uint32_class_initializer', '__TYPE__') 17 119 0 (Match)
+  PT: ['str']
+  PY: ['str']
+17: ('/pyndata/integer.py', 'uint64_class_initializer', '__TYPE__') 18 120 0 (Match)
+  PT: ['str']
+  PY: ['str']
+18: ('/pyndata/bitfield.py', 'BitField_class_initializer', 'default') 19 227 0 (Match)
+  PT: ['int']
+  PY: ['int']
+19: ('/pyndata/bitfield.py', 'BitField_class_initializer', '__SHOW__') 20 228 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+20: ('/pyndata/structure.py', 'Struct_class_initializer', '__metaclass__') 21 155 0 (Match)
+  PT: ['StructMeta']
+  PY: ['Type[StructMeta]']
+21: ('/pyndata/structure.py', 'Struct_class_initializer', '__ENDIAN__') 22 156 0 (Match)
+  PT: ['str']
+  PY: ['str']
+22: ('/pyndata/array.py', 'module_initializer', 'xrange') 23 195 0 (Match)
+  PT: ['range']
+  PY: ['Type[range]']
+23: ('/zfs/vdevs.py', 'module_initializer', 'LABEL_PAD') 24 354 0 (Match)
+  PT: ['int']
+  PY: ['int']
+24: ('/zfs/vdevs.py', 'module_initializer', 'UBER_AREA') 25 355 0 (Match)
+  PT: ['int']
+  PY: ['int']
+25: ('/zfs/vdevs.py', 'module_initializer', 'logger') 26 356 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+26: ('/zfs/vdevs.py', 'VDev_class_initializer', 'LABELS') 27 353 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Tuple[int, int], Tuple[int, int], Tuple[int, int], Tuple[int, int]]']
+27: ('/zfs/datasets.py', 'module_initializer', 'logger') 28 504 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+28: ('/zfs/objectset.py', 'module_initializer', 'logger') 29 594 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+29: ('/zfs/zfuse.py', 'module_initializer', 'logger') 31 636 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+30: ('/zfs/readcontext.py', 'module_initializer', 'logger') 32 693 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+31: ('/zfs/history.py', 'module_initializer', 'logger') 33 832 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+32: ('/zfs/posix/__init__.py', 'module_initializer', 'logger') 34 836 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+33: ('/pyndata/__init__.py', 'module_initializer', '__all__') 35 93 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+34: ('/zfs/posix/directory.py', 'module_initializer', 'logger') 38 859 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+35: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', '__ENDIAN__') 39 837 0 (Match)
+  PT: ['str']
+  PY: ['str']
+36: ('/zfs/posix/attributes/systemattributes.py', 'module_initializer', 'logger') 44 895 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+37: ('/zfs/posix/attributes/systemattributes.py', 'module_initializer', 'SYSTEM_ATTRIBUTES') 45 896 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Callable[[Any, Any], Any]]']
+38: ('/zfs/posix/attributes/__init__.py', 'module_initializer', 'logger') 51 943 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+39: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'FIFO') 52 897 0 (Match)
+  PT: ['int']
+  PY: ['int']
+40: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'CHARACTER') 53 898 0 (Match)
+  PT: ['int']
+  PY: ['int']
+41: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'DIRECTORY') 54 899 0 (Match)
+  PT: ['int']
+  PY: ['int']
+42: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'BLOCK') 55 900 0 (Match)
+  PT: ['int']
+  PY: ['int']
+43: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'REGULAR_FILE') 56 901 0 (Match)
+  PT: ['int']
+  PY: ['int']
+44: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'SYMLINK') 57 902 0 (Match)
+  PT: ['int']
+  PY: ['int']
+45: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'SOCKET') 58 903 0 (Match)
+  PT: ['int']
+  PY: ['int']
+46: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'DOOR') 59 904 0 (Match)
+  PT: ['int']
+  PY: ['int']
+47: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'PORT') 60 905 0 (Match)
+  PT: ['int']
+  PY: ['int']
+48: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', '__ENDIAN__') 61 906 0 (Match)
+  PT: ['str']
+  PY: ['str']
+49: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', '__ENDIAN__') 66 911 0 (Match)
+  PT: ['str']
+  PY: ['str']
+50: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', '__ENDIAN__') 78 923 0 (Match)
+  PT: ['str']
+  PY: ['str']
+51: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_ATIME') 79 924 0 (Match)
+  PT: ['Timestamp']
+  PY: ['Timestamp']
+52: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_MTIME') 80 925 0 (Match)
+  PT: ['Timestamp']
+  PY: ['Timestamp']
+53: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_CTIME') 81 926 0 (Match)
+  PT: ['Timestamp']
+  PY: ['Timestamp']
+54: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_CRTIME') 82 927 0 (Match)
+  PT: ['Timestamp']
+  PY: ['Timestamp']
+55: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_MODE') 84 929 0 (Match)
+  PT: ['Mode']
+  PY: ['Mode']
+56: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'acl') 94 939 0 (Match)
+  PT: ['ZNodeACL']
+  PY: ['ZNodeACL']
+57: ('/zfs/posix/posix_file.py', 'module_initializer', 'logger') 95 862 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+58: ('/zfs/ondisk/zap.py', 'ZapType_class_initializer', 'ZAPLeaf') 96 944 0 (Match)
+  PT: ['int']
+  PY: ['int']
+59: ('/zfs/ondisk/zap.py', 'ZapType_class_initializer', 'ZAPHeader') 97 945 0 (Match)
+  PT: ['int']
+  PY: ['int']
+60: ('/zfs/ondisk/zap.py', 'ZapType_class_initializer', 'MicroZAP') 98 946 0 (Match)
+  PT: ['int']
+  PY: ['int']
+61: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', '__ENDIAN__') 99 947 0 (Match)
+  PT: ['str']
+  PY: ['str']
+62: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', '__ENDIAN__') 104 952 0 (Match)
+  PT: ['str']
+  PY: ['str']
+63: ('/zfs/ondisk/zap.py', 'MicroZAP_class_initializer', '__ENDIAN__') 108 956 0 (Match)
+  PT: ['str']
+  PY: ['str']
+64: ('/zfs/ondisk/zap.py', 'MicroZAP_class_initializer', 'hdr') 110 958 0 (Match)
+  PT: ['MicroZAPCommon']
+  PY: ['MicroZAPCommon']
+65: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', '__ENDIAN__') 111 959 0 (Match)
+  PT: ['str']
+  PY: ['str']
+66: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'hdr') 116 964 0 (Match)
+  PT: ['MicroZAPCommon']
+  PY: ['MicroZAPCommon']
+67: ('/zfs/ondisk/__init__.py', 'module_initializer', 'Objset') 117 1111 0 (Match)
+  PT: ['ObjsetV1']
+  PY: ['Type[ObjsetV1]']
+68: ('/zfs/ondisk/__init__.py', 'module_initializer', 'indirect_cache') 120 1114 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+69: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', '__ENDIAN__') 121 966 0 (Match)
+  PT: ['str']
+  PY: ['str']
+70: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', '__ENDIAN__') 129 976 0 (Match)
+  PT: ['str']
+  PY: ['str']
+71: ('/zfs/constants.py', 'module_initializer', 'POOL_VERSION') 147 459 0 (Match)
+  PT: ['int']
+  PY: ['int']
+72: ('/zfs/constants.py', 'Compression_class_initializer', 'INHERIT') 148 357 0 (Match)
+  PT: ['int']
+  PY: ['int']
+73: ('/zfs/constants.py', 'Compression_class_initializer', 'ON') 149 358 0 (Match)
+  PT: ['int']
+  PY: ['int']
+74: ('/zfs/constants.py', 'Compression_class_initializer', 'OFF') 150 359 0 (Match)
+  PT: ['int']
+  PY: ['int']
+75: ('/zfs/constants.py', 'Compression_class_initializer', 'LZJB') 151 360 0 (Match)
+  PT: ['int']
+  PY: ['int']
+76: ('/zfs/constants.py', 'Compression_class_initializer', 'EMPTY') 152 361 0 (Match)
+  PT: ['int']
+  PY: ['int']
+77: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_1') 153 362 0 (Match)
+  PT: ['int']
+  PY: ['int']
+78: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_2') 154 363 0 (Match)
+  PT: ['int']
+  PY: ['int']
+79: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_3') 155 364 0 (Match)
+  PT: ['int']
+  PY: ['int']
+80: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_4') 156 365 0 (Match)
+  PT: ['int']
+  PY: ['int']
+81: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_5') 157 366 0 (Match)
+  PT: ['int']
+  PY: ['int']
+82: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_6') 158 367 0 (Match)
+  PT: ['int']
+  PY: ['int']
+83: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_7') 159 368 0 (Match)
+  PT: ['int']
+  PY: ['int']
+84: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_8') 160 369 0 (Match)
+  PT: ['int']
+  PY: ['int']
+85: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_9') 161 370 0 (Match)
+  PT: ['int']
+  PY: ['int']
+86: ('/zfs/constants.py', 'Compression_class_initializer', 'ZLE') 162 371 0 (Match)
+  PT: ['int']
+  PY: ['int']
+87: ('/zfs/constants.py', 'Compression_class_initializer', 'LZ4') 163 372 0 (Match)
+  PT: ['int']
+  PY: ['int']
+88: ('/zfs/constants.py', 'Checksum_class_initializer', 'INHERIT') 164 373 0 (Match)
+  PT: ['int']
+  PY: ['int']
+89: ('/zfs/constants.py', 'Checksum_class_initializer', 'ON') 165 374 0 (Match)
+  PT: ['int']
+  PY: ['int']
+90: ('/zfs/constants.py', 'Checksum_class_initializer', 'OFF') 166 375 0 (Match)
+  PT: ['int']
+  PY: ['int']
+91: ('/zfs/constants.py', 'Checksum_class_initializer', 'LABEL') 167 376 0 (Match)
+  PT: ['int']
+  PY: ['int']
+92: ('/zfs/constants.py', 'Checksum_class_initializer', 'GANG_HEADER') 168 377 0 (Match)
+  PT: ['int']
+  PY: ['int']
+93: ('/zfs/constants.py', 'Checksum_class_initializer', 'ZILOG') 169 378 0 (Match)
+  PT: ['int']
+  PY: ['int']
+94: ('/zfs/constants.py', 'Checksum_class_initializer', 'FLETCHER_2') 170 379 0 (Match)
+  PT: ['int']
+  PY: ['int']
+95: ('/zfs/constants.py', 'Checksum_class_initializer', 'FLETCHER_4') 171 380 0 (Match)
+  PT: ['int']
+  PY: ['int']
+96: ('/zfs/constants.py', 'Checksum_class_initializer', 'SHA256') 172 381 0 (Match)
+  PT: ['int']
+  PY: ['int']
+97: ('/zfs/constants.py', 'Checksum_class_initializer', 'ZILOG2') 173 382 0 (Match)
+  PT: ['int']
+  PY: ['int']
+98: ('/zfs/constants.py', 'Checksum_class_initializer', 'NOPARITY') 174 383 0 (Match)
+  PT: ['int']
+  PY: ['int']
+99: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'NONE') 175 384 0 (Match)
+  PT: ['int']
+  PY: ['int']
+100: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'META') 176 385 0 (Match)
+  PT: ['int']
+  PY: ['int']
+101: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'ZFS') 177 386 0 (Match)
+  PT: ['int']
+  PY: ['int']
+102: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'ZVOL') 178 387 0 (Match)
+  PT: ['int']
+  PY: ['int']
+103: ('/zfs/constants.py', 'TryConfig_class_initializer', 'read_all_dvas') 179 388 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+104: ('/zfs/constants.py', 'ObjectType_class_initializer', 'NONE') 180 389 0 (Match)
+  PT: ['int']
+  PY: ['int']
+105: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OBJECT_DIRECTORY') 181 390 0 (Match)
+  PT: ['int']
+  PY: ['int']
+106: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OBJECT_ARRAY') 182 391 0 (Match)
+  PT: ['int']
+  PY: ['int']
+107: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PACKED_NVLIST') 183 392 0 (Match)
+  PT: ['int']
+  PY: ['int']
+108: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PACKED_NVLIST_SIZE') 184 393 0 (Match)
+  PT: ['int']
+  PY: ['int']
+109: ('/zfs/constants.py', 'ObjectType_class_initializer', 'BPOBJ') 185 394 0 (Match)
+  PT: ['int']
+  PY: ['int']
+110: ('/zfs/constants.py', 'ObjectType_class_initializer', 'BPOBJ_HDR') 186 395 0 (Match)
+  PT: ['int']
+  PY: ['int']
+111: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPACE_MAP_HEADER') 187 396 0 (Match)
+  PT: ['int']
+  PY: ['int']
+112: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPACE_MAP') 188 397 0 (Match)
+  PT: ['int']
+  PY: ['int']
+113: ('/zfs/constants.py', 'ObjectType_class_initializer', 'INTENT_LOG') 189 398 0 (Match)
+  PT: ['int']
+  PY: ['int']
+114: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DNODE') 190 399 0 (Match)
+  PT: ['int']
+  PY: ['int']
+115: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OBJSET') 191 400 0 (Match)
+  PT: ['int']
+  PY: ['int']
+116: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DIR') 192 401 0 (Match)
+  PT: ['int']
+  PY: ['int']
+117: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DIR_CHILD_MAP') 193 402 0 (Match)
+  PT: ['int']
+  PY: ['int']
+118: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DS_SNAP_MAP') 194 403 0 (Match)
+  PT: ['int']
+  PY: ['int']
+119: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_PROPS') 195 404 0 (Match)
+  PT: ['int']
+  PY: ['int']
+120: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DATASET') 196 405 0 (Match)
+  PT: ['int']
+  PY: ['int']
+121: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZNODE') 197 406 0 (Match)
+  PT: ['int']
+  PY: ['int']
+122: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OLDACL') 198 407 0 (Match)
+  PT: ['int']
+  PY: ['int']
+123: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PLAIN_FILE_CONTENTS') 199 408 0 (Match)
+  PT: ['int']
+  PY: ['int']
+124: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DIRECTORY_CONTENTS') 200 409 0 (Match)
+  PT: ['int']
+  PY: ['int']
+125: ('/zfs/constants.py', 'ObjectType_class_initializer', 'MASTER_NODE') 201 410 0 (Match)
+  PT: ['int']
+  PY: ['int']
+126: ('/zfs/constants.py', 'ObjectType_class_initializer', 'UNLINKED_SET') 202 411 0 (Match)
+  PT: ['int']
+  PY: ['int']
+127: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZVOL') 203 412 0 (Match)
+  PT: ['int']
+  PY: ['int']
+128: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZVOL_PROP') 204 413 0 (Match)
+  PT: ['int']
+  PY: ['int']
+129: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PLAIN_OTHER') 205 414 0 (Match)
+  PT: ['int']
+  PY: ['int']
+130: ('/zfs/constants.py', 'ObjectType_class_initializer', 'UINT64_OTHER') 206 415 0 (Match)
+  PT: ['int']
+  PY: ['int']
+131: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZAP_OTHER') 207 416 0 (Match)
+  PT: ['int']
+  PY: ['int']
+132: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ERROR_LOG') 208 417 0 (Match)
+  PT: ['int']
+  PY: ['int']
+133: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPA_HISTORY') 209 418 0 (Match)
+  PT: ['int']
+  PY: ['int']
+134: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPA_HISTORY_OFFSETS') 210 419 0 (Match)
+  PT: ['int']
+  PY: ['int']
+135: ('/zfs/constants.py', 'ObjectType_class_initializer', 'POOL_PROPS') 211 420 0 (Match)
+  PT: ['int']
+  PY: ['int']
+136: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_PERMS') 212 421 0 (Match)
+  PT: ['int']
+  PY: ['int']
+137: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ACL') 213 422 0 (Match)
+  PT: ['int']
+  PY: ['int']
+138: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SYSACL') 214 423 0 (Match)
+  PT: ['int']
+  PY: ['int']
+139: ('/zfs/constants.py', 'ObjectType_class_initializer', 'FUID') 215 424 0 (Match)
+  PT: ['int']
+  PY: ['int']
+140: ('/zfs/constants.py', 'ObjectType_class_initializer', 'FUID_SIZE') 216 425 0 (Match)
+  PT: ['int']
+  PY: ['int']
+141: ('/zfs/constants.py', 'ObjectType_class_initializer', 'NEXT_CLONES') 217 426 0 (Match)
+  PT: ['int']
+  PY: ['int']
+142: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SCAN_QUEUE') 218 427 0 (Match)
+  PT: ['int']
+  PY: ['int']
+143: ('/zfs/constants.py', 'ObjectType_class_initializer', 'USERGROUP_USED') 219 428 0 (Match)
+  PT: ['int']
+  PY: ['int']
+144: ('/zfs/constants.py', 'ObjectType_class_initializer', 'USERGROUP_QUOTA') 220 429 0 (Match)
+  PT: ['int']
+  PY: ['int']
+145: ('/zfs/constants.py', 'ObjectType_class_initializer', 'USERREFS') 221 430 0 (Match)
+  PT: ['int']
+  PY: ['int']
+146: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DDT_ZAP') 222 431 0 (Match)
+  PT: ['int']
+  PY: ['int']
+147: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DDT_STATS') 223 432 0 (Match)
+  PT: ['int']
+  PY: ['int']
+148: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA') 224 433 0 (Match)
+  PT: ['int']
+  PY: ['int']
+149: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA_MASTER_NODE') 225 434 0 (Match)
+  PT: ['int']
+  PY: ['int']
+150: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA_ATTR_REGISTRATION') 226 435 0 (Match)
+  PT: ['int']
+  PY: ['int']
+151: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA_ATTR_LAYOUTS') 227 436 0 (Match)
+  PT: ['int']
+  PY: ['int']
+152: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SCAN_XLATE') 228 437 0 (Match)
+  PT: ['int']
+  PY: ['int']
+153: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DEDUP') 229 438 0 (Match)
+  PT: ['int']
+  PY: ['int']
+154: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DEADLIST') 230 439 0 (Match)
+  PT: ['int']
+  PY: ['int']
+155: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DEADLIST_HDR') 231 440 0 (Match)
+  PT: ['int']
+  PY: ['int']
+156: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_CLONES') 232 441 0 (Match)
+  PT: ['int']
+  PY: ['int']
+157: ('/zfs/constants.py', 'ObjectType_class_initializer', 'BPOBJ_SUBOBJ') 233 442 0 (Match)
+  PT: ['int']
+  PY: ['int']
+158: ('/zfs/constants.py', 'ObjectType_class_initializer', 'FEATURE_DESCRIPTION') 234 443 0 (Match)
+  PT: ['int']
+  PY: ['int']
+159: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'CREATE') 235 444 0 (Match)
+  PT: ['int']
+  PY: ['int']
+160: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'MKDIR') 236 445 0 (Match)
+  PT: ['int']
+  PY: ['int']
+161: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'MKXATTR') 237 446 0 (Match)
+  PT: ['int']
+  PY: ['int']
+162: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'SYMLINK') 238 447 0 (Match)
+  PT: ['int']
+  PY: ['int']
+163: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'REMOVE') 239 448 0 (Match)
+  PT: ['int']
+  PY: ['int']
+164: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'RMDIR') 240 449 0 (Match)
+  PT: ['int']
+  PY: ['int']
+165: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'LINK') 241 450 0 (Match)
+  PT: ['int']
+  PY: ['int']
+166: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'RENAME') 242 451 0 (Match)
+  PT: ['int']
+  PY: ['int']
+167: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'WRITE') 243 452 0 (Match)
+  PT: ['int']
+  PY: ['int']
+168: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'TRUNCATE') 244 453 0 (Match)
+  PT: ['int']
+  PY: ['int']
+169: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'SETATTR') 245 454 0 (Match)
+  PT: ['int']
+  PY: ['int']
+170: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'ACL') 246 455 0 (Match)
+  PT: ['int']
+  PY: ['int']
+171: ('/zfs/constants.py', 'ZapType_class_initializer', 'ZAPHeader') 247 456 0 (Match)
+  PT: ['int']
+  PY: ['int']
+172: ('/zfs/constants.py', 'ZapType_class_initializer', 'ZAPLeaf') 248 457 0 (Match)
+  PT: ['int']
+  PY: ['int']
+173: ('/zfs/constants.py', 'ZapType_class_initializer', 'MicroZAP') 249 458 0 (Match)
+  PT: ['int']
+  PY: ['int']
+174: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', '__ENDIAN__') 250 996 0 (Match)
+  PT: ['str']
+  PY: ['str']
+175: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'MAGIC') 266 1012 0 (Match)
+  PT: ['int']
+  PY: ['int']
+176: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', '__ENDIAN__') 271 1018 0 (Match)
+  PT: ['str']
+  PY: ['str']
+177: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'MAGIC') 272 1019 0 (Match)
+  PT: ['int']
+  PY: ['int']
+178: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'root') 278 1025 0 (Match)
+  PT: ['Blockptr']
+  PY: ['Blockptr']
+179: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '__ENDIAN__') 280 1029 0 (Match)
+  PT: ['str']
+  PY: ['str']
+180: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'log') 303 1052 0 (Match)
+  PT: ['Blockptr']
+  PY: ['Blockptr']
+181: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', '__ENDIAN__') 310 1059 0 (Match)
+  PT: ['str']
+  PY: ['str']
+182: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', 'meta_dnode') 311 1060 0 (Match)
+  PT: ['DNode']
+  PY: ['DNode']
+183: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', 'zil_header') 312 1061 0 (Match)
+  PT: ['ZILHeader']
+  PY: ['ZILHeader']
+184: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', '__ENDIAN__') 314 1063 0 (Match)
+  PT: ['str']
+  PY: ['str']
+185: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'meta_dnode') 315 1064 0 (Match)
+  PT: ['DNode']
+  PY: ['DNode']
+186: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'zil_header') 316 1065 0 (Match)
+  PT: ['ZILHeader']
+  PY: ['ZILHeader']
+187: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'userused') 320 1069 0 (Match)
+  PT: ['DNode']
+  PY: ['DNode']
+188: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'groupused') 321 1070 0 (Match)
+  PT: ['DNode']
+  PY: ['DNode']
+189: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', '__ENDIAN__') 322 1077 0 (Match)
+  PT: ['str']
+  PY: ['str']
+190: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', '__ENDIAN__') 334 1089 0 (Match)
+  PT: ['str']
+  PY: ['str']
+191: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'bp') 351 1106 0 (Match)
+  PT: ['Blockptr']
+  PY: ['Blockptr']
+192: ('/zfs/ondisk/__init__.py', 'BPObjHeader_class_initializer', '__ENDIAN__') 353 1108 0 (Match)
+  PT: ['str']
+  PY: ['str']
+193: ('/zfs/ondisk/fatzap.py', 'module_initializer', 'logger') 356 1180 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+194: ('/zfs/ondisk/fatzap.py', 'module_initializer', 'CHUNK_TYPES') 357 1181 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[int, Type[Union[LeafArray, LeafEntry, LeafFree]]]']
+195: ('/zfs/ondisk/fatzap.py', 'module_initializer', 'formats') 358 1182 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[int, str]']
+196: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', '__ENDIAN__') 359 1115 0 (Match)
+  PT: ['str']
+  PY: ['str']
+197: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', '__ENDIAN__') 365 1121 0 (Match)
+  PT: ['str']
+  PY: ['str']
+198: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', '__ENDIAN__') 375 1132 0 (Match)
+  PT: ['str']
+  PY: ['str']
+199: ('/zfs/ondisk/fatzap.py', 'FatZAPHeader_class_initializer', 'ptr_info') 378 1135 0 (Match)
+  PT: ['PointerTable']
+  PY: ['PointerTable']
+200: ('/zfs/ondisk/fatzap.py', 'LeafChunk_class_initializer', '__ENDIAN__') 383 1140 0 (Match)
+  PT: ['str']
+  PY: ['str']
+201: ('/zfs/objectset.py', '__init__', 'self') 400 518 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+202: ('/zfs/objectset.py', '__init__', 'objset') 403 521 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+203: ('/zfs/objectset.py', 'get_dnode', 'self') 404 528 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+204: ('/zfs/objectset.py', 'get_dnode', 'index') 405 529 0 (Match)
+  PT: ['int']
+  PY: ['int']
+205: ('/zfs/objectset.py', 'get_dnode', 'offset') 406 530 0 (Match)
+  PT: ['int']
+  PY: ['int']
+206: ('/zfs/objectset.py', 'parse_dnode', 'self') 410 532 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+207: ('/zfs/objectset.py', 'read_default', 'self') 415 537 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+208: ('/zfs/objectset.py', 'read_none', 'self') 418 539 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+209: ('/zfs/objectset.py', 'read_directory', 'self') 420 541 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+210: ('/zfs/objectset.py', 'read_directory', 'entries') 422 543 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+211: ('/zfs/objectset.py', 'read_file', 'self') 425 545 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+212: ('/zfs/objectset.py', 'read_zap', 'self') 428 547 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+213: ('/zfs/objectset.py', 'read_attr_registration', 'self') 434 562 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+214: ('/zfs/objectset.py', 'read_attr_registration', 'data') 436 564 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+215: ('/zfs/objectset.py', 'read_attr_registration', 'ret') 437 565 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Dict[str, Any]]']
+216: ('/zfs/objectset.py', 'read_bpobj', 'self') 441 571 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+217: ('/zfs/objectset.py', 'read_object_array', 'self') 447 575 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+218: ('/zfs/objectset.py', 'read_object_array', 'length') 450 578 0 (Match)
+  PT: ['int']
+  PY: ['int']
+219: ('/zfs/objectset.py', 'read_object_array', 'format_code') 451 579 0 (Match)
+  PT: ['str']
+  PY: ['str']
+220: ('/zfs/objectset.py', 'read_nvlist', 'self') 455 580 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+221: ('/nvlist/__init__.py', 'module_initializer', 'NVAREA') 461 268 0 (Match)
+  PT: ['int']
+  PY: ['int']
+222: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UNKNOWN') 462 229 0 (Match)
+  PT: ['int']
+  PY: ['int']
+223: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BOOLEAN') 463 230 0 (Match)
+  PT: ['int']
+  PY: ['int']
+224: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BYTE') 464 231 0 (Match)
+  PT: ['int']
+  PY: ['int']
+225: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT16') 465 232 0 (Match)
+  PT: ['int']
+  PY: ['int']
+226: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT16') 466 233 0 (Match)
+  PT: ['int']
+  PY: ['int']
+227: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT32') 467 234 0 (Match)
+  PT: ['int']
+  PY: ['int']
+228: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT32') 468 235 0 (Match)
+  PT: ['int']
+  PY: ['int']
+229: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT64') 469 236 0 (Match)
+  PT: ['int']
+  PY: ['int']
+230: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT64') 470 237 0 (Match)
+  PT: ['int']
+  PY: ['int']
+231: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'STRING') 471 238 0 (Match)
+  PT: ['int']
+  PY: ['int']
+232: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BYTE_ARRAY') 472 239 0 (Match)
+  PT: ['int']
+  PY: ['int']
+233: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT16_ARRAY') 473 240 0 (Match)
+  PT: ['int']
+  PY: ['int']
+234: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT16_ARRAY') 474 241 0 (Match)
+  PT: ['int']
+  PY: ['int']
+235: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT32_ARRAY') 475 242 0 (Match)
+  PT: ['int']
+  PY: ['int']
+236: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT32_ARRAY') 476 243 0 (Match)
+  PT: ['int']
+  PY: ['int']
+237: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT64_ARRAY') 477 244 0 (Match)
+  PT: ['int']
+  PY: ['int']
+238: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT64_ARRAY') 478 245 0 (Match)
+  PT: ['int']
+  PY: ['int']
+239: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'STRING_ARRAY') 479 246 0 (Match)
+  PT: ['int']
+  PY: ['int']
+240: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'HRTIME') 480 247 0 (Match)
+  PT: ['int']
+  PY: ['int']
+241: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'NVLIST') 481 248 0 (Match)
+  PT: ['int']
+  PY: ['int']
+242: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'NVLIST_ARRAY') 482 249 0 (Match)
+  PT: ['int']
+  PY: ['int']
+243: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BOOLEAN_VALUE') 483 250 0 (Match)
+  PT: ['int']
+  PY: ['int']
+244: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT8') 484 251 0 (Match)
+  PT: ['int']
+  PY: ['int']
+245: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT8') 485 252 0 (Match)
+  PT: ['int']
+  PY: ['int']
+246: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BOOLEAN_ARRAY') 486 253 0 (Match)
+  PT: ['int']
+  PY: ['int']
+247: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT8_ARRAY') 487 254 0 (Match)
+  PT: ['int']
+  PY: ['int']
+248: ('/zfs/objectset.py', 'read_dataset', 'self') 488 585 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+249: ('/zfs/objectset.py', 'read_dsldir', 'self') 491 587 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+250: ('/zfs/objectset.py', 'read_history', 'self') 495 590 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+251: ('/zfs/posix/directory.py', '__init__', 'self') 501 842 0 (Match)
+  PT: ['Directory']
+  PY: ['Directory']
+252: ('/zfs/objectset.py', '_read_fatzap', 'self') 506 568 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+253: ('/zfs/objectset.py', '_read_fatzap', 'raw_fz') 507 569 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+254: ('/zfs/objectset.py', '_read_microzap', 'self') 510 552 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+255: ('/zfs/objectset.py', '_read_microzap', 'zap') 513 555 0 (Match)
+  PT: ['BytesIO']
+  PY: ['io.BytesIO']
+256: ('/zfs/objectset.py', '_read_microzap', 'max_entries') 515 557 0 (Match)
+  PT: ['int']
+  PY: ['int']
+257: ('/zfs/objectset.py', '_read_microzap', 'mzaps') 516 558 0 (Match)
+  PT: ['list']
+  PY: ['list']
+258: ('/nvlist/__init__.py', 'unpack_nvlist', 'self') 521 255 0 (Match)
+  PT: ['NVList']
+  PY: ['NVList']
+259: ('/nvlist/__init__.py', 'unpack_nvlist', 'values') 522 256 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+260: ('/zfs/history.py', '__init__', 'self') 533 797 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+261: ('/zfs/history.py', 'unpack_history', 'self') 535 829 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+262: ('/zfs/history.py', 'unpack_history', 'total_length') 536 830 0 (Match)
+  PT: ['int']
+  PY: ['int']
+263: ('/zfs/history.py', 'unpack_history', 'history') 537 831 0 (Match)
+  PT: ['list']
+  PY: ['List[Union[bool, dict]]']
+264: ('/nvlist/__init__.py', 'unpack_value', 'self') 539 259 0 (Match)
+  PT: ['NVList']
+  PY: ['NVList']
+265: ('/zfs/history.py', 'unpack_nvlist', 'extra') 549 820 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+266: ('/zfs/history.py', 'unpack_nvlist', 'self') 550 819 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+267: ('/zfs/history.py', 'unpack_nvlist', 'values') 551 821 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+268: ('/zfs/history.py', 'unpack_uhyper', 'self') 560 802 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+269: ('/zfs/history.py', 'unpack_uint', 'self') 562 800 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+270: ('/zfs/history.py', 'unpack_value', 'self') 564 808 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+271: ('/zfs/history.py', 'unpack_fstring', 'self') 576 803 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+272: ('/zfs/pool.py', 'vdev_list_to_dict', 'd') 590 707 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+273: ('/zfs/vdevs.py', 'read_label', 'label') 594 340 0 (Match)
+  PT: ['tuple', 'Tuple[int, int]']
+  PY: ['Tuple[int, int]']
+274: ('/zfs/vdevs.py', 'read_label', 'uberblocks') 599 345 0 (Match)
+  PT: ['list']
+  PY: ['list']
+275: ('/zfs/vdevs.py', 'read_label', 'elem') 600 346 0 (Match)
+  PT: ['int']
+  PY: ['int']
+276: ('/zfs/vdevs.py', 'parse_uberblocks', 'raw_uberblocks') 612 325 0 (Match)
+  PT: ['list', 'List[ondisk.Uberblock]']
+  PY: ['list']
+277: ('/zfs/vdevs.py', 'parse_uberblocks', 'uber_list') 613 326 0 (Match)
+  PT: ['list']
+  PY: ['list']
+278: ('/zfs/vdevs.py', 'select_uberblock', 'candidates') 619 331 0 (Match)
+  PT: ['list']
+  PY: ['list']
+279: ('/zfs/util.py', 'module_initializer', 'logger') 622 313 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+280: ('/zfs/util.py', 'module_initializer', 'ChecksumType') 625 316 0 (Match)
+  PT: ['typing.Tuple[int, int, int, int]']
+  PY: ['Type[Tuple[int, int, int, int]]']
+281: ('/zfs/raidzdev.py', 'module_initializer', 'logger') 626 795 0 (Match)
+  PT: ['<Logger pt_engine.utils.base (WARNING)>']
+  PY: ['logging.Logger']
+282: ('/zfs/datasets.py', 'child_datasets', 'self') 627 467 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+283: ('/pyndata/bytestring.py', '__init__', 'self') 633 196 0 (Match)
+  PT: ['bytestring']
+  PY: ['bytestring']
+284: ('/pyndata/integer.py', '__init__', 'kwargs') 635 99 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+285: ('/pyndata/padding.py', '__init__', 'self') 640 206 0 (Match)
+  PT: ['padding']
+  PY: ['padding']
+286: ('/pyndata/bitfield.py', '__init__', 'self') 644 214 0 (Match)
+  PT: ['BitField']
+  PY: ['BitField']
+287: ('/pyndata/array.py', '__init__', 'self') 647 184 0 (Match)
+  PT: ['array']
+  PY: ['array']
+288: ('/pyndata/nullstring.py', '__init__', 'self') 653 169 0 (Match)
+  PT: ['nullstring']
+  PY: ['nullstring']
+289: ('/zfs/datasets.py', '__init__', 'entries') 655 496 0 (Match)
+  PT: ['Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+290: ('/zfs/datasets.py', '__init__', 'dataset') 656 497 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+291: ('/pyndata/structfield.py', '__init__', 'self') 660 122 0 (Match)
+  PT: ['StructField']
+  PY: ['StructField']
+292: ('/zfs/datasets.py', 'snapshot_names', 'self') 662 469 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+293: ('/zfs/datasets.py', 'snapshots', 'self') 663 470 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+294: ('/zfs/datasets.py', 'snapshots', 'snapshots') 664 471 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+295: ('/zfs/datasets.py', 'snapshots', 'dataset') 668 473 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+296: ('/zfs/datasets.py', 'entries', 'self') 670 476 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+297: ('/zfs/datasets.py', 'entries', 'd') 671 477 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+298: ('/zfs/datasets.py', 'attributes', 'self') 677 484 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+299: ('/zfs/datasets.py', 'attributes', 'attrs') 682 489 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[Any, Dict[str, Any]]']
+300: ('/zfs/datasets.py', 'root_directory', 'self') 687 492 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+301: ('/zfs/readcontext.py', '__init__', 'self') 691 637 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+302: ('/zfs/readcontext.py', '__init__', 'checksum') 694 640 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable[[bytes, Any, Any], bool]']
+303: ('/zfs/readcontext.py', '__init__', 'ashift') 695 641 0 (Match)
+  PT: ['int']
+  PY: ['int']
+304: ('/zfs/readcontext.py', 'checksum', 'self') 697 643 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+305: ('/zfs/readcontext.py', 'checksum', 'data') 698 644 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+306: ('/zfs/readcontext.py', 'decompress', 'self') 702 647 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+307: ('/zfs/readcontext.py', 'decompress', 'actual_size') 705 650 0 (Match)
+  PT: ['int']
+  PY: ['int']
+308: ('/zfs/readcontext.py', 'update_inherit', 'self') 707 651 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+309: ('/zfs/readcontext.py', 'read_block', 'dva_offset') 710 656 0 (Match)
+  PT: ['int']
+  PY: ['int']
+310: ('/zfs/readcontext.py', 'read_block', 'self') 711 654 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+311: ('/zfs/readcontext.py', 'read_block_thorough', 'self') 716 659 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+312: ('/zfs/readcontext.py', 'read_block_thorough', 'first_log') 719 662 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+313: ('/zfs/readcontext.py', 'read_block_thorough', 'blocks') 720 663 0 (Match)
+  PT: ['list']
+  PY: ['List[bytes]']
+314: ('/zfs/readcontext.py', 'read_block_thorough', 'bad') 721 664 0 (Match)
+  PT: ['list']
+  PY: ['List[bytes]']
+315: ('/zfs/readcontext.py', 'read_block_thorough', 'valid') 724 666 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+316: ('/zfs/readcontext.py', 'read_indirect', 'self') 726 683 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+317: ('/zfs/readcontext.py', 'read_indirect', 'resolved') 728 685 0 (Match)
+  PT: ['list']
+  PY: ['list']
+318: ('/zfs/readcontext.py', 'read_dnode', 'self') 734 690 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+319: ('/zfs/readcontext.py', 'context', 'self') 737 692 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+320: ('/zfs/util.py', 'checksum', 'data') 741 288 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+321: ('/zfs/util.py', 'decompress', 'size') 748 285 0 (Match)
+  PT: ['int']
+  PY: ['int']
+322: ('/zfs/readcontext.py', '_read_block_embedded', 'self') 751 670 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+323: ('/zfs/readcontext.py', '_read_block', 'self') 757 675 0 (Match)
+  PT: ['ReadContext']
+  PY: ['ReadContext']
+324: ('/zfs/readcontext.py', '_read_block', 'valid_chk') 763 681 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+325: ('/zfs/ondisk/__init__.py', 'indirect', 'count') 768 1074 0 (Match)
+  PT: ['int']
+  PY: ['int']
+326: ('/zfs/util.py', 'fletcher4', 'data') 772 306 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+327: ('/zfs/util.py', 'fletcher4', 'mod') 773 307 0 (Match)
+  PT: ['int']
+  PY: ['int']
+328: ('/zfs/util.py', 'fletcher2', 'data') 780 297 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+329: ('/zfs/util.py', 'fletcher2', 'mod') 781 298 0 (Match)
+  PT: ['int']
+  PY: ['int']
+330: ('/zfs/util.py', 'fletcher2', 'un_data') 782 299 0 (Match)
+  PT: ['list']
+  PY: ['list']
+331: ('/zfs/util.py', 'sha256', 'data') 790 293 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+332: ('/zfs/ondisk/__init__.py', 'to_embedded', 'self') 792 974 0 (Match)
+  PT: ['Blockptr']
+  PY: ['Blockptr']
+333: ('/zfs/util.py', 'unpack', 'data') 795 294 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+334: ('/zfs/util.py', 'unpack', 'code') 796 295 0 (Match)
+  PT: ['str']
+  PY: ['str']
+335: ('/zfs/util.py', 'unpack', 's') 797 296 0 (Match)
+  PT: ['int']
+  PY: ['int']
+336: ('/zfs/ondisk/__init__.py', 'data', 'self') 799 994 0 (Match)
+  PT: ['EmbeddedBlockptr']
+  PY: ['EmbeddedBlockptr']
+337: ('/zfs/zfuse.py', '__init__', 'self') 806 600 0 (Match)
+  PT: ['ZFSFuse']
+  PY: ['ZFSFuse']
+338: ('/zfs/zfuse.py', 'getattr', 'fh') 807 604 0 (Match)
+  PT: ['None']
+  PY: ['None']
+339: ('/zfs/zfuse.py', 'getxattr', 'self') 815 608 0 (Match)
+  PT: ['ZFSFuse']
+  PY: ['ZFSFuse']
+340: ('/zfs/zfuse.py', 'listxattr', 'self') 819 612 0 (Match)
+  PT: ['ZFSFuse']
+  PY: ['ZFSFuse']
+341: ('/zfs/zfuse.py', 'open', 'self') 822 614 0 (Match)
+  PT: ['ZFSFuse']
+  PY: ['ZFSFuse']
+342: ('/zfs/zfuse.py', 'statfs', 'self') 842 630 0 (Match)
+  PT: ['ZFSFuse']
+  PY: ['ZFSFuse']
+343: ('/zfs/zfuse.py', 'mount', 'zf') 847 634 0 (Match)
+  PT: ['ZFSFuse']
+  PY: ['ZFSFuse']
+344: ('/zfs/history.py', 'unpack_int', 'self') 849 799 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+345: ('/zfs/history.py', 'unpack_hyper', 'self') 851 801 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+346: ('/zfs/history.py', 'unpack_string', 'self') 853 806 0 (Match)
+  PT: ['HistoryParser']
+  PY: ['HistoryParser']
+347: ('/zfs/raidzdev.py', 'locate_data', 'disks') 868 755 0 (Match)
+  PT: ['int']
+  PY: ['int']
+348: ('/zfs/raidzdev.py', 'locate_data', 'ret') 873 760 0 (Match)
+  PT: ['list']
+  PY: ['list']
+349: ('/zfs/raidzdev.py', 'locate_data', 'vdevs') 874 761 0 (Match)
+  PT: ['list']
+  PY: ['list']
+350: ('/zfs/raidzdev.py', 'locate_data', 'vdev_ids') 876 763 0 (Match)
+  PT: ['list']
+  PY: ['List[int]']
+351: ('/zfs/raidzdev.py', 'locate_data', 'order') 877 764 0 (Match)
+  PT: ['list']
+  PY: ['list']
+352: ('/zfs/raidzdev.py', 'locate_data', 'vdev_order') 881 767 0 (Match)
+  PT: ['list']
+  PY: ['list']
+353: ('/zfs/raidzdev.py', 'xor_blocks', 'args') 885 771 0 (Match)
+  PT: ['list']
+  PY: ['list']
+354: ('/zfs/raidzdev.py', 'xor_blocks', 'format_str') 889 774 0 (Match)
+  PT: ['str']
+  PY: ['str']
+355: ('/zfs/raidzdev.py', 'xor_blocks', 'structure') 890 775 1 (Manual match)
+  PT: ['<_struct.Struct object at 0x10aab08b0>', '<_struct.Struct object at 0x10ae80a90>']
+  PY: ['struct.Struct']
+356: ('/zfs/raidzdev.py', 'xor_blocks', 'out') 892 776 0 (Match)
+  PT: ['list']
+  PY: ['list']
+357: ('/zfs/raidzdev.py', '__init__', 'self') 893 778 0 (Match)
+  PT: ['RaidZDev']
+  PY: ['RaidZDev']
+358: ('/zfs/raidzdev.py', 'read_dva', 'self') 896 783 0 (Match)
+  PT: ['RaidZDev']
+  PY: ['RaidZDev']
+359: ('/zfs/raidzdev.py', 'read_dva', 'num_disks') 899 786 0 (Match)
+  PT: ['int']
+  PY: ['int']
+360: ('/zfs/raidzdev.py', 'read_dva', 'blocks') 905 791 0 (Match)
+  PT: ['list']
+  PY: ['list']
+361: ('/zfs/raidzdev.py', '_read_resolved', 'self') 909 781 0 (Match)
+  PT: ['RaidZDev']
+  PY: ['RaidZDev']
+362: ('/zfs/vdevs.py', 'read_dva', 'self') 912 349 0 (Match)
+  PT: ['VDev']
+  PY: ['VDev']
+363: ('/zfs/lzjb.py', 'decompress', 'bs') 917 694 1 (Manual match)
+  PT: ['typing.ByteString', 'ByteString']
+  PY: ['bytearray']
+364: ('/zfs/lzjb.py', 'decompress', 'size') 918 695 0 (Match)
+  PT: ['int']
+  PY: ['int']
+365: ('/zfs/lzjb.py', 'decompress', 'out') 919 696 0 (Match)
+  PT: ["bytearray(b'')"]
+  PY: ['bytearray']
+366: ('/zfs/lzjb.py', 'decompress', 'blen') 920 697 0 (Match)
+  PT: ['int']
+  PY: ['int']
+367: ('/zfs/lzjb.py', 'decompress', 'pos') 921 698 0 (Match)
+  PT: ['int']
+  PY: ['int']
+368: ('/zfs/lzjb.py', 'decompress', 'b') 924 700 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+369: ('/zfs/lzjb.py', 'decompress', 'length') 925 701 0 (Match)
+  PT: ['int']
+  PY: ['int']
+370: ('/zfs/lzjb.py', 'decompress', 'distance') 926 702 0 (Match)
+  PT: ['int']
+  PY: ['int']
+371: ('/zfs/lzjb.py', 'decompress', 'backref') 927 703 0 (Match)
+  PT: ["bytearray(b'')"]
+  PY: ['bytearray']
+372: ('/zfs/lzjb.py', 'decompress', 'lookup') 928 704 0 (Match)
+  PT: ["bytearray(b'')"]
+  PY: ['bytearray']
+373: ('/zfs/filedev.py', '__init__', 'self') 932 269 0 (Match)
+  PT: ['FileDev']
+  PY: ['FileDev']
+374: ('/zfs/filedev.py', 'read', 'self') 934 273 0 (Match)
+  PT: ['FileDev']
+  PY: ['FileDev']
+375: ('/zfs/filedev.py', 'write', 'self') 938 276 0 (Match)
+  PT: ['FileDev']
+  PY: ['FileDev']
+376: ('/zfs/filedev.py', 'flush', 'self') 942 279 0 (Match)
+  PT: ['FileDev']
+  PY: ['FileDev']
+377: ('/zfs/filedev.py', 'seek', 'self') 944 280 0 (Match)
+  PT: ['FileDev']
+  PY: ['FileDev']
+378: ('/explore.py', '__init__', 'self') 948 0 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+379: ('/explore.py', '__init__', 'parser') 949 1 0 (Match)
+  PT: ["ArgumentParser(prog='explore', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+380: ('/explore.py', '__init__', 'subcommands') 950 2 1 (Manual match)
+  PT: ["_SubParsersAction(option_strings=[], dest='==SUPPRESS==', nargs='A...', const=None, default=None, type=None, choices={'ls': ArgumentParser(prog='explore ls', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), 'cat': ArgumentParser(prog='explore cat', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), 'objectset': ArgumentParser(prog='explore objectset', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), 'objset': ArgumentParser(prog='explore objectset', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), 'nvparse': ArgumentParser(prog='explore nvparse', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), 'label': ArgumentParser(prog='explore label', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), 'dva': ArgumentParser(prog='explore dva', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True), 'fuse': ArgumentParser(prog='explore fuse', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)}, required=False, help=None, metavar='command')"]
+  PY: ['argparse._SubParsersAction[argparse.ArgumentParser]']
+381: ('/explore.py', '__init__', 'pool_parser') 951 3 0 (Match)
+  PT: ["ArgumentParser(prog='script.py', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False)"]
+  PY: ['argparse.ArgumentParser']
+382: ('/explore.py', '__init__', 'log_opts') 952 4 1 (Manual match)
+  PT: ['<argparse._ArgumentGroup object at 0x10abd3100>', '<argparse._ArgumentGroup object at 0x10abd3220>', '<argparse._ArgumentGroup object at 0x10adf01f0>']
+  PY: ['argparse._ArgumentGroup']
+383: ('/explore.py', '__init__', 'try_opts') 954 6 1 (Manual match)
+  PT: ['<argparse._ArgumentGroup object at 0x10abd3e20>', '<argparse._ArgumentGroup object at 0x10abd3f40>']
+  PY: ['argparse._ArgumentGroup']
+384: ('/explore.py', '__init__', 'arg_name') 957 7 0 (Match)
+  PT: ['str']
+  PY: ['str']
+385: ('/explore.py', '__init__', 'parser_ls') 958 10 0 (Match)
+  PT: ["ArgumentParser(prog='explore ls', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+386: ('/explore.py', '__init__', 'parser_cat') 959 11 0 (Match)
+  PT: ["ArgumentParser(prog='explore cat', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+387: ('/explore.py', '__init__', 'parser_objset') 960 12 0 (Match)
+  PT: ["ArgumentParser(prog='explore objectset', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+388: ('/explore.py', '__init__', 'objset_selector_group') 961 13 1 (Manual match)
+  PT: ['<argparse._MutuallyExclusiveGroup object at 0x10ababc10>', '<argparse._MutuallyExclusiveGroup object at 0x10ababd30>', '<argparse._MutuallyExclusiveGroup object at 0x10af95c00>']
+  PY: ['argparse._MutuallyExclusiveGroup']
+389: ('/explore.py', '__init__', 'objset_exclusive_display') 962 14 1 (Manual match)
+  PT: ['<argparse._MutuallyExclusiveGroup object at 0x10abac580>', '<argparse._MutuallyExclusiveGroup object at 0x10abac6a0>', '<argparse._MutuallyExclusiveGroup object at 0x10c5360b0>']
+  PY: ['argparse._MutuallyExclusiveGroup']
+390: ('/explore.py', '__init__', 'parser_nvparse') 963 15 0 (Match)
+  PT: ["ArgumentParser(prog='explore nvparse', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+391: ('/explore.py', '__init__', 'parser_label') 964 16 0 (Match)
+  PT: ["ArgumentParser(prog='explore label', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+392: ('/explore.py', '__init__', 'parser_dva') 965 17 0 (Match)
+  PT: ["ArgumentParser(prog='explore dva', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+393: ('/explore.py', '__init__', 'parser_fuse') 966 18 0 (Match)
+  PT: ["ArgumentParser(prog='explore fuse', usage=None, description=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)"]
+  PY: ['argparse.ArgumentParser']
+394: ('/explore.py', 'setup_module_logs', 'self') 967 19 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+395: ('/explore.py', 'setup_module_logs', 'level') 969 24 0 (Match)
+  PT: ['int']
+  PY: ['int']
+396: ('/explore.py', 'cli', 'kw') 973 27 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]', 'Dict[str, Any]']
+397: ('/explore.py', 'cli', 'self') 974 25 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+398: ('/explore.py', 'load_pool', 'self') 978 30 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+399: ('/explore.py', 'load_pool', 'devices') 981 32 0 (Match)
+  PT: ['list']
+  PY: ['List[zfs.filedev.FileDev]']
+400: ('/explore.py', 'list_cmd', 'self') 985 36 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+401: ('/explore.py', 'cat', 'self') 989 40 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+402: ('/explore.py', 'show_object', 'self') 991 42 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+403: ('/explore.py', 'show_object', 'os') 993 44 1 (Manual match)
+  PT: ["<module 'os' from '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/os.py'>"]
+  PY: ['zfs.objectset.ObjectSet']
+404: ('/explore.py', 'objset', 'self') 997 48 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+405: ('/explore.py', 'nvparse', 'self') 1004 55 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+406: ('/explore.py', 'label', 'self') 1009 60 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+407: ('/explore.py', 'mount_fuse', 'self') 1015 66 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+408: ('/explore.py', 'read_dva', 'self') 1017 68 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+409: ('/explore.py', 'cli', 'kwargs') 1021 71 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]', 'Dict[str, Any]']
+410: ('/explore.py', 'cli', 'px') 1022 72 0 (Match)
+  PT: ['PoolExplorer']
+  PY: ['PoolExplorer']
+411: ('/pyndata/field.py', '__get__', 'self') 1024 79 0 (Match)
+  PT: ['Field']
+  PY: ['Field']
+412: ('/pyndata/field.py', '__set__', 'self') 1025 82 0 (Match)
+  PT: ['Field']
+  PY: ['Field']
+413: ('/pyndata/variablelength.py', 'get_length', 'self') 1028 88 0 (Match)
+  PT: ['VariableLength']
+  PY: ['VariableLength']
+414: ('/pyndata/variablelength.py', '__set__', 'self') 1029 90 0 (Match)
+  PT: ['VariableLength']
+  PY: ['VariableLength']
+415: ('/pyndata/integer.py', 'endian', 'self') 1030 100 0 (Match)
+  PT: ['integer']
+  PY: ['integer']
+416: ('/pyndata/integer.py', 'pack', 'self') 1031 102 0 (Match)
+  PT: ['integer']
+  PY: ['integer']
+417: ('/pyndata/integer.py', 'pack', 'value') 1032 103 0 (Match)
+  PT: ['int']
+  PY: ['int']
+418: ('/pyndata/integer.py', 'unpack', 'self') 1033 105 0 (Match)
+  PT: ['integer']
+  PY: ['integer']
+419: ('/pyndata/structfield.py', 'pack', 'self') 1034 124 0 (Match)
+  PT: ['StructField']
+  PY: ['StructField']
+420: ('/pyndata/structfield.py', 'unpack', 'self') 1035 127 0 (Match)
+  PT: ['StructField']
+  PY: ['StructField']
+421: ('/pyndata/structure.py', '__new__', 'fields') 1036 134 0 (Match)
+  PT: ['list']
+  PY: ['list']
+422: ('/pyndata/structure.py', '__new__', 'bitfields') 1037 135 0 (Match)
+  PT: ['list']
+  PY: ['list']
+423: ('/pyndata/structure.py', '__new__', 'field_defaults') 1038 136 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+424: ('/pyndata/structure.py', '__init__', 'self') 1039 140 0 (Match)
+  PT: ['Struct']
+  PY: ['Struct']
+425: ('/pyndata/structure.py', '__repr__', 'self') 1040 145 0 (Match)
+  PT: ['Struct']
+  PY: ['Struct']
+426: ('/pyndata/structure.py', '__repr__', 'ret') 1041 148 0 (Match)
+  PT: ['str']
+  PY: ['str']
+427: ('/pyndata/structure.py', 'pack', 'self') 1043 149 0 (Match)
+  PT: ['Struct']
+  PY: ['Struct']
+428: ('/pyndata/structure.py', 'pack', 'out') 1044 150 0 (Match)
+  PT: ['list']
+  PY: ['list']
+429: ('/pyndata/structure.py', 'unpack', 'self') 1046 152 0 (Match)
+  PT: ['Struct']
+  PY: ['Struct']
+430: ('/pyndata/conditional.py', '__init__', 'self') 1047 157 0 (Match)
+  PT: ['ConditionalField']
+  PY: ['ConditionalField']
+431: ('/pyndata/conditional.py', 'pack', 'self') 1048 160 0 (Match)
+  PT: ['ConditionalField']
+  PY: ['ConditionalField']
+432: ('/pyndata/conditional.py', 'unpack', 'self') 1049 163 0 (Match)
+  PT: ['ConditionalField']
+  PY: ['ConditionalField']
+433: ('/pyndata/nullstring.py', 'pack', 'self') 1050 174 0 (Match)
+  PT: ['nullstring']
+  PY: ['nullstring']
+434: ('/pyndata/nullstring.py', 'unpack', 'self') 1051 178 0 (Match)
+  PT: ['nullstring']
+  PY: ['nullstring']
+435: ('/pyndata/nullstring.py', 'unpack', 'i') 1053 182 0 (Match)
+  PT: ['int']
+  PY: ['int']
+436: ('/pyndata/array.py', 'pack', 'self') 1055 187 0 (Match)
+  PT: ['array']
+  PY: ['array']
+437: ('/pyndata/array.py', 'unpack', 'self') 1057 190 0 (Match)
+  PT: ['array']
+  PY: ['array']
+438: ('/pyndata/array.py', 'unpack', 'out') 1058 193 0 (Match)
+  PT: ['list']
+  PY: ['list']
+439: ('/pyndata/bytestring.py', 'pack', 'self') 1060 198 0 (Match)
+  PT: ['bytestring']
+  PY: ['bytestring']
+440: ('/pyndata/bytestring.py', 'unpack', 'self') 1061 201 0 (Match)
+  PT: ['bytestring']
+  PY: ['bytestring']
+441: ('/pyndata/padding.py', 'pack', 'self') 1062 208 0 (Match)
+  PT: ['padding']
+  PY: ['padding']
+442: ('/pyndata/padding.py', 'unpack', 'self') 1063 211 0 (Match)
+  PT: ['padding']
+  PY: ['padding']
+443: ('/pyndata/bitfield.py', '__get__', 'self') 1064 219 0 (Match)
+  PT: ['BitField']
+  PY: ['BitField']
+444: ('/pyndata/bitfield.py', '__set__', 'self') 1065 223 0 (Match)
+  PT: ['BitField']
+  PY: ['BitField']
+445: ('/pyndata/bitfield.py', '__set__', 'value') 1066 225 0 (Match)
+  PT: ['int']
+  PY: ['int']
+446: ('/zfs/datasets.py', '__repr__', 'self') 1075 495 0 (Match)
+  PT: ['Dataset']
+  PY: ['Dataset']
+447: ('/zfs/datasets.py', '__contains__', 'name') 1077 499 0 (Match)
+  PT: ['str']
+  PY: ['str']
+448: ('/zfs/datasets.py', '__getitem__', 'name') 1079 500 0 (Match)
+  PT: ['str']
+  PY: ['str']
+449: ('/zfs/datasets.py', '__getitem__', 'joined_path') 1080 501 0 (Match)
+  PT: ['str']
+  PY: ['str']
+450: ('/zfs/objectset.py', 'from_struct', 'blocks') 1084 509 0 (Match)
+  PT: ['list']
+  PY: ['list']
+451: ('/zfs/objectset.py', 'from_block', 'block') 1086 514 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+452: ('/zfs/objectset.py', '__getitem__', 'self') 1089 523 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+453: ('/zfs/objectset.py', '__getitem__', 'index') 1090 524 0 (Match)
+  PT: ['Union[int, slice]']
+  PY: ['Union[int, slice]']
+454: ('/zfs/objectset.py', '__iter__', 'self') 1092 525 0 (Match)
+  PT: ['ObjectSet']
+  PY: ['ObjectSet']
+455: ('/zfs/pool.py', '__init__', 'self') 1093 709 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+456: ('/zfs/pool.py', '__init__', 'vdevs') 1094 710 0 (Match)
+  PT: ['List[vdevs.VDev]']
+  PY: ['list']
+457: ('/zfs/pool.py', 'first_vdev', 'self') 1096 712 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+458: ('/zfs/pool.py', 'context', 'self') 1098 713 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+459: ('/zfs/pool.py', 'read_block', 'self') 1100 714 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+460: ('/zfs/pool.py', 'read_indirect', 'self') 1102 716 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+461: ('/zfs/pool.py', 'read_dnode', 'self') 1104 718 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+462: ('/zfs/pool.py', 'read_file', 'self') 1106 720 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+463: ('/zfs/pool.py', 'read_file', 'path') 1107 721 0 (Match)
+  PT: ['str']
+  PY: ['str']
+464: ('/zfs/pool.py', 'objset_for_vdev', 'self') 1109 725 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+465: ('/zfs/pool.py', 'root_dataset', 'self') 1112 729 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+466: ('/zfs/pool.py', 'metaslab_array', 'self') 1113 733 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+467: ('/zfs/pool.py', 'dataset_for', 'self') 1115 735 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+468: ('/zfs/pool.py', 'dataset_for', 'dataset_expr') 1116 736 0 (Match)
+  PT: ['str']
+  PY: ['str']
+469: ('/zfs/pool.py', 'open', 'self') 1118 740 0 (Match)
+  PT: ['Pool']
+  PY: ['Pool']
+470: ('/zfs/pool.py', 'open', 'path') 1119 741 0 (Match)
+  PT: ['str']
+  PY: ['str']
+471: ('/zfs/posix/__init__.py', '__init__', 'self') 1124 833 0 (Match)
+  PT: ['PosixObject']
+  PY: ['PosixObject']
+472: ('/zfs/posix/directory.py', '__contains__', 'self') 1128 848 0 (Match)
+  PT: ['Directory']
+  PY: ['Directory']
+473: ('/zfs/posix/directory.py', '__contains__', 'name') 1129 849 0 (Match)
+  PT: ['str']
+  PY: ['str']
+474: ('/zfs/posix/directory.py', '__getitem__', 'self') 1131 850 0 (Match)
+  PT: ['Directory']
+  PY: ['Directory']
+475: ('/zfs/posix/directory.py', '__getitem__', 'name') 1132 851 0 (Match)
+  PT: ['str']
+  PY: ['str']
+476: ('/zfs/posix/directory.py', '__getitem__', 'joined_path') 1133 852 0 (Match)
+  PT: ['str']
+  PY: ['str']
+477: ('/zfs/posix/directory.py', 'keys', 'self') 1135 856 0 (Match)
+  PT: ['Directory']
+  PY: ['Directory']
+478: ('/zfs/posix/directory.py', 'items', 'self') 1137 857 0 (Match)
+  PT: ['Directory']
+  PY: ['Directory']
+479: ('/zfs/posix/directory.py', '__repr__', 'self') 1139 858 0 (Match)
+  PT: ['Directory']
+  PY: ['Directory']
+480: ('/zfs/posix/posix_file.py', 'read', 'self') 1141 860 0 (Match)
+  PT: ['File']
+  PY: ['File']
+481: ('/zfs/posix/attributes/systemattributes.py', 'dacl_entries', 'acls') 1142 876 0 (Match)
+  PT: ['list']
+  PY: ['list']
+482: ('/zfs/posix/attributes/systemattributes.py', '__init__', 'self') 1144 886 0 (Match)
+  PT: ['SystemAttributes']
+  PY: ['SystemAttributes']
+483: ('/zfs/posix/attributes/systemattributes.py', '__call__', 'self') 1145 888 0 (Match)
+  PT: ['SystemAttributes']
+  PY: ['SystemAttributes']
+484: ('/zfs/posix/attributes/systemattributes.py', '__call__', 'attributes') 1146 890 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+485: ('/zfs/ondisk/__init__.py', '__repr__', 'self') 1148 965 0 (Match)
+  PT: ['dva']
+  PY: ['dva']
+486: ('/zfs/ondisk/__init__.py', 'valid', 'self') 1150 1017 0 (Match)
+  PT: ['Uberblock']
+  PY: ['Uberblock']
+487: ('/zfs/ondisk/__init__.py', 'bonus_length', 'self') 1152 1027 0 (Match)
+  PT: ['DNode']
+  PY: ['DNode']
+488: ('/zfs/ondisk/fatzap.py', 'parse_fatzap', 'data') 1159 1158 0 (Match)
+  PT: ['bytes']
+  PY: ['bytes']
+489: ('/zfs/ondisk/fatzap.py', 'parse_fatzap', 'chunks') 1160 1165 0 (Match)
+  PT: ['list']
+  PY: ['List[LeafType]']
+490: ('/zfs/ondisk/fatzap.py', 'read_linked', 'chunks') 1162 1168 0 (Match)
+  PT: ['List[LeafType]']
+  PY: ['List[LeafType]']
+491: ('/zfs/ondisk/fatzap.py', 'read_linked', 'first') 1163 1169 0 (Match)
+  PT: ['int']
+  PY: ['int']
+492: ('/zfs/ondisk/fatzap.py', 'read_linked', 'out') 1165 1171 0 (Match)
+  PT: ['list']
+  PY: ['list']
+493: ('/zfs/ondisk/fatzap.py', 'reconstruct_data', 'chunks') 1167 1173 0 (Match)
+  PT: ['List[LeafType]']
+  PY: ['List[LeafType]']

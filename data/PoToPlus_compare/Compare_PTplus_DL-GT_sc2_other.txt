@@ -1,0 +1,423 @@
+0: ('/setup.py', 'module_initializer', 'requirements') 3 (PT Empty)
+  PT: []
+  DL: ['pipenv.utils.convert_deps_to_pip']
+1: ('/setup.py', 'module_initializer', 'test_requirements') 3 (PT Empty)
+  PT: []
+  DL: ['pipenv.utils.convert_deps_to_pip']
+2: ('/generate_id_constants.py', 'module_initializer', 'code') 3 (PT Empty)
+  PT: []
+  DL: ['generate_python_code']
+3: ('/sc2/constants.py', 'module_initializer', 'mineral_ids') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+4: ('/sc2/constants.py', 'module_initializer', 'geyser_ids') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+5: ('/sc2/player.py', '__init__', 'ai') 7 (etc)
+  PT: ['TestBot']
+  DL: ['zerg.zerg_rush.ZergRushBot']
+6: ('/sc2/bot_ai.py', 'can_afford', 'item_id') 7 (etc)
+  PT: ['None', 'int', 'Union[UnitTypeId, UpgradeId, AbilityId]']
+  DL: ['dict']
+7: ('/sc2/bot_ai.py', 'can_afford', 'unit') 7 (etc)
+  PT: ['UnitTypeData']
+  DL: ['dict']
+8: ('/sc2/bot_ai.py', 'already_pending', 'unit_type') 7 (etc)
+  PT: ['int', 'Union[UpgradeId, UnitTypeId]']
+  DL: ['dict']
+9: ('/sc2/bot_ai.py', 'already_pending', 'amount') 7 (etc)
+  PT: ['int']
+  DL: ['len', 'sum']
+10: ('/sc2/position.py', 'distance_to', 'p') 7 (etc)
+  PT: ['Point2', 'Point3', 'Pointlike', 'Unit', 'meta_func', "Union['Unit', 'Point2', 'Point3']"]
+  DL: ['dict']
+11: ('/sc2/position.py', 'closest', 'ps') 7 (etc)
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  DL: ['dict']
+12: ('/sc2/position.py', 'closest', 'closest_distance_squared') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['distance']
+13: ('/sc2/position.py', 'closest', 'p2pos') 7 (etc)
+  PT: ['Point2', 'Pointlike', 'meta_func']
+  DL: ['p2']
+14: ('/sc2/position.py', 'closest', 'closest_element') 7 (etc)
+  PT: ['Point2', 'Pointlike']
+  DL: ['p2']
+15: ('/sc2/position.py', 'furthest', 'ps') 7 (etc)
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  DL: ['dict']
+16: ('/sc2/position.py', 'furthest', 'furthest_distance_squared') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['distance']
+17: ('/sc2/position.py', 'furthest', 'p2pos') 7 (etc)
+  PT: ['Point2', 'Pointlike', 'meta_func']
+  DL: ['p2']
+18: ('/sc2/position.py', 'furthest', 'furthest_element') 7 (etc)
+  PT: ['Point2', 'Pointlike']
+  DL: ['p2']
+19: ('/sc2/position.py', 'offset', 'p') 6 (DL subset PT)
+  PT: ['Point2', 'Point3', 'Pointlike', 'Unit', 'meta_func']
+  DL: ['sc2.position.Pointlike']
+20: ('/sc2/position.py', 'towards', 'distance') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict', 'min']
+21: ('/sc2/position.py', 'towards', 'p') 7 (etc)
+  PT: ['Pointlike', 'Unit', 'meta_func', "Union['Unit', 'Pointlike']"]
+  DL: ['dict']
+22: ('/sc2/position.py', 'towards', 'd') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+23: ('/sc2/sc2process.py', '__init__', 'port') 7 (etc)
+  PT: ['None', 'Optional[int]']
+  DL: ['dict']
+24: ('/sc2/bot_ai.py', 'can_feed', 'unit_type') 6 (DL subset PT)
+  PT: ['None', 'int', 'UnitTypeId']
+  DL: ['ids.unit_typeid.UnitTypeId']
+25: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'upgrade_type') 6 (DL subset PT)
+  PT: ['int', 'UpgradeId']
+  DL: ['ids.upgrade_id.UpgradeId']
+26: ('/sc2/bot_ai.py', 'already_pending_upgrade', 'level') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'dict']
+27: ('/sc2/bot_ai.py', 'select_build_worker', 'pos') 7 (etc)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'float', 'meta_func', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+28: ('/sc2/bot_ai.py', 'select_build_worker', 'workers') 3 (PT Empty)
+  PT: []
+  DL: ['bool']
+29: ('/sc2/game_state.py', '__init__', 'visibleUnits') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+30: ('/sc2/game_state.py', '__init__', 'hiddenUnits') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+31: ('/sc2/game_state.py', '__init__', 'minerals') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+32: ('/sc2/game_state.py', '__init__', 'geysers') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+33: ('/sc2/game_state.py', '__init__', 'destructables') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+34: ('/sc2/game_state.py', '__init__', 'enemy') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+35: ('/sc2/game_state.py', '__init__', 'own') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+36: ('/sc2/game_data.py', 'calculate_ability_cost', 'ability') 7 (etc)
+  PT: ['AbilityData', 'int', 'meta_func']
+  DL: ['dict']
+37: ('/sc2/game_info.py', '_find_ramps', 'rampPoints') 7 (etc)
+  PT: ['bool', 'dict']
+  DL: ['list']
+38: ('/sc2/units.py', 'subgroup', 'units') 6 (DL subset PT)
+  PT: ['Units', 'list']
+  DL: ['units.Units']
+39: ('/sc2/action.py', 'combine_actions', 'ability') 3 (PT Empty)
+  PT: []
+  DL: ['key']
+40: ('/sc2/action.py', 'combine_actions', 'target') 3 (PT Empty)
+  PT: []
+  DL: ['key']
+41: ('/sc2/action.py', 'combine_actions', 'queue') 3 (PT Empty)
+  PT: []
+  DL: ['key']
+42: ('/sc2/game_info.py', '_find_groups', 'points') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'Set[Point2]']
+  DL: ['dict']
+43: ('/sc2/game_info.py', '_find_groups', 'picture') 7 (etc)
+  PT: ['list', 'List[List[int]]']
+  DL: ['dict']
+44: ('/sc2/game_info.py', '__init__', 'points') 7 (etc)
+  PT: ['set', 'Set[Point2]']
+  DL: ['dict']
+45: ('/sc2/game_info.py', '__init__', 'game_info') 6 (DL subset PT)
+  PT: ['GameInfo', "'GameInfo'"]
+  DL: ['GameInfo']
+46: ('/generate_id_constants.py', 'clike_enum_parse', 'name') 3 (PT Empty)
+  PT: []
+  DL: ['enum']
+47: ('/generate_id_constants.py', 'clike_enum_parse', 'body') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['enum', 'dict']
+48: ('/sc2/game_info.py', 'upper', 'max_height') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+49: ('/sc2/game_info.py', 'upper2_for_ramp_wall', 'upper2') 3 (PT Empty)
+  PT: []
+  DL: ['sorted']
+50: ('/sc2/game_info.py', 'lower', 'min_height') 7 (etc)
+  PT: ['float']
+  DL: ['min']
+51: ('/sc2/game_info.py', 'barracks_in_middle', 'anyLowerPoint') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+52: ('/sc2/game_info.py', 'depot_in_middle', 'anyLowerPoint') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+53: ('/sc2/unit.py', '__init__', 'game_data') 3 (PT Empty)
+  PT: []
+  DL: ['game_data.GameData']
+54: ('/sc2/client.py', 'debug_text_screen', 'pos') 8 (Partial match)
+  PT: ['Point2', 'Point3', 'list', 'tuple', 'Union[Point2, Point3, tuple, list]']
+  DL: ['dict', 'position.Point2']
+55: ('/sc2/client.py', 'debug_text_2d', 'pos') 7 (etc)
+  PT: ['Point2', 'Point3', 'list', 'tuple', 'Union[Point2, Point3, tuple, list]']
+  DL: ['dict']
+56: ('/sc2/client.py', 'debug_text_world', 'pos') 8 (Partial match)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  DL: ['dict', 'position.Point3']
+57: ('/sc2/client.py', 'debug_text_3d', 'pos') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+58: ('/sc2/client.py', 'debug_line_out', 'p0') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+59: ('/sc2/client.py', 'debug_line_out', 'p1') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+60: ('/sc2/client.py', 'debug_box_out', 'p_min') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+61: ('/sc2/client.py', 'debug_box_out', 'p_max') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+62: ('/sc2/client.py', 'debug_sphere_out', 'p') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+63: ('/sc2/client.py', 'debug_sphere_out', 'r') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict']
+64: ('/sc2/client.py', 'to_debug_color', 'r') 7 (etc)
+  PT: ['int']
+  DL: ['getattr']
+65: ('/sc2/client.py', 'to_debug_color', 'g') 7 (etc)
+  PT: ['int']
+  DL: ['getattr']
+66: ('/sc2/client.py', 'to_debug_color', 'b') 7 (etc)
+  PT: ['int']
+  DL: ['getattr']
+67: ('/sc2/client.py', 'to_debug_point', 'point') 7 (etc)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'list', 'meta_func', 'tuple', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+68: ('/sc2/client.py', 'to_debug_message', 'pos') 7 (etc)
+  PT: ['None', 'Point2', 'Point3', 'Unit', 'list', 'tuple', 'Optional[Union[Point2, Point3]]']
+  DL: ['dict']
+69: ('/sc2/unit.py', 'can_attack_ground', 'weapon') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+70: ('/sc2/unit.py', 'ground_dps', 'weapon') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+71: ('/sc2/unit.py', 'ground_range', 'weapon') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+72: ('/sc2/unit.py', 'can_attack_air', 'weapon') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+73: ('/sc2/unit.py', 'air_dps', 'weapon') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+74: ('/sc2/unit.py', 'air_range', 'weapon') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+75: ('/sc2/unit.py', 'bonus_damage', 'b') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+76: ('/sc2/unit.py', 'distance_to', 'p') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', "Union['Unit', Point2, Point3]"]
+  DL: ['dict']
+77: ('/sc2/unit.py', 'target_in_range', 'bonus_distance') 7 (etc)
+  PT: ['int', 'Union[int, float]']
+  DL: ['dict']
+78: ('/sc2/position.py', 'sort_by_distance', 'ps') 7 (etc)
+  PT: ['Units', 'list', "Union['Units', List['Point2']]"]
+  DL: ['dict']
+79: ('/sc2/position.py', 'distance_to_closest', 'ps') 7 (etc)
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  DL: ['dict']
+80: ('/sc2/position.py', 'distance_to_closest', 'closest_distance_squared') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['distance']
+81: ('/sc2/position.py', 'distance_to_furthest', 'ps') 7 (etc)
+  PT: ['Point2', 'Units', 'list', "Union['Units', List['Point2'], Set['Point2']]"]
+  DL: ['dict']
+82: ('/sc2/position.py', 'distance_to_furthest', 'furthest_distance_squared') 7 (etc)
+  PT: ['float', 'int']
+  DL: ['distance']
+83: ('/sc2/position.py', 'random_on_distance', 'distance') 7 (etc)
+  PT: ['float']
+  DL: ['list']
+84: ('/sc2/position.py', 'random_on_distance', 'dx') 7 (etc)
+  PT: ['float']
+  DL: ['tuple']
+85: ('/sc2/position.py', 'random_on_distance', 'dy') 7 (etc)
+  PT: ['float']
+  DL: ['tuple']
+86: ('/sc2/position.py', 'towards_with_random_angle', 'max_difference') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict']
+87: ('/sc2/position.py', 'towards_with_random_angle', 'distance') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict']
+88: ('/sc2/position.py', 'towards_with_random_angle', 'p') 7 (etc)
+  PT: ['Point2', 'Point3', "Union['Point2', 'Point3']"]
+  DL: ['dict']
+89: ('/sc2/position.py', 'towards_with_random_angle', 'angle') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+90: ('/sc2/position.py', 'circle_intersection', 'r') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict']
+91: ('/sc2/position.py', 'circle_intersection', 'distanceBetweenPoints') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+92: ('/sc2/position.py', 'circle_intersection', 'v') 7 (etc)
+  PT: ['Point2']
+  DL: ['offsetToCenter']
+93: ('/sc2/position.py', 'center', 'a') 7 (etc)
+  PT: ['Point2', 'list', "Union[Set['Point2'], List['Point2']]"]
+  DL: ['dict']
+94: ('/sc2/position.py', 'center', 's') 5 (PT subset DL)
+  PT: ['Point2']
+  DL: ['sc2.position.Point2', 'p']
+95: ('/sc2/paths.py', 'latest_executeble', 'latest') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+96: ('/sc2/paths.py', 'latest_executeble', 'version') 3 (PT Empty)
+  PT: []
+  DL: ['latest']
+97: ('/sc2/paths.py', 'latest_executeble', 'path') 3 (PT Empty)
+  PT: []
+  DL: ['latest']
+98: ('/sc2/units.py', 'in_attack_range_of', 'bonus_distance') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict']
+99: ('/sc2/units.py', 'closest_distance_to', 'position') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+100: ('/sc2/units.py', 'furthest_distance_to', 'position') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+101: ('/sc2/units.py', 'closest_to', 'position') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+102: ('/sc2/units.py', 'furthest_to', 'position') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+103: ('/sc2/units.py', 'closer_than', 'distance') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict']
+104: ('/sc2/units.py', 'closer_than', 'position') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+105: ('/sc2/units.py', 'further_than', 'distance') 7 (etc)
+  PT: ['float', 'int', 'Union[int, float]']
+  DL: ['dict']
+106: ('/sc2/units.py', 'further_than', 'position') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'meta_func', 'Union[Unit, Point2, Point3]']
+  DL: ['dict']
+107: ('/sc2/units.py', 'sorted_by_distance_to', 'position') 7 (etc)
+  PT: ['Point2', 'Unit', 'meta_func', 'Union[Unit, Point2]']
+  DL: ['dict']
+108: ('/sc2/units.py', 'tags_in', 'other') 6 (DL subset PT)
+  PT: ['dict', 'list', 'set', 'Union[Set[int], List[int], Dict[int, Any]]']
+  DL: ['dict', 'set']
+109: ('/sc2/units.py', 'tags_not_in', 'other') 6 (DL subset PT)
+  PT: ['dict', 'list', 'set', 'Union[Set[int], List[int], Dict[int, Any]]']
+  DL: ['dict', 'set']
+110: ('/sc2/units.py', 'of_type', 'other') 6 (DL subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]', 'set']
+  DL: ['dict', 'set']
+111: ('/sc2/units.py', 'exclude_type', 'other') 6 (DL subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]', 'set']
+  DL: ['dict', 'set']
+112: ('/sc2/units.py', 'same_tech', 'other') 6 (DL subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]']
+  DL: ['dict', 'set']
+113: ('/sc2/units.py', 'same_unit', 'other') 6 (DL subset PT)
+  PT: ['dict', 'int', 'list', 'Union[UnitTypeId, Set[UnitTypeId], List[UnitTypeId], Dict[UnitTypeId, Any]]']
+  DL: ['dict', 'set']
+114: ('/sc2/units.py', 'prefer_close_to', 'p') 7 (etc)
+  PT: ['Union[Unit, Point2, Point3]']
+  DL: ['dict']
+115: ('/sc2/pixel_map.py', 'flood_fill', 'pred') 7 (etc)
+  PT: ['Callable[[int], bool]']
+  DL: ['dict']
+116: ('/sc2/pixel_map.py', 'flood_fill', 'nodes') 7 (etc)
+  PT: ['set', 'Set[Point2]']
+  DL: ['dict']
+117: ('/sc2/pixel_map.py', 'flood_fill', 'queue') 7 (etc)
+  PT: ['list', 'List[Point2]']
+  DL: ['dict']
+118: ('/sc2/pixel_map.py', 'flood_fill_all', 'pred') 7 (etc)
+  PT: ['Callable[[int], bool]']
+  DL: ['dict']
+119: ('/sc2/pixel_map.py', 'flood_fill_all', 'groups') 7 (etc)
+  PT: ['set', 'Set[FrozenSet[Point2]]']
+  DL: ['dict']
+120: ('/sc2/controller.py', '__init__', 'process') 3 (PT Empty)
+  PT: []
+  DL: ['sc2process.SC2Process']
+121: ('/sc2/power_source.py', '__init__', 'position') 3 (PT Empty)
+  PT: []
+  DL: ['position.Point2']
+122: ('/sc2/power_source.py', '__init__', 'sources') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+123: ('/sc2/game_data.py', 'is_free_morph', 'parts') 3 (PT Empty)
+  PT: []
+  DL: ['split_camel_case']
+124: ('/sc2/game_data.py', 'morph_cost', 'tech_alias_cost_minerals') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+125: ('/sc2/game_data.py', 'morph_cost', 'tech_alias_cost_vespene') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+126: ('/sc2/bot_ai.py', 'expansion_locations', 'possible_points') 6 (DL subset PT)
+  PT: ['<generator object <genexpr> at 0x10fe3f290>', 'Point2', 'list', 'generator']
+  DL: ['list']
+127: ('/sc2/bot_ai.py', 'expansion_locations', 'result') 7 (etc)
+  PT: ['tuple']
+  DL: ['min']
+128: ('/sc2/bot_ai.py', 'get_terrain_height', 'pos') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  DL: ['dict']
+129: ('/sc2/bot_ai.py', 'in_placement_grid', 'pos') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  DL: ['dict']
+130: ('/sc2/bot_ai.py', 'in_pathing_grid', 'pos') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  DL: ['dict']
+131: ('/sc2/bot_ai.py', 'is_visible', 'pos') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  DL: ['dict']
+132: ('/sc2/bot_ai.py', 'has_creep', 'pos') 7 (etc)
+  PT: ['Point2', 'Point3', 'Unit', 'Union[Point2, Point3, Unit]']
+  DL: ['dict']
+133: ('/generate_id_constants_from_stableid.py', 'parse_data', 'key') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+134: ('/generate_id_constants_from_stableid.py', 'parse_simple', 'key_to_insert') 7 (etc)
+  PT: ['str']
+  DL: ['make_key', 'tmp']
+135: ('/examples/arcade_bot.py', 'position_around_unit', 'pos') 7 (etc)
+  PT: ['Union[Unit, Point2, Point3]']
+  DL: ['dict']
+136: ('/sc2/sc2process.py', 'kill_switch_class_initializer', '_to_kill') 7 (etc)
+  PT: ['List[Any]']
+  DL: ['dict']
+137: ('/sc2/game_data.py', 'AbilityData_class_initializer', 'ability_ids') 7 (etc)
+  PT: ['List[int]']
+  DL: ['dict']
+138: ('/sc2/position.py', '__mul__', 'other') 7 (etc)
+  PT: ["Union[int, float, 'Point2']"]
+  DL: ['dict']
+139: ('/sc2/position.py', '__rmul__', 'other') 7 (etc)
+  PT: ["Union[int, float, 'Point2']"]
+  DL: ['dict']
+140: ('/sc2/position.py', '__truediv__', 'other') 7 (etc)
+  PT: ["Union[int, float, 'Point2']"]
+  DL: ['dict']

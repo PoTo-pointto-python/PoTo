@@ -1,0 +1,882 @@
+0: ('/setup.py', 'module_initializer', 'ROOT') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+1: ('/setup.py', 'module_initializer', 'kwargs') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+2: ('/setup.py', 'module_initializer', 'tests_requirements') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+3: ('/setup.py', 'module_initializer', 'about') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+4: ('/pygal/config.py', 'module_initializer', 'CONFIG_ITEMS') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+5: ('/pygal/config.py', 'Key_class_initializer', '_categories') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+6: ('/pygal/config.py', 'CommonConfig_class_initializer', 'stroke') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+7: ('/pygal/config.py', 'CommonConfig_class_initializer', 'show_dots') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+8: ('/pygal/config.py', 'CommonConfig_class_initializer', 'show_only_major_dots') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+9: ('/pygal/config.py', 'CommonConfig_class_initializer', 'dots_size') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+10: ('/pygal/config.py', 'CommonConfig_class_initializer', 'fill') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+11: ('/pygal/config.py', 'CommonConfig_class_initializer', 'stroke_style') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+12: ('/pygal/config.py', 'CommonConfig_class_initializer', 'rounded_bars') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+13: ('/pygal/config.py', 'CommonConfig_class_initializer', 'inner_radius') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+14: ('/pygal/config.py', 'CommonConfig_class_initializer', 'allow_interruptions') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+15: ('/pygal/config.py', 'CommonConfig_class_initializer', 'formatter') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+16: ('/pygal/style.py', 'module_initializer', 'DefaultStyle') 0 (Match)
+  PT: ['Style']
+  DL: ['pygal.style.Style']
+17: ('/pygal/style.py', 'module_initializer', 'styles') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+18: ('/pygal/style.py', 'module_initializer', 'parametric_styles') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+19: ('/pygal/style.py', 'Style_class_initializer', 'label_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+20: ('/pygal/style.py', 'Style_class_initializer', 'major_label_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+21: ('/pygal/style.py', 'Style_class_initializer', 'value_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+22: ('/pygal/style.py', 'Style_class_initializer', 'value_label_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+23: ('/pygal/style.py', 'Style_class_initializer', 'tooltip_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+24: ('/pygal/style.py', 'Style_class_initializer', 'title_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+25: ('/pygal/style.py', 'Style_class_initializer', 'legend_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+26: ('/pygal/style.py', 'Style_class_initializer', 'no_data_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+27: ('/pygal/style.py', 'Style_class_initializer', 'ci_colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+28: ('/pygal/style.py', 'DarkStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+29: ('/pygal/style.py', 'LightStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+30: ('/pygal/style.py', 'CleanStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+31: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+32: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+33: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+34: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+35: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+36: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+37: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+38: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+39: ('/pygal/style.py', 'BlueStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+40: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'colors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+41: ('/pygal/style.py', 'ParametricStyleBase_class_initializer', '_op') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+42: ('/pygal/config.py', 'Config_class_initializer', 'style') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+43: ('/pygal/config.py', 'Config_class_initializer', 'css') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+44: ('/pygal/config.py', 'Config_class_initializer', 'classes') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+45: ('/pygal/config.py', 'Config_class_initializer', 'defs') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+46: ('/pygal/config.py', 'Config_class_initializer', 'title') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+47: ('/pygal/config.py', 'Config_class_initializer', 'x_title') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+48: ('/pygal/config.py', 'Config_class_initializer', 'y_title') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+49: ('/pygal/config.py', 'Config_class_initializer', 'width') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+50: ('/pygal/config.py', 'Config_class_initializer', 'height') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+51: ('/pygal/config.py', 'Config_class_initializer', 'show_x_guides') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+52: ('/pygal/config.py', 'Config_class_initializer', 'show_y_guides') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+53: ('/pygal/config.py', 'Config_class_initializer', 'show_legend') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+54: ('/pygal/config.py', 'Config_class_initializer', 'legend_at_bottom') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+55: ('/pygal/config.py', 'Config_class_initializer', 'legend_at_bottom_columns') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+56: ('/pygal/config.py', 'Config_class_initializer', 'legend_box_size') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+57: ('/pygal/config.py', 'Config_class_initializer', 'rounded_bars') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+58: ('/pygal/config.py', 'Config_class_initializer', 'stack_from_top') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+59: ('/pygal/config.py', 'Config_class_initializer', 'spacing') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+60: ('/pygal/config.py', 'Config_class_initializer', 'margin') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+61: ('/pygal/config.py', 'Config_class_initializer', 'margin_top') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+62: ('/pygal/config.py', 'Config_class_initializer', 'margin_right') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+63: ('/pygal/config.py', 'Config_class_initializer', 'margin_bottom') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+64: ('/pygal/config.py', 'Config_class_initializer', 'margin_left') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+65: ('/pygal/config.py', 'Config_class_initializer', 'tooltip_border_radius') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+66: ('/pygal/config.py', 'Config_class_initializer', 'tooltip_fancy_mode') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+67: ('/pygal/config.py', 'Config_class_initializer', 'inner_radius') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+68: ('/pygal/config.py', 'Config_class_initializer', 'half_pie') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+69: ('/pygal/config.py', 'Config_class_initializer', 'x_labels') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+70: ('/pygal/config.py', 'Config_class_initializer', 'x_labels_major') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+71: ('/pygal/config.py', 'Config_class_initializer', 'x_labels_major_every') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+72: ('/pygal/config.py', 'Config_class_initializer', 'x_labels_major_count') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+73: ('/pygal/config.py', 'Config_class_initializer', 'show_x_labels') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+74: ('/pygal/config.py', 'Config_class_initializer', 'show_minor_x_labels') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+75: ('/pygal/config.py', 'Config_class_initializer', 'y_labels') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+76: ('/pygal/config.py', 'Config_class_initializer', 'y_labels_major') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+77: ('/pygal/config.py', 'Config_class_initializer', 'y_labels_major_every') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+78: ('/pygal/config.py', 'Config_class_initializer', 'y_labels_major_count') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+79: ('/pygal/config.py', 'Config_class_initializer', 'show_minor_y_labels') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+80: ('/pygal/config.py', 'Config_class_initializer', 'show_y_labels') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+81: ('/pygal/config.py', 'Config_class_initializer', 'x_label_rotation') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+82: ('/pygal/config.py', 'Config_class_initializer', 'y_label_rotation') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+83: ('/pygal/config.py', 'Config_class_initializer', 'missing_value_fill_truncation') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+84: ('/pygal/config.py', 'Config_class_initializer', 'x_value_formatter') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+85: ('/pygal/config.py', 'Config_class_initializer', 'value_formatter') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+86: ('/pygal/config.py', 'Config_class_initializer', 'logarithmic') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+87: ('/pygal/config.py', 'Config_class_initializer', 'interpolate') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+88: ('/pygal/config.py', 'Config_class_initializer', 'interpolation_precision') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+89: ('/pygal/config.py', 'Config_class_initializer', 'interpolation_parameters') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+90: ('/pygal/config.py', 'Config_class_initializer', 'box_mode') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+91: ('/pygal/config.py', 'Config_class_initializer', 'order_min') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+92: ('/pygal/config.py', 'Config_class_initializer', 'min_scale') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+93: ('/pygal/config.py', 'Config_class_initializer', 'max_scale') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+94: ('/pygal/config.py', 'Config_class_initializer', 'range') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+95: ('/pygal/config.py', 'Config_class_initializer', 'secondary_range') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+96: ('/pygal/config.py', 'Config_class_initializer', 'xrange') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+97: ('/pygal/config.py', 'Config_class_initializer', 'include_x_axis') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+98: ('/pygal/config.py', 'Config_class_initializer', 'zero') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+99: ('/pygal/config.py', 'Config_class_initializer', 'no_data_text') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+100: ('/pygal/config.py', 'Config_class_initializer', 'print_values') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+101: ('/pygal/config.py', 'Config_class_initializer', 'dynamic_print_values') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+102: ('/pygal/config.py', 'Config_class_initializer', 'print_values_position') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+103: ('/pygal/config.py', 'Config_class_initializer', 'print_zeroes') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+104: ('/pygal/config.py', 'Config_class_initializer', 'print_labels') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+105: ('/pygal/config.py', 'Config_class_initializer', 'truncate_legend') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+106: ('/pygal/config.py', 'Config_class_initializer', 'truncate_label') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+107: ('/pygal/config.py', 'Config_class_initializer', 'js') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+108: ('/pygal/config.py', 'Config_class_initializer', 'disable_xml_declaration') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+109: ('/pygal/config.py', 'Config_class_initializer', 'force_uri_protocol') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+110: ('/pygal/config.py', 'Config_class_initializer', 'explicit_size') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+111: ('/pygal/config.py', 'Config_class_initializer', 'pretty_print') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+112: ('/pygal/config.py', 'Config_class_initializer', 'strict') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+113: ('/pygal/config.py', 'Config_class_initializer', 'no_prefix') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+114: ('/pygal/config.py', 'Config_class_initializer', 'inverse_y_axis') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+115: ('/pygal/formatters.py', 'module_initializer', 'human_readable') 0 (Match)
+  PT: ['HumanReadable']
+  DL: ['HumanReadable']
+116: ('/pygal/formatters.py', 'module_initializer', 'significant') 0 (Match)
+  PT: ['Significant']
+  DL: ['Significant']
+117: ('/pygal/formatters.py', 'module_initializer', 'integer') 0 (Match)
+  PT: ['Integer']
+  DL: ['Integer']
+118: ('/pygal/formatters.py', 'module_initializer', 'raw') 0 (Match)
+  PT: ['Raw']
+  DL: ['Raw']
+119: ('/pygal/formatters.py', 'module_initializer', 'default') 0 (Match)
+  PT: ['Default']
+  DL: ['Default']
+120: ('/pygal/_compat.py', 'module_initializer', 'utc') 0 (Match)
+  PT: ['UTC']
+  DL: ['UTC']
+121: ('/pygal/interpolate.py', 'module_initializer', 'INTERPOLATIONS') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+122: ('/pygal/interpolate.py', 'module_initializer', 'points') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+123: ('/pygal/interpolate.py', 'module_initializer', 'xy') 0 (Match)
+  PT: ['XY']
+  DL: ['pygal.XY']
+124: ('/perf.py', 'module_initializer', 'sizes') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+125: ('/perf.py', 'module_initializer', 'rands') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+126: ('/perf.py', 'module_initializer', 'bench') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+127: ('/perf.py', 'module_initializer', '_TWO_20') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+128: ('/perf.py', 'module_initializer', 'charts') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+129: ('/perf.py', 'module_initializer', 'diag') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+130: ('/perf.py', 'module_initializer', 'times') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+131: ('/pygal/etree.py', 'module_initializer', 'etree') 0 (Match)
+  PT: ['Etree']
+  DL: ['Etree']
+132: ('/pygal_gen.py', 'module_initializer', 'opts') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+133: ('/demo/moulinrouge/tests.py', 'module_initializer', 'world') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+134: ('/demo/moulinrouge/tests.py', 'module_initializer', 'fr') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+135: ('/demo/moulinrouge/tests.py', 'module_initializer', 'ch') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+136: ('/demo/moulinrouge/data.py', 'module_initializer', 'labels') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+137: ('/demo/moulinrouge/data.py', 'module_initializer', 'series') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+138: ('/pygal/__init__.py', 'module_initializer', 'CHARTS_BY_NAME') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+139: ('/pygal/__init__.py', 'module_initializer', 'CHARTS_NAMES') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+140: ('/pygal/__init__.py', 'module_initializer', 'CHARTS') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+141: ('/pygal/graph/graph.py', 'Graph_class_initializer', '_dual') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+142: ('/pygal/__about__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+143: ('/pygal/table.py', 'Table_class_initializer', '_dual') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+144: ('/pygal/graph/time.py', 'DateTimeLine_class_initializer', '_x_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+145: ('/pygal/graph/time.py', 'TimeLine_class_initializer', '_x_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+146: ('/pygal/graph/time.py', 'TimeDeltaLine_class_initializer', '_x_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+147: ('/pygal/graph/xy.py', 'XY_class_initializer', '_x_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+148: ('/pygal/graph/pyramid.py', 'VerticalPyramid_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+149: ('/pygal/graph/treemap.py', 'Treemap_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+150: ('/pygal/graph/radar.py', 'Radar_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+151: ('/pygal/graph/dual.py', 'Dual_class_initializer', '_dual') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+152: ('/pygal/graph/pie.py', 'Pie_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+153: ('/pygal/graph/stackedline.py', 'StackedLine_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+154: ('/pygal/graph/map.py', 'BaseMap_class_initializer', '_dual') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+155: ('/pygal/graph/stackedbar.py', 'StackedBar_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+156: ('/pygal/graph/funnel.py', 'Funnel_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+157: ('/pygal/graph/base.py', 'BaseGraph_class_initializer', '_adapters') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+158: ('/docs/conf.py', 'module_initializer', 'extensions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+159: ('/docs/conf.py', 'module_initializer', 'templates_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+160: ('/docs/conf.py', 'module_initializer', 'language') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+161: ('/docs/conf.py', 'module_initializer', 'exclude_patterns') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+162: ('/docs/conf.py', 'module_initializer', 'todo_include_todos') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+163: ('/docs/conf.py', 'module_initializer', 'on_rtd') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+164: ('/docs/conf.py', 'module_initializer', 'html_theme_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+165: ('/docs/conf.py', 'module_initializer', 'html_static_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+166: ('/docs/conf.py', 'module_initializer', 'latex_elements') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+167: ('/docs/conf.py', 'module_initializer', 'latex_documents') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+168: ('/docs/conf.py', 'module_initializer', 'man_pages') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+169: ('/docs/conf.py', 'module_initializer', 'texinfo_documents') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+170: ('/docs/conf.py', 'module_initializer', 'intersphinx_mapping') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+171: ('/docs/ext/pygal_sphinx_directives.py', 'PygalDirective_class_initializer', 'final_argument_whitespace') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+172: ('/docs/ext/pygal_sphinx_directives.py', 'PygalDirective_class_initializer', 'has_content') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+173: ('/docs/ext/pygal_sphinx_directives.py', 'PygalTable_class_initializer', 'final_argument_whitespace') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+174: ('/docs/ext/pygal_sphinx_directives.py', 'PygalTable_class_initializer', 'has_content') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+175: ('/pygal/config.py', 'SerieConfig_class_initializer', 'title') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+176: ('/pygal/config.py', 'SerieConfig_class_initializer', 'secondary') 0 (Match)
+  PT: ['Key']
+  DL: ['Key']
+177: ('/pygal/stats.py', 'ppf', 'stats') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+178: ('/pygal/table.py', 'render', 'html') 0 (Match)
+  PT: ['HTML']
+  DL: ['HTML']
+179: ('/pygal/table.py', 'render', 'attrs') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+180: ('/pygal/table.py', 'render', 'thead') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+181: ('/pygal/table.py', 'render', 'tfoot') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+182: ('/pygal/table.py', 'render', 'parts') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+183: ('/pygal/util.py', 'decorate', 'xlink') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+184: ('/pygal/config.py', '_update', 'dir_self_set') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+185: ('/pygal/util.py', 'filter_kwargs', 'kwargs') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+186: ('/pygal/serie.py', '__init__', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+187: ('/pygal/serie.py', '__init__', 'config') 0 (Match)
+  PT: ['SerieConfig']
+  DL: ['SerieConfig']
+188: ('/pygal/util.py', 'majorize', 'major_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+189: ('/pygal/graph/public.py', 'add', 'title') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+190: ('/pygal/graph/base.py', 'setup', 'positive_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+191: ('/pygal/graph/base.py', 'prepare_values', 'offset') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+192: ('/pygal/graph/base.py', 'prepare_values', 'raw') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+193: ('/pygal/graph/base.py', 'prepare_values', 'series') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+194: ('/pygal/graph/base.py', 'prepare_values', 'metadata') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+195: ('/pygal/graph/base.py', 'prepare_values', 'serie_config') 0 (Match)
+  PT: ['SerieConfig']
+  DL: ['pygal.config.SerieConfig']
+196: ('/pygal/svg.py', '__init__', 'attrs') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+197: ('/pygal/svg.py', 'render', 'args') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+198: ('/pygal/util.py', 'merge', 'dict2') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+199: ('/pygal/util.py', 'merge', '_list_items') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+200: ('/pygal/graph/graph.py', '_compute_margin', 'height') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+201: ('/pygal/svg.py', 'add_styles', 'all_css') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+202: ('/pygal/svg.py', 'add_styles', 'auto_css') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+203: ('/pygal/util.py', 'compute_scale', 'step') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+204: ('/pygal/util.py', 'compute_scale', 'positions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+205: ('/pygal/util.py', 'split_title', 'titles') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+206: ('/pygal/graph/bar.py', 'bar', 'points') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+207: ('/pygal/graph/graph.py', '_interpolate', 'ys') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+208: ('/pygal/graph/graph.py', '_interpolate', 'x') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+209: ('/pygal/graph/graph.py', '_interpolate', 'y') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+210: ('/pygal/util.py', 'compute_logarithmic_scale', 'min_order') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+211: ('/pygal/util.py', 'compute_logarithmic_scale', 'max_order') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+212: ('/pygal/util.py', 'compute_logarithmic_scale', 'positions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+213: ('/pygal/util.py', 'compute_logarithmic_scale', 'amplitude') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+214: ('/pygal/view.py', '__init__', 'box') 0 (Match)
+  PT: ['Box']
+  DL: ['pygal.Box']
+215: ('/pygal/graph/graph.py', '_y_axis', 'major') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+216: ('/pygal/graph/graph.py', '_x_axis', 'major') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+217: ('/pygal/svg.py', 'stroke_dict_to_css', 'css') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+218: ('/pygal/svg.py', 'confidence_interval', 'top') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+219: ('/pygal/svg.py', 'confidence_interval', 'bottom') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+220: ('/pygal/colors.py', '_adjust', 'hsl') 0 (Match)
+  PT: ['list', 'tuple']
+  DL: ['tuple', 'list']
+221: ('/pygal/graph/line.py', 'line', 'serie_node') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+222: ('/pygal/graph/line.py', 'line', 'points') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+223: ('/pygal/graph/line.py', 'line', 'view_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+224: ('/pygal/graph/line.py', 'line', 'sequences') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+225: ('/pygal/graph/line.py', 'line', 'cur_sequence') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+226: ('/pygal/graph/line.py', '_fill', 'values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+227: ('/pygal/graph/line.py', '_fill', 'end') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+228: ('/pygal/graph/histogram.py', 'bar', 'serie_node') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+229: ('/pygal/graph/histogram.py', '_bar', 'zero') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+230: ('/pygal/svg.py', 'gauge_background', 'to_shade') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+231: ('/pygal/svg.py', 'gauge_background', 'begin_end') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+232: ('/pygal/svg.py', 'gauge_background', 'to_labels') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+233: ('/pygal/svg.py', 'solid_gauge', 'to') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+234: ('/pygal/graph/public.py', 'render_sparkline', 'spark_options') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+235: ('/pygal/graph/stackedline.py', '_points', 'accumulation') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+236: ('/pygal/graph/stackedline.py', '_fill', 'new_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+237: ('/pygal/graph/solidgauge.py', 'gaugify', 'center') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+238: ('/pygal/graph/public.py', 'render_sparktext', 'values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+239: ('/pygal/graph/public.py', 'render_sparktext', 'divisions') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+240: ('/pygal/graph/pie.py', 'slice', 'dual') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+241: ('/pygal/graph/pie.py', 'slice', 'center') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+242: ('/pygal/svg.py', 'slice', 'to') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+243: ('/pygal/svg.py', 'slice', 'rv') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+244: ('/pygal/graph/xy.py', '_compute', 'vals') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+245: ('/pygal/graph/time.py', 'date_to_str', 'd') 1 (Manual match)
+  PT: ['1970-01-01']
+  DL: ['datetime.date']
+246: ('/pygal/graph/time.py', 'datetime_to_str', 'dt') 1 (Manual match)
+  PT: ['1970-01-01 00:00:00', '1970-01-01 00:00:01']
+  DL: ['datetime.datetime']
+247: ('/pygal/graph/time.py', 'timedelta_to_str', 'td') 1 (Manual match)
+  PT: ['0:00:00']
+  DL: ['datetime.timedelta']
+248: ('/pygal/graph/time.py', 'seconds_to_time', 't') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+249: ('/pygal/graph/dot.py', 'dot', 'view_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+250: ('/pygal/interpolate.py', 'quadratic_interpolate', 'n') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+251: ('/pygal/interpolate.py', 'quadratic_interpolate', 'delta_x') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+252: ('/pygal/interpolate.py', 'quadratic_interpolate', 'delta_y') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+253: ('/pygal/interpolate.py', 'quadratic_interpolate', 'slope') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+254: ('/pygal/interpolate.py', 'quadratic_interpolate', 'c') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+255: ('/pygal/interpolate.py', 'quadratic_interpolate', 'X') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+256: ('/pygal/interpolate.py', 'quadratic_interpolate', 'X2') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+257: ('/pygal/interpolate.py', 'cubic_interpolate', 'n') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+258: ('/pygal/interpolate.py', 'cubic_interpolate', 'h') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+259: ('/pygal/interpolate.py', 'cubic_interpolate', 'k') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+260: ('/pygal/interpolate.py', 'cubic_interpolate', 'g') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+261: ('/pygal/interpolate.py', 'cubic_interpolate', 'j') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+262: ('/pygal/interpolate.py', 'cubic_interpolate', 'X') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+263: ('/pygal/interpolate.py', 'cubic_interpolate', 'X2') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+264: ('/pygal/interpolate.py', 'cubic_interpolate', 'X3') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+265: ('/pygal/interpolate.py', 'hermite_interpolate', 'n') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+266: ('/pygal/interpolate.py', 'hermite_interpolate', 'delta_x') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+267: ('/pygal/interpolate.py', 'lagrange_interpolate', 'n') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+268: ('/pygal/interpolate.py', 'lagrange_interpolate', 'delta_x') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+269: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'n') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+270: ('/pygal/interpolate.py', 'trigonometric_interpolate', 'delta_x') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+271: ('/pygal/interpolate.py', 'p', 'x_') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+272: ('/pygal/interpolate.py', 'p', 't') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+273: ('/pygal/interpolate.py', 'p', 't2') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+274: ('/pygal/interpolate.py', 'p', 't3') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+275: ('/pygal/interpolate.py', 'p', 'h10') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+276: ('/pygal/interpolate.py', 'p', 'h11') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+277: ('/pygal/style.py', '__init__', 'defaults') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+278: ('/pygal/style.py', '__init__', 'violency') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+279: ('/pygal/style.py', 'to_dict', 'config') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+280: ('/pygal/graph/box.py', 'stdev', 'v') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+281: ('/pygal/graph/box.py', 'pstdev', 'v') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+282: ('/pygal/config.py', 'coerce', 'rv') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+283: ('/pygal/config.py', 'to_dict', 'config') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+284: ('/pygal/colors.py', 'rotate', 'percent') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+285: ('/pygal/graph/treemap.py', '_binary_tree', 'running_sum') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+286: ('/pygal/graph/radar.py', '_x_axis', 'major') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+287: ('/pygal/graph/radar.py', '_y_axis', 'major') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+288: ('/pygal/graph/map.py', '_plot', 'safe_vals') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+289: ('/pygal/graph/solidgauge.py', '_current_square', 'current_square') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+290: ('/pygal/graph/stackedbar.py', '_get_separated_values', 'transposed') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+291: ('/pygal/graph/funnel.py', '_compute', 'poly') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+292: ('/docs/ext/pygal_sphinx_directives.py', 'run', 'content') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+293: ('/docs/ext/pygal_sphinx_directives.py', 'run', 'scope') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']

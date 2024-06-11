@@ -1,0 +1,300 @@
+0: ('/zfs/objectset.py', 'module_initializer', 'MicroZAPType') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+1: ('/pyndata/__init__.py', 'module_initializer', 'o') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+2: ('/zfs/ondisk/__init__.py', 'module_initializer', 'ObjectsetTypes') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+3: ('/zfs/ondisk/__init__.py', 'module_initializer', 'Objectsets') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+4: ('/zfs/objectset.py', 'parse_dnode', 'index') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['int']
+5: ('/zfs/objectset.py', 'read_zap', 'zap') 3 (PT Empty)
+  PT: []
+  DL: ['io.BytesIO']
+6: ('/zfs/objectset.py', 'read_bpobj', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['io.BytesIO']
+7: ('/zfs/objectset.py', 'read_nvlist', 'nv') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+8: ('/zfs/datasets.py', '__init__', 'path') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+9: ('/zfs/history.py', '__init__', 'buffer') 7 (etc)
+  PT: ['Union[BytesIO, bytes]']
+  DL: ['dict']
+10: ('/nvlist/__init__.py', 'unpack_value', 'name') 7 (etc)
+  PT: ['None']
+  DL: ['tuple']
+11: ('/nvlist/__init__.py', 'unpack_value', 'v') 5 (PT subset DL)
+  PT: ['bool', 'list']
+  DL: ['tuple', 'bool', 'dict', 'list']
+12: ('/nvlist/__init__.py', 'unpack_value', 'sub') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+13: ('/zfs/history.py', 'unpack_nvlist', 'this_length') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+14: ('/zfs/history.py', 'unpack_nvlist', 'unknown2') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+15: ('/zfs/history.py', 'unpack_nvlist', 'unknown3') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+16: ('/zfs/history.py', 'unpack_nvlist', 'end_offset') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+17: ('/zfs/history.py', 'unpack_value', 'total_length') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+18: ('/zfs/history.py', 'unpack_value', 'length') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+19: ('/zfs/history.py', 'unpack_value', 'value_count') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+20: ('/zfs/history.py', 'unpack_value', 'remaining') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+21: ('/zfs/history.py', 'unpack_value', 'value') 7 (etc)
+  PT: ['dict']
+  DL: ['list']
+22: ('/zfs/history.py', 'unpack_fstring', 'total_length') 7 (etc)
+  PT: ['int']
+  DL: ['next_break_offset']
+23: ('/zfs/vdevs.py', '__init__', 'txg') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['int']
+24: ('/zfs/vdevs.py', '__init__', 'label_index') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['int']
+25: ('/zfs/vdevs.py', 'read_label', 'label') 7 (etc)
+  PT: ['tuple', 'Tuple[int, int]']
+  DL: ['dict']
+26: ('/zfs/vdevs.py', 'read_label', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+27: ('/zfs/vdevs.py', 'read_label', 'nvdata') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+28: ('/zfs/vdevs.py', 'read_label', 'uberblock_array') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+29: ('/zfs/vdevs.py', 'read_label', 'this_block') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+30: ('/zfs/vdevs.py', '_best_label', 'label_index') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['int']
+31: ('/zfs/vdevs.py', '_best_label', 'retprops') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['dict', 'props']
+32: ('/zfs/vdevs.py', '_best_label', 'best_label') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['dict', 'retprops']
+33: ('/zfs/vdevs.py', 'parse_uberblocks', 'raw_uberblocks') 7 (etc)
+  PT: ['list', 'List[ondisk.Uberblock]']
+  DL: ['dict']
+34: ('/zfs/vdevs.py', 'select_uberblock', 'txg') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['int']
+35: ('/zfs/vdevs.py', 'select_uberblock', 'txgs_available') 3 (PT Empty)
+  PT: []
+  DL: ['sorted']
+36: ('/zfs/vdevs.py', 'select_uberblock', 'active_uberblock') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+37: ('/zfs/util.py', 'module_initializer', 'ChecksumType') 7 (etc)
+  PT: ['typing.Tuple[int, int, int, int]']
+  DL: ['dict']
+38: ('/zfs/datasets.py', 'child_datasets', 'children') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+39: ('/pyndata/bitfield.py', '__init__', 'field') 6 (DL subset PT)
+  PT: ['uint64', 'uint8']
+  DL: ['pyndata.uint16']
+40: ('/pyndata/array.py', '__init__', 'kind') 6 (DL subset PT)
+  PT: ['Blockptr', 'StructField', 'ZNodeACE', 'dva', 'uint16', 'uint64']
+  DL: ['structure.StructField']
+41: ('/zfs/datasets.py', 'snapshots', 'dsl_dataset') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+42: ('/zfs/datasets.py', 'attributes', 'sa_attrs') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+43: ('/zfs/datasets.py', 'attributes', 'registry') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+44: ('/zfs/datasets.py', 'attributes', 'layout') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+45: ('/zfs/datasets.py', 'root_directory', 'root_dir_index') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+46: ('/zfs/datasets.py', 'root_directory', 'root_dir') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+47: ('/zfs/readcontext.py', 'decompress', 'data') 6 (DL subset PT)
+  PT: ['meta_func', 'bytes']
+  DL: ['bytes']
+48: ('/zfs/readcontext.py', 'read_block', 'block') 7 (etc)
+  PT: ['bytes', 'meta_func']
+  DL: ['list']
+49: ('/zfs/readcontext.py', 'read_indirect', 'data') 7 (etc)
+  PT: ['bytes', 'meta_func']
+  DL: ['list']
+50: ('/zfs/readcontext.py', 'read_indirect', 'ind') 3 (PT Empty)
+  PT: []
+  DL: ['indirect']
+51: ('/zfs/util.py', 'checksum', 'chk') 8 (Partial match)
+  PT: ['None', 'tuple', 'ChecksumType']
+  DL: ['ChecksumType', 'fletcher4', 'fletcher2', 'sha256']
+52: ('/zfs/util.py', 'checksum', 'inherit') 6 (DL subset PT)
+  PT: ['Checksum', 'None', 'meta_func']
+  DL: ['constants.Checksum']
+53: ('/zfs/util.py', 'checksum', 'mode') 8 (Partial match)
+  PT: ['Checksum', 'None', 'meta_func']
+  DL: ['constants.Checksum', 'inherit']
+54: ('/zfs/util.py', 'decompress', 'data') 8 (Partial match)
+  PT: ['meta_func', 'bytes']
+  DL: ['bytes', 'dict', 'str']
+55: ('/zfs/util.py', 'decompress', 'mode') 8 (Partial match)
+  PT: ['Compression', 'None']
+  DL: ['constants.Compression', 'inherit']
+56: ('/zfs/util.py', 'decompress', 'length') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+57: ('/zfs/readcontext.py', '_read_block', 'vdev') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+58: ('/zfs/readcontext.py', '_read_block', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+59: ('/zfs/ondisk/__init__.py', 'indirect', 'size') 7 (etc)
+  PT: ['None', 'int']
+  DL: ['bool']
+60: ('/zfs/ondisk/__init__.py', 'data', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['pyndata.bytestring']
+61: ('/zfs/zfuse.py', 'getattr', 'mode') 7 (etc)
+  PT: ['int']
+  DL: ['stat.S_IFDIR', 'stat.S_IFLNK', 'stat.S_IFREG']
+62: ('/zfs/zfuse.py', 'mount', 'fuse') 3 (PT Empty)
+  PT: []
+  DL: ['fuse.FUSE']
+63: ('/zfs/history.py', 'unpack_string', 'length') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+64: ('/zfs/raidzdev.py', 'convert', 'k') 7 (etc)
+  PT: ['int']
+  DL: ['base']
+65: ('/zfs/raidzdev.py', 'convert', 'off') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['int']
+66: ('/zfs/raidzdev.py', 'locate_data', 'first_col') 7 (etc)
+  PT: ['int']
+  DL: ['parity']
+67: ('/zfs/raidzdev.py', 'xor_blocks', 'size') 7 (etc)
+  PT: ['float']
+  DL: ['min']
+68: ('/zfs/raidzdev.py', 'read_dva', 'num_disks') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+69: ('/zfs/raidzdev.py', 'read_dva', 'columns') 3 (PT Empty)
+  PT: []
+  DL: ['locate_data']
+70: ('/zfs/raidzdev.py', 'read_dva', 'first') 3 (PT Empty)
+  PT: []
+  DL: ['locate_data']
+71: ('/zfs/raidzdev.py', 'read_dva', 'addrs') 3 (PT Empty)
+  PT: []
+  DL: ['locate_data']
+72: ('/zfs/raidzdev.py', 'read_dva', 'computed') 3 (PT Empty)
+  PT: []
+  DL: ['xor_blocks']
+73: ('/zfs/lzjb.py', 'decompress', 'bs') 5 (PT subset DL)
+  PT: ['typing.ByteString', 'ByteString']
+  DL: ['typing.ByteString', 'bytearray']
+74: ('/zfs/lzjb.py', 'decompress', 'out') 5 (PT subset DL)
+  PT: ["bytearray(b'')"]
+  DL: ['bytearray', 'lookup']
+75: ('/zfs/lzjb.py', 'decompress', 'blen') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+76: ('/zfs/lzjb.py', 'decompress', 'control') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+77: ('/zfs/lzjb.py', 'decompress', 'backref') 7 (etc)
+  PT: ["bytearray(b'')"]
+  DL: ['dict']
+78: ('/zfs/lzjb.py', 'decompress', 'lookup') 7 (etc)
+  PT: ["bytearray(b'')"]
+  DL: ['int']
+79: ('/explore.py', 'setup_module_logs', 'modules') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+80: ('/explore.py', 'cli', 'level') 7 (etc)
+  PT: ['int']
+  DL: ['dict']
+81: ('/explore.py', 'load_pool', 'pool') 3 (PT Empty)
+  PT: []
+  DL: ['zfs.pool.Pool']
+82: ('/explore.py', 'show_object', 'f') 3 (PT Empty)
+  PT: []
+  DL: ['open']
+83: ('/explore.py', 'objset', 'f') 3 (PT Empty)
+  PT: []
+  DL: ['open']
+84: ('/explore.py', 'nvparse', 'source') 3 (PT Empty)
+  PT: []
+  DL: ['open']
+85: ('/explore.py', 'nvparse', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+86: ('/explore.py', 'nvparse', 'nv') 3 (PT Empty)
+  PT: []
+  DL: ['nvlist.NVList']
+87: ('/explore.py', 'label', 'vdev') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+88: ('/explore.py', 'label', 'label') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+89: ('/pyndata/nullstring.py', 'unpack', 'value') 6 (DL subset PT)
+  PT: ['list', 'str']
+  DL: ['list']
+90: ('/zfs/vdevs.py', 'read', 'offset') 7 (etc)
+  PT: ['Union[int, Tuple[int, int]]']
+  DL: ['dict']
+91: ('/zfs/objectset.py', '__getitem__', 'index') 7 (etc)
+  PT: ['Union[int, slice]']
+  DL: ['dict']
+92: ('/zfs/pool.py', '__init__', 'vdevs') 7 (etc)
+  PT: ['List[vdevs.VDev]']
+  DL: ['dict']
+93: ('/zfs/pool.py', 'objset_for_vdev', 'vdev') 8 (Partial match)
+  PT: ['int', 'vdevs.VDev']
+  DL: ['int', 'dict']
+94: ('/zfs/raidzdev.py', 'read', 'offset') 7 (etc)
+  PT: ['Union[int, Tuple[int, int]]']
+  DL: ['dict']
+95: ('/zfs/ondisk/fatzap.py', 'parse_chunk', 'chunk') 7 (etc)
+  PT: ['Union[LeafChunk, BytesIO]']
+  DL: ['dict']
+96: ('/zfs/ondisk/fatzap.py', 'parse_chunk', 'ch') 8 (Partial match)
+  PT: ['Union[LeafChunk, BytesIO]']
+  DL: ['LeafChunk', 'chunk']
+97: ('/zfs/ondisk/fatzap.py', 'read_linked', 'chunks') 7 (etc)
+  PT: ['List[LeafType]']
+  DL: ['dict']
+98: ('/zfs/ondisk/fatzap.py', 'read_linked', 'index') 7 (etc)
+  PT: ['int']
+  DL: ['first']
+99: ('/zfs/ondisk/fatzap.py', 'reconstruct_data', 'chunks') 7 (etc)
+  PT: ['List[LeafType]']
+  DL: ['dict']

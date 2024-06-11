@@ -1,0 +1,60 @@
+0: ('/mtgjson5/providers/gatherer.py', 'GathererProvider_class_initializer', 'GATHERER_CARD') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+1: ('/mtgjson5/providers/tcgplayer.py', 'CardCondition_class_initializer', 'NEAR_MINT') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+2: ('/mtgjson5/providers/tcgplayer.py', 'CardCondition_class_initializer', 'LIGHTLY_PLAYED') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+3: ('/mtgjson5/providers/tcgplayer.py', 'CardCondition_class_initializer', 'MODERATELY_PLAYED') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+4: ('/mtgjson5/providers/tcgplayer.py', 'CardCondition_class_initializer', 'HEAVILY_PLAYED') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+5: ('/mtgjson5/providers/tcgplayer.py', 'CardCondition_class_initializer', 'DAMAGED') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+6: ('/mtgjson5/providers/tcgplayer.py', 'CardCondition_class_initializer', 'UNOPENED') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+7: ('/mtgjson5/providers/tcgplayer.py', 'CardPrinting_class_initializer', 'NON_FOIL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+8: ('/mtgjson5/providers/tcgplayer.py', 'CardPrinting_class_initializer', 'FOIL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+9: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'ENGLISH') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+10: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'CHINESE_SIMPLIFIED') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+11: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'CHINESE_TRADITIONAL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+12: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'FRENCH') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+13: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'GERMAN') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+14: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'ITALIAN') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+15: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'JAPANESE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+16: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'KOREAN') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+17: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'PORTUGUESE_BRAZIL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+18: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'RUSSIAN') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+19: ('/mtgjson5/providers/tcgplayer.py', 'CardLanguage_class_initializer', 'SPANISH') 0 (Match)
+  PT: ['int']
+  DL: ['int']

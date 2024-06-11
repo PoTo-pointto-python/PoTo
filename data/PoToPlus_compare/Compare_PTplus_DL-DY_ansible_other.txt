@@ -1,0 +1,159 @@
+0: ('/lib/ansible/module_utils/six/__init__.py', 'Module_six_moves_urllib_class_initializer', 'parse') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_parse']
+1: ('/lib/ansible/module_utils/six/__init__.py', 'Module_six_moves_urllib_class_initializer', 'error') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_error']
+2: ('/lib/ansible/module_utils/six/__init__.py', 'Module_six_moves_urllib_class_initializer', 'request') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_request']
+3: ('/lib/ansible/module_utils/six/__init__.py', 'Module_six_moves_urllib_class_initializer', 'response') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_response']
+4: ('/lib/ansible/module_utils/six/__init__.py', 'Module_six_moves_urllib_class_initializer', 'robotparser') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_robotparser']
+5: ('/lib/ansible/playbook/task_include.py', 'TaskInclude_class_initializer', 'VALID_INCLUDE_KEYWORDS') 3 (PT Empty)
+  PT: []
+  DL: ['frozenset']
+6: ('/lib/ansible/plugins/inventory/__init__.py', 'BaseInventoryPlugin_class_initializer', '_sanitize_group_name') 3 (PT Empty)
+  PT: []
+  DL: ['staticmethod']
+7: ('/lib/ansible/utils/collection_loader/_collection_finder.py', '_AnsiblePathHookFinder_class_initializer', '_filefinder_path_hook') 3 (PT Empty)
+  PT: []
+  DL: ['function']
+8: ('/lib/ansible/parsing/yaml/objects.py', 'AnsibleBaseYAMLObject_class_initializer', 'ansible_pos') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+9: ('/lib/ansible/module_utils/common/text/converters.py', 'to_bytes', 'errors') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+10: ('/lib/ansible/module_utils/common/text/converters.py', 'to_text', 'errors') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+11: ('/lib/ansible/module_utils/basic.py', '_load_params', 'buffer') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['bytes']
+12: ('/lib/ansible/module_utils/basic.py', '_load_params', '_ANSIBLE_ARGS') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['bytes']
+13: ('/lib/ansible/utils/collection_loader/_collection_finder.py', '_get_collection_metadata', '_collection_meta') 7 (etc)
+  PT: ['None']
+  DL: ['dict']
+14: ('/lib/ansible/utils/collection_loader/_collection_finder.py', '_nested_dict_get', 'cur_value') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['dict', 'NoneType|dict']
+15: ('/lib/ansible/config/manager.py', 'ensure_type', 'value') 6 (DL subset PT)
+  PT: ['<Lock(owner=unknown)>', '<built-in function openssl_md5>', '<built-in function openssl_sha1>', "<module 'builtins' (built-in)>", "<module 'msg' (namespace)>", "<module 'msg' from 'script.py'>", "<module 'sys' (built-in)>", 'AnsibleVaultEncryptedUnicode', 'ImmutableDict', 'MovedAttribute', 'MovedModule', 'None', 'NoneType', 'PluginPathContext', "Setting(name='msg', value=<class 'object'>, origin='', type='string')", "Setting(name='msg', value=None, origin='', type='string')", 'bool', 'builtin_function_or_method', 'bytes', "defaultdict(<class 'dict'>, {})", 'dict', 'float', "frozenset({'with_', 'local_action'})", "frozenset({'with_', 'msg', 'local_action'})", 'int', 'list', 'multiprocessing.synchronize.Lock', 'object', 'str', 'tuple']
+  DL: ['str', 'list']
+16: ('/lib/ansible/config/manager.py', 'ensure_type', 'value_type') 6 (DL subset PT)
+  PT: ['None', 'str', 'type']
+  DL: ['str']
+17: ('/lib/ansible/config/manager.py', 'ensure_type', 'basedir') 6 (DL subset PT)
+  PT: ['None', 'object', 'str']
+  DL: ['NoneType']
+18: ('/lib/ansible/vars/reserved.py', 'get_reserved_names', 'result') 6 (DL subset PT)
+  PT: ['dict', 'set']
+  DL: ['set']
+19: ('/lib/ansible/vars/reserved.py', 'get_reserved_names', 'aobj') 6 (DL subset PT)
+  PT: ['Block', 'Play', 'Role', 'Task']
+  DL: ['Block']
+20: ('/lib/ansible/module_utils/six/__init__.py', '__init__', 'new_attr') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+21: ('/lib/ansible/module_utils/six/__init__.py', '__init__', 'new') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+22: ('/lib/ansible/executor/module_common.py', '_strip_comments', 'l') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+23: ('/lib/ansible/config/manager.py', 'find_ini_config_file', 'SENTINEL') 7 (etc)
+  PT: ['object']
+  DL: ['type']
+24: ('/lib/ansible/config/manager.py', 'find_ini_config_file', 'path_from_env') 7 (etc)
+  PT: ['<Lock(owner=unknown)>', '<built-in function openssl_md5>', '<built-in function openssl_sha1>', "<module 'builtins' (built-in)>", "<module 'msg' (namespace)>", "<module 'msg' from 'script.py'>", "<module 'sys' (built-in)>", 'ImmutableDict', 'MovedAttribute', 'MovedModule', 'None', 'NoneType', 'PluginPathContext', "Setting(name='msg', value=<class 'object'>, origin='', type='string')", "Setting(name='msg', value=None, origin='', type='string')", 'bool', 'builtin_function_or_method', "defaultdict(<class 'dict'>, {})", 'dict', 'float', "frozenset({'with_', 'local_action'})", "frozenset({'with_', 'msg', 'local_action'})", 'int', 'list', 'multiprocessing.synchronize.Lock', 'object', 'str', 'tuple']
+  DL: ['type']
+25: ('/lib/ansible/config/manager.py', 'find_ini_config_file', 'path') 7 (etc)
+  PT: ['object', 'str']
+  DL: ['NoneType']
+26: ('/lib/ansible/config/manager.py', '_parse_config_file', 'cfile') 6 (DL subset PT)
+  PT: ['None', 'object', 'str']
+  DL: ['NoneType']
+27: ('/lib/ansible/config/manager.py', 'update_config_data', 'configfile') 6 (DL subset PT)
+  PT: ['None', 'object', 'str']
+  DL: ['NoneType']
+28: ('/lib/ansible/config/manager.py', 'update_config_data', 'origin') 6 (DL subset PT)
+  PT: ['None', 'object', 'str']
+  DL: ['NoneType']
+29: ('/lib/ansible/utils/display.py', 'verbose', 'to_stderr') 3 (PT Empty)
+  PT: []
+  DL: ['bool']
+30: ('/lib/ansible/config/manager.py', 'get_config_type', 'ftype') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['NoneType']
+31: ('/lib/ansible/config/manager.py', 'get_config_value_and_origin', 'cfile') 6 (DL subset PT)
+  PT: ['None', 'object', 'str']
+  DL: ['NoneType']
+32: ('/lib/ansible/config/manager.py', 'get_config_value_and_origin', 'value') 8 (Partial match)
+  PT: ['<Lock(owner=unknown)>', '<built-in function openssl_md5>', '<built-in function openssl_sha1>', "<module 'builtins' (built-in)>", "<module 'msg' (namespace)>", "<module 'msg' from 'script.py'>", "<module 'sys' (built-in)>", 'ImmutableDict', 'MovedAttribute', 'MovedModule', 'None', 'NoneType', 'PluginPathContext', "Setting(name='msg', value=<class 'object'>, origin='', type='string')", "Setting(name='msg', value=None, origin='', type='string')", 'bool', 'builtin_function_or_method', "defaultdict(<class 'dict'>, {})", 'dict', 'float', "frozenset({'with_', 'local_action'})", "frozenset({'with_', 'msg', 'local_action'})", 'int', 'list', 'multiprocessing.synchronize.Lock', 'object', 'str', 'tuple']
+  DL: ['NoneType', 'dict|NoneType|bool|int|list|float|str']
+33: ('/lib/ansible/config/manager.py', 'get_config_value_and_origin', 'origin') 6 (DL subset PT)
+  PT: ['None', 'object', 'str']
+  DL: ['NoneType', 'str']
+34: ('/lib/ansible/plugins/loader.py', 'get_with_context', 'name') 6 (DL subset PT)
+  PT: ['<Lock(owner=unknown)>', '<built-in function openssl_md5>', '<built-in function openssl_sha1>', "<module 'builtins' (built-in)>", "<module 'msg' (namespace)>", "<module 'msg' from 'script.py'>", "<module 'sys' (built-in)>", 'ImmutableDict', 'MovedAttribute', 'MovedModule', 'None', 'PluginPathContext', "Setting(name='msg', value=<class 'object'>, origin='', type='string')", "Setting(name='msg', value=None, origin='', type='string')", "defaultdict(<class 'dict'>, {})", 'dict', "frozenset({'with_', 'local_action'})", "frozenset({'with_', 'msg', 'local_action'})", 'int', 'list', 'str', 'tuple']
+  DL: ['str']
+35: ('/lib/ansible/plugins/loader.py', 'get_with_context', 'class_only') 3 (PT Empty)
+  PT: []
+  DL: ['bool']
+36: ('/lib/ansible/plugins/loader.py', 'get_with_context', 'collection_list') 3 (PT Empty)
+  PT: []
+  DL: ['NoneType']
+37: ('/lib/ansible/plugins/loader.py', 'get_with_context', 'path') 6 (DL subset PT)
+  PT: ['<Lock(owner=unknown)>', '<built-in function openssl_md5>', '<built-in function openssl_sha1>', "<module 'builtins' (built-in)>", "<module 'msg' (namespace)>", "<module 'msg' from 'script.py'>", "<module 'sys' (built-in)>", 'ImmutableDict', 'MovedAttribute', 'MovedModule', 'None', 'NoneType', 'PluginPathContext', "Setting(name='msg', value=<class 'object'>, origin='', type='string')", "Setting(name='msg', value=None, origin='', type='string')", 'bool', 'builtin_function_or_method', "defaultdict(<class 'dict'>, {})", 'dict', 'float', "frozenset({'with_', 'local_action'})", "frozenset({'with_', 'msg', 'local_action'})", 'int', 'list', 'multiprocessing.synchronize.Lock', 'object', 'str', 'tuple']
+  DL: ['str']
+38: ('/lib/ansible/plugins/loader.py', 'get_with_context', 'obj') 3 (PT Empty)
+  PT: []
+  DL: ['abc.ABCMeta']
+39: ('/lib/ansible/config/manager.py', '_loop_entries', 'value') 6 (DL subset PT)
+  PT: ['<Lock(owner=unknown)>', '<built-in function openssl_md5>', '<built-in function openssl_sha1>', "<module 'builtins' (built-in)>", "<module 'msg' (namespace)>", "<module 'msg' from 'script.py'>", "<module 'sys' (built-in)>", 'ImmutableDict', 'MovedAttribute', 'MovedModule', 'None', 'NoneType', 'PluginPathContext', "Setting(name='msg', value=<class 'object'>, origin='', type='string')", "Setting(name='msg', value=None, origin='', type='string')", 'bool', 'builtin_function_or_method', "defaultdict(<class 'dict'>, {})", 'dict', 'float', "frozenset({'with_', 'local_action'})", "frozenset({'with_', 'msg', 'local_action'})", 'int', 'list', 'multiprocessing.synchronize.Lock', 'object', 'str', 'tuple']
+  DL: ['NoneType']
+40: ('/lib/ansible/config/manager.py', '_loop_entries', 'name') 7 (etc)
+  PT: ['None']
+  DL: ['str']
+41: ('/lib/ansible/plugins/loader.py', '_load_module_source', 'full_name') 6 (DL subset PT)
+  PT: ['<Lock(owner=unknown)>', '<built-in function openssl_md5>', '<built-in function openssl_sha1>', "<module 'builtins' (built-in)>", "<module 'msg' (namespace)>", "<module 'msg' from 'script.py'>", "<module 'sys' (built-in)>", 'ImmutableDict', 'MovedAttribute', 'MovedModule', 'None', 'PluginPathContext', "Setting(name='msg', value=<class 'object'>, origin='', type='string')", "Setting(name='msg', value=None, origin='', type='string')", "defaultdict(<class 'dict'>, {})", 'dict', "frozenset({'with_', 'local_action'})", "frozenset({'with_', 'msg', 'local_action'})", 'int', 'list', 'str', 'tuple']
+  DL: ['str']
+42: ('/lib/ansible/plugins/loader.py', '_load_config_defs', 'dstring') 3 (PT Empty)
+  PT: []
+  DL: ['ansible.parsing.yaml.objects.AnsibleMapping']
+43: ('/lib/ansible/plugins/loader.py', '_get_paths_with_context', 'path') 6 (DL subset PT)
+  PT: ['<built-in function dir>', 'None', 'list', 'object', 'str']
+  DL: ['str']
+44: ('/lib/ansible/plugins/loader.py', '_find_plugin_legacy', 'path') 6 (DL subset PT)
+  PT: ['list', 'object', 'str']
+  DL: ['str']
+45: ('/lib/ansible/plugins/loader.py', '_find_plugin_legacy', 'splitname') 3 (PT Empty)
+  PT: []
+  DL: ['tuple']
+46: ('/lib/ansible/utils/collection_loader/_collection_finder.py', 'find_module', 'path') 7 (etc)
+  PT: ['None']
+  DL: ['list']
+47: ('/lib/ansible/utils/collection_loader/_collection_finder.py', 'find_module', 'split_name') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+48: ('/lib/ansible/utils/collection_loader/_collection_finder.py', 'load_module', 'module') 3 (PT Empty)
+  PT: []
+  DL: ['module']
+49: ('/lib/ansible/utils/collection_loader/_collection_finder.py', 'find_module', 'spec') 3 (PT Empty)
+  PT: []
+  DL: ['_frozen_importlib.ModuleSpec|NoneType']
+50: ('/lib/ansible/utils/collection_loader/_collection_finder.py', '__init__', 'split_name') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+51: ('/lib/ansible/utils/collection_loader/_collection_finder.py', 'get_code', 'source_code') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+52: ('/lib/ansible/utils/collection_loader/_collection_finder.py', '_canonicalize_meta', 'action_groups') 3 (PT Empty)
+  PT: []
+  DL: ['dict']

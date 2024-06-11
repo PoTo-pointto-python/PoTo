@@ -1,0 +1,147 @@
+0: ('/invoke/config.py', 'DataProxy_class_initializer', '_proxies') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+1: ('/invoke/config.py', 'DataProxy_class_initializer', '__hash__') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+2: ('/invoke/config.py', 'Config_class_initializer', 'prefix') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+3: ('/invoke/config.py', 'Config_class_initializer', 'file_prefix') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+4: ('/invoke/config.py', 'Config_class_initializer', 'env_prefix') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+5: ('/invoke/runners.py', 'Runner_class_initializer', 'read_chunk_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+6: ('/invoke/runners.py', 'Runner_class_initializer', 'input_sleep') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+7: ('/invoke/program.py', 'Program_class_initializer', 'leading_indent_width') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+8: ('/invoke/program.py', 'Program_class_initializer', 'leading_indent') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+9: ('/invoke/program.py', 'Program_class_initializer', 'indent_width') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+10: ('/invoke/program.py', 'Program_class_initializer', 'indent') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+11: ('/invoke/program.py', 'Program_class_initializer', 'col_padding') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+12: ('/invoke/parser/parser.py', 'ParseMachine_class_initializer', 'initial_state') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+13: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'inf_value') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+14: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'nan_value') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+15: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'timestamp_regexp') 1 (Manual match)
+  PT: ["re.compile('^(?P<year>[0-9][0-9][0-9][0-9])\\n                -(?P<month>[0-9][0-9]?)\\n                -(?P<day>[0-9][0-9]?)\\n                (?:(?:[Tt]|[ \\\\t]+)\\n                (?P<hour>[0-9][0-9]?)\\n          , re.VERBOSE)"]
+  DL: ['re']
+16: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', 'yaml_tag') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+17: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', 'yaml_flow_style') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+18: ('/invoke/vendor/yaml3/representer.py', 'SafeRepresenter_class_initializer', 'inf_value') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+19: ('/invoke/vendor/yaml3/tokens.py', 'DirectiveToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+20: ('/invoke/vendor/yaml3/tokens.py', 'DocumentStartToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+21: ('/invoke/vendor/yaml3/tokens.py', 'DocumentEndToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+22: ('/invoke/vendor/yaml3/tokens.py', 'StreamStartToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+23: ('/invoke/vendor/yaml3/tokens.py', 'StreamEndToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+24: ('/invoke/vendor/yaml3/tokens.py', 'BlockSequenceStartToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+25: ('/invoke/vendor/yaml3/tokens.py', 'BlockMappingStartToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+26: ('/invoke/vendor/yaml3/tokens.py', 'BlockEndToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+27: ('/invoke/vendor/yaml3/tokens.py', 'FlowSequenceStartToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+28: ('/invoke/vendor/yaml3/tokens.py', 'FlowMappingStartToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+29: ('/invoke/vendor/yaml3/tokens.py', 'FlowSequenceEndToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+30: ('/invoke/vendor/yaml3/tokens.py', 'FlowMappingEndToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+31: ('/invoke/vendor/yaml3/tokens.py', 'KeyToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+32: ('/invoke/vendor/yaml3/tokens.py', 'ValueToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+33: ('/invoke/vendor/yaml3/tokens.py', 'BlockEntryToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+34: ('/invoke/vendor/yaml3/tokens.py', 'FlowEntryToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+35: ('/invoke/vendor/yaml3/tokens.py', 'AliasToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+36: ('/invoke/vendor/yaml3/tokens.py', 'AnchorToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+37: ('/invoke/vendor/yaml3/tokens.py', 'TagToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+38: ('/invoke/vendor/yaml3/tokens.py', 'ScalarToken_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+39: ('/invoke/vendor/yaml3/reader.py', 'Reader_class_initializer', 'NON_PRINTABLE') 1 (Manual match)
+  PT: ["re.compile('[^\\t\\n\\r -~\\x85\\xa0-\\ud7ff\\ue000-�]')"]
+  DL: ['re']
+40: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'DEFAULT_SCALAR_TAG') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+41: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'DEFAULT_SEQUENCE_TAG') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+42: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'DEFAULT_MAPPING_TAG') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+43: ('/invoke/vendor/yaml3/serializer.py', 'Serializer_class_initializer', 'ANCHOR_TEMPLATE') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+44: ('/invoke/vendor/yaml3/nodes.py', 'ScalarNode_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+45: ('/invoke/vendor/yaml3/nodes.py', 'SequenceNode_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+46: ('/invoke/vendor/yaml3/nodes.py', 'MappingNode_class_initializer', 'id') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+47: ('/invoke/collection.py', 'transform', 'char') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+48: ('/invoke/collection.py', '_add_object', 'method') 1 (Manual match)
+  PT: ['meta_func']
+  DL: ['method']

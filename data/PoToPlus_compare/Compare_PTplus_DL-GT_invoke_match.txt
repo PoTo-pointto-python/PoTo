@@ -1,0 +1,900 @@
+0: ('/invoke/tasks.py', 'module_initializer', 'NO_DEFAULT') 0 (Match)
+  PT: ['<object object at 0x106efa510>', '<object object at 0x10d9fe0d0>', '<object object at 0x10da4f7d0>', '<object object at 0x10dab0870>', '<object object at 0x10dac5800>', '<object object at 0x10dac5cb0>', '<object object at 0x10daccd90>', '<object object at 0x10dbe3e50>', '<object object at 0x10dc33980>', '<object object at 0x10dc33dc0>', '<object object at 0x10dc615e0>', '<object object at 0x10dcdb970>', '<object object at 0x10dd777a0>', '<object object at 0x10de106f0>', '<object object at 0x10de925f0>', '<object object at 0x10df030a0>', '<object object at 0x10df337e0>', '<object object at 0x10df36f80>', '<object object at 0x10df450b0>', '<object object at 0x10df91350>', '<object object at 0x10e01fd10>', '<object object at 0x10e05e750>', '<object object at 0x10e10d850>', '<object object at 0x10e133d10>', '<object object at 0x10e18cb90>', '<object object at 0x10e1ffe30>', '<object object at 0x10e2b0c40>', '<object object at 0x10e2bb550>', '<object object at 0x10e2c97d0>', '<object object at 0x10e366800>', '<object object at 0x10e374400>', '<object object at 0x10e3955f0>', '<object object at 0x10e3c6c60>', '<object object at 0x10e44d040>', '<object object at 0x10e46f7d0>', '<object object at 0x10e542800>', '<object object at 0x10e550710>', '<object object at 0x10e553cf0>', '<object object at 0x10e6367e0>', '<object object at 0x10e64d0d0>', '<object object at 0x10e6dec40>', '<object object at 0x10e707800>', '<object object at 0x10ef79690>', '<object object at 0x10f769510>', '<object object at 0x10fab6670>', '<object object at 0x10faee870>', '<object object at 0x10fb16800>', '<object object at 0x10fb20b20>', '<object object at 0x10fbbc060>', '<object object at 0x10fbbe710>', '<object object at 0x10fbc8d10>', '<object object at 0x10fc20cf0>', '<object object at 0x10fc2acf0>', '<object object at 0x10fc357e0>', '<object object at 0x10fc74850>', '<object object at 0x10fc8d7a0>', '<object object at 0x10fcb1810>', '<object object at 0x10fcd77d0>', '<object object at 0x10fcfed40>', '<object object at 0x10fd55830>', '<object object at 0x10fd5f0d0>', '<object object at 0x10fd90ab0>', '<object object at 0x10fdae070>', '<object object at 0x10fdb1ce0>', '<object object at 0x10fe38f20>', '<object object at 0x10fe56a10>', '<object object at 0x10fe780d0>']
+  DL: ['object']
+1: ('/invoke/config.py', 'DataProxy_class_initializer', '__hash__') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+2: ('/invoke/config.py', 'Config_class_initializer', 'file_prefix') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+3: ('/invoke/config.py', 'Config_class_initializer', 'env_prefix') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+4: ('/invoke/runners.py', 'module_initializer', 'pty') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+5: ('/invoke/runners.py', 'module_initializer', 'fcntl') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+6: ('/invoke/runners.py', 'module_initializer', 'termios') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+7: ('/invoke/exceptions.py', 'ThreadException_class_initializer', 'exceptions') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+8: ('/invoke/vendor/fluidity/machine.py', 'module_initializer', '_transition_gatherer') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+9: ('/invoke/vendor/fluidity/machine.py', 'module_initializer', '_state_gatherer') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+10: ('/invoke/vendor/fluidity/machine.py', 'module_initializer', 'StateMachineBase') 0 (Match)
+  PT: ['MetaStateMachine']
+  DL: ['MetaStateMachine']
+11: ('/invoke/vendor/fluidity/backwardscompat.py', 'module_initializer', 'callable') 0 (Match)
+  PT: ['meta_func']
+  DL: ['callable']
+12: ('/invoke/vendor/decorator.py', 'module_initializer', 'init') 1 (Manual match)
+  PT: ["FullArgSpec(args=['self', 'func', 'args', 'kwds'], varargs=None, varkw=None, defaults=None, kwonlyargs=[], kwonlydefaults=None, annotations={})"]
+  DL: ['inspect.getfullargspec']
+13: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'args') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+14: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'varargs') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+15: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'varkw') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+16: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'defaults') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+17: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'kwonlyargs') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+18: ('/invoke/vendor/decorator.py', 'FunctionMaker_class_initializer', 'kwonlydefaults') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+19: ('/invoke/vendor/six.py', 'module_initializer', 'PY2') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+20: ('/invoke/vendor/six.py', 'module_initializer', 'PY3') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+21: ('/invoke/vendor/six.py', 'module_initializer', 'PY34') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+22: ('/invoke/vendor/six.py', 'module_initializer', 'string_types') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+23: ('/invoke/vendor/six.py', 'module_initializer', 'integer_types') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+24: ('/invoke/vendor/six.py', 'module_initializer', 'class_types') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+25: ('/invoke/vendor/six.py', 'module_initializer', 'binary_type') 0 (Match)
+  PT: ['bytes', 'str']
+  DL: ['bytes', 'str']
+26: ('/invoke/vendor/six.py', 'module_initializer', 'MAXSIZE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+27: ('/invoke/vendor/six.py', 'module_initializer', '_importer') 0 (Match)
+  PT: ['_SixMetaPathImporter']
+  DL: ['_SixMetaPathImporter']
+28: ('/invoke/vendor/six.py', 'module_initializer', '_moved_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+29: ('/invoke/vendor/six.py', 'module_initializer', 'moves') 0 (Match)
+  PT: ['_MovedItems']
+  DL: ['_MovedItems']
+30: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_parse_moved_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+31: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_error_moved_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+32: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_request_moved_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+33: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_response_moved_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+34: ('/invoke/vendor/six.py', 'module_initializer', '_urllib_robotparser_moved_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+35: ('/invoke/vendor/six.py', 'module_initializer', 'advance_iterator') 1 (Manual match)
+  PT: ['<built-in function next>']
+  DL: ['next']
+36: ('/invoke/vendor/six.py', 'module_initializer', 'callable') 0 (Match)
+  PT: ['meta_func']
+  DL: ['callable']
+37: ('/invoke/vendor/six.py', 'module_initializer', 'Iterator') 0 (Match)
+  PT: ['object']
+  DL: ['object']
+38: ('/invoke/vendor/six.py', 'module_initializer', 'iterbytes') 1 (Manual match)
+  PT: ['<built-in function iter>']
+  DL: ['iter']
+39: ('/invoke/vendor/six.py', 'module_initializer', '__path__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+40: ('/invoke/vendor/six.py', '_LazyModule_class_initializer', '_moved_attributes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+41: ('/invoke/vendor/six.py', '_MovedItems_class_initializer', '__path__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+42: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', '__path__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+43: ('/invoke/vendor/yaml3/scanner.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+44: ('/invoke/vendor/yaml3/scanner.py', 'Scanner_class_initializer', 'ESCAPE_REPLACEMENTS') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+45: ('/invoke/vendor/yaml3/scanner.py', 'Scanner_class_initializer', 'ESCAPE_CODES') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+46: ('/invoke/vendor/yaml3/error.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+47: ('/invoke/vendor/yaml3/constructor.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+48: ('/invoke/vendor/yaml3/constructor.py', 'BaseConstructor_class_initializer', 'yaml_constructors') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+49: ('/invoke/vendor/yaml3/constructor.py', 'BaseConstructor_class_initializer', 'yaml_multi_constructors') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+50: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'bool_values') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+51: ('/invoke/vendor/yaml3/composer.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+52: ('/invoke/vendor/yaml3/__init__.py', 'module_initializer', '__with_libyaml__') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+53: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', '__slots__') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+54: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', 'yaml_tag') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+55: ('/invoke/vendor/yaml3/__init__.py', 'YAMLObject_class_initializer', 'yaml_flow_style') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+56: ('/invoke/vendor/yaml3/representer.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+57: ('/invoke/vendor/yaml3/representer.py', 'BaseRepresenter_class_initializer', 'yaml_representers') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+58: ('/invoke/vendor/yaml3/representer.py', 'BaseRepresenter_class_initializer', 'yaml_multi_representers') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+59: ('/invoke/vendor/yaml3/dumper.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+60: ('/invoke/vendor/yaml3/cyaml.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+61: ('/invoke/vendor/yaml3/parser.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+62: ('/invoke/vendor/yaml3/parser.py', 'Parser_class_initializer', 'DEFAULT_TAGS') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+63: ('/invoke/vendor/yaml3/reader.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+64: ('/invoke/vendor/yaml3/loader.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+65: ('/invoke/vendor/yaml3/resolver.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+66: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'yaml_implicit_resolvers') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+67: ('/invoke/vendor/yaml3/resolver.py', 'BaseResolver_class_initializer', 'yaml_path_resolvers') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+68: ('/invoke/vendor/yaml3/serializer.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+69: ('/invoke/vendor/yaml3/emitter.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+70: ('/invoke/vendor/yaml3/emitter.py', 'Emitter_class_initializer', 'DEFAULT_TAG_PREFIXES') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+71: ('/invoke/vendor/yaml3/emitter.py', 'Emitter_class_initializer', 'ESCAPE_REPLACEMENTS') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+72: ('/setup.py', 'module_initializer', '_locals') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+73: ('/setup.py', 'module_initializer', 'exclude') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+74: ('/integration/runners.py', 'module_initializer', 'PYPY') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+75: ('/invoke/terminals.py', 'module_initializer', 'WINDOWS') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+76: ('/invoke/_version.py', 'module_initializer', '__version_info__') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+77: ('/sites/shared_conf.py', 'module_initializer', 'html_theme_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+78: ('/sites/shared_conf.py', 'module_initializer', 'extensions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+79: ('/sites/shared_conf.py', 'module_initializer', 'html_theme_options') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+80: ('/sites/shared_conf.py', 'module_initializer', 'html_sidebars') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+81: ('/sites/shared_conf.py', 'module_initializer', 'intersphinx_mapping') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+82: ('/sites/shared_conf.py', 'module_initializer', 'doctest_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+83: ('/sites/shared_conf.py', 'module_initializer', 'year') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+84: ('/sites/shared_conf.py', 'module_initializer', 'templates_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+85: ('/sites/shared_conf.py', 'module_initializer', 'exclude_trees') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+86: ('/sites/docs/conf.py', 'module_initializer', 'autodoc_default_flags') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+87: ('/tasks.py', 'module_initializer', 'ns') 0 (Match)
+  PT: ['Collection']
+  DL: ['invoke.Collection']
+88: ('/invoke/tasks.py', '__init__', 'optional') 1 (Manual match)
+  PT: ['tuple']
+  DL: ['()']
+89: ('/invoke/parser/context.py', '__init__', 'aliases') 1 (Manual match)
+  PT: ['tuple']
+  DL: ['()']
+90: ('/invoke/executor.py', 'execute', 'direct') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+91: ('/invoke/executor.py', 'execute', 'expanded') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+92: ('/invoke/executor.py', 'execute', 'dedupe') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+93: ('/invoke/executor.py', 'execute', 'results') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+94: ('/invoke/executor.py', 'execute', 'autoprint') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+95: ('/invoke/executor.py', 'execute', 'context') 0 (Match)
+  PT: ['Context']
+  DL: ['Context']
+96: ('/invoke/collection.py', 'configure', 'options') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+97: ('/invoke/tasks.py', 'fill_implicit_positionals', 'spec_dict') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+98: ('/invoke/collection.py', 'transform', 'replaced') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+99: ('/invoke/collection.py', 'transform', 'end') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+100: ('/invoke/executor.py', 'normalize', 'calls') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+101: ('/invoke/executor.py', 'normalize', 'c') 0 (Match)
+  PT: ['Call']
+  DL: ['tasks.Call']
+102: ('/invoke/executor.py', 'expand_calls', 'ret') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+103: ('/invoke/executor.py', 'dedupe', 'calls') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+104: ('/invoke/executor.py', 'dedupe', 'deduped') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+105: ('/invoke/config.py', 'load_collection', 'data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+106: ('/invoke/config.py', 'load_shell_env', 'loader') 0 (Match)
+  PT: ['Environment']
+  DL: ['env.Environment']
+107: ('/invoke/tasks.py', 'argspec', 'matched_args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+108: ('/invoke/tasks.py', 'argspec', 'spec_dict') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+109: ('/invoke/collection.py', 'add_collection', 'coll') 0 (Match)
+  PT: ['Collection']
+  DL: ['invoke.Collection']
+110: ('/invoke/env.py', 'load', 'env_vars') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+111: ('/invoke/config.py', '_load_file', 'paths') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+112: ('/invoke/env.py', '_crawl', 'key_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+113: ('/invoke/env.py', '_crawl', 'env_vars') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+114: ('/invoke/env.py', '_crawl', 'new_vars') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+115: ('/invoke/env.py', '_crawl', 'merged_vars') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+116: ('/invoke/env.py', '_crawl', 'merged_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+117: ('/invoke/env.py', '_path_set', 'new_') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+118: ('/invoke/context.py', '__init__', 'command_prefixes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+119: ('/invoke/context.py', '__init__', 'command_cwds') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+120: ('/invoke/config.py', 'load_defaults', 'data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+121: ('/invoke/config.py', 'load_overrides', 'data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+122: ('/invoke/config.py', 'clear', 'keys') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+123: ('/invoke/config.py', '_remove', 'keypath') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+124: ('/invoke/config.py', '_modify', 'keypath') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+125: ('/invoke/tasks.py', 'task', 'optional') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+126: ('/invoke/program.py', 'update_config', 'run') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+127: ('/invoke/program.py', 'update_config', 'tasks') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+128: ('/invoke/program.py', 'update_config', 'timeouts') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+129: ('/invoke/program.py', 'update_config', 'sudo') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+130: ('/invoke/program.py', 'update_config', 'overrides') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+131: ('/invoke/program.py', 'parse_core_args', 'parser') 0 (Match)
+  PT: ['Parser']
+  DL: ['parser.Parser']
+132: ('/invoke/completion/complete.py', 'print_completion_script', 'completions') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+133: ('/invoke/program.py', 'initial_context', 'args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+134: ('/invoke/completion/complete.py', 'complete', 'parser') 0 (Match)
+  PT: ['Parser']
+  DL: ['parser.Parser']
+135: ('/invoke/parser/parser.py', 'parse_argv', 'machine') 0 (Match)
+  PT: ['ParseMachine']
+  DL: ['ParseMachine']
+136: ('/invoke/parser/parser.py', 'parse_argv', 'mutations') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+137: ('/invoke/parser/parser.py', 'parse_argv', 'have_flag') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+138: ('/invoke/parser/parser.py', 'parse_argv', 'subtoken_is_valid_flag') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+139: ('/invoke/parser/parser.py', 'parse_argv', 'result') 0 (Match)
+  PT: ['ParseResult']
+  DL: ['parser.ParseResult']
+140: ('/invoke/parser/parser.py', 'waiting_for_flag_value', 'has_value') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+141: ('/invoke/parser/context.py', 'flag_names', 'names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+142: ('/invoke/parser/context.py', 'help_for', 'full_names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+143: ('/invoke/terminals.py', '_pty_size', 'size') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+144: ('/invoke/terminals.py', '_win_pty_size', '_fields_') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+145: ('/invoke/parser/parser.py', 'check_ambiguity', 'tests') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+146: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+147: ('/invoke/vendor/decorator.py', 'decorator', 'caller') 0 (Match)
+  PT: ['ContextManager']
+  DL: ['ContextManager']
+148: ('/invoke/vendor/decorator.py', 'decorator', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+149: ('/invoke/vendor/decorator.py', 'decorator', 'evaldict') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+150: ('/invoke/vendor/decorator.py', 'decorate', 'caller') 0 (Match)
+  PT: ['ContextManager']
+  DL: ['ContextManager']
+151: ('/invoke/vendor/decorator.py', 'decorate', 'evaldict') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+152: ('/invoke/runners.py', '__init__', 'hide') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+153: ('/invoke/context.py', 'set_result_for', 'result') 0 (Match)
+  PT: ['Result']
+  DL: ['runners.Result']
+154: ('/invoke/context.py', 'set_result_for', 'heck') 1 (Manual match)
+  PT: ["Can't update results for non-dict or nonexistent mock results!"]
+  DL: ['TypeError']
+155: ('/invoke/context.py', '_sudo', 'watcher') 0 (Match)
+  PT: ['FailingResponder']
+  DL: ['watchers.FailingResponder']
+156: ('/invoke/context.py', '_sudo', 'error') 0 (Match)
+  PT: ['AuthFailure']
+  DL: ['exceptions.AuthFailure']
+157: ('/invoke/context.py', '_prefix_commands', 'prefixes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+158: ('/invoke/runners.py', 'should_use_pty', 'use_pty') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+159: ('/invoke/runners.py', 'create_io_threads', 'thread_args') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+160: ('/invoke/runners.py', 'create_io_threads', 'threads') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+161: ('/invoke/runners.py', 'create_io_threads', 't') 0 (Match)
+  PT: ['ExceptionHandlingThread']
+  DL: ['util.ExceptionHandlingThread']
+162: ('/invoke/runners.py', '_finish', 'watcher_errors') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+163: ('/invoke/runners.py', '_finish', 'thread_exceptions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+164: ('/invoke/runners.py', '_unify_kwargs_with_config', 'opts') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+165: ('/invoke/runners.py', '_collate_result', 'watcher_errors') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+166: ('/invoke/runners.py', 'normalize_hide', 'hide_vals') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+167: ('/invoke/runners.py', 'normalize_hide', 'hide') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+168: ('/invoke/util.py', 'cd', 'where') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+169: ('/invoke/util.py', 'cd', 'cwd') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+170: ('/invoke/collection.py', 'to_contexts', 'result') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+171: ('/invoke/collection.py', 'task_names', 'ret') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+172: ('/invoke/collection.py', 'task_names', 'aliases') 0 (Match)
+  PT: ['list', 'tuple']
+  DL: ['list', 'tuple']
+173: ('/invoke/util.py', 'helpline', 'docstring') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+174: ('/invoke/tasks.py', 'clone', 'data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+175: ('/integration/runners.py', 'both_streams', 'watchers') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+176: ('/integration/_support/regression.py', 'check', 'failures') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+177: ('/invoke/terminals.py', 'cbreak_already_set', 'echo') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+178: ('/invoke/terminals.py', 'cbreak_already_set', 'icanon') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+179: ('/invoke/terminals.py', 'cbreak_already_set', 'sentinels') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+180: ('/invoke/tasks.py', 'arg_opts', 'opts') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+181: ('/invoke/tasks.py', 'arg_opts', 'names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+182: ('/invoke/tasks.py', 'get_arguments', 'args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+183: ('/invoke/config.py', '__setattr__', 'has_real_attr') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+184: ('/invoke/config.py', '_get', 'keypath') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+185: ('/invoke/config.py', '_load_py', 'data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+186: ('/invoke/runners.py', 'handle_stdin', 'closed_stdin') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+187: ('/invoke/runners.py', 'read_proc_stdout', 'stringified') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+188: ('/invoke/runners.py', 'read_proc_stdout', 'io_errors') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+189: ('/invoke/runners.py', '__str__', 'ret') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+190: ('/invoke/collection.py', '__repr__', 'task_names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+191: ('/invoke/program.py', '_make_pairs', 'ancestors') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+192: ('/invoke/program.py', '_make_pairs', 'pairs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+193: ('/invoke/program.py', '_make_pairs', 'is_default') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+194: ('/invoke/program.py', '_make_pairs', 'aliases') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+195: ('/invoke/exceptions.py', '_printable_kwargs', 'printable') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+196: ('/invoke/exceptions.py', '__str__', 'details') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+197: ('/invoke/exceptions.py', '__str__', 'args') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+198: ('/invoke/parser/context.py', 'flag_key', 'ret') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+199: ('/invoke/parser/context.py', 'as_kwargs', 'ret') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+200: ('/invoke/vendor/decorator.py', '__init__', 'allargs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+201: ('/invoke/vendor/decorator.py', '__init__', 'allshortargs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+202: ('/invoke/vendor/decorator.py', 'make', 'names') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+203: ('/invoke/vendor/decorator.py', 'append', 'add') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+204: ('/invoke/vendor/six.py', '__dir__', 'attrs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+205: ('/invoke/vendor/fluidity/machine.py', '__new__', '_transition_gatherer') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+206: ('/invoke/vendor/fluidity/machine.py', '__new__', '_state_gatherer') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+207: ('/invoke/vendor/fluidity/machine.py', '_ensure_from_validity', 'valid_transitions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+208: ('/invoke/vendor/fluidity/machine.py', '_check_guards', 'allowed_transitions') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+209: ('/invoke/vendor/fluidity/machine.py', 'check', 'result') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+210: ('/invoke/vendor/yaml3/scanner.py', 'scan_to_next_token', 'found') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+211: ('/invoke/vendor/yaml3/scanner.py', 'scan_yaml_directive_number', 'value') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+212: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'use_handle') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+213: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'value') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+214: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'folded') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+215: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+216: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar', 'leading_non_space') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+217: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indentation', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+218: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_breaks', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+219: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar', 'double') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+220: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+221: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+222: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+223: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_spaces', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+224: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_breaks', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+225: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+226: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain', 'spaces') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+227: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain_spaces', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+228: ('/invoke/vendor/yaml3/scanner.py', 'scan_plain_spaces', 'breaks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+229: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag_uri', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+230: ('/invoke/vendor/yaml3/scanner.py', 'scan_uri_escapes', 'codes') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+231: ('/invoke/vendor/yaml3/error.py', '__str__', 'lines') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+232: ('/invoke/vendor/yaml3/constructor.py', 'construct_mapping', 'mapping') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+233: ('/invoke/vendor/yaml3/constructor.py', 'construct_pairs', 'pairs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+234: ('/invoke/vendor/yaml3/constructor.py', 'flatten_mapping', 'merge') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+235: ('/invoke/vendor/yaml3/constructor.py', 'flatten_mapping', 'submerge') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+236: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'year') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+237: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'month') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+238: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'day') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+239: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'hour') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+240: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'minute') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+241: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'second') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+242: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'tz_hour') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+243: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'tz_minute') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+244: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_omap', 'omap') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+245: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_pairs', 'pairs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+246: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_set', 'data') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+247: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_seq', 'data') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+248: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_map', 'data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+249: ('/invoke/vendor/yaml3/constructor.py', 'make_python_instance', 'args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+250: ('/invoke/vendor/yaml3/constructor.py', 'make_python_instance', 'kwds') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+251: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'kwds') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+252: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'state') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+253: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'listitems') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+254: ('/invoke/vendor/yaml3/constructor.py', 'construct_python_object_apply', 'dictitems') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+255: ('/invoke/vendor/yaml3/representer.py', 'represent_sequence', 'value') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+256: ('/invoke/vendor/yaml3/representer.py', 'represent_sequence', 'best_style') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+257: ('/invoke/vendor/yaml3/representer.py', 'represent_mapping', 'value') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+258: ('/invoke/vendor/yaml3/representer.py', 'represent_mapping', 'best_style') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+259: ('/invoke/vendor/yaml3/representer.py', 'represent_float', 'value') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+260: ('/invoke/vendor/yaml3/representer.py', 'represent_set', 'value') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+261: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'newobj') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+262: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'value') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+263: ('/invoke/vendor/yaml3/parser.py', 'parse_document_end', 'explicit') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+264: ('/invoke/vendor/yaml3/parser.py', 'process_directives', 'value') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+265: ('/invoke/vendor/yaml3/resolver.py', 'add_implicit_resolver', 'first') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+266: ('/invoke/vendor/yaml3/resolver.py', 'add_path_resolver', 'new_path') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+267: ('/invoke/vendor/yaml3/resolver.py', 'descend_resolver', 'exact_paths') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+268: ('/invoke/vendor/yaml3/resolver.py', 'descend_resolver', 'prefix_paths') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+269: ('/invoke/vendor/yaml3/serializer.py', 'serialize_node', 'implicit') 0 (Match)
+  PT: ['tuple', 'bool']
+  DL: ['tuple', 'bool']
+270: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag_prefix', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+271: ('/invoke/vendor/yaml3/emitter.py', 'prepare_tag', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+272: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'block_indicators') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+273: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'flow_indicators') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+274: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'line_breaks') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+275: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'special_characters') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+276: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'leading_space') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+277: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'leading_break') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+278: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'trailing_space') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+279: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'trailing_break') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+280: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'break_space') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+281: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'space_break') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+282: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'preceeded_by_whitespace') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+283: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'previous_space') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+284: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'previous_break') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+285: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'unicode_characters') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+286: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_flow_plain') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+287: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_block_plain') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+288: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_single_quoted') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+289: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_double_quoted') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+290: ('/invoke/vendor/yaml3/emitter.py', 'analyze_scalar', 'allow_block') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+291: ('/invoke/vendor/yaml3/emitter.py', 'write_single_quoted', 'spaces') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+292: ('/invoke/vendor/yaml3/emitter.py', 'write_single_quoted', 'breaks') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+293: ('/invoke/vendor/yaml3/emitter.py', 'determine_block_hints', 'hints') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+294: ('/invoke/vendor/yaml3/emitter.py', 'write_folded', 'leading_space') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+295: ('/invoke/vendor/yaml3/emitter.py', 'write_folded', 'spaces') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+296: ('/invoke/vendor/yaml3/emitter.py', 'write_folded', 'breaks') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+297: ('/invoke/vendor/yaml3/emitter.py', 'write_literal', 'breaks') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+298: ('/invoke/vendor/yaml3/emitter.py', 'write_plain', 'spaces') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+299: ('/invoke/vendor/yaml3/emitter.py', 'write_plain', 'breaks') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']

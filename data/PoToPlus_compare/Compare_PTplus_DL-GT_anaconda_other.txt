@@ -1,0 +1,1557 @@
+0: ('/anaconda_lib/_typing.py', 'module_initializer', 'T') 6 (DL subset PT)
+  PT: ['TypeVar', '~T']
+  DL: ['TypeVar']
+1: ('/anaconda_lib/_typing.py', 'module_initializer', 'KT') 6 (DL subset PT)
+  PT: ['TypeVar', '~KT']
+  DL: ['TypeVar']
+2: ('/anaconda_lib/_typing.py', 'module_initializer', 'VT') 6 (DL subset PT)
+  PT: ['TypeVar', '~VT']
+  DL: ['TypeVar']
+3: ('/anaconda_lib/_typing.py', 'module_initializer', 'T_co') 6 (DL subset PT)
+  PT: ['+T_co', 'TypeVar']
+  DL: ['TypeVar']
+4: ('/anaconda_lib/_typing.py', 'module_initializer', 'V_co') 6 (DL subset PT)
+  PT: ['+V_co', 'TypeVar']
+  DL: ['TypeVar']
+5: ('/anaconda_lib/_typing.py', 'module_initializer', 'VT_co') 6 (DL subset PT)
+  PT: ['+VT_co', 'TypeVar']
+  DL: ['TypeVar']
+6: ('/anaconda_lib/_typing.py', 'module_initializer', 'T_contra') 6 (DL subset PT)
+  PT: ['-T_contra', 'TypeVar']
+  DL: ['TypeVar']
+7: ('/anaconda_lib/_typing.py', 'module_initializer', 'AnyStr') 6 (DL subset PT)
+  PT: ['TypeVar', '~AnyStr']
+  DL: ['TypeVar']
+8: ('/anaconda_lib/_typing.py', 'module_initializer', 'Hashable') 3 (PT Empty)
+  PT: []
+  DL: ['Hashable']
+9: ('/anaconda_lib/_typing.py', 'module_initializer', 'Sized') 3 (PT Empty)
+  PT: []
+  DL: ['Sized']
+10: ('/anaconda_lib/_typing.py', 're_class_initializer', 'Pattern') 7 (etc)
+  PT: ['_TypeAlias']
+  DL: ['Pattern']
+11: ('/anaconda_lib/_typing.py', 're_class_initializer', 'Match') 7 (etc)
+  PT: ['_TypeAlias']
+  DL: ['Match']
+12: ('/anaconda_lib/six.py', 'module_initializer', 'text_type') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['str', 'unicode']
+13: ('/anaconda_lib/six.py', 'module_initializer', 'next') 7 (etc)
+  PT: ['<built-in function next>']
+  DL: ['advance_iterator']
+14: ('/anaconda_lib/six.py', 'module_initializer', 'unichr') 6 (DL subset PT)
+  PT: ['<built-in function chr>']
+  DL: ['chr', 'unichr']
+15: ('/anaconda_lib/six.py', 'module_initializer', 'exec_') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+16: ('/anaconda_lib/six.py', 'module_initializer', 'print_') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+17: ('/anaconda_lib/six.py', 'module_initializer', '_print') 3 (PT Empty)
+  PT: []
+  DL: ['print_']
+18: ('/anaconda_lib/six.py', 'module_initializer', '__package__') 7 (etc)
+  PT: ['str']
+  DL: ['__name__']
+19: ('/anaconda_lib/linting/mccabe.py', 'McCabeChecker_class_initializer', 'version') 7 (etc)
+  PT: ['str']
+  DL: ['__version__']
+20: ('/anaconda_lib/linting/anaconda_mypy.py', 'MyPy_class_initializer', 'VERSION') 7 (etc)
+  PT: ['None', 'tuple']
+  DL: ['parse_mypy_version']
+21: ('/anaconda_lib/linting/pydocstyle/config.py', 'module_initializer', 'CheckConfiguration') 7 (etc)
+  PT: ['pt_engine.utils.base.CheckConfiguration']
+  DL: ['collections.namedtuple']
+22: ('/anaconda_lib/linting/pydocstyle/config.py', 'module_initializer', 'RunConfiguration') 7 (etc)
+  PT: ['pt_engine.utils.base.RunConfiguration']
+  DL: ['collections.namedtuple']
+23: ('/anaconda_lib/linting/pydocstyle/violations.py', 'module_initializer', 'ErrorParams') 7 (etc)
+  PT: ['pt_engine.utils.base.ErrorParams']
+  DL: ['collections.namedtuple']
+24: ('/anaconda_lib/linting/pydocstyle/violations.py', 'module_initializer', 'D1xx') 3 (PT Empty)
+  PT: []
+  DL: ['ErrorGroup']
+25: ('/anaconda_lib/linting/pydocstyle/violations.py', 'module_initializer', 'D2xx') 3 (PT Empty)
+  PT: []
+  DL: ['ErrorGroup']
+26: ('/anaconda_lib/linting/pydocstyle/violations.py', 'module_initializer', 'D3xx') 3 (PT Empty)
+  PT: []
+  DL: ['ErrorGroup']
+27: ('/anaconda_lib/linting/pydocstyle/violations.py', 'module_initializer', 'D4xx') 3 (PT Empty)
+  PT: []
+  DL: ['ErrorGroup']
+28: ('/anaconda_lib/linting/pydocstyle/violations.py', 'module_initializer', 'all_errors') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+29: ('/anaconda_lib/linting/pydocstyle/violations.py', 'Error_class_initializer', 'filename') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+30: ('/anaconda_lib/linting/pydocstyle/violations.py', 'Error_class_initializer', 'line') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+31: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', 'kind') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+32: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', 'module') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+33: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', 'all') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+34: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', '_slice') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+35: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Module_class_initializer', 'all') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+36: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Parser_class_initializer', 'current') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+37: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Parser_class_initializer', 'line') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+38: ('/anaconda_lib/jedi/parser/token.py', 'module_initializer', 'COMMENT') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.N_TOKENS']
+39: ('/anaconda_lib/jedi/parser/token.py', 'module_initializer', 'NL') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.N_TOKENS']
+40: ('/anaconda_lib/jedi/parser/token.py', 'module_initializer', 'BACKQUOTE') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.N_TOKENS']
+41: ('/anaconda_lib/jedi/parser/token.py', 'module_initializer', 'RARROW') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.N_TOKENS']
+42: ('/anaconda_lib/jedi/parser/token.py', 'module_initializer', 'ELLIPSIS') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.N_TOKENS']
+43: ('/anaconda_lib/jedi/parser/token.py', 'module_initializer', 'ATEQUAL') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.N_TOKENS']
+44: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'COMMENT') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.N_TOKENS']
+45: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Intnumber') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+46: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Floatnumber') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+47: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Imagnumber') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+48: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Number') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+49: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'StringPrefix') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+50: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Triple') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+51: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Operator') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+52: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Special') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+53: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'Funny') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+54: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'PlainToken') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+55: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'ContStr') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+56: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'PseudoExtras') 7 (etc)
+  PT: ['str']
+  DL: ['group']
+57: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'path') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+58: ('/anaconda_lib/jedi/parser/tokenize.py', 'module_initializer', 'code') 3 (PT Empty)
+  PT: []
+  DL: ['jedi._compatibility.u']
+59: ('/anaconda_lib/jedi/parser/python/diff.py', '_NodesStackNode_class_initializer', 'ChildrenGroup') 7 (etc)
+  PT: ['pt_engine.utils.base.ChildrenGroup']
+  DL: ['collections.namedtuple']
+60: ('/anaconda_lib/linting/pyflakes/checker.py', 'module_initializer', 'builtin_vars') 7 (etc)
+  PT: ['list']
+  DL: ['dir']
+61: ('/anaconda_lib/jedi/debug.py', 'module_initializer', '_start_time') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+62: ('/anaconda_lib/jedi/_compatibility.py', 'module_initializer', 'unicode') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['unicode', 'str']
+63: ('/anaconda_lib/jedi/_compatibility.py', 'module_initializer', 'FileNotFoundError') 8 (Partial match)
+  PT: ['FileNotFoundError', 'OSError']
+  DL: ['FileNotFoundError', 'IOError']
+64: ('/anaconda_lib/jedi/_compatibility.py', 'module_initializer', 'IsADirectoryError') 8 (Partial match)
+  PT: ['IsADirectoryError', 'OSError']
+  DL: ['IsADirectoryError', 'IOError']
+65: ('/anaconda_lib/jedi/_compatibility.py', 'module_initializer', 'PermissionError') 8 (Partial match)
+  PT: ['OSError', 'PermissionError']
+  DL: ['PermissionError', 'IOError']
+66: ('/anaconda_lib/jedi/evaluate/compiled/fake.py', 'module_initializer', 'MethodDescriptorType') 7 (etc)
+  PT: ['method_descriptor']
+  DL: ['type']
+67: ('/anaconda_lib/jedi/evaluate/compiled/__init__.py', 'module_initializer', 'MethodDescriptorType') 7 (etc)
+  PT: ['method_descriptor']
+  DL: ['type']
+68: ('/anaconda_lib/jedi/evaluate/compiled/__init__.py', 'module_initializer', 'WrapperDescriptorType') 7 (etc)
+  PT: ['wrapper_descriptor']
+  DL: ['type']
+69: ('/anaconda_lib/jedi/evaluate/compiled/__init__.py', 'module_initializer', 'ClassMethodDescriptorType') 7 (etc)
+  PT: ['classmethod_descriptor']
+  DL: ['type']
+70: ('/anaconda_lib/jedi/api/environment.py', 'module_initializer', '_VersionInfo') 7 (etc)
+  PT: ['pt_engine.utils.base.VersionInfo']
+  DL: ['collections.namedtuple']
+71: ('/anaconda_lib/jedi/api/helpers.py', 'module_initializer', 'CompletionParts') 7 (etc)
+  PT: ['pt_engine.utils.base.CompletionParts']
+  DL: ['collections.namedtuple']
+72: ('/anaconda_lib/jedi/inference/compiled/access.py', 'module_initializer', 'MethodDescriptorType') 7 (etc)
+  PT: ['method_descriptor']
+  DL: ['type']
+73: ('/anaconda_lib/jedi/inference/compiled/access.py', 'module_initializer', 'WrapperDescriptorType') 7 (etc)
+  PT: ['wrapper_descriptor']
+  DL: ['type']
+74: ('/anaconda_lib/jedi/inference/compiled/access.py', 'module_initializer', 'ClassMethodDescriptorType') 7 (etc)
+  PT: ['classmethod_descriptor']
+  DL: ['type']
+75: ('/anaconda_lib/jedi/inference/compiled/access.py', 'module_initializer', 'SignatureParam') 7 (etc)
+  PT: ['pt_engine.utils.base.SignatureParam']
+  DL: ['collections.namedtuple']
+76: ('/anaconda_lib/jedi/inference/compiled/subprocess/__main__.py', 'module_initializer', 'pickle_protocol') 3 (PT Empty)
+  PT: []
+  DL: ['jedi._compatibility.highest_pickle_protocol']
+77: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'module_initializer', 'Token') 7 (etc)
+  PT: ['pt_engine.utils.base.Token']
+  DL: ['(namedtuple)']
+78: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/refactor.py', 'module_initializer', '_from_system_newlines') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_identity']
+79: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/refactor.py', 'module_initializer', '_to_system_newlines') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_identity']
+80: ('/anaconda_lib/parso/grammar.py', 'PythonGrammar_class_initializer', '_error_normalizer_config') 3 (PT Empty)
+  PT: []
+  DL: ['parso.python.errors.ErrorFinderConfig']
+81: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Intnumber') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+82: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Floatnumber') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+83: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Imagnumber') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+84: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Number') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+85: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Triple') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+86: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'String') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+87: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Operator') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+88: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Special') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+89: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'Funny') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+90: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'PlainToken') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+91: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'ContStr') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+92: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'PseudoExtras') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+93: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'tokenprog') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+94: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'pseudoprog') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+95: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'single3prog') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+96: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'module_initializer', 'double3prog') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+97: ('/anaconda_lib/jedi/api/refactoring/extract.py', 'module_initializer', '_EXTRACT_USE_PARENT') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+98: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', 'Node_class_initializer', 'prefix') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+99: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', 'Leaf_class_initializer', 'prefix') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+100: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/fixes/fix_imports2.py', 'FixImports2_class_initializer', 'mapping') 7 (etc)
+  PT: ['dict']
+  DL: ['MAPPING']
+101: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/fixes/fix_imports.py', 'FixImports_class_initializer', 'mapping') 7 (etc)
+  PT: ['dict']
+  DL: ['MAPPING']
+102: ('/anaconda_lib/parso/cache.py', 'module_initializer', '_default_cache_path') 7 (etc)
+  PT: ['str']
+  DL: ['_get_default_cache_path']
+103: ('/anaconda_lib/parso/python/prefix.py', 'module_initializer', '_bom') 7 (etc)
+  PT: ['str']
+  DL: ['unicode_bom']
+104: ('/anaconda_lib/parso/python/prefix.py', 'module_initializer', '_regex') 3 (PT Empty)
+  PT: []
+  DL: ['parso.python.tokenize.group']
+105: ('/anaconda_lib/parso/python/pep8.py', 'module_initializer', '_NEEDS_SPACE') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', '_BITWISE_OPERATOR']
+106: ('/anaconda_lib/parso/python/pep8.py', 'IndentationNode_class_initializer', 'type') 3 (PT Empty)
+  PT: []
+  DL: ['object']
+107: ('/anaconda_lib/parso/python/pep8.py', 'BackslashNode_class_initializer', 'type') 3 (PT Empty)
+  PT: []
+  DL: ['object']
+108: ('/anaconda_lib/parso/python/diff.py', '_NodesTreeNode_class_initializer', '_ChildrenGroup') 7 (etc)
+  PT: ['pt_engine.utils.base._ChildrenGroup']
+  DL: ['collections.namedtuple']
+109: ('/anaconda_lib/parso/python/tokenize.py', 'module_initializer', 'TokenCollection') 7 (etc)
+  PT: ['pt_engine.utils.base.TokenCollection']
+  DL: ['collections.namedtuple']
+110: ('/anaconda_lib/parso/python/tokenize.py', 'module_initializer', 'fstring_string_single_line') 7 (etc)
+  PT: ["re.compile('[^{}]+', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)"]
+  DL: ['_compile']
+111: ('/anaconda_lib/parso/python/tokenize.py', 'module_initializer', 'fstring_string_multi_line') 7 (etc)
+  PT: ["re.compile('[^{}]+', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)"]
+  DL: ['_compile']
+112: ('/anaconda_lib/parso/python/tokenize.py', 'module_initializer', 'fstring_format_spec_single_line') 7 (etc)
+  PT: ["re.compile('[^{}]+', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)"]
+  DL: ['_compile']
+113: ('/anaconda_lib/parso/python/tokenize.py', 'module_initializer', 'fstring_format_spec_multi_line') 7 (etc)
+  PT: ["re.compile('[^{}]+', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)"]
+  DL: ['_compile']
+114: ('/anaconda_lib/parso/python/tokenize.py', 'module_initializer', 'path') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+115: ('/anaconda_lib/parso/python/tokenize.py', 'module_initializer', 'code') 3 (PT Empty)
+  PT: []
+  DL: ['str', 'parso.utils.python_bytes_to_unicode']
+116: ('/anaconda_lib/parso/_compatibility.py', 'module_initializer', 'unicode') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['parso._compatibility.unicode', 'str']
+117: ('/anaconda_lib/parso/_compatibility.py', 'module_initializer', 'FileNotFoundError') 8 (Partial match)
+  PT: ['FileNotFoundError', 'OSError']
+  DL: ['jedi._compatibility.FileNotFoundError', 'IOError']
+118: ('/version.py', 'module_initializer', 'message_data') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+119: ('/anaconda_lib/linting/pydocstyle/wordlists.py', 'module_initializer', 'IMPERATIVE_BLACKLIST') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+120: ('/anaconda_lib/jedi/evaluate/compiled/getattr_static.py', 'module_initializer', '_shadowed_dict') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_shadowed_dict_newstyle']
+121: ('/anaconda_lib/jedi/evaluate/compiled/getattr_static.py', 'module_initializer', '_static_getmro') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_static_getmro_newstyle']
+122: ('/anaconda_lib/jedi/evaluate/compiled/getattr_static.py', 'module_initializer', '_oldstyle_instance_type') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+123: ('/anaconda_lib/jedi/evaluate/compiled/getattr_static.py', 'module_initializer', '_oldstyle_class_type') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+124: ('/anaconda_lib/jedi/api/completion_cache.py', 'module_initializer', 'get_type') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_create_get_from_cache']
+125: ('/anaconda_lib/jedi/api/completion_cache.py', 'module_initializer', 'get_docstring_signature') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_create_get_from_cache']
+126: ('/anaconda_lib/jedi/api/completion_cache.py', 'module_initializer', 'get_docstring') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_create_get_from_cache']
+127: ('/anaconda_lib/jedi/inference/compiled/getattr_static.py', 'module_initializer', '_shadowed_dict') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_shadowed_dict_newstyle']
+128: ('/anaconda_lib/jedi/inference/compiled/getattr_static.py', 'module_initializer', '_static_getmro') 7 (etc)
+  PT: ['meta_func']
+  DL: ['_static_getmro_newstyle']
+129: ('/anaconda_lib/jedi/inference/compiled/getattr_static.py', 'module_initializer', '_oldstyle_instance_type') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+130: ('/anaconda_lib/jedi/inference/compiled/getattr_static.py', 'module_initializer', '_oldstyle_class_type') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+131: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/fixer_util.py', 'module_initializer', '_def_syms') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+132: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/fixer_util.py', 'module_initializer', '_block_syms') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+133: ('/anaconda_lib/parso/utils.py', 'module_initializer', 'Version') 7 (etc)
+  PT: ['pt_engine.utils.base.Version']
+  DL: ['collections.namedtuple']
+134: ('/anaconda_server/jsonserver.py', 'module_initializer', 'PROJECT_ROOT') 7 (etc)
+  PT: ['str']
+  DL: ['os.path.dirname']
+135: ('/anaconda_server/jsonserver.py', 'module_initializer', 'port') 7 (etc)
+  PT: ['None']
+  DL: ['tuple', 'int']
+136: ('/anaconda_server/jsonserver.py', 'module_initializer', 'PID') 7 (etc)
+  PT: ['None', 'list']
+  DL: ['tuple', 'dict']
+137: ('/anaconda_server/jsonserver.py', 'module_initializer', 'log_directory') 3 (PT Empty)
+  PT: []
+  DL: ['os.path.join']
+138: ('/anaconda_server/jsonserver.py', 'module_initializer', 'unix_socket_path') 3 (PT Empty)
+  PT: []
+  DL: ['unix_socket.UnixSocketPath']
+139: ('/anaconda_server/minserver.py', 'module_initializer', 'port') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+140: ('/anaconda_server/minserver.py', 'module_initializer', 'log_directory') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+141: ('/anaconda_server/autoreload.py', 'module_initializer', 'last_mtime') 7 (etc)
+  PT: ['float']
+  DL: ['max', 'max_mtime']
+142: ('/anaconda_server/autoreload.py', 'module_initializer', 'max_mtime') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+143: ('/anaconda_lib/six.py', '__init__', 'new_attr') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['name', 'old_attr']
+144: ('/anaconda_lib/six.py', '__init__', 'old_attr') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['name']
+145: ('/anaconda_lib/six.py', '__init__', 'new_mod') 7 (etc)
+  PT: ['bool', 'str']
+  DL: ['name']
+146: ('/anaconda_lib/six.py', '__init__', 'new') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['name']
+147: ('/anaconda_lib/six.py', '_add_module', 'mod') 7 (etc)
+  PT: ['MovedAttribute', 'MovedModule']
+  DL: ['Module_six_moves_urllib']
+148: ('/anaconda_lib/jedi/parser/tokenize.py', 'source_tokens', 'lines') 3 (PT Empty)
+  PT: []
+  DL: ['jedi.common.splitlines']
+149: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'load_grammar', 'head') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+150: ('/anaconda_lib/parso/python/tokenize.py', 'tokenize', 'code') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+151: ('/anaconda_lib/parso/python/tokenize.py', 'tokenize', 'lines') 3 (PT Empty)
+  PT: []
+  DL: ['parso.utils.split_lines']
+152: ('/anaconda_server/jsonserver.py', 'get_logger', 'path') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+153: ('/anaconda_server/jsonserver.py', '__init__', 'server') 6 (DL subset PT)
+  PT: ['JSONServer', 'None']
+  DL: ['JSONServer']
+154: ('/anaconda_server/minserver.py', 'get_logger', 'path') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+155: ('/anaconda_lib/linting/anaconda_mypy.py', 'parse_mypy_version', 'version') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+156: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', '__init__', 'fixers_applied') 7 (etc)
+  PT: ['None']
+  DL: ['list']
+157: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'max') 7 (etc)
+  PT: ['int']
+  DL: ['tuple']
+158: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'contstr') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+159: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'contline') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'line']
+160: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'pos') 7 (etc)
+  PT: ['int']
+  DL: ['tuple']
+161: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'txt') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+162: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'token') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+163: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'initial') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+164: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'endprog') 8 (Partial match)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['dict', 'bool']
+165: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'exact_type') 7 (etc)
+  PT: ['int']
+  DL: ['dict', 'jedi.parser.token.ERRORTOKEN']
+166: ('/anaconda_lib/jedi/parser/tokenize.py', 'generate_tokens', 'typ') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.parser.token.ERRORTOKEN', 'exact_type', 'jedi.parser.token.OP']
+167: ('/anaconda_lib/parso/pgen2/generator.py', 'generate_grammar', 'dfas') 7 (etc)
+  PT: ['list']
+  DL: ['_make_dfas']
+168: ('/anaconda_lib/parso/pgen2/generator.py', 'generate_grammar', 'transition') 7 (etc)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['_make_transition']
+169: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/grammar.py', 'load', 'f') 3 (PT Empty)
+  PT: []
+  DL: ['open']
+170: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'compile_pattern', 'tokens') 3 (PT Empty)
+  PT: []
+  DL: ['tokenize_wrapper']
+171: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/grammar.py', 'dump', 'f') 7 (etc)
+  PT: ["<_io.BufferedWriter name='Grammar.txt'>"]
+  DL: ['open']
+172: ('/anaconda_lib/parso/pgen2/generator.py', '_simplify_dfas', 'state_j') 7 (etc)
+  PT: ['DFAState']
+  DL: ['dict']
+173: ('/anaconda_lib/parso/pgen2/generator.py', '_make_transition', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['ast.literal_eval']
+174: ('/anaconda_lib/parso/pgen2/generator.py', '_calculate_tree_traversal', 'prev_plan') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+175: ('/anaconda_lib/parso/pgen2/generator.py', '_calculate_tree_traversal', 'choices') 3 (PT Empty)
+  PT: []
+  DL: ['sorted']
+176: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', '__init__', 'stream') 7 (etc)
+  PT: ["<_io.TextIOWrapper name='Grammar.txt' mode='r' encoding='UTF-8'>", 'None']
+  DL: ['open']
+177: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', '__init__', 'close_stream') 6 (DL subset PT)
+  PT: ['<built-in method close of _io.TextIOWrapper object at 0x10a8d79f0>', '<built-in method close of _io.TextIOWrapper object at 0x115cff850>', 'None']
+  DL: ['None']
+178: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'make_grammar', 'dfa') 6 (DL subset PT)
+  PT: ['None', "TokenInfo(type=0 (ENDMARKER), string='', start=(1, 0), end=(1, 0), line='')", 'dict']
+  DL: ['dict']
+179: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'make_grammar', 'dfa') 6 (DL subset PT)
+  PT: ['None', 'dict']
+  DL: ['dict']
+180: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'tokenize_wrapper', 'type') 3 (PT Empty)
+  PT: []
+  DL: ['quintuple']
+181: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'tokenize_wrapper', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['quintuple']
+182: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'tokenize_wrapper', 'start') 3 (PT Empty)
+  PT: []
+  DL: ['quintuple']
+183: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'tokenize_wrapper', 'end') 3 (PT Empty)
+  PT: []
+  DL: ['quintuple']
+184: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'tokenize_wrapper', 'line_text') 3 (PT Empty)
+  PT: []
+  DL: ['quintuple']
+185: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'lineno') 7 (etc)
+  PT: ['int']
+  DL: ['s_lineno', 'end']
+186: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'column') 7 (etc)
+  PT: ['int']
+  DL: ['s_column', 'end']
+187: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'type') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'quintuple', 'dict']
+188: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'value') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'quintuple']
+189: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'start') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'quintuple']
+190: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'end') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'quintuple']
+191: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'line_text') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'quintuple']
+192: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 'prefix') 7 (etc)
+  PT: ['None', 'int', 'str']
+  DL: ['dict', 'jedi.inference.value']
+193: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 's_lineno') 3 (PT Empty)
+  PT: []
+  DL: ['start']
+194: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/driver.py', 'parse_tokens', 's_column') 3 (PT Empty)
+  PT: []
+  DL: ['start']
+195: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'compile_node', 'node') 7 (etc)
+  PT: ['Leaf', 'Node', 'None']
+  DL: ['dict']
+196: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'compile_node', 'nodes') 7 (etc)
+  PT: ['list']
+  DL: ['dict']
+197: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'compile_node', 'repeat') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'dict']
+198: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'compile_node', 'child') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+199: ('/anaconda_lib/parso/python/tokenize.py', '_get_token_collection', 'result') 3 (PT Empty)
+  PT: []
+  DL: ['_create_token_collection']
+200: ('/anaconda_lib/parso/python/tokenize.py', '_find_fstring_string', 'pos') 7 (etc)
+  PT: ['int']
+  DL: ['list']
+201: ('/anaconda_lib/parso/python/tokenize.py', '_find_fstring_string', 'tos') 7 (etc)
+  PT: ['list']
+  DL: ['dict']
+202: ('/anaconda_lib/parso/python/tokenize.py', '_find_fstring_string', 'regex') 7 (etc)
+  PT: ["re.compile('[^{}]+', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)"]
+  DL: ['fstring_format_spec_multi_line', 'fstring_format_spec_single_line', 'fstring_string_multi_line', 'fstring_string_single_line']
+203: ('/anaconda_lib/parso/python/tokenize.py', '_find_fstring_string', 'string') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+204: ('/anaconda_lib/parso/python/tokenize.py', '_find_fstring_string', 'new_pos') 7 (etc)
+  PT: ['int']
+  DL: ['pos', 'len']
+205: ('/anaconda_lib/parso/python/tokenize.py', '_close_fstring_if_necessary', 'column') 7 (etc)
+  PT: ['int']
+  DL: ['list']
+206: ('/anaconda_lib/parso/pgen2/generator.py', '_calculate_first_plans', 'nonterminal') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+207: ('/anaconda_lib/parso/pgen2/generator.py', '_calculate_first_plans', 'dfas') 6 (DL subset PT)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['dict']
+208: ('/anaconda_lib/parso/pgen2/generator.py', '_calculate_first_plans', 'state') 7 (etc)
+  PT: ['DFAState', 'int', 'list']
+  DL: ['dict']
+209: ('/anaconda_lib/parso/pgen2/generator.py', '_calculate_first_plans', 'first_plans2') 8 (Partial match)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['dict', '_calculate_first_plans']
+210: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'gettoken', 'tup') 7 (etc)
+  PT: ["TokenInfo(type=0 (ENDMARKER), string='', start=(1, 0), end=(1, 0), line='')"]
+  DL: ['next']
+211: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'parse', 'startsymbol') 8 (Partial match)
+  PT: ['None', "TokenInfo(type=0 (ENDMARKER), string='', start=(1, 0), end=(1, 0), line='')"]
+  DL: ['None', 'name']
+212: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'parse', 'oldlen') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+213: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'parse', 'newlen') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+214: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'make_label', 'ilabel') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+215: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'make_label', 'itoken') 8 (Partial match)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['getattr', 'dict']
+216: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'make_label', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['eval']
+217: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'make_first', 'name') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+218: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'make_first', 'rawfirst') 6 (DL subset PT)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['dict']
+219: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'make_first', 'ilabel') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+220: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'gettoken', 'tup') 3 (PT Empty)
+  PT: []
+  DL: ['next']
+221: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'gettoken', 'prefix') 3 (PT Empty)
+  PT: []
+  DL: ['tup']
+222: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'parse', 'startsymbol') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'name']
+223: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'make_label', 'ilabel') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+224: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'make_label', 'itoken') 3 (PT Empty)
+  PT: []
+  DL: ['getattr', 'dict']
+225: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'make_label', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['eval']
+226: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'make_first', 'name') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+227: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'make_first', 'rawfirst') 6 (DL subset PT)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['dict']
+228: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'make_first', 'ilabel') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+229: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'dfa') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+230: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'state') 3 (PT Empty)
+  PT: []
+  DL: ['dict', 'newstate']
+231: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'node') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+232: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'states') 3 (PT Empty)
+  PT: []
+  DL: ['dfa']
+233: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'first') 3 (PT Empty)
+  PT: []
+  DL: ['dfa']
+234: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'arcs') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+235: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 't') 7 (etc)
+  PT: ['int']
+  DL: ['dict']
+236: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'v') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+237: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'itsdfa') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+238: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'itsstates') 3 (PT Empty)
+  PT: []
+  DL: ['itsdfa']
+239: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'addtoken', 'itsfirst') 3 (PT Empty)
+  PT: []
+  DL: ['itsdfa']
+240: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', '__init__', 'content') 6 (DL subset PT)
+  PT: ['None', 'list', 'tuple']
+  DL: ['list', 'tuple']
+241: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', 'optimize', 'subpattern') 8 (Partial match)
+  PT: ['LeafPattern', 'NegatedPattern', 'NodePattern', 'None', 'WildcardPattern']
+  DL: ['None', 'dict']
+242: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'compile_basic', 'node') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+243: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'compile_basic', 'type') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'getattr']
+244: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'whitespace') 3 (PT Empty)
+  PT: []
+  DL: ['_compile']
+245: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Intnumber') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+246: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Floatnumber') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+247: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Imagnumber') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+248: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Number') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+249: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'possible_prefixes') 7 (etc)
+  PT: ['set']
+  DL: ['_all_string_prefixes']
+250: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'StringPrefix') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+251: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'StringPrefixWithF') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+252: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'fstring_prefixes') 7 (etc)
+  PT: ['set']
+  DL: ['_all_string_prefixes']
+253: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'FStringStart') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+254: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Triple') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+255: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Operator') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+256: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Special') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+257: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'Funny') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+258: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'ContStr') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+259: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'PseudoExtras') 7 (etc)
+  PT: ['str']
+  DL: ['parso.python.tokenize.group']
+260: ('/anaconda_lib/parso/python/tokenize.py', '_create_token_collection', 'pseudo_token_compiled') 3 (PT Empty)
+  PT: []
+  DL: ['_compile']
+261: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'simplify_dfa', 'state_j') 7 (etc)
+  PT: ['DFAState']
+  DL: ['dict']
+262: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'calcfirst', 'dfa') 6 (DL subset PT)
+  PT: ['None', "TokenInfo(type=0 (ENDMARKER), string='', start=(1, 0), end=(1, 0), line='')", 'dict']
+  DL: ['dict']
+263: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'calcfirst', 'state') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+264: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'calcfirst', 'fset') 6 (DL subset PT)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['dict']
+265: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'simplify_dfa', 'state_j') 7 (etc)
+  PT: ['DFAState']
+  DL: ['dict']
+266: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'calcfirst', 'dfa') 6 (DL subset PT)
+  PT: ['None', 'dict']
+  DL: ['dict']
+267: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'calcfirst', 'state') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+268: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'calcfirst', 'fset') 6 (DL subset PT)
+  PT: ['DFAPlan', 'DFAState', 'MovedAttribute', 'MovedModule', 'None', 'ReservedString', 'dict', 'int', 'list', 'meta_func', "re.compile('(msg)(msg)', re.IGNORECASE|re.MULTILINE)", "re.compile('msg', re.IGNORECASE|re.MULTILINE)", 'str', 'tuple']
+  DL: ['dict']
+269: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'shift', 'dfa') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+270: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'shift', 'state') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+271: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'shift', 'node') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+272: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'shift', 'newnode') 6 (DL subset PT)
+  PT: ['Leaf', 'Node', 'tuple']
+  DL: ['tuple']
+273: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'pop', 'dfa') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+274: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'pop', 'state') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+275: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'pop', 'node') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+276: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'push', 'dfa') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+277: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'push', 'state') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+278: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/parse.py', 'push', 'node') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+279: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/literals.py', 'evalString', 's') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+280: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/literals.py', 'evalString', 'q') 7 (etc)
+  PT: ['int']
+  DL: ['dict']
+281: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'parse_alt', 'b') 5 (PT subset DL)
+  PT: ['NFAState']
+  DL: ['parso.pgen2.grammar_parser.NFAState', 'd']
+282: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'parse_alt', 'c') 3 (PT Empty)
+  PT: []
+  DL: ['parso.pgen2.grammar_parser.NFAState']
+283: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'parse_alt', 'd') 3 (PT Empty)
+  PT: []
+  DL: ['parso.pgen2.grammar_parser.NFAState']
+284: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'raise_error', 'line') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+285: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'parse_alt', 'b') 5 (PT subset DL)
+  PT: ['NFAState']
+  DL: ['NFAState', 'd']
+286: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'parse_alt', 'c') 3 (PT Empty)
+  PT: []
+  DL: ['NFAState']
+287: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'parse_alt', 'd') 3 (PT Empty)
+  PT: []
+  DL: ['NFAState']
+288: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'pattern_convert', 'type') 7 (etc)
+  PT: ['None']
+  DL: ['raw_node_info']
+289: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'pattern_convert', 'value') 7 (etc)
+  PT: ['None']
+  DL: ['raw_node_info']
+290: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'pattern_convert', 'context') 7 (etc)
+  PT: ['tuple']
+  DL: ['raw_node_info']
+291: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/patcomp.py', 'pattern_convert', 'children') 7 (etc)
+  PT: ['None']
+  DL: ['raw_node_info']
+292: ('/anaconda_lib/aenum.py', '__new__', 'args') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'value']
+293: ('/anaconda_lib/callback.py', '__init__', 'timeout') 7 (etc)
+  PT: ['Union[int, float]']
+  DL: ['dict']
+294: ('/anaconda_lib/callback.py', 'timeout', 'value') 7 (etc)
+  PT: ['Union[int, float]']
+  DL: ['dict']
+295: ('/anaconda_lib/_typing.py', '__new__', 'params') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'new_params', 'None']
+296: ('/anaconda_lib/_typing.py', '__getitem__', 'parameters') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'dict']
+297: ('/anaconda_lib/_typing.py', 'write', 's') 8 (Partial match)
+  PT: ['AnyStr', 'Union[bytes, bytearray]']
+  DL: ['AnyStr', 'dict']
+298: ('/anaconda_lib/_typing.py', 'writelines', 'lines') 7 (etc)
+  PT: ['List[AnyStr]']
+  DL: ['dict']
+299: ('/anaconda_lib/logger.py', '__new__', 'log_level') 7 (etc)
+  PT: ['str']
+  DL: ['helpers.get_settings']
+300: ('/anaconda_lib/ioloop.py', '__init__', 'address') 7 (etc)
+  PT: ['Tuple[str, int]']
+  DL: ['dict']
+301: ('/anaconda_lib/jediusages.py', '_jump', 'filename') 7 (etc)
+  PT: ['Union[int, str]']
+  DL: ['dict', 'opts']
+302: ('/anaconda_lib/jediusages.py', '_jump', 'lineno') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'opts']
+303: ('/anaconda_lib/jediusages.py', '_jump', 'columno') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'opts']
+304: ('/anaconda_lib/jediusages.py', '_show_options', 'defs') 6 (DL subset PT)
+  PT: ['Union[str, Dict]']
+  DL: ['dict']
+305: ('/anaconda_lib/explore_panel.py', 'show', 'cluster') 5 (PT subset DL)
+  PT: ['List']
+  DL: ['_typing.List', 'list']
+306: ('/anaconda_lib/helpers.py', 'project_name', 'project_name') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+307: ('/anaconda_lib/linting/sublime.py', 'add_lint_marks', 'gutter_marks') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+308: ('/anaconda_lib/linting/mccabe.py', 'complexity', 'num_nodes') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+309: ('/anaconda_lib/linting/pycodestyle.py', 'maximum_line_length', 'length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+310: ('/anaconda_lib/linting/pycodestyle.py', 'missing_whitespace_around_operator', 'need_space') 5 (PT subset DL)
+  PT: ['bool', 'tuple']
+  DL: ['bool', 'None', 'tuple']
+311: ('/anaconda_lib/linting/pycodestyle.py', 'whitespace_before_comment', 'prev_end') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'end']
+312: ('/anaconda_lib/linting/pycodestyle.py', 'compound_statements', 'prev_found') 7 (etc)
+  PT: ['int']
+  DL: ['found']
+313: ('/anaconda_lib/linting/pycodestyle.py', 'explicit_line_join', 'backslash') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['None', 'tuple']
+314: ('/anaconda_lib/linting/pycodestyle.py', 'python_3000_async_await_keywords', 'state') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['None', 'tuple']
+315: ('/anaconda_lib/linting/pycodestyle.py', 'maximum_doc_length', 'length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+316: ('/anaconda_lib/linting/pycodestyle.py', 'report_invalid_syntax', 'offset') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['dict', 'tuple']
+317: ('/anaconda_lib/linting/pycodestyle.py', 'build_tokens_line', 'length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+318: ('/anaconda_lib/linting/pycodestyle.py', 'build_tokens_line', 'mapping') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['None', 'list']
+319: ('/anaconda_lib/linting/pycodestyle.py', 'get_file_results', 'line') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+320: ('/anaconda_lib/linting/pycodestyle.py', 'read_config', 'pycodestyle_section') 7 (etc)
+  PT: ['str']
+  DL: ['None']
+321: ('/anaconda_lib/linting/pycodestyle.py', 'process_options', 'args') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['sorted', 'list']
+322: ('/anaconda_lib/linting/anaconda_pyflakes.py', 'check', 'fname') 7 (etc)
+  PT: ['str']
+  DL: ['bool']
+323: ('/anaconda_lib/linting/anaconda_pyflakes.py', 'parse', 'word') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+324: ('/anaconda_lib/linting/linter.py', 'parse_errors', 'word') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+325: ('/anaconda_lib/linting/pydocstyle/checker.py', 'check', 'checked_codes') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['select', 'list']
+326: ('/anaconda_lib/linting/pydocstyle/violations.py', 'lines', 'numbers_width') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+327: ('/anaconda_lib/linting/pydocstyle/violations.py', 'to_rst', 'table') 7 (etc)
+  PT: ['str']
+  DL: ['sep_line', 'blank_line']
+328: ('/anaconda_lib/linting/pyflakes/checker.py', 'checkDeadScopes', 'all_names') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'list']
+329: ('/anaconda_lib/linting/pyflakes/checker.py', 'checkDeadScopes', 'from_list') 6 (DL subset PT)
+  PT: ['list', 'str']
+  DL: ['list']
+330: ('/anaconda_lib/linting/pyflakes/checker.py', 'handleNodeLoad', 'in_generators') 7 (etc)
+  PT: ['bool']
+  DL: ['None', 'isinstance']
+331: ('/anaconda_lib/linting/pyflakes/checker.py', 'handleNodeLoad', 'from_list') 6 (DL subset PT)
+  PT: ['list', 'str']
+  DL: ['list']
+332: ('/anaconda_lib/linting/pyflakes/checker.py', '_handle_percent_format', 'positional') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['None', 'bool']
+333: ('/anaconda_lib/linting/pyflakes/checker.py', '_handle_percent_format', 'substitution_count') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+334: ('/anaconda_lib/jedi/refactoring.py', 'extract', 'e') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+335: ('/anaconda_lib/jedi/refactoring.py', 'inline', 'dct') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['dict', '_rename']
+336: ('/anaconda_lib/jedi/parser_utils.py', 'get_executable_nodes', 'result') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'get_executable_nodes']
+337: ('/anaconda_lib/jedi/common.py', 'indent_block', 'temp') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+338: ('/anaconda_lib/jedi/debug.py', 'reset_time', '_debug_indent') 7 (etc)
+  PT: ['int']
+  DL: ['num']
+339: ('/anaconda_lib/jedi/file_io.py', 'walk', 'i') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['len', 'int']
+340: ('/anaconda_lib/jedi/_compatibility.py', '_from_loader', 'is_package') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['bool', 'is_package_method']
+341: ('/anaconda_lib/jedi/_compatibility.py', 'find_module_pre_py3', 'module_path') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['str', 'p']
+342: ('/anaconda_lib/jedi/plugins/stdlib.py', 'collections_namedtuple', 'name') 7 (etc)
+  PT: ['str']
+  DL: ['jedi._compatibility.force_unicode']
+343: ('/anaconda_lib/jedi/plugins/stdlib.py', '_os_path_join', 'string') 7 (etc)
+  PT: ['str']
+  DL: ['jedi._compatibility.force_unicode']
+344: ('/anaconda_lib/jedi/parser/tree.py', 'get_root_node', 'scope') 7 (etc)
+  PT: ['NodeOrLeaf']
+  DL: ['self']
+345: ('/anaconda_lib/jedi/parser/tree.py', 'get_previous_leaf', 'node') 7 (etc)
+  PT: ['NodeOrLeaf']
+  DL: ['self', 'dict']
+346: ('/anaconda_lib/jedi/parser/tree.py', 'get_next_leaf', 'node') 7 (etc)
+  PT: ['NodeOrLeaf']
+  DL: ['self', 'dict']
+347: ('/anaconda_lib/jedi/parser/tree.py', 'end_pos', 'end_pos_indent') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'len']
+348: ('/anaconda_lib/jedi/parser/python/tree.py', 'get_definition', 'scope') 7 (etc)
+  PT: ['PythonMixin']
+  DL: ['self', 'parent']
+349: ('/anaconda_lib/jedi/parser/python/tree.py', 'get_defined_names', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_defined_names']
+350: ('/anaconda_lib/jedi/parser/python/tree.py', 'level', 'level') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+351: ('/anaconda_lib/jedi/parser/python/tree.py', '_as_name_tuples', 'as_names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['dict', 'list']
+352: ('/anaconda_lib/jedi/parser/python/tree.py', '_dotted_as_names', 'as_names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['dict', 'list']
+353: ('/anaconda_lib/jedi/parser/python/tree.py', '_defined_names', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_defined_names']
+354: ('/anaconda_lib/jedi/parser/python/__init__.py', 'parse', 'tokenize_lines') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['jedi.common.splitlines', 'list']
+355: ('/anaconda_lib/jedi/parser/python/parser.py', '_stack_removal', 'all_nodes') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'nodes']
+356: ('/anaconda_lib/jedi/parser/python/diff.py', 'update', 'line_length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+357: ('/anaconda_lib/jedi/parser/python/diff.py', '_diff_tokenize', 'start_pos') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'next']
+358: ('/anaconda_lib/jedi/parser/python/diff.py', '_diff_tokenize', 'prefix') 7 (etc)
+  PT: ['str']
+  DL: ['next']
+359: ('/anaconda_lib/jedi/parser/python/diff.py', 'close', 'children') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'children_part']
+360: ('/anaconda_lib/jedi/parser/python/diff.py', 'get_last_line', 'line') 7 (etc)
+  PT: ['int']
+  DL: ['dict']
+361: ('/anaconda_lib/jedi/parser/pgen2/pgen.py', 'dump_nfa', 'j') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+362: ('/anaconda_lib/jedi/evaluate/finder.py', '_names_to_types', 'types') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'jedi.common.unite']
+363: ('/anaconda_lib/jedi/evaluate/finder.py', '_name_to_types', 'types') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'dict', 'check_tuple_assignments', '_remove_statements', '_apply_decorators', 'jedi.common.unite']
+364: ('/anaconda_lib/jedi/evaluate/iterable.py', 'py__getitem__', 'result') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'typing_module_types', 'getitem', 'py__iter__types']
+365: ('/anaconda_lib/jedi/evaluate/__init__.py', 'eval_element', 'name_dicts') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'new_name_dicts']
+366: ('/anaconda_lib/jedi/evaluate/__init__.py', '_eval_element_not_cached', 'types') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'jedi.common.unite', 'types']
+367: ('/anaconda_lib/jedi/evaluate/__init__.py', 'eval_trailer', 'node') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['dict', 'tuple']
+368: ('/anaconda_lib/jedi/evaluate/param.py', 'get_calling_nodes', 'arguments') 7 (etc)
+  PT: ['TreeArguments']
+  DL: ['self']
+369: ('/anaconda_lib/jedi/evaluate/imports.py', 'infer_import', 'types') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['jedi.common.unite', 'set']
+370: ('/anaconda_lib/jedi/evaluate/context.py', 'get_root_context', 'context') 7 (etc)
+  PT: ['Context']
+  DL: ['self']
+371: ('/anaconda_lib/jedi/evaluate/context.py', 'py__getattribute__', 'name_context') 7 (etc)
+  PT: ['Context']
+  DL: ['self']
+372: ('/anaconda_lib/jedi/evaluate/representation.py', 'star_imports', 'modules') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'new']
+373: ('/anaconda_lib/jedi/evaluate/pep0484.py', 'py__getitem__', 'nodes') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['dict', 'list']
+374: ('/anaconda_lib/jedi/evaluate/pep0484.py', '_find_type_from_comment_hint', 'index') 7 (etc)
+  PT: ['int']
+  DL: ['None']
+375: ('/anaconda_lib/jedi/evaluate/precedence.py', 'calculate', 'result') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'literals_to_types', '_element_calculate']
+376: ('/anaconda_lib/jedi/evaluate/compiled/__init__.py', 'dotted_from_fs_path', 'path') 7 (etc)
+  PT: ['str']
+  DL: ['s']
+377: ('/anaconda_lib/jedi/evaluate/compiled/__init__.py', '_parse_function_doc', 'param_str') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+378: ('/anaconda_lib/jedi/api/completion.py', 'complete', 'prefixed_completions') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['jedi.api.strings.complete_dict', 'list']
+379: ('/anaconda_lib/jedi/api/completion.py', '_complete_python', 'completion_names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'n', '_get_signature_param_names']
+380: ('/anaconda_lib/jedi/api/completion.py', '_complete_python', 'kwargs_only') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['bool', '_must_be_kwarg']
+381: ('/anaconda_lib/jedi/api/completion.py', 'complete_trailer', 'completion_names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_complete_getattr']
+382: ('/anaconda_lib/jedi/api/completion.py', 'search_in_module', 'new_names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'complete_trailer']
+383: ('/anaconda_lib/jedi/api/completion.py', 'search_in_module', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['new_names', 'list', 'jedi.inference.gradual.conversion.convert_names']
+384: ('/anaconda_lib/jedi/api/keywords.py', 'imitate_pydoc', 'string') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['str', 'dict']
+385: ('/anaconda_lib/jedi/api/__init__.py', '_get_module', 'is_package') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['bool', 'is_p']
+386: ('/anaconda_lib/jedi/api/__init__.py', '_get_module', 'names') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['None', 'import_names', 'tuple']
+387: ('/anaconda_lib/jedi/api/__init__.py', '_goto', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'jedi.inference.gradual.conversion.convert_names']
+388: ('/anaconda_lib/jedi/api/__init__.py', '_extract_variable', 'until_column') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+389: ('/anaconda_lib/jedi/api/__init__.py', '_extract_variable', 'until_pos') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['None', 'tuple']
+390: ('/anaconda_lib/jedi/api/__init__.py', '_extract_function', 'until_column') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+391: ('/anaconda_lib/jedi/api/__init__.py', '_extract_function', 'until_pos') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['None', 'tuple']
+392: ('/anaconda_lib/jedi/api/usages.py', 'resolve_potential_imports', 'new') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'resolve_potential_imports']
+393: ('/anaconda_lib/jedi/api/strings.py', 'complete_dict', 'cut_end_quote') 7 (etc)
+  PT: ['str']
+  DL: ['get_quote_ending']
+394: ('/anaconda_lib/jedi/api/project.py', '_get_sys_path', 'suffixed') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'jedi.inference.sys_path.discover_buildout_paths', 'reversed']
+395: ('/anaconda_lib/jedi/api/project.py', '_search_func', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['jedi.api.helpers.get_module_names', 'list', '_remove_imports']
+396: ('/anaconda_lib/jedi/api/file_name.py', 'complete_file_name', 'like_name_length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+397: ('/anaconda_lib/jedi/api/file_name.py', '_add_strings', 'string') 7 (etc)
+  PT: ['str']
+  DL: ['jedi._compatibility.force_unicode']
+398: ('/anaconda_lib/jedi/api/refactoring/__init__.py', 'get_diff', 'from_p') 7 (etc)
+  PT: ['str']
+  DL: ['os.path.relpath']
+399: ('/anaconda_lib/jedi/api/refactoring/__init__.py', 'get_diff', 'to_p') 7 (etc)
+  PT: ['str']
+  DL: ['os.path.relpath']
+400: ('/anaconda_lib/jedi/api/refactoring/extract.py', '_find_nodes', 'nodes') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_remove_unwanted_expression_nodes']
+401: ('/anaconda_lib/jedi/api/refactoring/extract.py', 'extract_function', 'has_ending_return_stmt') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['bool', '_is_node_ending_return_stmt']
+402: ('/anaconda_lib/jedi/inference/base_value.py', 'get_root_context', 'value') 7 (etc)
+  PT: ['HelperValueMixin']
+  DL: ['self']
+403: ('/anaconda_lib/jedi/inference/base_value.py', 'py__getattribute__', 'name_context') 7 (etc)
+  PT: ['HelperValueMixin']
+  DL: ['self']
+404: ('/anaconda_lib/jedi/inference/base_value.py', 'from_sets', 'aggregated') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'frozenset']
+405: ('/anaconda_lib/jedi/inference/references.py', 'find_references', 'module_contexts') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'list']
+406: ('/anaconda_lib/jedi/inference/references.py', 'find_references', 'potential_modules') 7 (etc)
+  PT: ['set']
+  DL: ['module_contexts', 'get_module_contexts_containing_name']
+407: ('/anaconda_lib/jedi/inference/references.py', 'recurse_find_python_folders_and_files', 'except_paths') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['()', 'set', 'ignored_paths']
+408: ('/anaconda_lib/jedi/inference/arguments.py', 'get_calling_nodes', 'arguments') 7 (etc)
+  PT: ['_AbstractArgumentsMixin', 'TreeArguments']
+  DL: ['self']
+409: ('/anaconda_lib/jedi/inference/imports.py', '__init__', 'base') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'dict']
+410: ('/anaconda_lib/jedi/inference/names.py', 'assignment_indexes', 'index') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'slice']
+411: ('/anaconda_lib/jedi/inference/names.py', 'py__doc__', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['jedi.inference.gradual.conversion.convert_names', 'list']
+412: ('/anaconda_lib/jedi/inference/dynamic_params.py', '_search_function_arguments', 'module_contexts') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['jedi.inference.references.get_module_contexts_containing_name', 'list']
+413: ('/anaconda_lib/jedi/inference/context.py', 'py__getattribute__', 'name_context') 7 (etc)
+  PT: ['AbstractContext']
+  DL: ['self']
+414: ('/anaconda_lib/jedi/inference/syntax_tree.py', 'infer_node', 'name_dicts') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'new_name_dicts']
+415: ('/anaconda_lib/jedi/inference/syntax_tree.py', 'tree_name_to_values', 'types') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'dict', 'jedi.inference.syntax_tree.check_tuple_assignments', 'jedi.inference.syntax_tree.infer_expr_stmt', '_apply_decorators', 'jedi.inference.base_value.NO_VALUES']
+416: ('/anaconda_lib/jedi/inference/star_args.py', 'process_params', 'arg_callables') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_iter_nodes_for_param']
+417: ('/anaconda_lib/jedi/inference/star_args.py', 'process_params', 'longest_param_names') 8 (Partial match)
+  PT: ['tuple', 'list']
+  DL: ['tuple', 'args_for_this_func']
+418: ('/anaconda_lib/jedi/inference/star_args.py', 'process_params', 'new_star_count') 7 (etc)
+  PT: ['int']
+  DL: ['star_count']
+419: ('/anaconda_lib/jedi/inference/helpers.py', 'parse_dotted_names', 'level') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+420: ('/anaconda_lib/jedi/inference/gradual/typeshed.py', '_try_to_load_stub', 'names_for_path') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'import_names']
+421: ('/anaconda_lib/jedi/inference/gradual/annotation.py', '_find_type_from_comment_hint', 'index') 7 (etc)
+  PT: ['int']
+  DL: ['None']
+422: ('/anaconda_lib/jedi/inference/value/module.py', 'star_imports', 'modules') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'new']
+423: ('/anaconda_lib/jedi/inference/compiled/access.py', 'get_annotation_name_and_args', 'args') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['tuple', 'safe_getattr']
+424: ('/anaconda_lib/jedi/inference/compiled/value.py', '_parse_function_doc', 'param_str') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+425: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'continued_indentation', 'last_line') 7 (etc)
+  PT: ['str']
+  DL: ['line']
+426: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'continued_indentation', 'last_line_begins_with_multiline') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['bool', 'last_token_multiline']
+427: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'continued_indentation', 'last_token_multiline') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['None', 'bool']
+428: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', '_fix_source', 'modified_lines') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['fix', 'list']
+429: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'fix_e125', 'indent') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+430: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'fix_e713', 'target') 7 (etc)
+  PT: ['str']
+  DL: ['get_index_offset_contents', 'dict']
+431: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'fix_w391', 'original_length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+432: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'fix_w503', 'comment_index') 7 (etc)
+  PT: ['int']
+  DL: ['None', 'dict']
+433: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'untokenize_without_newlines', 'text') 7 (etc)
+  PT: ['str']
+  DL: ['token_string']
+434: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'untokenize_without_newlines', 'last_row') 7 (etc)
+  PT: ['int']
+  DL: ['end_row']
+435: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'untokenize_without_newlines', 'last_column') 7 (etc)
+  PT: ['int']
+  DL: ['end_column']
+436: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', '_get_indentword', 'indent_word') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+437: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'get_diff_text', 'text') 7 (etc)
+  PT: ['str']
+  DL: ['line']
+438: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', '__repr__', 'string') 7 (etc)
+  PT: ['str']
+  DL: ['item_string']
+439: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'reflow', 'last_was_container') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['bool', 'int']
+440: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'reflow', 'is_list_comp_or_if_expr') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+441: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', '_parse_container', 'num_tokens') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+442: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', '_parse_tokens', 'index') 7 (etc)
+  PT: ['int']
+  DL: ['_parse_container']
+443: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', '_parse_tokens', 'num_tokens') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+444: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'token_offsets', 'end_offset') 7 (etc)
+  PT: ['int']
+  DL: ['start_column', 'previous_end_column', 'len']
+445: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'token_offsets', 'previous_end_row') 7 (etc)
+  PT: ['int']
+  DL: ['end_row']
+446: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'token_offsets', 'previous_end_column') 7 (etc)
+  PT: ['int']
+  DL: ['end_column']
+447: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'token_offsets', 'start_offset') 7 (etc)
+  PT: ['int']
+  DL: ['end_offset']
+448: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'run', 'want') 7 (etc)
+  PT: ['int']
+  DL: ['have']
+449: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'getline', 'line') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+450: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'multiline_string_lines', 'previous_token_type') 7 (etc)
+  PT: ['str']
+  DL: ['token_type']
+451: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'fix_lines', 'fixed_source') 7 (etc)
+  PT: ['str']
+  DL: ['tmp_source', 'apply_global_fixes']
+452: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'line_shortening_rank', 'rank') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+453: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'line_shortening_rank', 'offset') 7 (etc)
+  PT: ['int']
+  DL: ['max']
+454: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'line_shortening_rank', 'total_len') 7 (etc)
+  PT: ['int']
+  DL: ['len', 'max_line_length']
+455: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'count_unbalanced_brackets', 'count') 7 (etc)
+  PT: ['int']
+  DL: ['abs']
+456: ('/anaconda_lib/autopep/autopep8_lib/autopep8.py', 'split_at_offsets', 'previous_offset') 7 (etc)
+  PT: ['int']
+  DL: ['current_offset']
+457: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/refactor.py', 'refactor_docstring', 'block_lineno') 7 (etc)
+  PT: ['int']
+  DL: ['None', 'lineno']
+458: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/refactor.py', 'refactor_docstring', 'block') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['None', 'list']
+459: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/btm_utils.py', 'leaf_to_root', 'node') 7 (etc)
+  PT: ['MinNode']
+  DL: ['self']
+460: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/btm_utils.py', 'leaf_to_root', 'subp') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'get_characteristic_subpattern', 'None']
+461: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/btm_utils.py', 'get_characteristic_subpattern', 'subpatterns') 7 (etc)
+  PT: ['list']
+  DL: ['subpatterns_with_names', 'subpatterns_with_common_names', 'subpatterns_with_common_chars']
+462: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', 'get_lineno', 'node') 7 (etc)
+  PT: ['Base']
+  DL: ['self', 'dict']
+463: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', 'match', 'r') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['None', 'dict']
+464: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', '_iterative_matches', 'nodelen') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+465: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', '_iterative_matches', 'results') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'new_results']
+466: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pytree.py', '_bare_name_matches', 'max') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+467: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/fixes/fix_print.py', 'transform', 'end') 7 (etc)
+  PT: ['str']
+  DL: ['None']
+468: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/fixes/fix_itertools_imports.py', 'transform', 'children') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'bool']
+469: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/fixes/fix_import.py', 'probably_a_local_import', 'base_path') 7 (etc)
+  PT: ['str']
+  DL: ['os.path.dirname', 'os.path.join']
+470: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/pgen.py', 'dump_nfa', 'j') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+471: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/conv.py', 'parse_graminit_c', 'lineno') 7 (etc)
+  PT: ['int']
+  DL: ['tuple']
+472: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/conv.py', 'parse_graminit_c', 'arcs') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'dict']
+473: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/conv.py', 'parse_graminit_c', 'state') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'dict']
+474: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/conv.py', 'parse_graminit_c', 'x') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['list', 'int']
+475: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'generate_tokens', 'indents') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'dict']
+476: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'generate_tokens', 'line') 7 (etc)
+  PT: ['str']
+  DL: ['readline']
+477: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'generate_tokens', 'contstr') 7 (etc)
+  PT: ['str']
+  DL: ['tuple', 'dict']
+478: ('/anaconda_lib/autopep/autopep8_lib/lib2to3/pgen2/tokenize.py', 'generate_tokens', 'contline') 7 (etc)
+  PT: ['str']
+  DL: ['None', 'line']
+479: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among', 'i') 7 (etc)
+  PT: ['int']
+  DL: ['k']
+480: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among', 'common_i') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.common']
+481: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among', 'common_j') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.common']
+482: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among_b', 'i') 7 (etc)
+  PT: ['int']
+  DL: ['k']
+483: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among_b', 'common_i') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.common']
+484: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'find_among_b', 'common_j') 7 (etc)
+  PT: ['int']
+  DL: ['jedi.common']
+485: ('/anaconda_lib/snowballstemmer/basestemmer.py', 'slice_to', 'result') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+486: ('/anaconda_lib/workers/worker.py', 'start', 'port') 7 (etc)
+  PT: ['int']
+  DL: ['tuple']
+487: ('/anaconda_lib/parso/tree.py', 'get_root_node', 'scope') 7 (etc)
+  PT: ['NodeOrLeaf']
+  DL: ['self']
+488: ('/anaconda_lib/parso/tree.py', 'get_previous_leaf', 'node') 7 (etc)
+  PT: ['NodeOrLeaf']
+  DL: ['self', 'dict']
+489: ('/anaconda_lib/parso/tree.py', 'get_next_leaf', 'node') 7 (etc)
+  PT: ['NodeOrLeaf']
+  DL: ['self', 'dict']
+490: ('/anaconda_lib/parso/tree.py', 'end_pos', 'end_pos_column') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', 'len']
+491: ('/anaconda_lib/parso/utils.py', '_parse_version', 'minor') 6 (DL subset PT)
+  PT: ['str', 'int']
+  DL: ['int']
+492: ('/anaconda_lib/parso/normalizer.py', '_register_rule', 'values') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['()', 'list']
+493: ('/anaconda_lib/parso/normalizer.py', '_register_rule', 'types') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['()', 'list']
+494: ('/anaconda_lib/parso/python/tree.py', 'get_defined_names', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_defined_names']
+495: ('/anaconda_lib/parso/python/tree.py', 'level', 'level') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+496: ('/anaconda_lib/parso/python/tree.py', '_as_name_tuples', 'as_names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['dict', 'list']
+497: ('/anaconda_lib/parso/python/tree.py', '_dotted_as_names', 'as_names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['dict', 'list']
+498: ('/anaconda_lib/parso/python/tree.py', '_defined_names', 'names') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_defined_names']
+499: ('/anaconda_lib/parso/python/pep8.py', 'get_latest_suite_node', 'n') 7 (etc)
+  PT: ['IndentationNode']
+  DL: ['self']
+500: ('/anaconda_lib/parso/python/pep8.py', '_visit_node', 'children') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'dict']
+501: ('/anaconda_lib/parso/python/diff.py', 'update', 'line_length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+502: ('/anaconda_lib/parso/python/diff.py', '_diff_tokenize', 'initial_indentation_count') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+503: ('/anaconda_lib/parso/python/diff.py', '_diff_tokenize', 'prefix') 7 (etc)
+  PT: ['str']
+  DL: ['next']
+504: ('/anaconda_lib/parso/python/diff.py', 'finish', 'children') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'children_part']
+505: ('/anaconda_lib/parso/python/diff.py', '_copy_nodes', 'added_indents') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'ai']
+506: ('/anaconda_lib/parso/python/diff.py', '_copy_nodes', 'new_prefix') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+507: ('/anaconda_lib/parso/python/diff.py', '_copy_nodes', 'prefix') 7 (etc)
+  PT: ['str']
+  DL: ['new_prefix']
+508: ('/anaconda_lib/parso/python/errors.py', '_get_expr_stmt_definition_exprs', 'exprs') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', '_iter_definition_exprs_from_lists']
+509: ('/anaconda_lib/parso/python/errors.py', 'is_issue', 'type_') 7 (etc)
+  PT: ['str']
+  DL: ['None']
+510: ('/anaconda_lib/parso/python/errors.py', '_check_assignment', 'error') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['None', '_get_comprehension_type', 'str']
+511: ('/anaconda_lib/parso/pgen2/generator.py', '_dump_nfa', 'j') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+512: ('/anaconda_server/commands/complete_parameters.py', 'run', 'name') 7 (etc)
+  PT: ['str']
+  DL: ['p', 'dict']
+513: ('/commands/prev_lint_error.py', '_harvest_prev', 'lines') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'sorted', 'list']
+514: ('/commands/test_runner.py', 'test_path', 'real_path') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['str', 'dict']
+515: ('/commands/next_lint_error.py', '_harvest_next', 'lines') 5 (PT subset DL)
+  PT: ['set']
+  DL: ['set', 'sorted', 'list']
+516: ('/commands/autoimport.py', '_detected_undefined_name', 'location') 7 (etc)
+  PT: ['Tuple[int]']
+  DL: ['dict']
+517: ('/listeners/completion.py', 'on_query_completions', 'locations') 7 (etc)
+  PT: ['List[Tuple[int]]']
+  DL: ['dict']
+518: ('/listeners/linting.py', '_show_errors_list', 'parse_results') 7 (etc)
+  PT: ['Callable[[Dict[str, Any]], None]']
+  DL: ['dict']

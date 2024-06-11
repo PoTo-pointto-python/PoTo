@@ -1,0 +1,1368 @@
+0: ('/wemake_python_styleguide/visitors/ast/naming.py', 'module_initializer', '_VariableDef') 7 (etc)
+  PT: ['typing.Union[ast.Name, ast.Attribute, ast.ExceptHandler]']
+  DL: ['dict']
+1: ('/wemake_python_styleguide/visitors/ast/naming.py', 'module_initializer', '_ErrorCallback') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+2: ('/wemake_python_styleguide/visitors/ast/naming.py', 'module_initializer', '_PredicateCallback') 7 (etc)
+  PT: ['typing.Callable[[str], bool]']
+  DL: ['dict']
+3: ('/wemake_python_styleguide/visitors/ast/naming.py', 'module_initializer', '_Predicates') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+4: ('/wemake_python_styleguide/violations/base.py', 'module_initializer', 'ErrorNode') 7 (etc)
+  PT: ['typing.Union[ast.AST, tokenize.TokenInfo, NoneType]']
+  DL: ['dict']
+5: ('/wemake_python_styleguide/violations/base.py', 'module_initializer', 'ErrorCallback') 7 (etc)
+  PT: ["typing.Callable[[ForwardRef('BaseViolation')], NoneType]"]
+  DL: ['dict']
+6: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MODULE_METADATA_VARIABLES_BLACKLIST') 6 (DL subset PT)
+  PT: ["frozenset({'__all__', '__about__', '__author__', '__version__'})", 'Final']
+  DL: ['typing_extensions.Final']
+7: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'UNREADABLE_CHARACTER_COMBINATIONS') 6 (DL subset PT)
+  PT: ["frozenset({'O0', '0O', '1l', '1I'})", 'Final']
+  DL: ['typing_extensions.Final']
+8: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'SPECIAL_ARGUMENT_NAMES_WHITELIST') 6 (DL subset PT)
+  PT: ["frozenset({'cls', 'mcs', 'self'})", 'Final']
+  DL: ['typing_extensions.Final']
+9: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_METHODS_BLACKLIST') 6 (DL subset PT)
+  PT: ["frozenset({'__delitem__', '__del__', '__reduce__', '__delete__', '__dir__', '__delattr__', '__reduce_ex__'})", 'Final']
+  DL: ['typing_extensions.Final']
+10: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALLOWED_BUILTIN_CLASSES') 6 (DL subset PT)
+  PT: ["frozenset({'type', 'object'})", 'Final']
+  DL: ['typing_extensions.Final']
+11: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'NESTED_FUNCTIONS_WHITELIST') 6 (DL subset PT)
+  PT: ["frozenset({'wrapper', 'decorator', 'factory'})", 'Final']
+  DL: ['typing_extensions.Final']
+12: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'FUTURE_IMPORTS_WHITELIST') 6 (DL subset PT)
+  PT: ["frozenset({'annotations', 'generator_stop'})", 'Final']
+  DL: ['typing_extensions.Final']
+13: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MODULE_NAMES_BLACKLIST') 6 (DL subset PT)
+  PT: ["frozenset({'utilities', 'util', 'utils', 'helpers'})", 'Final']
+  DL: ['typing_extensions.Final']
+14: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_MODULE_NAMES_WHITELIST') 6 (DL subset PT)
+  PT: ["frozenset({'__main__', '__init__'})", 'Final']
+  DL: ['typing_extensions.Final']
+15: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_MODULE_NAMES_BLACKLIST') 6 (DL subset PT)
+  PT: ["frozenset({'__dir__', '__getattr__'})", 'Final']
+  DL: ['typing_extensions.Final']
+16: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MODULE_NAME_PATTERN') 6 (DL subset PT)
+  PT: ["re.compile('^_?_?[a-z][a-z\\\\d_]*[a-z\\\\d](__)?$')", 'Final']
+  DL: ['typing_extensions.Final']
+17: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAGIC_NUMBERS_WHITELIST') 6 (DL subset PT)
+  PT: ['frozenset({0, 0.5, 0.1, 1.0, 100, 1024, 1j, 1000, 24, 60})', 'Final']
+  DL: ['typing_extensions.Final']
+18: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_NO_COVER_COMMENTS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+19: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_LEN_YIELD_TUPLE') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+20: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_COMPARES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+21: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_CONDITIONS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+22: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_ELIFS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+23: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MAX_EXCEPT_CASES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+24: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'MATH_APPROXIMATE_CONSTANTS') 6 (DL subset PT)
+  PT: ['frozenset({2.718281828459045, 3.141592653589793, 6.283185307179586})', 'Final']
+  DL: ['typing_extensions.Final']
+25: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'LITERALS_BLACKLIST') 6 (DL subset PT)
+  PT: ["frozenset({'bool', 'bytes', 'str', 'float', 'int', 'complex'})", 'Final']
+  DL: ['typing_extensions.Final']
+26: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'TUPLE_ARGUMENTS_METHODS') 6 (DL subset PT)
+  PT: ["frozenset({'frozenset'})", 'Final']
+  DL: ['typing_extensions.Final']
+27: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALLOWED_NESTED_IMPORTS_CONDITIONS') 6 (DL subset PT)
+  PT: ["frozenset({'TYPE_CHECKING'})", 'Final']
+  DL: ['typing_extensions.Final']
+28: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'ALIAS_NAMES_WHITELIST') 6 (DL subset PT)
+  PT: ["frozenset({'plt', 'tf', 'np', 'df', 'sns', 'pd', 'cv'})", 'Final']
+  DL: ['typing_extensions.Final']
+29: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'STDIN') 6 (DL subset PT)
+  PT: ['str', 'Final']
+  DL: ['typing_extensions.Final']
+30: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'INIT') 6 (DL subset PT)
+  PT: ['str', 'Final']
+  DL: ['typing_extensions.Final']
+31: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'WINDOWS_OS') 6 (DL subset PT)
+  PT: ['str', 'Final']
+  DL: ['typing_extensions.Final']
+32: ('/wemake_python_styleguide/constants.py', 'module_initializer', 'UNUSED_PLACEHOLDER') 6 (DL subset PT)
+  PT: ['str', 'Final']
+  DL: ['typing_extensions.Final']
+33: ('/wemake_python_styleguide/options/config.py', 'module_initializer', 'ConfigValuesTypes') 7 (etc)
+  PT: ['typing.Union[str, int, bool, typing.Sequence[str]]']
+  DL: ['dict']
+34: ('/docs/conf.py', 'module_initializer', 'pkg_meta') 3 (PT Empty)
+  PT: []
+  DL: ['_get_project_meta']
+35: ('/docs/conf.py', 'module_initializer', 'project') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+36: ('/docs/conf.py', 'module_initializer', 'version') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+37: ('/docs/conf.py', 'module_initializer', 'release') 3 (PT Empty)
+  PT: []
+  DL: ['version']
+38: ('/scripts/check_generic_visit.py', 'module_initializer', 'source') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+39: ('/scripts/check_generic_visit.py', 'module_initializer', 'lines') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+40: ('/scripts/check_generic_visit.py', 'module_initializer', 'highlighted') 3 (PT Empty)
+  PT: []
+  DL: ['pygments.highlight']
+41: ('/wemake_python_styleguide/formatter.py', 'module_initializer', 'DOCS_URL_TEMPLATE') 6 (DL subset PT)
+  PT: ['str', 'Final']
+  DL: ['typing_extensions.Final']
+42: ('/wemake_python_styleguide/version.py', 'module_initializer', 'pkg_version') 7 (etc)
+  PT: ['str']
+  DL: ['_get_version']
+43: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyText') 7 (etc)
+  PT: ['typing.Union[ast.Str, ast.Bytes]']
+  DL: ['dict']
+44: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyImport') 7 (etc)
+  PT: ['typing.Union[ast.Import, ast.ImportFrom]']
+  DL: ['dict']
+45: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyFunctionDef') 7 (etc)
+  PT: ['typing.Union[ast.FunctionDef, ast.AsyncFunctionDef]']
+  DL: ['dict']
+46: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyFunctionDefAndLambda') 7 (etc)
+  PT: ['typing.Union[ast.FunctionDef, ast.AsyncFunctionDef, ast.Lambda]']
+  DL: ['dict']
+47: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyIf') 7 (etc)
+  PT: ['typing.Union[ast.If, ast.IfExp]']
+  DL: ['dict']
+48: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyFor') 7 (etc)
+  PT: ['typing.Union[ast.For, ast.AsyncFor]']
+  DL: ['dict']
+49: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyLoop') 7 (etc)
+  PT: ['typing.Union[ast.For, ast.AsyncFor, ast.While]']
+  DL: ['dict']
+50: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyComprehension') 7 (etc)
+  PT: ['typing.Union[ast.ListComp, ast.DictComp, ast.SetComp, ast.GeneratorExp]']
+  DL: ['dict']
+51: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyWith') 7 (etc)
+  PT: ['typing.Union[ast.With, ast.AsyncWith]']
+  DL: ['dict']
+52: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyNodes') 7 (etc)
+  PT: ['typing.Tuple[typing.Type[ast.AST], ...]']
+  DL: ['dict']
+53: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyAssign') 7 (etc)
+  PT: ['typing.Union[ast.Assign, ast.AnnAssign]']
+  DL: ['dict']
+54: ('/wemake_python_styleguide/types.py', 'module_initializer', 'ContextNodes') 7 (etc)
+  PT: ['typing.Union[ast.Module, ast.ClassDef, ast.FunctionDef, ast.AsyncFunctionDef]']
+  DL: ['dict']
+55: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyAccess') 7 (etc)
+  PT: ['typing.Union[ast.Attribute, ast.Subscript]']
+  DL: ['dict']
+56: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyChainable') 7 (etc)
+  PT: ['typing.Union[ast.Attribute, ast.Subscript, ast.Call]']
+  DL: ['dict']
+57: ('/wemake_python_styleguide/types.py', 'module_initializer', 'AnyTextPrimitive') 7 (etc)
+  PT: ['typing.Union[str, bytes]']
+  DL: ['dict']
+58: ('/wemake_python_styleguide/types.py', 'module_initializer', 'CheckResult') 7 (etc)
+  PT: ['typing.Tuple[int, int, str, type]']
+  DL: ['dict']
+59: ('/wemake_python_styleguide/checker.py', 'module_initializer', 'VisitorClass') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+60: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MIN_NAME_LENGTH') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+61: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_NAME_LENGTH') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+62: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'I_CONTROL_CODE') 6 (DL subset PT)
+  PT: ['bool', 'Final']
+  DL: ['typing_extensions.Final']
+63: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_NOQA_COMMENTS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+64: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'NESTED_CLASSES_WHITELIST') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+65: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'ALLOWED_DOMAIN_NAMES') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+66: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'FORBIDDEN_DOMAIN_NAMES') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+67: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'FORBIDDEN_INLINE_IGNORE') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+68: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_RETURNS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+69: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_LOCAL_VARIABLES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+70: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_EXPRESSIONS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+71: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ARGUMENTS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+72: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_MODULE_MEMBERS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+73: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_METHODS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+74: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_LINE_COMPLEXITY') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+75: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_JONES_SCORE') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+76: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_IMPORTS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+77: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_IMPORTED_NAMES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+78: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_BASE_CLASSES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+79: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_DECORATORS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+80: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_STRING_USAGES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+81: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_AWAITS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+82: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_TRY_BODY_LENGTH') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+83: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_MODULE_EXPRESSIONS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+84: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_FUNCTION_EXPRESSIONS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+85: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ASSERTS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+86: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ACCESS_LEVEL') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+87: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ATTRIBUTES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+88: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_RAISES') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+89: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_COGNITIVE_SCORE') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+90: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_COGNITIVE_AVERAGE') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+91: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_CALL_LEVEL') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+92: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_ANN_COMPLEXITY') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+93: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_IMPORT_FROM_MEMBERS') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+94: ('/wemake_python_styleguide/options/defaults.py', 'module_initializer', 'MAX_TUPLE_UNPACK_LENGTH') 6 (DL subset PT)
+  PT: ['int', 'Final']
+  DL: ['typing_extensions.Final']
+95: ('/wemake_python_styleguide/visitors/ast/functions.py', 'module_initializer', '_LocalVariable') 7 (etc)
+  PT: ['typing.Union[ast.Name, ast.ExceptHandler]']
+  DL: ['dict']
+96: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'module_initializer', '_HashItems') 7 (etc)
+  PT: ['typing.Sequence[typing.Optional[ast.AST]]']
+  DL: ['dict']
+97: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'module_initializer', '_ReturningViolations') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+98: ('/wemake_python_styleguide/visitors/ast/imports.py', 'module_initializer', '_MODULE_MEMBERS_SEPARATOR') 6 (DL subset PT)
+  PT: ['str', 'Final']
+  DL: ['typing_extensions.Final']
+99: ('/wemake_python_styleguide/visitors/ast/statements.py', 'module_initializer', '_StatementWithBody') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+100: ('/wemake_python_styleguide/visitors/ast/statements.py', 'module_initializer', '_AnyCollection') 7 (etc)
+  PT: ['typing.Union[ast.List, ast.Set, ast.Dict, ast.Tuple]']
+  DL: ['dict']
+101: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'TextNodes') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+102: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'AssignNodes') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+103: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'AssignNodesWithWalrus') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+104: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'FunctionNodes') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+105: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'ForNodes') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+106: ('/wemake_python_styleguide/compat/aliases.py', 'module_initializer', 'WithNodes') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+107: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'module_initializer', '_ScopePredicate') 7 (etc)
+  PT: ['typing.Callable[[ast.AST, typing.Set[str]], bool]']
+  DL: ['dict']
+108: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'module_initializer', '_NamePredicate') 7 (etc)
+  PT: ['typing.Callable[[ast.AST], bool]']
+  DL: ['dict']
+109: ('/wemake_python_styleguide/visitors/ast/operators.py', 'module_initializer', '_NumbersAndConstants') 7 (etc)
+  PT: ['typing.Union[ast.Num, ast.NameConstant]']
+  DL: ['dict']
+110: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'module_initializer', '_StringConstants') 7 (etc)
+  PT: ['typing.FrozenSet[typing.Union[str, bytes]]']
+  DL: ['dict']
+111: ('/wemake_python_styleguide/logic/complexity/functions.py', 'module_initializer', 'FunctionCounter') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+112: ('/wemake_python_styleguide/logic/complexity/functions.py', 'module_initializer', 'FunctionCounterWithLambda') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+113: ('/wemake_python_styleguide/logic/complexity/functions.py', 'module_initializer', 'FunctionNames') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+114: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'module_initializer', '_AnyFunctionCounter') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+115: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'module_initializer', '_CheckRule') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+116: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', 'module_initializer', '_NodeTypeHandler') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+117: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', 'module_initializer', '_ConditionNodes') 7 (etc)
+  PT: ['typing.Union[ast.If, ast.While, ast.IfExp]']
+  DL: ['dict']
+118: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', 'module_initializer', '_ModuleMembers') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+119: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'module_initializer', 'EMPTY_STRING') 6 (DL subset PT)
+  PT: ['str', 'Final']
+  DL: ['typing_extensions.Final']
+120: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'module_initializer', 'SENTINEL_TOKEN') 6 (DL subset PT)
+  PT: ['TokenInfo(type=0 (ENDMARKER), string="\'\'", start=(0, 0), end=(0, 0), line="\'\'")', 'Final']
+  DL: ['typing_extensions.Final']
+121: ('/wemake_python_styleguide/compat/constants.py', 'module_initializer', 'PY38') 6 (DL subset PT)
+  PT: ['bool', 'Final']
+  DL: ['typing_extensions.Final']
+122: ('/wemake_python_styleguide/compat/types.py', 'module_initializer', 'AnyAssignWithWalrus') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+123: ('/wemake_python_styleguide/compat/routing.py', 'module_initializer', '_CONST_NODE_TYPE_NAMES') 6 (DL subset PT)
+  PT: ['dict', 'Final']
+  DL: ['typing_extensions.Final']
+124: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'module_initializer', '_CONTEXTS') 7 (etc)
+  PT: ['tuple', 'Tuple[Type[ContextNodes], ...]']
+  DL: ['dict']
+125: ('/wemake_python_styleguide/logic/tokens.py', 'module_initializer', 'NEWLINES') 7 (etc)
+  PT: ['frozenset({4, 61})', 'FrozenSet[int]']
+  DL: ['dict']
+126: ('/wemake_python_styleguide/logic/tokens.py', 'module_initializer', 'ALLOWED_EMPTY_LINE_TOKENS') 7 (etc)
+  PT: ['frozenset({4, 8, 10, 26, 61})', 'FrozenSet[int]']
+  DL: ['dict']
+127: ('/wemake_python_styleguide/logic/walk.py', 'module_initializer', '_IsInstanceContainer') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+128: ('/wemake_python_styleguide/logic/tree/functions.py', 'module_initializer', '_AnyControlTransfers') 7 (etc)
+  PT: ['typing.Union[ast.Return, ast.Yield, ast.YieldFrom]']
+  DL: ['dict']
+129: ('/wemake_python_styleguide/logic/tree/functions.py', 'module_initializer', '_ControlTransferIterable') 7 (etc)
+  PT: ['typing.Iterable[typing.Union[ast.Return, ast.Yield, ast.YieldFrom]]']
+  DL: ['dict']
+130: ('/wemake_python_styleguide/logic/tree/functions.py', 'module_initializer', '_ControlTransferTuple') 7 (etc)
+  PT: ['typing.Tuple[typing.Type[ast.Return], typing.Type[ast.Yield], typing.Type[ast.YieldFrom]]']
+  DL: ['dict']
+131: ('/wemake_python_styleguide/logic/tree/variables.py', 'module_initializer', '_VarDefinition') 7 (etc)
+  PT: ['typing.Union[ast.AST, ast.expr]']
+  DL: ['dict']
+132: ('/wemake_python_styleguide/logic/tree/variables.py', 'module_initializer', '_LocalVariable') 7 (etc)
+  PT: ['typing.Union[ast.Name, ast.ExceptHandler]']
+  DL: ['dict']
+133: ('/wemake_python_styleguide/logic/tree/compares.py', 'module_initializer', '_MultipleCompareOperators') 7 (etc)
+  PT: ['typing.Tuple[typing.Type[ast.cmpop], ...]']
+  DL: ['dict']
+134: ('/wemake_python_styleguide/logic/tree/compares.py', 'module_initializer', '_OperatorUsages') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+135: ('/wemake_python_styleguide/logic/tree/compares.py', 'module_initializer', 'SIMILAR_OPERATORS') 6 (DL subset PT)
+  PT: ['dict', 'Final[_ComparesMapping]']
+  DL: ['dict']
+136: ('/wemake_python_styleguide/logic/tree/classes.py', 'module_initializer', '_AllAttributes') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+137: ('/wemake_python_styleguide/logic/tree/ifs.py', 'module_initializer', '_IfAndElifASTNode') 7 (etc)
+  PT: ['typing.Union[ast.If, typing.List[ast.stmt]]']
+  DL: ['dict']
+138: ('/wemake_python_styleguide/logic/complexity/annotations.py', 'module_initializer', '_Annotation') 7 (etc)
+  PT: ['typing.Union[ast.expr, ast.Str]']
+  DL: ['dict']
+139: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'module_initializer', '_CONTROL_FLOW_BREAKERS') 6 (DL subset PT)
+  PT: ['tuple', 'AnyNodes']
+  DL: ['wemake_python_styleguide.types.AnyNodes']
+140: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'module_initializer', '_SHORT_CIRCUITS') 6 (DL subset PT)
+  PT: ['tuple', 'AnyNodes']
+  DL: ['wemake_python_styleguide.types.AnyNodes']
+141: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'module_initializer', '_INCREMENTERS') 6 (DL subset PT)
+  PT: ['tuple', 'AnyNodes']
+  DL: ['wemake_python_styleguide.types.AnyNodes']
+142: ('/wemake_python_styleguide/logic/naming/access.py', 'module_initializer', '_UNUSED_VARIABLE_REGEX') 6 (DL subset PT)
+  PT: ["re.compile('^_+$')", 'Final']
+  DL: ['typing_extensions.Final']
+143: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'module_initializer', '_UNDERSCORED_NUMBER_PATTERN') 6 (DL subset PT)
+  PT: ["re.compile('.+\\\\D\\\\_\\\\d+(\\\\D|$)')", 'Final']
+  DL: ['typing_extensions.Final']
+144: ('/wemake_python_styleguide/logic/scopes/defs.py', 'module_initializer', '_ContextStore') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+145: ('/wemake_python_styleguide/logic/scopes/predicates.py', 'module_initializer', '_OVERLOAD_EXCEPTIONS') 6 (DL subset PT)
+  PT: ["frozenset({'typing.overload', 'overload'})", 'Final']
+  DL: ['typing_extensions.Final']
+146: ('/wemake_python_styleguide/logic/scopes/predicates.py', 'module_initializer', '_PROPERTY_EXCEPTIONS') 6 (DL subset PT)
+  PT: ["frozenset({'property', '.setter'})", 'Final']
+  DL: ['typing_extensions.Final']
+147: ('/wemake_python_styleguide/presets/types/tree.py', 'module_initializer', 'PRESET') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+148: ('/wemake_python_styleguide/presets/topics/complexity.py', 'module_initializer', 'PRESET') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+149: ('/wemake_python_styleguide/presets/types/file_tokens.py', 'module_initializer', 'PRESET') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+150: ('/wemake_python_styleguide/presets/types/filename.py', 'module_initializer', 'PRESET') 6 (DL subset PT)
+  PT: ['tuple', 'Final']
+  DL: ['typing_extensions.Final']
+151: ('/wemake_python_styleguide/visitors/base.py', '__init__', 'options') 6 (DL subset PT)
+  PT: ['meta_func', 'ConfigurationOptions']
+  DL: ['wemake_python_styleguide.types.ConfigurationOptions']
+152: ('/docs/conf.py', '_get_project_meta', 'file_contents') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+153: ('/wemake_python_styleguide/transformations/ast_tree.py', 'transform', 'tree') 7 (etc)
+  PT: ['<ast.Module object at 0x10c987d60>', '<ast.Module object at 0x10c9a4dc0>', '<ast.Module object at 0x10c9aafd0>', '<ast.Module object at 0x10c9db880>', '<ast.Module object at 0x10ca03700>', '<ast.Module object at 0x10ca0f520>', '<ast.Module object at 0x10caca460>', '<ast.Module object at 0x10cb13c40>', '<ast.Module object at 0x10cb21d60>', '<ast.Module object at 0x10cb2bca0>', '<ast.Module object at 0x10cb48d30>', '<ast.Module object at 0x10cb5bdf0>', '<ast.Module object at 0x10cb63460>', '<ast.Module object at 0x10cb64910>', '<ast.Module object at 0x10cb663a0>', '<ast.Module object at 0x10cb666d0>', '<ast.Module object at 0x10cb7ac10>', '<ast.Module object at 0x10cba2460>', '<ast.Module object at 0x10cbd2370>', '<ast.Module object at 0x10cbf7b80>', '<ast.Module object at 0x10cc7e940>', '<ast.Module object at 0x10cc82310>', '<ast.Module object at 0x10cc826a0>', '<ast.Module object at 0x10cd78e50>', '<ast.Module object at 0x10cd91550>', '<ast.Module object at 0x10cda4f10>', '<ast.Module object at 0x10cda6eb0>', '<ast.Module object at 0x10cda6ee0>', '<ast.Module object at 0x10cdfc340>', '<ast.Module object at 0x10ce03580>', '<ast.Module object at 0x10ce159a0>', '<ast.Module object at 0x10ce282b0>', '<ast.Module object at 0x10ce28820>', '<ast.Module object at 0x10ce2f340>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10ce88eb0>', '<ast.Module object at 0x10ce8d5b0>', '<ast.Module object at 0x10cea8910>', '<ast.Module object at 0x10cec0af0>', '<ast.Module object at 0x10cec8670>', '<ast.Module object at 0x10cedcdf0>', '<ast.Module object at 0x10ceebcd0>', '<ast.Module object at 0x10ceecbe0>', '<ast.Module object at 0x10ceef910>', '<ast.Module object at 0x10ceefb20>', '<ast.Module object at 0x10cef87c0>', '<ast.Module object at 0x10cf69490>', '<ast.Module object at 0x10cf69730>', '<ast.Module object at 0x10cf6e580>', '<ast.Module object at 0x10cfff700>', '<ast.Module object at 0x10d014af0>', '<ast.Module object at 0x10d014c40>', '<ast.Module object at 0x10d066370>', '<ast.Module object at 0x10d06b340>', '<ast.Module object at 0x10d0d6460>', '<ast.Module object at 0x10d137e50>', '<ast.Module object at 0x10d151be0>', '<ast.Module object at 0x10d189370>', '<ast.Module object at 0x10d189940>', '<ast.Module object at 0x10d18f3d0>', '<ast.Module object at 0x10d18f8b0>', '<ast.Module object at 0x10d1974c0>', '<ast.Module object at 0x10d197730>', '<ast.Module object at 0x10d19ed30>', '<ast.Module object at 0x10d19eeb0>', '<ast.Module object at 0x10d1ac910>', '<ast.Module object at 0x10d1accd0>', '<ast.Module object at 0x10d1c7f10>', '<ast.Module object at 0x10d1f6d30>', '<ast.Module object at 0x10d212e80>', '<ast.Module object at 0x10d2254f0>', '<ast.Module object at 0x10d23cc40>', '<ast.Module object at 0x10d264cd0>', '<ast.Module object at 0x10d26a790>', '<ast.Module object at 0x10d26adc0>', '<ast.Module object at 0x10d2cd760>', '<ast.Module object at 0x10d2e2670>', '<ast.Module object at 0x10d2e2820>', '<ast.Module object at 0x10d2ed430>', '<ast.Module object at 0x10d2ed640>', '<ast.Module object at 0x10d2fa040>', '<ast.Module object at 0x10d332f10>', '<ast.Module object at 0x10d35e8b0>', '<ast.Module object at 0x10d39b280>', '<ast.Module object at 0x10d39b7c0>', '<ast.Module object at 0x10d413b50>', '<ast.Module object at 0x10d4242e0>', '<ast.Module object at 0x10d4246d0>', '<ast.Module object at 0x10d427340>', '<ast.Module object at 0x10d4539d0>', '<ast.Module object at 0x10d4765b0>', '<ast.Module object at 0x10d477880>', '<ast.Module object at 0x10d4779d0>', '<ast.Module object at 0x10d5cbbe0>', '<ast.Module object at 0x10d5cbca0>', '<ast.Module object at 0x10d620a60>', '<ast.Module object at 0x10d620c40>', '<ast.Module object at 0x10e338610>', '<ast.Module object at 0x10e361970>', '<ast.Module object at 0x10e367a90>', '<ast.Module object at 0x10e367d00>', '<ast.Module object at 0x10e37aac0>', '<ast.Module object at 0x10e37ad60>', '<ast.Module object at 0x10e37d8e0>', '<ast.Module object at 0x10e37dc40>', '<ast.Module object at 0x10e37efa0>', '<ast.Module object at 0x10e3bc910>', '<ast.Module object at 0x10e3dbf10>', '<ast.Module object at 0x10e44f400>', '<ast.Module object at 0x10e458bb0>', '<ast.Module object at 0x10e460970>', '<ast.Module object at 0x10e46fee0>', '<ast.Module object at 0x10e4e7130>', '<ast.Module object at 0x10e4e7430>', '<ast.Module object at 0x10e4ee9a0>', '<ast.Module object at 0x10e4f2850>', '<ast.Module object at 0x10e5a8a30>', '<ast.Module object at 0x10e5a8d00>', 'ast.AST']
+  DL: ['transformation']
+154: ('/wemake_python_styleguide/transformations/ast/bugfixes.py', 'fix_line_number', 'parent_lineno') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+155: ('/wemake_python_styleguide/transformations/ast/enhancements.py', 'set_node_context', 'current_context') 7 (etc)
+  PT: ['None']
+  DL: ['_find_context']
+156: ('/wemake_python_styleguide/transformations/ast/enhancements.py', '_find_context', 'contexts') 7 (etc)
+  PT: ['tuple', 'Tuple[Type[ast.AST], ...]']
+  DL: ['dict']
+157: ('/wemake_python_styleguide/transformations/ast/enhancements.py', '_find_context', 'parent') 3 (PT Empty)
+  PT: []
+  DL: ['wemake_python_styleguide.logic.nodes.get_parent']
+158: ('/wemake_python_styleguide/visitors/base.py', '__init__', 'file_tokens') 7 (etc)
+  PT: ['list', 'Sequence[tokenize.TokenInfo]']
+  DL: ['dict']
+159: ('/wemake_python_styleguide/visitors/base.py', 'visit', 'method') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+160: ('/wemake_python_styleguide/violations/base.py', '__init__', 'baseline') 7 (etc)
+  PT: ['None', 'int', 'Optional[int]']
+  DL: ['dict']
+161: ('/wemake_python_styleguide/violations/base.py', '__init__', 'text') 7 (etc)
+  PT: ['None', 'str', 'Optional[str]']
+  DL: ['dict']
+162: ('/wemake_python_styleguide/violations/base.py', '__init__', 'node') 8 (Partial match)
+  PT: ['<ast.Module object at 0x10cb41160>', '<ast.Module object at 0x10ce7a550>', '<ast.Module object at 0x10d0d6460>', 'None', 'TokenInfo(type=0 (ENDMARKER), string="\'\'", start=(0, 0), end=(0, 0), line="\'\'")', 'ErrorNode', 'Optional[ast.AST]']
+  DL: ['ErrorNode', 'dict']
+163: ('/wemake_python_styleguide/visitors/base.py', 'add_violation', 'violation') 6 (DL subset PT)
+  PT: ['CognitiveComplexityViolation', 'ConsecutiveYieldsViolation', 'EmptyCommentViolation', 'ExtraIndentationViolation', 'ImplicitStringConcatenationViolation', 'LineComplexityViolation', 'OveruseOfNoCoverCommentViolation', 'OveruseOfNoqaCommentViolation', 'OverusedExpressionViolation', 'OverusedStringViolation', 'TooManyArgumentsViolation', 'TooManyAssertsViolation', 'TooManyAwaitsViolation', 'TooManyElifsViolation', 'TooManyForsInComprehensionViolation', 'TooManyMethodsViolation', 'TooManyModuleMembersViolation', 'TooManyRaisesViolation', 'TooManyReturnsViolation', 'WrongBracketPositionViolation', 'WrongKeywordViolation', 'WrongModuleNameViolation', 'WrongMultilineStringUseViolation', 'BaseViolation']
+  DL: ['wemake_python_styleguide.violations.base.BaseViolation']
+164: ('/wemake_python_styleguide/visitors/ast/naming.py', '__init__', 'error_callback') 6 (DL subset PT)
+  PT: ['meta_func', '_ErrorCallback']
+  DL: ['_ErrorCallback']
+165: ('/wemake_python_styleguide/logic/naming/blacklists.py', 'variable_names_blacklist_from', 'variable_names_blacklist') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+166: ('/wemake_python_styleguide/visitors/ast/imports.py', '_does_collide', 'first_path') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+167: ('/wemake_python_styleguide/logic/tree/functions.py', 'given_function_called', 'node') 6 (DL subset PT)
+  PT: ['<ast.Name object at 0x10cb5be80>', 'Call']
+  DL: ['ast.Call']
+168: ('/wemake_python_styleguide/logic/tree/functions.py', 'given_function_called', 'to_check') 7 (etc)
+  PT: ['list', 'Container[str]']
+  DL: ['dict']
+169: ('/wemake_python_styleguide/logic/tree/functions.py', 'given_function_called', 'function_name') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+170: ('/wemake_python_styleguide/violations/base.py', '_location', 'line_number') 7 (etc)
+  PT: ['int']
+  DL: ['getattr']
+171: ('/wemake_python_styleguide/violations/base.py', '_location', 'column_offset') 7 (etc)
+  PT: ['int']
+  DL: ['getattr']
+172: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_wrong_name', 'to_check') 7 (etc)
+  PT: ["frozenset({'utilities', 'util', 'utils', 'helpers'})", 'Iterable[str]']
+  DL: ['dict']
+173: ('/wemake_python_styleguide/logic/naming/logical.py', 'is_wrong_name', 'choices_to_check') 7 (etc)
+  PT: ['str']
+  DL: ['set']
+174: ('/wemake_python_styleguide/logic/naming/alphabet.py', 'get_unreadable_characters', 'character_combinations') 7 (etc)
+  PT: ["frozenset({'O0', '0O', '1l', '1I'})", 'Iterable[str]']
+  DL: ['dict']
+175: ('/wemake_python_styleguide/visitors/decorators.py', 'alias', 'aliases') 7 (etc)
+  PT: ['tuple', 'Tuple[str, ...]']
+  DL: ['dict']
+176: ('/wemake_python_styleguide/visitors/decorators.py', 'decorator', 'cls') 7 (etc)
+  PT: ['_HasAliasedProp']
+  DL: ['dict']
+177: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', 'cls') 7 (etc)
+  PT: ['_HasAliasedProp', 'Type[_DefinedType]']
+  DL: ['dict']
+178: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', 'aliases') 7 (etc)
+  PT: ['Tuple[str, ...]']
+  DL: ['dict']
+179: ('/wemake_python_styleguide/visitors/decorators.py', '_modify_class', 'original_handler') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+180: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', 'visit', 'line_number') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+181: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', 'visit', 'is_ignored') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+182: ('/wemake_python_styleguide/visitors/ast/complexity/jones.py', '_post_visit', 'complexity') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+183: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'lines') 7 (etc)
+  PT: ['list']
+  DL: ['sorted']
+184: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'lines') 7 (etc)
+  PT: ['list', 'Sequence[int]']
+  DL: ['dict']
+185: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'current_token') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+186: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'previous_token') 7 (etc)
+  PT: ['None', 'Optional[tokenize.TokenInfo]']
+  DL: ['dict']
+187: ('/wemake_python_styleguide/checker.py', '__init__', 'file_tokens') 7 (etc)
+  PT: ['list', 'Sequence[tokenize.TokenInfo]']
+  DL: ['dict']
+188: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_post_visit', 'real_children_length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+189: ('/wemake_python_styleguide/logic/complexity/annotations.py', 'get_annotation_complexity', 'annotation_node') 6 (DL subset PT)
+  PT: ['bool', '_Annotation']
+  DL: ['_Annotation']
+190: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_post_visit', 'previous_line') 7 (etc)
+  PT: ['None', 'Optional[int]']
+  DL: ['dict', 'line']
+191: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_post_visit', 'previous_parent') 7 (etc)
+  PT: ['None', 'Optional[ast.AST]']
+  DL: ['dict', 'parent']
+192: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_post_visit', 'parent') 3 (PT Empty)
+  PT: []
+  DL: ['wemake_python_styleguide.logic.nodes.get_parent']
+193: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '__init__', 'error_callback') 6 (DL subset PT)
+  PT: ['meta_func', 'ErrorCallback']
+  DL: ['wemake_python_styleguide.violations.base.ErrorCallback']
+194: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'linenos') 7 (etc)
+  PT: ['list']
+  DL: ['sorted']
+195: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'line_tokens') 3 (PT Empty)
+  PT: []
+  DL: ['sorted']
+196: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'previous_line_token') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'dict']
+197: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_post_visit', 'next_line_token') 5 (PT subset DL)
+  PT: ['None']
+  DL: ['None', 'dict']
+198: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'tokens') 7 (etc)
+  PT: ['List[tokenize.TokenInfo]']
+  DL: ['dict']
+199: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_individual_line', 'next_token') 7 (etc)
+  PT: ['None', 'Optional[tokenize.TokenInfo]']
+  DL: ['dict']
+200: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_token', 'tokens') 7 (etc)
+  PT: ['List[tokenize.TokenInfo]']
+  DL: ['dict']
+201: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_token', 'previous_token') 7 (etc)
+  PT: ['None', 'Optional[tokenize.TokenInfo]']
+  DL: ['dict']
+202: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_token', 'next_token') 7 (etc)
+  PT: ['None', 'Optional[tokenize.TokenInfo]']
+  DL: ['dict']
+203: ('/wemake_python_styleguide/options/validation.py', 'validate_domain_names_options', 'allowed_domain_names') 7 (etc)
+  PT: ['list', 'Tuple[str, ...]']
+  DL: ['dict']
+204: ('/wemake_python_styleguide/options/validation.py', 'validate_domain_names_options', 'forbidden_domain_names') 7 (etc)
+  PT: ['list', 'Tuple[str, ...]']
+  DL: ['dict']
+205: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_post_visit', 'total') 7 (etc)
+  PT: ['int']
+  DL: ['score']
+206: ('/wemake_python_styleguide/logic/complexity/cognitive.py', 'cognitive_score', 'complexity') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['sum', 'int']
+207: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_get_cognitive_complexity_for_node', 'increment_by') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['int', '_process_node_itself']
+208: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_get_cognitive_complexity_for_node', 'base_complexity') 7 (etc)
+  PT: ['int']
+  DL: ['_process_node_itself']
+209: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_get_cognitive_complexity_for_node', 'should_iter_children') 7 (etc)
+  PT: ['bool']
+  DL: ['_process_node_itself']
+210: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_get_cognitive_complexity_for_node', 'child_complexity') 7 (etc)
+  PT: ['int']
+  DL: ['_process_child_nodes']
+211: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_process_child_nodes', 'complexity_calculator') 7 (etc)
+  PT: ['meta_func', 'Callable[[ast.AST, int], int]']
+  DL: ['dict']
+212: ('/wemake_python_styleguide/logic/complexity/cognitive.py', '_process_child_nodes', 'child_complexity') 7 (etc)
+  PT: ['int']
+  DL: ['max', 'complexity_calculator']
+213: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_closing', 'tokens') 7 (etc)
+  PT: ['List[tokenize.TokenInfo]']
+  DL: ['dict']
+214: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_check_closing', 'tokens_before') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+215: ('/wemake_python_styleguide/logic/tokens.py', 'last_bracket', 'tokens') 7 (etc)
+  PT: ['List[tokenize.TokenInfo]']
+  DL: ['dict']
+216: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_annotate_brackets', 'tokens') 7 (etc)
+  PT: ['List[tokenize.TokenInfo]']
+  DL: ['dict']
+217: ('/wemake_python_styleguide/visitors/tokenize/statements.py', '_annotate_brackets', 'reverse_bracket') 7 (etc)
+  PT: ['int']
+  DL: ['wemake_python_styleguide.logic.tokens.get_reverse_bracket']
+218: ('/wemake_python_styleguide/logic/tokens.py', 'only_contains', 'tokens') 7 (etc)
+  PT: ['None', 'Iterable[tokenize.TokenInfo]']
+  DL: ['dict']
+219: ('/wemake_python_styleguide/logic/tokens.py', 'only_contains', 'container') 7 (etc)
+  PT: ['frozenset({4, 61, 60})', 'frozenset({4, 61})', 'frozenset({4, 8, 10, 26, 61})', 'Container[int]']
+  DL: ['dict']
+220: ('/wemake_python_styleguide/logic/walk.py', 'get_closest_parent', 'parents') 6 (DL subset PT)
+  PT: ['tuple', '_IsInstanceContainer']
+  DL: ['_IsInstanceContainer']
+221: ('/wemake_python_styleguide/logic/walk.py', 'get_closest_parent', 'parent') 3 (PT Empty)
+  PT: []
+  DL: ['wemake_python_styleguide.logic.nodes.get_parent']
+222: ('/wemake_python_styleguide/formatter.py', 'WemakeFormatter_class_initializer', '_doc_url') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+223: ('/wemake_python_styleguide/formatter.py', 'show_statistics', 'all_errors') 7 (etc)
+  PT: ['int']
+  DL: ['count']
+224: ('/wemake_python_styleguide/checker.py', 'Checker_class_initializer', 'name') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+225: ('/wemake_python_styleguide/checker.py', 'Checker_class_initializer', 'version') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+226: ('/wemake_python_styleguide/checker.py', 'Checker_class_initializer', 'options') 7 (etc)
+  PT: ['types.ConfigurationOptions']
+  DL: ['UnDefined']
+227: ('/wemake_python_styleguide/checker.py', 'Checker_class_initializer', '_visitors') 7 (etc)
+  PT: ['ClassVar[Sequence[VisitorClass]]']
+  DL: ['dict']
+228: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'type') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+229: ('/wemake_python_styleguide/options/config.py', '_Option_class_initializer', 'dest') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+230: ('/wemake_python_styleguide/options/config.py', 'Configuration_class_initializer', '_options') 7 (etc)
+  PT: ['ClassVar[Sequence[_Option]]']
+  DL: ['dict']
+231: ('/wemake_python_styleguide/options/validation.py', '_min_max', 'min') 7 (etc)
+  PT: ['Optional[int]']
+  DL: ['dict']
+232: ('/wemake_python_styleguide/options/validation.py', '_min_max', 'max') 7 (etc)
+  PT: ['Optional[int]']
+  DL: ['dict']
+233: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'nested_classes_whitelist') 7 (etc)
+  PT: ['Tuple[str, ...]']
+  DL: ['dict']
+234: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'allowed_domain_names') 7 (etc)
+  PT: ['Tuple[str, ...]']
+  DL: ['dict']
+235: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'forbidden_domain_names') 7 (etc)
+  PT: ['Tuple[str, ...]']
+  DL: ['dict']
+236: ('/wemake_python_styleguide/options/validation.py', '_ValidatedOptions_class_initializer', 'forbidden_inline_ignore') 7 (etc)
+  PT: ['Tuple[str, ...]']
+  DL: ['dict']
+237: ('/wemake_python_styleguide/visitors/base.py', 'from_checker', 'cls') 7 (etc)
+  PT: ["Type['BaseVisitor']", "Type['BaseNodeVisitor']", "Type['BaseTokenVisitor']"]
+  DL: ['dict']
+238: ('/wemake_python_styleguide/visitors/ast/functions.py', 'WrongFunctionCallVisitor_class_initializer', '_functions') 7 (etc)
+  PT: ['ClassVar[_Defs]']
+  DL: ['dict']
+239: ('/wemake_python_styleguide/visitors/ast/functions.py', 'WrongFunctionCallVisitor_class_initializer', '_postfixes') 7 (etc)
+  PT: ['ClassVar[_Defs]']
+  DL: ['dict']
+240: ('/wemake_python_styleguide/visitors/ast/functions.py', '_check_range_len', 'args_len') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+241: ('/wemake_python_styleguide/visitors/ast/functions.py', 'FunctionDefinitionVisitor_class_initializer', '_descriptor_decorators') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+242: ('/wemake_python_styleguide/visitors/ast/functions.py', 'FunctionSignatureVisitor_class_initializer', '_allowed_default_value_types') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+243: ('/wemake_python_styleguide/visitors/ast/attributes.py', 'WrongAttributeVisitor_class_initializer', '_allowed_to_use_protected') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+244: ('/wemake_python_styleguide/visitors/ast/attributes.py', 'WrongAttributeVisitor_class_initializer', '_allowed_magic_attributes') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+245: ('/wemake_python_styleguide/visitors/ast/naming.py', '_NameValidator_class_initializer', '_naming_predicates') 7 (etc)
+  PT: ['ClassVar[_Predicates]']
+  DL: ['dict']
+246: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_reassignment', 'names') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+247: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_unique_assignment', 'names') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+248: ('/wemake_python_styleguide/visitors/ast/naming.py', 'visit_any_assign', 'is_inside_class_or_module') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+249: ('/wemake_python_styleguide/visitors/ast/naming.py', '_check_assign_unused', 'all_names') 8 (Partial match)
+  PT: ['Iterable[str]', 'list']
+  DL: ['dict', 'list']
+250: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongStringVisitor_class_initializer', '_string_constants') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+251: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongStringVisitor_class_initializer', '_modulo_string_pattern') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+252: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongStringVisitor_class_initializer', '_modulo_pattern_exceptions') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+253: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_is_alphabet', 'text_data') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+254: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_is_modulo_pattern_exception', 'parent') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+255: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_modulo_patterns', 'text_data') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+256: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongFormatStringVisitor_class_initializer', '_valid_format_index') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+257: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongFormatStringVisitor_class_initializer', '_single_use_types') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+258: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_is_valid_final_value', 'format_value') 7 (etc)
+  PT: ['ast.AST']
+  DL: ['(?,?,?)']
+259: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_is_valid_chaining', 'chained_parts') 7 (etc)
+  PT: ['List[ast.AST]']
+  DL: ['dict']
+260: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_is_valid_chain_structure', 'chained_parts') 7 (etc)
+  PT: ['List[ast.AST]']
+  DL: ['dict']
+261: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongNumberVisitor_class_initializer', '_allowed_parents') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+262: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongNumberVisitor_class_initializer', '_non_magic_modulo') 7 (etc)
+  PT: ['ClassVar[int]']
+  DL: ['dict']
+263: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_is_approximate_constant', 'precision') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+264: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_unpacking_targets', 'targets') 8 (Partial match)
+  PT: ['Iterable[ast.AST]', 'tuple']
+  DL: ['dict', 'tuple']
+265: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_unpacking_target_types', 'node') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+266: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongCollectionVisitor_class_initializer', '_elements_in_sets') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+267: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongCollectionVisitor_class_initializer', '_unhashable_types') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+268: ('/wemake_python_styleguide/visitors/ast/builtins.py', 'WrongCollectionVisitor_class_initializer', '_elements_to_eval') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+269: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_set_elements', 'node') 6 (DL subset PT)
+  PT: ['Union[ast.Set, ast.Dict]']
+  DL: ['dict']
+270: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_check_set_elements', 'elements') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+271: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_report_set_elements', 'node') 6 (DL subset PT)
+  PT: ['Union[ast.Set, ast.Dict]']
+  DL: ['dict']
+272: ('/wemake_python_styleguide/visitors/ast/builtins.py', '_report_set_elements', 'elements') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+273: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'WrongRaiseVisitor_class_initializer', '_base_exceptions') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+274: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_last_return_in_function', 'returns') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+275: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'WrongKeywordVisitor_class_initializer', '_forbidden_keywords') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+276: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'GeneratorKeywordsVisitor_class_initializer', '_allowed_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+277: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_for_violations', 'return_names') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+278: ('/wemake_python_styleguide/visitors/ast/keywords.py', '_check_for_violations', 'previous_names') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+279: ('/wemake_python_styleguide/visitors/ast/keywords.py', 'ConstantKeywordVisitor_class_initializer', '_forbidden_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+280: ('/wemake_python_styleguide/visitors/ast/imports.py', '_check_protected_import', 'names') 7 (etc)
+  PT: ['Iterable[str]']
+  DL: ['dict']
+281: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_get_duplicate_names', 'variables') 7 (etc)
+  PT: ['List[Set[str]]']
+  DL: ['dict']
+282: ('/wemake_python_styleguide/visitors/ast/conditions.py', 'IfStatementVisitor_class_initializer', '_returning_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+283: ('/wemake_python_styleguide/visitors/ast/conditions.py', 'ImplicitBoolPatternsVisitor_class_initializer', '_allowed') 7 (etc)
+  PT: ['ClassVar[_OperatorPairs]']
+  DL: ['dict']
+284: ('/wemake_python_styleguide/visitors/ast/conditions.py', '_check_implicit_in', 'variables') 7 (etc)
+  PT: ['List[Set[str]]']
+  DL: ['dict']
+285: ('/wemake_python_styleguide/visitors/ast/loops.py', 'WrongComprehensionVisitor_class_initializer', '_max_ifs') 7 (etc)
+  PT: ['ClassVar[int]']
+  DL: ['dict']
+286: ('/wemake_python_styleguide/visitors/ast/loops.py', 'WrongComprehensionVisitor_class_initializer', '_max_fors') 7 (etc)
+  PT: ['ClassVar[int]']
+  DL: ['dict']
+287: ('/wemake_python_styleguide/visitors/ast/loops.py', 'WrongLoopVisitor_class_initializer', '_breaks') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+288: ('/wemake_python_styleguide/visitors/ast/loops.py', 'WrongLoopVisitor_class_initializer', '_containers') 7 (etc)
+  PT: ['ClassVar[_ContainerSpec]']
+  DL: ['dict']
+289: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_lambda_inside_loop', 'node') 7 (etc)
+  PT: ['Union[AnyLoop, AnyComprehension]']
+  DL: ['dict']
+290: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_lambda_inside_loop', 'arguments') 7 (etc)
+  PT: ['generator']
+  DL: ['list']
+291: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_lambda_inside_loop', 'body') 7 (etc)
+  PT: ['generator']
+  DL: ['list']
+292: ('/wemake_python_styleguide/visitors/ast/loops.py', 'WrongLoopDefinitionVisitor_class_initializer', '_forbidden_for_iters') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+293: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_explicit_iter_type', 'node') 7 (etc)
+  PT: ['Union[AnyFor, ast.comprehension]']
+  DL: ['dict']
+294: ('/wemake_python_styleguide/visitors/ast/loops.py', '_check_explicit_iter_type', 'is_wrong') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+295: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongConstantCompareVisitor_class_initializer', '_forbidden_for_is') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+296: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongComparisonOrderVisitor_class_initializer', '_allowed_left_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+297: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongComparisonOrderVisitor_class_initializer', '_special_cases') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+298: ('/wemake_python_styleguide/visitors/ast/compares.py', '_has_wrong_nodes_on_the_right', 'comparators') 7 (etc)
+  PT: ['Sequence[ast.AST]']
+  DL: ['dict']
+299: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongConditionalVisitor_class_initializer', '_forbidden_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+300: ('/wemake_python_styleguide/visitors/ast/compares.py', 'WrongConditionalVisitor_class_initializer', '_forbidden_expression_parents') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+301: ('/wemake_python_styleguide/visitors/ast/compares.py', '_is_simplifiable_assign', 'node_body') 7 (etc)
+  PT: ['List[ast.stmt]']
+  DL: ['dict']
+302: ('/wemake_python_styleguide/visitors/ast/compares.py', 'InCompareSanityVisitor_class_initializer', '_in_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+303: ('/wemake_python_styleguide/visitors/ast/compares.py', 'InCompareSanityVisitor_class_initializer', '_wrong_in_comparators') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+304: ('/wemake_python_styleguide/visitors/ast/exceptions.py', 'WrongTryExceptVisitor_class_initializer', '_bad_returning_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+305: ('/wemake_python_styleguide/visitors/ast/exceptions.py', '_check_exception_order', 'seen') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+306: ('/wemake_python_styleguide/visitors/ast/exceptions.py', 'WrongExceptHandlerVisitor_class_initializer', '_base_exception') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+307: ('/wemake_python_styleguide/visitors/ast/exceptions.py', 'WrongExceptHandlerVisitor_class_initializer', '_trivial_except_arg_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+308: ('/wemake_python_styleguide/visitors/ast/modules.py', 'ModuleConstantsVisitor_class_initializer', '_mutable_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+309: ('/wemake_python_styleguide/visitors/ast/classes.py', 'WrongClassVisitor_class_initializer', '_allowed_body_nodes') 7 (etc)
+  PT: ['ClassVar[types.AnyNodes]']
+  DL: ['dict']
+310: ('/wemake_python_styleguide/visitors/ast/classes.py', 'WrongMethodVisitor_class_initializer', '_staticmethod_names') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+311: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_bound_methods', 'is_async') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+312: ('/wemake_python_styleguide/visitors/ast/classes.py', '_get_call_stmt_of_useless_method', 'statements_number') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+313: ('/wemake_python_styleguide/visitors/ast/classes.py', 'WrongSlotsVisitor_class_initializer', '_whitelisted_slots_nodes') 7 (etc)
+  PT: ['ClassVar[types.AnyNodes]']
+  DL: ['dict']
+314: ('/wemake_python_styleguide/visitors/ast/classes.py', '_are_correct_slots', 'slots') 7 (etc)
+  PT: ['List[ast.AST]']
+  DL: ['dict']
+315: ('/wemake_python_styleguide/visitors/ast/classes.py', '_check_method_order', 'method_nodes') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+316: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_closing_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+317: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_have_doc_strings') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+318: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_blocked_self_assignment') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+319: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_have_effect') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+320: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_generally_useless_body') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+321: ('/wemake_python_styleguide/visitors/ast/statements.py', 'StatementsWithBodiesVisitor_class_initializer', '_loop_useless_body') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+322: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_swapped_variables', 'body') 7 (etc)
+  PT: ['Sequence[ast.stmt]']
+  DL: ['dict']
+323: ('/wemake_python_styleguide/visitors/ast/statements.py', '_almost_swapped', 'assigns') 7 (etc)
+  PT: ['Sequence[ast.Assign]']
+  DL: ['dict']
+324: ('/wemake_python_styleguide/visitors/ast/statements.py', '_almost_swapped', 'previous_var') 7 (etc)
+  PT: ['Set[Optional[str]]']
+  DL: ['dict', 'current_var']
+325: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_useless_node', 'body') 7 (etc)
+  PT: ['Sequence[ast.stmt]']
+  DL: ['dict']
+326: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_self_misrefactored_assignment', 'node_value') 7 (etc)
+  PT: ['ast.expr']
+  DL: ['UnDefined']
+327: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_internals', 'body') 7 (etc)
+  PT: ['Sequence[ast.stmt]']
+  DL: ['dict']
+328: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_rest_elements', 'multi_line_mode') 7 (etc)
+  PT: ['Optional[bool]']
+  DL: ['dict']
+329: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_indentation', 'elements') 7 (etc)
+  PT: ['Sequence[ast.AST]']
+  DL: ['dict']
+330: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_indentation', 'multi_line_mode') 8 (Partial match)
+  PT: ['Optional[bool]']
+  DL: ['dict', 'bool']
+331: ('/wemake_python_styleguide/visitors/ast/statements.py', 'PointlessStarredVisitor_class_initializer', '_pointless_star_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+332: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_starred_args', 'args') 7 (etc)
+  PT: ['Sequence[ast.AST]']
+  DL: ['dict']
+333: ('/wemake_python_styleguide/visitors/ast/statements.py', '_check_double_starred_dict', 'keywords') 7 (etc)
+  PT: ['Sequence[ast.keyword]']
+  DL: ['dict']
+334: ('/wemake_python_styleguide/visitors/ast/statements.py', 'WrongMethodArgumentsVisitor_class_initializer', '_no_tuples_collections') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+335: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'BlockVariableVisitor_class_initializer', '_naming_predicates') 7 (etc)
+  PT: ['Tuple[_NamePredicate, ...]']
+  DL: ['dict']
+336: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'BlockVariableVisitor_class_initializer', '_scope_predicates') 7 (etc)
+  PT: ['Tuple[_ScopePredicate, ...]']
+  DL: ['dict']
+337: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_named_nodes', 'node') 7 (etc)
+  PT: ['Union[AnyFunctionDef, ast.ClassDef, ast.ExceptHandler]']
+  DL: ['dict']
+338: ('/wemake_python_styleguide/visitors/ast/blocks.py', 'visit_locals', 'node') 7 (etc)
+  PT: ['Union[AnyAssignWithWalrus, ast.arg]']
+  DL: ['dict']
+339: ('/wemake_python_styleguide/visitors/ast/blocks.py', '_scope', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+340: ('/wemake_python_styleguide/visitors/ast/blocks.py', '_outer_scope', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+341: ('/wemake_python_styleguide/visitors/ast/blocks.py', '_add_to_scope', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+342: ('/wemake_python_styleguide/visitors/ast/operators.py', 'UselessOperatorsVisitor_class_initializer', '_unary_limits') 7 (etc)
+  PT: ['ClassVar[_OperatorLimits]']
+  DL: ['dict']
+343: ('/wemake_python_styleguide/visitors/ast/operators.py', 'UselessOperatorsVisitor_class_initializer', '_meaningless_operations') 7 (etc)
+  PT: ['ClassVar[_MeaninglessOperators]']
+  DL: ['dict']
+344: ('/wemake_python_styleguide/visitors/ast/operators.py', 'UselessOperatorsVisitor_class_initializer', '_left_special_cases') 7 (etc)
+  PT: ['ClassVar[_MeaninglessOperators]']
+  DL: ['dict']
+345: ('/wemake_python_styleguide/visitors/ast/operators.py', 'UselessOperatorsVisitor_class_initializer', '_zero_divisors') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+346: ('/wemake_python_styleguide/visitors/ast/operators.py', '_check_zero_division', 'number') 7 (etc)
+  PT: ['ast.AST']
+  DL: ['wemake_python_styleguide.logic.tree.operators.unwrap_unary_node']
+347: ('/wemake_python_styleguide/visitors/ast/operators.py', '_check_useless_math_operator', 'left') 8 (Partial match)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict', 'None']
+348: ('/wemake_python_styleguide/visitors/ast/operators.py', '_check_useless_math_operator', 'right') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+349: ('/wemake_python_styleguide/visitors/ast/operators.py', '_get_non_negative_nodes', 'left') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+350: ('/wemake_python_styleguide/visitors/ast/operators.py', '_get_non_negative_nodes', 'right') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+351: ('/wemake_python_styleguide/visitors/ast/operators.py', 'WrongMathOperatorVisitor_class_initializer', '_string_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+352: ('/wemake_python_styleguide/visitors/ast/operators.py', 'WrongMathOperatorVisitor_class_initializer', '_list_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+353: ('/wemake_python_styleguide/visitors/ast/operators.py', '_check_string_concat', 'right') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+354: ('/wemake_python_styleguide/visitors/ast/operators.py', 'BitwiseOpVisitor_class_initializer', '_invalid_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+355: ('/wemake_python_styleguide/visitors/ast/iterables.py', 'IterableUnpackingVisitor_class_initializer', '_unpackable_iterable_parent_types') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+356: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'StringOveruseVisitor_class_initializer', '_ignored_string_constants') 7 (etc)
+  PT: ['ClassVar[_StringConstants]']
+  DL: ['dict']
+357: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'ExpressionOveruseVisitor_class_initializer', '_expressions') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+358: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'ExpressionOveruseVisitor_class_initializer', '_ignore_predicates') 7 (etc)
+  PT: ['Tuple[Callable[[ast.AST], bool], ...]']
+  DL: ['dict']
+359: ('/wemake_python_styleguide/visitors/ast/complexity/overuses.py', 'ExpressionOveruseVisitor_class_initializer', '_msg') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+360: ('/wemake_python_styleguide/visitors/ast/complexity/access.py', 'AccessVisitor_class_initializer', '_access_nodes') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+361: ('/wemake_python_styleguide/visitors/ast/complexity/access.py', '_check_consecutive_access_number', 'access_number') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+362: ('/wemake_python_styleguide/visitors/ast/complexity/offset.py', 'OffsetVisitor_class_initializer', '_max_offset_blocks') 7 (etc)
+  PT: ['ClassVar[int]']
+  DL: ['dict']
+363: ('/wemake_python_styleguide/visitors/ast/complexity/imports.py', '_check_import_from_names_count', 'imported_names_number') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+364: ('/wemake_python_styleguide/visitors/ast/complexity/classes.py', '_check_public_attributes', 'attrs_count') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+365: ('/wemake_python_styleguide/visitors/ast/complexity/annotations.py', '_check_annotations_complexity', 'annotations') 7 (etc)
+  PT: ['List[ast.expr]']
+  DL: ['dict']
+366: ('/wemake_python_styleguide/visitors/ast/complexity/calls.py', '_check_consecutive_call_number', 'num_of_calls') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+367: ('/wemake_python_styleguide/visitors/ast/complexity/function.py', '_ComplexityCounter_class_initializer', '_not_contain_locals') 7 (etc)
+  PT: ['ClassVar[AnyNodes]']
+  DL: ['dict']
+368: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', '_check_nested_function', 'is_inside_function') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+369: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', '_check_nested_function', 'is_direct') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+370: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', '_check_nested_classes', 'is_inside_class') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+371: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', '_check_nested_classes', 'is_inside_function') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+372: ('/wemake_python_styleguide/visitors/ast/complexity/nested.py', '_check_nested_lambdas', 'is_direct') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+373: ('/wemake_python_styleguide/visitors/ast/complexity/counts.py', '_check_decorators_count', 'number_of_decorators') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+374: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_bad_number_suffixes') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+375: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_leading_zero_pattern') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+376: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_leading_zero_float_pattern') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+377: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_positive_exponent_patterns') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+378: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_bad_hex_numbers') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+379: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_bad_complex_suffix') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+380: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongNumberTokenVisitor_class_initializer', '_float_zero') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+381: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongStringTokenVisitor_class_initializer', '_bad_string_modifiers') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+382: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongStringTokenVisitor_class_initializer', '_unicode_escapes') 7 (etc)
+  PT: ['ClassVar[FrozenSet[str]]']
+  DL: ['dict']
+383: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongStringTokenVisitor_class_initializer', '_implicit_raw_strings') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+384: ('/wemake_python_styleguide/visitors/tokenize/primitives.py', 'WrongStringConcatenationVisitor_class_initializer', '_ignored_tokens') 7 (etc)
+  PT: ['ClassVar[FrozenSet[int]]']
+  DL: ['dict']
+385: ('/wemake_python_styleguide/visitors/tokenize/conditions.py', 'IfElseVisitor_class_initializer', '_allowed_token_types') 7 (etc)
+  PT: ['ClassVar[FrozenSet[int]]']
+  DL: ['dict']
+386: ('/wemake_python_styleguide/visitors/tokenize/conditions.py', '_if_has_code_below', 'remaining_tokens') 7 (etc)
+  PT: ['Sequence[tokenize.TokenInfo]']
+  DL: ['dict']
+387: ('/wemake_python_styleguide/visitors/tokenize/conditions.py', '_check_complex_else', 'tokens') 7 (etc)
+  PT: ['Sequence[tokenize.TokenInfo]']
+  DL: ['dict']
+388: ('/wemake_python_styleguide/visitors/tokenize/statements.py', 'ExtraIndentationVisitor_class_initializer', '_ignored_tokens') 7 (etc)
+  PT: ['ClassVar[Tuple[int, ...]]']
+  DL: ['dict']
+389: ('/wemake_python_styleguide/visitors/tokenize/statements.py', 'ExtraIndentationVisitor_class_initializer', '_ignored_previous_token') 7 (etc)
+  PT: ['ClassVar[Tuple[int, ...]]']
+  DL: ['dict']
+390: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'WrongCommentVisitor_class_initializer', '_no_cover') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+391: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'WrongCommentVisitor_class_initializer', '_type_check') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+392: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'ShebangVisitor_class_initializer', '_shebang') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+393: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'ShebangVisitor_class_initializer', '_python_executable') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+394: ('/wemake_python_styleguide/visitors/tokenize/comments.py', 'NoqaVisitor_class_initializer', '_noqa_check') 7 (etc)
+  PT: ['ClassVar[Pattern]']
+  DL: ['dict']
+395: ('/wemake_python_styleguide/compat/functions.py', 'get_assign_targets', 'node') 7 (etc)
+  PT: ['Union[AnyAssignWithWalrus, ast.AugAssign]']
+  DL: ['dict']
+396: ('/wemake_python_styleguide/compat/nodes.py', 'NamedExpr_class_initializer', 'value') 7 (etc)
+  PT: ['ast.expr']
+  DL: ['UnDefined']
+397: ('/wemake_python_styleguide/compat/nodes.py', 'NamedExpr_class_initializer', 'target') 7 (etc)
+  PT: ['ast.expr']
+  DL: ['UnDefined']
+398: ('/wemake_python_styleguide/compat/nodes.py', 'Constant_class_initializer', 'value') 3 (PT Empty)
+  PT: ['Any']
+  DL: ['typing.Any']
+399: ('/wemake_python_styleguide/compat/nodes.py', 'Constant_class_initializer', 'kind') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+400: ('/wemake_python_styleguide/compat/nodes.py', 'Constant_class_initializer', 's') 3 (PT Empty)
+  PT: ['Any']
+  DL: ['typing.Any']
+401: ('/wemake_python_styleguide/logic/walk.py', 'get_subnodes_by_type', 'subnodes_type') 7 (etc)
+  PT: ['Type[_SubnodeType]']
+  DL: ['dict']
+402: ('/wemake_python_styleguide/logic/safe_eval.py', '_convert_num', 'node') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+403: ('/wemake_python_styleguide/logic/safe_eval.py', '_convert_signed_num', 'node') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+404: ('/wemake_python_styleguide/logic/safe_eval.py', '_convert_iterable', 'node') 6 (DL subset PT)
+  PT: ['Union[ast.Tuple, ast.List, ast.Set, ast.Dict]']
+  DL: ['dict']
+405: ('/wemake_python_styleguide/logic/safe_eval.py', 'literal_eval_with_names', 'node') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+406: ('/wemake_python_styleguide/logic/tree/functions.py', 'is_method', 'function_type') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+407: ('/wemake_python_styleguide/logic/tree/attributes.py', 'parts', 'iterator') 7 (etc)
+  PT: ['ast.AST']
+  DL: ['chained_item']
+408: ('/wemake_python_styleguide/logic/tree/keywords.py', 'returning_nodes', 'returns') 7 (etc)
+  PT: ['List[ast.Return]']
+  DL: ['dict']
+409: ('/wemake_python_styleguide/logic/tree/keywords.py', 'node_returns_bool_const', 'is_return') 7 (etc)
+  PT: ['bool']
+  DL: ['isinstance']
+410: ('/wemake_python_styleguide/logic/tree/keywords.py', 'is_simple_return', 'body') 7 (etc)
+  PT: ['Sequence[ast.stmt]']
+  DL: ['dict']
+411: ('/wemake_python_styleguide/logic/tree/keywords.py', 'next_node_returns_bool', 'body') 7 (etc)
+  PT: ['Sequence[ast.stmt]']
+  DL: ['dict']
+412: ('/wemake_python_styleguide/logic/tree/loops.py', '_does_loop_contain_node', 'loop') 7 (etc)
+  PT: ['Optional[AnyLoop]']
+  DL: ['dict']
+413: ('/wemake_python_styleguide/logic/tree/stubs.py', '_is_stub_with_docstring', 'statements_in_body') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+414: ('/wemake_python_styleguide/logic/tree/collections.py', 'normalize_dict_elements', 'elements') 7 (etc)
+  PT: ['List[ast.AST]']
+  DL: ['dict']
+415: ('/wemake_python_styleguide/logic/tree/collections.py', 'sequence_of_node', 'node_types') 7 (etc)
+  PT: ['Tuple[Type[_NodeType], ...]']
+  DL: ['dict']
+416: ('/wemake_python_styleguide/logic/tree/collections.py', 'sequence_of_node', 'sequence') 7 (etc)
+  PT: ['Sequence[ast.stmt]']
+  DL: ['dict']
+417: ('/wemake_python_styleguide/logic/tree/collections.py', 'sequence_of_node', 'node_sequence') 5 (PT subset DL)
+  PT: ['List[_NodeType]', 'list']
+  DL: ['dict', 'list']
+418: ('/wemake_python_styleguide/logic/tree/collections.py', 'first', 'sequence') 7 (etc)
+  PT: ['Iterable[_NodeType]']
+  DL: ['dict']
+419: ('/wemake_python_styleguide/logic/tree/collections.py', 'first', 'default') 7 (etc)
+  PT: ['Optional[_DefaultType]']
+  DL: ['dict']
+420: ('/wemake_python_styleguide/logic/tree/compares.py', '_Bounds_class_initializer', 'lower_bound') 7 (etc)
+  PT: ['Set[ast.Compare]']
+  DL: ['dict']
+421: ('/wemake_python_styleguide/logic/tree/compares.py', '_Bounds_class_initializer', 'upper_bound') 7 (etc)
+  PT: ['Set[ast.Compare]']
+  DL: ['dict']
+422: ('/wemake_python_styleguide/logic/tree/compares.py', 'is_valid', 'num_shared') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+423: ('/wemake_python_styleguide/logic/tree/compares.py', 'is_valid', 'num_lower_bounds') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+424: ('/wemake_python_styleguide/logic/tree/compares.py', 'is_valid', 'num_upper_bounds') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+425: ('/wemake_python_styleguide/logic/tree/exceptions.py', 'get_all_exception_names', 'exceptions') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+426: ('/wemake_python_styleguide/logic/tree/classes.py', 'is_forbidden_super_class', 'class_name') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+427: ('/wemake_python_styleguide/logic/tree/ifs.py', 'chain', 'iterator') 5 (PT subset DL)
+  PT: ['_IfAndElifASTNode']
+  DL: ['_IfAndElifASTNode', 'dict', 'next_if']
+428: ('/wemake_python_styleguide/logic/tree/ifs.py', 'has_nodes', 'iterable') 7 (etc)
+  PT: ['Iterable[ast.AST]']
+  DL: ['dict']
+429: ('/wemake_python_styleguide/logic/tree/operators.py', 'get_parent_ignoring_unary', 'node') 7 (etc)
+  PT: ['ast.AST']
+  DL: ['parent']
+430: ('/wemake_python_styleguide/logic/tree/operators.py', 'count_unary_operator', 'operator') 7 (etc)
+  PT: ['Type[ast.unaryop]']
+  DL: ['dict']
+431: ('/wemake_python_styleguide/logic/tree/calls.py', 'parts', 'iterator') 7 (etc)
+  PT: ['ast.Call']
+  DL: ['chained_item']
+432: ('/wemake_python_styleguide/logic/complexity/overuses.py', 'is_self', 'self_node') 7 (etc)
+  PT: ['Union[ast.Attribute, ast.Subscript, None]', 'ast.AST']
+  DL: ['dict', 'node']
+433: ('/wemake_python_styleguide/logic/naming/name_nodes.py', 'flat_variable_names', 'nodes') 7 (etc)
+  PT: ['Iterable[AnyAssignWithWalrus]']
+  DL: ['dict']
+434: ('/wemake_python_styleguide/logic/naming/name_nodes.py', 'get_variables_from_node', 'names') 7 (etc)
+  PT: ['List[str]']
+  DL: ['dict']
+435: ('/wemake_python_styleguide/logic/scopes/defs.py', 'add_to_scope', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+436: ('/wemake_python_styleguide/logic/scopes/defs.py', 'shadowing', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+437: ('/wemake_python_styleguide/logic/scopes/defs.py', '_exclude_unused', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+438: ('/wemake_python_styleguide/logic/scopes/defs.py', 'BlockScope_class_initializer', '_block_scopes') 7 (etc)
+  PT: ['ClassVar[_ContextStore]']
+  DL: ['dict']
+439: ('/wemake_python_styleguide/logic/scopes/defs.py', 'BlockScope_class_initializer', '_local_scopes') 7 (etc)
+  PT: ['ClassVar[_ContextStore]']
+  DL: ['dict']
+440: ('/wemake_python_styleguide/logic/scopes/defs.py', 'OuterScope_class_initializer', '_scopes') 7 (etc)
+  PT: ['ClassVar[_ContextStore]']
+  DL: ['dict']
+441: ('/wemake_python_styleguide/logic/scopes/defs.py', '_build_outer_context', 'outer_names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+442: ('/wemake_python_styleguide/logic/scopes/predicates.py', 'is_same_value_reuse', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+443: ('/wemake_python_styleguide/logic/scopes/predicates.py', 'is_same_try_except_cases', 'names') 7 (etc)
+  PT: ['Set[str]']
+  DL: ['dict']
+444: ('/wemake_python_styleguide/logic/arguments/super_args.py', '_is_super_called_with', 'arg1') 7 (etc)
+  PT: ['Optional[ast.expr]']
+  DL: ['dict']
+445: ('/wemake_python_styleguide/logic/arguments/super_args.py', '_is_super_called_with', 'arg2') 7 (etc)
+  PT: ['Optional[ast.expr]']
+  DL: ['dict']
+446: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_vararg', 'vararg_name') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+447: ('/wemake_python_styleguide/logic/arguments/function_args.py', '_has_same_kwarg', 'kwarg_name') 7 (etc)
+  PT: ['Optional[str]']
+  DL: ['dict']
+448: ('/wemake_python_styleguide/violations/base.py', 'BaseViolation_class_initializer', 'error_template') 7 (etc)
+  PT: ['ClassVar[str]']
+  DL: ['dict']
+449: ('/wemake_python_styleguide/violations/base.py', 'BaseViolation_class_initializer', 'code') 7 (etc)
+  PT: ['ClassVar[int]']
+  DL: ['dict']
+450: ('/wemake_python_styleguide/violations/base.py', 'BaseViolation_class_initializer', 'previous_codes') 7 (etc)
+  PT: ['ClassVar[Set[int]]']
+  DL: ['dict']
+451: ('/wemake_python_styleguide/violations/base.py', 'BaseViolation_class_initializer', 'deprecated') 7 (etc)
+  PT: ['ClassVar[bool]']
+  DL: ['dict']
+452: ('/wemake_python_styleguide/violations/base.py', 'BaseViolation_class_initializer', 'postfix_template') 7 (etc)
+  PT: ['ClassVar[ViolationPostfixes]']
+  DL: ['dict']
+453: ('/wemake_python_styleguide/violations/base.py', '_BaseASTViolation_class_initializer', '_node') 7 (etc)
+  PT: ['Optional[ast.AST]']
+  DL: ['dict']
+454: ('/wemake_python_styleguide/violations/base.py', 'ASTViolation_class_initializer', '_node') 7 (etc)
+  PT: ['ast.AST']
+  DL: ['UnDefined']
+455: ('/wemake_python_styleguide/violations/base.py', 'TokenizeViolation_class_initializer', '_node') 7 (etc)
+  PT: ['tokenize.TokenInfo']
+  DL: ['UnDefined']

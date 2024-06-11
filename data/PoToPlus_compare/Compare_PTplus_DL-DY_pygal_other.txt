@@ -1,0 +1,51 @@
+0: ('/pygal/colors.py', 'adjust', 'r') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['int']
+1: ('/pygal/colors.py', 'adjust', 'g') 7 (etc)
+  PT: ['None']
+  DL: ['int']
+2: ('/pygal/colors.py', 'adjust', 'b') 7 (etc)
+  PT: ['None']
+  DL: ['int']
+3: ('/pygal/colors.py', 'adjust', 'a') 7 (etc)
+  PT: ['None', 'int']
+  DL: ['float']
+4: ('/pygal/colors.py', 'adjust', 'type') 6 (DL subset PT)
+  PT: ['None', 'str', 'type']
+  DL: ['str']
+5: ('/pygal/colors.py', 'parse_color', 'r') 6 (DL subset PT)
+  PT: ['None', 'int']
+  DL: ['NoneType']
+6: ('/pygal/colors.py', 'parse_color', 'a') 8 (Partial match)
+  PT: ['None', 'int']
+  DL: ['NoneType', 'float']
+7: ('/pygal/colors.py', 'parse_color', 'type') 6 (DL subset PT)
+  PT: ['None', 'str', 'type']
+  DL: ['NoneType', 'str']
+8: ('/pygal/colors.py', 'rgb_to_hsl', 'r') 6 (DL subset PT)
+  PT: ['None', 'float', 'int']
+  DL: ['float']
+9: ('/pygal/colors.py', 'rgb_to_hsl', 'g') 6 (DL subset PT)
+  PT: ['None', 'float', 'int']
+  DL: ['float']
+10: ('/pygal/colors.py', 'rgb_to_hsl', 'b') 6 (DL subset PT)
+  PT: ['None', 'float', 'int']
+  DL: ['float']
+11: ('/pygal/colors.py', 'hsl_to_rgb', 'h') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['float']
+12: ('/pygal/colors.py', 'hsl_to_rgb', 's') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['float']
+13: ('/pygal/colors.py', 'hsl_to_rgb', 'l') 6 (DL subset PT)
+  PT: ['float', 'int']
+  DL: ['float']
+14: ('/pygal/colors.py', 'hsl_to_rgb', 'm2') 6 (DL subset PT)
+  PT: ['bool', 'float', 'int']
+  DL: ['float']
+15: ('/pygal/colors.py', 'hsl_to_rgb', 'm1') 6 (DL subset PT)
+  PT: ['bool', 'float', 'int']
+  DL: ['float']
+16: ('/pygal/colors.py', 'unparse_color', 'type') 6 (DL subset PT)
+  PT: ['None', 'str', 'type']
+  DL: ['str']

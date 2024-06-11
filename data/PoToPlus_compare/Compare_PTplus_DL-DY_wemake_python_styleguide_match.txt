@@ -1,0 +1,1374 @@
+0: ('/wemake_python_styleguide/violations/base.py', 'ViolationPostfixes_class_initializer', 'bigger_than') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+1: ('/wemake_python_styleguide/violations/base.py', 'ViolationPostfixes_class_initializer', 'less_than') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+2: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongMagicCommentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+3: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongMagicCommentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+4: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongDocCommentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+5: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongDocCommentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+6: ('/wemake_python_styleguide/violations/best_practices.py', 'OveruseOfNoqaCommentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+7: ('/wemake_python_styleguide/violations/best_practices.py', 'OveruseOfNoqaCommentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+8: ('/wemake_python_styleguide/violations/best_practices.py', 'OveruseOfNoCoverCommentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+9: ('/wemake_python_styleguide/violations/best_practices.py', 'OveruseOfNoCoverCommentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+10: ('/wemake_python_styleguide/violations/best_practices.py', 'ComplexDefaultValueViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+11: ('/wemake_python_styleguide/violations/best_practices.py', 'ComplexDefaultValueViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+12: ('/wemake_python_styleguide/violations/best_practices.py', 'LoopVariableDefinitionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+13: ('/wemake_python_styleguide/violations/best_practices.py', 'LoopVariableDefinitionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+14: ('/wemake_python_styleguide/violations/best_practices.py', 'ContextManagerVariableDefinitionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+15: ('/wemake_python_styleguide/violations/best_practices.py', 'ContextManagerVariableDefinitionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+16: ('/wemake_python_styleguide/violations/best_practices.py', 'MutableModuleConstantViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+17: ('/wemake_python_styleguide/violations/best_practices.py', 'MutableModuleConstantViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+18: ('/wemake_python_styleguide/violations/best_practices.py', 'SameElementsInConditionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+19: ('/wemake_python_styleguide/violations/best_practices.py', 'SameElementsInConditionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+20: ('/wemake_python_styleguide/violations/best_practices.py', 'HeterogeneousCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+21: ('/wemake_python_styleguide/violations/best_practices.py', 'HeterogeneousCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+22: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongModuleMetadataViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+23: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongModuleMetadataViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+24: ('/wemake_python_styleguide/violations/best_practices.py', 'EmptyModuleViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+25: ('/wemake_python_styleguide/violations/best_practices.py', 'EmptyModuleViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+26: ('/wemake_python_styleguide/violations/best_practices.py', 'InitModuleHasLogicViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+27: ('/wemake_python_styleguide/violations/best_practices.py', 'InitModuleHasLogicViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+28: ('/wemake_python_styleguide/violations/best_practices.py', 'BadMagicModuleFunctionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+29: ('/wemake_python_styleguide/violations/best_practices.py', 'BadMagicModuleFunctionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+30: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongUnpackingViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+31: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongUnpackingViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+32: ('/wemake_python_styleguide/violations/best_practices.py', 'DuplicateExceptionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+33: ('/wemake_python_styleguide/violations/best_practices.py', 'DuplicateExceptionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+34: ('/wemake_python_styleguide/violations/best_practices.py', 'YieldInComprehensionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+35: ('/wemake_python_styleguide/violations/best_practices.py', 'YieldInComprehensionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+36: ('/wemake_python_styleguide/violations/best_practices.py', 'NonUniqueItemsInHashViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+37: ('/wemake_python_styleguide/violations/best_practices.py', 'NonUniqueItemsInHashViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+38: ('/wemake_python_styleguide/violations/best_practices.py', 'BaseExceptionSubclassViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+39: ('/wemake_python_styleguide/violations/best_practices.py', 'BaseExceptionSubclassViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+40: ('/wemake_python_styleguide/violations/best_practices.py', 'TryExceptMultipleReturnPathViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+41: ('/wemake_python_styleguide/violations/best_practices.py', 'TryExceptMultipleReturnPathViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+42: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongKeywordViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+43: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongKeywordViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+44: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongFunctionCallViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+45: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongFunctionCallViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+46: ('/wemake_python_styleguide/violations/best_practices.py', 'FutureImportViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+47: ('/wemake_python_styleguide/violations/best_practices.py', 'FutureImportViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+48: ('/wemake_python_styleguide/violations/best_practices.py', 'RaiseNotImplementedViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+49: ('/wemake_python_styleguide/violations/best_practices.py', 'RaiseNotImplementedViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+50: ('/wemake_python_styleguide/violations/best_practices.py', 'BaseExceptionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+51: ('/wemake_python_styleguide/violations/best_practices.py', 'BaseExceptionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+52: ('/wemake_python_styleguide/violations/best_practices.py', 'BooleanPositionalArgumentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+53: ('/wemake_python_styleguide/violations/best_practices.py', 'BooleanPositionalArgumentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+54: ('/wemake_python_styleguide/violations/best_practices.py', 'LambdaInsideLoopViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+55: ('/wemake_python_styleguide/violations/best_practices.py', 'LambdaInsideLoopViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+56: ('/wemake_python_styleguide/violations/best_practices.py', 'UnreachableCodeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+57: ('/wemake_python_styleguide/violations/best_practices.py', 'UnreachableCodeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+58: ('/wemake_python_styleguide/violations/best_practices.py', 'StatementHasNoEffectViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+59: ('/wemake_python_styleguide/violations/best_practices.py', 'StatementHasNoEffectViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+60: ('/wemake_python_styleguide/violations/best_practices.py', 'MultipleAssignmentsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+61: ('/wemake_python_styleguide/violations/best_practices.py', 'MultipleAssignmentsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+62: ('/wemake_python_styleguide/violations/best_practices.py', 'NestedFunctionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+63: ('/wemake_python_styleguide/violations/best_practices.py', 'NestedFunctionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+64: ('/wemake_python_styleguide/violations/best_practices.py', 'NestedClassViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+65: ('/wemake_python_styleguide/violations/best_practices.py', 'NestedClassViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+66: ('/wemake_python_styleguide/violations/best_practices.py', 'MagicNumberViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+67: ('/wemake_python_styleguide/violations/best_practices.py', 'MagicNumberViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+68: ('/wemake_python_styleguide/violations/best_practices.py', 'NestedImportViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+69: ('/wemake_python_styleguide/violations/best_practices.py', 'NestedImportViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+70: ('/wemake_python_styleguide/violations/best_practices.py', 'ReassigningVariableToItselfViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+71: ('/wemake_python_styleguide/violations/best_practices.py', 'ReassigningVariableToItselfViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+72: ('/wemake_python_styleguide/violations/best_practices.py', 'ListMultiplyViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+73: ('/wemake_python_styleguide/violations/best_practices.py', 'ListMultiplyViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+74: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedModuleViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+75: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedModuleViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+76: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedAttributeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+77: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedAttributeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+78: ('/wemake_python_styleguide/violations/best_practices.py', 'StopIterationInsideGeneratorViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+79: ('/wemake_python_styleguide/violations/best_practices.py', 'StopIterationInsideGeneratorViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+80: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongUnicodeEscapeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+81: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongUnicodeEscapeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+82: ('/wemake_python_styleguide/violations/best_practices.py', 'BlockAndLocalOverlapViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+83: ('/wemake_python_styleguide/violations/best_practices.py', 'BlockAndLocalOverlapViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+84: ('/wemake_python_styleguide/violations/best_practices.py', 'ControlVarUsedAfterBlockViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+85: ('/wemake_python_styleguide/violations/best_practices.py', 'ControlVarUsedAfterBlockViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+86: ('/wemake_python_styleguide/violations/best_practices.py', 'OuterScopeShadowingViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+87: ('/wemake_python_styleguide/violations/best_practices.py', 'OuterScopeShadowingViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+88: ('/wemake_python_styleguide/violations/best_practices.py', 'UnhashableTypeInHashViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+89: ('/wemake_python_styleguide/violations/best_practices.py', 'UnhashableTypeInHashViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+90: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongKeywordConditionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+91: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongKeywordConditionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+92: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongNamedKeywordViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+93: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongNamedKeywordViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+94: ('/wemake_python_styleguide/violations/best_practices.py', 'ApproximateConstantViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+95: ('/wemake_python_styleguide/violations/best_practices.py', 'ApproximateConstantViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+96: ('/wemake_python_styleguide/violations/best_practices.py', 'StringConstantRedefinedViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+97: ('/wemake_python_styleguide/violations/best_practices.py', 'StringConstantRedefinedViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+98: ('/wemake_python_styleguide/violations/best_practices.py', 'IncorrectExceptOrderViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+99: ('/wemake_python_styleguide/violations/best_practices.py', 'IncorrectExceptOrderViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+100: ('/wemake_python_styleguide/violations/best_practices.py', 'FloatKeyViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+101: ('/wemake_python_styleguide/violations/best_practices.py', 'FloatKeyViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+102: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedModuleMemberViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+103: ('/wemake_python_styleguide/violations/best_practices.py', 'ProtectedModuleMemberViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+104: ('/wemake_python_styleguide/violations/best_practices.py', 'PositionalOnlyArgumentsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+105: ('/wemake_python_styleguide/violations/best_practices.py', 'PositionalOnlyArgumentsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+106: ('/wemake_python_styleguide/violations/best_practices.py', 'LoopControlFinallyViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+107: ('/wemake_python_styleguide/violations/best_practices.py', 'LoopControlFinallyViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+108: ('/wemake_python_styleguide/violations/best_practices.py', 'ShebangViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+109: ('/wemake_python_styleguide/violations/best_practices.py', 'ShebangViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+110: ('/wemake_python_styleguide/violations/best_practices.py', 'BaseExceptionRaiseViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+111: ('/wemake_python_styleguide/violations/best_practices.py', 'BaseExceptionRaiseViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+112: ('/wemake_python_styleguide/violations/best_practices.py', 'NonTrivialExceptViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+113: ('/wemake_python_styleguide/violations/best_practices.py', 'NonTrivialExceptViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+114: ('/wemake_python_styleguide/violations/best_practices.py', 'FloatingNanViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+115: ('/wemake_python_styleguide/violations/best_practices.py', 'FloatingNanViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+116: ('/wemake_python_styleguide/violations/best_practices.py', 'InfiniteWhileLoopViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+117: ('/wemake_python_styleguide/violations/best_practices.py', 'InfiniteWhileLoopViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+118: ('/wemake_python_styleguide/violations/best_practices.py', 'ImportCollisionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+119: ('/wemake_python_styleguide/violations/best_practices.py', 'ImportCollisionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+120: ('/wemake_python_styleguide/violations/best_practices.py', 'FloatComplexCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+121: ('/wemake_python_styleguide/violations/best_practices.py', 'FloatComplexCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+122: ('/wemake_python_styleguide/violations/best_practices.py', 'SingleElementDestructuringViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+123: ('/wemake_python_styleguide/violations/best_practices.py', 'SingleElementDestructuringViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+124: ('/wemake_python_styleguide/violations/best_practices.py', 'ForbiddenInlineIgnoreViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+125: ('/wemake_python_styleguide/violations/best_practices.py', 'ForbiddenInlineIgnoreViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+126: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongMultilineStringUseViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+127: ('/wemake_python_styleguide/violations/best_practices.py', 'WrongMultilineStringUseViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+128: ('/wemake_python_styleguide/violations/best_practices.py', 'GetterWithoutReturnViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+129: ('/wemake_python_styleguide/violations/best_practices.py', 'GetterWithoutReturnViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+130: ('/wemake_python_styleguide/violations/best_practices.py', 'EmptyCommentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+131: ('/wemake_python_styleguide/violations/best_practices.py', 'EmptyCommentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+132: ('/wemake_python_styleguide/violations/best_practices.py', 'BitwiseAndBooleanMixupViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+133: ('/wemake_python_styleguide/violations/best_practices.py', 'BitwiseAndBooleanMixupViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+134: ('/wemake_python_styleguide/violations/consistency.py', 'LocalFolderImportViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+135: ('/wemake_python_styleguide/violations/consistency.py', 'LocalFolderImportViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+136: ('/wemake_python_styleguide/violations/consistency.py', 'DottedRawImportViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+137: ('/wemake_python_styleguide/violations/consistency.py', 'DottedRawImportViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+138: ('/wemake_python_styleguide/violations/consistency.py', 'UnicodeStringViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+139: ('/wemake_python_styleguide/violations/consistency.py', 'UnicodeStringViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+140: ('/wemake_python_styleguide/violations/consistency.py', 'UnderscoredNumberViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+141: ('/wemake_python_styleguide/violations/consistency.py', 'UnderscoredNumberViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+142: ('/wemake_python_styleguide/violations/consistency.py', 'PartialFloatViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+143: ('/wemake_python_styleguide/violations/consistency.py', 'PartialFloatViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+144: ('/wemake_python_styleguide/violations/consistency.py', 'FormattedStringViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+145: ('/wemake_python_styleguide/violations/consistency.py', 'FormattedStringViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+146: ('/wemake_python_styleguide/violations/consistency.py', 'RequiredBaseClassViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+147: ('/wemake_python_styleguide/violations/consistency.py', 'RequiredBaseClassViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+148: ('/wemake_python_styleguide/violations/consistency.py', 'MultipleIfsInComprehensionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+149: ('/wemake_python_styleguide/violations/consistency.py', 'MultipleIfsInComprehensionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+150: ('/wemake_python_styleguide/violations/consistency.py', 'ConstantCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+151: ('/wemake_python_styleguide/violations/consistency.py', 'ConstantCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+152: ('/wemake_python_styleguide/violations/consistency.py', 'CompareOrderViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+153: ('/wemake_python_styleguide/violations/consistency.py', 'CompareOrderViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+154: ('/wemake_python_styleguide/violations/consistency.py', 'BadNumberSuffixViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+155: ('/wemake_python_styleguide/violations/consistency.py', 'BadNumberSuffixViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+156: ('/wemake_python_styleguide/violations/consistency.py', 'MultipleInCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+157: ('/wemake_python_styleguide/violations/consistency.py', 'MultipleInCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+158: ('/wemake_python_styleguide/violations/consistency.py', 'UselessCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+159: ('/wemake_python_styleguide/violations/consistency.py', 'UselessCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+160: ('/wemake_python_styleguide/violations/consistency.py', 'MissingSpaceBetweenKeywordAndParenViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+161: ('/wemake_python_styleguide/violations/consistency.py', 'MissingSpaceBetweenKeywordAndParenViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+162: ('/wemake_python_styleguide/violations/consistency.py', 'ConstantConditionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+163: ('/wemake_python_styleguide/violations/consistency.py', 'ConstantConditionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+164: ('/wemake_python_styleguide/violations/consistency.py', 'ObjectInBaseClassesListViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+165: ('/wemake_python_styleguide/violations/consistency.py', 'ObjectInBaseClassesListViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+166: ('/wemake_python_styleguide/violations/consistency.py', 'MultipleContextManagerAssignmentsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+167: ('/wemake_python_styleguide/violations/consistency.py', 'MultipleContextManagerAssignmentsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+168: ('/wemake_python_styleguide/violations/consistency.py', 'ParametersIndentationViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+169: ('/wemake_python_styleguide/violations/consistency.py', 'ParametersIndentationViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+170: ('/wemake_python_styleguide/violations/consistency.py', 'ExtraIndentationViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+171: ('/wemake_python_styleguide/violations/consistency.py', 'ExtraIndentationViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+172: ('/wemake_python_styleguide/violations/consistency.py', 'WrongBracketPositionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+173: ('/wemake_python_styleguide/violations/consistency.py', 'WrongBracketPositionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+174: ('/wemake_python_styleguide/violations/consistency.py', 'MultilineFunctionAnnotationViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+175: ('/wemake_python_styleguide/violations/consistency.py', 'MultilineFunctionAnnotationViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+176: ('/wemake_python_styleguide/violations/consistency.py', 'UppercaseStringModifierViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+177: ('/wemake_python_styleguide/violations/consistency.py', 'UppercaseStringModifierViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+178: ('/wemake_python_styleguide/violations/consistency.py', 'WrongMultilineStringViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+179: ('/wemake_python_styleguide/violations/consistency.py', 'WrongMultilineStringViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+180: ('/wemake_python_styleguide/violations/consistency.py', 'ModuloStringFormatViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+181: ('/wemake_python_styleguide/violations/consistency.py', 'ModuloStringFormatViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+182: ('/wemake_python_styleguide/violations/consistency.py', 'InconsistentReturnViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+183: ('/wemake_python_styleguide/violations/consistency.py', 'InconsistentReturnViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+184: ('/wemake_python_styleguide/violations/consistency.py', 'InconsistentYieldViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+185: ('/wemake_python_styleguide/violations/consistency.py', 'InconsistentYieldViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+186: ('/wemake_python_styleguide/violations/consistency.py', 'ImplicitStringConcatenationViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+187: ('/wemake_python_styleguide/violations/consistency.py', 'ImplicitStringConcatenationViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+188: ('/wemake_python_styleguide/violations/consistency.py', 'UselessContinueViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+189: ('/wemake_python_styleguide/violations/consistency.py', 'UselessContinueViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+190: ('/wemake_python_styleguide/violations/consistency.py', 'UselessNodeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+191: ('/wemake_python_styleguide/violations/consistency.py', 'UselessNodeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+192: ('/wemake_python_styleguide/violations/consistency.py', 'UselessExceptCaseViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+193: ('/wemake_python_styleguide/violations/consistency.py', 'UselessExceptCaseViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+194: ('/wemake_python_styleguide/violations/consistency.py', 'UselessOperatorsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+195: ('/wemake_python_styleguide/violations/consistency.py', 'UselessOperatorsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+196: ('/wemake_python_styleguide/violations/consistency.py', 'InconsistentReturnVariableViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+197: ('/wemake_python_styleguide/violations/consistency.py', 'InconsistentReturnVariableViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+198: ('/wemake_python_styleguide/violations/consistency.py', 'WalrusViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+199: ('/wemake_python_styleguide/violations/consistency.py', 'WalrusViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+200: ('/wemake_python_styleguide/violations/consistency.py', 'ImplicitComplexCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+201: ('/wemake_python_styleguide/violations/consistency.py', 'ImplicitComplexCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+202: ('/wemake_python_styleguide/violations/consistency.py', 'ReversedComplexCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+203: ('/wemake_python_styleguide/violations/consistency.py', 'ReversedComplexCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+204: ('/wemake_python_styleguide/violations/consistency.py', 'WrongLoopIterTypeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+205: ('/wemake_python_styleguide/violations/consistency.py', 'WrongLoopIterTypeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+206: ('/wemake_python_styleguide/violations/consistency.py', 'ExplicitStringConcatViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+207: ('/wemake_python_styleguide/violations/consistency.py', 'ExplicitStringConcatViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+208: ('/wemake_python_styleguide/violations/consistency.py', 'MultilineConditionsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+209: ('/wemake_python_styleguide/violations/consistency.py', 'MultilineConditionsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+210: ('/wemake_python_styleguide/violations/consistency.py', 'WrongMethodOrderViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+211: ('/wemake_python_styleguide/violations/consistency.py', 'WrongMethodOrderViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+212: ('/wemake_python_styleguide/violations/consistency.py', 'NumberWithMeaninglessZeroViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+213: ('/wemake_python_styleguide/violations/consistency.py', 'NumberWithMeaninglessZeroViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+214: ('/wemake_python_styleguide/violations/consistency.py', 'PositiveExponentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+215: ('/wemake_python_styleguide/violations/consistency.py', 'PositiveExponentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+216: ('/wemake_python_styleguide/violations/consistency.py', 'WrongHexNumberCaseViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+217: ('/wemake_python_styleguide/violations/consistency.py', 'WrongHexNumberCaseViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+218: ('/wemake_python_styleguide/violations/consistency.py', 'ImplicitRawStringViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+219: ('/wemake_python_styleguide/violations/consistency.py', 'ImplicitRawStringViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+220: ('/wemake_python_styleguide/violations/consistency.py', 'BadComplexNumberSuffixViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+221: ('/wemake_python_styleguide/violations/consistency.py', 'BadComplexNumberSuffixViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+222: ('/wemake_python_styleguide/violations/consistency.py', 'ZeroDivisionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+223: ('/wemake_python_styleguide/violations/consistency.py', 'ZeroDivisionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+224: ('/wemake_python_styleguide/violations/consistency.py', 'MeaninglessNumberOperationViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+225: ('/wemake_python_styleguide/violations/consistency.py', 'MeaninglessNumberOperationViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+226: ('/wemake_python_styleguide/violations/consistency.py', 'OperationSignNegationViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+227: ('/wemake_python_styleguide/violations/consistency.py', 'OperationSignNegationViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+228: ('/wemake_python_styleguide/violations/consistency.py', 'VagueImportViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+229: ('/wemake_python_styleguide/violations/consistency.py', 'VagueImportViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+230: ('/wemake_python_styleguide/violations/consistency.py', 'LineStartsWithDotViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+231: ('/wemake_python_styleguide/violations/consistency.py', 'LineStartsWithDotViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+232: ('/wemake_python_styleguide/violations/consistency.py', 'RedundantSubscriptViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+233: ('/wemake_python_styleguide/violations/consistency.py', 'RedundantSubscriptViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+234: ('/wemake_python_styleguide/violations/consistency.py', 'AugmentedAssignPatternViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+235: ('/wemake_python_styleguide/violations/consistency.py', 'AugmentedAssignPatternViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+236: ('/wemake_python_styleguide/violations/consistency.py', 'UnnecessaryLiteralsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+237: ('/wemake_python_styleguide/violations/consistency.py', 'UnnecessaryLiteralsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+238: ('/wemake_python_styleguide/violations/consistency.py', 'MultilineLoopViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+239: ('/wemake_python_styleguide/violations/consistency.py', 'MultilineLoopViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+240: ('/wemake_python_styleguide/violations/consistency.py', 'IncorrectYieldFromTargetViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+241: ('/wemake_python_styleguide/violations/consistency.py', 'IncorrectYieldFromTargetViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+242: ('/wemake_python_styleguide/violations/consistency.py', 'ConsecutiveYieldsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+243: ('/wemake_python_styleguide/violations/consistency.py', 'ConsecutiveYieldsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+244: ('/wemake_python_styleguide/violations/consistency.py', 'BracketBlankLineViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+245: ('/wemake_python_styleguide/violations/consistency.py', 'BracketBlankLineViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+246: ('/wemake_python_styleguide/violations/consistency.py', 'IterableUnpackingViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+247: ('/wemake_python_styleguide/violations/consistency.py', 'IterableUnpackingViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+248: ('/wemake_python_styleguide/violations/consistency.py', 'LineCompriseCarriageReturnViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+249: ('/wemake_python_styleguide/violations/consistency.py', 'LineCompriseCarriageReturnViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+250: ('/wemake_python_styleguide/violations/consistency.py', 'FloatZeroViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+251: ('/wemake_python_styleguide/violations/consistency.py', 'FloatZeroViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+252: ('/wemake_python_styleguide/violations/consistency.py', 'UnpackingIterableToListViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+253: ('/wemake_python_styleguide/violations/consistency.py', 'UnpackingIterableToListViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+254: ('/wemake_python_styleguide/violations/consistency.py', 'RawStringNotNeededViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+255: ('/wemake_python_styleguide/violations/consistency.py', 'RawStringNotNeededViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+256: ('/wemake_python_styleguide/violations/naming.py', 'WrongModuleNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+257: ('/wemake_python_styleguide/violations/naming.py', 'WrongModuleNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+258: ('/wemake_python_styleguide/violations/naming.py', 'WrongModuleMagicNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+259: ('/wemake_python_styleguide/violations/naming.py', 'WrongModuleMagicNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+260: ('/wemake_python_styleguide/violations/naming.py', 'WrongModuleNamePatternViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+261: ('/wemake_python_styleguide/violations/naming.py', 'WrongModuleNamePatternViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+262: ('/wemake_python_styleguide/violations/naming.py', 'WrongVariableNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+263: ('/wemake_python_styleguide/violations/naming.py', 'WrongVariableNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+264: ('/wemake_python_styleguide/violations/naming.py', 'TooShortNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+265: ('/wemake_python_styleguide/violations/naming.py', 'TooShortNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+266: ('/wemake_python_styleguide/violations/naming.py', 'PrivateNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+267: ('/wemake_python_styleguide/violations/naming.py', 'PrivateNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+268: ('/wemake_python_styleguide/violations/naming.py', 'SameAliasImportViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+269: ('/wemake_python_styleguide/violations/naming.py', 'SameAliasImportViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+270: ('/wemake_python_styleguide/violations/naming.py', 'UnderscoredNumberNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+271: ('/wemake_python_styleguide/violations/naming.py', 'UnderscoredNumberNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+272: ('/wemake_python_styleguide/violations/naming.py', 'UpperCaseAttributeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+273: ('/wemake_python_styleguide/violations/naming.py', 'UpperCaseAttributeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+274: ('/wemake_python_styleguide/violations/naming.py', 'ConsecutiveUnderscoresInNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+275: ('/wemake_python_styleguide/violations/naming.py', 'ConsecutiveUnderscoresInNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+276: ('/wemake_python_styleguide/violations/naming.py', 'ReservedArgumentNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+277: ('/wemake_python_styleguide/violations/naming.py', 'ReservedArgumentNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+278: ('/wemake_python_styleguide/violations/naming.py', 'TooLongNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+279: ('/wemake_python_styleguide/violations/naming.py', 'TooLongNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+280: ('/wemake_python_styleguide/violations/naming.py', 'UnicodeNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+281: ('/wemake_python_styleguide/violations/naming.py', 'UnicodeNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+282: ('/wemake_python_styleguide/violations/naming.py', 'TrailingUnderscoreViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+283: ('/wemake_python_styleguide/violations/naming.py', 'TrailingUnderscoreViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+284: ('/wemake_python_styleguide/violations/naming.py', 'UnusedVariableIsUsedViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+285: ('/wemake_python_styleguide/violations/naming.py', 'UnusedVariableIsUsedViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+286: ('/wemake_python_styleguide/violations/naming.py', 'UnusedVariableIsDefinedViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+287: ('/wemake_python_styleguide/violations/naming.py', 'UnusedVariableIsDefinedViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+288: ('/wemake_python_styleguide/violations/naming.py', 'WrongUnusedVariableNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+289: ('/wemake_python_styleguide/violations/naming.py', 'WrongUnusedVariableNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+290: ('/wemake_python_styleguide/violations/naming.py', 'UnreadableNameViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+291: ('/wemake_python_styleguide/violations/naming.py', 'UnreadableNameViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+292: ('/wemake_python_styleguide/violations/naming.py', 'BuiltinShadowingViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+293: ('/wemake_python_styleguide/violations/naming.py', 'BuiltinShadowingViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+294: ('/wemake_python_styleguide/violations/complexity.py', 'JonesScoreViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+295: ('/wemake_python_styleguide/violations/complexity.py', 'JonesScoreViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+296: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyImportsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+297: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyImportsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+298: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyModuleMembersViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+299: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyModuleMembersViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+300: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyImportedNamesViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+301: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyImportedNamesViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+302: ('/wemake_python_styleguide/violations/complexity.py', 'OverusedExpressionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+303: ('/wemake_python_styleguide/violations/complexity.py', 'OverusedExpressionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+304: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyLocalsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+305: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyLocalsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+306: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyArgumentsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+307: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyArgumentsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+308: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyReturnsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+309: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyReturnsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+310: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyExpressionsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+311: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyExpressionsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+312: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyMethodsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+313: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyMethodsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+314: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyBaseClassesViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+315: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyBaseClassesViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+316: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyDecoratorsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+317: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyDecoratorsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+318: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyAwaitsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+319: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyAwaitsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+320: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyAssertsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+321: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyAssertsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+322: ('/wemake_python_styleguide/violations/complexity.py', 'TooDeepAccessViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+323: ('/wemake_python_styleguide/violations/complexity.py', 'TooDeepAccessViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+324: ('/wemake_python_styleguide/violations/complexity.py', 'TooDeepNestingViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+325: ('/wemake_python_styleguide/violations/complexity.py', 'TooDeepNestingViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+326: ('/wemake_python_styleguide/violations/complexity.py', 'LineComplexityViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+327: ('/wemake_python_styleguide/violations/complexity.py', 'LineComplexityViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+328: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyConditionsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+329: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyConditionsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+330: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyElifsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+331: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyElifsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+332: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyForsInComprehensionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+333: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyForsInComprehensionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+334: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyExceptCasesViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+335: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyExceptCasesViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+336: ('/wemake_python_styleguide/violations/complexity.py', 'OverusedStringViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+337: ('/wemake_python_styleguide/violations/complexity.py', 'OverusedStringViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+338: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongYieldTupleViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+339: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongYieldTupleViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+340: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+341: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+342: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongTryBodyViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+343: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongTryBodyViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+344: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyPublicAttributesViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+345: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyPublicAttributesViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+346: ('/wemake_python_styleguide/violations/complexity.py', 'CognitiveComplexityViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+347: ('/wemake_python_styleguide/violations/complexity.py', 'CognitiveComplexityViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+348: ('/wemake_python_styleguide/violations/complexity.py', 'CognitiveModuleComplexityViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+349: ('/wemake_python_styleguide/violations/complexity.py', 'CognitiveModuleComplexityViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+350: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongCallChainViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+351: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongCallChainViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+352: ('/wemake_python_styleguide/violations/complexity.py', 'TooComplexAnnotationViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+353: ('/wemake_python_styleguide/violations/complexity.py', 'TooComplexAnnotationViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+354: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyImportedModuleMembersViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+355: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyImportedModuleMembersViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+356: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongTupleUnpackViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+357: ('/wemake_python_styleguide/violations/complexity.py', 'TooLongTupleUnpackViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+358: ('/wemake_python_styleguide/violations/complexity.py', 'TooComplexFormattedStringViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+359: ('/wemake_python_styleguide/violations/complexity.py', 'TooComplexFormattedStringViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+360: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyRaisesViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+361: ('/wemake_python_styleguide/violations/complexity.py', 'TooManyRaisesViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+362: ('/wemake_python_styleguide/violations/system.py', 'InternalErrorViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+363: ('/wemake_python_styleguide/violations/system.py', 'InternalErrorViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+364: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLoopElseViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+365: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLoopElseViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+366: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessFinallyViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+367: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessFinallyViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+368: ('/wemake_python_styleguide/violations/refactoring.py', 'SimplifiableIfViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+369: ('/wemake_python_styleguide/violations/refactoring.py', 'SimplifiableIfViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+370: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessReturningElseViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+371: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessReturningElseViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+372: ('/wemake_python_styleguide/violations/refactoring.py', 'NegatedConditionsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+373: ('/wemake_python_styleguide/violations/refactoring.py', 'NegatedConditionsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+374: ('/wemake_python_styleguide/violations/refactoring.py', 'NestedTryViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+375: ('/wemake_python_styleguide/violations/refactoring.py', 'NestedTryViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+376: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLambdaViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+377: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLambdaViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+378: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLenCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+379: ('/wemake_python_styleguide/violations/refactoring.py', 'UselessLenCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+380: ('/wemake_python_styleguide/violations/refactoring.py', 'NotOperatorWithCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+381: ('/wemake_python_styleguide/violations/refactoring.py', 'NotOperatorWithCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+382: ('/wemake_python_styleguide/violations/refactoring.py', 'NestedTernaryViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+383: ('/wemake_python_styleguide/violations/refactoring.py', 'NestedTernaryViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+384: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongInCompareTypeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+385: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongInCompareTypeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+386: ('/wemake_python_styleguide/violations/refactoring.py', 'UnmergedIsinstanceCallsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+387: ('/wemake_python_styleguide/violations/refactoring.py', 'UnmergedIsinstanceCallsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+388: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongIsinstanceWithTupleViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+389: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongIsinstanceWithTupleViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+390: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitElifViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+391: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitElifViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+392: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitInConditionViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+393: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitInConditionViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+394: ('/wemake_python_styleguide/violations/refactoring.py', 'OpenWithoutContextManagerViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+395: ('/wemake_python_styleguide/violations/refactoring.py', 'OpenWithoutContextManagerViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+396: ('/wemake_python_styleguide/violations/refactoring.py', 'TypeCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+397: ('/wemake_python_styleguide/violations/refactoring.py', 'TypeCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+398: ('/wemake_python_styleguide/violations/refactoring.py', 'PointlessStarredViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+399: ('/wemake_python_styleguide/violations/refactoring.py', 'PointlessStarredViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+400: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitEnumerateViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+401: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitEnumerateViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+402: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitSumViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+403: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitSumViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+404: ('/wemake_python_styleguide/violations/refactoring.py', 'FalsyConstantCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+405: ('/wemake_python_styleguide/violations/refactoring.py', 'FalsyConstantCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+406: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongIsCompareViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+407: ('/wemake_python_styleguide/violations/refactoring.py', 'WrongIsCompareViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+408: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitPrimitiveViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+409: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitPrimitiveViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+410: ('/wemake_python_styleguide/violations/refactoring.py', 'AlmostSwappedViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+411: ('/wemake_python_styleguide/violations/refactoring.py', 'AlmostSwappedViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+412: ('/wemake_python_styleguide/violations/refactoring.py', 'MisrefactoredAssignmentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+413: ('/wemake_python_styleguide/violations/refactoring.py', 'MisrefactoredAssignmentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+414: ('/wemake_python_styleguide/violations/refactoring.py', 'InCompareWithSingleItemContainerViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+415: ('/wemake_python_styleguide/violations/refactoring.py', 'InCompareWithSingleItemContainerViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+416: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitYieldFromViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+417: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitYieldFromViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+418: ('/wemake_python_styleguide/violations/refactoring.py', 'NotATupleArgumentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+419: ('/wemake_python_styleguide/violations/refactoring.py', 'NotATupleArgumentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+420: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitItemsIteratorViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+421: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitItemsIteratorViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+422: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitDictGetViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+423: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitDictGetViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+424: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitNegativeIndexViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+425: ('/wemake_python_styleguide/violations/refactoring.py', 'ImplicitNegativeIndexViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+426: ('/wemake_python_styleguide/violations/refactoring.py', 'SimplifiableReturningIfViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+427: ('/wemake_python_styleguide/violations/refactoring.py', 'SimplifiableReturningIfViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+428: ('/wemake_python_styleguide/violations/oop.py', 'BuiltinSubclassViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+429: ('/wemake_python_styleguide/violations/oop.py', 'BuiltinSubclassViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+430: ('/wemake_python_styleguide/violations/oop.py', 'ShadowedClassAttributeViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+431: ('/wemake_python_styleguide/violations/oop.py', 'ShadowedClassAttributeViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+432: ('/wemake_python_styleguide/violations/oop.py', 'StaticMethodViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+433: ('/wemake_python_styleguide/violations/oop.py', 'StaticMethodViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+434: ('/wemake_python_styleguide/violations/oop.py', 'BadMagicMethodViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+435: ('/wemake_python_styleguide/violations/oop.py', 'BadMagicMethodViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+436: ('/wemake_python_styleguide/violations/oop.py', 'WrongClassBodyContentViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+437: ('/wemake_python_styleguide/violations/oop.py', 'WrongClassBodyContentViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+438: ('/wemake_python_styleguide/violations/oop.py', 'MethodWithoutArgumentsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+439: ('/wemake_python_styleguide/violations/oop.py', 'MethodWithoutArgumentsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+440: ('/wemake_python_styleguide/violations/oop.py', 'WrongBaseClassViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+441: ('/wemake_python_styleguide/violations/oop.py', 'WrongBaseClassViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+442: ('/wemake_python_styleguide/violations/oop.py', 'WrongSlotsViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+443: ('/wemake_python_styleguide/violations/oop.py', 'WrongSlotsViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+444: ('/wemake_python_styleguide/violations/oop.py', 'WrongSuperCallViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+445: ('/wemake_python_styleguide/violations/oop.py', 'WrongSuperCallViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+446: ('/wemake_python_styleguide/violations/oop.py', 'DirectMagicAttributeAccessViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+447: ('/wemake_python_styleguide/violations/oop.py', 'DirectMagicAttributeAccessViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+448: ('/wemake_python_styleguide/violations/oop.py', 'AsyncMagicMethodViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+449: ('/wemake_python_styleguide/violations/oop.py', 'AsyncMagicMethodViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+450: ('/wemake_python_styleguide/violations/oop.py', 'YieldMagicMethodViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+451: ('/wemake_python_styleguide/violations/oop.py', 'YieldMagicMethodViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+452: ('/wemake_python_styleguide/violations/oop.py', 'UselessOverwrittenMethodViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+453: ('/wemake_python_styleguide/violations/oop.py', 'UselessOverwrittenMethodViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+454: ('/wemake_python_styleguide/violations/oop.py', 'WrongSuperCallAccessViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+455: ('/wemake_python_styleguide/violations/oop.py', 'WrongSuperCallAccessViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+456: ('/wemake_python_styleguide/violations/oop.py', 'WrongDescriptorDecoratorViolation_class_initializer', 'error_template') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+457: ('/wemake_python_styleguide/violations/oop.py', 'WrongDescriptorDecoratorViolation_class_initializer', 'code') 0 (Match)
+  PT: ['int']
+  DL: ['int']

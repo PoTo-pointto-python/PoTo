@@ -1,0 +1,12 @@
+0: ('/cerberus/errors.py', 'SchemaErrorHandler_class_initializer', 'messages') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+1: ('/cerberus/base.py', 'SchemaRegistry_class_initializer', '_normalize_value') 3 (PT Empty)
+  PT: []
+  DL: ['staticmethod']
+2: ('/cerberus/base.py', 'RulesSetRegistry_class_initializer', '_normalize_value') 3 (PT Empty)
+  PT: []
+  DL: ['staticmethod']
+3: ('/cerberus/schema.py', 'SchemaValidator_class_initializer', 'types_mapping') 3 (PT Empty)
+  PT: []
+  DL: ['dict']

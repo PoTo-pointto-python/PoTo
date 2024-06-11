@@ -1,0 +1,522 @@
+0: ('/invoke/vendor/fluidity/machine.py', 'StateMachine_class_initializer', 'current_state') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+1: ('/invoke/vendor/decorator.py', 'module_initializer', 'FullArgSpec') 7 (etc)
+  PT: ['pt_engine.utils.base.FullArgSpec']
+  DL: ['(namedtuple)']
+2: ('/invoke/vendor/decorator.py', 'module_initializer', 'ArgSpec') 7 (etc)
+  PT: ['pt_engine.utils.base.ArgSpec']
+  DL: ['(namedtuple)']
+3: ('/invoke/vendor/decorator.py', 'module_initializer', 'n_args') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+4: ('/invoke/vendor/decorator.py', 'module_initializer', 'contextmanager') 3 (PT Empty)
+  PT: []
+  DL: ['decorator']
+5: ('/invoke/vendor/six.py', 'module_initializer', 'text_type') 5 (PT subset DL)
+  PT: ['str']
+  DL: ['str', 'unicode']
+6: ('/invoke/vendor/six.py', 'module_initializer', 'next') 7 (etc)
+  PT: ['<built-in function next>']
+  DL: ['advance_iterator']
+7: ('/invoke/vendor/six.py', 'module_initializer', 'unichr') 5 (PT subset DL)
+  PT: ['<built-in function chr>']
+  DL: ['chr', 'unichr']
+8: ('/invoke/vendor/six.py', 'module_initializer', 'int2byte') 6 (DL subset PT)
+  PT: ['<built-in function chr>', '<built-in method pack of _struct.Struct object at 0x1071d2970>', '<built-in method pack of _struct.Struct object at 0x10d96d5b0>', '<built-in method pack of _struct.Struct object at 0x10d975470>', '<built-in method pack of _struct.Struct object at 0x10d976870>', '<built-in method pack of _struct.Struct object at 0x10d9899f0>', '<built-in method pack of _struct.Struct object at 0x10d9c4b30>', '<built-in method pack of _struct.Struct object at 0x10da56ef0>', '<built-in method pack of _struct.Struct object at 0x10da799f0>', '<built-in method pack of _struct.Struct object at 0x10da7bf70>', '<built-in method pack of _struct.Struct object at 0x10da8b230>', '<built-in method pack of _struct.Struct object at 0x10db3f270>', '<built-in method pack of _struct.Struct object at 0x10db90170>', '<built-in method pack of _struct.Struct object at 0x10db9edb0>', '<built-in method pack of _struct.Struct object at 0x10dc0c4b0>', '<built-in method pack of _struct.Struct object at 0x10dc27d70>', '<built-in method pack of _struct.Struct object at 0x10dc315f0>', '<built-in method pack of _struct.Struct object at 0x10dc324b0>', '<built-in method pack of _struct.Struct object at 0x10dc77470>', '<built-in method pack of _struct.Struct object at 0x10dc858f0>', '<built-in method pack of _struct.Struct object at 0x10dcb69f0>', '<built-in method pack of _struct.Struct object at 0x10dcc1530>', '<built-in method pack of _struct.Struct object at 0x10dcd3e70>', '<built-in method pack of _struct.Struct object at 0x10dcd7fb0>', '<built-in method pack of _struct.Struct object at 0x10dd064b0>', '<built-in method pack of _struct.Struct object at 0x10dd16170>', '<built-in method pack of _struct.Struct object at 0x10dd19cf0>', '<built-in method pack of _struct.Struct object at 0x10dd607f0>', '<built-in method pack of _struct.Struct object at 0x10dd631f0>', '<built-in method pack of _struct.Struct object at 0x10de45bb0>', '<built-in method pack of _struct.Struct object at 0x10de77330>', '<built-in method pack of _struct.Struct object at 0x10dee3ab0>', '<built-in method pack of _struct.Struct object at 0x10df19bf0>', '<built-in method pack of _struct.Struct object at 0x10df24b70>', '<built-in method pack of _struct.Struct object at 0x10df7c1b0>', '<built-in method pack of _struct.Struct object at 0x10dfe84f0>', '<built-in method pack of _struct.Struct object at 0x10e0171f0>', '<built-in method pack of _struct.Struct object at 0x10e01cef0>', '<built-in method pack of _struct.Struct object at 0x10e0415f0>', '<built-in method pack of _struct.Struct object at 0x10e111970>', '<built-in method pack of _struct.Struct object at 0x10e1cd130>', '<built-in method pack of _struct.Struct object at 0x10e450bb0>', '<built-in method pack of _struct.Struct object at 0x10e466f70>', '<built-in method pack of _struct.Struct object at 0x10e46d570>', '<built-in method pack of _struct.Struct object at 0x10e4834b0>', '<built-in method pack of _struct.Struct object at 0x10e51b470>', '<built-in method pack of _struct.Struct object at 0x10e5874b0>', '<built-in method pack of _struct.Struct object at 0x10e58e330>', '<built-in method pack of _struct.Struct object at 0x10e61acf0>', '<built-in method pack of _struct.Struct object at 0x10e62b670>', '<built-in method pack of _struct.Struct object at 0x10e6342b0>', '<built-in method pack of _struct.Struct object at 0x10e6e6bf0>', '<built-in method pack of _struct.Struct object at 0x10e79f9f0>', '<built-in method pack of _struct.Struct object at 0x10fa13f70>', '<built-in method pack of _struct.Struct object at 0x10fab8c70>', '<built-in method pack of _struct.Struct object at 0x10fad5b30>', '<built-in method pack of _struct.Struct object at 0x10fafa470>', '<built-in method pack of _struct.Struct object at 0x10fba2870>', '<built-in method pack of _struct.Struct object at 0x10fbb3e70>', '<built-in method pack of _struct.Struct object at 0x10fbfb6b0>', '<built-in method pack of _struct.Struct object at 0x10fc2acf0>', '<built-in method pack of _struct.Struct object at 0x10fc51e70>', '<built-in method pack of _struct.Struct object at 0x10fca3470>', '<built-in method pack of _struct.Struct object at 0x10fd35bb0>', '<built-in method pack of _struct.Struct object at 0x10fd851b0>', '<built-in method pack of _struct.Struct object at 0x10fdac230>', '<built-in method pack of _struct.Struct object at 0x10ffae5b0>', '<built-in method pack of _struct.Struct object at 0x110e87930>']
+  DL: ['chr']
+9: ('/invoke/vendor/six.py', 'module_initializer', 'exec_') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+10: ('/invoke/vendor/six.py', 'module_initializer', 'print_') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+11: ('/invoke/vendor/six.py', 'module_initializer', '_print') 3 (PT Empty)
+  PT: []
+  DL: ['print_']
+12: ('/invoke/vendor/six.py', 'module_initializer', '__package__') 7 (etc)
+  PT: ['str']
+  DL: ['__name__']
+13: ('/invoke/vendor/yaml3/constructor.py', 'SafeConstructor_class_initializer', 'inf_value') 7 (etc)
+  PT: ['float']
+  DL: ['inf_value']
+14: ('/invoke/vendor/yaml3/representer.py', 'SafeRepresenter_class_initializer', 'inf_value') 7 (etc)
+  PT: ['float']
+  DL: ['inf_value']
+15: ('/setup.py', 'module_initializer', 'version') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+16: ('/setup.py', 'module_initializer', 'text') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+17: ('/integration/_support/busywork.py', 'module_initializer', 'num_cycles') 3 (PT Empty)
+  PT: []
+  DL: ['int']
+18: ('/invoke/util.py', 'module_initializer', 'ExceptionWrapper') 7 (etc)
+  PT: ['pt_engine.utils.base.ExceptionWrapper']
+  DL: ['collections.namedtuple']
+19: ('/invoke/main.py', 'module_initializer', 'program') 3 (PT Empty)
+  PT: []
+  DL: ['Program']
+20: ('/sites/www/conf.py', 'module_initializer', 'target') 7 (etc)
+  PT: ['str']
+  DL: ['os.path.join']
+21: ('/invoke/tasks.py', '__init__', 'aliases') 6 (DL subset PT)
+  PT: ['list', 'tuple']
+  DL: ['()']
+22: ('/invoke/collection.py', '__init__', 'args') 6 (DL subset PT)
+  PT: ['Collection', 'list', 'meta_func', 'str']
+  DL: ['list']
+23: ('/invoke/config.py', '__init__', 'defaults') 7 (etc)
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  DL: ['copy_dict']
+24: ('/invoke/config.py', '__init__', 'overrides') 6 (DL subset PT)
+  PT: ['None', 'dict']
+  DL: ['dict']
+25: ('/invoke/parser/context.py', '__init__', 'args') 6 (DL subset PT)
+  PT: ['None', 'list', 'tuple']
+  DL: ['()']
+26: ('/invoke/executor.py', 'execute', 'calls') 6 (DL subset PT)
+  PT: ['bool', 'list']
+  DL: ['list']
+27: ('/invoke/executor.py', 'execute', 'args') 6 (DL subset PT)
+  PT: ['None', 'int', 'tuple']
+  DL: ['tuple']
+28: ('/invoke/executor.py', 'execute', 'config') 6 (DL subset PT)
+  PT: ['Config', 'None', 'bool']
+  DL: ['config.Config']
+29: ('/invoke/tasks.py', 'fill_implicit_positionals', 'positional') 6 (DL subset PT)
+  PT: ['None', 'list']
+  DL: ['list']
+30: ('/invoke/tasks.py', 'fill_implicit_positionals', 'default') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+31: ('/invoke/collection.py', 'transform', 'from_') 7 (etc)
+  PT: ['str']
+  DL: ['tuple']
+32: ('/invoke/collection.py', 'transform', 'to') 7 (etc)
+  PT: ['str']
+  DL: ['tuple']
+33: ('/invoke/collection.py', 'transform', 'char') 7 (etc)
+  PT: ['str']
+  DL: ['to']
+34: ('/invoke/vendor/six.py', 'iteritems', 'd') 6 (DL subset PT)
+  PT: ['Config', 'Lexicon', 'dict', 'meta_func', 'tuple']
+  DL: ['Config']
+35: ('/invoke/vendor/lexicon/alias_dict.py', 'alias', 'from_') 7 (etc)
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  DL: ['list']
+36: ('/invoke/config.py', 'copy_dict', 'source') 6 (DL subset PT)
+  PT: ['dict', 'str']
+  DL: ['dict']
+37: ('/invoke/config.py', 'set_project_location', 'project_prefix') 8 (Partial match)
+  PT: ['None', 'str']
+  DL: ['None', 'os.path.join']
+38: ('/invoke/parser/context.py', 'add_arg', 'arg') 8 (Partial match)
+  PT: ['Argument', 'ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  DL: ['dict', 'argument.Argument']
+39: ('/invoke/parser/context.py', 'add_arg', 'main') 6 (DL subset PT)
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  DL: ['dict']
+40: ('/invoke/parser/context.py', 'add_arg', 'inverse_name') 7 (etc)
+  PT: ['None', 'bool', 'dict', 'str', 'tuple']
+  DL: ['context.to_flag']
+41: ('/invoke/executor.py', 'normalize', 'name') 7 (etc)
+  PT: ['None', 'dict', 'str']
+  DL: ['tuple', 'invoke.task']
+42: ('/invoke/executor.py', 'normalize', 'kwargs') 7 (etc)
+  PT: ['dict']
+  DL: ['tuple', 'invoke.task']
+43: ('/invoke/executor.py', 'expand_calls', 'call') 6 (DL subset PT)
+  PT: ['Call', 'bool', 'dict', 'str']
+  DL: ['tasks.Call']
+44: ('/invoke/config.py', 'merge_dicts', 'base') 6 (DL subset PT)
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'list', 'str', 'tuple']
+  DL: ['dict']
+45: ('/invoke/config.py', 'merge_dicts', 'updates') 6 (DL subset PT)
+  PT: ['None', 'dict', 'str']
+  DL: ['dict']
+46: ('/invoke/tasks.py', 'argspec', 'arg_names') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+47: ('/invoke/collection.py', 'add_collection', 'name') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['bool']
+48: ('/invoke/config.py', '_merge_file', 'found') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+49: ('/invoke/config.py', '_merge_file', 'path') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+50: ('/invoke/config.py', '_merge_file', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+51: ('/invoke/parser/argument.py', '__init__', 'kind') 6 (DL subset PT)
+  PT: ['bool', 'int', 'list', 'str']
+  DL: ['str']
+52: ('/invoke/parser/argument.py', '__init__', 'names') 7 (etc)
+  PT: ['tuple']
+  DL: ['()']
+53: ('/invoke/parser/argument.py', '__init__', 'initial_value') 8 (Partial match)
+  PT: ['None', 'bool', 'int', 'list', 'str']
+  DL: ['None', 'list', 'default']
+54: ('/invoke/parser/context.py', 'to_flag', 'name') 7 (etc)
+  PT: ['ExceptionHandlingThread', 'None', 'bool', 'dict', 'str', 'tuple']
+  DL: ['context.translate_underscores']
+55: ('/invoke/collection.py', 'task_with_config', 'ours') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+56: ('/invoke/config.py', '_load_file', 'absolute_path') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+57: ('/invoke/config.py', '_load_file', 'path_prefix') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+58: ('/invoke/config.py', '_load_file', 'filepath') 7 (etc)
+  PT: ['str']
+  DL: ['os.path.expanduser']
+59: ('/invoke/config.py', '_load_file', 'loader') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+60: ('/invoke/collection.py', '_task_with_merged_config', 'ours') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+61: ('/invoke/env.py', '_crawl', 'crawled') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+62: ('/invoke/env.py', '_path_set', 'obj') 6 (DL subset PT)
+  PT: ['bool', 'dict', 'list', 'str']
+  DL: ['dict']
+63: ('/invoke/context.py', '__init__', 'config') 6 (DL subset PT)
+  PT: ['Config', 'None', 'bool']
+  DL: ['config.Config']
+64: ('/invoke/env.py', '_path_get', 'obj') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+65: ('/invoke/config.py', 'pop', 'key_existed') 6 (DL subset PT)
+  PT: ['bool', 'str']
+  DL: ['bool']
+66: ('/invoke/config.py', 'setdefault', 'key_existed') 6 (DL subset PT)
+  PT: ['bool', 'str']
+  DL: ['bool']
+67: ('/invoke/config.py', 'setdefault', 'key') 3 (PT Empty)
+  PT: []
+  DL: ['args']
+68: ('/invoke/config.py', 'setdefault', 'default') 3 (PT Empty)
+  PT: []
+  DL: ['args']
+69: ('/invoke/config.py', 'update', 'arg') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+70: ('/invoke/config.py', 'clone', 'new') 7 (etc)
+  PT: ['Config']
+  DL: ['klass']
+71: ('/invoke/config.py', 'clone', 'my_data') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+72: ('/invoke/config.py', '_track_removal_of', 'target') 8 (Partial match)
+  PT: ['Config', 'Context', 'None', 'DataProxy']
+  DL: ['None', 'self']
+73: ('/invoke/config.py', '_track_modification_of', 'target') 8 (Partial match)
+  PT: ['Config', 'Context', 'None', 'DataProxy']
+  DL: ['None', 'self']
+74: ('/invoke/config.py', '_clone_init_kwargs', 'new_defaults') 7 (etc)
+  PT: ['bool', 'dict', 'list']
+  DL: ['copy_dict']
+75: ('/invoke/config.py', '_remove', 'key') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+76: ('/invoke/config.py', '_remove', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+77: ('/invoke/config.py', '_modify', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+78: ('/invoke/config.py', 'excise', 'keypath') 6 (DL subset PT)
+  PT: ['list', 'tuple']
+  DL: ['list']
+79: ('/invoke/config.py', 'excise', 'data') 3 (PT Empty)
+  PT: []
+  DL: ['dict_', 'dict']
+80: ('/invoke/program.py', 'parse_core', 'argv') 6 (DL subset PT)
+  PT: ['None', 'list', 'str']
+  DL: ['list']
+81: ('/invoke/program.py', 'execute', 'klass') 7 (etc)
+  PT: ['<object object at 0x10dbf9dc0>', 'None']
+  DL: ['getattr']
+82: ('/invoke/program.py', 'execute', 'module') 3 (PT Empty)
+  PT: []
+  DL: ['importlib.import_module']
+83: ('/invoke/program.py', 'execute', 'executor') 3 (PT Empty)
+  PT: []
+  DL: ['klass']
+84: ('/invoke/program.py', 'normalize_argv', 'argv') 6 (DL subset PT)
+  PT: ['None', 'list', 'str']
+  DL: ['list']
+85: ('/invoke/completion/complete.py', 'print_completion_script', 'path') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+86: ('/invoke/completion/complete.py', 'print_completion_script', 'binary') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+87: ('/invoke/program.py', 'print_task_help', 'ctx') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+88: ('/invoke/completion/complete.py', 'complete', 'tail') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+89: ('/invoke/completion/complete.py', 'complete', 'contexts') 6 (DL subset PT)
+  PT: ['ParseResult', 'list']
+  DL: ['list']
+90: ('/invoke/completion/complete.py', 'complete', 'context') 7 (etc)
+  PT: ['ParserContext', 'meta_func']
+  DL: ['initial_context', 'dict']
+91: ('/invoke/parser/parser.py', '__init__', 'contexts') 6 (DL subset PT)
+  PT: ['Lexicon', 'list', 'tuple']
+  DL: ['()']
+92: ('/invoke/parser/parser.py', 'parse_argv', 'ddash') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+93: ('/invoke/parser/parser.py', 'parse_argv', 'body') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+94: ('/invoke/parser/parser.py', 'parse_argv', 'remainder') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+95: ('/invoke/parser/parser.py', 'parse_argv', 'token') 7 (etc)
+  PT: ['str']
+  DL: ['orig', 'tuple']
+96: ('/invoke/parser/parser.py', 'parse_argv', 'orig') 7 (etc)
+  PT: ['str']
+  DL: ['token']
+97: ('/invoke/parser/parser.py', 'parse_argv', 'full_token') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+98: ('/invoke/parser/parser.py', 'parse_argv', 'rest') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['tuple', 'list']
+99: ('/invoke/parser/parser.py', 'parse_argv', 'optional') 7 (etc)
+  PT: ['None']
+  DL: ['bool']
+100: ('/invoke/program.py', 'print_columns', 'name_width') 7 (etc)
+  PT: ['float']
+  DL: ['max']
+101: ('/invoke/program.py', 'print_columns', 'name_padding') 7 (etc)
+  PT: ['float']
+  DL: ['int']
+102: ('/invoke/parser/parser.py', 'waiting_for_flag_value', 'takes_value') 7 (etc)
+  PT: ['None']
+  DL: ['bool']
+103: ('/invoke/parser/parser.py', 'handle', 'flag') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+104: ('/invoke/parser/context.py', 'flag_names', 'flags') 3 (PT Empty)
+  PT: []
+  DL: ['sorted']
+105: ('/invoke/parser/context.py', 'help_for', 'arg') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+106: ('/invoke/parser/context.py', 'help_for', 'helpstr') 7 (etc)
+  PT: ['str']
+  DL: ['bool']
+107: ('/invoke/terminals.py', '_pty_size', 'buf') 7 (etc)
+  PT: ['bytes']
+  DL: ['str']
+108: ('/invoke/terminals.py', '_win_pty_size', 'hstd') 3 (PT Empty)
+  PT: []
+  DL: ['GetStdHandle']
+109: ('/invoke/terminals.py', '_win_pty_size', 'csbi') 3 (PT Empty)
+  PT: []
+  DL: ['CONSOLE_SCREEN_BUFFER_INFO']
+110: ('/invoke/terminals.py', '_win_pty_size', 'ret') 3 (PT Empty)
+  PT: []
+  DL: ['GetConsoleScreenBufferInfo']
+111: ('/invoke/vendor/lexicon/alias_dict.py', 'aliases_of', 'key') 7 (etc)
+  PT: ['str']
+  DL: ['name', 'dict']
+112: ('/invoke/vendor/decorator.py', 'decorator', 'doc') 6 (DL subset PT)
+  PT: ['str', 'tuple']
+  DL: ['str']
+113: ('/invoke/vendor/six.py', '__init__', 'new_attr') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['name', 'old_attr']
+114: ('/invoke/vendor/six.py', '__init__', 'old_attr') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['name']
+115: ('/invoke/vendor/six.py', '__init__', 'new_mod') 7 (etc)
+  PT: ['bool', 'str']
+  DL: ['name']
+116: ('/invoke/vendor/six.py', '__init__', 'new') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['name']
+117: ('/invoke/vendor/six.py', '_add_module', 'mod') 7 (etc)
+  PT: ['MovedAttribute', 'MovedModule']
+  DL: ['Module_six_moves_urllib']
+118: ('/invoke/watchers.py', 'pattern_matches', 'index') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+119: ('/invoke/watchers.py', 'pattern_matches', 'new_') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+120: ('/invoke/context.py', 'cwd', 'paths') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+121: ('/invoke/runners.py', '__init__', 'encoding') 7 (etc)
+  PT: ['None', 'str']
+  DL: ['default_encoding']
+122: ('/invoke/context.py', 'set_result_for', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+123: ('/invoke/runners.py', 'default_encoding', 'encoding') 7 (etc)
+  PT: ['str']
+  DL: ['default']
+124: ('/invoke/runners.py', 'default_encoding', 'default') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+125: ('/invoke/context.py', '_yield_result', 'value') 3 (PT Empty)
+  PT: []
+  DL: ['getattr']
+126: ('/invoke/context.py', '_yield_result', 'result') 3 (PT Empty)
+  PT: []
+  DL: ['value']
+127: ('/invoke/runners.py', '__init__', 'context') 6 (DL subset PT)
+  PT: ['Context', 'ParserContext']
+  DL: ['context.Context']
+128: ('/invoke/runners.py', 'should_use_pty', 'fallback') 3 (PT Empty)
+  PT: []
+  DL: ['tuple']
+129: ('/invoke/runners.py', 'should_use_pty', 'pty') 3 (PT Empty)
+  PT: []
+  DL: ['tuple']
+130: ('/invoke/runners.py', 'create_io_threads', 'stdout') 7 (etc)
+  PT: ['list']
+  DL: ['tuple']
+131: ('/invoke/runners.py', 'create_io_threads', 'stderr') 7 (etc)
+  PT: ['list']
+  DL: ['tuple']
+132: ('/invoke/runners.py', '_finish', 'result') 3 (PT Empty)
+  PT: []
+  DL: ['runners.Result']
+133: ('/invoke/runners.py', '_finish', 'timeout') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+134: ('/invoke/runners.py', '_unify_kwargs_with_config', 'out_stream') 7 (etc)
+  PT: ["<_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>"]
+  DL: ['tuple']
+135: ('/invoke/runners.py', '_unify_kwargs_with_config', 'err_stream') 7 (etc)
+  PT: ["<_io.TextIOWrapper name='<stderr>' mode='w' encoding='utf-8'>"]
+  DL: ['tuple']
+136: ('/invoke/runners.py', '_unify_kwargs_with_config', 'in_stream') 7 (etc)
+  PT: ["<_io.TextIOWrapper name='<stdin>' mode='r' encoding='utf-8'>", 'bool']
+  DL: ['dict']
+137: ('/invoke/runners.py', 'generate_env', 'env') 3 (PT Empty)
+  PT: []
+  DL: ['tuple']
+138: ('/invoke/runners.py', 'generate_env', 'replace_env') 3 (PT Empty)
+  PT: []
+  DL: ['tuple']
+139: ('/invoke/runners.py', '_collate_result', 'result') 3 (PT Empty)
+  PT: []
+  DL: ['runners.Result']
+140: ('/invoke/collection.py', 'to_contexts', 'task') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+141: ('/invoke/util.py', 'helpline', 'obj') 7 (etc)
+  PT: ['Collection', 'meta_func']
+  DL: ['Foo']
+142: ('/invoke/loader.py', '__init__', 'config') 7 (etc)
+  PT: ['None']
+  DL: ['Config']
+143: ('/invoke/loader.py', 'load', 'parent') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+144: ('/invoke/loader.py', 'find', 'parents') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'dict']
+145: ('/invoke/loader.py', 'find', 'tup') 3 (PT Empty)
+  PT: []
+  DL: ['(str,str,int)']
+146: ('/invoke/parser/argument.py', 'set_value', 'func') 6 (DL subset PT)
+  PT: ['<function <lambda> at 0x10fb05700>', 'None', 'bool', 'int', 'list', 'str']
+  DL: ['str']
+147: ('/invoke/collection.py', 'subcollection_from_path', 'collection') 7 (etc)
+  PT: ['Collection']
+  DL: ['self', 'dict']
+148: ('/invoke/program.py', '_make_pairs', 'displayname') 7 (etc)
+  PT: ['str']
+  DL: ['name']
+149: ('/invoke/program.py', '_make_pairs', 'prefix') 7 (etc)
+  PT: ['str']
+  DL: ['indent', 'ancestor_path']
+150: ('/invoke/exceptions.py', 'streams_for_display', 'stdout') 7 (etc)
+  PT: ['str']
+  DL: ['already_printed']
+151: ('/invoke/exceptions.py', 'streams_for_display', 'stderr') 7 (etc)
+  PT: ['str']
+  DL: ['already_printed']
+152: ('/invoke/exceptions.py', '_printable_kwargs', 'item') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['value', 'list']
+153: ('/invoke/vendor/decorator.py', 'create', 'self') 7 (etc)
+  PT: ['FunctionMaker']
+  DL: ['cls']
+154: ('/invoke/vendor/yaml3/scanner.py', 'scan_tag', 'handle') 7 (etc)
+  PT: ['str']
+  DL: ['None']
+155: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indicators', 'chomping') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['None', 'bool']
+156: ('/invoke/vendor/yaml3/scanner.py', 'scan_block_scalar_indicators', 'increment') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['None', 'int']
+157: ('/invoke/vendor/yaml3/scanner.py', 'scan_flow_scalar_non_spaces', 'length') 7 (etc)
+  PT: ['int']
+  DL: ['dict']
+158: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_int', 'value') 7 (etc)
+  PT: ['str', 'int']
+  DL: ['dict']
+159: ('/invoke/vendor/yaml3/constructor.py', 'construct_yaml_timestamp', 'fraction') 5 (PT subset DL)
+  PT: ['int']
+  DL: ['dict', 'int']
+160: ('/invoke/vendor/yaml3/constructor.py', 'set_python_instance_state', 'slotstate') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['dict', 'machine.state']
+161: ('/invoke/vendor/yaml3/representer.py', 'represent_mapping', 'mapping') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['list', 'sorted']
+162: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'args') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['six.moves.reduce', 'list', 'dict']
+163: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'state') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['six.moves.reduce', 'dict']
+164: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'listitems') 5 (PT subset DL)
+  PT: ['list']
+  DL: ['six.moves.reduce', 'list']
+165: ('/invoke/vendor/yaml3/representer.py', 'represent_object', 'dictitems') 5 (PT subset DL)
+  PT: ['dict']
+  DL: ['six.moves.reduce', 'dict']
+166: ('/invoke/vendor/yaml3/parser.py', 'parse_node', 'implicit') 5 (PT subset DL)
+  PT: ['tuple']
+  DL: ['bool', 'tuple']
+167: ('/invoke/vendor/yaml3/reader.py', 'update', 'converted') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+168: ('/invoke/vendor/yaml3/resolver.py', 'add_path_resolver', 'index_check') 5 (PT subset DL)
+  PT: ['bool']
+  DL: ['element', 'bool']
+169: ('/invoke/vendor/yaml3/resolver.py', 'descend_resolver', 'depth') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+170: ('/invoke/vendor/yaml3/emitter.py', 'check_simple_key', 'length') 7 (etc)
+  PT: ['int']
+  DL: ['len']
+171: ('/invoke/vendor/yaml3/emitter.py', 'write_single_quoted', 'data') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+172: ('/invoke/vendor/yaml3/emitter.py', 'write_double_quoted', 'data') 7 (etc)
+  PT: ['str']
+  DL: ['dict']
+173: ('/invoke/vendor/yaml3/emitter.py', 'write_plain', 'data') 7 (etc)
+  PT: ['str']
+  DL: ['dict']

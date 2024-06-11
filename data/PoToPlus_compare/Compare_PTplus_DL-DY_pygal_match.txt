@@ -1,0 +1,429 @@
+0: ('/pygal/style.py', 'Style_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+1: ('/pygal/style.py', 'Style_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+2: ('/pygal/style.py', 'Style_class_initializer', 'value_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+3: ('/pygal/style.py', 'Style_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+4: ('/pygal/style.py', 'Style_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+5: ('/pygal/style.py', 'Style_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+6: ('/pygal/style.py', 'Style_class_initializer', 'font_family') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+7: ('/pygal/style.py', 'Style_class_initializer', 'label_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+8: ('/pygal/style.py', 'Style_class_initializer', 'major_label_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+9: ('/pygal/style.py', 'Style_class_initializer', 'value_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+10: ('/pygal/style.py', 'Style_class_initializer', 'value_label_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+11: ('/pygal/style.py', 'Style_class_initializer', 'tooltip_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+12: ('/pygal/style.py', 'Style_class_initializer', 'title_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+13: ('/pygal/style.py', 'Style_class_initializer', 'legend_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+14: ('/pygal/style.py', 'Style_class_initializer', 'no_data_font_family') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+15: ('/pygal/style.py', 'Style_class_initializer', 'label_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+16: ('/pygal/style.py', 'Style_class_initializer', 'major_label_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+17: ('/pygal/style.py', 'Style_class_initializer', 'value_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+18: ('/pygal/style.py', 'Style_class_initializer', 'value_label_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+19: ('/pygal/style.py', 'Style_class_initializer', 'tooltip_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+20: ('/pygal/style.py', 'Style_class_initializer', 'title_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+21: ('/pygal/style.py', 'Style_class_initializer', 'legend_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+22: ('/pygal/style.py', 'Style_class_initializer', 'no_data_font_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+23: ('/pygal/style.py', 'Style_class_initializer', 'guide_stroke_dasharray') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+24: ('/pygal/style.py', 'Style_class_initializer', 'major_guide_stroke_dasharray') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+25: ('/pygal/style.py', 'Style_class_initializer', 'guide_stroke_color') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+26: ('/pygal/style.py', 'Style_class_initializer', 'major_guide_stroke_color') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+27: ('/pygal/style.py', 'Style_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+28: ('/pygal/style.py', 'Style_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+29: ('/pygal/style.py', 'Style_class_initializer', 'stroke_opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+30: ('/pygal/style.py', 'Style_class_initializer', 'stroke_width') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+31: ('/pygal/style.py', 'Style_class_initializer', 'stroke_opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+32: ('/pygal/style.py', 'Style_class_initializer', 'stroke_width_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+33: ('/pygal/style.py', 'Style_class_initializer', 'dot_opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+34: ('/pygal/style.py', 'Style_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+35: ('/pygal/style.py', 'DarkStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+36: ('/pygal/style.py', 'DarkStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+37: ('/pygal/style.py', 'DarkStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+38: ('/pygal/style.py', 'DarkStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+39: ('/pygal/style.py', 'DarkStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+40: ('/pygal/style.py', 'DarkStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+41: ('/pygal/style.py', 'DarkStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+42: ('/pygal/style.py', 'DarkStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+43: ('/pygal/style.py', 'LightStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+44: ('/pygal/style.py', 'LightStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+45: ('/pygal/style.py', 'LightStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+46: ('/pygal/style.py', 'LightStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+47: ('/pygal/style.py', 'LightStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+48: ('/pygal/style.py', 'NeonStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+49: ('/pygal/style.py', 'NeonStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+50: ('/pygal/style.py', 'NeonStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+51: ('/pygal/style.py', 'CleanStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+52: ('/pygal/style.py', 'CleanStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+53: ('/pygal/style.py', 'CleanStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+54: ('/pygal/style.py', 'CleanStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+55: ('/pygal/style.py', 'CleanStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+56: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+57: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+58: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+59: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+60: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+61: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+62: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+63: ('/pygal/style.py', 'DarkSolarizedStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+64: ('/pygal/style.py', 'LightSolarizedStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+65: ('/pygal/style.py', 'LightSolarizedStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+66: ('/pygal/style.py', 'LightSolarizedStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+67: ('/pygal/style.py', 'LightSolarizedStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+68: ('/pygal/style.py', 'LightSolarizedStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+69: ('/pygal/colors.py', 'module_initializer', '_clamp') 0 (Match)
+  PT: ['<function <lambda> at 0x100d7e5f0>', '<function <lambda> at 0x100d7ff40>', '<function <lambda> at 0x100dc0280>', '<function <lambda> at 0x100dc0310>', '<function <lambda> at 0x100dc0430>', '<function <lambda> at 0x100dc0550>', '<function <lambda> at 0x100dc0a60>', '<function <lambda> at 0x100dc0b80>', '<function <lambda> at 0x100dc0dc0>', '<function <lambda> at 0x1010b48b0>', '<function <lambda> at 0x1010b75b0>', '<function <lambda> at 0x1010b7eb0>', '<function <lambda> at 0x101da49d0>', '<function <lambda> at 0x101da4af0>', '<function <lambda> at 0x101da4c10>', '<function <lambda> at 0x101da5000>', '<function <lambda> at 0x101da51b0>', '<function <lambda> at 0x101da5360>', '<function <lambda> at 0x101da5870>', '<function <lambda> at 0x101da5f30>', '<function <lambda> at 0x101da5fc0>', '<function <lambda> at 0x101da60e0>', '<function <lambda> at 0x101da69e0>', '<function <lambda> at 0x101da6d40>', '<function <lambda> at 0x101da6e60>', '<function <lambda> at 0x101da7010>', '<function <lambda> at 0x101da70a0>', '<function <lambda> at 0x101da76d0>', '<function <lambda> at 0x101da7c70>', '<function <lambda> at 0x1023ec310>', '<function <lambda> at 0x102cd0820>', '<function <lambda> at 0x103a948b0>', '<function <lambda> at 0x103a94b80>', '<function <lambda> at 0x103a94ee0>', '<function <lambda> at 0x103a95090>', '<function <lambda> at 0x103a952d0>', '<function <lambda> at 0x103a95480>', '<function <lambda> at 0x103a96290>', '<function <lambda> at 0x103a968c0>', '<function <lambda> at 0x103a96cb0>', '<function <lambda> at 0x103a97130>', '<function <lambda> at 0x103a97760>', '<function <lambda> at 0x103a977f0>', '<function <lambda> at 0x103a979a0>', '<function <lambda> at 0x103a97eb0>', '<function <lambda> at 0x103a97f40>', '<function <lambda> at 0x109bb84c0>']
+  DL: ['function']
+70: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+71: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+72: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+73: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+74: ('/pygal/style.py', 'RedBlueStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+75: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+76: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+77: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+78: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+79: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+80: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+81: ('/pygal/style.py', 'LightColorizedStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+82: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+83: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+84: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+85: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+86: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+87: ('/pygal/style.py', 'DarkColorizedStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+88: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+89: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+90: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+91: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+92: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+93: ('/pygal/style.py', 'TurquoiseStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+94: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+95: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+96: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+97: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+98: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+99: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+100: ('/pygal/style.py', 'LightGreenStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+101: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+102: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+103: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+104: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+105: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+106: ('/pygal/style.py', 'DarkGreenStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+107: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+108: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+109: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+110: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+111: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+112: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+113: ('/pygal/style.py', 'DarkGreenBlueStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+114: ('/pygal/style.py', 'BlueStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+115: ('/pygal/style.py', 'BlueStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+116: ('/pygal/style.py', 'BlueStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+117: ('/pygal/style.py', 'BlueStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+118: ('/pygal/style.py', 'BlueStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+119: ('/pygal/style.py', 'BlueStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+120: ('/pygal/style.py', 'BlueStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+121: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+122: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'plot_background') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+123: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'foreground') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+124: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'foreground_strong') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+125: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'foreground_subtle') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+126: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'opacity') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+127: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'opacity_hover') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+128: ('/pygal/style.py', 'SolidColorStyle_class_initializer', 'transition') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+129: ('/pygal/style.py', 'ParametricStyleBase_class_initializer', '_op') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+130: ('/pygal/style.py', 'LightenStyle_class_initializer', '_op') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+131: ('/pygal/style.py', 'DarkenStyle_class_initializer', '_op') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+132: ('/pygal/style.py', 'SaturateStyle_class_initializer', '_op') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+133: ('/pygal/style.py', 'DesaturateStyle_class_initializer', '_op') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+134: ('/pygal/style.py', 'RotateStyle_class_initializer', '_op') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+135: ('/pygal/colors.py', 'parse_color', 'color') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+136: ('/pygal/colors.py', 'parse_color', 'g') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+137: ('/pygal/colors.py', 'parse_color', 'b') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+138: ('/pygal/colors.py', 'rgb_to_hsl', 'max_') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+139: ('/pygal/colors.py', 'rgb_to_hsl', 'min_') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+140: ('/pygal/colors.py', 'rgb_to_hsl', 'h') 0 (Match)
+  PT: ['float', 'int']
+  DL: ['int', 'float']
+141: ('/pygal/colors.py', 'rgb_to_hsl', 'l') 0 (Match)
+  PT: ['float']
+  DL: ['float']
+142: ('/pygal/colors.py', 'rgb_to_hsl', 's') 0 (Match)
+  PT: ['float', 'int']
+  DL: ['int', 'float']

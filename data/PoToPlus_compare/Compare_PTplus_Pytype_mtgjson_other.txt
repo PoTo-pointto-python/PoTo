@@ -1,0 +1,1136 @@
+0: ('/mtgjson5/price_builder.py', 'download_prices_archive', 'github_username') 35 280 3 (PT Empty)
+  PT: []
+  PY: ['str']
+1: ('/mtgjson5/price_builder.py', 'download_prices_archive', 'github_api_key') 36 281 3 (PT Empty)
+  PT: []
+  PY: ['str']
+2: ('/mtgjson5/price_builder.py', 'download_prices_archive', 'github_repo_name') 37 282 3 (PT Empty)
+  PT: []
+  PY: ['str']
+3: ('/mtgjson5/price_builder.py', 'download_prices_archive', 'github_file_name') 38 283 3 (PT Empty)
+  PT: []
+  PY: ['str']
+4: ('/mtgjson5/price_builder.py', 'download_prices_archive', 'git_sh') 40 285 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+5: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'content') 44 288 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Any']
+  PY: ['Any']
+6: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'github_username') 45 289 3 (PT Empty)
+  PT: []
+  PY: ['str']
+7: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'github_api_token') 46 290 3 (PT Empty)
+  PT: []
+  PY: ['str']
+8: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'github_file_name') 47 291 3 (PT Empty)
+  PT: []
+  PY: ['str']
+9: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'github_repo_name') 48 292 3 (PT Empty)
+  PT: []
+  PY: ['str']
+10: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'repo') 49 293 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+11: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'origin') 50 294 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+12: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'push_results') 51 295 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+13: ('/mtgjson5/price_builder.py', 'upload_prices_archive', 'push_result') 52 296 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+14: ('/mtgjson5/price_builder.py', 'build_today_prices', 'final_results') 86 311 5 (PT subset PY)
+  PT: ['dict']
+  PY: ['Dict[str, Any]', 'nothing']
+15: ('/mtgjson5/price_builder.py', 'get_price_archive_data', 'config') 89 315 4 (PY Empty (is_any() is true))
+  PT: ['<configparser.ConfigParser object at 0x10c606650>', '<configparser.ConfigParser object at 0x10c714580>']
+  PY: ['Any']
+16: ('/mtgjson5/price_builder.py', 'download_old_all_printings', 'file_data') 93 318 4 (PY Empty (is_any() is true))
+  PT: ['<Response [200]>']
+  PY: ['Any']
+17: ('/mtgjson5/price_builder.py', 'download_old_all_printings', 'chunk') 94 319 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+18: ('/mtgjson5/price_builder.py', 'build_prices', 'archive_prices') 97 321 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['nothing']
+19: ('/mtgjson5/price_builder.py', 'build_prices', 'config') 98 322 4 (PY Empty (is_any() is true))
+  PT: ['<configparser.ConfigParser object at 0x10c606650>', '<configparser.ConfigParser object at 0x10c714580>']
+  PY: ['Any']
+20: ('/mtgjson5/price_builder.py', 'prune_recursive', 'value') 110 302 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+21: ('/mtgjson5/price_builder.py', '_generate_prices', 'provider') 112 312 4 (PY Empty (is_any() is true))
+  PT: ['CardHoarderProvider', 'CardKingdomProvider', 'CardMarketProvider', 'TCGPlayerProvider', 'Any']
+  PY: ['Any']
+22: ('/mtgjson5/price_builder.py', '_generate_prices', 'preprocess_prices') 113 313 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+23: ('/mtgjson5/price_builder.py', '_generate_prices', 'final_prices') 114 314 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Dict[str, Any]']
+  PY: ['Any']
+24: ('/mtgjson5/providers/cardmarket.py', '__init__', 'headers') 117 979 6 (PY subset PT)
+  PT: ['None', 'Dict[str, str]']
+  PY: ['Dict[str, str]']
+25: ('/mtgjson5/utils.py', 'deep_merge_dictionaries', 'first_dict') 121 255 6 (PY subset PT)
+  PT: ['dict', 'set', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+26: ('/mtgjson5/utils.py', 'deep_merge_dictionaries', 'other_dicts') 122 256 7 (etc)
+  PT: ['dict', 'set', 'Dict[str, Any]']
+  PY: ['Tuple[Dict[str, Any], ...]']
+
+AM: Both, args
+
+27: ('/mtgjson5/utils.py', 'deep_merge_dictionaries', 'result') 123 257 6 (PY subset PT)
+  PT: ['dict', 'set']
+  PY: ['Dict[str, Any]']
+28: ('/mtgjson5/utils.py', 'deep_merge_dictionaries', 'dictionary') 124 261 6 (PY subset PT)
+  PT: ['MtgjsonPricesObject', 'dict', 'list', 'set']
+  PY: ['Dict[str, Any]']
+29: ('/mtgjson5/utils.py', 'deep_merge_dictionaries', 'key') 125 260 3 (PT Empty)
+  PT: []
+  PY: ['str']
+30: ('/mtgjson5/utils.py', 'deep_merge_dictionaries', 'new') 126 259 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'set']
+  PY: ['Any']
+31: ('/mtgjson5/utils.py', 'deep_merge_dictionaries', 'old') 127 258 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+32: ('/mtgjson5/providers/abstract.py', '__init__', 'self') 134 820 6 (PY subset PT)
+  PT: ['AbstractProvider', 'CardHoarderProvider', 'CardKingdomProvider', 'CardMarketProvider', 'GathererProvider', 'GitHubBoostersProvider', 'GitHubDecksProvider', 'GitHubMTGSqliteProvider', 'MTGBanProvider', 'ScryfallProvider', 'TCGPlayerProvider', 'WhatsInStandardProvider', 'WizardsProvider']
+  PY: ['AbstractProvider']
+33: ('/mtgjson5/providers/abstract.py', '__init__', 'headers') 135 821 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, str]']
+  PY: ['Dict[str, str]']
+34: ('/mtgjson5/providers/cardhoarder.py', 'generate_today_price_dict', 'all_printings_path') 137 919 4 (PY Empty (is_any() is true))
+  PT: ["/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/mtgjson_build_'5.X.X'/msg", 'Any']
+  PY: ['Any']
+35: ('/mtgjson5/providers/cardhoarder.py', 'generate_today_price_dict', 'foil_cards') 141 922 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, float]']
+36: ('/mtgjson5/providers/tcgplayer.py', 'generate_today_price_dict', 'buylist_dict') 158 1167 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'list']
+  PY: ['Any']
+37: ('/mtgjson5/providers/tcgplayer.py', 'generate_today_price_dict', 'retail_dict') 159 1168 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'list']
+  PY: ['Any']
+38: ('/mtgjson5/providers/tcgplayer.py', 'generate_today_price_dict', 'combined_listings') 160 1169 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+39: ('/mtgjson5/providers/tcgplayer.py', 'generate_today_price_dict', 'key') 161 1170 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+40: ('/mtgjson5/providers/tcgplayer.py', 'generate_today_price_dict', 'value') 162 1171 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+41: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'price_data') 167 988 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+42: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'product_id_index') 169 990 3 (PT Empty)
+  PT: []
+  PY: ['int']
+43: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'avg_sell_price_index') 170 991 3 (PT Empty)
+  PT: []
+  PY: ['int']
+44: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'avg_foil_price_index') 171 992 3 (PT Empty)
+  PT: []
+  PY: ['int']
+45: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'row') 173 1000 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+46: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'value') 174 995 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+47: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'mtgjson_uuid') 177 997 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+48: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'avg_sell_price') 178 998 7 (etc)
+  PT: ['int']
+  PY: ['float']
+
+AM: PY
+
+49: ('/mtgjson5/providers/cardmarket.py', 'generate_today_price_dict', 'avg_foil_price') 179 999 7 (etc)
+  PT: ['int']
+  PY: ['float']
+
+AM: PY
+
+50: ('/mtgjson5/providers/cardkingdom.py', 'generate_today_price_dict', 'card_rows') 185 1074 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+51: ('/mtgjson5/providers/cardkingdom.py', 'generate_today_price_dict', 'card') 186 1077 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+52: ('/mtgjson5/providers/cardkingdom.py', 'generate_today_price_dict', 'mtgjson_uuid') 188 1076 4 (PY Empty (is_any() is true))
+  PT: ['MtgjsonPricesObject', 'dict']
+  PY: ['Any']
+53: ('/mtgjson5/providers/cardmarket.py', '__init_set_map', 'mkm_resp') 194 1002 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+54: ('/mtgjson5/providers/cardmarket.py', '__init_set_map', 'set_content') 195 1003 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+55: ('/mtgjson5/providers/cardmarket.py', '__init_set_map', 'mkm_set_name_fixes') 196 1004 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+56: ('/mtgjson5/providers/cardmarket.py', '__init_set_map', 'old_set_name') 197 1005 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+57: ('/mtgjson5/providers/cardmarket.py', '__init_set_map', 'new_set_name') 198 1006 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+58: ('/mtgjson5/providers/abstract.py', '__install_cache', 'self') 201 829 6 (PY subset PT)
+  PT: ['AbstractProvider', 'CardHoarderProvider', 'CardKingdomProvider', 'CardMarketProvider', 'GathererProvider', 'GitHubBoostersProvider', 'GitHubDecksProvider', 'GitHubMTGSqliteProvider', 'MTGBanProvider', 'ScryfallProvider', 'TCGPlayerProvider', 'WhatsInStandardProvider', 'WizardsProvider']
+  PY: ['AbstractProvider']
+59: ('/mtgjson5/providers/cardhoarder.py', 'get_mtgo_to_mtgjson_map', 'card') 204 933 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+60: ('/mtgjson5/providers/cardhoarder.py', 'get_mtgo_to_mtgjson_map', 'identifiers') 205 932 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+61: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'file_row') 213 917 3 (PT Empty)
+  PT: []
+  PY: ['str']
+62: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'card_row') 214 914 3 (PT Empty)
+  PT: []
+  PY: ['List[str]']
+63: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'mtgo_id') 215 915 3 (PT Empty)
+  PT: []
+  PY: ['str']
+64: ('/mtgjson5/providers/cardhoarder.py', 'convert_cardhoarder_to_mtgjson', 'card_uuid') 216 916 3 (PT Empty)
+  PT: []
+  PY: ['Optional[str]']
+65: ('/mtgjson5/providers/cardhoarder.py', '_construct_for_cards', 'key') 222 928 3 (PT Empty)
+  PT: []
+  PY: ['str']
+66: ('/mtgjson5/providers/cardhoarder.py', '_construct_for_cards', 'value') 223 929 3 (PT Empty)
+  PT: []
+  PY: ['float']
+67: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_magic_set_ids', 'api_response') 227 1160 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+68: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_magic_set_ids', 'response') 228 1161 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+69: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_magic_set_ids', 'magic_set') 229 1162 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+70: ('/mtgjson5/utils.py', 'generate_card_mapping', 'card') 235 276 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+71: ('/mtgjson5/utils.py', 'generate_card_mapping', 'key') 236 273 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+72: ('/mtgjson5/utils.py', 'generate_card_mapping', 'value') 238 275 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+73: ('/mtgjson5/utils.py', 'parallel_call', 'repeatable_args') 244 231 6 (PY subset PT)
+  PT: ['None', 'list', 'tuple', 'Union[Tuple[Any, ...], List[Any]]']
+  PY: ['Union[list, tuple]']
+74: ('/mtgjson5/utils.py', 'parallel_call', 'args') 246 230 4 (PY Empty (is_any() is true))
+  PT: ['list', 'Any']
+  PY: ['Any']
+75: ('/mtgjson5/utils.py', 'parallel_call', 'pool') 247 236 4 (PY Empty (is_any() is true))
+  PT: ['<Pool at 0x10bf43220 set()>', '<Pool at 0x10c011420 set()>', '<Pool at 0x10c2aa320 set()>', '<Pool at 0x10c878b80 set()>', '<Pool at 0x12541d150 set()>', '<Pool at 0x125c06650 set()>']
+  PY: ['Any']
+76: ('/mtgjson5/utils.py', 'parallel_call', 'arg') 248 238 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'int', 'str']
+  PY: ['Any']
+77: ('/mtgjson5/utils.py', 'parallel_call', 'results') 250 239 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+78: ('/mtgjson5/providers/cardmarket.py', '_get_card_market_data', 'mkm_response') 253 982 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+79: ('/mtgjson5/providers/cardmarket.py', '_get_card_market_data', 'price_data') 254 983 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+80: ('/mtgjson5/providers/cardmarket.py', '_get_card_market_data', 'decoded_data') 255 984 3 (PT Empty)
+  PT: []
+  PY: ['str']
+81: ('/mtgjson5/providers/cardkingdom.py', 'download', 'params') 262 1066 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+82: ('/mtgjson5/providers/cardkingdom.py', 'download', 'session') 265 1067 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c2bdf00>', '<requests.sessions.Session object at 0x10c56b130>']
+  PY: ['Any']
+83: ('/mtgjson5/providers/cardkingdom.py', 'download', 'response') 266 1068 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+84: ('/mtgjson5/providers/tcgplayer.py', '_request_tcgplayer_bearer', 'config') 269 1149 4 (PY Empty (is_any() is true))
+  PT: ['<configparser.ConfigParser object at 0x10c8a7400>', '<configparser.ConfigParser object at 0x12583ee30>']
+  PY: ['Any']
+85: ('/mtgjson5/providers/tcgplayer.py', '_request_tcgplayer_bearer', 'tcg_post') 271 1150 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+86: ('/mtgjson5/providers/tcgplayer.py', '_request_tcgplayer_bearer', 'request_as_json') 272 1151 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+87: ('/mtgjson5/utils.py', 'get_all_cards_and_tokens', 'file_contents') 274 267 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+88: ('/mtgjson5/utils.py', 'get_all_cards_and_tokens', 'card') 275 268 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+89: ('/mtgjson5/providers/cardhoarder.py', 'download', 'params') 276 905 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+90: ('/mtgjson5/providers/cardhoarder.py', 'download', 'session') 279 906 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c1d72b0>', '<requests.sessions.Session object at 0x10c2bdf00>']
+  PY: ['Any']
+91: ('/mtgjson5/providers/cardhoarder.py', 'download', 'response') 280 907 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+92: ('/mtgjson5/providers/tcgplayer.py', 'download', 'params') 282 1154 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+93: ('/mtgjson5/providers/tcgplayer.py', 'download', 'session') 285 1155 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c27e1a0>', '<requests.sessions.Session object at 0x10c2bdf00>', '<requests.sessions.Session object at 0x10c67b250>', '<requests.sessions.Session object at 0x12541ea40>']
+  PY: ['Any']
+94: ('/mtgjson5/providers/tcgplayer.py', 'download', 'response') 286 1156 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+95: ('/mtgjson5/utils.py', 'retryable_session', 'calling_class') 290 225 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+96: ('/mtgjson5/utils.py', 'retryable_session', 'session') 291 226 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c1d7100>', '<requests.sessions.Session object at 0x10c1d72b0>', '<requests.sessions.Session object at 0x10c25ab60>', '<requests.sessions.Session object at 0x10c27e1a0>', '<requests.sessions.Session object at 0x10c2bdf00>', '<requests.sessions.Session object at 0x10c429cf0>', '<requests.sessions.Session object at 0x10c445600>', '<requests.sessions.Session object at 0x10c46d9c0>', '<requests.sessions.Session object at 0x10c56b130>', '<requests.sessions.Session object at 0x10c67b250>', '<requests.sessions.Session object at 0x10c680730>', '<requests.sessions.Session object at 0x10c7747f0>', '<requests.sessions.Session object at 0x12541ea40>', '<requests.sessions.Session object at 0x1258a3d30>', '<requests.sessions.Session object at 0x125994d60>', '<requests.sessions.Session object at 0x125a200a0>', '<requests.sessions.Session object at 0x125c34490>', '<requests.sessions.Session object at 0x125d35030>']
+  PY: ['Any']
+97: ('/mtgjson5/utils.py', 'retryable_session', 'retry') 292 227 4 (PY Empty (is_any() is true))
+  PT: ['Retry(total=10, connect=None, read=None, redirect=None, status=None)']
+  PY: ['Any']
+98: ('/mtgjson5/utils.py', 'retryable_session', 'adapter') 293 228 4 (PY Empty (is_any() is true))
+  PT: ['<requests.adapters.HTTPAdapter object at 0x10bf42e30>', '<requests.adapters.HTTPAdapter object at 0x10bf9b8e0>', '<requests.adapters.HTTPAdapter object at 0x10c013970>', '<requests.adapters.HTTPAdapter object at 0x10c16a1a0>', '<requests.adapters.HTTPAdapter object at 0x10c187580>', '<requests.adapters.HTTPAdapter object at 0x10c1f9d50>', '<requests.adapters.HTTPAdapter object at 0x10c2ab310>', '<requests.adapters.HTTPAdapter object at 0x10c2c5450>', '<requests.adapters.HTTPAdapter object at 0x10c3e6290>', '<requests.adapters.HTTPAdapter object at 0x10c437970>', '<requests.adapters.HTTPAdapter object at 0x10c8635e0>', '<requests.adapters.HTTPAdapter object at 0x10c8a45b0>', '<requests.adapters.HTTPAdapter object at 0x10c96f2e0>', '<requests.adapters.HTTPAdapter object at 0x12545c8e0>', '<requests.adapters.HTTPAdapter object at 0x12554a530>', '<requests.adapters.HTTPAdapter object at 0x1255e4b20>', '<requests.adapters.HTTPAdapter object at 0x1258d4880>', '<requests.adapters.HTTPAdapter object at 0x125bfdc00>']
+  PY: ['Any']
+99: ('/mtgjson5/providers/abstract.py', 'log_download', 'response') 295 828 2 (Both Empty)
+  PT: ['Any']
+  PY: ['Any']
+100: ('/mtgjson5/utils.py', 'get_all_cards_and_tokens_from_content', 'all_printings_content') 296 262 6 (PY subset PT)
+  PT: ['dict', 'set', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+101: ('/mtgjson5/utils.py', 'get_all_cards_and_tokens_from_content', 'value') 298 265 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+102: ('/mtgjson5/utils.py', 'get_all_cards_and_tokens_from_content', 'card') 299 264 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+103: ('/mtgjson5/providers/github_mtgsqlite.py', 'download', 'params') 302 1213 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+104: ('/mtgjson5/providers/github_mtgsqlite.py', 'download', 'git_sh') 305 1214 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+105: ('/mtgjson5/utils.py', 'to_camel_case', 'components') 316 218 3 (PT Empty)
+  PT: []
+  PY: ['List[str]']
+106: ('/mtgjson5/providers/abstract.py', 'download', 'params') 327 825 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+107: ('/mtgjson5/arg_parser.py', 'get_sets_already_built', 'set_code') 337 201 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+108: ('/mtgjson5/arg_parser.py', 'get_all_scryfall_sets', 'scryfall_instance') 339 202 4 (PY Empty (is_any() is true))
+  PT: ['ScryfallProvider']
+  PY: ['Any']
+109: ('/mtgjson5/arg_parser.py', 'get_all_scryfall_sets', 'scryfall_sets') 340 203 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+110: ('/mtgjson5/arg_parser.py', 'get_all_scryfall_sets', 'set_obj') 342 205 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+111: ('/mtgjson5/arg_parser.py', 'get_all_scryfall_sets', 'set_code') 344 206 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+112: ('/mtgjson5/arg_parser.py', 'get_sets_to_build', 'scryfall_sets') 347 208 3 (PT Empty)
+  PT: []
+  PY: ['List[str]']
+113: ('/mtgjson5/arg_parser.py', 'get_sets_to_build', 'non_token_sets') 348 209 7 (etc)
+  PT: ['bool']
+  PY: ['Set[str]']
+
+AM: PY
+
+114: ('/mtgjson5/providers/scryfall.py', 'download', 'params') 351 1086 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+115: ('/mtgjson5/providers/scryfall.py', 'download', 'self') 352 1084 4 (PY Empty (is_any() is true))
+  PT: ['ScryfallProvider']
+  PY: ['Any']
+116: ('/mtgjson5/providers/scryfall.py', 'download', 'url') 353 1085 6 (PY subset PT)
+  PT: ['None', 'bool', 'dict', 'list', 'str']
+  PY: ['str']
+117: ('/mtgjson5/providers/scryfall.py', 'download', 'session') 354 1087 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c1d7100>', '<requests.sessions.Session object at 0x10c25ab60>', '<requests.sessions.Session object at 0x12541ea40>', '<requests.sessions.Session object at 0x1258a3d30>', '<requests.sessions.Session object at 0x125994d60>']
+  PY: ['Any']
+118: ('/mtgjson5/providers/scryfall.py', 'download', 'response') 355 1088 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+119: ('/mtgjson5/providers/github_decks.py', 'download', 'params') 364 1034 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+120: ('/mtgjson5/providers/github_decks.py', 'download', 'session') 367 1035 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c680730>', '<requests.sessions.Session object at 0x12541ea40>']
+  PY: ['Any']
+121: ('/mtgjson5/providers/github_decks.py', 'download', 'response') 368 1036 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+122: ('/mtgjson5/providers/github_decks.py', 'iterate_precon_decks', 'deck') 371 1039 4 (PY Empty (is_any() is true))
+  PT: ['set']
+  PY: ['Any']
+123: ('/mtgjson5/providers/github_decks.py', 'build_single_card', 'card') 373 1043 6 (PY subset PT)
+  PT: ['set', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+124: ('/mtgjson5/providers/github_decks.py', 'build_single_card', 'set_to_build_from') 375 1045 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+125: ('/mtgjson5/providers/github_decks.py', 'build_single_card', 'mtgjson_card') 377 1046 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+126: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'build_keys_to_skip', '_') 387 804 3 (PT Empty)
+  PT: []
+  PY: ['str']
+127: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'build_keys_to_skip', 'value') 388 805 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+128: ('/mtgjson5/classes/mtgjson_purchase_urls.py', 'to_json', 'skip_keys') 391 807 3 (PT Empty)
+  PT: []
+  PY: ['Set[str]']
+129: ('/mtgjson5/providers/gatherer.py', 'download', 'params') 404 944 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+130: ('/mtgjson5/providers/gatherer.py', 'download', 'self') 405 942 4 (PY Empty (is_any() is true))
+  PT: ['GathererProvider']
+  PY: ['Any']
+131: ('/mtgjson5/providers/gatherer.py', 'download', 'session') 407 945 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x125d35030>']
+  PY: ['Any']
+132: ('/mtgjson5/providers/gatherer.py', 'download', 'response') 408 946 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+133: ('/mtgjson5/providers/gatherer.py', 'get_cards', 'multiverse_id') 412 948 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['str']
+134: ('/mtgjson5/providers/gatherer.py', 'get_cards', 'response') 413 950 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+135: ('/mtgjson5/providers/gatherer.py', 'parse_cards', 'soup') 418 954 3 (PT Empty)
+  PT: []
+  PY: ['bs4.BeautifulSoup']
+136: ('/mtgjson5/providers/gatherer.py', 'parse_cards', 'columns') 419 955 3 (PT Empty)
+  PT: []
+  PY: ['bs4.element.ResultSet']
+137: ('/mtgjson5/providers/gatherer.py', 'strip_parentheses_from_text', 'text') 422 974 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['str']
+138: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'row') 429 960 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+139: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'card_name') 431 961 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+140: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'card_types') 432 962 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+141: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'flavor_box') 434 964 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+142: ('/mtgjson5/providers/gatherer.py', '_parse_column', 'textbox') 436 966 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+143: ('/mtgjson5/providers/gatherer.py', '_replace_symbols', 'tag_copy') 440 969 3 (PT Empty)
+  PT: []
+  PY: ['bs4.BeautifulSoup']
+144: ('/mtgjson5/providers/gatherer.py', '_replace_symbols', 'images') 441 970 3 (PT Empty)
+  PT: []
+  PY: ['bs4.element.ResultSet']
+145: ('/mtgjson5/providers/gatherer.py', '_replace_symbols', 'image') 442 973 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+146: ('/mtgjson5/providers/gatherer.py', '_replace_symbols', 'alt') 443 971 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+147: ('/mtgjson5/providers/gatherer.py', '_replace_symbols', 'symbol') 444 972 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+148: ('/mtgjson5/referral_builder.py', 'build_referral_map', 'mtgjson_card_object') 452 10 3 (PT Empty)
+  PT: []
+  PY: ['mtgjson5.classes.mtgjson_card.MtgjsonCardObject']
+149: ('/mtgjson5/referral_builder.py', 'build_referral_map', 'service') 453 8 3 (PT Empty)
+  PT: []
+  PY: ['str']
+150: ('/mtgjson5/referral_builder.py', 'build_referral_map', 'url') 454 9 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+151: ('/mtgjson5/providers/scryfall.py', 'get_catalog_entry', 'catalog_data') 466 1101 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+152: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_data', 'group_id_and_name') 468 1175 6 (PY subset PT)
+  PT: ['set', 'tuple', 'Tuple[str, str]']
+  PY: ['Tuple[str, str]']
+153: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_data', 'api_response') 471 1178 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+154: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_data', 'response') 472 1179 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+155: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_sku_map', 'sku') 478 1183 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+156: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'api_response') 483 1188 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+157: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'response') 485 1189 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+158: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'tcgplayer_sku_data') 487 1191 3 (PT Empty)
+  PT: []
+  PY: ['List[Dict[str, Any]]']
+159: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'sku_map') 488 1192 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Dict[str, Optional[int]]]']
+160: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'buylist_data') 489 1197 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+161: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'key') 491 1194 3 (PT Empty)
+  PT: []
+  PY: ['Optional[str]']
+162: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'sku') 492 1196 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+163: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_buylist_prices_map', 'product_sku') 493 1195 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+164: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'api_response') 496 1200 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+165: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'response') 498 1201 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+166: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'tcgplayer_object') 500 1206 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+167: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'key') 501 1203 3 (PT Empty)
+  PT: []
+  PY: ['Optional[str]']
+168: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'is_non_foil') 502 1204 4 (PY Empty (is_any() is true))
+  PT: ['bool']
+  PY: ['Any']
+169: ('/mtgjson5/providers/tcgplayer.py', 'get_tcgplayer_prices_map', 'card_price') 503 1205 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+170: ('/mtgjson5/classes/mtgjson_translations.py', '__init__', 'active_dict') 506 691 6 (PY subset PT)
+  PT: ['None', 'bool', 'dict', 'list', 'Dict[str, str]']
+  PY: ['Dict[str, str]']
+171: ('/mtgjson5/classes/mtgjson_translations.py', 'parse_key', 'components') 509 693 3 (PT Empty)
+  PT: []
+  PY: ['List[str]']
+172: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'file') 516 17 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+173: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'set_file') 518 18 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+174: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'deck_file') 520 20 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+175: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'sql_file') 522 22 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+176: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'csv_file') 524 24 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+177: ('/mtgjson5/compress_generator.py', 'compress_mtgjson_contents', 'compiled_file') 526 26 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+178: ('/mtgjson5/compress_generator.py', '_compress_mtgjson_directory', 'file') 533 31 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+179: ('/mtgjson5/compress_generator.py', '_compressor', 'command') 536 37 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+180: ('/mtgjson5/compress_generator.py', '_compressor', 'process') 538 38 3 (PT Empty)
+  PT: []
+  PY: ['subprocess.Popen[bytes]']
+181: ('/mtgjson5/compiled_classes/mtgjson_set_list.py', 'get_all_set_list', 'set_file') 542 466 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+182: ('/mtgjson5/compiled_classes/mtgjson_set_list.py', 'get_all_set_list', 'set_data') 543 464 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+183: ('/mtgjson5/providers/scryfall.py', 'download_cards', 'setup_index') 553 1097 3 (PT Empty)
+  PT: []
+  PY: ['int']
+184: ('/mtgjson5/providers/scryfall.py', 'download_cards', 'cards_api_url') 554 1096 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+185: ('/mtgjson5/providers/scryfall.py', 'download_cards', 'card_obj') 557 1095 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+186: ('/mtgjson5/classes/mtgjson_set.py', 'build_keys_to_skip', 'key') 560 709 3 (PT Empty)
+  PT: []
+  PY: ['str']
+187: ('/mtgjson5/classes/mtgjson_set.py', 'build_keys_to_skip', 'value') 561 710 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+188: ('/mtgjson5/classes/mtgjson_set.py', 'to_json', 'skip_keys') 564 712 3 (PT Empty)
+  PT: []
+  PY: ['Set[str]']
+189: ('/mtgjson5/compiled_classes/mtgjson_all_identifiers.py', '__init__', 'card') 582 507 7 (etc)
+  PT: ['set']
+  PY: ['Dict[str, Any]']
+
+AM: PY
+
+190: ('/mtgjson5/classes/mtgjson_leadership_skills.py', '__init__', 'brawl') 586 766 6 (PY subset PT)
+  PT: ['None', 'bool', 'str']
+  PY: ['bool']
+191: ('/mtgjson5/classes/mtgjson_leadership_skills.py', '__init__', 'commander') 587 767 6 (PY subset PT)
+  PT: ['None', 'bool', 'str']
+  PY: ['bool']
+192: ('/mtgjson5/utils.py', 'url_keygen', 'unique_seed') 595 214 6 (PY subset PT)
+  PT: ['bool', 'dict', 'int', 'list', 'str', 'Union[int, str]']
+  PY: ['Union[int, str]']
+193: ('/mtgjson5/utils.py', 'url_keygen', 'return_value') 596 216 6 (PY subset PT)
+  PT: ['bool', 'str']
+  PY: ['str']
+194: ('/mtgjson5/utils.py', 'sort_internal_lists', 'data') 603 240 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Any']
+  PY: ['Any']
+195: ('/mtgjson5/utils.py', 'sort_internal_lists', 'key') 604 241 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+196: ('/mtgjson5/utils.py', 'sort_internal_lists', 'value') 605 242 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+197: ('/mtgjson5/utils.py', 'get_file_hash', 'data') 613 247 3 (PT Empty)
+  PT: []
+  PY: ['bytes']
+198: ('/mtgjson5/utils.py', 'get_str_or_none', 'value') 614 248 2 (Both Empty)
+  PT: ['Any']
+  PY: ['Any']
+199: ('/mtgjson5/utils.py', 'send_push_notification', 'pushover_app_token') 617 250 3 (PT Empty)
+  PT: []
+  PY: ['str']
+200: ('/mtgjson5/utils.py', 'send_push_notification', 'user') 620 254 3 (PT Empty)
+  PT: []
+  PY: ['str']
+201: ('/mtgjson5/utils.py', 'send_push_notification', 'response') 621 253 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+202: ('/mtgjson5/classes/mtgjson_card.py', 'set_illustration_ids', 'illustration_ids') 625 582 6 (PY subset PT)
+  PT: ['list', 'str', 'List[str]']
+  PY: ['List[str]']
+203: ('/mtgjson5/classes/mtgjson_card.py', 'set_watermark', 'watermark') 635 590 6 (PY subset PT)
+  PT: ['None', 'str', 'Optional[str]']
+  PY: ['str']
+204: ('/mtgjson5/classes/mtgjson_card.py', 'set_watermark', 'card') 636 591 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+205: ('/mtgjson5/classes/mtgjson_card.py', 'build_keys_to_skip', 'key') 641 595 3 (PT Empty)
+  PT: []
+  PY: ['str']
+206: ('/mtgjson5/classes/mtgjson_card.py', 'build_keys_to_skip', 'value') 642 596 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+207: ('/mtgjson5/classes/mtgjson_card.py', 'to_json', 'skip_keys') 645 598 3 (PT Empty)
+  PT: []
+  PY: ['Set[str]']
+208: ('/mtgjson5/providers/cardmarket.py', 'download', 'params') 658 1017 6 (PY subset PT)
+  PT: ['None', 'set', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+209: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', 'mcm_id') 662 1019 6 (PY subset PT)
+  PT: ['None', 'int', 'Optional[int]']
+  PY: ['int']
+210: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', 'mkm_resp') 664 1020 4 (PY Empty (is_any() is true))
+  PT: ['None']
+  PY: ['Any']
+211: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', '_') 665 1021 3 (PT Empty)
+  PT: []
+  PY: ['int']
+212: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', 'set_content') 667 1025 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+213: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', 'name') 668 1024 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+214: ('/mtgjson5/providers/cardmarket.py', 'get_mkm_cards', 'name_no_special_chars') 669 1023 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+215: ('/mtgjson5/compiled_classes/mtgjson_all_printings.py', 'iterate_all_sets', 'set_file') 679 520 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+216: ('/mtgjson5/compiled_classes/mtgjson_all_printings.py', 'iterate_all_sets', 'file_content') 680 518 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+217: ('/mtgjson5/compiled_classes/mtgjson_all_printings.py', 'iterate_all_sets', 'set_code') 681 519 3 (PT Empty)
+  PT: []
+  PY: ['str']
+218: ('/mtgjson5/set_builder.py', 'parse_card_types', 'x') 689 57 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+219: ('/mtgjson5/set_builder.py', 'parse_card_types', 'value') 690 58 3 (PT Empty)
+  PT: []
+  PY: ['str']
+220: ('/mtgjson5/set_builder.py', 'get_card_cmc', 'total') 702 67 6 (PY subset PT)
+  PT: ['float', 'int']
+  PY: ['float']
+221: ('/mtgjson5/set_builder.py', 'get_card_cmc', 'element') 704 69 3 (PT Empty)
+  PT: []
+  PY: ['str']
+222: ('/mtgjson5/set_builder.py', 'parse_printings', 'sf_prints_url') 706 70 4 (PY Empty (is_any() is true))
+  PT: ['None', 'str', 'Optional[str]']
+  PY: ['Optional[Any]']
+223: ('/mtgjson5/set_builder.py', 'parse_printings', 'card') 709 73 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+224: ('/mtgjson5/set_builder.py', 'parse_legalities', 'sf_card_legalities') 711 74 6 (PY subset PT)
+  PT: ['set', 'Dict[str, str]']
+  PY: ['Dict[str, str]']
+225: ('/mtgjson5/set_builder.py', 'parse_legalities', 'key') 713 76 3 (PT Empty)
+  PT: []
+  PY: ['str']
+226: ('/mtgjson5/set_builder.py', 'parse_legalities', 'value') 714 77 3 (PT Empty)
+  PT: []
+  PY: ['str']
+227: ('/mtgjson5/set_builder.py', 'parse_rulings', 'sf_rule') 720 82 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+228: ('/mtgjson5/set_builder.py', 'mark_duel_decks', 'mtgjson_cards') 723 89 6 (PY subset PT)
+  PT: ['dict', 'list', 'List[MtgjsonCardObject]']
+  PY: ['List[mtgjson5.classes.mtgjson_card.MtgjsonCardObject]']
+229: ('/mtgjson5/set_builder.py', 'mark_duel_decks', 'card') 726 93 7 (etc)
+  PT: ['bool', 'dict', 'list']
+  PY: ['mtgjson5.classes.mtgjson_card.MtgjsonCardObject']
+
+AM: PY
+
+230: ('/mtgjson5/set_builder.py', 'parse_keyrune_code', 'file_stem') 728 95 3 (PT Empty)
+  PT: []
+  PY: ['str']
+231: ('/mtgjson5/set_builder.py', 'build_mtgjson_set', 'set_data') 733 99 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+232: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_cards', 'additional_cards') 741 104 6 (PY subset PT)
+  PT: ['None', 'list', 'List[Dict[str, Any]]']
+  PY: ['List[Dict[str, Any]]']
+233: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_cards', 'cards') 743 107 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+234: ('/mtgjson5/set_builder.py', 'build_base_mtgjson_cards', 'mtgjson_cards') 744 108 6 (PY subset PT)
+  PT: ['dict', 'list', 'List[MtgjsonCardObject]']
+  PY: ['List[mtgjson5.classes.mtgjson_card.MtgjsonCardObject]']
+235: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'mtgjson_cards') 748 111 6 (PY subset PT)
+  PT: ['dict', 'list', 'List[MtgjsonCardObject]']
+  PY: ['List[mtgjson5.classes.mtgjson_card.MtgjsonCardObject]']
+236: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'starter_cards') 750 113 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+237: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'scryfall_object') 751 117 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+238: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'item') 752 115 4 (PY Empty (is_any() is true))
+  PT: ['MtgjsonCardObject', 'bool', 'dict', 'list']
+  PY: ['Any']
+239: ('/mtgjson5/set_builder.py', 'add_is_starter_option', 'card') 754 116 6 (PY subset PT)
+  PT: ['MtgjsonCardObject', 'bool', 'dict', 'list']
+  PY: ['mtgjson5.classes.mtgjson_card.MtgjsonCardObject']
+240: ('/mtgjson5/set_builder.py', 'add_leadership_skills', 'is_commander_legal') 756 119 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'str']
+  PY: ['Any']
+241: ('/mtgjson5/set_builder.py', 'add_leadership_skills', 'is_brawl_legal') 758 121 4 (PY Empty (is_any() is true))
+  PT: ['None', 'bool', 'str']
+  PY: ['Any']
+242: ('/mtgjson5/set_builder.py', 'add_uuid', 'id_source_v5') 760 123 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+243: ('/mtgjson5/set_builder.py', 'add_uuid', 'id_source_v4') 761 124 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+244: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'scryfall_object') 765 125 6 (PY subset PT)
+  PT: ['set', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+245: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'face_data') 768 131 4 (PY Empty (is_any() is true))
+  PT: ['set', 'Dict[str, Any]']
+  PY: ['Any']
+246: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'card_face') 769 132 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+247: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'i') 770 133 3 (PT Empty)
+  PT: []
+  PY: ['int']
+248: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'card_type') 771 134 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+249: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'card_release_date') 772 135 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+250: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'ascii_name') 773 137 3 (PT Empty)
+  PT: []
+  PY: ['str']
+251: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'face_names') 774 138 6 (PY subset PT)
+  PT: ['None', 'list']
+  PY: ['List[str]']
+252: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'index') 776 140 3 (PT Empty)
+  PT: []
+  PY: ['int']
+253: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'card_types') 777 141 3 (PT Empty)
+  PT: []
+  PY: ['Tuple[List[str], List[str], List[str]]']
+254: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'keyword') 778 142 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+255: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'a_part') 780 144 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+256: ('/mtgjson5/set_builder.py', 'build_mtgjson_card', 'gatherer_cards') 782 146 4 (PY Empty (is_any() is true))
+  PT: ['list']
+  PY: ['Any']
+257: ('/mtgjson5/set_builder.py', 'add_variations_and_alternative_fields', 'this_card') 785 152 7 (etc)
+  PT: ['bool', 'dict', 'list']
+  PY: ['mtgjson5.classes.mtgjson_card.MtgjsonCardObject']
+
+AM: PY
+
+258: ('/mtgjson5/set_builder.py', 'add_variations_and_alternative_fields', 'other_card') 786 148 7 (etc)
+  PT: ['bool', 'dict', 'list']
+  PY: ['mtgjson5.classes.mtgjson_card.MtgjsonCardObject']
+
+AM: PY
+
+259: ('/mtgjson5/set_builder.py', 'add_variations_and_alternative_fields', 'item') 787 150 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list']
+  PY: ['Any']
+260: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'mkm_cards') 791 158 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+261: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'extras_cards') 792 159 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Dict[str, Dict[str, Any]]']
+  PY: ['Any']
+262: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'mtgjson_card') 793 165 7 (etc)
+  PT: ['bool', 'dict', 'list']
+  PY: ['mtgjson5.classes.mtgjson_card.MtgjsonCardObject']
+
+AM: PY
+
+263: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'search_cards') 795 161 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'Dict[str, Dict[str, Any]]']
+  PY: ['Any']
+264: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'card_key') 796 162 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list', 'str']
+  PY: ['Any']
+265: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'mkm_card') 797 163 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list']
+  PY: ['Any']
+266: ('/mtgjson5/set_builder.py', 'add_mcm_details', 'mkm_obj') 798 164 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list']
+  PY: ['Any']
+267: ('/mtgjson5/set_builder.py', 'get_base_and_total_set_sizes', 'base_set_size_override') 800 167 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+268: ('/mtgjson5/set_builder.py', 'get_base_and_total_set_sizes', 'base_set_size_download') 802 169 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+269: ('/mtgjson5/set_builder.py', 'relocate_miscellaneous_tokens', 'tokens_found') 811 85 7 (etc)
+  PT: ['bool', 'dict', 'list']
+  PY: ['set']
+
+AM: PY
+
+270: ('/mtgjson5/set_builder.py', 'relocate_miscellaneous_tokens', 'scryfall_id') 812 87 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list']
+  PY: ['Any']
+271: ('/mtgjson5/set_builder.py', 'add_card_kingdom_details', 'translation_table') 814 154 4 (PY Empty (is_any() is true))
+  PT: ['dict']
+  PY: ['Any']
+272: ('/mtgjson5/set_builder.py', 'add_card_kingdom_details', 'mtgjson_card') 815 156 7 (etc)
+  PT: ['bool', 'dict', 'list']
+  PY: ['mtgjson5.classes.mtgjson_card.MtgjsonCardObject']
+
+AM: PY
+
+273: ('/mtgjson5/set_builder.py', 'add_card_kingdom_details', 'entry') 816 155 4 (PY Empty (is_any() is true))
+  PT: ['bool', 'dict', 'list']
+  PY: ['Any']
+274: ('/mtgjson5/set_builder.py', 'parse_foreign', 'card_name') 826 41 6 (PY subset PT)
+  PT: ['None', 'str']
+  PY: ['str']
+275: ('/mtgjson5/set_builder.py', 'parse_foreign', 'foreign_card') 832 49 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+276: ('/mtgjson5/set_builder.py', 'parse_foreign', 'face_data') 835 48 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+277: ('/mtgjson5/providers/github_boosters.py', 'download', 'params') 848 838 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+278: ('/mtgjson5/providers/github_boosters.py', 'download', 'session') 851 839 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x125c34490>']
+  PY: ['Any']
+279: ('/mtgjson5/providers/github_boosters.py', 'download', 'response') 852 840 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+280: ('/mtgjson5/providers/whats_in_standard.py', 'standard_legal_set_codes', 'api_response') 858 1120 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+281: ('/mtgjson5/providers/whats_in_standard.py', 'standard_legal_set_codes', 'standard_set_codes') 859 1121 7 (etc)
+  PT: ['bool']
+  PY: ['set']
+
+AM: PY
+
+282: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'soup') 864 859 3 (PT Empty)
+  PT: []
+  PY: ['bs4.BeautifulSoup']
+283: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'set_lines') 865 860 3 (PT Empty)
+  PT: []
+  PY: ['bs4.element.ResultSet']
+284: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'set_line') 866 864 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+285: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'icon') 867 861 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+286: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'set_name') 868 862 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+287: ('/mtgjson5/providers/wizards.py', 'build_single_language', 'set_icon_url') 869 863 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+288: ('/mtgjson5/providers/wizards.py', 'convert_keys_to_set_names', 'new_key') 876 868 3 (PT Empty)
+  PT: []
+  PY: ['str']
+289: ('/mtgjson5/providers/wizards.py', 'set_names_to_set_codes', 'set_name_fixes') 879 881 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+290: ('/mtgjson5/providers/wizards.py', 'set_names_to_set_codes', 'key') 880 882 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+291: ('/mtgjson5/providers/wizards.py', 'set_names_to_set_codes', 'value') 881 883 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+292: ('/mtgjson5/providers/wizards.py', 'set_names_to_set_codes', 'new_table') 882 884 4 (PY Empty (is_any() is true))
+  PT: ['dict', 'list']
+  PY: ['Any']
+293: ('/mtgjson5/providers/wizards.py', 'override_set_translations', 'translation_fixes') 885 877 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+294: ('/mtgjson5/providers/wizards.py', 'override_set_translations', 'set_code') 886 878 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+295: ('/mtgjson5/providers/wizards.py', 'override_set_translations', 'override_translations') 887 879 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+296: ('/mtgjson5/providers/mtgban.py', 'download', 'params') 893 1055 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+297: ('/mtgjson5/providers/mtgban.py', 'download', 'session') 896 1056 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c445600>']
+  PY: ['Any']
+298: ('/mtgjson5/providers/mtgban.py', 'download', 'response') 897 1057 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+299: ('/mtgjson5/providers/whats_in_standard.py', 'download', 'params') 899 1116 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+300: ('/mtgjson5/providers/whats_in_standard.py', 'download', 'session') 902 1117 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x125a200a0>']
+  PY: ['Any']
+301: ('/mtgjson5/providers/whats_in_standard.py', 'download', 'response') 903 1118 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+302: ('/mtgjson5/providers/wizards.py', 'download', 'params') 905 850 6 (PY subset PT)
+  PT: ['None', 'dict', 'Dict[str, Union[str, int]]']
+  PY: ['Dict[str, Union[int, str]]']
+303: ('/mtgjson5/providers/wizards.py', 'download', 'session') 908 851 4 (PY Empty (is_any() is true))
+  PT: ['<requests.sessions.Session object at 0x10c46d9c0>', '<requests.sessions.Session object at 0x10c7747f0>', '<requests.sessions.Session object at 0x12541ea40>']
+  PY: ['Any']
+304: ('/mtgjson5/providers/wizards.py', 'download', 'response') 909 852 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+305: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', '__init__', 'cards_to_parse') 911 529 6 (PY subset PT)
+  PT: ['None', 'List[Dict[str, Any]]']
+  PY: ['List[Dict[str, Any]]']
+306: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'iterate_all_cards', 'cards_to_load') 913 532 6 (PY subset PT)
+  PT: ['None', 'list', 'List[Dict[str, Any]]']
+  PY: ['List[Dict[str, Any]]']
+307: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'iterate_all_cards', 'set_file') 917 535 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+308: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'iterate_all_cards', 'file_content') 918 534 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+309: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'card_list') 922 537 6 (PY subset PT)
+  PT: ['None', 'list', 'List[Dict[str, Any]]']
+  PY: ['List[Dict[str, Any]]']
+310: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'card') 924 548 7 (etc)
+  PT: ['set']
+  PY: ['Dict[str, Any]']
+
+AM: PY
+
+311: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'key') 925 540 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+312: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'foreign_data') 927 541 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+313: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'values') 928 542 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+314: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'card_name') 929 543 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+315: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'card_entry') 931 545 8 (Partial match)
+  PT: ['MtgjsonPricesObject', 'dict', 'list', 'set']
+  PY: ['nothing', 'Dict[str, Any]']
+316: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'hold_entry') 932 546 6 (PY subset PT)
+  PT: ['MtgjsonPricesObject', 'dict', 'list', 'set', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+317: ('/mtgjson5/compiled_classes/mtgjson_atomic_cards.py', 'update_global_card_list', 'entry') 933 547 6 (PY subset PT)
+  PT: ['MtgjsonPricesObject', 'dict', 'list', 'set']
+  PY: ['Dict[str, Any]']
+318: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', '__init__', 'content') 938 389 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+319: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_deck_enums', 'deck') 945 398 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+320: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_deck_enums', 'content') 946 396 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+321: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_deck_enums', 'key') 947 397 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+322: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'all_printing_content') 950 400 6 (PY subset PT)
+  PT: ['dict', 'set', 'Dict[str, Any]']
+  PY: ['Dict[str, Any]']
+323: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'set_contents') 955 413 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+324: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'set_contents_key') 956 405 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+325: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'card') 958 412 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+326: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'card_key') 959 411 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+327: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'card_value') 960 407 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+328: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'value') 961 408 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+329: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'single_value') 962 410 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+330: ('/mtgjson5/compiled_classes/mtgjson_enum_values.py', 'construct_set_and_card_enums', 'attribute') 963 409 3 (PT Empty)
+  PT: []
+  PY: ['str']
+331: ('/mtgjson5/compiled_classes/mtgjson_tcgplayer_skus.py', '__init__', 'group') 970 457 4 (PY Empty (is_any() is true))
+  PT: ['set']
+  PY: ['Any']
+332: ('/mtgjson5/compiled_classes/mtgjson_tcgplayer_skus.py', '__init__', 'product') 972 456 7 (etc)
+  PT: ['set']
+  PY: ['Dict[str, Any]']
+
+AM: PY, likely
+
+333: ('/mtgjson5/compiled_classes/mtgjson_tcgplayer_skus.py', '__init__', 'key') 974 454 2 (Both Empty)
+  PT: []
+  PY: ['Optional[Any]']
+334: ('/mtgjson5/compiled_classes/mtgjson_tcgplayer_skus.py', '__init__', 'sku') 975 455 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+335: ('/mtgjson5/output_generator.py', 'build_atomic_specific_files', 'card_format_map') 1005 338 3 (PT Empty)
+  PT: []
+  PY: ['Dict[str, Any]']
+336: ('/mtgjson5/output_generator.py', 'generate_compiled_output_files', 'mtgjson_deck_obj') 1012 346 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+337: ('/mtgjson5/output_generator.py', 'create_compiled_output', 'compiled_object') 1015 348 4 (PY Empty (is_any() is true))
+  PT: ['MtgjsonAllIdentifiersObject', 'MtgjsonAtomicCardsObject', 'MtgjsonCardTypesObject', 'MtgjsonCompiledListObject', 'MtgjsonDeckListObject', 'MtgjsonEnumValuesObject', 'MtgjsonKeywordsObject', 'MtgjsonMetaObject', 'MtgjsonSetListObject', 'MtgjsonTcgplayerSkusObject', 'dict', 'Any']
+  PY: ['Any']
+338: ('/mtgjson5/output_generator.py', 'write_compiled_output_to_file', 'file_contents') 1018 351 4 (PY Empty (is_any() is true))
+  PT: ['MtgjsonAllIdentifiersObject', 'MtgjsonAtomicCardsObject', 'MtgjsonCardTypesObject', 'MtgjsonCompiledListObject', 'MtgjsonDeckListObject', 'MtgjsonEnumValuesObject', 'MtgjsonKeywordsObject', 'MtgjsonMetaObject', 'MtgjsonSetListObject', 'MtgjsonTcgplayerSkusObject', 'dict', 'Any']
+  PY: ['Any']
+339: ('/mtgjson5/output_generator.py', 'construct_format_map', 'magic_format') 1023 357 3 (PT Empty)
+  PT: []
+  PY: ['str']
+340: ('/mtgjson5/output_generator.py', 'construct_format_map', 'content') 1026 358 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+341: ('/mtgjson5/output_generator.py', 'construct_format_map', 'set_code_key') 1027 362 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+342: ('/mtgjson5/output_generator.py', 'construct_format_map', 'set_code_content') 1028 363 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+343: ('/mtgjson5/output_generator.py', 'construct_format_map', 'card') 1030 361 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+344: ('/mtgjson5/output_generator.py', 'generate_output_file_hashes', 'file') 1033 373 3 (PT Empty)
+  PT: []
+  PY: ['pathlib.Path']
+345: ('/mtgjson5/compiled_classes/mtgjson_all_printings.py', 'get_set_contents', 'sets') 1036 514 6 (PY subset PT)
+  PT: ['None', 'list', 'List[str]']
+  PY: ['List[str]']
+346: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', '__init__', 'self') 1041 472 6 (PY subset PT)
+  PT: ['MtgjsonCardTypesObject', 'MtgjsonCardTypesInnerObject']
+  PY: ['MtgjsonCardTypesObject']
+347: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', '__init__', 'inner_sets') 1043 490 3 (PT Empty)
+  PT: []
+  PY: ['MtgjsonCardTypesObject.MtgjsonCardTypesInnerObject']
+348: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', '__init__', 'key') 1046 493 3 (PT Empty)
+  PT: []
+  PY: ['str']
+349: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', '__init__', 'value') 1047 494 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+350: ('/mtgjson5/providers/wizards.py', 'get_magic_rules', 'response') 1050 886 4 (PY Empty (is_any() is true))
+  PT: ['str']
+  PY: ['Any']
+351: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', 'regex_str_to_list', 'regex_match') 1051 496 6 (PY subset PT)
+  PT: ['None', 'typing.Match', 'Optional[Match]']
+  PY: ['Match[Union[bytes, str]]']
+352: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', 'regex_str_to_list', 'card_types') 1053 497 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+353: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', 'regex_str_to_list', 'card_types_split') 1054 498 4 (PY Empty (is_any() is true))
+  PT: ['List[str]']
+  PY: ['Any']
+354: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', 'regex_str_to_list', 'index') 1055 499 3 (PT Empty)
+  PT: []
+  PY: ['int']
+355: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', 'regex_str_to_list', 'value') 1056 500 2 (Both Empty)
+  PT: []
+  PY: ['Any']
+356: ('/mtgjson5/compiled_classes/mtgjson_card_types.py', 'to_json', 'self') 1066 475 6 (PY subset PT)
+  PT: ['MtgjsonCardTypesObject', 'MtgjsonCardTypesInnerObject']
+  PY: ['MtgjsonCardTypesObject']
+357: ('/mtgjson5/classes/mtgjson_card.py', 'MtgjsonCardObject_class_initializer', 'leadership_skills') 1185 636 8 (Partial match)
+  PT: ['Optional[MtgjsonLeadershipSkillsObject]']
+  PY: ['Optional[mtgjson5.classes.mtgjson_leadership_skills.MtgjsonLeadershipSkillsObject]']
+358: ('/mtgjson5/classes/mtgjson_card.py', '__eq__', 'other') 1222 578 2 (Both Empty)
+  PT: ['Any']
+  PY: ['Any']
+359: ('/mtgjson5/classes/mtgjson_card.py', '__lt__', 'other') 1225 580 2 (Both Empty)
+  PT: ['Any']
+  PY: ['Any']
+360: ('/mtgjson5/providers/cardhoarder.py', '_build_http_header', '__keys_found') 1343 901 7 (etc)
+  PT: ['bool']
+  PY: ['ellipsis']
+
+AM: __keys_found is declared bool, but is not defined! Both?
+
+361: ('/mtgjson5/providers/cardmarket.py', 'CardMarketProvider_class_initializer', 'connection') 1348 1026 4 (PY Empty (is_any() is true))
+  PT: ['Mkm']
+  PY: ['Any']
+362: ('/mtgjson5/providers/mtgban.py', '_build_http_header', '__keys_found') 1361 1051 7 (etc)
+  PT: ['bool']
+  PY: ['ellipsis']
+
+AM: Both?

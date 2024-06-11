@@ -1,0 +1,540 @@
+0: ('/bokeh/core/property/primitive.py', 'Bool_class_initializer', '_underlying_type') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+1: ('/bokeh/core/property/primitive.py', 'Int_class_initializer', '_underlying_type') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+2: ('/bokeh/util/compiler.py', 'Implementation_class_initializer', 'file') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+3: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'js') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+4: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'file') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+5: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'server') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+6: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'notebook') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+7: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'slow') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+8: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'skip') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+9: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'xfail') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+10: ('/bokeh/_testing/util/examples.py', 'Flags_class_initializer', 'no_js') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+11: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', '__subtype__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+12: ('/bokeh/plotting/gmap.py', 'GMap_class_initializer', '__view_model__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+13: ('/bokeh/plotting/figure.py', 'Figure_class_initializer', '__subtype__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+14: ('/bokeh/plotting/figure.py', 'Figure_class_initializer', '__view_model__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+15: ('/bokeh/models/tools.py', 'module_initializer', 'DEFAULT_BOX_OVERLAY') 0 (Match)
+  PT: ['<function <lambda> at 0x1023809d0>', '<function <lambda> at 0x102380a60>', '<function <lambda> at 0x102380d30>', '<function <lambda> at 0x102380dc0>', '<function <lambda> at 0x10c0e13a0>', '<function <lambda> at 0x10c0e1940>', '<function <lambda> at 0x10c0e19d0>', '<function <lambda> at 0x10c0e1a60>', '<function <lambda> at 0x10c0e1b80>', '<function <lambda> at 0x10c0e1c10>', '<function <lambda> at 0x10c0e1ca0>', '<function <lambda> at 0x10c0e1d30>', '<function <lambda> at 0x10c640310>', '<function <lambda> at 0x10c640550>', '<function <lambda> at 0x10c640dc0>', '<function <lambda> at 0x10c640e50>', '<function <lambda> at 0x10c7ef5e0>', '<function <lambda> at 0x10d4bc1f0>', '<function <lambda> at 0x10d4bc700>', '<function <lambda> at 0x10d4bc790>', '<function <lambda> at 0x10d4bcb80>', '<function <lambda> at 0x10d4bcc10>', '<function <lambda> at 0x10d4bcdc0>', '<function <lambda> at 0x10d5180d0>', '<function <lambda> at 0x10d518160>', '<function <lambda> at 0x10d5183a0>', '<function <lambda> at 0x10d5184c0>', '<function <lambda> at 0x10d518550>', '<function <lambda> at 0x10d518820>', '<function <lambda> at 0x10d5188b0>', '<function <lambda> at 0x10d518940>', '<function <lambda> at 0x10d518b80>', '<function <lambda> at 0x10d518c10>', '<function <lambda> at 0x10d518ca0>', '<function <lambda> at 0x10d5eb670>', '<function <lambda> at 0x10d793280>', '<function <lambda> at 0x10d793310>', '<function <lambda> at 0x10d793940>', '<function <lambda> at 0x10d793a60>', '<function <lambda> at 0x10dd32040>', '<function <lambda> at 0x10dd32550>', '<function <lambda> at 0x10ddb6790>', '<function <lambda> at 0x10ddb6b80>', '<function <lambda> at 0x10ddb6ca0>', '<function <lambda> at 0x10e12fb80>', '<function <lambda> at 0x10e53f820>', '<function <lambda> at 0x10e53fd30>', '<function <lambda> at 0x10e53fdc0>', '<function <lambda> at 0x10e9791f0>', '<function <lambda> at 0x10e9795e0>', '<function <lambda> at 0x10e979940>', '<function <lambda> at 0x10f3fd040>', '<function <lambda> at 0x10f3fd280>', '<function <lambda> at 0x10f3fd4c0>', '<function <lambda> at 0x10f3fd790>', '<function <lambda> at 0x10f3fd8b0>', '<function <lambda> at 0x10f3fd940>', '<function <lambda> at 0x10f3fdd30>', '<function <lambda> at 0x10f3fddc0>', '<function <lambda> at 0x10f3fdee0>', '<function <lambda> at 0x10fc82040>', '<function <lambda> at 0x10fc821f0>', '<function <lambda> at 0x10fc829d0>', '<function <lambda> at 0x110c84160>', '<function <lambda> at 0x110c841f0>', '<function <lambda> at 0x110c843a0>', '<function <lambda> at 0x110c84550>', '<function <lambda> at 0x110c84700>', '<function <lambda> at 0x110c84d30>', '<function <lambda> at 0x118f4b550>', '<function <lambda> at 0x11b2b7ca0>', '<function <lambda> at 0x11b2b7dc0>', '<function <lambda> at 0x11b38aa60>', '<function <lambda> at 0x11b38adc0>', '<function <lambda> at 0x11b4f6040>', '<function <lambda> at 0x11b4f63a0>', '<function <lambda> at 0x11b4f64c0>', '<function <lambda> at 0x11b4f65e0>', '<function <lambda> at 0x11b4f6790>', '<function <lambda> at 0x11b4f6af0>', '<function <lambda> at 0x11b4f6e50>', '<function <lambda> at 0x11b4f6ee0>', '<function <lambda> at 0x11b4f6f70>', '<function <lambda> at 0x11b5aa3a0>', '<function <lambda> at 0x11b5aaee0>', '<function <lambda> at 0x11e73bd30>', '<function <lambda> at 0x124131040>', '<function <lambda> at 0x1241310d0>', '<function <lambda> at 0x1241311f0>', '<function <lambda> at 0x124131430>', '<function <lambda> at 0x124131550>', '<function <lambda> at 0x1241315e0>', '<function <lambda> at 0x124131700>', '<function <lambda> at 0x124131790>', '<function <lambda> at 0x1241318b0>', '<function <lambda> at 0x124131a60>', '<function <lambda> at 0x124131af0>', '<function <lambda> at 0x124131b80>', '<function <lambda> at 0x124131ca0>', '<function <lambda> at 0x124131d30>', '<function <lambda> at 0x124131dc0>', '<function <lambda> at 0x124131f70>', '<function <lambda> at 0x124201040>', '<function <lambda> at 0x1242014c0>', '<function <lambda> at 0x124201700>', '<function <lambda> at 0x124201820>', '<function <lambda> at 0x124201b80>', '<function <lambda> at 0x12426b040>', '<function <lambda> at 0x12426b310>', '<function <lambda> at 0x12426b3a0>', '<function <lambda> at 0x12426b550>', '<function <lambda> at 0x12426b5e0>', '<function <lambda> at 0x12426b790>', '<function <lambda> at 0x12426b8b0>', '<function <lambda> at 0x12426bd30>', '<function <lambda> at 0x12435c0d0>', '<function <lambda> at 0x12435c160>', '<function <lambda> at 0x12435c3a0>', '<function <lambda> at 0x12435c430>', '<function <lambda> at 0x12435c5e0>', '<function <lambda> at 0x12435c670>', '<function <lambda> at 0x12435c790>', '<function <lambda> at 0x12435cca0>', '<function <lambda> at 0x12571ee50>', '<function <lambda> at 0x1257ef3a0>', '<function <lambda> at 0x1257ef550>', '<function <lambda> at 0x1257ef700>', '<function <lambda> at 0x1257efee0>', '<function <lambda> at 0x1258e45e0>', '<function <lambda> at 0x1258e49d0>', '<function <lambda> at 0x1259230d0>', '<function <lambda> at 0x1259231f0>', '<function <lambda> at 0x125a16040>', '<function <lambda> at 0x125a160d0>', '<function <lambda> at 0x125a164c0>', '<function <lambda> at 0x125a169d0>', '<function <lambda> at 0x125a16c10>', '<function <lambda> at 0x125a16d30>', '<function <lambda> at 0x125a16dc0>', '<function <lambda> at 0x125a16f70>', '<function <lambda> at 0x127612160>', '<function <lambda> at 0x127631430>', '<function <lambda> at 0x127631940>', '<function <lambda> at 0x127631b80>', '<function <lambda> at 0x127631c10>', '<function <lambda> at 0x127631d30>', '<function <lambda> at 0x1276b50d0>', '<function <lambda> at 0x1276b5160>', '<function <lambda> at 0x1276b51f0>', '<function <lambda> at 0x1276b5280>', '<function <lambda> at 0x1276b5550>', '<function <lambda> at 0x1276b55e0>', '<function <lambda> at 0x1276b5820>', '<function <lambda> at 0x1276b58b0>', '<function <lambda> at 0x1276b5940>', '<function <lambda> at 0x1276b5a60>', '<function <lambda> at 0x1276b5b80>', '<function <lambda> at 0x1276b5c10>', '<function <lambda> at 0x1276b5ca0>', '<function <lambda> at 0x1276b5f70>', '<function <lambda> at 0x1278940d0>', '<function <lambda> at 0x127894160>', '<function <lambda> at 0x127894550>', '<function <lambda> at 0x127894670>', '<function <lambda> at 0x127894820>', '<function <lambda> at 0x1278949d0>', '<function <lambda> at 0x127894a60>', '<function <lambda> at 0x127894ca0>', '<function <lambda> at 0x1279bc8b0>', '<function <lambda> at 0x12851ee50>', '<function <lambda> at 0x1339c44c0>', '<function <lambda> at 0x133e3e8b0>', '<function <lambda> at 0x133e3e9d0>', '<function <lambda> at 0x133e3ea60>', '<function <lambda> at 0x133e3eaf0>', '<function <lambda> at 0x133e3eb80>', '<function <lambda> at 0x133e3ec10>', '<function <lambda> at 0x133e3eca0>', '<function <lambda> at 0x133e3ee50>', '<function <lambda> at 0x133eec310>', '<function <lambda> at 0x133eec3a0>', '<function <lambda> at 0x133eec430>', '<function <lambda> at 0x133eec700>', '<function <lambda> at 0x133eec940>', '<function <lambda> at 0x133eeca60>', '<function <lambda> at 0x133eecca0>', '<function <lambda> at 0x133efb310>', '<function <lambda> at 0x133efb550>', '<function <lambda> at 0x133efb940>', '<function <lambda> at 0x133efbb80>', '<function <lambda> at 0x133efbd30>', '<function <lambda> at 0x133efbe50>', '<function <lambda> at 0x1398a8280>', '<function <lambda> at 0x1398a8310>', '<function <lambda> at 0x1398a8820>', '<function <lambda> at 0x1398a88b0>', '<function <lambda> at 0x1398a89d0>', '<function <lambda> at 0x1398a8a60>', '<function <lambda> at 0x1398a8c10>', '<function <lambda> at 0x1398a8ee0>', '<function <lambda> at 0x13acd2d30>', '<function <lambda> at 0x13b7cf430>', '<function <lambda> at 0x13b7cf550>', '<function <lambda> at 0x13b7cfa60>', '<function <lambda> at 0x13b7cfc10>', '<function <lambda> at 0x13b7cfe50>', '<function <lambda> at 0x13c11e4c0>', '<function <lambda> at 0x13c95a700>', '<function <lambda> at 0x13cd4b670>', '<function <lambda> at 0x13cd4b700>', '<function <lambda> at 0x13cd4baf0>', '<function <lambda> at 0x13ce13040>', '<function <lambda> at 0x13ce130d0>', '<function <lambda> at 0x13ce13310>', '<function <lambda> at 0x13ce134c0>', '<function <lambda> at 0x13ce13550>', '<function <lambda> at 0x13ce13ca0>', '<function <lambda> at 0x13ce13d30>', '<function <lambda> at 0x13d81b790>', '<function <lambda> at 0x13d81baf0>', '<function <lambda> at 0x13ded91f0>', '<function <lambda> at 0x13e014b80>', '<function <lambda> at 0x13e4bf0d0>', '<function <lambda> at 0x13e4bf1f0>', '<function <lambda> at 0x13e4bf3a0>', '<function <lambda> at 0x13e4bf5e0>', '<function <lambda> at 0x13e4bf700>', '<function <lambda> at 0x13e4bf940>', '<function <lambda> at 0x13e4bfca0>', '<function <lambda> at 0x13e4bfdc0>', '<function <lambda> at 0x13e4bfe50>', '<function <lambda> at 0x13e4bfee0>', '<function <lambda> at 0x13fee25e0>', '<function <lambda> at 0x13fee2790>', '<function <lambda> at 0x1403aa160>', '<function <lambda> at 0x1403aaa60>', '<function <lambda> at 0x1403aaca0>', '<function <lambda> at 0x1403aad30>', '<function <lambda> at 0x1403aaee0>']
+  DL: ['function']
+16: ('/bokeh/core/property/visual.py', 'FontSize_class_initializer', '_font_size_re') 1 (Manual match)
+  PT: ["re.compile('^[0-9]+(.[0-9]+)?(%|em|ex|ch|ic|rem|vw|vh|vi|vb|vmin|vmax|cm|mm|q|in|pc|pt|px)$', re.IGNORECASE)"]
+  DL: ['_sre.SRE_Pattern']
+17: ('/bokeh/models/glyphs.py', 'AnnularWedge_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+18: ('/bokeh/core/property/dataspec.py', 'ScreenDistanceSpec_class_initializer', '_units') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+19: ('/bokeh/core/property/dataspec.py', 'DataDistanceSpec_class_initializer', '_units') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+20: ('/bokeh/models/glyphs.py', 'Annulus_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+21: ('/bokeh/models/glyphs.py', 'Arc_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+22: ('/bokeh/models/glyphs.py', 'Bezier_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+23: ('/bokeh/models/glyphs.py', 'Ellipse_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+24: ('/bokeh/models/glyphs.py', 'HArea_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+25: ('/bokeh/models/glyphs.py', 'HBar_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+26: ('/bokeh/models/glyphs.py', 'HexTile_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+27: ('/bokeh/resources.py', 'BaseResources_class_initializer', '_default_root_dir') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+28: ('/bokeh/models/markers.py', 'Scatter_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+29: ('/bokeh/models/markers.py', 'Asterisk_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+30: ('/bokeh/models/markers.py', 'Circle_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+31: ('/bokeh/models/markers.py', 'CircleCross_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+32: ('/bokeh/models/markers.py', 'CircleDot_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+33: ('/bokeh/models/markers.py', 'CircleX_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+34: ('/bokeh/models/markers.py', 'CircleY_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+35: ('/bokeh/models/markers.py', 'Cross_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+36: ('/bokeh/models/markers.py', 'Dash_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+37: ('/bokeh/models/markers.py', 'Diamond_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+38: ('/bokeh/models/markers.py', 'DiamondCross_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+39: ('/bokeh/models/markers.py', 'DiamondDot_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+40: ('/bokeh/models/markers.py', 'Dot_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+41: ('/bokeh/models/markers.py', 'Hex_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+42: ('/bokeh/models/markers.py', 'HexDot_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+43: ('/bokeh/models/markers.py', 'InvertedTriangle_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+44: ('/bokeh/models/markers.py', 'Plus_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+45: ('/bokeh/models/markers.py', 'Square_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+46: ('/bokeh/models/markers.py', 'SquareDot_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+47: ('/bokeh/models/markers.py', 'SquarePin_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+48: ('/bokeh/models/markers.py', 'SquareCross_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+49: ('/bokeh/models/markers.py', 'SquareX_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+50: ('/bokeh/models/markers.py', 'Triangle_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+51: ('/bokeh/models/markers.py', 'TriangleDot_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+52: ('/bokeh/models/markers.py', 'TrianglePin_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+53: ('/bokeh/models/markers.py', 'X_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+54: ('/bokeh/models/markers.py', 'Y_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+55: ('/bokeh/models/layouts.py', 'Tabs_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+56: ('/bokeh/models/widgets/markups.py', 'Paragraph_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+57: ('/bokeh/models/widgets/markups.py', 'Div_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+58: ('/bokeh/models/widgets/markups.py', 'PreText_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+59: ('/bokeh/protocol/messages/pull_doc_reply.py', 'pull_doc_reply_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+60: ('/bokeh/protocol/messages/patch_doc.py', 'patch_doc_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+61: ('/bokeh/protocol/messages/pull_doc_req.py', 'pull_doc_req_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+62: ('/bokeh/protocol/messages/push_doc.py', 'push_doc_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+63: ('/bokeh/command/subcommands/sampledata.py', 'Sampledata_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+64: ('/bokeh/command/subcommands/sampledata.py', 'Sampledata_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+65: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', '_CARTO_ATTRIBUTION') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+66: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', '_STAMEN_ATTRIBUTION') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+67: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', '_OSM_ATTRIBTION') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+68: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', '_WIKIMEDIA_ATTRIBUTION') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+69: ('/bokeh/tile_providers.py', '_TileProvidersModule_class_initializer', '_ESRI_IMAGERY_ATTRIBUTION') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+70: ('/bokeh/events.py', 'DocumentReady_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+71: ('/bokeh/events.py', 'ButtonClick_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+72: ('/bokeh/events.py', 'MenuItemClick_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+73: ('/bokeh/events.py', 'LODStart_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+74: ('/bokeh/events.py', 'LODEnd_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+75: ('/bokeh/events.py', 'SelectionGeometry_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+76: ('/bokeh/events.py', 'Reset_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+77: ('/bokeh/events.py', 'Tap_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+78: ('/bokeh/events.py', 'DoubleTap_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+79: ('/bokeh/events.py', 'Press_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+80: ('/bokeh/events.py', 'PressUp_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+81: ('/bokeh/events.py', 'MouseEnter_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+82: ('/bokeh/events.py', 'MouseLeave_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+83: ('/bokeh/events.py', 'MouseMove_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+84: ('/bokeh/events.py', 'MouseWheel_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+85: ('/bokeh/events.py', 'Pan_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+86: ('/bokeh/events.py', 'PanEnd_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+87: ('/bokeh/events.py', 'PanStart_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+88: ('/bokeh/events.py', 'Pinch_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+89: ('/bokeh/events.py', 'PinchEnd_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+90: ('/bokeh/events.py', 'PinchStart_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+91: ('/bokeh/events.py', 'Rotate_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+92: ('/bokeh/events.py', 'RotateEnd_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+93: ('/bokeh/events.py', 'RotateStart_class_initializer', 'event_name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+94: ('/bokeh/models/glyphs.py', 'ImageURL_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+95: ('/bokeh/models/glyphs.py', 'Line_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+96: ('/bokeh/models/glyphs.py', 'MultiLine_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+97: ('/bokeh/models/glyphs.py', 'MultiPolygons_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+98: ('/bokeh/models/glyphs.py', 'Oval_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+99: ('/bokeh/models/glyphs.py', 'Patch_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+100: ('/bokeh/models/glyphs.py', 'Patches_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+101: ('/bokeh/models/glyphs.py', 'Quad_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+102: ('/bokeh/models/glyphs.py', 'Quadratic_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+103: ('/bokeh/models/glyphs.py', 'Ray_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+104: ('/bokeh/models/glyphs.py', 'Rect_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+105: ('/bokeh/models/glyphs.py', 'Segment_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+106: ('/bokeh/models/glyphs.py', 'Step_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+107: ('/bokeh/models/glyphs.py', 'Text_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+108: ('/bokeh/models/glyphs.py', 'VArea_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+109: ('/bokeh/models/glyphs.py', 'VBar_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+110: ('/bokeh/models/glyphs.py', 'Wedge_class_initializer', '__example__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+111: ('/bokeh/core/property/bases.py', 'PrimitiveProperty_class_initializer', '_underlying_type') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+112: ('/bokeh/application/handlers/notebook.py', 'NotebookHandler_class_initializer', '_logger_text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+113: ('/bokeh/application/handlers/notebook.py', 'NotebookHandler_class_initializer', '_origin') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+114: ('/bokeh/application/handlers/script.py', 'ScriptHandler_class_initializer', '_logger_text') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+115: ('/bokeh/application/handlers/script.py', 'ScriptHandler_class_initializer', '_origin') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+116: ('/bokeh/protocol/messages/ack.py', 'ack_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+117: ('/bokeh/protocol/messages/error.py', 'error_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+118: ('/bokeh/protocol/messages/ok.py', 'ok_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+119: ('/bokeh/protocol/messages/server_info_req.py', 'server_info_req_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+120: ('/bokeh/command/subcommands/build.py', 'Build_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+121: ('/bokeh/command/subcommands/build.py', 'Build_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+122: ('/bokeh/command/subcommands/serve.py', 'Serve_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+123: ('/bokeh/command/subcommands/serve.py', 'Serve_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+124: ('/bokeh/command/subcommands/serve.py', 'Serve_class_initializer', 'args') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+125: ('/bokeh/command/subcommands/secret.py', 'Secret_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+126: ('/bokeh/command/subcommands/secret.py', 'Secret_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+127: ('/bokeh/command/subcommands/static.py', 'Static_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+128: ('/bokeh/command/subcommands/static.py', 'Static_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+129: ('/bokeh/command/subcommands/init.py', 'Init_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+130: ('/bokeh/command/subcommands/init.py', 'Init_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+131: ('/bokeh/command/subcommands/info.py', 'Info_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+132: ('/bokeh/command/subcommands/info.py', 'Info_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+133: ('/bokeh/command/subcommands/json.py', 'JSON_class_initializer', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+134: ('/bokeh/command/subcommands/json.py', 'JSON_class_initializer', 'extension') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+135: ('/bokeh/command/subcommands/json.py', 'JSON_class_initializer', 'help') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+136: ('/bokeh/command/subcommands/json.py', 'JSON_class_initializer', 'args') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+137: ('/bokeh/protocol/messages/server_info_reply.py', 'server_info_reply_class_initializer', 'msgtype') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+138: ('/bokeh/models/sources.py', '__init__', 'raw_data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+139: ('/bokeh/util/callback_manager.py', 'on_change', '_callbacks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+140: ('/bokeh/util/callback_manager.py', '_check_callback', 'error_msg') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+141: ('/bokeh/_version.py', 'get_versions', 'cfg') 0 (Match)
+  PT: ['VersioneerConfig']
+  DL: ['VersioneerConfig']
+142: ('/bokeh/_version.py', 'get_versions', 'verbose') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+143: ('/bokeh/util/version.py', 'is_full_release', 'VERSION_PAT') 1 (Manual match)
+  PT: ["re.compile('^(\\\\d+\\\\.\\\\d+\\\\.\\\\d+)$')"]
+  DL: ['_sre.SRE_Pattern']
+144: ('/bokeh/_version.py', 'get_keywords', 'git_refnames') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+145: ('/bokeh/_version.py', 'get_keywords', 'git_full') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+146: ('/bokeh/_version.py', 'get_keywords', 'git_date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+147: ('/bokeh/_version.py', 'git_versions_from_keywords', 'date') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+148: ('/bokeh/_version.py', 'git_versions_from_keywords', 'TAG') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+149: ('/bokeh/document/document.py', 'on_message', 'message_callbacks') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+150: ('/bokeh/plotting/figure.py', '__init__', 'title') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+151: ('/bokeh/themes/theme.py', '_for_class', 'combined') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+152: ('/bokeh/plotting/_plot.py', 'process_axis_and_grid', 'axiskw') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+153: ('/bokeh/plotting/_tools.py', 'process_tools_arg', 'tool_objs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+154: ('/bokeh/plotting/_tools.py', 'process_tools_arg', 'tool_map') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+155: ('/bokeh/plotting/_tools.py', '_collect_repeated_tools', 'key') 0 (Match)
+  PT: ['<function <lambda> at 0x101f651f0>', '<function <lambda> at 0x101fe14c0>', '<function <lambda> at 0x102215a60>', '<function <lambda> at 0x1022f9160>', '<function <lambda> at 0x10303a700>', '<function <lambda> at 0x103235f70>', '<function <lambda> at 0x1034e6e50>', '<function <lambda> at 0x10ace2670>', '<function <lambda> at 0x10af16a60>', '<function <lambda> at 0x10af1bc10>', '<function <lambda> at 0x10aff0c10>', '<function <lambda> at 0x10ba35ca0>', '<function <lambda> at 0x10c257940>', '<function <lambda> at 0x10c339040>', '<function <lambda> at 0x10c3be040>', '<function <lambda> at 0x10c558d30>', '<function <lambda> at 0x10c6599d0>', '<function <lambda> at 0x10c6caaf0>', '<function <lambda> at 0x10c6cae50>', '<function <lambda> at 0x10c9b1af0>', '<function <lambda> at 0x10cd41ca0>', '<function <lambda> at 0x10cdd38b0>', '<function <lambda> at 0x10d13a790>', '<function <lambda> at 0x10d70c310>', '<function <lambda> at 0x10d786dc0>', '<function <lambda> at 0x10da90430>', '<function <lambda> at 0x10dc371f0>', '<function <lambda> at 0x10dcb6ee0>', '<function <lambda> at 0x10ddb6a60>', '<function <lambda> at 0x10e979ee0>', '<function <lambda> at 0x10ed93ee0>', '<function <lambda> at 0x1107dae50>', '<function <lambda> at 0x124201ee0>', '<function <lambda> at 0x1257ef700>', '<function <lambda> at 0x1258e4160>', '<function <lambda> at 0x1258e4670>', '<function <lambda> at 0x127862ee0>', '<function <lambda> at 0x1375045e0>', '<function <lambda> at 0x13ca9b160>', '<function <lambda> at 0x13d75b9d0>', '<function <lambda> at 0x13e409310>', '<function <lambda> at 0x13e854e50>', '<function <lambda> at 0x13e8eef70>', '<function <lambda> at 0x13e9a3280>', '<function <lambda> at 0x13ea2c8b0>', '<function <lambda> at 0x140626820>', '<function <lambda> at 0x1412b2e50>', '<function <lambda> at 0x14beb8c10>']
+  DL: ['function']
+156: ('/bokeh/document/document.py', '_recompute_all_models', 'new_all_models_set') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+157: ('/bokeh/document/document.py', '_recompute_all_models', 'to_detach') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+158: ('/bokeh/document/document.py', '_recompute_all_models', 'to_attach') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+159: ('/bokeh/resources.py', '_get_cdn_urls', 'base_url') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+160: ('/bokeh/resources.py', '_get_cdn_urls', 'dev_container') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+161: ('/bokeh/resources.py', '_get_cdn_urls', 'rel_container') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+162: ('/bokeh/util/serialization.py', 'make_id', '_simple_id') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+163: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'is_user_source') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+164: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'renderer_kws') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+165: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'glyph_visuals') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+166: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'incompatible_literal_spec_values') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+167: ('/bokeh/plotting/_renderer.py', 'create_renderer', 'nonselection_visuals') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+168: ('/bokeh/plotting/_renderer.py', 'make_glyph', 'kws') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+169: ('/bokeh/plotting/_legends.py', 'update_legend', 'legend') 0 (Match)
+  PT: ['Legend']
+  DL: ['Legend']
+170: ('/bokeh/plotting/_legends.py', '_get_or_create_legend', 'legends') 0 (Match)
+  PT: ['_list_attr_splat']
+  DL: ['_list_attr_splat']
+171: ('/bokeh/models/plots.py', 'select', 'selector') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+172: ('/bokeh/models/plots.py', '_select_helper', 'selector') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+173: ('/bokeh/core/has_props.py', 'query_properties_with_values', 'keys') 0 (Match)
+  PT: ['set']
+  DL: ['set']
+174: ('/bokeh/client/util.py', 'websocket_url_for_server_url', 'reprotocoled') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+175: ('/bokeh/core/property/descriptors.py', 'add_prop_descriptor_to_class', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+176: ('/bokeh/command/subcommands/__init__.py', '_collect', 'results') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+177: ('/bokeh/core/property/descriptors.py', '_internal_set', 'value') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType|bokeh.core.property.wrappers.PropertyValueList|bokeh.models.sources.ColumnDataSource|list|bokeh.models.sources.CDSView|int|bokeh.models.scales.LinearScale|bokeh.models.glyphs.Line|str|bokeh.models.ranges.DataRange1d|bokeh.models.axes.LinearAxis|dict|float']
+178: ('/bokeh/core/property/include.py', 'make_descriptors', 'prefix') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+179: ('/bokeh/core/property/enum.py', '_sphinx_type', 'val') 0 (Match)
+  PT: ['str']
+  DL: ['str']

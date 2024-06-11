@@ -1,0 +1,630 @@
+0: ('/pyndata/field.py', 'Field_class_initializer', '__DEFAULT__') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+1: ('/pyndata/integer.py', 'integer_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+2: ('/pyndata/integer.py', 'integer_class_initializer', '__DEFAULT__') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+3: ('/pyndata/integer.py', 'integer_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['None']
+  DL: ['NoneType']
+4: ('/pyndata/integer.py', 'int8_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+5: ('/pyndata/integer.py', 'int16_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+6: ('/pyndata/integer.py', 'int32_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+7: ('/pyndata/integer.py', 'int64_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+8: ('/pyndata/integer.py', 'uint8_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+9: ('/pyndata/integer.py', 'uint16_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+10: ('/pyndata/integer.py', 'uint32_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+11: ('/pyndata/integer.py', 'uint64_class_initializer', '__TYPE__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+12: ('/pyndata/bitfield.py', 'BitField_class_initializer', 'default') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+13: ('/pyndata/structure.py', 'Struct_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+14: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+15: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'name') 0 (Match)
+  PT: ['nullstring']
+  DL: ['pyndata.nullstring']
+16: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'value') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+17: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'object_type') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+18: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'number') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+19: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'magic') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+20: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'layout') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+21: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown1') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+22: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown2') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+23: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown3') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+24: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'FIFO') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+25: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'CHARACTER') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+26: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'DIRECTORY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+27: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'BLOCK') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+28: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'REGULAR_FILE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+29: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'SYMLINK') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+30: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'SOCKET') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+31: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'DOOR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+32: ('/zfs/posix/attributes/__init__.py', 'PosixType_class_initializer', 'PORT') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+33: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+34: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'mode') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+35: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'perms') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+36: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'unknown') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+37: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'file_type') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+38: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+39: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', 'seconds') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+40: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', 'nanoseconds') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+41: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'who') 0 (Match)
+  PT: ['uint32']
+  DL: ['pyndata.uint32']
+42: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'access_mask') 0 (Match)
+  PT: ['uint32']
+  DL: ['pyndata.uint32']
+43: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'flags') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+44: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'type') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+45: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'external_object') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+46: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'count') 0 (Match)
+  PT: ['uint32']
+  DL: ['pyndata.uint32']
+47: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'version') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+48: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', '_padding') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+49: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'aces') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+50: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+51: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_GEN') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+52: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_SIZE') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+53: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_PARENT') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+54: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_LINKS') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+55: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_XATTR') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+56: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_RDEV') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+57: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_FLAGS') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+58: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_UID') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+59: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_GID') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+60: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'padding') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+61: ('/zfs/ondisk/zap.py', 'ZapType_class_initializer', 'ZAPLeaf') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+62: ('/zfs/ondisk/zap.py', 'ZapType_class_initializer', 'ZAPHeader') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+63: ('/zfs/ondisk/zap.py', 'ZapType_class_initializer', 'MicroZAP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+64: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+65: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+66: ('/zfs/ondisk/zap.py', 'MicroZAP_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+67: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+68: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+69: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+70: ('/zfs/constants.py', 'Compression_class_initializer', 'INHERIT') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+71: ('/zfs/constants.py', 'Compression_class_initializer', 'ON') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+72: ('/zfs/constants.py', 'Compression_class_initializer', 'OFF') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+73: ('/zfs/constants.py', 'Compression_class_initializer', 'LZJB') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+74: ('/zfs/constants.py', 'Compression_class_initializer', 'EMPTY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+75: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_1') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+76: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_2') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+77: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_3') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+78: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_4') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+79: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_5') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+80: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_6') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+81: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_7') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+82: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_8') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+83: ('/zfs/constants.py', 'Compression_class_initializer', 'GZIP_9') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+84: ('/zfs/constants.py', 'Compression_class_initializer', 'ZLE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+85: ('/zfs/constants.py', 'Compression_class_initializer', 'LZ4') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+86: ('/zfs/constants.py', 'Checksum_class_initializer', 'INHERIT') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+87: ('/zfs/constants.py', 'Checksum_class_initializer', 'ON') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+88: ('/zfs/constants.py', 'Checksum_class_initializer', 'OFF') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+89: ('/zfs/constants.py', 'Checksum_class_initializer', 'LABEL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+90: ('/zfs/constants.py', 'Checksum_class_initializer', 'GANG_HEADER') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+91: ('/zfs/constants.py', 'Checksum_class_initializer', 'ZILOG') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+92: ('/zfs/constants.py', 'Checksum_class_initializer', 'FLETCHER_2') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+93: ('/zfs/constants.py', 'Checksum_class_initializer', 'FLETCHER_4') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+94: ('/zfs/constants.py', 'Checksum_class_initializer', 'SHA256') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+95: ('/zfs/constants.py', 'Checksum_class_initializer', 'ZILOG2') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+96: ('/zfs/constants.py', 'Checksum_class_initializer', 'NOPARITY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+97: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'NONE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+98: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'META') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+99: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'ZFS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+100: ('/zfs/constants.py', 'ObjectSetType_class_initializer', 'ZVOL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+101: ('/zfs/constants.py', 'ObjectType_class_initializer', 'NONE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+102: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OBJECT_DIRECTORY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+103: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OBJECT_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+104: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PACKED_NVLIST') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+105: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PACKED_NVLIST_SIZE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+106: ('/zfs/constants.py', 'ObjectType_class_initializer', 'BPOBJ') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+107: ('/zfs/constants.py', 'ObjectType_class_initializer', 'BPOBJ_HDR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+108: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPACE_MAP_HEADER') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+109: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPACE_MAP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+110: ('/zfs/constants.py', 'ObjectType_class_initializer', 'INTENT_LOG') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+111: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DNODE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+112: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OBJSET') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+113: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DIR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+114: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DIR_CHILD_MAP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+115: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DS_SNAP_MAP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+116: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_PROPS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+117: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_DATASET') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+118: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZNODE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+119: ('/zfs/constants.py', 'ObjectType_class_initializer', 'OLDACL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+120: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PLAIN_FILE_CONTENTS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+121: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DIRECTORY_CONTENTS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+122: ('/zfs/constants.py', 'ObjectType_class_initializer', 'MASTER_NODE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+123: ('/zfs/constants.py', 'ObjectType_class_initializer', 'UNLINKED_SET') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+124: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZVOL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+125: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZVOL_PROP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+126: ('/zfs/constants.py', 'ObjectType_class_initializer', 'PLAIN_OTHER') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+127: ('/zfs/constants.py', 'ObjectType_class_initializer', 'UINT64_OTHER') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+128: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ZAP_OTHER') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+129: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ERROR_LOG') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+130: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPA_HISTORY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+131: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SPA_HISTORY_OFFSETS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+132: ('/zfs/constants.py', 'ObjectType_class_initializer', 'POOL_PROPS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+133: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_PERMS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+134: ('/zfs/constants.py', 'ObjectType_class_initializer', 'ACL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+135: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SYSACL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+136: ('/zfs/constants.py', 'ObjectType_class_initializer', 'FUID') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+137: ('/zfs/constants.py', 'ObjectType_class_initializer', 'FUID_SIZE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+138: ('/zfs/constants.py', 'ObjectType_class_initializer', 'NEXT_CLONES') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+139: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SCAN_QUEUE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+140: ('/zfs/constants.py', 'ObjectType_class_initializer', 'USERGROUP_USED') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+141: ('/zfs/constants.py', 'ObjectType_class_initializer', 'USERGROUP_QUOTA') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+142: ('/zfs/constants.py', 'ObjectType_class_initializer', 'USERREFS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+143: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DDT_ZAP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+144: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DDT_STATS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+145: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+146: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA_MASTER_NODE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+147: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA_ATTR_REGISTRATION') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+148: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SA_ATTR_LAYOUTS') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+149: ('/zfs/constants.py', 'ObjectType_class_initializer', 'SCAN_XLATE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+150: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DEDUP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+151: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DEADLIST') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+152: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DEADLIST_HDR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+153: ('/zfs/constants.py', 'ObjectType_class_initializer', 'DSL_CLONES') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+154: ('/zfs/constants.py', 'ObjectType_class_initializer', 'BPOBJ_SUBOBJ') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+155: ('/zfs/constants.py', 'ObjectType_class_initializer', 'FEATURE_DESCRIPTION') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+156: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'CREATE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+157: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'MKDIR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+158: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'MKXATTR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+159: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'SYMLINK') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+160: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'REMOVE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+161: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'RMDIR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+162: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'LINK') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+163: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'RENAME') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+164: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'WRITE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+165: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'TRUNCATE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+166: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'SETATTR') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+167: ('/zfs/constants.py', 'ZILTypes_class_initializer', 'ACL') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+168: ('/zfs/constants.py', 'ZapType_class_initializer', 'ZAPHeader') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+169: ('/zfs/constants.py', 'ZapType_class_initializer', 'ZAPLeaf') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+170: ('/zfs/constants.py', 'ZapType_class_initializer', 'MicroZAP') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+171: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+172: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'MAGIC') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+173: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+174: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'MAGIC') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+175: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+176: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+177: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+178: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+179: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+180: ('/zfs/ondisk/__init__.py', 'BPObjHeader_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+181: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+182: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+183: ('/zfs/ondisk/fatzap.py', 'LeafChunk_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+184: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UNKNOWN') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+185: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BOOLEAN') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+186: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BYTE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+187: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT16') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+188: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT16') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+189: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT32') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+190: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT32') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+191: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT64') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+192: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT64') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+193: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'STRING') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+194: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BYTE_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+195: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT16_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+196: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT16_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+197: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT32_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+198: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT32_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+199: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT64_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+200: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT64_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+201: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'STRING_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+202: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'HRTIME') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+203: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'NVLIST') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+204: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'NVLIST_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+205: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BOOLEAN_VALUE') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+206: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT8') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+207: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'UINT8') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+208: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'BOOLEAN_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+209: ('/nvlist/__init__.py', 'NVTypes_class_initializer', 'INT8_ARRAY') 0 (Match)
+  PT: ['int']
+  DL: ['int']

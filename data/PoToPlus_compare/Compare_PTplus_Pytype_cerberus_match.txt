@@ -1,0 +1,1002 @@
+0: ('/cerberus/errors.py', 'module_initializer', 'CUSTOM') 0 265 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+1: ('/cerberus/errors.py', 'module_initializer', 'REQUIRED_FIELD') 2 267 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+2: ('/cerberus/errors.py', 'module_initializer', 'UNKNOWN_FIELD') 3 268 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+3: ('/cerberus/errors.py', 'module_initializer', 'DEPENDENCIES_FIELD') 4 269 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+4: ('/cerberus/errors.py', 'module_initializer', 'DEPENDENCIES_FIELD_VALUE') 5 270 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+5: ('/cerberus/errors.py', 'module_initializer', 'EXCLUDES_FIELD') 6 271 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+6: ('/cerberus/errors.py', 'module_initializer', 'EMPTY') 8 273 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+7: ('/cerberus/errors.py', 'module_initializer', 'NULLABLE') 9 274 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+8: ('/cerberus/errors.py', 'module_initializer', 'TYPE') 10 275 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+9: ('/cerberus/errors.py', 'module_initializer', 'ITEMS_LENGTH') 11 276 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+10: ('/cerberus/errors.py', 'module_initializer', 'MIN_LENGTH') 12 277 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+11: ('/cerberus/errors.py', 'module_initializer', 'MAX_LENGTH') 13 278 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+12: ('/cerberus/errors.py', 'module_initializer', 'REGEX_MISMATCH') 14 279 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+13: ('/cerberus/errors.py', 'module_initializer', 'MIN_VALUE') 15 280 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+14: ('/cerberus/errors.py', 'module_initializer', 'MAX_VALUE') 16 281 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+15: ('/cerberus/errors.py', 'module_initializer', 'UNALLOWED_VALUE') 17 282 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+16: ('/cerberus/errors.py', 'module_initializer', 'UNALLOWED_VALUES') 18 283 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+17: ('/cerberus/errors.py', 'module_initializer', 'FORBIDDEN_VALUE') 19 284 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+18: ('/cerberus/errors.py', 'module_initializer', 'FORBIDDEN_VALUES') 20 285 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+19: ('/cerberus/errors.py', 'module_initializer', 'MISSING_MEMBERS') 21 286 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+20: ('/cerberus/errors.py', 'module_initializer', 'NORMALIZATION') 22 287 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+21: ('/cerberus/errors.py', 'module_initializer', 'COERCION_FAILED') 23 288 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+22: ('/cerberus/errors.py', 'module_initializer', 'RENAMING_FAILED') 24 289 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+23: ('/cerberus/errors.py', 'module_initializer', 'READONLY_FIELD') 25 290 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+24: ('/cerberus/errors.py', 'module_initializer', 'SETTING_DEFAULT_FAILED') 26 291 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+25: ('/cerberus/errors.py', 'module_initializer', 'ERROR_GROUP') 27 292 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+26: ('/cerberus/errors.py', 'module_initializer', 'SCHEMA') 28 293 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+27: ('/cerberus/errors.py', 'module_initializer', 'ITEMSRULES') 29 294 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+28: ('/cerberus/errors.py', 'module_initializer', 'KEYSRULES') 30 295 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+29: ('/cerberus/errors.py', 'module_initializer', 'VALUESRULES') 31 296 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+30: ('/cerberus/errors.py', 'module_initializer', 'ITEMS') 32 297 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+31: ('/cerberus/errors.py', 'module_initializer', 'LOGICAL') 33 298 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+32: ('/cerberus/errors.py', 'module_initializer', 'NONEOF') 34 299 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+33: ('/cerberus/errors.py', 'module_initializer', 'ONEOF') 35 300 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+34: ('/cerberus/errors.py', 'module_initializer', 'ANYOF') 36 301 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+35: ('/cerberus/errors.py', 'module_initializer', 'ALLOF') 37 302 0 (Match)
+  PT: ['ErrorDefinition']
+  PY: ['ErrorDefinition']
+36: ('/cerberus/errors.py', 'module_initializer', 'MISSING_SCHEMA') 38 303 0 (Match)
+  PT: ['str']
+  PY: ['str']
+37: ('/cerberus/errors.py', 'module_initializer', 'SCHEMA_TYPE') 39 304 0 (Match)
+  PT: ['str']
+  PY: ['str']
+38: ('/cerberus/errors.py', 'ErrorDefinition_class_initializer', '__slots__') 40 141 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, str]']
+39: ('/cerberus/errors.py', 'ErrorTreeNode_class_initializer', '__slots__') 41 189 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, str, str, str, str]']
+40: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'depth') 42 199 0 (Match)
+  PT: ['int']
+  PY: ['int']
+41: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'parent') 43 200 0 (Match)
+  PT: ['None']
+  PY: ['None']
+42: ('/cerberus/errors.py', 'ErrorTree_class_initializer', 'path') 44 201 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[()]']
+43: ('/cerberus/errors.py', 'DocumentErrorTree_class_initializer', 'tree_type') 45 202 0 (Match)
+  PT: ['str']
+  PY: ['str']
+44: ('/cerberus/errors.py', 'SchemaErrorTree_class_initializer', 'tree_type') 46 203 0 (Match)
+  PT: ['str']
+  PY: ['str']
+45: ('/cerberus/errors.py', 'BasicErrorHandler_class_initializer', 'messages') 47 263 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[int, str]']
+46: ('/cerberus/base.py', 'module_initializer', 'RULE_SCHEMA_SEPARATOR') 49 797 0 (Match)
+  PT: ['str']
+  PY: ['str']
+47: ('/cerberus/base.py', 'module_initializer', 'toy_error_handler') 50 798 0 (Match)
+  PT: ['ToyErrorHandler']
+  PY: ['cerberus.errors.ToyErrorHandler']
+48: ('/cerberus/base.py', 'module_initializer', '_normalized_rulesset_cache') 52 800 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[int, Dict[str, Any]]']
+49: ('/cerberus/base.py', 'module_initializer', 'schema_registry') 53 801 0 (Match)
+  PT: ['SchemaRegistry']
+  PY: ['SchemaRegistry']
+50: ('/cerberus/base.py', 'module_initializer', 'rules_set_registry') 54 802 0 (Match)
+  PT: ['RulesSetRegistry']
+  PY: ['RulesSetRegistry']
+51: ('/cerberus/base.py', 'module_initializer', 'TypeDefinition') 55 803 0 (Match)
+  PT: ['pt_engine.utils.base.TypeDefinition']
+  PY: ['Type[TypeDefinition]']
+52: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'mandatory_validations') 58 782 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, ...]']
+53: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'priority_validations') 59 783 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, ...]']
+54: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'types_mapping') 60 784 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+55: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_valid_schemas') 61 785 0 (Match)
+  PT: ['set']
+  PY: ['Set[Tuple[int, int]]']
+56: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'checkers') 62 786 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, ...]']
+57: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'coercers') 63 787 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, ...]']
+58: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'default_setters') 64 788 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, ...]']
+59: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', 'rules') 66 790 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Mapping[str, Any]]']
+60: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_allow_unknown') 68 793 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable']
+61: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_meta') 69 794 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable']
+62: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_required') 70 795 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable']
+63: ('/cerberus/base.py', 'UnconcernedValidator_class_initializer', '_validate_require_all') 71 796 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable']
+64: ('/cerberus/schema.py', 'module_initializer', '__all__') 72 876 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, str]']
+65: ('/cerberus/typing.py', 'module_initializer', 'FieldName') 74 305 0 (Match)
+  PT: ['typing.Hashable']
+  PY: ['Type[Hashable]']
+66: ('/cerberus/typing.py', 'module_initializer', 'Document') 75 306 0 (Match)
+  PT: ['typing.Mapping[typing.Hashable, typing.Any]']
+  PY: ['Type[Mapping[Hashable, Any]]']
+67: ('/cerberus/typing.py', 'module_initializer', 'DocumentPath') 76 307 0 (Match)
+  PT: ['typing.Tuple[typing.Hashable, ...]']
+  PY: ['Type[Tuple[Hashable, ...]]']
+68: ('/cerberus/typing.py', 'module_initializer', 'NoneType') 78 309 0 (Match)
+  PT: ['NoneType']
+  PY: ['Type[None]']
+69: ('/cerberus/typing.py', 'module_initializer', 'RulesSet') 79 310 0 (Match)
+  PT: ['typing.Mapping[str, typing.Any]']
+  PY: ['Type[Mapping[str, Any]]']
+70: ('/cerberus/typing.py', 'module_initializer', 'SchemaDict') 80 311 0 (Match)
+  PT: ['typing.Mapping[typing.Hashable, typing.Mapping[str, typing.Any]]']
+  PY: ['Type[Mapping[Hashable, Mapping[str, Any]]]']
+71: ('/cerberus/typing.py', 'module_initializer', 'AllowUnknown') 82 313 0 (Match)
+  PT: ['typing.Union[bool, typing.Mapping[str, typing.Any]]']
+  PY: ['Type[Union[Mapping[str, Any], bool]]']
+72: ('/cerberus/typing.py', 'module_initializer', 'RegistryItems') 84 315 0 (Match)
+  PT: ['typing.Mapping[str, ~RegistryItem]']
+  PY: ['Type[Mapping[str, RegistryItem]]']
+73: ('/cerberus/typing.py', 'module_initializer', 'TypesMapping') 85 316 0 (Match)
+  PT: ["typing.Dict[str, ForwardRef('TypeDefinition')]"]
+  PY: ['Type[Dict[str, cerberus.base.TypeDefinition]]']
+74: ('/cerberus/errors.py', '__init__', 'path') 87 165 1 (Manual match)
+  PT: ['DocumentPath']
+  PY: ['Tuple[Hashable, ...]']
+75: ('/cerberus/errors.py', '__init__', 'code') 91 139 0 (Match)
+  PT: ['int']
+  PY: ['int']
+76: ('/cerberus/errors.py', 'tree_type', 'self') 105 180 0 (Match)
+  PT: ['ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+77: ('/cerberus/base.py', 'dummy_for_rule_validation', 'rule_constraints') 107 317 0 (Match)
+  PT: ['str']
+  PY: ['str']
+78: ('/cerberus/base.py', 'dummy_for_rule_validation', 'f') 109 318 0 (Match)
+  PT: ['meta_func']
+  PY: ['Callable[[Any, Any, Any, Any], Any]']
+79: ('/cerberus/base.py', 'dummy_for_rule_validation', 'dummy_for_rule_validation_ret') 110 13 0 (Match)
+  PT: ['meta_func', 'Callable']
+  PY: ['Callable']
+80: ('/setup.py', 'module_initializer', 'DESCRIPTION') 111 56 0 (Match)
+  PT: ['str']
+  PY: ['str']
+81: ('/setup.py', 'module_initializer', 'VERSION') 113 58 0 (Match)
+  PT: ['str']
+  PY: ['str']
+82: ('/setup.py', 'module_initializer', 'setup_requires') 114 59 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+83: ('/docs/conf.py', 'module_initializer', 'module_spec') 115 60 1 (Manual match)
+  PT: ["ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x103fc23b0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110942a10>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d2749400>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d2775400>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d277ea90>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d49cdeb0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d49d3490>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d49fe520>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d4a753a0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d4e12730>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d668b100>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d7251f40>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d72b7130>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d740a310>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d7568e50>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d75e9ac0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d7672370>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d76e8f70>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')", "ModuleSpec(name='generate_includes', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f79d89a8370>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py')"]
+  PY: ['Optional[importlib.machinery.ModuleSpec]']
+84: ('/docs/conf.py', 'module_initializer', '_module') 116 61 1 (Manual match)
+  PT: ["<module 'generate_includes' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/includes/generate.py'>"]
+  PY: ['module']
+85: ('/docs/conf.py', 'module_initializer', 'extensions') 117 62 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+86: ('/docs/conf.py', 'module_initializer', 'templates_path') 118 63 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+87: ('/docs/conf.py', 'module_initializer', 'source_suffix') 119 64 0 (Match)
+  PT: ['str']
+  PY: ['str']
+88: ('/docs/conf.py', 'module_initializer', 'master_doc') 120 65 0 (Match)
+  PT: ['str']
+  PY: ['str']
+89: ('/docs/conf.py', 'module_initializer', 'project') 121 66 0 (Match)
+  PT: ['str']
+  PY: ['str']
+90: ('/docs/conf.py', 'module_initializer', 'copyright') 122 67 0 (Match)
+  PT: ['str']
+  PY: ['str']
+91: ('/docs/conf.py', 'module_initializer', 'issuetracker') 125 70 0 (Match)
+  PT: ['str']
+  PY: ['str']
+92: ('/docs/conf.py', 'module_initializer', 'issuetracker_project') 126 71 0 (Match)
+  PT: ['str']
+  PY: ['str']
+93: ('/docs/conf.py', 'module_initializer', 'exclude_patterns') 127 72 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+94: ('/docs/conf.py', 'module_initializer', 'pygments_style') 128 73 0 (Match)
+  PT: ['str']
+  PY: ['str']
+95: ('/docs/conf.py', 'module_initializer', 'html_theme') 129 74 0 (Match)
+  PT: ['str']
+  PY: ['str']
+96: ('/docs/conf.py', 'module_initializer', 'html_theme_options') 130 75 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Union[bool, str]]']
+97: ('/docs/conf.py', 'module_initializer', 'html_theme_path') 131 76 0 (Match)
+  PT: ['list']
+  PY: ['list']
+98: ('/docs/conf.py', 'module_initializer', 'html_title') 132 77 0 (Match)
+  PT: ['str']
+  PY: ['str']
+99: ('/docs/conf.py', 'module_initializer', 'html_static_path') 133 78 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+100: ('/docs/conf.py', 'module_initializer', 'html_sidebars') 134 79 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, List[str]]']
+101: ('/docs/conf.py', 'module_initializer', 'htmlhelp_basename') 135 80 0 (Match)
+  PT: ['str']
+  PY: ['str']
+102: ('/docs/conf.py', 'module_initializer', 'latex_elements') 136 81 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[nothing, nothing]']
+103: ('/docs/conf.py', 'module_initializer', 'latex_documents') 137 82 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[str, str, str, str, str]]']
+104: ('/docs/conf.py', 'module_initializer', 'man_pages') 138 83 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[str, str, str, List[str], int]]']
+105: ('/docs/conf.py', 'module_initializer', 'texinfo_documents') 139 84 0 (Match)
+  PT: ['list']
+  PY: ['List[Tuple[str, str, str, str, str, str, str]]']
+106: ('/docs/conf.py', 'module_initializer', 'intersphinx_mapping') 140 85 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Tuple[str, None]]']
+107: ('/docs/conf.py', 'module_initializer', 'linkcheck_ignore') 141 86 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+108: ('/docs/conf.py', 'module_initializer', 'linkcheck_anchors') 142 87 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+109: ('/docs/conf.py', 'module_initializer', 'doctest_global_setup') 143 88 0 (Match)
+  PT: ['str']
+  PY: ['str']
+110: ('/docs/conf.py', 'module_initializer', 'extlinks') 144 89 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Tuple[str, str]]']
+111: ('/docs/includes/generate.py', 'module_initializer', 'INCLUDES_DIR') 145 94 1 (Manual match)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils']
+  PY: ['pathlib.Path']
+112: ('/docs/includes/generate.py', 'module_initializer', 'CERBERUS_DIR') 146 95 1 (Manual match)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus']
+  PY: ['pathlib.Path']
+113: ('/docs/includes/generate.py', 'module_initializer', 'error_definitions') 149 98 0 (Match)
+  PT: ['list']
+  PY: ['List[types.SimpleNamespace]']
+114: ('/docs/includes/generate.py', 'module_initializer', 'error_definition') 152 99 1 (Manual match)
+  PT: ['namespace()']
+  PY: ['types.SimpleNamespace']
+115: ('/cerberus/__init__.py', 'module_initializer', '__version__') 156 115 0 (Match)
+  PT: ['str']
+  PY: ['str']
+116: ('/cerberus/__init__.py', 'module_initializer', '__all__') 157 116 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+117: ('/cerberus/platform.py', 'module_initializer', '__all__') 158 117 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[str, str, str, str]']
+118: ('/cerberus/benchmarks/__init__.py', 'module_initializer', 'DOCUMENTS_PATH') 159 877 1 (Manual match)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/pt_engine/utils/documents']
+  PY: ['pathlib.Path']
+119: ('/cerberus/benchmarks/test_overall_performance.py', 'module_initializer', 'schema_1') 160 902 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Union[Dict[str, Union[Dict[str, Union[Callable[[Any, Any, Any], Any], Dict[str, Union[Callable[[Any], Any], Dict[str, int], List[Union[Callable[[str, Optional[str]], str], Dict[str, str], Type[int], int]], bool, int, str, Tuple[int]]], str]], bool, int, str, type]], str]]']
+120: ('/cerberus/base.py', 'normalize_rulesset', '_hash') 163 320 0 (Match)
+  PT: ['int']
+  PY: ['int']
+121: ('/cerberus/base.py', 'normalize_rulesset', 'rules_with_whitespace') 165 321 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+122: ('/cerberus/utils.py', 'schema_hash', 'schema_hash_ret') 169 31 0 (Match)
+  PT: ['int']
+  PY: ['int']
+123: ('/cerberus/base.py', '_expand_generic_type_aliases', 'compound_types') 171 327 0 (Match)
+  PT: ['list']
+  PY: ['List[Dict[str, Any]]']
+124: ('/cerberus/base.py', '_expand_generic_type_aliases', 'plain_types') 172 328 0 (Match)
+  PT: ['list']
+  PY: ['list']
+125: ('/cerberus/base.py', '_expand_generic_type_aliases', 'is_nullable') 173 329 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+126: ('/cerberus/base.py', '_expand_generic_type_aliases', 'args') 176 331 0 (Match)
+  PT: ['tuple']
+  PY: ['tuple']
+127: ('/cerberus/base.py', '_expand_composed_of_rules', 'composed_rules') 179 337 0 (Match)
+  PT: ['list']
+  PY: ['List[str]']
+128: ('/cerberus/base.py', '_normalize_contained_rulessets', 'rule') 184 343 0 (Match)
+  PT: ['str']
+  PY: ['str']
+129: ('/cerberus/utils.py', 'mapping_to_frozenset', 'schema_copy') 186 128 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+130: ('/cerberus/utils.py', 'mapping_to_frozenset', 'i') 189 130 0 (Match)
+  PT: ['int']
+  PY: ['int']
+131: ('/cerberus/utils.py', 'mapping_to_frozenset', 'mapping_to_frozenset_ret') 191 29 0 (Match)
+  PT: ['frozenset()', 'frozenset']
+  PY: ['frozenset']
+132: ('/cerberus/platform.py', 'get_type_args', 'get_type_args_ret') 197 47 0 (Match)
+  PT: ['tuple']
+  PY: ['tuple']
+133: ('/cerberus/errors.py', 'child_errors', 'self') 202 153 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+134: ('/docs/includes/generate.py', 'load_module_members', 'name') 204 90 0 (Match)
+  PT: ['str']
+  PY: ['str']
+135: ('/docs/includes/generate.py', 'load_module_members', 'path') 205 91 1 (Manual match)
+  PT: ['/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py', '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/msg', '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py']
+  PY: ['pathlib.Path']
+136: ('/docs/includes/generate.py', 'load_module_members', 'module_spec') 206 92 1 (Manual match)
+  PT: ["ModuleSpec(name='errors', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110af5bd0>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py')", "ModuleSpec(name='errors', loader=<_frozen_importlib_external.SourceFileLoader object at 0x110af6110>, origin='/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py')"]
+  PY: ['Optional[importlib.machinery.ModuleSpec]']
+137: ('/docs/includes/generate.py', 'load_module_members', '_module') 207 93 1 (Manual match)
+  PT: ["<module 'errors' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/errors.py'>", "<module 'errors' from '/Users/ingkarat/Documents/GitHub/AIML-Proposal/pt_analysis/cerberus/validator.py'>"]
+  PY: ['module']
+138: ('/cerberus/base.py', 'extend', 'self') 211 352 0 (Match)
+  PT: ['RulesSetRegistry', 'SchemaRegistry', 'Registry']
+  PY: ['SchemaRegistry', 'RulesSetRegistry', 'Registry']
+139: ('/cerberus/base.py', 'add', 'name') 216 348 0 (Match)
+  PT: ['str']
+  PY: ['str']
+140: ('/cerberus/base.py', '__init__', 'ignore_none_values') 222 385 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+141: ('/cerberus/base.py', '__init__', 'purge_unknown') 223 386 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+142: ('/cerberus/base.py', '__init__', 'purge_readonly') 224 387 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+143: ('/cerberus/base.py', '__init__', 'require_all') 225 388 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+144: ('/cerberus/base.py', '__init__', 'rules_set_registry') 226 389 0 (Match)
+  PT: ['RulesSetRegistry']
+  PY: ['RulesSetRegistry']
+145: ('/cerberus/base.py', '__init__', 'schema_registry') 227 390 0 (Match)
+  PT: ['SchemaRegistry']
+  PY: ['SchemaRegistry']
+146: ('/cerberus/validator.py', 'schema', 'self') 234 105 0 (Match)
+  PT: ['Validator']
+  PY: ['Validator']
+147: ('/cerberus/schema.py', 'regenerate_validation_schema', 'self') 240 867 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+148: ('/cerberus/schema.py', '__init__', 'kwargs') 241 806 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+149: ('/cerberus/schema.py', 'validate', 'self') 244 868 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+150: ('/cerberus/schema.py', 'validate', '_hash') 245 870 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[int, int]']
+151: ('/cerberus/schema.py', '_validate', 'self') 246 871 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+152: ('/cerberus/schema.py', '_validate', 'resolved') 250 873 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+153: ('/cerberus/errors.py', '_rewrite_error_path', 'offset') 251 246 0 (Match)
+  PT: ['int']
+  PY: ['int']
+154: ('/cerberus/errors.py', '_rewrite_error_path', 'self') 252 244 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+155: ('/cerberus/errors.py', '_insert_logic_error', 'self') 254 235 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+156: ('/cerberus/errors.py', '_insert_group_error', 'self') 259 232 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+157: ('/cerberus/errors.py', '_format_message', 'self') 262 223 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+158: ('/cerberus/errors.py', '_format_message', '_format_message_ret') 265 35 0 (Match)
+  PT: ['str']
+  PY: ['str']
+159: ('/cerberus/errors.py', '_insert_error', 'self') 266 226 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+160: ('/cerberus/errors.py', '_insert_error', 'new') 271 231 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+161: ('/cerberus/errors.py', '_rewrite_logic_error_path', 'self') 273 253 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+162: ('/cerberus/errors.py', '_rewrite_group_error_path', 'self') 283 247 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+163: ('/cerberus/utils.py', 'compare_paths_lt', 'min_length') 290 120 0 (Match)
+  PT: ['int']
+  PY: ['int']
+164: ('/cerberus/utils.py', 'compare_paths_lt', 'compare_paths_lt_ret') 291 27 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+165: ('/cerberus/errors.py', 'pretty_tree', 'self') 296 219 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+166: ('/cerberus/errors.py', '_purge_empty_dicts', 'self') 300 240 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+167: ('/cerberus/schema.py', 'update', 'self') 320 864 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+168: ('/cerberus/schema.py', 'update', 'new_schema') 322 866 0 (Match)
+  PT: ["ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None))", "ChainMap({'sub_dict': {'type': 'dict', 'schema': {'foo': {'type': 'string'}}}}, None)"]
+  PY: ['ChainMap[nothing, nothing]']
+169: ('/cerberus/base.py', 'normalized', 'always_return_document') 323 471 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+170: ('/cerberus/base.py', '__init_processing', 'document') 330 462 0 (Match)
+  PT: ['dict']
+  PY: ['Mapping[Hashable, Any]']
+171: ('/cerberus/base.py', '__normalize_default_fields', 'empty_fields') 363 576 0 (Match)
+  PT: ['list']
+  PY: ['list']
+172: ('/cerberus/base.py', '__normalize_default_fields', 'known_fields_states') 365 579 0 (Match)
+  PT: ['set']
+  PY: ['Set[int]']
+173: ('/cerberus/base.py', '__normalize_default_fields', 'fields_with_default_setter') 366 580 0 (Match)
+  PT: ['list']
+  PY: ['list']
+174: ('/cerberus/base.py', '__normalize_default_fields', 'fields_processing_state') 367 581 0 (Match)
+  PT: ['int']
+  PY: ['int']
+175: ('/cerberus/base.py', '__normalize_containers', 'rules') 377 493 0 (Match)
+  PT: ['set']
+  PY: ['set']
+176: ('/cerberus/base.py', '_validate_readonly', 'has_error') 393 749 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+177: ('/cerberus/base.py', '__normalize_coerce', 'nullable') 407 486 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+178: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'schema') 417 500 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+179: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'document') 418 502 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+180: ('/cerberus/base.py', '__normalize_mapping_per_keysrules', 'result') 420 504 0 (Match)
+  PT: ['None', 'dict']
+  PY: ['Optional[Mapping[Hashable, Any]]']
+181: ('/cerberus/base.py', '__normalize_mapping_per_valuesrules', 'schema') 428 513 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+182: ('/cerberus/base.py', '__normalize_sequence_per_itemsrules', 'document') 445 542 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[int, Any]']
+183: ('/cerberus/base.py', '__normalize_sequence_per_items', 'document') 457 532 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[int, Any]']
+184: ('/cerberus/errors.py', 'clear', 'self') 461 222 0 (Match)
+  PT: ['BasicErrorHandler']
+  PY: ['BasicErrorHandler']
+185: ('/cerberus/errors.py', 'fetch_errors_from', 'fetch_errors_from_ret') 465 37 0 (Match)
+  PT: ['ErrorList']
+  PY: ['ErrorList']
+186: ('/cerberus/base.py', '__get_rule_handler', 'domain') 470 415 0 (Match)
+  PT: ['str']
+  PY: ['str']
+187: ('/cerberus/base.py', '__get_rule_handler', 'methodname') 472 417 0 (Match)
+  PT: ['str']
+  PY: ['str']
+188: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', '_errors') 483 420 1 (Manual match)
+  PT: ['ErrorList', 'errors.ErrorList']
+  PY: ['cerberus.errors.ErrorList']
+189: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'dp_basedepth') 486 423 0 (Match)
+  PT: ['int']
+  PY: ['int']
+190: ('/cerberus/base.py', '_drop_nodes_from_errorpaths', 'sp_basedepth') 487 424 0 (Match)
+  PT: ['int']
+  PY: ['int']
+191: ('/cerberus/errors.py', 'depth', 'self') 498 179 0 (Match)
+  PT: ['ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+192: ('/cerberus/__init__.py', 'validator_factory', 'validated_schema') 500 110 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+193: ('/cerberus/__init__.py', 'validator_factory', 'name') 503 107 0 (Match)
+  PT: ['str']
+  PY: ['str']
+194: ('/cerberus/__init__.py', 'validator_factory', 'docstrings') 507 113 0 (Match)
+  PT: ['list']
+  PY: ['list']
+195: ('/cerberus/__init__.py', 'validator_factory', 'validator_factory_ret') 508 16 0 (Match)
+  PT: ['type']
+  PY: ['type']
+196: ('/cerberus/errors.py', 'field', 'self') 511 158 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+197: ('/cerberus/errors.py', 'definitions_errors', 'self') 513 154 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+198: ('/cerberus/errors.py', 'is_group_error', 'self') 517 159 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+199: ('/cerberus/errors.py', 'is_logic_error', 'self') 519 160 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+200: ('/cerberus/errors.py', 'is_normalization_error', 'self') 521 161 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+201: ('/cerberus/errors.py', 'extend', 'error') 525 212 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+202: ('/cerberus/base.py', 'validate', 'normalize') 526 595 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+203: ('/cerberus/base.py', 'validate', 'update') 527 594 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+204: ('/cerberus/base.py', 'validate', 'validate_ret') 533 9 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+205: ('/cerberus/base.py', '__validate_definitions', 'rules_queue') 539 613 0 (Match)
+  PT: ['list']
+  PY: ['list']
+206: ('/cerberus/base.py', '__validate_unknown_fields', 'schema_crumb') 545 607 0 (Match)
+  PT: ['str']
+  PY: ['str']
+207: ('/cerberus/base.py', '__validate_required_fields', 'required') 549 757 0 (Match)
+  PT: ['set']
+  PY: ['set']
+208: ('/cerberus/base.py', '__validate_required_fields', 'missing') 550 760 0 (Match)
+  PT: ['set']
+  PY: ['set']
+209: ('/cerberus/base.py', '__validate_required_fields', 'fields') 552 761 0 (Match)
+  PT: ['set']
+  PY: ['set']
+210: ('/cerberus/base.py', 'schema_registry', 'self') 553 458 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+211: ('/cerberus/validator.py', 'allow_unknown', 'self') 555 103 0 (Match)
+  PT: ['Validator']
+  PY: ['Validator']
+212: ('/cerberus/utils.py', '__get__', 'self') 556 134 0 (Match)
+  PT: ['readonly_classproperty']
+  PY: ['readonly_classproperty']
+213: ('/cerberus/errors.py', '__eq__', 'self') 559 147 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+214: ('/cerberus/errors.py', '__eq__', '__eq___ret') 560 44 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+215: ('/cerberus/errors.py', '__hash__', 'self') 561 149 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+216: ('/cerberus/errors.py', '__lt__', 'self') 562 150 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+217: ('/cerberus/errors.py', '__repr__', '__repr___ret') 564 41 0 (Match)
+  PT: ['str']
+  PY: ['str']
+218: ('/cerberus/errors.py', '__contains__', '__contains___ret') 567 36 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+219: ('/cerberus/errors.py', '__delitem__', 'self') 568 168 0 (Match)
+  PT: ['ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+220: ('/cerberus/errors.py', '__iter__', '__iter___ret') 569 33 0 (Match)
+  PT: ['Iterator[ValidationError]', 'Iterator[Any]']
+  PY: ['Iterator', 'Iterator[ValidationError]']
+221: ('/cerberus/errors.py', '__getitem__', '__getitem___ret') 571 39 1 (Manual match)
+  PT: ["Union[Optional[ValidationError], Optional['ErrorTreeNode']]"]
+  PY: ['Optional[Union[ErrorTreeNode, ValidationError]]']
+222: ('/cerberus/errors.py', '__getitem__', 'self') 572 171 0 (Match)
+  PT: ['ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+223: ('/cerberus/errors.py', '__len__', 'self') 574 174 0 (Match)
+  PT: ['ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+224: ('/cerberus/errors.py', '__len__', '__len___ret') 575 40 0 (Match)
+  PT: ['int']
+  PY: ['int']
+225: ('/cerberus/errors.py', '__setitem__', 'self') 576 175 0 (Match)
+  PT: ['ErrorTreeNode']
+  PY: ['ErrorTreeNode']
+226: ('/cerberus/errors.py', '__setitem__', 'value') 578 177 1 (Manual match)
+  PT: ["'ErrorTreeNode'"]
+  PY: ['ErrorTreeNode']
+227: ('/cerberus/errors.py', 'emit', 'self') 583 206 0 (Match)
+  PT: ['BaseErrorHandler']
+  PY: ['BaseErrorHandler']
+228: ('/cerberus/errors.py', 'emit', 'error') 584 207 0 (Match)
+  PT: ['ValidationError']
+  PY: ['ValidationError']
+229: ('/cerberus/errors.py', 'end', 'self') 585 208 0 (Match)
+  PT: ['BaseErrorHandler']
+  PY: ['BaseErrorHandler']
+230: ('/cerberus/errors.py', 'end', 'validator') 586 209 1 (Manual match)
+  PT: ["'UnconcernedValidator'"]
+  PY: ['cerberus.base.UnconcernedValidator']
+231: ('/cerberus/base.py', 'all', 'self') 588 350 0 (Match)
+  PT: ['Registry']
+  PY: ['Registry']
+232: ('/cerberus/base.py', 'clear', 'self') 589 351 0 (Match)
+  PT: ['Registry']
+  PY: ['Registry']
+233: ('/cerberus/base.py', 'get', 'name') 592 357 0 (Match)
+  PT: ['str']
+  PY: ['str']
+234: ('/cerberus/base.py', 'remove', 'self') 594 359 0 (Match)
+  PT: ['Registry']
+  PY: ['Registry']
+235: ('/cerberus/base.py', '_lookup_field', 'self') 598 427 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+236: ('/cerberus/base.py', '_lookup_field', '_lookup_field_ret') 599 3 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, Any]']
+237: ('/cerberus/base.py', 'allow_unknown', 'self') 601 436 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+238: ('/cerberus/base.py', 'errors', 'self') 604 438 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+239: ('/cerberus/base.py', 'ignore_none_values', 'self') 606 439 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+240: ('/cerberus/base.py', 'ignore_none_values', 'value') 607 440 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+241: ('/cerberus/base.py', 'is_child', 'self') 609 441 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+242: ('/cerberus/base.py', '_is_normalized', 'self') 611 442 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+243: ('/cerberus/base.py', '_is_normalized', 'value') 612 443 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+244: ('/cerberus/base.py', 'purge_unknown', 'self') 614 444 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+245: ('/cerberus/base.py', 'purge_unknown', 'value') 615 445 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+246: ('/cerberus/base.py', 'purge_readonly', 'self') 617 446 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+247: ('/cerberus/base.py', 'purge_readonly', 'value') 618 447 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+248: ('/cerberus/base.py', 'require_all', 'self') 620 448 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+249: ('/cerberus/base.py', 'require_all', 'value') 621 449 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+250: ('/cerberus/base.py', 'root_allow_unknown', 'self') 623 450 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+251: ('/cerberus/base.py', 'root_require_all', 'self') 625 451 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+252: ('/cerberus/base.py', 'root_document', 'self') 627 452 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+253: ('/cerberus/base.py', 'rules_set_registry', 'self') 629 453 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+254: ('/cerberus/base.py', 'rules_set_registry', 'registry') 630 454 0 (Match)
+  PT: ['RulesSetRegistry']
+  PY: ['RulesSetRegistry']
+255: ('/cerberus/base.py', 'root_schema', 'self') 632 455 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+256: ('/cerberus/base.py', 'schema', 'self') 633 456 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+257: ('/cerberus/base.py', 'schema_registry', 'registry') 634 459 0 (Match)
+  PT: ['SchemaRegistry']
+  PY: ['SchemaRegistry']
+258: ('/cerberus/base.py', 'validated', 'self') 637 598 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+259: ('/cerberus/base.py', 'validated', 'update') 640 601 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+260: ('/cerberus/base.py', 'validated', 'normalize') 641 602 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+261: ('/cerberus/base.py', 'validated', 'always_return_document') 642 603 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+262: ('/cerberus/base.py', '_validate_allowed', 'self') 643 617 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+263: ('/cerberus/base.py', '_validate_allowed', 'unallowed') 644 621 0 (Match)
+  PT: ['tuple']
+  PY: ['tuple']
+264: ('/cerberus/base.py', '_validate_check_with', 'self') 645 623 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+265: ('/cerberus/base.py', '_validate_contains', 'self') 646 629 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+266: ('/cerberus/base.py', '_validate_contains', 'expected_values') 647 630 0 (Match)
+  PT: ['set']
+  PY: ['set']
+267: ('/cerberus/base.py', '_validate_dependencies', 'self') 648 634 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+268: ('/cerberus/base.py', '_validate_dependencies', '_validate_dependencies_ret') 650 7 0 (Match)
+  PT: ['bool']
+  PY: ['bool']
+269: ('/cerberus/base.py', '__validate_dependencies_mapping', 'self') 651 638 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+270: ('/cerberus/base.py', '__validate_dependencies_mapping', 'validated_dependencies_counter') 652 641 0 (Match)
+  PT: ['int']
+  PY: ['int']
+271: ('/cerberus/base.py', '__validate_dependencies_mapping', 'error_info') 653 642 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+272: ('/cerberus/base.py', '__validate_dependencies_sequence', 'self') 655 647 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+273: ('/cerberus/base.py', '_validate_empty', 'self') 656 651 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+274: ('/cerberus/base.py', '_validate_excludes', 'self') 657 655 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+275: ('/cerberus/base.py', '_validate_excludes', 'exclusion_str') 659 660 0 (Match)
+  PT: ['str']
+  PY: ['str']
+276: ('/cerberus/base.py', '_validate_forbidden', 'self') 660 661 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+277: ('/cerberus/base.py', '_validate_items', 'self') 661 666 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+278: ('/cerberus/base.py', '_validate_itemsrules', 'self') 662 675 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+279: ('/cerberus/base.py', '__validate_logical', 'self') 663 683 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+280: ('/cerberus/base.py', '__validate_logical', 'valid_counter') 664 688 0 (Match)
+  PT: ['int']
+  PY: ['int']
+281: ('/cerberus/base.py', '__validate_logical', 'schema') 665 690 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+282: ('/cerberus/base.py', '_validate_anyof', 'self') 667 695 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+283: ('/cerberus/base.py', '_validate_allof', 'self') 668 701 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+284: ('/cerberus/base.py', '_validate_noneof', 'self') 669 707 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+285: ('/cerberus/base.py', '_validate_oneof', 'self') 670 713 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+286: ('/cerberus/base.py', '_validate_max', 'self') 671 719 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+287: ('/cerberus/base.py', '_validate_min', 'self') 672 723 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+288: ('/cerberus/base.py', '_validate_maxlength', 'self') 673 727 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+289: ('/cerberus/base.py', '_validate_minlength', 'self') 674 731 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+290: ('/cerberus/base.py', '_validate_nullable', 'self') 675 735 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+291: ('/cerberus/base.py', '_validate_keysrules', 'self') 676 739 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+292: ('/cerberus/base.py', '_validate_regex', 'self') 677 750 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+293: ('/cerberus/base.py', '_validate_schema', 'self') 678 762 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+294: ('/cerberus/base.py', '_validate_type', 'self') 679 769 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+295: ('/cerberus/base.py', '_validate_valuesrules', 'self') 680 775 0 (Match)
+  PT: ['UnconcernedValidator']
+  PY: ['UnconcernedValidator']
+296: ('/cerberus/base.py', '_validate_valuesrules', 'schema_crumb') 681 779 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[Any, str]']
+297: ('/cerberus/schema.py', 'known_rules_set_refs', 'self') 682 807 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+298: ('/cerberus/schema.py', 'known_schema_refs', 'self') 683 808 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+299: ('/cerberus/schema.py', 'target_validator', 'self') 684 809 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+300: ('/cerberus/schema.py', '_check_with_dependencies', 'self') 685 810 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+301: ('/cerberus/schema.py', '_check_with_items', 'self') 686 816 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+302: ('/cerberus/schema.py', '_check_with_rulesset', 'self') 687 821 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+303: ('/cerberus/schema.py', '_check_with_rulesset', '_hash') 688 825 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[int, int]']
+304: ('/cerberus/schema.py', '_check_with_schema', 'self') 689 827 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+305: ('/cerberus/schema.py', '_check_with_schema', '_hash') 690 832 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[int, int]']
+306: ('/cerberus/schema.py', '_check_with_type_names', 'self') 691 834 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+307: ('/cerberus/schema.py', '_expand_rules_set_refs', 'self') 692 837 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+308: ('/cerberus/schema.py', '_expand_rules_set_refs', 'result') 693 839 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+309: ('/cerberus/schema.py', '_expand_rules_set_refs', '_expand_rules_set_refs_ret') 694 17 0 (Match)
+  PT: ['dict']
+  PY: ['dict']
+310: ('/cerberus/schema.py', '_validate_logical', 'self') 695 842 0 (Match)
+  PT: ['SchemaValidator']
+  PY: ['SchemaValidator']
+311: ('/cerberus/schema.py', '_validate_logical', '_hash') 696 847 0 (Match)
+  PT: ['tuple']
+  PY: ['Tuple[int, int]']
+312: ('/cerberus/schema.py', '__delitem__', 'self') 697 852 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+313: ('/cerberus/schema.py', '__getitem__', 'self') 698 854 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+314: ('/cerberus/schema.py', '__iter__', 'self') 699 856 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+315: ('/cerberus/schema.py', '__len__', 'self') 700 857 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+316: ('/cerberus/schema.py', '__len__', '__len___ret') 701 20 0 (Match)
+  PT: ['int']
+  PY: ['int']
+317: ('/cerberus/schema.py', '__repr__', 'self') 702 858 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+318: ('/cerberus/schema.py', '__repr__', '__repr___ret') 703 21 0 (Match)
+  PT: ['str']
+  PY: ['str']
+319: ('/cerberus/schema.py', '__setitem__', 'self') 704 859 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+320: ('/cerberus/schema.py', '__str__', 'self') 705 862 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+321: ('/cerberus/schema.py', '__str__', '__str___ret') 706 22 0 (Match)
+  PT: ['str']
+  PY: ['str']
+322: ('/cerberus/schema.py', 'copy', 'self') 707 863 0 (Match)
+  PT: ['ValidatedSchema']
+  PY: ['ValidatedSchema']
+323: ('/cerberus/benchmarks/test_overall_performance.py', 'validate_documents', 'init_validator') 709 885 0 (Match)
+  PT: ['Callable']
+  PY: ['Callable']
+324: ('/cerberus/benchmarks/test_overall_performance.py', 'validate_documents', 'documents') 710 886 0 (Match)
+  PT: ['List[dict]']
+  PY: ['List[dict]']
+325: ('/cerberus/benchmarks/test_overall_performance.py', 'validate_documents', 'error_paths') 711 889 1 (Manual match)
+  PT: ['CounterType[tuple]']
+  PY: ['Counter']
+326: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_sample_document_1', 'generate_sample_document_1_ret') 712 53 0 (Match)
+  PT: ['dict', 'dict']
+  PY: ['dict']
+327: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_sample_document_1', 'result') 713 894 0 (Match)
+  PT: ['dict']
+  PY: ['Dict[str, Any]']
+328: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_1', 'generate_document_1_field_1_ret') 714 49 0 (Match)
+  PT: ['dict', 'Dict[str, Optional[int]]']
+  PY: ['dict']
+329: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_1', 'result') 715 896 0 (Match)
+  PT: ['Dict[str, Optional[int]]']
+  PY: ['Dict[str, Optional[int]]']
+330: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_2', 'generate_document_1_field_2_ret') 716 50 0 (Match)
+  PT: ['dict', 'Dict[str, Union[int, str, None]]']
+  PY: ['dict']
+331: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_2', 'result') 717 898 0 (Match)
+  PT: ['Dict[str, Union[int, str, None]]']
+  PY: ['Dict[str, Optional[Union[int, str]]]']
+332: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_3', 'generate_document_1_field_3_ret') 718 51 0 (Match)
+  PT: ['dict', 'Dict[str, Optional[list]]']
+  PY: ['dict']
+333: ('/cerberus/benchmarks/test_overall_performance.py', 'generate_document_1_field_3', 'result') 719 899 0 (Match)
+  PT: ['Dict[str, Optional[list]]']
+  PY: ['Dict[str, Optional[list]]']

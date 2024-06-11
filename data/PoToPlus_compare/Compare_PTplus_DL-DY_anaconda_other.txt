@@ -1,0 +1,63 @@
+0: ('/anaconda_lib/linting/anaconda_mypy.py', 'MyPy_class_initializer', 'VERSION') 6 (DL subset PT)
+  PT: ['None', 'tuple']
+  DL: ['tuple']
+1: ('/anaconda_lib/linting/pydocstyle/config.py', 'ConfigurationParser_class_initializer', 'DEFAULT_CONVENTION') 3 (PT Empty)
+  PT: []
+  DL: ['set']
+2: ('/anaconda_lib/linting/pydocstyle/violations.py', 'Error_class_initializer', 'filename') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+3: ('/anaconda_lib/linting/pydocstyle/violations.py', 'Error_class_initializer', 'line') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+4: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', 'kind') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+5: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', 'module') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+6: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', 'all') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+7: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Definition_class_initializer', '_slice') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+8: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Module_class_initializer', 'all') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+9: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Class_class_initializer', 'is_public') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+10: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Parser_class_initializer', 'current') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+11: ('/anaconda_lib/linting/pydocstyle/parser.py', 'Parser_class_initializer', 'line') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+12: ('/anaconda_lib/parso/parser.py', 'BaseParser_class_initializer', 'default_node') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+13: ('/anaconda_lib/parso/parser.py', 'BaseParser_class_initializer', 'default_leaf') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+14: ('/anaconda_lib/parso/python/parser.py', 'Parser_class_initializer', 'default_node') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+15: ('/anaconda_lib/parso/grammar.py', 'Grammar_class_initializer', '_default_normalizer_config') 3 (PT Empty)
+  PT: []
+  DL: ['PEP8NormalizerConfig']
+16: ('/anaconda_lib/parso/python/pep8.py', 'IndentationNode_class_initializer', 'type') 3 (PT Empty)
+  PT: []
+  DL: ['object']
+17: ('/anaconda_lib/parso/python/pep8.py', 'BackslashNode_class_initializer', 'type') 3 (PT Empty)
+  PT: []
+  DL: ['object']
+18: ('/anaconda_lib/linting/pydocstyle/wordlists.py', 'load_wordlist', 'text') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+19: ('/anaconda_lib/linting/pydocstyle/wordlists.py', 'load_wordlist', 'line') 3 (PT Empty)
+  PT: []
+  DL: ['str']
+20: ('/anaconda_lib/parso/python/tokenize.py', 'group', 'capture') 3 (PT Empty)
+  PT: []
+  DL: ['bool']

@@ -1,0 +1,960 @@
+0: ('/explore.py', 'module_initializer', 'zfuse') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+1: ('/explore.py', 'module_initializer', 'VERBOSE_LEVELS') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+2: ('/explore.py', 'module_initializer', 'TRY_LEVELS') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+3: ('/pyndata/field.py', 'Field_class_initializer', '__DEFAULT__') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+4: ('/pyndata/field.py', 'Field_class_initializer', '__SHOW__') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+5: ('/pyndata/integer.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+6: ('/pyndata/integer.py', 'integer_class_initializer', '__ENDIAN__') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+7: ('/pyndata/bitfield.py', 'BitField_class_initializer', '__SHOW__') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+8: ('/pyndata/structure.py', 'Struct_class_initializer', '__metaclass__') 0 (Match)
+  PT: ['StructMeta']
+  DL: ['structure.StructMeta']
+9: ('/pyndata/array.py', 'module_initializer', 'xrange') 0 (Match)
+  PT: ['range']
+  DL: ['range']
+10: ('/zfs/vdevs.py', 'VDev_class_initializer', 'LABELS') 0 (Match)
+  PT: ['tuple']
+  DL: ['tuple']
+11: ('/pyndata/__init__.py', 'module_initializer', '__all__') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+12: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'name') 0 (Match)
+  PT: ['nullstring']
+  DL: ['pyndata.nullstring']
+13: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'value') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+14: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'object_type') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+15: ('/zfs/posix/directory.py', 'DirectoryEntry_class_initializer', 'number') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+16: ('/zfs/posix/attributes/systemattributes.py', 'module_initializer', 'SYSTEM_ATTRIBUTES') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+17: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'magic') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+18: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'layout') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+19: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown1') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+20: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown2') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+21: ('/zfs/posix/attributes/systemattributes.py', 'SystemAttributeMagic_class_initializer', 'unknown3') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+22: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'mode') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+23: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'perms') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+24: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'unknown') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+25: ('/zfs/posix/attributes/__init__.py', 'Mode_class_initializer', 'file_type') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+26: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', 'seconds') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+27: ('/zfs/posix/attributes/__init__.py', 'Timestamp_class_initializer', 'nanoseconds') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+28: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'who') 0 (Match)
+  PT: ['uint32']
+  DL: ['pyndata.uint32']
+29: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'access_mask') 0 (Match)
+  PT: ['uint32']
+  DL: ['pyndata.uint32']
+30: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'flags') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+31: ('/zfs/posix/attributes/__init__.py', 'ZNodeACE_class_initializer', 'type') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+32: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'external_object') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+33: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'count') 0 (Match)
+  PT: ['uint32']
+  DL: ['pyndata.uint32']
+34: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'version') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+35: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', '_padding') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+36: ('/zfs/posix/attributes/__init__.py', 'ZNodeACL_class_initializer', 'aces') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+37: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_ATIME') 0 (Match)
+  PT: ['Timestamp']
+  DL: ['Timestamp']
+38: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_MTIME') 0 (Match)
+  PT: ['Timestamp']
+  DL: ['Timestamp']
+39: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_CTIME') 0 (Match)
+  PT: ['Timestamp']
+  DL: ['Timestamp']
+40: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_CRTIME') 0 (Match)
+  PT: ['Timestamp']
+  DL: ['Timestamp']
+41: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_GEN') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+42: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_MODE') 0 (Match)
+  PT: ['Mode']
+  DL: ['Mode']
+43: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_SIZE') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+44: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_PARENT') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+45: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_LINKS') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+46: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_XATTR') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+47: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_RDEV') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+48: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_FLAGS') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+49: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_UID') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+50: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'ZPL_GID') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+51: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'padding') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+52: ('/zfs/posix/attributes/__init__.py', 'DefaultAttrsV1_class_initializer', 'acl') 0 (Match)
+  PT: ['ZNodeACL']
+  DL: ['ZNodeACL']
+53: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', 'block_type') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+54: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', 'salt') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+55: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', 'flags') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+56: ('/zfs/ondisk/zap.py', 'MicroZAPHeader_class_initializer', '_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+57: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', '_pad') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+58: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', 'collision') 0 (Match)
+  PT: ['uint32']
+  DL: ['pyndata.uint32']
+59: ('/zfs/ondisk/zap.py', 'MicroZAPCommon_class_initializer', 'name') 0 (Match)
+  PT: ['nullstring']
+  DL: ['pyndata.nullstring']
+60: ('/zfs/ondisk/zap.py', 'MicroZAP_class_initializer', 'value') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+61: ('/zfs/ondisk/zap.py', 'MicroZAP_class_initializer', 'hdr') 0 (Match)
+  PT: ['MicroZAPCommon']
+  DL: ['MicroZAPCommon']
+62: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', '_value') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+63: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'attr_num') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+64: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'byteswap') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+65: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'length') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+66: ('/zfs/ondisk/zap.py', 'SARegistrationMicroZAP_class_initializer', 'hdr') 0 (Match)
+  PT: ['MicroZAPCommon']
+  DL: ['MicroZAPCommon']
+67: ('/zfs/ondisk/__init__.py', 'module_initializer', 'Objset') 0 (Match)
+  PT: ['ObjsetV1']
+  DL: ['ObjsetV1']
+68: ('/zfs/ondisk/__init__.py', 'module_initializer', 'indirect_cache') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+69: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', '_first') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+70: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'vdev') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+71: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'grid') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+72: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'asize') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+73: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', '_offset') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+74: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'gang') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+75: ('/zfs/ondisk/__init__.py', 'dva_class_initializer', 'offset') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+76: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'dvas') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+77: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', '_prop') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+78: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'logical_size') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+79: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'physical_size') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+80: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'compression') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+81: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'encryption') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+82: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'embedded') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+83: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'checksum_type') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+84: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'object_type') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+85: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'level') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+86: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'dedup') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+87: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'endian') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+88: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+89: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'phys_birth') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+90: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'birth') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+91: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'fill') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+92: ('/zfs/ondisk/__init__.py', 'Blockptr_class_initializer', 'checksum') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+93: ('/zfs/constants.py', 'TryConfig_class_initializer', 'read_all_dvas') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+94: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'data1') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+95: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', '_prop') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+96: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'logical_size') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+97: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'physical_size') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+98: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'compression') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+99: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'embedded') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+100: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'embedded_type') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+101: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'type_') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+102: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'level') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+103: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'encryption') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+104: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'dedup') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+105: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'endian') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+106: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'data2') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+107: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'birth') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+108: ('/zfs/ondisk/__init__.py', 'EmbeddedBlockptr_class_initializer', 'data3') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+109: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'blocks') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+110: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', '_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+111: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'magic') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+112: ('/zfs/ondisk/__init__.py', 'GangBlock_class_initializer', 'checksum') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+113: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'magic') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+114: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'version') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+115: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'txg') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+116: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'guid_sum') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+117: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'timestamp') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+118: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'root') 0 (Match)
+  PT: ['Blockptr']
+  DL: ['Blockptr']
+119: ('/zfs/ondisk/__init__.py', 'Uberblock_class_initializer', 'software_version') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+120: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'node_type') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+121: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'indirect_blockshift') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+122: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'indirect_levels') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+123: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'num_blockptrs') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+124: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'bonustype') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+125: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'checksum_type') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+126: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'compression_type') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+127: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_dnode_flags') 0 (Match)
+  PT: ['uint8']
+  DL: ['pyndata.uint8']
+128: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'used_bytes') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+129: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'userused') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+130: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'spill_blkptr') 0 (Match)
+  PT: ['BitField']
+  DL: ['pyndata.BitField']
+131: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'data_sectors') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+132: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'bonuslen') 0 (Match)
+  PT: ['uint16']
+  DL: ['pyndata.uint16']
+133: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+134: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'max_block_id') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+135: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'used') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+136: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_pad2') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+137: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'blkptr') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+138: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', 'bonus') 0 (Match)
+  PT: ['bytestring']
+  DL: ['pyndata.bytestring']
+139: ('/zfs/ondisk/__init__.py', 'DNode_class_initializer', '_final_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+140: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'claim_txg') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+141: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'replay_seq') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+142: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'log') 0 (Match)
+  PT: ['Blockptr']
+  DL: ['Blockptr']
+143: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', 'claim_seq') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+144: ('/zfs/ondisk/__init__.py', 'ZILHeader_class_initializer', '_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+145: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'tx_type') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+146: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'length') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+147: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'txg') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+148: ('/zfs/ondisk/__init__.py', 'ZILRecord_class_initializer', 'seq') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+149: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', 'meta_dnode') 0 (Match)
+  PT: ['DNode']
+  DL: ['DNode']
+150: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', 'zil_header') 0 (Match)
+  PT: ['ZILHeader']
+  DL: ['ZILHeader']
+151: ('/zfs/ondisk/__init__.py', 'ObjsetV1_class_initializer', 'os_type') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+152: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'meta_dnode') 0 (Match)
+  PT: ['DNode']
+  DL: ['DNode']
+153: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'zil_header') 0 (Match)
+  PT: ['ZILHeader']
+  DL: ['ZILHeader']
+154: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'os_type') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+155: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'os_flags') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+156: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', '_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+157: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'userused') 0 (Match)
+  PT: ['DNode']
+  DL: ['DNode']
+158: ('/zfs/ondisk/__init__.py', 'ObjsetV15_class_initializer', 'groupused') 0 (Match)
+  PT: ['DNode']
+  DL: ['DNode']
+159: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'creation_time') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+160: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'head_dataset') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+161: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'parent') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+162: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'clone_parent') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+163: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'child_dir_zap') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+164: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'used_bytes') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+165: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'compressed_bytes') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+166: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'uncompressed_bytes') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+167: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'quota') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+168: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', 'props_zap') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+169: ('/zfs/ondisk/__init__.py', 'DSLDir_class_initializer', '_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+170: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'dir') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+171: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'prev_snapshot') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+172: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'prev_snapshot_txg') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+173: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'next_snapshot') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+174: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'snapnames_zap') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+175: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'num_children') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+176: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'creation_time') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+177: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'creation_txg') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+178: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'deadlist') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+179: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'used_bytes') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+180: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'compressed_bytes') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+181: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'uncompressed_bytes') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+182: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'unique_bytes') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+183: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'fsid_guid') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+184: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'guid') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+185: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'flags') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+186: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', 'bp') 0 (Match)
+  PT: ['Blockptr']
+  DL: ['Blockptr']
+187: ('/zfs/ondisk/__init__.py', 'DSLDataset_class_initializer', '_pad') 0 (Match)
+  PT: ['padding']
+  DL: ['pyndata.padding']
+188: ('/zfs/ondisk/__init__.py', 'BPObjHeader_class_initializer', 'length') 0 (Match)
+  PT: ['uint64']
+  DL: ['pyndata.uint64']
+189: ('/zfs/ondisk/__init__.py', 'BPObjHeader_class_initializer', 'unknown') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+190: ('/zfs/ondisk/fatzap.py', 'module_initializer', 'CHUNK_TYPES') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+191: ('/zfs/ondisk/fatzap.py', 'module_initializer', 'formats') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+192: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'block') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+193: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'num_blocks') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+194: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'shift') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+195: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'next_block') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+196: ('/zfs/ondisk/fatzap.py', 'PointerTable_class_initializer', 'blocks_copied') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+197: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'header') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+198: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'next') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+199: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'prefix') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+200: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'magic') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+201: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'num_free') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+202: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'n_entries') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+203: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'prefix_len') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+204: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', 'freelist') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+205: ('/zfs/ondisk/fatzap.py', 'LeafHeader_class_initializer', '_padding') 0 (Match)
+  PT: ['padding']
+  DL: ['padding']
+206: ('/zfs/ondisk/fatzap.py', 'LeafChunk_class_initializer', 'chunk_type') 0 (Match)
+  PT: ['uint8']
+  DL: ['uint8']
+207: ('/zfs/ondisk/fatzap.py', 'LeafChunk_class_initializer', 'data') 0 (Match)
+  PT: ['bytestring']
+  DL: ['bytestring']
+208: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'size') 0 (Match)
+  PT: ['uint8']
+  DL: ['uint8']
+209: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'next') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+210: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'name_chunk') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+211: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'name_length') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+212: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'value_chunk') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+213: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'value_length') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+214: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'collision') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+215: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'padding') 0 (Match)
+  PT: ['padding']
+  DL: ['padding']
+216: ('/zfs/ondisk/fatzap.py', 'LeafEntry_class_initializer', 'hash') 0 (Match)
+  PT: ['uint64']
+  DL: ['uint64']
+217: ('/zfs/ondisk/fatzap.py', 'LeafArray_class_initializer', 'data') 0 (Match)
+  PT: ['bytestring']
+  DL: ['bytestring']
+218: ('/zfs/ondisk/fatzap.py', 'LeafArray_class_initializer', 'next') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+219: ('/zfs/ondisk/fatzap.py', 'LeafFree_class_initializer', '_padding') 0 (Match)
+  PT: ['bytestring']
+  DL: ['bytestring']
+220: ('/zfs/ondisk/fatzap.py', 'LeafFree_class_initializer', 'next') 0 (Match)
+  PT: ['uint16']
+  DL: ['uint16']
+221: ('/zfs/objectset.py', '__init__', 'objset') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+222: ('/zfs/objectset.py', 'get_dnode', 'index') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+223: ('/zfs/objectset.py', 'read_directory', 'entries') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+224: ('/zfs/objectset.py', 'read_attr_registration', 'data') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+225: ('/zfs/objectset.py', 'read_attr_registration', 'ret') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+226: ('/zfs/objectset.py', 'read_object_array', 'length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+227: ('/zfs/objectset.py', 'read_nvlist', 'nvl') 0 (Match)
+  PT: ['NVList']
+  DL: ['nvlist.NVList']
+228: ('/zfs/objectset.py', 'read_nvlist', 'nvdata') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+229: ('/zfs/objectset.py', '_read_fatzap', 'raw_fz') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+230: ('/zfs/objectset.py', '_read_microzap', 'zap') 0 (Match)
+  PT: ['BytesIO']
+  DL: ['io.BytesIO']
+231: ('/zfs/objectset.py', '_read_microzap', 'max_entries') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+232: ('/zfs/objectset.py', '_read_microzap', 'mzaps') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+233: ('/zfs/objectset.py', '_read_microzap', 'r') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+234: ('/nvlist/__init__.py', 'unpack_nvlist', 'values') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+235: ('/zfs/history.py', 'unpack_history', 'total_length') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+236: ('/zfs/history.py', 'unpack_history', 'history') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+237: ('/zfs/history.py', 'unpack_nvlist', 'values') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+238: ('/zfs/history.py', 'unpack_value', 'value_type') 0 (Match)
+  PT: ['NVTypes']
+  DL: ['nvlist.NVTypes']
+239: ('/zfs/history.py', 'unpack_value', 'values') 0 (Match)
+  PT: ['dict', 'list']
+  DL: ['list', 'dict']
+240: ('/zfs/pool.py', 'vdev_list_to_dict', 'd') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+241: ('/zfs/vdevs.py', 'read_label', 'properties') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+242: ('/zfs/vdevs.py', 'read_label', 'uberblocks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+243: ('/zfs/vdevs.py', 'read_label', 'elem') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+244: ('/zfs/vdevs.py', '_best_label', 'props') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+245: ('/zfs/vdevs.py', 'parse_uberblocks', 'uber_list') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+246: ('/zfs/vdevs.py', 'select_uberblock', 'candidates') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+247: ('/zfs/util.py', 'module_initializer', 'lz4') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+248: ('/zfs/datasets.py', '__init__', 'entries') 0 (Match)
+  PT: ['Dict[str, Any]']
+  DL: ['dict']
+249: ('/zfs/datasets.py', '__init__', 'dataset') 0 (Match)
+  PT: ['Dataset']
+  DL: ['Dataset']
+250: ('/zfs/datasets.py', 'snapshots', 'snapshots') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+251: ('/zfs/datasets.py', 'snapshots', 'dataset') 0 (Match)
+  PT: ['Dataset']
+  DL: ['Dataset']
+252: ('/zfs/datasets.py', 'entries', 'd') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+253: ('/zfs/datasets.py', 'attributes', 'attrs') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+254: ('/zfs/readcontext.py', 'checksum', 'data') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+255: ('/zfs/readcontext.py', 'decompress', 'compression') 0 (Match)
+  PT: ['Compression']
+  DL: ['constants.Compression']
+256: ('/zfs/readcontext.py', 'decompress', 'actual_size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+257: ('/zfs/readcontext.py', 'update_inherit', 'compression') 0 (Match)
+  PT: ['Compression']
+  DL: ['constants.Compression']
+258: ('/zfs/readcontext.py', 'update_inherit', 'checksum') 0 (Match)
+  PT: ['Checksum']
+  DL: ['constants.Checksum']
+259: ('/zfs/readcontext.py', 'read_block_thorough', 'first_log') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+260: ('/zfs/readcontext.py', 'read_block_thorough', 'blocks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+261: ('/zfs/readcontext.py', 'read_block_thorough', 'bad') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+262: ('/zfs/readcontext.py', 'read_indirect', 'resolved') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+263: ('/zfs/util.py', 'checksum', 'data') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+264: ('/zfs/util.py', 'checksum', 'valid') 0 (Match)
+  PT: ['tuple', 'ChecksumType']
+  DL: ['ChecksumType', 'tuple']
+265: ('/zfs/util.py', 'decompress', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+266: ('/zfs/ondisk/__init__.py', 'indirect', 'count') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+267: ('/zfs/ondisk/__init__.py', 'indirect', 'blocks') 0 (Match)
+  PT: ['array']
+  DL: ['pyndata.array']
+268: ('/zfs/util.py', 'fletcher4', 'data') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+269: ('/zfs/util.py', 'fletcher2', 'data') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+270: ('/zfs/util.py', 'fletcher2', 'un_data') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+271: ('/zfs/util.py', 'sha256', 'data') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+272: ('/zfs/util.py', 'unpack', 'data') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+273: ('/zfs/util.py', 'unpack', 'code') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+274: ('/zfs/util.py', 'unpack', 's') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+275: ('/zfs/zfuse.py', 'readdir', 'names') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+276: ('/zfs/zfuse.py', 'mount', 'zf') 0 (Match)
+  PT: ['ZFSFuse']
+  DL: ['ZFSFuse']
+277: ('/zfs/raidzdev.py', 'convert', 'disks') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+278: ('/zfs/raidzdev.py', 'should_resize', 'disks') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+279: ('/zfs/raidzdev.py', 'locate_data', 'disks') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+280: ('/zfs/raidzdev.py', 'locate_data', 'ret') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+281: ('/zfs/raidzdev.py', 'locate_data', 'vdevs') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+282: ('/zfs/raidzdev.py', 'locate_data', 'vdev_ids') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+283: ('/zfs/raidzdev.py', 'locate_data', 'order') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+284: ('/zfs/raidzdev.py', 'locate_data', 'vdev_order') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+285: ('/zfs/raidzdev.py', 'xor_blocks', 'args') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+286: ('/zfs/raidzdev.py', 'xor_blocks', 'structure') 1 (Manual match)
+  PT: ['<_struct.Struct object at 0x10aab08b0>', '<_struct.Struct object at 0x10ae80a90>']
+  DL: ['Struct']
+287: ('/zfs/raidzdev.py', 'xor_blocks', 'out') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+288: ('/zfs/raidzdev.py', 'read_dva', 'blocks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+289: ('/zfs/lzjb.py', 'decompress', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+290: ('/zfs/lzjb.py', 'decompress', 'b') 0 (Match)
+  PT: ['bool']
+  DL: ['bool']
+291: ('/explore.py', 'load_pool', 'devices') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+292: ('/explore.py', 'show_object', 'parsed') 0 (Match)
+  PT: ['None']
+  DL: ['None']
+293: ('/explore.py', 'cli', 'px') 0 (Match)
+  PT: ['PoolExplorer']
+  DL: ['PoolExplorer']
+294: ('/pyndata/integer.py', 'pack', 'value') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+295: ('/pyndata/structure.py', '__new__', 'fields') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+296: ('/pyndata/structure.py', '__new__', 'bitfields') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+297: ('/pyndata/structure.py', '__new__', 'field_defaults') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+298: ('/pyndata/structure.py', 'pack', 'out') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+299: ('/pyndata/array.py', 'unpack', 'out') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+300: ('/pyndata/bitfield.py', '__set__', 'value') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+301: ('/zfs/vdevs.py', 'read', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+302: ('/zfs/datasets.py', '__contains__', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+303: ('/zfs/datasets.py', '__getitem__', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+304: ('/zfs/datasets.py', '__getitem__', 'joined_path') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+305: ('/zfs/objectset.py', 'from_struct', 'blocks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+306: ('/zfs/objectset.py', 'from_block', 'block') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+307: ('/zfs/pool.py', 'read_file', 'path') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+308: ('/zfs/pool.py', 'dataset_for', 'dataset_expr') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+309: ('/zfs/pool.py', 'open', 'path') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+310: ('/zfs/raidzdev.py', 'read', 'size') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+311: ('/zfs/posix/directory.py', '__contains__', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+312: ('/zfs/posix/directory.py', '__getitem__', 'name') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+313: ('/zfs/posix/directory.py', '__getitem__', 'joined_path') 0 (Match)
+  PT: ['str']
+  DL: ['str']
+314: ('/zfs/posix/attributes/systemattributes.py', 'dacl_entries', 'acls') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+315: ('/zfs/posix/attributes/systemattributes.py', '__call__', 'attributes') 0 (Match)
+  PT: ['dict']
+  DL: ['dict']
+316: ('/zfs/ondisk/fatzap.py', 'parse_fatzap', 'data') 0 (Match)
+  PT: ['bytes']
+  DL: ['bytes']
+317: ('/zfs/ondisk/fatzap.py', 'parse_fatzap', 'chunks') 0 (Match)
+  PT: ['list']
+  DL: ['list']
+318: ('/zfs/ondisk/fatzap.py', 'read_linked', 'first') 0 (Match)
+  PT: ['int']
+  DL: ['int']
+319: ('/zfs/ondisk/fatzap.py', 'read_linked', 'out') 0 (Match)
+  PT: ['list']
+  DL: ['list']

@@ -1,0 +1,72 @@
+0: ('/invoke/vendor/fluidity/machine.py', 'StateMachine_class_initializer', 'current_state') 3 (PT Empty)
+  PT: []
+  DL: ['property']
+1: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'parse') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_parse']
+2: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'error') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_error']
+3: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'request') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_request']
+4: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'response') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_response']
+5: ('/invoke/vendor/six.py', 'Module_six_moves_urllib_class_initializer', 'robotparser') 3 (PT Empty)
+  PT: []
+  DL: ['Module_six_moves_urllib_robotparser']
+6: ('/invoke/collection.py', 'add_task', 'name') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+7: ('/invoke/tasks.py', 'fill_implicit_positionals', 'args') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+8: ('/invoke/tasks.py', 'argspec', 'func') 6 (DL subset PT)
+  PT: ['bool', 'meta_func']
+  DL: ['function']
+9: ('/invoke/tasks.py', 'argspec', 'spec') 3 (PT Empty)
+  PT: []
+  DL: ['inspect']
+10: ('/invoke/collection.py', 'add_collection', 'name') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
+11: ('/invoke/tasks.py', 'task', 'klass') 3 (PT Empty)
+  PT: []
+  DL: ['type']
+12: ('/invoke/tasks.py', 'task', 'name') 3 (PT Empty)
+  PT: []
+  DL: ['str|NoneType']
+13: ('/invoke/tasks.py', 'task', 'aliases') 3 (PT Empty)
+  PT: []
+  DL: ['list|tuple']
+14: ('/invoke/tasks.py', 'task', 'positional') 3 (PT Empty)
+  PT: []
+  DL: ['list|NoneType']
+15: ('/invoke/tasks.py', 'task', 'iterable') 3 (PT Empty)
+  PT: []
+  DL: ['list|NoneType']
+16: ('/invoke/tasks.py', 'task', 'incrementable') 3 (PT Empty)
+  PT: []
+  DL: ['list|NoneType']
+17: ('/invoke/tasks.py', 'task', 'default') 3 (PT Empty)
+  PT: []
+  DL: ['bool']
+18: ('/invoke/tasks.py', 'task', 'auto_shortflags') 3 (PT Empty)
+  PT: []
+  DL: ['bool']
+19: ('/invoke/tasks.py', 'task', 'help') 3 (PT Empty)
+  PT: []
+  DL: ['dict']
+20: ('/invoke/tasks.py', 'task', 'pre') 3 (PT Empty)
+  PT: []
+  DL: ['list|tuple']
+21: ('/invoke/tasks.py', 'task', 'post') 3 (PT Empty)
+  PT: []
+  DL: ['list']
+22: ('/invoke/tasks.py', 'task', 'autoprint') 3 (PT Empty)
+  PT: []
+  DL: ['bool']
+23: ('/invoke/vendor/six.py', '__init__', 'new_attr') 6 (DL subset PT)
+  PT: ['None', 'str']
+  DL: ['str']
