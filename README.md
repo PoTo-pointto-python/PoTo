@@ -11,4 +11,4 @@
 
 * Source codes of the 10 packages.
 * anaconda, ansible, bokeh, cerberus, invoke, mtgjson, pygal, sc2, wemake_python_styleguide, zfsp
-* Will put this in the Zenodo version of the artifact
+* include custom test cases for the 5 packages (cerberus, mtgjson, pygal, sc2, zfsp)

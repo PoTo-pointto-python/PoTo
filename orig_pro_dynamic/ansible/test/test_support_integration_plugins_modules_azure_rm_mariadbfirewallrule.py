@@ -1,0 +1,152 @@
+from __future__ import absolute_import, division, print_function
+__metaclass__ = type
+ANSIBLE_METADATA = {'metadata_version': '1.1', 'status': ['preview'], 'supported_by': 'community'}
+DOCUMENTATION = '\n---\nmodule: azure_rm_mariadbfirewallrule\nversion_added: "2.8"\nshort_description: Manage MariaDB firewall rule instance\ndescription:\n    - Create, update and delete instance of MariaDB firewall rule.\n\noptions:\n    resource_group:\n        description:\n            - The name of the resource group that contains the resource. You can obtain this value from the Azure Resource Manager API or the portal.\n        required: True\n    server_name:\n        description:\n            - The name of the server.\n        required: True\n    name:\n        description:\n            - The name of the MariaDB firewall rule.\n        required: True\n    start_ip_address:\n        description:\n            - The start IP address of the MariaDB firewall rule. Must be IPv4 format.\n    end_ip_address:\n        description:\n            - The end IP address of the MariaDB firewall rule. Must be IPv4 format.\n    state:\n        description:\n            - Assert the state of the MariaDB firewall rule. Use C(present) to create or update a rule and C(absent) to ensure it is not present.\n        default: present\n        choices:\n            - absent\n            - present\n\nextends_documentation_fragment:\n    - azure\n\nauthor:\n    - Zim Kalinowski (@zikalino)\n    - Matti Ranta (@techknowlogick)\n\n'
+EXAMPLES = '\n  - name: Create (or update) MariaDB firewall rule\n    azure_rm_mariadbfirewallrule:\n      resource_group: myResourceGroup\n      server_name: testserver\n      name: rule1\n      start_ip_address: 10.0.0.17\n      end_ip_address: 10.0.0.20\n'
+RETURN = '\nid:\n    description:\n        - Resource ID.\n    returned: always\n    type: str\n    sample: "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/myResourceGroup/providers/Microsoft.DBforMariaDB/servers/testserver/fire\n             wallRules/rule1"\n'
+import time
+from ansible.module_utils.azure_rm_common import AzureRMModuleBase
+try:
+    from msrestazure.azure_exceptions import CloudError
+    from msrest.polling import LROPoller
+    from azure.mgmt.rdbms.mariadb import MariaDBManagementClient
+    from msrest.serialization import Model
+except ImportError:
+    pass
+
+class Actions:
+    (NoAction, Create, Update, Delete) = range(4)
+
+class AzureRMMariaDbFirewallRule(AzureRMModuleBase):
+    """Configuration class for an Azure RM MariaDB firewall rule resource"""
+
+    def __init__(self):
+        self.module_arg_spec = dict(resource_group=dict(type='str', required=True), server_name=dict(type='str', required=True), name=dict(type='str', required=True), start_ip_address=dict(type='str'), end_ip_address=dict(type='str'), state=dict(type='str', default='present', choices=['present', 'absent']))
+        self.resource_group = None
+        self.server_name = None
+        self.name = None
+        self.start_ip_address = None
+        self.end_ip_address = None
+        self.results = dict(changed=False)
+        self.state = None
+        self.to_do = Actions.NoAction
+        super(AzureRMMariaDbFirewallRule, self).__init__(derived_arg_spec=self.module_arg_spec, supports_check_mode=True, supports_tags=False)
+
+    def exec_module(self, **kwargs):
+        """Main module execution method"""
+        for key in list(self.module_arg_spec.keys()):
+            if hasattr(self, key):
+                setattr(self, key, kwargs[key])
+        old_response = None
+        response = None
+        resource_group = self.get_resource_group(self.resource_group)
+        old_response = self.get_firewallrule()
+        if not old_response:
+            self.log("MariaDB firewall rule instance doesn't exist")
+            if self.state == 'absent':
+                self.log("Old instance didn't exist")
+            else:
+                self.to_do = Actions.Create
+        else:
+            self.log('MariaDB firewall rule instance already exists')
+            if self.state == 'absent':
+                self.to_do = Actions.Delete
+            elif self.state == 'present':
+                self.log('Need to check if MariaDB firewall rule instance has to be deleted or may be updated')
+                if self.start_ip_address is not None and self.start_ip_address != old_response['start_ip_address']:
+                    self.to_do = Actions.Update
+                if self.end_ip_address is not None and self.end_ip_address != old_response['end_ip_address']:
+                    self.to_do = Actions.Update
+        if self.to_do == Actions.Create or self.to_do == Actions.Update:
+            self.log('Need to Create / Update the MariaDB firewall rule instance')
+            if self.check_mode:
+                self.results['changed'] = True
+                return self.results
+            response = self.create_update_firewallrule()
+            if not old_response:
+                self.results['changed'] = True
+            else:
+                self.results['changed'] = old_response.__ne__(response)
+            self.log('Creation / Update done')
+        elif self.to_do == Actions.Delete:
+            self.log('MariaDB firewall rule instance deleted')
+            self.results['changed'] = True
+            if self.check_mode:
+                return self.results
+            self.delete_firewallrule()
+            while self.get_firewallrule():
+                time.sleep(20)
+        else:
+            self.log('MariaDB firewall rule instance unchanged')
+            self.results['changed'] = False
+            response = old_response
+        if response:
+            self.results['id'] = response['id']
+        return self.results
+
+    def create_update_firewallrule(self):
+        """
+        Creates or updates MariaDB firewall rule with the specified configuration.
+
+        :return: deserialized MariaDB firewall rule instance state dictionary
+        """
+        self.log('Creating / Updating the MariaDB firewall rule instance {0}'.format(self.name))
+        try:
+            response = self.mariadb_client.firewall_rules.create_or_update(resource_group_name=self.resource_group, server_name=self.server_name, firewall_rule_name=self.name, start_ip_address=self.start_ip_address, end_ip_address=self.end_ip_address)
+            if isinstance(response, LROPoller):
+                response = self.get_poller_result(response)
+        except CloudError as exc:
+            self.log('Error attempting to create the MariaDB firewall rule instance.')
+            self.fail('Error creating the MariaDB firewall rule instance: {0}'.format(str(exc)))
+        return response.as_dict()
+
+    def delete_firewallrule(self):
+        """
+        Deletes specified MariaDB firewall rule instance in the specified subscription and resource group.
+
+        :return: True
+        """
+        self.log('Deleting the MariaDB firewall rule instance {0}'.format(self.name))
+        try:
+            response = self.mariadb_client.firewall_rules.delete(resource_group_name=self.resource_group, server_name=self.server_name, firewall_rule_name=self.name)
+        except CloudError as e:
+            self.log('Error attempting to delete the MariaDB firewall rule instance.')
+            self.fail('Error deleting the MariaDB firewall rule instance: {0}'.format(str(e)))
+        return True
+
+    def get_firewallrule(self):
+        """
+        Gets the properties of the specified MariaDB firewall rule.
+
+        :return: deserialized MariaDB firewall rule instance state dictionary
+        """
+        self.log('Checking if the MariaDB firewall rule instance {0} is present'.format(self.name))
+        found = False
+        try:
+            response = self.mariadb_client.firewall_rules.get(resource_group_name=self.resource_group, server_name=self.server_name, firewall_rule_name=self.name)
+            found = True
+            self.log('Response : {0}'.format(response))
+            self.log('MariaDB firewall rule instance : {0} found'.format(response.name))
+        except CloudError as e:
+            self.log('Did not find the MariaDB firewall rule instance.')
+        if found is True:
+            return response.as_dict()
+        return False
+
+def main():
+    """Main execution"""
+    AzureRMMariaDbFirewallRule()
+if __name__ == '__main__':
+    main()
+
+def test_AzureRMMariaDbFirewallRule_exec_module():
+    ret = AzureRMMariaDbFirewallRule().exec_module()
+
+def test_AzureRMMariaDbFirewallRule_create_update_firewallrule():
+    ret = AzureRMMariaDbFirewallRule().create_update_firewallrule()
+
+def test_AzureRMMariaDbFirewallRule_delete_firewallrule():
+    ret = AzureRMMariaDbFirewallRule().delete_firewallrule()
+
+def test_AzureRMMariaDbFirewallRule_get_firewallrule():
+    ret = AzureRMMariaDbFirewallRule().get_firewallrule()
